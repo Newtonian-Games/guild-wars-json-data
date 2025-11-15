@@ -13378,5 +13378,3345 @@
     "isElite": true,
     "campaign": "Nightfall",
     "limitation": null
+  },
+  {
+    "name": "Accumulated Pain",
+    "icon": "",
+    "description": "Spell. Deals 15...63...75 damage. Inflicts Deep Wound condition (5...17...20 seconds) if target foe has 2 or more hexes.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Accumulated Pain (PvP)",
+    "icon": "",
+    "description": "Spell. Deals 10...30...35 damage. Inflicts Deep Wound condition (5...17...20 seconds) if target foe has 2 or more hexes.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Air of Disenchantment",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes foes near your target (5...17...20 seconds). Remove one enchantment from target and nearby foes. Enchantments expire 150...270...300% faster on those foes.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Ancestor's Visage",
+    "icon": "",
+    "description": "Enchantment Spell. (4...9...10 seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Aneurysm",
+    "icon": "",
+    "description": "Spell. Target foe regains all Energy. For each point of Energy gained, target takes 1...3...3 damage and all adjacent foes lose 1 Energy (maximum 1...24...30).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Arcane Conundrum",
+    "icon": "",
+    "description": "Hex Spell. Also hexes foes adjacent to target (5...13...15 seconds). Doubles spell casting time. End effect: you gain 1...6...7 energy. [sic]",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Arcane Echo",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds.) Arcane Echo becomes the next spell you use (20 seconds). This enchantment ends if you use any skill that is not a spell.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Arcane Languor",
+    "icon": "",
+    "description": "Elite Hex Spell. (1...8...10 second[s].) Target foe's spells cause 10 Overcast.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Arcane Larceny",
+    "icon": "",
+    "description": "Spell. (5...29...35 seconds.) Disables one random spell. This skill becomes that spell.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Arcane Mimicry",
+    "icon": "",
+    "description": "Spell. This skill becomes target ally's elite skill (20 seconds). Cannot self-target. No effect if target's elite skill is a form.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 60,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Arcane Thievery",
+    "icon": "",
+    "description": "Spell. (5...29...35 seconds.) Disables one random spell. This skill becomes that spell.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Auspicious Incantation",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds.) Your next spell gives you 110...182...200% of its Energy cost. That spell takes 10...6...5 seconds longer to recharge.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 25,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Backfire",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Target foe takes 35...119...140 damage whenever it casts a spell.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Blackout",
+    "icon": "",
+    "description": "Touch Skill. (2...5...6 seconds.) Disables skills. Your skills are disabled (5 seconds).",
+    "type": "Touch Skill",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Calculated Risk",
+    "icon": "",
+    "description": "Hex Spell. Target foe does +10 damage with attacks (3...20...24 seconds). There is a 50% chance that the damage from each attack (maximum 15...83...100) will be done to that foe instead.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 7,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Calculated Risk (PvP)",
+    "icon": "",
+    "description": "Hex Spell. Target foe does +10 damage with attacks (3...10...12 seconds). There is a 50% chance that the damage from each attack (maximum 10...50...60) will be done to that foe instead.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Channeling",
+    "icon": "",
+    "description": "Enchantment Spell. (8...46...56 seconds.) You gain 1 Energy for each foe in the area whenever you cast a spell.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Chaos Storm",
+    "icon": "",
+    "description": "Spell. Deals 5...21...25 damage and causes 0...2...2 Energy loss each second (10 seconds). Hits foes adjacent to target's initial location.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Clumsiness",
+    "icon": "",
+    "description": "Hex Spell. (4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals 10...76...92 damage.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Complicate",
+    "icon": "",
+    "description": "Spell. Interrupt a skill. Interruption effect: disables interrupted skill (+5...11...12 seconds) for target foe and all foes in the area.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Confusing Images",
+    "icon": "",
+    "description": "Hex Spell. (2...8...10 seconds). Target foe takes twice as long to activate non-attack skills.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Conjure Nightmare",
+    "icon": "",
+    "description": "Hex Spell. (2...13...16 seconds.) Causes -8 Health degeneration.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Conjure Phantasm",
+    "icon": "",
+    "description": "Hex Spell. (2...13...16 seconds.) Causes -5 Health degeneration.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Crippling Anguish",
+    "icon": "",
+    "description": "Elite Hex Spell. (5...17...20 seconds.) Target foe moves and attacks 50% slower and has -1...7...8 Health degeneration.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Crippling Anguish (PvP)",
+    "icon": "",
+    "description": "Elite Hex Spell. (5...17...20 seconds.) Target foe moves 50% slower and has -1...4...5 Health degeneration.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Cry of Frustration",
+    "icon": "",
+    "description": "Spell. If target foe is using a skill, that foe and all foes in the area are interrupted and take 15...63...75 damage.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Cry of Pain",
+    "icon": "",
+    "description": "Spell. Interrupts a skill. If target foe had a Mesmer hex, deals 25...50 damage to target and foes in the area and causes 3...5 Health degeneration (10 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Sunspear rank",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Discharge Enchantment",
+    "icon": "",
+    "description": "Spell. Removes one enchantment from target foe. 20...44...50% faster recharge if that foe was hexed.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Distortion",
+    "icon": "",
+    "description": "Stance. (1...4...5 second[s].) You have 75% chance to block. Block cost: you lose 2 Energy or Distortion ends.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Diversion",
+    "icon": "",
+    "description": "Hex Spell. (6 seconds.) Target foe's next skill takes +10...47...56 seconds to recharge.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Drain Delusions",
+    "icon": "",
+    "description": "Spell. Removes one Mesmer hex from target foe. Causes 1...4...5 Energy loss. You gain 4 Energy for each point lost. No effect unless a hex was removed.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Drain Enchantment",
+    "icon": "",
+    "description": "Spell. Removes an enchantment from target foe. Removal effect: you gain 8...15...17 Energy and 40...104...120 Health.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Echo",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (30 seconds.) Echo becomes the next skill you use (30 seconds).",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Elemental Resistance",
+    "icon": "",
+    "description": "Stance. (30...78...90 seconds.) You have +40 armor against elemental damage. You have -24...14...12 armor against physical damage.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Empathy",
+    "icon": "",
+    "description": "Hex Spell. (5...13...15 seconds.) Target foe's attacks deal 1...12...15 less damage, and that foe takes 10...46...55 damage with each attack.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Empathy (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (5...13...15 seconds.) Target foe takes 15...39...45 damage whenever it attacks.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Enchanter's Conundrum",
+    "icon": "",
+    "description": "Elite Hex Spell. Causes 100...180...200% slower enchantment casting (10 seconds). Initial effect: deals 10...82...100 damage to target and adjacent foes if target foe is not enchanted.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Enchanter's Conundrum (PvP)",
+    "icon": "",
+    "description": "Elite Hex Spell. Causes 100...180...200% slower enchantment casting (10 seconds). Initial effect: deals 10...82...100 damage to target and adjacent foes if target foe is not enchanted.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Energy Burn",
+    "icon": "",
+    "description": "Spell. Causes 1...8...10 Energy loss. Deals 9 damage for each point of Energy lost.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Energy Drain",
+    "icon": "",
+    "description": "Elite Spell. Causes 2...8...9 Energy loss. You gain 3 Energy for each point of Energy lost.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 30,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Energy Surge",
+    "icon": "",
+    "description": "Elite Spell. Causes 1...8...10 Energy loss. Deals 9 damage to target and nearby foes for each point of Energy lost.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Energy Tap",
+    "icon": "",
+    "description": "Spell. Causes 4...6...7 Energy loss. You gain 2 Energy for each point of Energy lost.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Epidemic",
+    "icon": "",
+    "description": "Spell. Conditions on target foe transfer to adjacent foes.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Ether Feast",
+    "icon": "",
+    "description": "Spell. Causes 3 Energy loss. You gain 20...56...65 Health for each point of Energy lost.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Ether Lord",
+    "icon": "",
+    "description": "Hex Spell. You lose all Energy. Target foe has -1...3...3 Energy degeneration and you have +1...3...3 Energy regeneration (5...9...10 seconds).",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Ether Nightmare",
+    "icon": "",
+    "description": "Hex spell. Causes 5...8 Energy loss. Target and foes in the area have -1 Health degeneration for each point of Energy lost (10 seconds).",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Allegiance rank",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 25,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Ether Phantom",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Causes -1 Energy degeneration. Causes 1...4...5 Energy loss if this hex ends early.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Ether Signet",
+    "icon": "",
+    "description": "Signet. You gain 10...18...20 Energy. No effect unless you have less than 5...9...10 Energy.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 45,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Ethereal Burden",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain 10...16...18 Energy.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.5,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Expel Hexes",
+    "icon": "",
+    "description": "Elite Spell. Removes 2 hexes from target ally.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 8,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Extend Conditions",
+    "icon": "",
+    "description": "Elite Spell. Spread all conditions from target foe to foes near your target. Those [sic] durations of those conditions are increased by 5...81...100% (maximum 30 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 5,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Feedback",
+    "icon": "",
+    "description": "Spell. Removes one enchantment. Removal effect: target foe loses 4...9...10 Energy.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Fevered Dreams",
+    "icon": "",
+    "description": "Elite Hex Spell. (10...22...25 seconds.) Foes in the area also have any new conditions that target foe acquires. Inflicts Dazed on target foe (1...3...3 second[s]) if that foe has two or more conditions.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Fevered Dreams (PvP)",
+    "icon": "",
+    "description": "Elite Hex Spell. (5...13...15 seconds.) Foes in the area also have any new conditions that target foe acquires.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Fragility",
+    "icon": "",
+    "description": "Hex Spell. Also hexes foes adjacent to target (8...18...20 seconds). These foes take 5...17...20 damage each time they gain or lose a condition.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Fragility (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (8...18...20 seconds.) Target foe takes 5...17...20 damage each time it gains or loses a condition.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Frustration",
+    "icon": "",
+    "description": "Hex Spell. (5...17...20 seconds.) Causes 50% slower spell casting. Target foe takes 5...41...50 damage whenever interrupted. Deals double damage on skill interrupt.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 7,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Frustration (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (5...17...20 seconds.) Causes 50% slower spell casting. Target foe takes 5...41...50 damage whenever interrupted.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Guilt",
+    "icon": "",
+    "description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal 5...12...14 Energy. No effect unless this foe's spell targets one of your allies.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 25,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Hex Breaker",
+    "icon": "",
+    "description": "Stance. (5...65...80 seconds.) The next hex against you fails and the caster takes 10...39...46 damage.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Hex Eater Signet",
+    "icon": "",
+    "description": "Touch Signet. Removes a hex from target and 2...4...5 adjacent allies. Removal effect: you gain 1...3...4 Energy for each hex removed.",
+    "type": "Touch Signet",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 25,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Hex Eater Vortex",
+    "icon": "",
+    "description": "Elite Spell. Removes one hex from target ally. Removal effect: deals 30...78...90 damage and removes one enchantment from foes near this ally.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Hypochondria",
+    "icon": "",
+    "description": "Spell. Transfer all conditions from foes in the area to target foe.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 7,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Ignorance",
+    "icon": "",
+    "description": "Hex Spell. (8...18...20 seconds.) Target foe cannot use signets.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Illusion of Haste",
+    "icon": "",
+    "description": "Enchantment Spell. (5...10...11 seconds.) You move 33% faster. Initial effect: removes Crippled condition. End effect: you are Crippled (3 seconds).",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Illusion of Haste (PvP)",
+    "icon": "",
+    "description": "Enchantment Spell. (5...10...11 seconds.) You move 33% faster. End effect: you are Crippled (3 seconds).",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Illusion of Pain",
+    "icon": "",
+    "description": "Hex Spell. (8 seconds.) Causes -3...9...10 Health degeneration and target foe takes 3...9...10 damage each second. End effect: that foe is healed for 36...103...120.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Illusion of Pain (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (8 seconds.) Causes -3...9...10 Health degeneration and target foe takes 3...9...10 damage each second. End effect: that foe is healed for 36...103...120. Ends if reapplied.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Illusion of Weakness",
+    "icon": "",
+    "description": "Enchantment Spell. Lose 50...202...240 Health. End effect: you gain 50...202...240 Health. Ends if damage drops your Health below 25% of your maximum.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Illusionary Weaponry",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (30 seconds.) Deals 8...34...40 damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. Your melee attacks neither hit nor fail to hit.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 25,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Illusionary Weaponry (PvP)",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (30 seconds.) Deals 8...34...40 damage to foes in place of other damage or effects from melee attacks. Your melee attacks neither hit nor fail to hit.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 25,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Images of Remorse",
+    "icon": "",
+    "description": "Hex Spell. (5...9...10 seconds.) Causes -1...3...3 Health degeneration. Initial effect: 10...44...52 damage if target foe is attacking.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Imagined Burden",
+    "icon": "",
+    "description": "Hex Spell. (8...18...20 seconds.) Target foe moves 50% slower.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Ineptitude",
+    "icon": "",
+    "description": "Elite Hex Spell. (4 seconds.) Also hexes foes adjacent to target. Deals 30...114...135 damage. Inflicts Blindness condition (10 seconds). No effect unless hexed foe attacks.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Inspired Enchantment",
+    "icon": "",
+    "description": "Spell. Removes an enchantment from target foe. Removal effects: you gain 3...13...15 Energy; this spell is replaced with that enchantment (20 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Inspired Hex",
+    "icon": "",
+    "description": "Spell. Removes a hex from target ally. Removal effects: you gain 4...9...10 Energy; this spell is replaced with that hex (20 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Keystone Signet",
+    "icon": "",
+    "description": "Elite Signet. (20 seconds.) Your next 0...5...6 signet[s] interrupt [sic] and deal 15...51...60 damage to other foes adjacent to your target. Initial Effect: [sic] recharges all of your other signets.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Kitah's Burden",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain 10...16...18 Energy.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.5,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Leech Signet",
+    "icon": "",
+    "description": "Signet. Interrupts an action. Interruption effect: you gain 3...13...15 Energy if the action was a spell.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Lyssa's Aura",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (10 seconds.) You have +0...4...5 Energy regeneration. Renewal: every time you cast a spell on an enemy.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 30,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Lyssa's Balance",
+    "icon": "",
+    "description": "Spell. Removes one enchantment from target foe. No effect if you have more enchantments than this foe.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Mantra of Concentration",
+    "icon": "",
+    "description": "Stance. (1...31...38 seconds.) The next time you would be interrupted, you are not interrupted.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Mantra of Earth",
+    "icon": "",
+    "description": "Stance. (30...78...90 seconds.) Reduces earth damage you take by 26...45...50%. You gain 2 Energy when you take earth damage.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Mantra of Flame",
+    "icon": "",
+    "description": "Stance. (30...78...90 seconds.) Reduces fire damage you take by 26...45...50%. You gain 2 Energy when you take fire damage.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Mantra of Frost",
+    "icon": "",
+    "description": "Stance. (30...78...90 seconds.) Reduces cold damage you take by 26...45...50%. You gain 2 Energy when you take cold damage.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Mantra of Inscriptions",
+    "icon": "",
+    "description": "Stance. (5...21...25 seconds.) Signets you successfully activate while in this stance recharge 10...34...40% faster.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Mantra of Lightning",
+    "icon": "",
+    "description": "Stance. (30...78...90 seconds.) Reduces lightning damage you take by 26...45...50%. You gain 2 Energy when you take lightning damage.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Mantra of Persistence",
+    "icon": "",
+    "description": "Stance. (5...21...25 seconds.) Illusion hexes you cast last 10...34...40% longer.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Mantra of Recall",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (20 seconds.) End effect: you gain 10...22...25 Energy.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 30,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Mantra of Recovery",
+    "icon": "",
+    "description": "Elite Stance. (5...17...20 seconds.) Your spells recharge 33% faster.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Mantra of Resolve",
+    "icon": "",
+    "description": "Stance. (30...78...90 seconds.) Prevents interrupts against you. Prevention cost: lose 10...5...4 Energy or Mantra of Resolve ends.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Mantra of Resolve (PvP)",
+    "icon": "",
+    "description": "Stance. (5 seconds.) Prevents interrupts against you. Prevention cost: lose 10...5...4 Energy or Mantra of Resolve ends.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Mantra of Signets",
+    "icon": "",
+    "description": "Stance. (10...34...40 seconds.) You have +3 armor for each signet. You gain 5...49...60 health each time you use a signet.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Mantra of Signets (PvP)",
+    "icon": "",
+    "description": "Stance. (10...34...40 seconds.) You gain 5...49...60 Health each time you use a signet.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Migraine",
+    "icon": "",
+    "description": "Elite Hex Spell. (5...17...20 seconds.) Causes -1...7...8 Health degeneration and doubles skill activation time.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Migraine (PvP)",
+    "icon": "",
+    "description": "Elite Hex Spell. (3...10...12 seconds.) Causes -1...7...8 Health degeneration and doubles skill activation time.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Mind Wrack",
+    "icon": "",
+    "description": "Hex Spell. (5...33...40 seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. Deals 5...21...25 damage per point of Energy lost. If target foe's Energy drops to 0, it takes 15...83...100 damage and Mind Wrack ends.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 7,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Mind Wrack (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (5...33...40 seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe's Energy drops to 0, Mind Wrack ends and that foe takes 15...83...100 damage.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 7,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Mirror of Disenchantment",
+    "icon": "",
+    "description": "Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mirror of Disenchantment (PvP)",
+    "icon": "",
+    "description": "Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Mistrust",
+    "icon": "",
+    "description": "Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...82...100 damage to target and nearby foes.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mistrust (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals 10...62...75 damage to target and nearby foes.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Overload",
+    "icon": "",
+    "description": "Hex Spell. (5 seconds.) Causes -1...3...3 Health degeneration. If target foe is using a skill, that foe and all adjacent foes take 15...63...75 damage.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Panic",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes foes near your target (1...8...10 second[s]). Interrupts all other nearby foes whenever a hexed foe successfully activates a skill.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Persistence of Memory",
+    "icon": "",
+    "description": "Enchantment Spell. (5...17...20 seconds.) Your interrupted spells recharge instantly.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Phantom Pain",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Causes -1...3...4 Health degeneration. End effect: inflicts Deep Wound condition (5...17...20 seconds).",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Physical Resistance",
+    "icon": "",
+    "description": "Stance. (30...78...90 seconds.) You have +40 armor against physical damage. You have -24...14...12 armor against elemental damage.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Power Block",
+    "icon": "",
+    "description": "Elite Spell. If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled (1...10...12 seconds) and that skill is interrupted.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Power Drain",
+    "icon": "",
+    "description": "Spell. Interrupts a spell or chant. Interruption effect: you gain 1...25...31 Energy.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Power Flux",
+    "icon": "",
+    "description": "Elite Hex Spell. Interrupts a spell or chant. Interruption effect: -2 Energy degeneration (4...9...10 seconds).",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Power Leak",
+    "icon": "",
+    "description": "Spell. Interrupts a spell or chant. Interruption effect: causes 3...14...17 Energy loss.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Power Leech",
+    "icon": "",
+    "description": "Elite Hex Spell. Interrupt a spell or a chant. Interruption effect: steal 5...13...15 Energy whenever target foe casts a spell (10 seconds).",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Power Lock",
+    "icon": "",
+    "description": "Spell. Interrupts a spell or chant. Interruption effect: interrupted spell or chant is disabled for +5...11...13 seconds.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Power Return",
+    "icon": "",
+    "description": "Spell. Interrupts a spell or chant. Interruption effect: target foe gains 10...6...5 Energy.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 7,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Power Spike",
+    "icon": "",
+    "description": "Spell. Interrupts a spell or chant. Interruption effect: deals 30...102...120 damage.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Price of Pride",
+    "icon": "",
+    "description": "Hex Spell. (5...17...20 seconds.) Causes 1...6...7 Energy loss the next time target foe uses an elite skill.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Psychic Distraction",
+    "icon": "",
+    "description": "Elite Spell. Interrupts a skill. Interruption effect: disables interrupted skill (+5...11...12 seconds). Your other skills are disabled (8 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 2,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Psychic Instability",
+    "icon": "",
+    "description": "Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, cause knockdown for 2...4...4 seconds on target foe and all nearby foes. 50% failure chance unless Fast Casting 5 or higher.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Psychic Instability (PvP)",
+    "icon": "",
+    "description": "Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, causes knockdown for 2...3...3 seconds on target foe and all adjacent foes. 50% failure chance unless Fast Casting 5 or higher.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Recurring Insecurity",
+    "icon": "",
+    "description": "Elite Hex Spell. (10 seconds.) Causes -1...4...5 Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Revealed Enchantment",
+    "icon": "",
+    "description": "Spell. Removes an enchantment from target foe. Removal effects: you gain 3...13...15 Energy; this spell is replaced with that enchantment (20 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Revealed Hex",
+    "icon": "",
+    "description": "Spell. Removes a hex from target ally. Removal effects: you gain 4...9...10 Energy; this spell is replaced with that hex (20 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Shame",
+    "icon": "",
+    "description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal 5...12...14 Energy. No effect unless this foe's spell targeted one of its allies.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Shared Burden",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes foes near your target (5...17...20 seconds). These foes attack, cast spells, and move 50% slower.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Shared Burden (PvP)",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes foes near your target (5...17...20 seconds). These foes attack, cast spells, and move 33% slower.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Shatter Delusions",
+    "icon": "",
+    "description": "Spell. Removes a Mesmer hex from target foe. Removal effect: 15...63...75 damage to target and all adjacent foes.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Shatter Delusions (PvP)",
+    "icon": "",
+    "description": "Spell. Removes a Mesmer hex from target foe. Removal effect: 15...63...75 damage to target and all adjacent foes.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Shatter Enchantment",
+    "icon": "",
+    "description": "Spell. Removes an enchantment from target foe. Removal effect: deals 14...83...100 damage.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Shatter Hex",
+    "icon": "",
+    "description": "Spell. Removes a hex from target ally. Removal effect: deals 30...102...120 damage to foes near this ally.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Shatter Storm",
+    "icon": "",
+    "description": "Elite Spell. Removes all enchantments. Removal cost: Shatter Storm is disabled for +7 seconds for each enchantment removed.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": null,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Shrinking Armor",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Causes -1...3...4 Health degeneration. End effect: inflicts Cracked Armor condition (5...17...20 seconds).",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Clumsiness",
+    "icon": "",
+    "description": "Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals 15...51...60 damage; knocks down foes using attack skills.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Clumsiness (PvP)",
+    "icon": "",
+    "description": "Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals 15...51...60 damage; knocks down foes using attack skills.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Signet of Disenchantment",
+    "icon": "",
+    "description": "Signet. Removes one enchantment. You lose all Energy.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Disruption",
+    "icon": "",
+    "description": "Signet. Interrupts a spell. Can interrupt any skill if target foe is hexed. Interruption effect: deals 10...43...51 damage.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Distraction",
+    "icon": "",
+    "description": "Signet. Interrupts a spell. Interruption effect: target foe's spell is disabled for 1...4...5 seconds for each signet you have equipped.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Humility",
+    "icon": "",
+    "description": "Signet. Disables elite skill (1...13...16 second[s]). Disables your non-Mesmer skills (10 seconds).",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Illusions",
+    "icon": "",
+    "description": "Elite Signet. Your next 1...3...3 spell[s] use your Illusion attribute instead of its normal attribute.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 5,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Midnight",
+    "icon": "",
+    "description": "Elite Touch Signet. (15 seconds.) Inflicts Blindness condition. You suffer from Blindness (15 seconds).",
+    "type": "Touch Signet",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Recall",
+    "icon": "",
+    "description": "Signet. (10 seconds.) You have -4 Energy regeneration. End effect: you gain 13...19...20 Energy.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Weariness",
+    "icon": "",
+    "description": "Signet. Also affects foes near your target. Causes 3...7...8 Energy loss and inflicts Weakness (1...10...12 second[s]).",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Simple Thievery",
+    "icon": "",
+    "description": "Elite Spell. Interrupts an action. Interruption effect: If a skill was interrupted, that skill is disabled and Simple Thievery becomes that skill (5...17...20 seconds).",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Soothing Images",
+    "icon": "",
+    "description": "Hex Spell. Also hexes foe adjacent to target. (8...18...20 seconds). These foes cannot gain adrenaline.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Spirit Shackles",
+    "icon": "",
+    "description": "Hex Spell. (5...17...20). Target foe loses 5 Energy whenever it attacks.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "quest"
+  },
+  {
+    "name": "Spirit of Failure",
+    "icon": "",
+    "description": "Hex Spell. (30 seconds.) Target foe has 25% chance to miss. You gain 1...3...3 Energy whenever this foe misses.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Spiritual Pain",
+    "icon": "",
+    "description": "Spell. Deals 15...63...75 damage. Deals 25...105...125 damage to hostile summoned creatures in the area of your target foe.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 7,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Spiritual Pain (PvP)",
+    "icon": "",
+    "description": "Spell. Deals 5...33...40 damage. Deals 25...105...125 damage to hostile summoned creatures in the area of your target foe.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Stolen Speed",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes adjacent foes (1...8...10 seconds). Doubles spell casting time. Spells cast by you or your allies have -50% casting times.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Stolen Speed (PvP)",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes adjacent foes (1...8...10 second[s]). Doubles spell casting time. Spells you cast on hexed foes have -50% casting time.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Factions",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Sum of All Fears",
+    "icon": "",
+    "description": "Hex Spell. (1...8...10 second[s].) Target foe moves, attacks, and casts spells 33% slower.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Symbolic Celerity",
+    "icon": "",
+    "description": "Enchantment Spell. (36...55...60 seconds.) Your signets use your Fast Casting attribute.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Symbolic Posture",
+    "icon": "",
+    "description": "Stance. (5...17...20 seconds.) Your next signet recharges 20...68...80% faster.",
+    "type": "Stance",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Symbols of Inspiration",
+    "icon": "",
+    "description": "Elite Skill. (1...25...31 seconds.) This skill becomes the Elite of target foe. Elite spells you cast use your Fast Casting attribute instead of their normal attributes.",
+    "type": "Skill",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Sympathetic Visage",
+    "icon": "",
+    "description": "Enchantment Spell. (4...9...10 seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.",
+    "type": "Enchantment Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": null
+  },
+  {
+    "name": "Tease",
+    "icon": "",
+    "description": "Elite Spell. Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal 0...4...5 Energy from all foes in the area.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Time Ward",
+    "icon": "",
+    "description": "Elite Ward Spell. (3...13...15 seconds.) Allies in this ward cast spells 15...19...20% faster and recharge skills 15...19...20% faster. Allied spirits are not affected. PvE Skill",
+    "type": "Ward Spell",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Unnatural Signet",
+    "icon": "",
+    "description": "Signet. Deals 15...63...75 damage. Deals 5...41...50 damage to other adjacent foes if the target is hexed or enchanted.",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Unnatural Signet (PvP)",
+    "icon": "",
+    "description": "Signet. Deals 10...50...60 damage. Deals 10...50...60 damage to other adjacent foes if the target is hexed or enchanted. Your non-Mesmer skills except signets are disabled (10 seconds).",
+    "type": "Signet",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Visions of Regret",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take 15...39...45 damage whenever they use a skill and 5...41...50 additional damage if not under the effects of another Mesmer hex.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Visions of Regret (PvP)",
+    "icon": "",
+    "description": "Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take 10...26...30 damage whenever they use a skill and 5...33...40 additional damage if not under the effects of another Mesmer hex.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Wandering Eye",
+    "icon": "",
+    "description": "Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: 30...94...110 damage to nearby foes.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Wandering Eye (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: 10...76...92 damage to nearby foes.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Waste Not, Want Not",
+    "icon": "",
+    "description": "Spell. You gain 8...12...13 Energy if target foe is not attacking or casting a spell.",
+    "type": "Spell",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Wastrel's Demise",
+    "icon": "",
+    "description": "Hex Spell. (5 seconds.) Each second while hexed, target foe and all foes adjacent to that foe take 1...8...10 damage. Foes take +1...8...10 damage each second this hex is in effect. Ends early if target foe uses a skill.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 3,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Wastrel's Worry",
+    "icon": "",
+    "description": "Hex Spell. (3 seconds). End effect: causes 20...84...100 damage to target and adjacent foes. No effect and ends early if target foe uses a skill.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 1,
+    "isElite": false,
+    "campaign": "Prophecies",
+    "limitation": "quest"
+  },
+  {
+    "name": "Web of Disruption",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Web of Disruption (PvP)",
+    "icon": "",
+    "description": "Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.",
+    "type": "Hex Spell",
+    "profession": "Mesmer",
+    "attribute": null,
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
   }
 ]
