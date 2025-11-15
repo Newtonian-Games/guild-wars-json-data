@@ -37,7 +37,7 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Lightbringer Signet",
@@ -57,7 +57,7 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Lightbringer's Gaze",
@@ -77,7 +77,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Sunspear Rebirth Signet",
@@ -97,7 +97,7 @@
     "recharge": "morale boost",
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Air of Superiority",
@@ -117,7 +117,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Asuran Scan",
@@ -137,7 +137,7 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Mental Block",
@@ -157,7 +157,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Mindbender",
@@ -177,7 +177,7 @@
     "recharge": 24,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Pain Inverter",
@@ -197,7 +197,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Radiation Field",
@@ -217,7 +217,7 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Smooth Criminal",
@@ -237,7 +237,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Summon Ice Imp",
@@ -257,7 +257,7 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Summon Mursaat",
@@ -277,7 +277,7 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Summon Naga Shaman",
@@ -297,7 +297,7 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Summon Ruby Djinn",
@@ -317,7 +317,7 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Technobabble",
@@ -337,7 +337,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"By Ural's Hammer!\"",
@@ -357,7 +357,7 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"Don't Trip!\"",
@@ -377,7 +377,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Alkar's Alchemical Acid",
@@ -397,7 +397,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Black Powder Mine",
@@ -417,7 +417,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Brawling Headbutt",
@@ -437,7 +437,7 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Breath of the Great Dwarf",
@@ -457,7 +457,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Drunken Master",
@@ -477,7 +477,7 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Dwarven Stability",
@@ -497,7 +497,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ear Bite",
@@ -517,7 +517,7 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Great Dwarf Armor",
@@ -537,7 +537,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Great Dwarf Weapon",
@@ -557,7 +557,7 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Light of Deldrimor",
@@ -577,7 +577,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Low Blow",
@@ -597,7 +597,7 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Snow Storm",
@@ -617,7 +617,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Deft Strike",
@@ -637,7 +637,7 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ebon Battle Standard of Courage",
@@ -657,7 +657,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ebon Battle Standard of Honor",
@@ -677,7 +677,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ebon Battle Standard of Wisdom",
@@ -697,7 +697,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ebon Escape",
@@ -717,7 +717,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ebon Vanguard Assassin Support",
@@ -737,7 +737,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ebon Vanguard Sniper Support",
@@ -757,7 +757,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Signet of Infection",
@@ -777,7 +777,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Sneak Attack",
@@ -797,7 +797,7 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Tryptophan Signet",
@@ -817,7 +817,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Weakness Trap",
@@ -837,7 +837,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Winds",
@@ -857,7 +857,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"Dodge This!\"",
@@ -877,7 +877,7 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"Finish Him!\"",
@@ -897,7 +897,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"I Am Unstoppable!\"",
@@ -917,7 +917,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"I Am the Strongest!\"",
@@ -937,7 +937,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"You Are All Weaklings!\"",
@@ -957,7 +957,7 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"You Move Like a Dwarf!\"",
@@ -977,7 +977,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "A Touch of Guile",
@@ -997,7 +997,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Club of a Thousand Bears",
@@ -1017,7 +1017,7 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Feel No Pain",
@@ -1037,7 +1037,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Raven Blessing",
@@ -1057,7 +1057,7 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ursan Blessing",
@@ -1077,7 +1077,7 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Volfen Blessing",
@@ -1097,7 +1097,7 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Angorodon's Gaze",
@@ -4397,7 +4397,7 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"Shields Up!\"",
@@ -6517,7 +6517,7 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Sever Artery",
@@ -7117,7 +7117,7 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Wild Blow",
@@ -7177,7 +7177,7 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Antidote Signet",
@@ -8977,7 +8977,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Oath Shot",
@@ -10157,7 +10157,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Tripwire",
@@ -11577,7 +11577,7 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Karei's Healing Circle",
@@ -12477,7 +12477,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Selfless Spirit",
@@ -12497,7 +12497,7 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Shield Guardian",
@@ -13917,7 +13917,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Discharge Enchantment",
@@ -14297,7 +14297,7 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Ether Phantom",
@@ -16497,7 +16497,7 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Unnatural Signet",
@@ -17377,7 +17377,7 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Energy Blast",
@@ -18237,7 +18237,7 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Invoke Lightning",
@@ -18917,7 +18917,7 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Phoenix",
@@ -20197,7 +20197,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Critical Defenses",
@@ -21537,7 +21537,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Shadow Shroud",
@@ -21577,7 +21577,7 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Shadow Walk",
@@ -24657,7 +24657,7 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Sundering Weapon",
@@ -24757,7 +24757,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Vengeful Was Khanhei",
@@ -25097,7 +25097,7 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Wielder's Boon",
@@ -25717,7 +25717,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "\"They're on Fire!\"",
@@ -26657,7 +26657,7 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Hexbreaker Aria",
@@ -27217,7 +27217,7 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Spear of Lightning",
@@ -27497,7 +27497,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Aura of Thorns",
@@ -27977,7 +27977,7 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Extend Enchantments",
@@ -29277,7 +29277,7 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": "PvE-only"
   },
   {
     "name": "Vow of Silence",
