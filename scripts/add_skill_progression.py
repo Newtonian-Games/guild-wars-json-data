@@ -12,19 +12,24 @@ import subprocess
 import re
 import sys
 import time
+import copy
 
 def to_upper_camel_case(text):
     """
     Convert a variable name to UpperCamelCase with only letters.
     Examples:
         "Health degeneration" -> "HealthDegeneration"
+        "+ Health degeneration" -> "PlusHealthDegeneration"
+        "- Health degeneration" -> "MinusHealthDegeneration"
         "Damage (on death)" -> "DamageOnDeath"
         "Energy cost" -> "EnergyCost"
         "Life stealing" -> "LifeStealing"
         "% of Damage" -> "PercentOfDamage"
     """
-    # Convert % to "Percent" before processing
+    # Convert special symbols to words before processing
     text = text.replace('%', ' Percent ')
+    text = text.replace('+', ' Plus ')
+    text = text.replace('-', ' Minus ')
     # Remove everything that's not a letter or space
     text = re.sub(r'[^a-zA-Z\s]', '', text)
     # Split on whitespace and capitalize each word
@@ -266,9 +271,13 @@ def parse_div_based_progression(prog_html):
         'variables': variables
     }
 
-def process_skill(skill):
+def process_skill(skill, force=False):
     """
     Process a single skill to add progression data.
+
+    Args:
+        skill: The skill dict to process
+        force: If True, process even if progression data already exists
 
     Returns: (success: bool, message: str, updated_skill: dict or None)
     """
@@ -281,11 +290,11 @@ def process_skill(skill):
     if skill['attribute'].get('name') is None:
         return False, f"Attribute name is null - skipping", None
 
-    if skill['attribute'].get('progression') and len(skill['attribute']['progression']) > 0:
+    # Only skip if already has progression AND we're not forcing
+    if not force and skill['attribute'].get('progression') and len(skill['attribute']['progression']) > 0:
         return False, f"Already has progression data - skipping", None
 
     # Fetch wiki HTML
-    print(f"Fetching wiki data for: {skill_name}")
     html = fetch_wiki_html(skill_name)
 
     if not html:
@@ -295,7 +304,7 @@ def process_skill(skill):
     prog_data = parse_progression_table(html)
 
     if not prog_data:
-        return False, f"No progression table found on wiki", None
+        return False, f"No progression table found - skipping", None
 
     # Verify attribute names match
     wiki_attr = prog_data['attribute_name']
@@ -323,7 +332,7 @@ def process_skill(skill):
         return False, f"No valid progression variables found", None
 
     # Update the skill
-    updated_skill = skill.copy()
+    updated_skill = copy.deepcopy(skill)
     updated_skill['attribute']['progression'] = progression
 
     # Show what variables were added
@@ -411,7 +420,7 @@ def main():
         attempted += 1
         print(f"\n[Attempt {attempted}, Success {successful}/{target_count}] Processing: {skill.get('name')}")
 
-        success, message, updated_skill = process_skill(skill)
+        success, message, updated_skill = process_skill(skill, force=bool(args.skill))
 
         if success:
             print(f"  ✓ {message}")
@@ -424,6 +433,14 @@ def main():
                     if s.get('name') == skill_name:
                         skills[j] = updated_skill
                         break
+
+                # Save after each successful update
+                try:
+                    with open(skills_path, 'w') as f:
+                        json.dump(skills, f, indent=2)
+                except Exception as e:
+                    print(f"  ERROR: Could not save skills.json: {e}")
+                    return 1
         elif "skipping" in message.lower():
             print(f"  - {message}")
             skipped += 1
@@ -434,17 +451,6 @@ def main():
         # Be respectful to the wiki server
         time.sleep(0.5)
 
-    # Save updated skills
-    if not args.dry_run and successful > 0:
-        print(f"\nSaving updated skills to {skills_path}")
-        try:
-            with open(skills_path, 'w') as f:
-                json.dump(skills, f, indent=2)
-            print("✓ Saved successfully")
-        except Exception as e:
-            print(f"ERROR: Could not save skills.json: {e}")
-            return 1
-
     # Summary
     print(f"\n=== SUMMARY ===")
     print(f"Attempted: {attempted}")
@@ -454,6 +460,8 @@ def main():
 
     if args.dry_run:
         print("\n(Dry run - no changes saved)")
+    elif successful > 0:
+        print(f"\n(Changes saved after each successful update)")
 
     return 0
 
