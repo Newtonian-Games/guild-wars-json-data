@@ -2757,7 +2757,7 @@
   {
     "name": "Horns of the Ox",
     "icon": "",
-    "description": "Dual Attack. Deals +1...9...11 damage. Causes knock-down if the target foe is not adjacent to any of its allies. Must follow an off-hand attack.",
+    "description": "Dual Attack. Deals +{{PlusDamage}} damage. Causes knock-down if the target foe is not adjacent to any of its allies. Must follow an off-hand attack.",
     "type": "Dual Attack",
     "profession": "Assassin",
     "attribute": {
@@ -2805,7 +2805,7 @@
   {
     "name": "Impale",
     "icon": "",
-    "description": "Skill. Deals 25...85...100 earth damage. Inflicts Deep Wound condition (5...17...20 seconds). Must follow a dual attack.",
+    "description": "Skill. Deals {{EarthDamage}} earth damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). Must follow a dual attack.",
     "type": "Skill",
     "profession": "Assassin",
     "attribute": {
@@ -2875,7 +2875,7 @@
   {
     "name": "Iron Palm",
     "icon": "",
-    "description": "Touch Skill. Deals 5...41...50 damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack.",
+    "description": "Touch Skill. Deals {{Damage}} damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack.",
     "type": "Touch Skill",
     "profession": "Assassin",
     "attribute": {
@@ -2922,7 +2922,7 @@
   {
     "name": "Jagged Strike",
     "icon": "",
-    "description": "Lead Attack. Inflicts Bleeding condition (5...17...20 seconds).",
+    "description": "Lead Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Lead Attack",
     "profession": "Assassin",
     "attribute": {
@@ -2970,7 +2970,7 @@
   {
     "name": "Jungle Strike",
     "icon": "",
-    "description": "Off-Hand Attack. Deals +10...22...25 damage. Deals +1...25...31 damage to target and adjacent foes if target foe is Crippled. Must follow a lead attack.",
+    "description": "Off-Hand Attack. Deals +{{PlusDamage}} damage. Deals +{{ConditionalDamage}} damage to target and adjacent foes if target foe is Crippled. Must follow a lead attack.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -3042,7 +3042,7 @@
   {
     "name": "Leaping Mantis Sting",
     "icon": "",
-    "description": "Lead Attack. Deals +5...13...15 damage. Inflicts Crippled condition (3...13...15 seconds) if target foe is moving.",
+    "description": "Lead Attack. Deals +{{PlusDamage}} damage. Inflicts Crippled condition ({{CrippledDuration}} seconds) if target foe is moving.",
     "type": "Lead Attack",
     "profession": "Assassin",
     "attribute": {
@@ -3137,7 +3137,7 @@
   {
     "name": "Locust's Fury",
     "icon": "",
-    "description": "Elite Enchantment Spell. (10...30...35 seconds.) You have +50% chance to double strike. No effect unless you are wielding daggers.",
+    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) You have +50% chance to double strike. No effect unless you are wielding daggers.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3184,7 +3184,7 @@
   {
     "name": "Lotus Strike",
     "icon": "",
-    "description": "Off-Hand Attack. Deals +10...22...25 damage; you gain 5...17...20 Energy. Must follow a lead attack.",
+    "description": "Off-Hand Attack. Deals +{{PlusDamage}} damage; you gain {{EnergyGain}} Energy. Must follow a lead attack.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -3256,7 +3256,7 @@
   {
     "name": "Malicious Strike",
     "icon": "",
-    "description": "Melee Attack. If target foe has a condition, this attack deals +10...26...30 damage and is a critical hit.",
+    "description": "Melee Attack. If target foe has a condition, this attack deals +{{PlusDamage}} damage and is a critical hit.",
     "type": "Melee Attack",
     "profession": "Assassin",
     "attribute": {
@@ -3303,7 +3303,7 @@
   {
     "name": "Mantis Touch",
     "icon": "",
-    "description": "Spell. Inflicts Crippled condition (5...17...20 seconds). This skill counts as an off-hand attack. Must follow a lead attack.",
+    "description": "Spell. Inflicts Crippled condition ({{CrippledDuration}} seconds). This skill counts as an off-hand attack. Must follow a lead attack.",
     "type": "Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3350,7 +3350,7 @@
   {
     "name": "Mark of Death",
     "icon": "",
-    "description": "Hex Spell. (4...9...10 seconds.) Target foe receives 33% less from healing.",
+    "description": "Hex Spell. ({{Duration}} seconds.) Target foe receives 33% less from healing.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3397,7 +3397,7 @@
   {
     "name": "Mark of Insecurity",
     "icon": "",
-    "description": "Elite Hex Spell. (5...21...25 seconds.) Causes 1...3...3 Health degeneration. Enchantments and stances expire 30...70...80% faster on target foe. Disables your non-Assassin skills (10 seconds).",
+    "description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthDegeneration}} Health degeneration. Enchantments and stances expire {{EnchantmentAndStanceReductionPercent}}% faster on target foe. Disables your non-Assassin skills (10 seconds).",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3513,7 +3513,7 @@
   {
     "name": "Mirrored Stance",
     "icon": "",
-    "description": "Hex Spell. (10...30...35 seconds.) You enter any stance used by target foe.",
+    "description": "Hex Spell. ({{Duration}} seconds.) You enter any stance used by target foe.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3560,7 +3560,7 @@
   {
     "name": "Moebius Strike",
     "icon": "",
-    "description": "Elite Off-Hand Attack. Deals +10...30...35 damage. Recharges all your other attack skills if target foe's Health is below 50%. Must follow a dual attack.",
+    "description": "Elite Off-Hand Attack. Deals +{{PlusDamage}} damage. Recharges all your other attack skills if target foe's Health is below 50%. Must follow a dual attack.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -3608,7 +3608,7 @@
   {
     "name": "Nine Tail Strike",
     "icon": "",
-    "description": "Dual Attack. Deals +15...35...40 damage. Unblockable. Must follow an off-hand attack.",
+    "description": "Dual Attack. Deals +{{PlusDamage}} damage. Unblockable. Must follow an off-hand attack.",
     "type": "Dual Attack",
     "profession": "Assassin",
     "attribute": {
@@ -3656,7 +3656,7 @@
   {
     "name": "Palm Strike",
     "icon": "",
-    "description": "Elite Touch Skill. Deals 10...54...65 damage and inflicts Crippled condition (1...4...5 second[s]). This skill counts as an off-hand attack.",
+    "description": "Elite Touch Skill. Deals {{Damage}} damage and inflicts Crippled condition ({{CrippledDuration}} second[s]). This skill counts as an off-hand attack.",
     "type": "Touch Skill",
     "profession": "Assassin",
     "attribute": {
@@ -3749,7 +3749,7 @@
   {
     "name": "Repeating Strike",
     "icon": "",
-    "description": "Off-Hand Attack. Deals +10...26...30 damage. This skill has +15 second recharge time if it misses. Must follow an off-hand attack.",
+    "description": "Off-Hand Attack. Deals +{{PlusDamage}} damage. This skill has +15 second recharge time if it misses. Must follow an off-hand attack.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -3797,7 +3797,7 @@
   {
     "name": "Return",
     "icon": "",
-    "description": "Spell. Inflicts Crippled condition (3...7...8 seconds) on all foes adjacent to you. You Shadow Step to target ally's location. Cannot self-target.",
+    "description": "Spell. Inflicts Crippled condition ({{CrippledDuration}} seconds) on all foes adjacent to you. You Shadow Step to target ally's location. Cannot self-target.",
     "type": "Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3844,7 +3844,7 @@
   {
     "name": "Sadist's Signet",
     "icon": "",
-    "description": "Signet. You gain 10...34...40 Health for each condition on target foe.",
+    "description": "Signet. You gain {{HealthGain}} Health for each condition on target foe.",
     "type": "Signet",
     "profession": "Assassin",
     "attribute": {
@@ -3891,7 +3891,7 @@
   {
     "name": "Scorpion Wire",
     "icon": "",
-    "description": "Half Range Hex Spell. (8...18...20 seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 100' away from you.",
+    "description": "Half Range Hex Spell. ({{Duration}} seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 100' away from you.",
     "type": "Half Range Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3938,7 +3938,7 @@
   {
     "name": "Seeping Wound",
     "icon": "",
-    "description": "Elite Half Range Hex Spell. (1...6...7 second[s].) Target foe moves 33% slower. This foe takes 5...21...25 damage each second while suffering from a condition.",
+    "description": "Elite Half Range Hex Spell. ({{Duration}} second[s].) Target foe moves 33% slower. This foe takes {{Damage}} damage each second while suffering from a condition.",
     "type": "Half Range Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4008,7 +4008,7 @@
   {
     "name": "Shadow Fang",
     "icon": "",
-    "description": "Hex Spell. Shadow Step to target foe. End effect after 10 seconds: inflicts Deep Wound condition (5...17...20 seconds); you return to your original location.",
+    "description": "Hex Spell. Shadow Step to target foe. End effect after 10 seconds: inflicts Deep Wound condition ({{DeepWoundDuration}} seconds); you return to your original location.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4055,7 +4055,7 @@
   {
     "name": "Shadow Form",
     "icon": "",
-    "description": "Elite Enchantment Spell. (5...18...21 seconds.) Enemy spells cannot target you. Gain 5 damage reduction for each Assassin enchantment on you. You cannot deal more than 5...21...25 damage with a single skill or attack.",
+    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Enemy spells cannot target you. Gain 5 damage reduction for each Assassin enchantment on you. You cannot deal more than {{MaximumDamage}} damage with a single skill or attack.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4125,7 +4125,7 @@
   {
     "name": "Shadow Form (PvP)",
     "icon": "",
-    "description": "Elite Enchantment Spell. (5...13...15 seconds.) Hostile spells targeting you fail, and attacks against you miss. End effect: lose all but 5...41...50 Health.",
+    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Hostile spells targeting you fail, and attacks against you miss. End effect: lose all but {{HealthAtEnd}} Health.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4218,7 +4218,7 @@
   {
     "name": "Shadow Prison",
     "icon": "",
-    "description": "Elite Hex Spell. Shadow Step to target foe. This foe moves 66% slower (1...6...7 seconds).",
+    "description": "Elite Hex Spell. Shadow Step to target foe. This foe moves 66% slower ({{Duration}} seconds).",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4265,7 +4265,7 @@
   {
     "name": "Shadow Refuge",
     "icon": "",
-    "description": "Enchantment Spell. (6 seconds.) You have +5...9...10 Health regeneration. End effect: heals you for 40...88...100 if you are attacking.",
+    "description": "Enchantment Spell. (6 seconds.) You have +{{HealthRegeneration}} Health regeneration. End effect: heals you for {{Healing}} if you are attacking.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4335,7 +4335,7 @@
   {
     "name": "Shadow Sanctuary",
     "icon": "",
-    "description": "Enchantment Spell. (10 seconds.) You gain +7...10 Health regeneration and +40 armor. You are Blind (5 seconds).",
+    "description": "Enchantment Spell. (10 seconds.) You gain +{{HealthRegeneration}} Health regeneration and +40 armor. You are Blind (5 seconds).",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4374,7 +4374,7 @@
   {
     "name": "Shadow Shroud",
     "icon": "",
-    "description": "Elite Hex Spell. (3...8...9 seconds.) Target foe cannot be the target of enchantments.",
+    "description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe cannot be the target of enchantments.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4421,7 +4421,7 @@
   {
     "name": "Shadow Theft",
     "icon": "",
-    "description": "Elite Skill. Shadow Step to target foe. For 5...17...20 seconds that foe's attributes are reduced by 1...4...5 and your attributes are increased by 1...4...5. Counts as a Lead Attack. PvE Skill",
+    "description": "Elite Skill. Shadow Step to target foe. For {{Duration}} seconds that foe's attributes are reduced by {{AttributeBonus}} and your attributes are increased by {{AttributeBonus}}. Counts as a Lead Attack. PvE Skill",
     "type": "Skill",
     "profession": "Assassin",
     "attribute": {
@@ -4514,7 +4514,7 @@
   {
     "name": "Shadow of Haste",
     "icon": "",
-    "description": "Stance. (10...34...40 seconds.) You move 15% faster. End effect: return to your original location.",
+    "description": "Stance. ({{Duration}} seconds.) You move 15% faster. End effect: return to your original location.",
     "type": "Stance",
     "profession": "Assassin",
     "attribute": {
@@ -4561,7 +4561,7 @@
   {
     "name": "Shadowy Burden",
     "icon": "",
-    "description": "Hex Spell. (3...13...15 seconds.) Target foe moves 25% slower and has 20 less armor against your attacks. Armor reduction only affects this foe while it has no other hexes.",
+    "description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 25% slower and has 20 less armor against your attacks. Armor reduction only affects this foe while it has no other hexes.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4608,7 +4608,7 @@
   {
     "name": "Shameful Fear",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Target foe takes 5...17...20 damage each second while moving, but moves 10% faster.",
+    "description": "Hex Spell. (10 seconds.) Target foe takes {{DamageWhileMoving}} damage each second while moving, but moves 10% faster.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4655,7 +4655,7 @@
   {
     "name": "Sharpen Daggers",
     "icon": "",
-    "description": "Enchantment Spell. (5...25...30 seconds.) Your dagger attacks inflict the Bleeding condition (5...13...15 seconds).",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) Your dagger attacks inflict the Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4725,7 +4725,7 @@
   {
     "name": "Shattering Assault",
     "icon": "",
-    "description": "Elite Dual Attack. Deals 5...41...50 damage. Removes one enchantment. Unblockable. Must follow an off-hand attack.",
+    "description": "Elite Dual Attack. Deals {{Damage}} damage. Removes one enchantment. Unblockable. Must follow an off-hand attack.",
     "type": "Dual Attack",
     "profession": "Assassin",
     "attribute": {
@@ -4772,7 +4772,7 @@
   {
     "name": "Shroud of Distress",
     "icon": "",
-    "description": "Enchantment Spell. (30...54...60 seconds.) You have 3...7...8 health regeneration and a 75% chance to block. No effect unless your Health is below 50%.",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) You have {{HealthRegeneration}} health regeneration and a 75% chance to block. No effect unless your Health is below 50%.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4842,7 +4842,7 @@
   {
     "name": "Shroud of Distress (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. (30...54...60 seconds.) You have 75% chance to block. No effect unless your Health is below 50%.",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) You have 75% chance to block. No effect unless your Health is below 50%.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4889,7 +4889,7 @@
   {
     "name": "Shroud of Silence",
     "icon": "",
-    "description": "Elite Touch Hex Spell. (1...3...3 second[s].) Target foe cannot cast spells. Your spells are disabled for 15 seconds.",
+    "description": "Elite Touch Hex Spell. ({{Duration}} second[s].) Target foe cannot cast spells. Your spells are disabled for 15 seconds.",
     "type": "Touch Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4936,7 +4936,7 @@
   {
     "name": "Signet of Deadly Corruption",
     "icon": "",
-    "description": "Signet. Deals 5...29...35 damage (maximum 130) for each condition on target foe.",
+    "description": "Signet. Deals {{ArmorMinusIgnoringDamagePerCondition}} damage (maximum 130) for each condition on target foe.",
     "type": "Signet",
     "profession": "Assassin",
     "attribute": {
@@ -4983,7 +4983,7 @@
   {
     "name": "Signet of Deadly Corruption (PvP)",
     "icon": "",
-    "description": "Signet. Deals 5...29...35 damage (maximum 130) for each condition on target foe. Must follow a dual attack.",
+    "description": "Signet. Deals {{ArmorMinusIgnoringDamagePerCondition}} damage (maximum 130) for each condition on target foe. Must follow a dual attack.",
     "type": "Signet",
     "profession": "Assassin",
     "attribute": {
@@ -5053,7 +5053,7 @@
   {
     "name": "Signet of Shadows",
     "icon": "",
-    "description": "Signet. Deals 5...29...35 damage. Deals 15...51...60 more damage if target foe is Blinded.",
+    "description": "Signet. Deals {{Damage}} damage. Deals {{AdditionalDamage}} more damage if target foe is Blinded.",
     "type": "Signet",
     "profession": "Assassin",
     "attribute": {
@@ -5123,7 +5123,7 @@
   {
     "name": "Signet of Toxic Shock",
     "icon": "",
-    "description": "Signet. Deals 10...82...100 damage. No effect unless target foe is Poisoned",
+    "description": "Signet. Deals {{Damage}} damage. No effect unless target foe is Poisoned",
     "type": "Signet",
     "profession": "Assassin",
     "attribute": {
@@ -5193,7 +5193,7 @@
   {
     "name": "Siphon Speed",
     "icon": "",
-    "description": "Half Range Hex Spell. (5...13...15 seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe.",
+    "description": "Half Range Hex Spell. ({{Duration}} seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe.",
     "type": "Half Range Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -5240,7 +5240,7 @@
   {
     "name": "Siphon Strength",
     "icon": "",
-    "description": "Elite Hex Spell. (5...17...20 seconds.) Target foe deals -5...41...50 attack damage. You have +33% chance to land a critical hit on this foe.",
+    "description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe deals -{{DamageReduction}} attack damage. You have +33% chance to land a critical hit on this foe.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -5310,7 +5310,7 @@
   {
     "name": "Smoke Powder Defense",
     "icon": "",
-    "description": "Stance. (8 seconds.) The next time you are struck, you take half damage and inflict Blindness condition (2...5...6 seconds) on adjacent foes.",
+    "description": "Stance. (8 seconds.) The next time you are struck, you take half damage and inflict Blindness condition ({{BlindDuration}} seconds) on adjacent foes.",
     "type": "Stance",
     "profession": "Assassin",
     "attribute": {
@@ -5403,7 +5403,7 @@
   {
     "name": "Temple Strike",
     "icon": "",
-    "description": "Elite Off-Hand Attack. Interrupts a spell. Inflicts Dazed and Blindness conditions (1...8...10 seconds). Must follow a lead attack.",
+    "description": "Elite Off-Hand Attack. Interrupts a spell. Inflicts Dazed and Blindness conditions ({{DazedAndBlindDuration}} seconds). Must follow a lead attack.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -5451,7 +5451,7 @@
   {
     "name": "Trampling Ox",
     "icon": "",
-    "description": "Dual Attack. Deals +5...17...20 damage; causes knock-down if target foe is Crippled. Must follow an off-hand attack.",
+    "description": "Dual Attack. Deals +{{PlusDamage}} damage; causes knock-down if target foe is Crippled. Must follow an off-hand attack.",
     "type": "Dual Attack",
     "profession": "Assassin",
     "attribute": {
@@ -5499,7 +5499,7 @@
   {
     "name": "Twisting Fangs",
     "icon": "",
-    "description": "Dual Attack. Deals +10...18...20 damage. Inflicts Bleeding and Deep Wound conditions (5...17...20 seconds). Must follow an off-hand attack.",
+    "description": "Dual Attack. Deals +{{PlusDamage}} damage. Inflicts Bleeding and Deep Wound conditions ({{BleedingAndDeepWoundDuration}} seconds). Must follow an off-hand attack.",
     "type": "Dual Attack",
     "profession": "Assassin",
     "attribute": {
@@ -5569,7 +5569,7 @@
   {
     "name": "Unseen Fury",
     "icon": "",
-    "description": "Stance. Inflicts Blindness condition on adjacent foes (3...9...10). You cannot be blocked by Blinded foes for 10...26...30 seconds.",
+    "description": "Stance. Inflicts Blindness condition on adjacent foes ({{BlindDuration}}). You cannot be blocked by Blinded foes for {{StanceDuration}} seconds.",
     "type": "Stance",
     "profession": "Assassin",
     "attribute": {
@@ -5639,7 +5639,7 @@
   {
     "name": "Unseen Fury (PvP)",
     "icon": "",
-    "description": "Stance. (15...51...60 seconds.) You cannot be blocked by Blinded foes.",
+    "description": "Stance. ({{Duration}} seconds.) You cannot be blocked by Blinded foes.",
     "type": "Stance",
     "profession": "Assassin",
     "attribute": {
@@ -5686,7 +5686,7 @@
   {
     "name": "Unsuspecting Strike",
     "icon": "",
-    "description": "Lead Attack. Deals +19...29...31 damage. Deals 15...63...75 more damage if target foe's Health is above 90%.",
+    "description": "Lead Attack. Deals +{{PlusDamage}} damage. Deals {{PlusDamageGtPercentHealth}} more damage if target foe's Health is above 90%.",
     "type": "Lead Attack",
     "profession": "Assassin",
     "attribute": {
@@ -5756,7 +5756,7 @@
   {
     "name": "Vampiric Assault",
     "icon": "",
-    "description": "Dual Attack. Steals 10...34...40 Health if this attack hits. Must follow an off-hand attack.",
+    "description": "Dual Attack. Steals {{LifeStealing}} Health if this attack hits. Must follow an off-hand attack.",
     "type": "Dual Attack",
     "profession": "Assassin",
     "attribute": {
@@ -5803,7 +5803,7 @@
   {
     "name": "Viper's Defense",
     "icon": "",
-    "description": "Spell. Inflict Poisoned condition (5...17...20 seconds) on all adjacent foes and Shadow Step to a nearby location directly away from your target.",
+    "description": "Spell. Inflict Poisoned condition ({{PoisonDuration}} seconds) on all adjacent foes and Shadow Step to a nearby location directly away from your target.",
     "type": "Spell",
     "profession": "Assassin",
     "attribute": {
@@ -5873,7 +5873,7 @@
   {
     "name": "Way of Perfection",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) Your critical hits heal you for 10...34...40.",
+    "description": "Enchantment Spell. (60 seconds.) Your critical hits heal you for {{HealthGain}}.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -5920,7 +5920,7 @@
   {
     "name": "Way of the Assassin",
     "icon": "",
-    "description": "Elite Stance. (20 seconds.) While wielding daggers, you attack 5...17...20% faster and have +5...29...35% chance to land a critical hit.",
+    "description": "Elite Stance. (20 seconds.) While wielding daggers, you attack {{AttackSpeedIncrease}}% faster and have +{{PlusCriticalHitChance}}% chance to land a critical hit.",
     "type": "Stance",
     "profession": "Assassin",
     "attribute": {
@@ -5990,7 +5990,7 @@
   {
     "name": "Way of the Empty Palm",
     "icon": "",
-    "description": "Elite Enchantment Spell. (5...17...20 seconds.) Your off-hand and dual attacks cost no Energy.",
+    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Your off-hand and dual attacks cost no Energy.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -6037,7 +6037,7 @@
   {
     "name": "Way of the Fox",
     "icon": "",
-    "description": "Enchantment Spell. (10...30...35 seconds.) Your attacks are unblockable. Ends after 1...5...6 attack[s].",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) Your attacks are unblockable. Ends after {{SubsequentAttacks}} attack[s].",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -6107,7 +6107,7 @@
   {
     "name": "Way of the Lotus",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) You gain 5...17...20 Energy the next time you hit with a dual attack.",
+    "description": "Enchantment Spell. (20 seconds.) You gain {{EnergyGain}} Energy the next time you hit with a dual attack.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -6154,7 +6154,7 @@
   {
     "name": "Way of the Master",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) While holding a non-dagger weapon, you have +3...27...33% chance to land a critical hit.",
+    "description": "Enchantment Spell. (60 seconds.) While holding a non-dagger weapon, you have +{{AdditionalCritChancePercent}}% chance to land a critical hit.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
     "attribute": {
@@ -6201,7 +6201,7 @@
   {
     "name": "Wild Strike",
     "icon": "",
-    "description": "Off-Hand Attack. Deals +10...30...35 damage. Removes target foe's stance. Unblockable. Must follow a lead attack.",
+    "description": "Off-Hand Attack. Deals +{{PlusDamage}} damage. Removes target foe's stance. Unblockable. Must follow a lead attack.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -6249,7 +6249,7 @@
   {
     "name": "Wild Strike (PvP)",
     "icon": "",
-    "description": "Off-Hand Attack. Deals +10...30...35 damage. Removes target foe's stance. Unblockable. Must follow a lead attack.",
+    "description": "Off-Hand Attack. Deals +{{PlusDamage}} damage. Removes target foe's stance. Unblockable. Must follow a lead attack.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
