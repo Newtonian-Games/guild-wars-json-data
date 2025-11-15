@@ -27398,5 +27398,2105 @@
     "isElite": false,
     "campaign": "Nightfall",
     "limitation": null
+  },
+  {
+    "name": "Arcane Zeal",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (10 seconds.) You gain 1 Energy (maximum 1...6...7) for each enchantment on you whenever you cast a spell.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 5,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Armor of Sanctity",
+    "icon": "",
+    "description": "Enchantment Spell. Inflicts Weakness condition on all adjacent foes (5...13...15). You take 5...17...20 less damage from foes with a condition. (15 seconds.)",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Attacker's Insight",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (3...9...10 seconds.) Gives 50% block chance while attacking. End Effect: Causes Weakness 3...13...15 seconds to adjacent foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Aura Slicer",
+    "icon": "",
+    "description": "Melee Attack. (5...13...15 seconds.)Inflicts [sic] Bleeding condition. Also inflicts Cracked Armor (1...8...10 second[s]) if you are enchanted.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": null,
+      "adrenaline": 4,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Aura of Holy Might",
+    "icon": "",
+    "description": "Enchantment Spell. (45 seconds.) Whenever you lose a Dervish enchantment, adjacent foes take 20...25 holy damage.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Allegiance rank",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Factions",
+    "limitation": null
+  },
+  {
+    "name": "Aura of Thorns",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition (5...13...15 seconds) on nearby foes. End effect: inflicts Crippled condition (3...7...8 seconds) on nearby foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Aura of Thorns (PvP)",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition (5...13...15 seconds) on nearby foes. End effect: inflicts Crippled condition (3...7...8 seconds) on nearby foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Avatar of Balthazar",
+    "icon": "",
+    "description": "Elite Form. (10...74...90 seconds.) You gain +20 armor against physical damage, you gain adrenaline 25% faster, your attacks deal holy damage, you inflict Burning (1...3...3 second[s]) on nearby foes whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "type": "Form",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Avatar of Dwayna",
+    "icon": "",
+    "description": "Elite Form. (10...74...90 seconds.) You deal holy damage. Whenever you use a Dervish attack skill, you lose 1 hex. Heal allies in earshot for 5...41...50 Health when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "type": "Form",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Avatar of Dwayna (PvP)",
+    "icon": "",
+    "description": "Elite Form. (10...74...90 seconds.) Deal holy damage. You lose 1 hex whenever you use a Dervish attack skill. Heal yourself for 5...41...50 Health whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "type": "Form",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Avatar of Grenth",
+    "icon": "",
+    "description": "Elite Form. (10...74...90 seconds.) Your scythe attacks deal dark damage and steal 0...10...12 Health. You are immune to Disease. Apply Disease to all adjacent foes (3 seconds) when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "type": "Form",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Avatar of Lyssa",
+    "icon": "",
+    "description": "Elite Form. (10...74...90 seconds.) Your Dervish enchantments recharge 50% faster and deal chaos damage with attacks. Steal 1 Energy from nearby foes when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "type": "Form",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Avatar of Melandru",
+    "icon": "",
+    "description": "Elite Form. (10...74...90 seconds.) You have +150 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 1 condition from all party members in earshot whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "type": "Form",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Avatar of Melandru (PvP)",
+    "icon": "",
+    "description": "Elite Form. (10...74...90 seconds.) You have +100 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 2 conditions from yourself whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "type": "Form",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Balthazar's Rage",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (20 seconds.) Initial Effect: Inflicts burning (1...3...3 second[s]) on nearby foes. End effect: gain 1...2...2 strike[s] of adrenaline if any foes are within earshot.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Banishing Strike",
+    "icon": "",
+    "description": "Melee Attack. Deals 10...50...60 holy damage. Deals double damage to summoned creatures.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 3,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Banishing Strike (PvP)",
+    "icon": "",
+    "description": "Melee Attack. Deals 10...50...60 holy damage. Deals double damage to summoned creatures.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 3,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Chilling Victory",
+    "icon": "",
+    "description": "Scythe Attack. Deals +3...13...15 damage. Deals 10...26...30 cold damage to each foe hit who has less Health than you and foes adjacent to those targets.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 6,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "quest"
+  },
+  {
+    "name": "Conviction",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (10 seconds.) Gain +10 armor while conditioned. Gain 1...3...3 Health regeneration for each condition you have. End Effect: Remove 1...2...2 condition[s].",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Crippling Sweep",
+    "icon": "",
+    "description": "Scythe Attack. (3...10...12 seconds.) Inflicts Cripple [sic] condition. Deals +3...13...15 damage to moving foes.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "quest"
+  },
+  {
+    "name": "Crippling Victory",
+    "icon": "",
+    "description": "Scythe Attack. (3...7...8 seconds) Cripples target foe. If your health is greater than target foe's, all adjacent foes take 10...26...30 earth damage.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 6,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Dust Cloak",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals 10...34...40 earth damage to adjacent foes. End effect: inflicts Blindness condition (1...3...4 second[s]) on adjacent foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Dust Cloak (PvP)",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals 10...34...40 earth damage to adjacent foes. End effect: inflicts Blindness condition (1...3...4 second[s]) on adjacent foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Dwayna's Touch",
+    "icon": "",
+    "description": "Touch Spell. Heals for 15...51...60 (maximum 150) for each enchantment on you.",
+    "type": "Touch Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Ebon Dust Aura",
+    "icon": "",
+    "description": "Elite Flash Enchantment Spell. (30 seconds.) Deal +3...13...15 earth damage with your melee attacks. Initial Effect: Blinds nearby foes for 1...6...7 second[s]. End Effect: removes Blindness. No effect unless wielding an earth weapon.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Enchanted Haste",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (7 seconds). You move 25% faster. Lose 1 condition if this enchantment ends prematurely.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": null,
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Eremite's Attack",
+    "icon": "",
+    "description": "Scythe Attack. Deals +1...8...10 damage and removes a Dervish enchantment. Removal Effect: Deals +1...8...10 damage and strikes all adjacent foes.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Eremite's Zeal",
+    "icon": "",
+    "description": "Enchantment Spell. (10 seconds.) Initial effect: you gain 1...3...3 Energy (maximum 8) for each foe in earshot. End effect: you gain 1...3...3 Energy (maximum 8) for each foe in earshot.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Eternal Aura",
+    "icon": "",
+    "description": "Enchantment Spell. You have +100 max Health. End effect: all party members in the area are resurrected with 40...50% Health and 20...30% Energy.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Sunspear rank",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 4.0,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Extend Enchantments",
+    "icon": "",
+    "description": "Skill. (10 seconds.) Your next Dervish enchantment lasts 10...122...150% longer.",
+    "type": "Skill",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Faithful Intervention",
+    "icon": "",
+    "description": "Enchantment Spell. You gain 30...126...150 Health the next time damage drops your Health below 50%.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Farmer's Scythe",
+    "icon": "",
+    "description": "Scythe Attack. Deals +5...17...20 damage. Instant recharge if you hit more than one foe.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Featherfoot Grace",
+    "icon": "",
+    "description": "Enchantment Spell. (5...17...20 seconds.) You move 25% faster, and conditions expire 25% faster.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Fleeting Stability",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (2...5...6 seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Grenth's Aura",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (20 seconds.) You deal 5...21...25 less damage and steal 5...21...25 Health when you hit with a scythe. Initial effect: steal 5...21...25 Health from all adjacent foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Grenth's Fingers",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal cold damage. Initial effect: hits nearby foes for 10...34...40 cold damage. End effect: transfers 1...2...2 condition[s] to all nearby foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "quest"
+  },
+  {
+    "name": "Grenth's Grasp",
+    "icon": "",
+    "description": "Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled condition (1...9...11 second[s]) with your attack skills and transfer 1 condition. No effect unless wielding a cold weapon.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Guiding Hands",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds.) Your next 0...2...3 attack[s] cannot be blocked. Initial effect: removes Blindness.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Guiding Hands (PvP)",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds.) Your next 0...2...3 attack[s] cannot be blocked. Initial effect: removes Blindness.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Harrier's Grasp",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (5...17...20 seconds.) Attacks on moving foes also Cripple them. [sic] Ends after you apply Cripple 1...3...3 times. [sic] Initial Effect: you lose Cripple and 1 other condition.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Harrier's Haste",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (2...7...8 seconds.) You move 25% faster and deal +3...10...12 damage to moving foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Heart of Fury",
+    "icon": "",
+    "description": "Stance. (2...8...10 seconds.) You attack 25% faster.",
+    "type": "Stance",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": null,
+      "adrenaline": 4,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Heart of Fury (PvP)",
+    "icon": "",
+    "description": "Stance. (2...8...10 seconds.) You attack 25% faster.",
+    "type": "Stance",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": null,
+      "adrenaline": 4,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Heart of Holy Flame",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal holy damage. Initial effect: deals 5...25...30 holy damage to nearby foes. End effect: inflicts Burning condition (2...4...5 seconds) on nearby foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "quest"
+  },
+  {
+    "name": "Imbue Health",
+    "icon": "",
+    "description": "Spell. Heals for 5...41...50% of your current Health (maximum 300). Cannot self-target.",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "quest"
+  },
+  {
+    "name": "Intimidating Aura",
+    "icon": "",
+    "description": "Enchantment Spell. (60 seconds.) You have +40...88...100 max Health and take -1...8...10 damage from foes with less Health than you.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Irresistible Sweep",
+    "icon": "",
+    "description": "Scythe Attack. Deals +3...13...15 damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +3...13...15 additional damage.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Irresistible Sweep (PvP)",
+    "icon": "",
+    "description": "Scythe Attack. Deals +3...13...15 damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 5,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Lyssa's Assault",
+    "icon": "",
+    "description": "Scythe Attack. Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional 1...8...10 second[s]. This attack does 50% of normal damage.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.5,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Lyssa's Haste",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (3...13...15 seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Lyssa's Haste (PvP)",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (3...13...15 seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 25,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Meditation",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds.) Lose all adrenaline. Gain 1...3...4 Energy whenever an enchantment on you ends.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mirage Cloak",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (1...6...7 second[s].) You have 40...72...80% chance to block. Initial Effect: deals 10...34...40 earth damage to nearby foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mystic Corruption",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (20 seconds.) Initial Effect: all adjacent foes are Diseased (1...2...2 second[s].) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mystic Healing",
+    "icon": "",
+    "description": "Spell. Heals you for 5...53...65. Heals all enchanted party members for 5...53...65 Health.",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 4,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mystic Healing (PvP)",
+    "icon": "",
+    "description": "Spell. Heals you for 5...53...65. Heals all enchanted party members for 5...53...65 Health.",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Mystic Regeneration",
+    "icon": "",
+    "description": "Enchantment Spell. (5...17...20 seconds.) You have +1...3...4 Health regeneration for each enchantment (maximum of 8) on you.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mystic Regeneration (PvP)",
+    "icon": "",
+    "description": "Enchantment Spell. (5...17...20 seconds.) You have +1...3...4 Health regeneration for each enchantment (maximum of 3) on you.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Mystic Sandstorm",
+    "icon": "",
+    "description": "Spell. (3 seconds.) Deals 10...18...20 earth damage each second. Deals an additional 10...18...20 damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted.",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": null,
+      "adrenaline": 5,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mystic Sweep",
+    "icon": "",
+    "description": "Melee Attack. Deals +3...10...12 damage. Deals an additional +3...10...12 damage if you are enchanted.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mystic Twister",
+    "icon": "",
+    "description": "Spell. Deals 10...50...60 cold damage to all nearby foes. Deals 10...50...60 more cold damage if you are enchanted.",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": null,
+      "adrenaline": 5,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Mystic Vigor",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds.) You gain 3...13...15 Health (maximum 25) for each enchantment on you whenever you hit with an attack.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Natural Healing",
+    "icon": "",
+    "description": "Spell. Heals you for 50...146...170. This skill activates 50% faster if you are not enchanted.",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2.0,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Onslaught",
+    "icon": "",
+    "description": "Elite Flash Enchantment Spell. (3...13...15 seconds.) You attack, move and gain adrenaline 25% faster.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Onslaught (PvP)",
+    "icon": "",
+    "description": "Elite Flash Enchantment Spell. (2...7...8 seconds.) You attack and gain adrenaline 25% faster.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Pious Assault",
+    "icon": "",
+    "description": "Melee Attack. Deals +10...18...20 damage. Removes 1 of your Dervish enchantments. Removal Effect: this skill recharges 75% faster and adjacent foes take 10...26...30 damage.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Pious Assault (PvP)",
+    "icon": "",
+    "description": "Melee Attack. Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take 10...26...30 damage.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Pious Concentration",
+    "icon": "",
+    "description": "Stance. (5...17...20 seconds.) Prevents interrupts. Prevention cost: you lose one Dervish enchantment or Pious Concentration ends.",
+    "type": "Stance",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Pious Fury",
+    "icon": "",
+    "description": "Stance. (1...6...7 second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.",
+    "type": "Stance",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Pious Fury (PvP)",
+    "icon": "",
+    "description": "Stance. (1...4...5 second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.",
+    "type": "Stance",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Pious Haste",
+    "icon": "",
+    "description": "Stance. (1...6...7 second[s].) Lose 1 Dervish enchantment and move 25% faster. Removal Effect: Run 50% faster instead.",
+    "type": "Stance",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Pious Renewal",
+    "icon": "",
+    "description": "Elite Flash Enchantment Spell. (8 seconds.) End Effect: recharges itself and you gain 0...4...5 Energy and 0...24...30 Health.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 8,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Pious Restoration",
+    "icon": "",
+    "description": "Spell. Gain 80...136...150 Health and remove 1 Dervish enchantment. Removal effect: lose 1...2...2 hex[es].",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Radiant Scythe",
+    "icon": "",
+    "description": "Scythe Attack. Deals +1 damage (maximum 5...25...30) for each point of Energy you have. Gain 1...6...7 Energy.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 6,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Reap Impurities",
+    "icon": "",
+    "description": "Melee Attack. Deals +3...13...15 damage. Struck foes lose 1 condition. Removal Effect: all foes adjacent to those struck take 10...34...40 holy damage.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 5,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Reaper's Sweep",
+    "icon": "",
+    "description": "Elite Scythe Attack. (3...13...15 seconds.) Cause Cripple. Lose 1 Dervish enchantment. Removal Effect: cause knockdown for 2...3...3 seconds.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 8,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Rending Aura",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: deals 10...34...40 cold damage to all nearby foes. End effect: nearby foes have Cracked Armor for 1...8...10 second[s].",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Rending Sweep",
+    "icon": "",
+    "description": "Scythe Attack. Deals +5...17...20 damage. You lose 1 Dervish enchantment. Removal effect: struck foes lose an enchantment.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 6,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Rending Touch",
+    "icon": "",
+    "description": "Touch Spell. Deals 15...55...65 cold damage. Lose 1 Dervish enchantment. Removal effect: target foe loses 1 enchantment and you gain 1 strike of adrenaline.",
+    "type": "Touch Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Sand Shards",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Deal 10...50...60 earth damage to all other adjacent foes whenever you hit with your scythe. Ends after 1...4...5 hit[s].",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Shield of Force",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (1...13...16 second[s].) Blocks the next 1 attack against you. Knocks down and inflicts Weakness (5...17...20 seconds) on all adjacent attacking foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Mystic Speed",
+    "icon": "",
+    "description": "Signet. (30 seconds.) Your next 1...3...3 self-targeted enchantments [sic] cast instantly. Flash enchantments do not consume uses of this skill.",
+    "type": "Signet",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Pious Light",
+    "icon": "",
+    "description": "Signet. Heals for 30...126...150. Removes one of your Dervish enchantments. Removal effect: recharges 75% faster.",
+    "type": "Signet",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Pious Restraint",
+    "icon": "",
+    "description": "Signet. Inflicts Crippled condition (5...13...15 seconds). Remove one of your Dervish enchantments. Removal effect: also causes Cripple to foes nearby your target and recharges 75% faster.",
+    "type": "Signet",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Pious Restraint (PvP)",
+    "icon": "",
+    "description": "Signet. (5...13...15 seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 75% faster.",
+    "type": "Signet",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Staggering Force",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals 10...34...40 earth damage to nearby foes. End effect: inflicts Cracked Armor condition (1...8...10 second[s]) on nearby foes.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Test of Faith",
+    "icon": "",
+    "description": "Touch Spell. Deals 15...55...65 cold damage and removes 1 enchantment. Target foe is Dazed for 1...3...4 second[s] if that foe was not enchanted.",
+    "type": "Touch Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": null,
+      "adrenaline": 7,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Twin Moon Sweep",
+    "icon": "",
+    "description": "Melee Attack. Remove 1 of your Dervish enchantments. Gain 10...42...50 Health. Removal effect: unblockable, attack twice, and gain 10...58...70 more Health.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 7,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Twin Moon Sweep (PvP)",
+    "icon": "",
+    "description": "Melee Attack. Remove 1 of your Dervish enchantments. Gain 10...18...20 Health. Removal effect: Unblockable, attack twice, each strike doing 25% less damage, and gain 10...26...30 more Health.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 7,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Veil of Thorns",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (5...21...25 seconds.) Spell damage is reduced by 5...29...35%. Initial Effect: nearby foes are struck for 5...41...50 piercing damage.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Victorious Sweep",
+    "icon": "",
+    "description": "Melee Attack. Deals +5...21...25 damage. You gain 30...70...80 Health for each foe you hit that has less Health than you.",
+    "type": "Melee Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 4,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Vital Boon",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds.) You have +40...88...100 maximum Health. End effect: Heals you for 75...175...200.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "quest"
+  },
+  {
+    "name": "Vow of Piety",
+    "icon": "",
+    "description": "Enchantment Spell. (20 seconds) +24 armor and +1...3...4 Health regeneration. Renewal: Whenever an enchantment on you ends.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 45,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Vow of Revolution",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (3...9...10 seconds.) Gain +1...4...5 energy regeneration. Renewal: whenever you use a non-Dervish skill. PvE Skill",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Vow of Silence",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (5...9...10 seconds.) Spells cannot target you. You cannot cast spells.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Vow of Strength",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (15 seconds.) When you attack with a scythe, deals 10...22...25 slashing damage to adjacent foes.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 20,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Watchful Intervention",
+    "icon": "",
+    "description": "Enchantment Spell. (60 seconds.) Heals for 50...170...200 the next time damage drops target ally's Health below 25%.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1.0,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Wearying Strike",
+    "icon": "",
+    "description": "Scythe Attack. Remove 1 Dervish Enchantment. Removal Effect: Inflicts Deep Wound condition (3...9...10 seconds). You are Weakened (10 seconds) if an enchantment is not lost.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": null,
+      "adrenaline": 6,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": null,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Whirling Charge",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (1...5...6 second[s].) You move 33% faster. Deal 10...50...60 cold damage to all other nearby foes the next time you hit a foe and this enchantment ends.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 6,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "quest"
+  },
+  {
+    "name": "Winds of Disenchantment",
+    "icon": "",
+    "description": "Spell. Remove one of your Dervish enchantments. Removal effect: all nearby foes lose 1 enchantment and take 20...68...80 cold damage.",
+    "type": "Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Wounding Strike",
+    "icon": "",
+    "description": "Elite Scythe Attack. Deals +5...17...20 damage and inflicts Bleeding condition (5...17...20 seconds). Remove 1 Dervish enchantment. Removal Effect: inflicts Deep Wound condition (5...17...20 seconds).",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 3,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Wounding Strike (PvP)",
+    "icon": "",
+    "description": "Elite Scythe Attack. Inflicts Bleeding condition (5...17...20 seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition (5...17...20 seconds).",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 3,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": "PvP-only"
+  },
+  {
+    "name": "Zealous Renewal",
+    "icon": "",
+    "description": "Flash Enchantment Spell. (5...21...25 seconds.) Initial effect: deals 5...25...30 holy damage to nearby foes. You have -1 Energy regeneration and gain 1 Energy when you hit. Gain 1...4...5 Energy if this enchantment ends early.",
+    "type": "Flash Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": null
+  },
+  {
+    "name": "Zealous Sweep",
+    "icon": "",
+    "description": "Scythe Attack. Deals +5...17...20 damage. You gain 3 Energy and 1 adrenaline for each foe you hit.",
+    "type": "Scythe Attack",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": null,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": null
+  },
+  {
+    "name": "Zealous Vow",
+    "icon": "",
+    "description": "Elite Enchantment Spell. (20 seconds.) You gain 1...5...6 Energy each time you hit with an attack. You have -3 Energy regeneration.",
+    "type": "Enchantment Spell",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 12,
+    "isElite": true,
+    "campaign": "Nightfall",
+    "limitation": null
   }
 ]
