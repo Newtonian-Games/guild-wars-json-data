@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Assassin",
+    "abbreviation": "A",
+    "icon": "https://wiki.guildwars.com/images/thumb/3/34/Assassin-tango-icon-200.png/180px-Assassin-tango-icon-200.png"
+  },
+  {
+    "name": "Dervish",
+    "abbreviation": "D",
+    "icon": "https://wiki.guildwars.com/images/thumb/b/bf/Dervish-tango-icon-200.png/180px-Dervish-tango-icon-200.png"
+  },
+  {
+    "name": "Elementalist",
+    "abbreviation": "E",
+    "icon": "https://wiki.guildwars.com/images/thumb/3/3c/Elementalist-tango-icon-200.png/180px-Elementalist-tango-icon-200.png"
+  },
+  {
+    "name": "Mesmer",
+    "abbreviation": "Me",
+    "icon": "https://wiki.guildwars.com/images/thumb/c/cc/Mesmer-tango-icon-200.png/180px-Mesmer-tango-icon-200.png"
+  },
+  {
+    "name": "Monk",
+    "abbreviation": "Mo",
+    "icon": "https://wiki.guildwars.com/images/thumb/8/86/Monk-tango-icon-200.png/180px-Monk-tango-icon-200.png"
+  },
+  {
+    "name": "Necromancer",
+    "abbreviation": "N",
+    "icon": "https://wiki.guildwars.com/images/thumb/a/a8/Necromancer-tango-icon-200.png/180px-Necromancer-tango-icon-200.png"
+  },
+  {
+    "name": "Paragon",
+    "abbreviation": "P",
+    "icon": "https://wiki.guildwars.com/images/thumb/2/21/Paragon-tango-icon-200.png/180px-Paragon-tango-icon-200.png"
+  },
+  {
+    "name": "Ranger",
+    "abbreviation": "R",
+    "icon": "https://wiki.guildwars.com/images/thumb/4/43/Ranger-tango-icon-200.png/180px-Ranger-tango-icon-200.png"
+  },
+  {
+    "name": "Ritualist",
+    "abbreviation": "Rt",
+    "icon": "https://wiki.guildwars.com/images/thumb/1/15/Ritualist-tango-icon-200.png/180px-Ritualist-tango-icon-200.png"
+  },
+  {
+    "name": "Warrior",
+    "abbreviation": "W",
+    "icon": "https://wiki.guildwars.com/images/thumb/8/88/Warrior-tango-icon-200.png/180px-Warrior-tango-icon-200.png"
+  }
+]

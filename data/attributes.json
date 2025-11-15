@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Critical Strikes",
+    "profession": "Assassin",
+    "isPrimary": true
+  },
+  {
+    "name": "Dagger Mastery",
+    "profession": "Assassin",
+    "isPrimary": false
+  },
+  {
+    "name": "Deadly Arts",
+    "profession": "Assassin",
+    "isPrimary": false
+  },
+  {
+    "name": "Shadow Arts",
+    "profession": "Assassin",
+    "isPrimary": false
+  },
+  {
+    "name": "Mysticism",
+    "profession": "Dervish",
+    "isPrimary": true
+  },
+  {
+    "name": "Earth Prayers",
+    "profession": "Dervish",
+    "isPrimary": false
+  },
+  {
+    "name": "Scythe Mastery",
+    "profession": "Dervish",
+    "isPrimary": false
+  },
+  {
+    "name": "Wind Prayers",
+    "profession": "Dervish",
+    "isPrimary": false
+  },
+  {
+    "name": "Energy Storage",
+    "profession": "Elementalist",
+    "isPrimary": true
+  },
+  {
+    "name": "Air Magic",
+    "profession": "Elementalist",
+    "isPrimary": false
+  },
+  {
+    "name": "Earth Magic",
+    "profession": "Elementalist",
+    "isPrimary": false
+  },
+  {
+    "name": "Fire Magic",
+    "profession": "Elementalist",
+    "isPrimary": false
+  },
+  {
+    "name": "Water Magic",
+    "profession": "Elementalist",
+    "isPrimary": false
+  },
+  {
+    "name": "Fast Casting",
+    "profession": "Mesmer",
+    "isPrimary": true
+  },
+  {
+    "name": "Domination Magic",
+    "profession": "Mesmer",
+    "isPrimary": false
+  },
+  {
+    "name": "Illusion Magic",
+    "profession": "Mesmer",
+    "isPrimary": false
+  },
+  {
+    "name": "Inspiration Magic",
+    "profession": "Mesmer",
+    "isPrimary": false
+  },
+  {
+    "name": "Divine Favor",
+    "profession": "Monk",
+    "isPrimary": true
+  },
+  {
+    "name": "Healing Prayers",
+    "profession": "Monk",
+    "isPrimary": false
+  },
+  {
+    "name": "Protection Prayers",
+    "profession": "Monk",
+    "isPrimary": false
+  },
+  {
+    "name": "Smiting Prayers",
+    "profession": "Monk",
+    "isPrimary": false
+  },
+  {
+    "name": "Soul Reaping",
+    "profession": "Necromancer",
+    "isPrimary": true
+  },
+  {
+    "name": "Blood Magic",
+    "profession": "Necromancer",
+    "isPrimary": false
+  },
+  {
+    "name": "Curses",
+    "profession": "Necromancer",
+    "isPrimary": false
+  },
+  {
+    "name": "Death Magic",
+    "profession": "Necromancer",
+    "isPrimary": false
+  },
+  {
+    "name": "Leadership",
+    "profession": "Paragon",
+    "isPrimary": true
+  },
+  {
+    "name": "Command",
+    "profession": "Paragon",
+    "isPrimary": false
+  },
+  {
+    "name": "Motivation",
+    "profession": "Paragon",
+    "isPrimary": false
+  },
+  {
+    "name": "Spear Mastery",
+    "profession": "Paragon",
+    "isPrimary": false
+  },
+  {
+    "name": "Expertise",
+    "profession": "Ranger",
+    "isPrimary": true
+  },
+  {
+    "name": "Beast Mastery",
+    "profession": "Ranger",
+    "isPrimary": false
+  },
+  {
+    "name": "Marksmanship",
+    "profession": "Ranger",
+    "isPrimary": false
+  },
+  {
+    "name": "Wilderness Survival",
+    "profession": "Ranger",
+    "isPrimary": false
+  },
+  {
+    "name": "Spawning Power",
+    "profession": "Ritualist",
+    "isPrimary": true
+  },
+  {
+    "name": "Channeling Magic",
+    "profession": "Ritualist",
+    "isPrimary": false
+  },
+  {
+    "name": "Communing",
+    "profession": "Ritualist",
+    "isPrimary": false
+  },
+  {
+    "name": "Restoration Magic",
+    "profession": "Ritualist",
+    "isPrimary": false
+  },
+  {
+    "name": "Strength",
+    "profession": "Warrior",
+    "isPrimary": true
+  },
+  {
+    "name": "Axe Mastery",
+    "profession": "Warrior",
+    "isPrimary": false
+  },
+  {
+    "name": "Hammer Mastery",
+    "profession": "Warrior",
+    "isPrimary": false
+  },
+  {
+    "name": "Swordsmanship",
+    "profession": "Warrior",
+    "isPrimary": false
+  },
+  {
+    "name": "Tactics",
+    "profession": "Warrior",
+    "isPrimary": false
+  },
+  {
+    "name": null,
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Lightbringer rank",
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Sunspear rank",
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Asura rank",
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Deldrimor rank",
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Ebon Vanguard rank",
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Norn rank",
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Kurzick rank",
+    "profession": null,
+    "isPrimary": false
+  },
+  {
+    "name": "Luxon rank",
+    "profession": null,
+    "isPrimary": false
+  }
+]
