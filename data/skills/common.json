@@ -1,0 +1,2519 @@
+[
+  {
+    "name": "Resurrection Signet",
+    "icon": "",
+    "description": "Signet. Resurrects target party member ({{HealthPercentage}}% Health, {{EnergyPercentage}}% Energy). This signet only recharges when you gain a morale boost.",
+    "type": "Signet",
+    "profession": null,
+    "attribute": {
+      "name": null,
+      "progression": {
+        "HealthPercentage": {
+          "0": 100
+        },
+        "EnergyPercentage": {
+          "0": 25
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": "morale boost",
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": null
+  },
+  {
+    "name": "Signet of Capture",
+    "icon": "",
+    "description": "Signet. Choose one skill from a nearby dead Boss of your profession. Signet of Capture is permanently replaced by that skill. If that skill was elite, gain 250 XP for every level you have earned.",
+    "type": "Signet",
+    "profession": null,
+    "attribute": {
+      "name": null,
+      "progression": {}
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 2,
+    "isElite": false,
+    "campaign": "Core",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Lightbringer Signet",
+    "icon": "",
+    "description": "Signet. You gain {{AdrenalineGain}} strikes of adrenaline and {{EnergyGain}} Energy if you are within the area of a demonic servant of Abaddon.",
+    "type": "Signet",
+    "profession": null,
+    "attribute": {
+      "name": "Lightbringer rank",
+      "progression": {
+        "AdrenalineGain": {
+          "3": 4,
+          "4": 5,
+          "5": 5,
+          "6": 5,
+          "7": 5,
+          "8": 5
+        },
+        "EnergyGain": {
+          "3": 22,
+          "4": 24,
+          "5": 24,
+          "6": 24,
+          "7": 24,
+          "8": 24
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 25,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Lightbringer's Gaze",
+    "icon": "",
+    "description": "Skill. Target demonic servant of Abaddon takes {{HolyDamage}} holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled ({{DisabledDuration}} seconds).",
+    "type": "Skill",
+    "profession": null,
+    "attribute": {
+      "name": "Lightbringer rank",
+      "progression": {
+        "HolyDamage": {
+          "0": 100
+        },
+        "DisabledDuration": {
+          "0": 15
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Sunspear Rebirth Signet",
+    "icon": "",
+    "description": "Signet. Resurrect target dead ally at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost.",
+    "type": "Signet",
+    "profession": null,
+    "attribute": {
+      "name": "Sunspear rank",
+      "progression": {
+        "EnergyPercentage": {
+          "0": 0,
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50,
+          "6": 60,
+          "7": 70,
+          "8": 80,
+          "9": 90,
+          "10": 100
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": "morale boost",
+    "isElite": false,
+    "campaign": "Nightfall",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Air of Superiority",
+    "icon": "",
+    "description": "Skill. ({{Duration}} seconds). Gain a random Asura benefit every time you earn experience from killing an enemy.",
+    "type": "Skill",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "Duration": {
+          "0": 20,
+          "1": 22,
+          "2": 24,
+          "3": 26,
+          "4": 28,
+          "5": 30,
+          "6": 30,
+          "7": 30,
+          "8": 30,
+          "9": 30,
+          "10": 30
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Asuran Scan",
+    "icon": "",
+    "description": "Hex Spell. ({{Duration}} seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty.",
+    "type": "Hex Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "Duration": {
+          "0": 9,
+          "1": 10,
+          "2": 10,
+          "3": 11,
+          "4": 11,
+          "5": 12,
+          "6": 12,
+          "7": 12,
+          "8": 12,
+          "9": 12,
+          "10": 12
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Mental Block",
+    "icon": "",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) You have a 50% chance to block. Renewal: every time an enemy hits you.",
+    "type": "Enchantment Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "Duration": {
+          "0": 5,
+          "1": 6,
+          "2": 7,
+          "3": 9,
+          "4": 10,
+          "5": 11,
+          "6": 11,
+          "7": 11,
+          "8": 11,
+          "9": 11,
+          "10": 11
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Mindbender",
+    "icon": "",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) You move {{SpeedBoostPercent}}% faster and cast Spells 20% faster.",
+    "type": "Enchantment Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "Duration": {
+          "0": 10,
+          "1": 11,
+          "2": 12,
+          "3": 14,
+          "4": 15,
+          "5": 16,
+          "6": 16,
+          "7": 16,
+          "8": 16,
+          "9": 16,
+          "10": 16
+        },
+        "SpeedBoostPercent": {
+          "0": 20,
+          "1": 23,
+          "2": 25,
+          "3": 28,
+          "4": 30,
+          "5": 33,
+          "6": 33,
+          "7": 33,
+          "8": 33,
+          "9": 33,
+          "10": 33
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 24,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Pain Inverter",
+    "icon": "",
+    "description": "Hex Spell. ({{Duration}} seconds.) Deals {{PercentOfDamage}}% of the damage (maximum 80) back to target foe every time it does damage.",
+    "type": "Hex Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "Duration": {
+          "0": 6,
+          "1": 7,
+          "2": 8,
+          "3": 8,
+          "4": 9,
+          "5": 10,
+          "6": 10,
+          "7": 10,
+          "8": 10,
+          "9": 10,
+          "10": 10
+        },
+        "PercentOfDamage": {
+          "0": 100,
+          "1": 108,
+          "2": 116,
+          "3": 124,
+          "4": 132,
+          "5": 140,
+          "6": 140,
+          "7": 140,
+          "8": 140,
+          "9": 140,
+          "10": 140
+        },
+        "DamageTakenToReachCap": {
+          "0": 80,
+          "1": 75,
+          "2": 71,
+          "3": 66,
+          "4": 62,
+          "5": 57,
+          "6": 57,
+          "7": 57,
+          "8": 57,
+          "9": 57,
+          "10": 57
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Radiation Field",
+    "icon": "",
+    "description": "Ward Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration to foes in the area. End effect: inflicts Disease condition ({{DiseaseDuration}} seconds) to foes in the area.",
+    "type": "Ward Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "HealthDegeneration": {
+          "0": 4,
+          "1": 4,
+          "2": 5,
+          "3": 5,
+          "4": 6,
+          "5": 6,
+          "6": 6,
+          "7": 6,
+          "8": 6,
+          "9": 6,
+          "10": 6
+        },
+        "DiseaseDuration": {
+          "0": 12,
+          "1": 14,
+          "2": 15,
+          "3": 17,
+          "4": 18,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": 15,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Smooth Criminal",
+    "icon": "",
+    "description": "Spell. ({{Duration}} seconds.) Disables one Spell. This skill becomes that Spell. You gain {{EnergyGain}} Energy.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "Duration": {
+          "0": 10,
+          "1": 12,
+          "2": 14,
+          "3": 16,
+          "4": 18,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "EnergyGain": {
+          "0": 5,
+          "1": 6,
+          "2": 7,
+          "3": 8,
+          "4": 9,
+          "5": 10,
+          "6": 10,
+          "7": 10,
+          "8": 10,
+          "9": 10,
+          "10": 10
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Summon Ice Imp",
+    "icon": "",
+    "description": "Spell. Summon a level {{IceImpLevel}} Ice Imp ({{Duration}} lifespan) that has Ice Spikes. Only 1 Asura Summon can be active a time.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "IceImpLevel": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "Duration": {
+          "0": 40,
+          "1": 44,
+          "2": 48,
+          "3": 52,
+          "4": 56,
+          "5": 60,
+          "6": 60,
+          "7": 60,
+          "8": 60,
+          "9": 60,
+          "10": 60
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 60,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Summon Mursaat",
+    "icon": "",
+    "description": "Spell. Summon a level {{MursaatLevel}} Mursaat ({{Duration}} lifespan) that has Enervating Charge. Only 1 Asura Summon can be active a time.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "MursaatLevel": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "Duration": {
+          "0": 40,
+          "1": 44,
+          "2": 48,
+          "3": 52,
+          "4": 56,
+          "5": 60,
+          "6": 60,
+          "7": 60,
+          "8": 60,
+          "9": 60,
+          "10": 60
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 60,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Summon Naga Shaman",
+    "icon": "",
+    "description": "Spell. Summon a level {{NagaShamanLevel}} Naga Shaman ({{Duration}} lifespan) that has Stoning. Only 1 Asura Summon can be active a time.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "NagaShamanLevel": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "Duration": {
+          "0": 40,
+          "1": 44,
+          "2": 48,
+          "3": 52,
+          "4": 56,
+          "5": 60,
+          "6": 60,
+          "7": 60,
+          "8": 60,
+          "9": 60,
+          "10": 60
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 60,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Summon Ruby Djinn",
+    "icon": "",
+    "description": "Spell. Summon a level {{RubyDjinnLevel}} Ruby Djinn ({{Duration}} lifespan) that has Immolate. Only 1 Asura Summon can be active a time.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "RubyDjinnLevel": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "Duration": {
+          "0": 40,
+          "1": 44,
+          "2": 48,
+          "3": 52,
+          "4": 56,
+          "5": 60,
+          "6": 60,
+          "7": 60,
+          "8": 60,
+          "9": 60,
+          "10": 60
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 3,
+    "recharge": 60,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Technobabble",
+    "icon": "",
+    "description": "Spell. Deals {{Damage}} damage to target and adjacent foes. Inflicts Dazed condition ({{DazedDuration}} seconds) on these foes if target was not a boss.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Asura rank",
+      "progression": {
+        "Damage": {
+          "0": 30,
+          "1": 32,
+          "2": 34,
+          "3": 36,
+          "4": 38,
+          "5": 40,
+          "6": 40,
+          "7": 40,
+          "8": 40,
+          "9": 40,
+          "10": 40
+        },
+        "DazedDuration": {
+          "0": 3,
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 5,
+          "5": 5,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"By Ural's Hammer!\"",
+    "icon": "",
+    "description": "Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal {{IncreasedDamagePercent}}% more damage. Affected party members die when it ends, but do not receive a death penalty.",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "IncreasedDamagePercent": {
+          "0": 25,
+          "1": 27,
+          "2": 28,
+          "3": 30,
+          "4": 31,
+          "5": 33,
+          "6": 33,
+          "7": 33,
+          "8": 33,
+          "9": 33,
+          "10": 33
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 60,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"Don't Trip!\"",
+    "icon": "",
+    "description": "Shout. ({{Duration}} seconds.) Prevents knock-down; affects party members within earshot.",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Duration": {
+          "0": 3,
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 5,
+          "5": 5,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Alkar's Alchemical Acid",
+    "icon": "",
+    "description": "Spell. Projectile: deals {{Damage}} damage to target and adjacent foes. Deals {{AdditionalDamage}} more damage and inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to Destroyers.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Damage": {
+          "0": 40,
+          "1": 42,
+          "2": 44,
+          "3": 46,
+          "4": 48,
+          "5": 50,
+          "6": 50,
+          "7": 50,
+          "8": 50,
+          "9": 50,
+          "10": 50
+        },
+        "AdditionalDamage": {
+          "0": 45,
+          "1": 50,
+          "2": 55,
+          "3": 60,
+          "4": 65,
+          "5": 70,
+          "6": 70,
+          "7": 70,
+          "8": 70,
+          "9": 70,
+          "10": 70
+        },
+        "CrackedArmorDuration": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Black Powder Mine",
+    "icon": "",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{FireDamage}} damage. Inflicts Blindness and Bleeding conditions ({{BlindAndBleedingDuration}} seconds). Easily interrupted.",
+    "type": "Trap",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "FireDamage": {
+          "0": 20,
+          "1": 22,
+          "2": 24,
+          "3": 26,
+          "4": 28,
+          "5": 30,
+          "6": 30,
+          "7": 30,
+          "8": 30,
+          "9": 30,
+          "10": 30
+        },
+        "BlindAndBleedingDuration": {
+          "0": 7,
+          "1": 8,
+          "2": 8,
+          "3": 9,
+          "4": 9,
+          "5": 10,
+          "6": 10,
+          "7": 10,
+          "8": 10,
+          "9": 10,
+          "10": 10
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Brawling Headbutt",
+    "icon": "",
+    "description": "Touch Skill. Deals {{Damage}} damage; causes knock-down.",
+    "type": "Touch Skill",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Damage": {
+          "0": 45,
+          "1": 50,
+          "2": 55,
+          "3": 60,
+          "4": 65,
+          "5": 70,
+          "6": 70,
+          "7": 70,
+          "8": 70,
+          "9": 70,
+          "10": 70
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": 7,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 0,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Breath of the Great Dwarf",
+    "icon": "",
+    "description": "Spell. Removes burning and heals for {{Healing}} Health. Affects party members.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Healing": {
+          "0": 50,
+          "1": 52,
+          "2": 54,
+          "3": 56,
+          "4": 58,
+          "5": 60,
+          "6": 60,
+          "7": 60,
+          "8": 60,
+          "9": 60,
+          "10": 60
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Drunken Master",
+    "icon": "",
+    "description": "Stance. ({{Duration}} seconds.) You move and attack {{SpeedIncreasePercentIfSober}}% faster if you are not drunk. You move and attack {{SpeedIncreasePercentIfDrunk}}% faster if you are drunk.",
+    "type": "Stance",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Duration": {
+          "0": 72,
+          "1": 76,
+          "2": 79,
+          "3": 83,
+          "4": 86,
+          "5": 90,
+          "6": 90,
+          "7": 90,
+          "8": 90,
+          "9": 90,
+          "10": 90
+        },
+        "SpeedIncreasePercentIfSober": {
+          "0": 10,
+          "1": 11,
+          "2": 12,
+          "3": 13,
+          "4": 14,
+          "5": 15,
+          "6": 15,
+          "7": 15,
+          "8": 15,
+          "9": 15,
+          "10": 15
+        },
+        "SpeedIncreasePercentIfDrunk": {
+          "0": 25,
+          "1": 27,
+          "2": 28,
+          "3": 30,
+          "4": 31,
+          "5": 33,
+          "6": 33,
+          "7": 33,
+          "8": 33,
+          "9": 33,
+          "10": 33
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 60,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Dwarven Stability",
+    "icon": "",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk.",
+    "type": "Enchantment Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Duration": {
+          "0": 24,
+          "1": 25,
+          "2": 26,
+          "3": 28,
+          "4": 29,
+          "5": 30,
+          "6": 30,
+          "7": 30,
+          "8": 30,
+          "9": 30,
+          "10": 30
+        },
+        "StanceDurationIncreasePercent": {
+          "0": 55,
+          "1": 64,
+          "2": 73,
+          "3": 82,
+          "4": 91,
+          "5": 100,
+          "6": 100,
+          "7": 100,
+          "8": 100,
+          "9": 100,
+          "10": 100
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ear Bite",
+    "icon": "",
+    "description": "Touch Skill. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds).",
+    "type": "Touch Skill",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "PiercingDamage": {
+          "0": 50,
+          "1": 54,
+          "2": 58,
+          "3": 62,
+          "4": 66,
+          "5": 70,
+          "6": 70,
+          "7": 70,
+          "8": 70,
+          "9": 70,
+          "10": 70
+        },
+        "BleedingDuration": {
+          "0": 15,
+          "1": 17,
+          "2": 19,
+          "3": 21,
+          "4": 23,
+          "5": 25,
+          "6": 25,
+          "7": 25,
+          "8": 25,
+          "9": 25,
+          "10": 25
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": 4,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 0,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Great Dwarf Armor",
+    "icon": "",
+    "description": "Enchantment Spell. ({{Duration}} seconds.) +24 armor and +60 maximum Health. Additional +24 armor against Destroyers.",
+    "type": "Enchantment Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Duration": {
+          "0": 22,
+          "1": 26,
+          "2": 29,
+          "3": 33,
+          "4": 36,
+          "5": 40,
+          "6": 40,
+          "7": 40,
+          "8": 40,
+          "9": 40,
+          "10": 40
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Great Dwarf Weapon",
+    "icon": "",
+    "description": "Weapon Spell. (20 seconds.) +{{Damage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target.",
+    "type": "Weapon Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Damage": {
+          "0": 15,
+          "1": 16,
+          "2": 17,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "KnockDownChancePercent": {
+          "0": 28,
+          "1": 30,
+          "2": 33,
+          "3": 35,
+          "4": 38,
+          "5": 40,
+          "6": 40,
+          "7": 40,
+          "8": 40,
+          "9": 40,
+          "10": 40
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Light of Deldrimor",
+    "icon": "",
+    "description": "Spell. Deals {{HolyDamage}} holy damage to foes in the area. Pings hidden objects within the area on the compass.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "HolyDamage": {
+          "0": 55,
+          "1": 60,
+          "2": 65,
+          "3": 70,
+          "4": 75,
+          "5": 80,
+          "6": 80,
+          "7": 80,
+          "8": 80,
+          "9": 80,
+          "10": 80
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Low Blow",
+    "icon": "",
+    "description": "Touch Skill. Deals {{Damage}} damage. Inflicts {{ConditionalDamage}} damage and Cracked Armor ({{CrackedArmorDuration}} seconds) if target foe is knocked down.",
+    "type": "Touch Skill",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "Damage": {
+          "0": 45,
+          "1": 50,
+          "2": 55,
+          "3": 60,
+          "4": 65,
+          "5": 70,
+          "6": 70,
+          "7": 70,
+          "8": 70,
+          "9": 70,
+          "10": 70
+        },
+        "ConditionalDamage": {
+          "0": 30,
+          "1": 34,
+          "2": 38,
+          "3": 42,
+          "4": 46,
+          "5": 50,
+          "6": 50,
+          "7": 50,
+          "8": 50,
+          "9": 50,
+          "10": 50
+        },
+        "CrackedArmorDuration": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": 6,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 0,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Snow Storm",
+    "icon": "",
+    "description": "Spell. Deals {{ColdDamage}} cold damage each second (5 seconds). Hits foes adjacent to target foe's initial location.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Deldrimor rank",
+      "progression": {
+        "ColdDamage": {
+          "0": 30,
+          "1": 32,
+          "2": 34,
+          "3": 36,
+          "4": 38,
+          "5": 40,
+          "6": 40,
+          "7": 40,
+          "8": 40,
+          "9": 40,
+          "10": 40
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Deft Strike",
+    "icon": "",
+    "description": "Ranged Attack. Deals {{ArmorignoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor.",
+    "type": "Ranged Attack",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "ArmorignoringDamage": {
+          "0": 18,
+          "1": 20,
+          "2": 23,
+          "3": 25,
+          "4": 28,
+          "5": 30,
+          "6": 30,
+          "7": 30,
+          "8": 30,
+          "9": 30,
+          "10": 30
+        },
+        "BleedingDuration": {
+          "0": 18,
+          "1": 20,
+          "2": 23,
+          "3": 25,
+          "4": 28,
+          "5": 30,
+          "6": 30,
+          "7": 30,
+          "8": 30,
+          "9": 30,
+          "10": 30
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.5,
+    "recharge": 8,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ebon Battle Standard of Courage",
+    "icon": "",
+    "description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. Spirits are unaffected.",
+    "type": "Ward Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "Duration": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ebon Battle Standard of Honor",
+    "icon": "",
+    "description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{Damage}} damage and +{{DamageVsCharr}} more damage against Charr. Spirits are unaffected.",
+    "type": "Ward Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "Duration": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "Damage": {
+          "0": 8,
+          "1": 9,
+          "2": 11,
+          "3": 12,
+          "4": 14,
+          "5": 15,
+          "6": 15,
+          "7": 15,
+          "8": 15,
+          "9": 15,
+          "10": 15
+        },
+        "DamageVsCharr": {
+          "0": 7,
+          "1": 8,
+          "2": 8,
+          "3": 9,
+          "4": 9,
+          "5": 10,
+          "6": 10,
+          "7": 10,
+          "8": 10,
+          "9": 10,
+          "10": 10
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ebon Battle Standard of Wisdom",
+    "icon": "",
+    "description": "Ward Spell. ({{Duration}} seconds.) Spells that allies in this ward cast have a {{HsrChancePercent}}% chance to recharge 50% faster. Spirits are unaffected.",
+    "type": "Ward Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "Duration": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "HsrChancePercent": {
+          "0": 44,
+          "1": 47,
+          "2": 50,
+          "3": 54,
+          "4": 57,
+          "5": 60,
+          "6": 60,
+          "7": 60,
+          "8": 60,
+          "9": 60,
+          "10": 60
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ebon Escape",
+    "icon": "",
+    "description": "Spell. Heals you and target ally for {{Healing}}. Initial effect: Shadow Step to this ally. Cannot self-target.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "Healing": {
+          "0": 70,
+          "1": 78,
+          "2": 86,
+          "3": 94,
+          "4": 102,
+          "5": 110,
+          "6": 110,
+          "7": 110,
+          "8": 110,
+          "9": 110,
+          "10": 110
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.25,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ebon Vanguard Assassin Support",
+    "icon": "",
+    "description": "Spell. Summon a level {{AssassinLevel}} assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. If this foe is a Charr, the assassin lives for {{DurationVsCharr}} seconds. If target foe is not a Charr, the Assassin lives for {{DurationVsOtherFoes}} seconds.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "AssassinLevel": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "DurationVsCharr": {
+          "0": 24,
+          "1": 25,
+          "2": 26,
+          "3": 28,
+          "4": 29,
+          "5": 30,
+          "6": 30,
+          "7": 30,
+          "8": 30,
+          "9": 30,
+          "10": 30
+        },
+        "DurationVsOtherFoes": {
+          "0": 12,
+          "1": 13,
+          "2": 13,
+          "3": 14,
+          "4": 14,
+          "5": 15,
+          "6": 15,
+          "7": 15,
+          "8": 15,
+          "9": 15,
+          "10": 15
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ebon Vanguard Sniper Support",
+    "icon": "",
+    "description": "Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +{{AdditionalPiercingDamage}} piercing damage if target foe is a Charr.",
+    "type": "Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "PiercingDamage": {
+          "0": 54,
+          "1": 61,
+          "2": 68,
+          "3": 76,
+          "4": 83,
+          "5": 90,
+          "6": 90,
+          "7": 90,
+          "8": 90,
+          "9": 90,
+          "10": 90
+        },
+        "AdditionalPiercingDamage": {
+          "0": 540,
+          "1": 612,
+          "2": 684,
+          "3": 756,
+          "4": 828,
+          "5": 900,
+          "6": 900,
+          "7": 900,
+          "8": 900,
+          "9": 900,
+          "10": 900
+        },
+        "BleedingDuration": {
+          "0": 5,
+          "1": 9,
+          "2": 13,
+          "3": 17,
+          "4": 21,
+          "5": 25,
+          "6": 25,
+          "7": 25,
+          "8": 25,
+          "9": 25,
+          "10": 25
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Signet of Infection",
+    "icon": "",
+    "description": "Signet. Inflicts Diseased condition {{DiseaseDuration}} seconds if target foe is Bleeding.",
+    "type": "Signet",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "DiseaseDuration": {
+          "0": 13,
+          "1": 14,
+          "2": 16,
+          "3": 17,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Sneak Attack",
+    "icon": "",
+    "description": "Melee Attack. Inflicts Blindness ({{BlindDuration}} seconds). Counts as a lead attack.",
+    "type": "Melee Attack",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "BlindDuration": {
+          "0": 5,
+          "1": 6,
+          "2": 6,
+          "3": 7,
+          "4": 7,
+          "5": 8,
+          "6": 8,
+          "7": 8,
+          "8": 8,
+          "9": 8,
+          "10": 8
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 5,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Tryptophan Signet",
+    "icon": "",
+    "description": "Signet. ({{Duration}} seconds.) Target and adjacent foes move and attack {{SpeedReductionPercent}}% slower.",
+    "type": "Signet",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "Duration": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "SpeedReductionPercent": {
+          "0": 23,
+          "1": 26,
+          "2": 30,
+          "3": 33,
+          "4": 37,
+          "5": 40,
+          "6": 40,
+          "7": 40,
+          "8": 40,
+          "9": 40,
+          "10": 40
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 1,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Weakness Trap",
+    "icon": "",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{LightningDamage}} lightning damage. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Knocks-down Charr. Easily interrupted.",
+    "type": "Trap",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "WeaknessDuration": {
+          "0": 10,
+          "1": 12,
+          "2": 14,
+          "3": 16,
+          "4": 18,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "LightningDamage": {
+          "0": 24,
+          "1": 29,
+          "2": 34,
+          "3": 40,
+          "4": 45,
+          "5": 50,
+          "6": 50,
+          "7": 50,
+          "8": 50,
+          "9": 50,
+          "10": 50
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 2,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Winds",
+    "icon": "",
+    "description": "Ebon Vanguard Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan.) Affects foes within range. 15% chance to miss with ranged attacks.",
+    "type": "Ebon Vanguard Ritual",
+    "profession": null,
+    "attribute": {
+      "name": "Ebon Vanguard rank",
+      "progression": {
+        "Level": {
+          "0": 4,
+          "1": 5,
+          "2": 6,
+          "3": 8,
+          "4": 9,
+          "5": 10,
+          "6": 10,
+          "7": 10,
+          "8": 10,
+          "9": 10,
+          "10": 10
+        },
+        "Duration": {
+          "0": 54,
+          "1": 61,
+          "2": 68,
+          "3": 76,
+          "4": 83,
+          "5": 90,
+          "6": 90,
+          "7": 90,
+          "8": 90,
+          "9": 90,
+          "10": 90
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 5,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"Dodge This!\"",
+    "icon": "",
+    "description": "Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{Damage}} damage.",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "Duration": {
+          "0": 16,
+          "1": 17,
+          "2": 18,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        },
+        "Damage": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": null,
+      "adrenaline": 4,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 0,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"Finish Him!\"",
+    "icon": "",
+    "description": "Shout. Deals {{Damage}} damage and inflicts Cracked Armor and Deep Wound conditions ({{CrackedArmorAndDeepWoundDuration}} seconds). No effect unless target foe has less than 50% Health.",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "Damage": {
+          "0": 44,
+          "1": 51,
+          "2": 58,
+          "3": 66,
+          "4": 73,
+          "5": 80,
+          "6": 80,
+          "7": 80,
+          "8": 80,
+          "9": 80,
+          "10": 80
+        },
+        "CrackedArmorAndDeepWoundDuration": {
+          "0": 12,
+          "1": 14,
+          "2": 15,
+          "3": 17,
+          "4": 18,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"I Am Unstoppable!\"",
+    "icon": "",
+    "description": "Shout. ({{Duration}} seconds.) You have +24 armor and cannot be knocked-down or Crippled.",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "Duration": {
+          "0": 16,
+          "1": 17,
+          "2": 18,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 30,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"I Am the Strongest!\"",
+    "icon": "",
+    "description": "Shout. Your next {{OfAttacks}} attacks deal +{{AdditionalDamage}} damage.",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "OfAttacks": {
+          "0": 5,
+          "1": 6,
+          "2": 6,
+          "3": 7,
+          "4": 7,
+          "5": 8,
+          "6": 8,
+          "7": 8,
+          "8": 8,
+          "9": 8,
+          "10": 8
+        },
+        "AdditionalDamage": {
+          "0": 14,
+          "1": 15,
+          "2": 16,
+          "3": 18,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"You Are All Weaklings!\"",
+    "icon": "",
+    "description": "Shout. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Also affects adjacent foes.",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "WeaknessDuration": {
+          "0": 8,
+          "1": 9,
+          "2": 10,
+          "3": 10,
+          "4": 11,
+          "5": 12,
+          "6": 12,
+          "7": 12,
+          "8": 12,
+          "9": 12,
+          "10": 12
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "\"You Move Like a Dwarf!\"",
+    "icon": "",
+    "description": "Shout. Deals {{Damage}} damage, causes knock-down, and inflicts Crippled condition ({{CrippledDuration}} seconds).",
+    "type": "Shout",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "Damage": {
+          "0": 44,
+          "1": 51,
+          "2": 58,
+          "3": 66,
+          "4": 73,
+          "5": 80,
+          "6": 80,
+          "7": 80,
+          "8": 80,
+          "9": 80,
+          "10": 80
+        },
+        "CrippledDuration": {
+          "0": 8,
+          "1": 9,
+          "2": 11,
+          "3": 12,
+          "4": 14,
+          "5": 15,
+          "6": 15,
+          "7": 15,
+          "8": 15,
+          "9": 15,
+          "10": 15
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 10,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "A Touch of Guile",
+    "icon": "",
+    "description": "Touch Hex Spell. Deals {{ArmorignoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down.",
+    "type": "Touch Hex Spell",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "ArmorignoringDamage": {
+          "0": 44,
+          "1": 51,
+          "2": 58,
+          "3": 66,
+          "4": 73,
+          "5": 80,
+          "6": 80,
+          "7": 80,
+          "8": 80,
+          "9": 80,
+          "10": 80
+        },
+        "Duration": {
+          "0": 5,
+          "1": 6,
+          "2": 6,
+          "3": 7,
+          "4": 7,
+          "5": 8,
+          "6": 8,
+          "7": 8,
+          "8": 8,
+          "9": 8,
+          "10": 8
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0.75,
+    "recharge": 15,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Club of a Thousand Bears",
+    "icon": "",
+    "description": "Melee Attack. Deals +{{DamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human.",
+    "type": "Melee Attack",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "DamagePerFoe": {
+          "0": 6,
+          "1": 7,
+          "2": 7,
+          "3": 8,
+          "4": 8,
+          "5": 9,
+          "6": 9,
+          "7": 9,
+          "8": 9,
+          "9": 9,
+          "10": 9
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 12,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Feel No Pain",
+    "icon": "",
+    "description": "Skill. (30 seconds.) You have +{{HealthRegeneration}} Health regeneration. You have +{{ConditionalMaximumHealth}} maximum Health if you are drunk when activating this skill.",
+    "type": "Skill",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "HealthRegeneration": {
+          "0": 2,
+          "1": 2,
+          "2": 2,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3
+        },
+        "ConditionalMaximumHealth": {
+          "0": 200,
+          "1": 220,
+          "2": 240,
+          "3": 260,
+          "4": 280,
+          "5": 300,
+          "6": 300,
+          "7": 300,
+          "8": 300,
+          "9": 300,
+          "10": 300
+        }
+      }
+    },
+    "costs": {
+      "energy": 5,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 20,
+    "isElite": false,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Raven Blessing",
+    "icon": "",
+    "description": "Elite Form. You lose all effects and take on the aspect of the Raven (60 seconds). All your attributes are set to 0 and raven attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health, and a {{BlockChancePercent}}% block chance.",
+    "type": "Elite Form",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "MaximumHealth": {
+          "0": 660,
+          "1": 668,
+          "2": 676,
+          "3": 684,
+          "4": 692,
+          "5": 700,
+          "6": 700,
+          "7": 700,
+          "8": 700,
+          "9": 700,
+          "10": 700
+        },
+        "BlockChancePercent": {
+          "0": 20,
+          "1": 22,
+          "2": 24,
+          "3": 26,
+          "4": 28,
+          "5": 30,
+          "6": 30,
+          "7": 30,
+          "8": 30,
+          "9": 30,
+          "10": 30
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 60,
+    "isElite": true,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Ursan Blessing",
+    "icon": "",
+    "description": "Elite Form. You lose all effects and take on the aspect of the bear (60 seconds). All your attributes are set to 0 and bear attacks replace your skills, and you have 100 armor and {{MaximumHealth}} Health.",
+    "type": "Elite Form",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "MaximumHealth": {
+          "0": 750,
+          "1": 760,
+          "2": 770,
+          "3": 780,
+          "4": 790,
+          "5": 800,
+          "6": 800,
+          "7": 800,
+          "8": 800,
+          "9": 800,
+          "10": 800
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 60,
+    "isElite": true,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  },
+  {
+    "name": "Volfen Blessing",
+    "icon": "",
+    "description": "Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{HealthRegeneration}} Health regeneration.",
+    "type": "Elite Form",
+    "profession": null,
+    "attribute": {
+      "name": "Norn rank",
+      "progression": {
+        "MaximumHealth": {
+          "0": 660,
+          "1": 668,
+          "2": 676,
+          "3": 684,
+          "4": 692,
+          "5": 700,
+          "6": 700,
+          "7": 700,
+          "8": 700,
+          "9": 700,
+          "10": 700
+        },
+        "HealthRegeneration": {
+          "0": 2,
+          "1": 2,
+          "2": 3,
+          "3": 3,
+          "4": 4,
+          "5": 4,
+          "6": 4,
+          "7": 4,
+          "8": 4,
+          "9": 4,
+          "10": 4
+        }
+      }
+    },
+    "costs": {
+      "energy": 10,
+      "adrenaline": null,
+      "upkeep": null,
+      "sacrifice": null,
+      "overcast": null
+    },
+    "activation": 0,
+    "recharge": 60,
+    "isElite": true,
+    "campaign": "Eye of the North",
+    "limitation": "PvE-only"
+  }
+]
