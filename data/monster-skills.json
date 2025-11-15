@@ -4,7 +4,7 @@
     "icon": "",
     "description": "Elite Shout. You steal 50 Health from allies within earshot. These allies move 50% faster for 20 seconds.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -24,7 +24,7 @@
     "icon": "",
     "description": "Elite Spell. Summon a level 20 Invisible Pony. This summoned pony prances to target foe. This pony lasts 60 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -44,7 +44,7 @@
     "icon": "",
     "description": "Elite Shout. Let out a maniacal cackle. Foes within earshot are struck for 100 damage, and suffer from Dazed for 5 seconds",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -64,7 +64,7 @@
     "icon": "",
     "description": "Elite Shout. Scream insults at your army. For 10 seconds they have 8 Health regeneration, and move and attack 33% faster.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -84,7 +84,7 @@
     "icon": "",
     "description": "Elite Spell. Target foe and nearby foes are struck for 200 damage and suffer from Dazed for 5 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -104,7 +104,7 @@
     "icon": "",
     "description": "Elite Spell. Steal up to 500 health from target ally.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -124,7 +124,7 @@
     "icon": "",
     "description": "Skill.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -144,7 +144,7 @@
     "icon": "",
     "description": "Deals damage to nearby foes when Afflicted creature dies.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -164,7 +164,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -184,7 +184,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -204,7 +204,7 @@
     "icon": "",
     "description": "Caster is immune to Burning.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -224,7 +224,7 @@
     "icon": "",
     "description": "As long as this spell remains in effect, magical shackles bind you as a slave to the Stone Summit.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -244,7 +244,7 @@
     "icon": "",
     "description": "When an Afflicted Mesmer dies, all foes in the area lose 2 enchantments. Foes takes 25...57...65 damage and loses 1...3...4 Energy for each enchantment lost.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -264,7 +264,7 @@
     "icon": "",
     "description": "This creature creates fungal spore every 10 seconds while turtled.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -284,7 +284,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -304,7 +304,7 @@
     "icon": "",
     "description": "When an Afflicted Necromancer dies, all foes in the area are struck for 25...57...65 dark damage, lose 1...3...4 enchantments, and suffer from Disease and Weakness (10 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -324,7 +324,7 @@
     "icon": "",
     "description": "Dhuum does cool stuff.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -344,7 +344,7 @@
     "icon": "",
     "description": "Whenever Duncan the Black takes damage, Duncan's Defense deals 100% of the damage back to the source.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -364,7 +364,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -384,7 +384,7 @@
     "icon": "",
     "description": "The emperor suffers Health degeneration for 30 minutes.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -404,7 +404,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -424,7 +424,7 @@
     "icon": "",
     "description": "When an Afflicted Ritualist dies, all foes within spirit range take 50...66...70 damage. Summoned creatures take double damage and begin burning (4...6...7 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -444,7 +444,7 @@
     "icon": "",
     "description": "Skill. (monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -464,7 +464,7 @@
     "icon": "",
     "description": "While on your side, you take +X damage when you take damage, where X is twice your level.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -484,7 +484,7 @@
     "icon": "",
     "description": "Insects have a 25% chance of resurrecting when killed. Insects are resurrected with 25% Health and Energy.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -504,7 +504,7 @@
     "icon": "",
     "description": "When an Afflicted Elementalist dies, all foes in the area take 50...82...90 damage and begin burning (4...6...7 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -524,7 +524,7 @@
     "icon": "",
     "description": "Spell. (monster only)",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -544,7 +544,7 @@
     "icon": "",
     "description": "This creature gains +16 to all attributes tied to a skill that the creature possesses.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -564,7 +564,7 @@
     "icon": "",
     "description": "Skill. You gain +1 Energy regeneration.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -584,7 +584,7 @@
     "icon": "",
     "description": "Spell. You are immune to damage and effects from fire darts while in the area of the worker golem.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -604,7 +604,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -624,7 +624,7 @@
     "icon": "",
     "description": "Creature has 50% chance to block attack [sic] while moving.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -644,7 +644,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -664,7 +664,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -684,7 +684,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -704,7 +704,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -724,7 +724,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -744,7 +744,7 @@
     "icon": "",
     "description": "Skill. No resurrection spell can save you now. Your account has been banned.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -764,7 +764,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -784,7 +784,7 @@
     "icon": "",
     "description": "This aura is a passive buff that loops consistently on an Inscribed Ettin, signifying that this creature is inscribed.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -804,7 +804,7 @@
     "icon": "",
     "description": "Skill. P.O.X uses internal powering devices to gain 2 Health regeneration.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -824,7 +824,7 @@
     "icon": "",
     "description": "Monster cannot be attacked.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -844,7 +844,7 @@
     "icon": "",
     "description": "Hex Spell. (12 seconds.) After the Blasphemy dies, its foes move 25% faster and take 50 damage when they are the target of a skill or attack.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -864,7 +864,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -884,7 +884,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -904,7 +904,7 @@
     "icon": "",
     "description": "This creature's critical hits cause Deep Wound and Bleeding.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -924,7 +924,7 @@
     "icon": "",
     "description": "Hex Spell. Mad King Thorn is pleased by your undying support. Survive his celebration for bonus treats!",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -944,7 +944,7 @@
     "icon": "",
     "description": "You are preferred target of your enemies.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -964,7 +964,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -984,7 +984,7 @@
     "icon": "",
     "description": "Controls N.O.X.'s functions.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1004,7 +1004,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1024,7 +1024,7 @@
     "icon": "",
     "description": "Skill. (null)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1044,7 +1044,7 @@
     "icon": "",
     "description": "When an Afflicted Ranger dies, it creates a Plague Spring at its location (10 seconds). Every 2 seconds, nearby Afflicted are healed for 35...64...71, and foes in the area take 35...64...71 damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1064,7 +1064,7 @@
     "icon": "",
     "description": "When an Afflicted Monk dies, all foes in the area are struck for 25...57...65 damage. Afflicted in the area are healed for 50...114...130 and lose 1 hex and 1 condition.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1084,7 +1084,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1104,7 +1104,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1124,7 +1124,7 @@
     "icon": "",
     "description": "Whenever any of Selvetarm's allies are nearby, Selvetarm takes no damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1144,7 +1144,7 @@
     "icon": "",
     "description": "Skill. Damage you take from spirits is reduced by 50%.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1164,7 +1164,7 @@
     "icon": "",
     "description": "If this creature's attack hits, target foe takes an additional 150 damage and Shadow Steps in a random direction.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1184,7 +1184,7 @@
     "icon": "",
     "description": "When an Afflicted Assassin dies, all enemies in the area are struck for 25...57...65 damage, and all Afflicted in the area move and attack 25% faster (10...13...14 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1204,7 +1204,7 @@
     "icon": "",
     "description": "Caster can only be harmed by wurm siege.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1224,7 +1224,7 @@
     "icon": "",
     "description": "",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1244,7 +1244,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1264,7 +1264,7 @@
     "icon": "",
     "description": "Monster cannot be stunned.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1284,7 +1284,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1304,7 +1304,7 @@
     "icon": "",
     "description": "Attacks hit 2 additional adjacent foes.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1324,7 +1324,7 @@
     "icon": "",
     "description": "Monster is immune to damage from all sources except Flux Energy.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1344,7 +1344,7 @@
     "icon": "",
     "description": "Skill. A Tengu is watching you intently.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1364,7 +1364,7 @@
     "icon": "",
     "description": "Skill. -2 Health degeneration. This effect lasts until Brother Tosai removes it.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1384,7 +1384,7 @@
     "icon": "",
     "description": "All of Thommis's attacks cause Burning for 5 seconds. Whenever Thommis strikes a Burning foe, he gains 100 Health.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1404,7 +1404,7 @@
     "icon": "",
     "description": "Skill. Conditions and hexes on you expire 50% faster.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1424,7 +1424,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1444,7 +1444,7 @@
     "icon": "",
     "description": "Stance. Reduces damage from non-critical hits.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1464,7 +1464,7 @@
     "icon": "",
     "description": "When an Afflicted Warrior dies, all nearby foes are struck for 50...82...90 blunt damage. They are knocked down and lose their current stance.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1484,7 +1484,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1504,7 +1504,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1524,7 +1524,7 @@
     "icon": "",
     "description": "Skill. No resurrection spell can save you now. Your account has been banned.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1544,7 +1544,7 @@
     "icon": "",
     "description": "(monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1564,7 +1564,7 @@
     "icon": "",
     "description": "Attack. (monster only) (5 seconds.) +10 Health regeneration. Deals 25 damage to foes in earshot and causes knock-down.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -1584,7 +1584,7 @@
     "icon": "",
     "description": "Attack. Brutal Mauling",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1604,7 +1604,7 @@
     "icon": "",
     "description": "Attack. (monster only)",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -1624,7 +1624,7 @@
     "icon": "",
     "description": "Attack. Deals 300 lightning damage and causes knock-down. Dark Chain Lightning then hits each nearest foe in succession, knocking-down each foe and doing 10% less damage each time.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -1644,7 +1644,7 @@
     "icon": "",
     "description": "Attack. Deals 100 blunt damage and causes knock-down to foes in the area of target. 80 earth damage to surrounding foes.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1664,7 +1664,7 @@
     "icon": "",
     "description": "Attack. (30 seconds.) Deals 15 earth damage every second to all foes in the area. Any foe using a skill when struck is knocked-down.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1684,7 +1684,7 @@
     "icon": "",
     "description": "Attack. (30 seconds.) Deals 50 cold damage every 3 seconds to all foes in the area. Any foe moving when struck moves 90% slower (10 seconds).",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -1704,7 +1704,7 @@
     "icon": "",
     "description": "Attack. Causes knock-down and deals 25 damage to foes in range.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -1724,7 +1724,7 @@
     "icon": "",
     "description": "Attack. (monster only) Removes one enchantment. Removal effect: you gain 100 Health and 5 Energy.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -1744,7 +1744,7 @@
     "icon": "",
     "description": "Attack. Steal 30 Health for each condition on target foe. This foe randomly gains two of the following conditions (15 seconds): Poisoned, Bleeding, Diseased, Deep Wound, Crippled, Weakness, or Dazed. This skill cannot be disabled.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1764,7 +1764,7 @@
     "icon": "",
     "description": "Attack. Deals 100 damage and knocks-down players in the area (4 seconds). If a player is carrying a bundle item, that bundle item is destroyed. This skill cannot be disabled.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1784,7 +1784,7 @@
     "icon": "",
     "description": "Attack. Shift forms to attack.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1804,7 +1804,7 @@
     "icon": "",
     "description": "Attack. Damages creatures at the impact site.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1824,7 +1824,7 @@
     "icon": "",
     "description": "Attack. The next time you land a physical attack, you sacrifice all of your Health and target foe loses all Energy.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1844,7 +1844,7 @@
     "icon": "",
     "description": "Attack. The next time you land a physical attack, you sacrifice all of your Health and target foe loses all Health.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1864,7 +1864,7 @@
     "icon": "",
     "description": "Attack. Causes knock-down. Ends a stance and disables it (5 seconds). Unblockable.",
     "type": "Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1884,7 +1884,7 @@
     "icon": "",
     "description": "Melee Attack. Deals +50 damage. Knocks down foe. Initial Effect: Removes blind condition and ends target foe's stance.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1904,7 +1904,7 @@
     "icon": "",
     "description": "Melee Attack. Steal 75 Health.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1924,7 +1924,7 @@
     "icon": "",
     "description": "Melee Attack. Remove one enchantment. Deals 400 fire damage split evenly among target and adjacent foes; you gain life equal to damage done to one target.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1944,7 +1944,7 @@
     "icon": "",
     "description": "Melee Attack. Target foe takes +100 damage, is knocked down, and on fire for 5 seconds.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1964,7 +1964,7 @@
     "icon": "",
     "description": "Melee Attack. Toma instantly kills any enemy that is at 20% Health. This lowers Toma's hunger level meter.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -1984,7 +1984,7 @@
     "icon": "",
     "description": "Melee Attack. Deals 180 damage and inflicts Dazed condition (3 seconds).",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2004,7 +2004,7 @@
     "icon": "",
     "description": "Melee Attack. (5 seconds.) This attack inflicts -1 Health degeneration and you gain + 1 Health regeneration.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2024,7 +2024,7 @@
     "icon": "",
     "description": "Scythe Attack. Dhuum deals 200 damage to a new target with each strike. Dhuum only strikes a foe once in this way and will stop this attack after the fourth strike or when no eligible targets are within the area of his last strike. Dhuum is untargetable during this attack.",
     "type": "Scythe Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2044,7 +2044,7 @@
     "icon": "",
     "description": "Melee Attack. This attack removes 2 hexes on target boss. Removal effect: +50 damage for each hex removed.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2064,7 +2064,7 @@
     "icon": "",
     "description": "Melee Attack. Deals 100 damage.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2084,7 +2084,7 @@
     "icon": "",
     "description": "Melee Attack. Deals 225 damage and causes knock-down.",
     "type": "Melee Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2104,7 +2104,7 @@
     "icon": "",
     "description": "Dual Attack. Target is Poisoned (20 seconds). Deals +80 damage if target foe has a Deep Wound.",
     "type": "Dual Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2124,7 +2124,7 @@
     "icon": "",
     "description": "Scythe Attack. (5 seconds.) Target foe moves and attacks 90% slower, has tripled casting times, benefits 75% less from healing, and has -10 Health degeneration.",
     "type": "Scythe Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2144,7 +2144,7 @@
     "icon": "",
     "description": "Off-Hand Attack. Deals +50 damage. Inflicts Weakness (20 seconds).",
     "type": "Off-Hand Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2164,7 +2164,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 5...15...17 damage. Double damage to hexed foes.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Communing",
     "costs": {
       "energy": null,
@@ -2184,7 +2184,7 @@
     "icon": "",
     "description": "Ranged Attack. Steals 5...21...25 Health.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Channeling Magic",
     "costs": {
       "energy": null,
@@ -2204,7 +2204,7 @@
     "icon": "",
     "description": "Bow Attack. A Bone Spike shoots out, dealing 100 damage to target foe. The Bone Spike seems to penetrate all defenses.",
     "type": "Bow Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2224,7 +2224,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 5...17...20 damage. Removes one enchantment.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Communing",
     "costs": {
       "energy": null,
@@ -2244,7 +2244,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 5...17...20 damage. Interrupts actions.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Communing",
     "costs": {
       "energy": null,
@@ -2264,7 +2264,7 @@
     "icon": "",
     "description": "Bow Attack. A flurry of Bone Splinters shoots out, hitting target foe and up to 5 foes in longbow range for 35 damage per hit over 3 seconds. The Bone Splinters seem to penetrate all defenses.",
     "type": "Bow Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 15,
@@ -2284,7 +2284,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 5...17...20 damage.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Channeling Magic",
     "costs": {
       "energy": null,
@@ -2304,7 +2304,7 @@
     "icon": "",
     "description": "Spear Attack. Deals 60 holy damage and interrupts target and 3 foes within the area.",
     "type": "Spear Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2324,7 +2324,7 @@
     "icon": "",
     "description": "Bow Attack. Deals +50 damage to target foe. Inflicts Bleeding (25 seconds). 25% chance of dealing +900 damage.",
     "type": "Bow Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -2344,7 +2344,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 5...25...30 damage.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Communing",
     "costs": {
       "energy": null,
@@ -2364,7 +2364,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 5...17...20 damage.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Channeling Magic",
     "costs": {
       "energy": null,
@@ -2384,7 +2384,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 28...30...32 damage.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Channeling Magic",
     "costs": {
       "energy": null,
@@ -2404,7 +2404,7 @@
     "icon": "",
     "description": "Ranged Attack. Deals 5...17...20 damage. Inflict Blindness condition (1...5...6 seconds).",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Communing",
     "costs": {
       "energy": null,
@@ -2424,7 +2424,7 @@
     "icon": "",
     "description": "Bow Attack. Deals +1...11 damage. Hits two foes near your target.",
     "type": "Bow Attack",
-    "profession": "Monster",
+    "profession": "Ranger",
     "attribute": "Marksmanship",
     "costs": {
       "energy": 10,
@@ -2444,7 +2444,7 @@
     "icon": "",
     "description": "Ranged Attack. If target foe is under the effect of The Master's Mark, this attack deals +120 damage, causes knock-down and inflicts a Deep Wound (20 seconds). This attack is unblockable.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2464,7 +2464,7 @@
     "icon": "",
     "description": "Ranged Attack. Steals 10...20 Health.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": null,
     "attribute": "Sunspear rank",
     "costs": {
       "energy": null,
@@ -2484,7 +2484,7 @@
     "icon": "",
     "description": "Ranged Attack. Causes knock-down to stationary foes. Knock-down cost: this spirit loses 70...54...50 Health.",
     "type": "Ranged Attack",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Communing",
     "costs": {
       "energy": null,
@@ -2504,7 +2504,7 @@
     "icon": "",
     "description": "Spell. Heals for 75. Grants a 1% morale boost.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2524,7 +2524,7 @@
     "icon": "",
     "description": "Spell. All Minions of Zoldark are resurrected with 100% Health and 50% Energy.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2544,7 +2544,7 @@
     "icon": "",
     "description": "Spell. All Palawa Joko's minions are resurrected with 100% Health and 50% Energy.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2564,7 +2564,7 @@
     "icon": "",
     "description": "Spell. (9 seconds.) Hits foes adjacent to target's location. Deals 120 fire damage each second. Causes knock-down every 3 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2584,7 +2584,7 @@
     "icon": "",
     "description": "Spell. All enchantments are removed from target foe. For each enchantment removed in this way, one skill is disabled on all foes (6 seconds).",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2604,7 +2604,7 @@
     "icon": "",
     "description": "Spell. Projectile: 30 damage and inflicts a random condition (15 seconds).",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2624,7 +2624,7 @@
     "icon": "",
     "description": "Spell. Deals 250 damage to all foes near the impact area and causes knockdown.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2644,7 +2644,7 @@
     "icon": "",
     "description": "Spell. Deals 150 damage to all adjacent foes.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2664,7 +2664,7 @@
     "icon": "",
     "description": "Spell. Blast Furnace",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2684,7 +2684,7 @@
     "icon": "",
     "description": "Spell. Creates a blizzard. Deals 50 cold damage each second. Applies Cripple and Blind (5 seconds). Hits foes adjacent to target's initial location.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2704,7 +2704,7 @@
     "icon": "",
     "description": "Spell. (monster only)",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2724,7 +2724,7 @@
     "icon": "",
     "description": "Spell. Magical barriers put in place by a zu Heltzer family member are opened.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2744,7 +2744,7 @@
     "icon": "",
     "description": "Spell. Creature causes debris to fall from the ceiling, dealing 50 damage and interrupting all foes within earshot.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -2764,7 +2764,7 @@
     "icon": "",
     "description": "Spell. Chomper",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2784,7 +2784,7 @@
     "icon": "",
     "description": "Spell. Decreases the flame progress bar by 15 points.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2804,7 +2804,7 @@
     "icon": "",
     "description": "Spell. (30 seconds.) Create 6 corrupted scale creatures around target foe. Foes within their range attack 50% slower and have -10 Health degeneration.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2824,7 +2824,7 @@
     "icon": "",
     "description": "Spell. (30 seconds.) Create 6 corrupted spore creatures around target foe. Foes within their range take twice as long to cast spells and have -2 Health degeneration.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2844,7 +2844,7 @@
     "icon": "",
     "description": "Spell. Heal one corrupted root for 300. Caster is also fully healed.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2864,7 +2864,7 @@
     "icon": "",
     "description": "Spell. Shadow Step to target foe. Heals you for 250.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2884,7 +2884,7 @@
     "icon": "",
     "description": "Spell. Channel energy into putting Dhuum to Rest. Easily interrupted.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2904,7 +2904,7 @@
     "icon": "",
     "description": "Spell. Frozen condensation coalesces into spikes of ice, deals 140 damage, and inflicts the Bleeding condition (10 seconds).",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -2924,7 +2924,7 @@
     "icon": "",
     "description": "Spell. Condensation in the air freezes into glittering shards. While in this area, you move 33% slower.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2944,7 +2944,7 @@
     "icon": "",
     "description": "Spell. Sacrifice target undead servant to gain 300 Health.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2964,7 +2964,7 @@
     "icon": "",
     "description": "Spell. Steal 30 Health for each hex on target foe.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -2984,7 +2984,7 @@
     "icon": "",
     "description": "Spell. Summons a level 20 assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. The assassin lives for 20 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -3004,7 +3004,7 @@
     "icon": "",
     "description": "Spell. Inflicts Poison, Disease, and Weakness conditions (10 seconds); you teleport to a random nearby location.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -3024,7 +3024,7 @@
     "icon": "",
     "description": "Spell. Deals 125 damage. Disables Dhuum's Rest for 10 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3044,7 +3044,7 @@
     "icon": "",
     "description": "Spell. Surrounds the caster with a vortex of phantoms.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3064,7 +3064,7 @@
     "icon": "",
     "description": "Spell. Self destruct, dealing 750 damage to adjacent foes, 500 damage to nearby foes and 250 damage to foes in the area",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -3084,7 +3084,7 @@
     "icon": "",
     "description": "Spell. Deals 50 damage, causes knock-down, and then deals an additional 150 damage. Affects foes in the area.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3104,7 +3104,7 @@
     "icon": "",
     "description": "Spell. For 4 seconds, Dhuum deals 75 damage each second to foes in spirit range.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3124,7 +3124,7 @@
     "icon": "",
     "description": "Spell. Heals target other ally for 150 health and removes a hex. Removal effect: 80 damage to adjacent foes.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3144,7 +3144,7 @@
     "icon": "",
     "description": "Spell. (12 seconds.) Zoldark gains +10 armor and +5% maximum Health for each Minion of Zoldark that is alive.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3164,7 +3164,7 @@
     "icon": "",
     "description": "Spell. Create an illusory copy of target foe to fight on your behalf.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3184,7 +3184,7 @@
     "icon": "",
     "description": "Spell. Deals 90 damage to all foes and inflicts Poison, Disease, Bleeding, Crippled, and Weakness conditions (10 seconds). 1 Servants of Murakai come to her aid.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3204,7 +3204,7 @@
     "icon": "",
     "description": "Spell. Murakai's Call summons 3 undead servants.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3224,7 +3224,7 @@
     "icon": "",
     "description": "Spell. Deals 80 damage to all foes and inflicts Poison and Disease (10 seconds).",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3244,7 +3244,7 @@
     "icon": "",
     "description": "Spell. Murakai steals 60 Health from all foes in the target's location. Murakai's Power meter rises by 20 for each foe struck.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3264,7 +3264,7 @@
     "icon": "",
     "description": "Spell. Deal 100 damage to all foes, causes knock-down, and inflicts Poison, Disease, Bleeding, Burning, Crippled, Weakness, Blindness, Dazed, Deep Wound, and Cracked Armor conditions (10 seconds). 1 Servants of Murakai [sic] come to her aid.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3284,7 +3284,7 @@
     "icon": "",
     "description": "Spell. Deals 200 damage to all targets in a line.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3304,7 +3304,7 @@
     "icon": "",
     "description": "Spell. Deals 900 damage, divided among target and all nearby foes.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3324,7 +3324,7 @@
     "icon": "",
     "description": "Spell. Deals 150 damage to all adjacent foes, plus 150 additional damage for each active Fire Bit.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3344,7 +3344,7 @@
     "icon": "",
     "description": "Spell. Deals +150 damage to target and adjacent foes.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3364,7 +3364,7 @@
     "icon": "",
     "description": "Spell. 2 projectiles strike target foe for 100 damage. This skill hits one additional foe for each Thunder Bit.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3384,7 +3384,7 @@
     "icon": "",
     "description": "Spell. Deals 350 damage to target foe.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3404,7 +3404,7 @@
     "icon": "",
     "description": "Spell. (monster only) Heal Guild Lord for 200.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3424,7 +3424,7 @@
     "icon": "",
     "description": "Spell. Only those of royal blood can pass through the defenses of the emperor's palace.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3444,7 +3444,7 @@
     "icon": "",
     "description": "Spell. (15 seconds.) All Minions of Zoldark attack 33% faster.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3464,7 +3464,7 @@
     "icon": "",
     "description": "Spell. (15 seconds.) Palawa Joko's minions attack 33% faster.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3484,7 +3484,7 @@
     "icon": "",
     "description": "Spell. (15 seconds.) All Minions of Zoldark have +3 Health regeneration and steal 15 Health each time they hit with an attack.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3504,7 +3504,7 @@
     "icon": "",
     "description": "Spell. (15 seconds.) Palawa Joko's minions have +3 Health regeneration and steal 15 Health each time they hit with an attack.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3524,7 +3524,7 @@
     "icon": "",
     "description": "Spell. The magical protections sealing Tahnnakai Temple temporarily lift, allowing passage into the interior.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3544,7 +3544,7 @@
     "icon": "",
     "description": "Spell. Projectile. Target foe takes 100 damage. Nearby foes takes 50 damage.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -3564,7 +3564,7 @@
     "icon": "",
     "description": "Spell. Projectile. Target foe takes 75 damage.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3584,7 +3584,7 @@
     "icon": "",
     "description": "Spell. Send out flares that strike any foes in the area for 0 fire damage if they hit. Target is then poisoned for 15 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3604,7 +3604,7 @@
     "icon": "",
     "description": "Spell. Remove an enchantment from all nearby foes. Steal 1 energy from foes who lose an enchantment.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3624,7 +3624,7 @@
     "icon": "",
     "description": "Spell. All friendly spirits within earshot gain +1 health regeneration for 3 seconds. All enemy spirits within earshot burn for 3 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -3644,7 +3644,7 @@
     "icon": "",
     "description": "Spell. Create a Purifying Flame at your location. Deals 10...10...10 damage to foes in the area (5 seconds). When Purifying Flame ends, foes in the area lose 1 enchantment, and allies in the area lose 1 hex.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 15,
@@ -3664,7 +3664,7 @@
     "icon": "",
     "description": "Spell. Removes 2...4...4 hexes and 2...4...4 conditions from target ally. For each hex removed, 1 foe near target ally loses an enchantment.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3684,7 +3684,7 @@
     "icon": "",
     "description": "Spell. Deals 100 fire damage; inflicts Poisoned and Diseased conditions (10 seconds); affects adjacent foes.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3704,7 +3704,7 @@
     "icon": "",
     "description": "Spell. P.O.X sets off explosion in the area which deals 200 damage, causes knock down, and inflicts Burning (10 seconds).",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3724,7 +3724,7 @@
     "icon": "",
     "description": "Spell. Target minion is destroyed and replaced with a level 12 Spirit of Pain. This spirit deals 30 damage and dies after 150 seconds.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3744,7 +3744,7 @@
     "icon": "",
     "description": "Spell. Resurrect target (25% Health and zero Energy.)",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3764,7 +3764,7 @@
     "icon": "",
     "description": "Spell. Resurrect target (25% Health and zero Energy.) [sic]",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -3784,7 +3784,7 @@
     "icon": "",
     "description": "Spell. Living creatures in the shield have -50 armor against fire damage.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3804,7 +3804,7 @@
     "icon": "",
     "description": "Spell. Infantryman Hareh compels the dead to rise and do his bidding.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3824,7 +3824,7 @@
     "icon": "",
     "description": "Spell. Slow projectile: deals 0 damage.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3844,7 +3844,7 @@
     "icon": "",
     "description": "Spell. Damages creatures in range.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3864,7 +3864,7 @@
     "icon": "",
     "description": "Spell. Damages creatures in range.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3884,7 +3884,7 @@
     "icon": "",
     "description": "Spell. (monster only)",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3904,7 +3904,7 @@
     "icon": "",
     "description": "Spell. Deals 25 damage and inflicts Crippled condition (10 seconds).",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3924,7 +3924,7 @@
     "icon": "",
     "description": "Spell. Target spirit loses all Energy. You gain 15...27...30% of that Energy.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Channeling Magic",
     "costs": {
       "energy": 5,
@@ -3944,7 +3944,7 @@
     "icon": "",
     "description": "Spell. Target character is restored to full Health and full Energy.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -3964,7 +3964,7 @@
     "icon": "",
     "description": "Spell. All Charr max Health reduced by 100.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -3984,7 +3984,7 @@
     "icon": "",
     "description": "Spell. Summon a Champion of Dhuum.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4004,7 +4004,7 @@
     "icon": "",
     "description": "Spell. Summon Minions of Dhuum.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4024,7 +4024,7 @@
     "icon": "",
     "description": "Spell. Any nearby rifts or altars become much more Tormented.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4044,7 +4044,7 @@
     "icon": "",
     "description": "Spell. Shoot arrows at up to 6 foes adjacent to target. These arrows strike for +15 and cause Cripple if they hit.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4064,7 +4064,7 @@
     "icon": "",
     "description": "Spell. Slow projectile: deals 100 damage. You gain 1 strike of adrenaline.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4084,7 +4084,7 @@
     "icon": "",
     "description": "Spell. Caster resurrects the nearest Anguished Soul.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -4104,7 +4104,7 @@
     "icon": "",
     "description": "Spell. Deals 150 damage to all foes in the area.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4124,7 +4124,7 @@
     "icon": "",
     "description": "Spell. (monster only)",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4144,7 +4144,7 @@
     "icon": "",
     "description": "Spell. Damages creatures at the impact site.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4164,7 +4164,7 @@
     "icon": "",
     "description": "Spell. Projectile: damages foes in range.",
     "type": "Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4184,7 +4184,7 @@
     "icon": "",
     "description": "Enchantment Spell. (10 seconds.) Target cannot lose Health.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4204,7 +4204,7 @@
     "icon": "",
     "description": "Enchantment Spell. (3 seconds.) Target ally gains 100 Health each second. End effect: you are healed for 300 if skill ends normally. This skill cannot be disabled. Cannot self-target.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4224,7 +4224,7 @@
     "icon": "",
     "description": "Enchantment Spell. Heals N.O.X. for 10 every second.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4244,7 +4244,7 @@
     "icon": "",
     "description": "Enchantment Spell. (30 seconds.) When a nearby ally uses a skill, that ally is cured of Miasma or one condition.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4264,7 +4264,7 @@
     "icon": "",
     "description": "Enchantment Spell. Your skills recharge 50% faster, spells you cast cost 50% less Energy, and your movement speed is increased by 50%.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4284,7 +4284,7 @@
     "icon": "",
     "description": "Enchantment Spell. The ettin conjures a shield that absorbs 250 damage. The ettin can cast spells but not attack.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4304,7 +4304,7 @@
     "icon": "",
     "description": "Enchantment Spell. (30 seconds.) This demon creature has 100% chance to double strike when attacking in melee.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4324,7 +4324,7 @@
     "icon": "",
     "description": "Enchantment Spell. (monster only) (5 seconds.) +10 Health regeneration.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4344,7 +4344,7 @@
     "icon": "",
     "description": "Enchantment Spell. (10 seconds.) 50% chance to block and spells targeting this creature have 50% chance to fail. If Nightmare Refuge lasts its full duration, it heals Kanaxai for 1,000.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4364,7 +4364,7 @@
     "icon": "",
     "description": "Enchantment Spell. Powerful spiritual energy consumes your wurm's body and enables you to battle with maddened spirits and reduces the effectiveness of the maddened spirits' attacks by 75%.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4384,7 +4384,7 @@
     "icon": "",
     "description": "Enchantment Spell. (10...50...60 seconds.) Your undead servants have +10 Health regeneration. End effect: all of your servants die.",
     "type": "Enchantment Spell",
-    "profession": "Monster",
+    "profession": "Necromancer",
     "attribute": "Blood Magic",
     "costs": {
       "energy": 15,
@@ -4404,7 +4404,7 @@
     "icon": "",
     "description": "Hex Spell. Any time the caster takes damage, all foes hexed with Bonds of Torment take equal cold damage.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -4424,7 +4424,7 @@
     "icon": "",
     "description": "Hex Spell. (20 seconds.) Target loses 20 Health each second. Ends sooner if target is at less than 20% Health.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4444,7 +4444,7 @@
     "icon": "",
     "description": "Hex Spell. Quarter speed projectile: target and foes in the area move slower (10 seconds).",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -4464,7 +4464,7 @@
     "icon": "",
     "description": "Hex Spell. (monster only) Remove 1 enchantment. Target foe has reduced movement (15 seconds) and may not be the target of enchantments.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4484,7 +4484,7 @@
     "icon": "",
     "description": "Hex Spell. (monster only) (30 seconds.) Also affects foes near target. Causes -1 Energy degeneration. Causes 10 Overcast whenever foes use an Energy skill.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4504,7 +4504,7 @@
     "icon": "",
     "description": "Hex Spell. (10 seconds.) You move 50% slower. You take 100 damage if this hex ends before it is removed.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4524,7 +4524,7 @@
     "icon": "",
     "description": "Hex Spell. Target foe loses all enchantments each time this foe loses an enchantment.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4544,7 +4544,7 @@
     "icon": "",
     "description": "Hex Spell. (20 seconds.) Also hexes nearby foes. The next skill used by target foes cost 25 Energy and recharges in 90 seconds.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4564,7 +4564,7 @@
     "icon": "",
     "description": "Hex Spell. N.O.X. Phantom hexes target foe, plus one additional foe for each Phantom Bit. Any targets already hexed with this skill take 200 damage and lose the hex.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4584,7 +4584,7 @@
     "icon": "",
     "description": "Hex Spell. (20 seconds.) -2 from your non-zero Attributes.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4604,7 +4604,7 @@
     "icon": "",
     "description": "Hex Spell. Target foe is Marked and can no longer evade attacks.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4624,7 +4624,7 @@
     "icon": "",
     "description": "Hex Spell. Launches a net. If it hits, your target is knocked down, and their movement speed is -66% for 10 seconds.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -4644,7 +4644,7 @@
     "icon": "",
     "description": "Hex Spell. Projectile: target and nearby foes are Crippled and activate skills 100% slower (15 seconds.)",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4664,7 +4664,7 @@
     "icon": "",
     "description": "Hex Spell. (3 seconds.) Hide in the Spirit World and hex all foes with -2 Energy degeneration. For each foe hexed, gain 75 Health.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4684,7 +4684,7 @@
     "icon": "",
     "description": "Hex Spell. (5 seconds) P.O.X. attempting [sic] to acquire target. End effect: inflicts Dazed, Weakness, and Burning (15 seconds).",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4704,7 +4704,7 @@
     "icon": "",
     "description": "Hex Spell. (24 seconds.) Causes -1 Health degeneration. This hex ends if target foe is hit with The Sniper's Spear.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4724,7 +4724,7 @@
     "icon": "",
     "description": "Touch Hex Spell. (4 seconds.) Causes -12 Health degeneration; 25% chance to miss.",
     "type": "Touch Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4744,7 +4744,7 @@
     "icon": "",
     "description": "Half Range Hex Spell. Causes knock-down (3 seconds); inflicts a Deep Wound (10 seconds).",
     "type": "Half Range Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4764,7 +4764,7 @@
     "icon": "",
     "description": "Hex Spell. For 5 seconds, target foe moves and attacks 90% slower, has tripled casting times, benefits 75% less from healing, and has -10 Health degeneration.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4784,7 +4784,7 @@
     "icon": "",
     "description": "Hex Spell. (15 seconds.) Foes within earshot each have a random skill disabled (30 seconds) and take 20 damage for each of their skills currently recharging. End effect: their skills are recharged.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4804,7 +4804,7 @@
     "icon": "",
     "description": "Hex Spell. (20 seconds.) Deals 40 damage each second to nearby foes.",
     "type": "Hex Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4824,7 +4824,7 @@
     "icon": "",
     "description": "Flash Enchantment Spell. Your attacks deal +1...10...12 holy damage (10 seconds). Initial effect: all adjacent foes lose 1 enchantment. End effect: all adjacent foes lose one enchantment.",
     "type": "Flash Enchantment Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -4844,7 +4844,7 @@
     "icon": "",
     "description": "Ward Spell. (20 seconds.) Allies in this ward deal +15 damage and have +24 more armor. Spirits are unaffected.",
     "type": "Ward Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -4864,7 +4864,7 @@
     "icon": "",
     "description": "Half Range Spell. Deals 60 damage and causes knock-down. Initial effect: Shadow Step to target foe.",
     "type": "Half Range Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4884,7 +4884,7 @@
     "icon": "",
     "description": "Touch Spell. Touch target corpse to gain 20 Health.",
     "type": "Touch Spell",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -4904,7 +4904,7 @@
     "icon": "",
     "description": "Touch Spell. Touch a body of a fallen party member. Target party member is returned to life with 26...45% Health and 42...80% Energy.",
     "type": "Touch Spell",
-    "profession": "Monster",
+    "profession": "Monk",
     "attribute": "Healing Prayers",
     "costs": {
       "energy": 5,
@@ -4924,7 +4924,7 @@
     "icon": "",
     "description": "Touch Skill. Gain 500 Health. Destroy target smaller creature.",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -4944,7 +4944,7 @@
     "icon": "",
     "description": "Touch Skill. Causes knock-down (3 seconds). Inflicts Deep Wound condition (10 seconds).",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4964,7 +4964,7 @@
     "icon": "",
     "description": "Touch Skill. 50 damage. Causes knock-down (5 seconds).",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -4984,7 +4984,7 @@
     "icon": "",
     "description": "Touch Skill. The maddened spirit drains away 700 Health.",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5004,7 +5004,7 @@
     "icon": "",
     "description": "Touch Skill. Combine with another Ooze.",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5024,7 +5024,7 @@
     "icon": "",
     "description": "Touch Skill. Deals 80 piercing damage.",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5044,7 +5044,7 @@
     "icon": "",
     "description": "Touch Skill. Target foe loses all Enchantments. All Adjacent Foes are Knocked Down and struck for 150 damage. [sic]",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -5064,7 +5064,7 @@
     "icon": "",
     "description": "Touch Skill. Steal 100 Health from target foe. That foe receives 15% Death Penalty. If Touch of Dhuum steals health from a foe with 60% Death Penalty, that foe dies.",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5084,7 +5084,7 @@
     "icon": "",
     "description": "Touch Skill. Deals 80 damage; causes knock-down. Also hits adjacent foes.",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5104,7 +5104,7 @@
     "icon": "",
     "description": "Touch Skill. Steals 120 Health; inflicts a Deep Wound and Bleeding (10 seconds).",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 15,
@@ -5124,7 +5124,7 @@
     "icon": "",
     "description": "Touch Skill. Deals 133 damage to nearby foes when unstable ooze explodes.",
     "type": "Touch Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5144,7 +5144,7 @@
     "icon": "",
     "description": "Stance. (7 seconds.) Shiro's attacks gain life stealing equal to the highest damage he takes while in this stance.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5164,7 +5164,7 @@
     "icon": "",
     "description": "Stance. (5 seconds.) You move 25% faster. Your next attack deals +50 damage and causes knock-down to all adjacent foes. Ends when you hit with an attack.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5184,7 +5184,7 @@
     "icon": "",
     "description": "Stance. (10 seconds.) All corrupted plants in the area are invulnerable to physical and elemental damage.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5204,7 +5204,7 @@
     "icon": "",
     "description": "Stance. (10 seconds.) You attack 33% faster and cannot be knocked down. If hit with a knockdown, you gain 1 adrenaline and adjacent foes take 50 damage.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5224,7 +5224,7 @@
     "icon": "",
     "description": "Stance. (monster only) (5 seconds.) Your attacks cannot miss Rangers, remove enchantments from Monks, cause conditions on Warriors, interrupt Elementalists, and remove a hex when attacking Necromancers.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5244,7 +5244,7 @@
     "icon": "",
     "description": "Stance. (8 seconds.) You move 100% faster. Your next attack causes knock-down and this skill ends.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5264,7 +5264,7 @@
     "icon": "",
     "description": "Stance. (45 seconds.) Your melee attacks hit nearby foes. You gain +1,000 maximum Health and attack 33% faster.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -5284,7 +5284,7 @@
     "icon": "",
     "description": "Stance. (monster only) (10 seconds.) 100 damage to foes near you whenever you take physical damage.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5304,7 +5304,7 @@
     "icon": "",
     "description": "Stance. (30 seconds.) You move 33% faster. End effect: knocks-down adjacent foes (2 seconds). Ends if you use a skill.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5324,7 +5324,7 @@
     "icon": "",
     "description": "Stance. Creates illusory images of the caster.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5344,7 +5344,7 @@
     "icon": "",
     "description": "Stance. (10 seconds.) Move faster, knock aside foes, and deal 50 damage to them.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5364,7 +5364,7 @@
     "icon": "",
     "description": "Stance. (20 seconds.) If Kuunavang is in casting range when this creature dies, Kuunavang is healed for 500 Health.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5384,7 +5384,7 @@
     "icon": "",
     "description": "Stance. (20 seconds.) Shiro Shadow Steps to the next foe who attacks target and attempts a return attack. If this attack hits, Riposting Shadows is renewed.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5404,7 +5404,7 @@
     "icon": "",
     "description": "Stance. (15 seconds.) You cannot be Blinded or Weakened; attacks are unblockable and steal 75 Health.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5424,7 +5424,7 @@
     "icon": "",
     "description": "Stance. Your next 1...3...4 attacks strike for +1...10...12 damage and deal holy damage. If these attacks are blocked or miss, your target loses one 1 enchantment and you lose 1 hex.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5444,7 +5444,7 @@
     "icon": "",
     "description": "Stance. (10 seconds.) 90% chance to block. No effect unless your Health is below 50%.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5464,7 +5464,7 @@
     "icon": "",
     "description": "Stance. (20 seconds.) Gain 33% more adrenaline with attacks. When you use a skill, nearby foes are dealt 75 fire damage and set on fire for 5 seconds.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5484,7 +5484,7 @@
     "icon": "",
     "description": "Stance. Attack and move 25% faster (5...11...13 seconds). Your critical hits remove an enchantment from target foe.",
     "type": "Stance",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5504,7 +5504,7 @@
     "icon": "",
     "description": "Form. (60 seconds.) Assume the form of a bear. While in this form, you have +250 Health and deal 25% more damage with attacks.",
     "type": "Form",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -5524,7 +5524,7 @@
     "icon": "",
     "description": "Form. Creature becomes attuned to a different element.",
     "type": "Form",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5544,7 +5544,7 @@
     "icon": "",
     "description": "Signet. Artifact plays a glowy effect on all \"chosen\" and players, that's it.",
     "type": "Signet",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5564,7 +5564,7 @@
     "icon": "",
     "description": "Binding Ritual. Creates a level 1...5...6 spirit (30 second lifespan). Its attacks inflict Blindness condition (1...5...6 seconds).",
     "type": "Binding Ritual",
-    "profession": "Monster",
+    "profession": "Ritualist",
     "attribute": "Communing",
     "costs": {
       "energy": 15,
@@ -5584,7 +5584,7 @@
     "icon": "",
     "description": "Form. Change forms.",
     "type": "Form",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5604,7 +5604,7 @@
     "icon": "",
     "description": "Signet. Surrounding foes are Bleeding and Crippled.",
     "type": "Signet",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5624,7 +5624,7 @@
     "icon": "",
     "description": "Trap. Every two seconds, Spring of Purity removes 1 hex from adjacent allies, and removes 1 enchantment from adjacent foes (10 seconds).",
     "type": "Trap",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -5644,7 +5644,7 @@
     "icon": "",
     "description": "Shout. (15 seconds.) Negates the next fatal damage you take. Negation effect: you gain 500 Health.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5664,7 +5664,7 @@
     "icon": "",
     "description": "Shout. Initial effect: removes all hexes from allies in the area. Your skills recharge 50% faster, your spells cost 50% less Energy, and you move 50% faster.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5684,7 +5684,7 @@
     "icon": "",
     "description": "Shout. (20 seconds.) Creatures in earshot attack, move, and activate skills 100% faster.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -5704,7 +5704,7 @@
     "icon": "",
     "description": "Chant. Removes 1 hex and 1 condition from all allies within earshot. For each hex removed, enemies within earshot lose 1 enchantment.",
     "type": "Chant",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -5724,7 +5724,7 @@
     "icon": "",
     "description": "Shout. Target foe is banished to the mists and his spirit bound to Shiro. If the Spirit Binder is destroyed, the spirit is freed.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5744,7 +5744,7 @@
     "icon": "",
     "description": "Shout. (10 seconds.) All of Varesh's allies gain target enemy as a priority target.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5764,7 +5764,7 @@
     "icon": "",
     "description": "Chant. (60 seconds.) All skale in earshot have +50 maximum Health.",
     "type": "Chant",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5784,7 +5784,7 @@
     "icon": "",
     "description": "Shout. (10 seconds.) +6 Energy regeneration to nearby allies. If an ally successfully uses a skill, Song of The Mists ends and steals 20 Health from the nearest foe.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5804,7 +5804,7 @@
     "icon": "",
     "description": "Shout. Deals 50 holy damage to nearby foes, and 25 more holy damage for each enchantment on them.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5824,7 +5824,7 @@
     "icon": "",
     "description": "Shout. This Tengu repeats any shout it hears.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5844,7 +5844,7 @@
     "icon": "",
     "description": "Shout. Causes knock-down (4 seconds) to foes in earshot.",
     "type": "Shout",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5864,7 +5864,7 @@
     "icon": "",
     "description": "Skill. If target ally is enchanted with Abaddon's Chosen, all foes in the area lose 70 Health and this ally gains 70 Health.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5884,7 +5884,7 @@
     "icon": "",
     "description": "Skill. Prevents the next 300 damage you would take.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5904,7 +5904,7 @@
     "icon": "",
     "description": "Skill. Allies have +1 Energy regeneration when in range of the Kurzick Juggernaut's aura.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5924,7 +5924,7 @@
     "icon": "",
     "description": "Skill. Causes 999 Health loss and knocks down (5 seconds). Hits all foes in range.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -5944,7 +5944,7 @@
     "icon": "",
     "description": "Skill. (10 seconds.) All skills do double damage and inflict one of the following random conditions (10 seconds): Cripple, Bleeding, Deep Wound, Weakness, or Dazed.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -5964,7 +5964,7 @@
     "icon": "",
     "description": "Skill. (15 seconds.) Attack 25% faster and deal 25% more damage with attacks. Disables non-attack skills.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -5984,7 +5984,7 @@
     "icon": "",
     "description": "Skill. Allows any non-pet animal to break a charm attempt",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6004,7 +6004,7 @@
     "icon": "",
     "description": "Skill. Summons a group of Destroyers.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -6024,7 +6024,7 @@
     "icon": "",
     "description": "Skill. (5 seconds.) Creature kneels and takes double damage. End effect: a duplicate of the creature is summoned to this location.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6044,7 +6044,7 @@
     "icon": "",
     "description": "Skill. Deals 100 damage to nearby foes and teleports them away.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6064,7 +6064,7 @@
     "icon": "",
     "description": "Skill. 5 chaotic energy sources strike up to 5 foes and deal 125 damage per strike.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6084,7 +6084,7 @@
     "icon": "",
     "description": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6104,7 +6104,7 @@
     "icon": "",
     "description": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6124,7 +6124,7 @@
     "icon": "",
     "description": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6144,7 +6144,7 @@
     "icon": "",
     "description": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": "Ranger",
     "attribute": "Beast Mastery",
     "costs": {
       "energy": null,
@@ -6164,7 +6164,7 @@
     "icon": "",
     "description": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6184,7 +6184,7 @@
     "icon": "",
     "description": "Skill. Bandit Charms Drake.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6204,7 +6204,7 @@
     "icon": "",
     "description": "Skill. Projectile: targets two foes. Each projectile hits target and nearby foes for 100 damage and inflicts Bleeding and Burning conditions (10 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6224,7 +6224,7 @@
     "icon": "",
     "description": "Skill. Projectile: targets two foes. Each projectile hits target and nearby foes for 100 damage and inflicts Bleeding and Burning conditions (10 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6244,7 +6244,7 @@
     "icon": "",
     "description": "Skill. Projectile: targets two foes. Each projectile hits target and nearby foes for 300 damage and inflicts Bleeding and Burning conditions (10 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6264,7 +6264,7 @@
     "icon": "",
     "description": "Skill. Opens doors and locks.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6284,7 +6284,7 @@
     "icon": "",
     "description": "Skill. (monster only)",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6304,7 +6304,7 @@
     "icon": "",
     "description": "Skill. All conditions and hexes are removed from caster. For each condition or hex removed in this way, caster gains 300 Health.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6324,7 +6324,7 @@
     "icon": "",
     "description": "Skill. All foes take 30 damage 5 times over the next 3 seconds. Each strike also removes one stance or enchantment from each foe.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6344,7 +6344,7 @@
     "icon": "",
     "description": "Skill. Starts charging sequence for the N.O.X.ion Buster",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6364,7 +6364,7 @@
     "icon": "",
     "description": "Skill. Ancient energies are called forth to create the Light of Seborhin. This skill cannot be disabled.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6384,7 +6384,7 @@
     "icon": "",
     "description": "Skill. (monster only) (20 seconds.) You gain +7 Health regeneration. Converts incoming non-physical damage to healing.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6404,7 +6404,7 @@
     "icon": "",
     "description": "Skill. You lose all conditions. Shadowstep directly away from target enemy.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -6424,7 +6424,7 @@
     "icon": "",
     "description": "Skill. Inflicts Dazed condition (20 seconds) to nearby foes.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6444,7 +6444,7 @@
     "icon": "",
     "description": "Skill. Deciphers Ancient Inscriptions.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6464,7 +6464,7 @@
     "icon": "",
     "description": "Skill. This plant gains 40 damage reduction and +20 Health regeneration while dormant but cannot attack or use other skills.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6484,7 +6484,7 @@
     "icon": "",
     "description": "Skill. Projectile: deals 100 damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6504,7 +6504,7 @@
     "icon": "",
     "description": "Skill. This creature's attacks and skills do +50% damage if its Health is below 70%, and an additional +50% damage if its Health is below 30%.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6524,7 +6524,7 @@
     "icon": "",
     "description": "Skill. When interrupted, the Great Destroyer becomes enraged and emits a blast that knocks down all foes within earshot and deals 115 damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6544,7 +6544,7 @@
     "icon": "",
     "description": "Skill. (15 second[sic].) The Guild Lord takes no more than 30 damage from each attack or skill and takes 30 less damage each second. Cannot be used unless defending NPCs outnumber attackers.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6564,7 +6564,7 @@
     "icon": "",
     "description": "Skill. Extracts an inscription from an Inscribed Ettin.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6584,7 +6584,7 @@
     "icon": "",
     "description": "Skill. Launch a slow-moving firebomb at this foe. This skill cannot recharge slower than normal.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6604,7 +6604,7 @@
     "icon": "",
     "description": "Skill. Sounds a signal horn, warning that intruders have entered the temple.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6624,7 +6624,7 @@
     "icon": "",
     "description": "Skill. Deals 600 damage. Half that damage if target is enchanted.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6644,7 +6644,7 @@
     "icon": "",
     "description": "Skill. Projectile: Target foe is hexed with \"Binding Chains.\"",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6664,7 +6664,7 @@
     "icon": "",
     "description": "Skill. The spore explodes, inflicts Poison and Disease conditions to nearby foes, and spreads seeds for new fungus.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6684,7 +6684,7 @@
     "icon": "",
     "description": "Skill. (0 [sic] seconds.) Converts all damage this creatures takes to healing.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6704,7 +6704,7 @@
     "icon": "",
     "description": "Skill. Creates 3 unstable oozes. Exploits a fresh corpse.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6724,7 +6724,7 @@
     "icon": "",
     "description": "Skill. Mutating ooze creates an unstable ooze. This skill always recharges in 4 seconds.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6744,7 +6744,7 @@
     "icon": "",
     "description": "Skill. After killing an enemy, all Charr within earshot gain 10 Energy and 5 adrenaline.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6764,7 +6764,7 @@
     "icon": "",
     "description": "Skill. Gunther's Gaze destroys all masterless minions within earshot.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6784,7 +6784,7 @@
     "icon": "",
     "description": "Skill. (10 seconds.) All Shiro's attacks are double strikes and hit nearby foes. Shiro transfers conditions from himself to foes he hits. Initial effect: removes all hexes from Shiro.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6804,7 +6804,7 @@
     "icon": "",
     "description": "Skill. (10 seconds.) You gain 30 Health every second.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6824,7 +6824,7 @@
     "icon": "",
     "description": "Skill. Rurik's wait to open the exit door.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6844,7 +6844,7 @@
     "icon": "",
     "description": "Skill. (12 seconds.) A signal flare is fired into the air to summon siege fire from any nearby garrisons. Every 3 seconds, targets hit by the siege fire take 40 damage and are interrupted. Easily interrupted.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6864,7 +6864,7 @@
     "icon": "",
     "description": "Skill. Lava surges upward, knocking down all foes standing in lava and dealing 75 damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6884,7 +6884,7 @@
     "icon": "",
     "description": "Skill. Creates a giant blast that melts earth into lava.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6904,7 +6904,7 @@
     "icon": "",
     "description": "Skill. Deals 100 fire damage to all Burning foes. The Great Destroyer is submerged in lava, gains +10 Health regeneration, and is immune to all damage. Lava Wave ends after 12 seconds or if all other Destroyers are destroyed.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6924,7 +6924,7 @@
     "icon": "",
     "description": "Skill. (monster only) Steal up to 200 Health from each foe within 30 feet.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -6944,7 +6944,7 @@
     "icon": "",
     "description": "The maddened spirit has no physical form and your wurm's attacks cannot harm it.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6964,7 +6964,7 @@
     "icon": "",
     "description": "Skill. (30 seconds.) Shiro meditates and absorbs the next 500 damage. When this skill ends, Shiro steals 20 Health from all foes for each second this skill was active.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -6984,7 +6984,7 @@
     "icon": "",
     "description": "Skill. Creature changes into an adult krait.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7004,7 +7004,7 @@
     "icon": "",
     "description": "Skill. (20 seconds.) This skill becomes a random skill currently in use by friend or foe within earshot. The new skill activates with attribute level equal to the caster's ranks in that attribute.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7024,7 +7024,7 @@
     "icon": "",
     "description": "Skill. Mount the siege devourer. You can command it to move and use skills.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7044,7 +7044,7 @@
     "icon": "",
     "description": "Skill. N.O.X. is targeting you!",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7064,7 +7064,7 @@
     "icon": "",
     "description": "Skill. Ooze loses half of its current Health and creates a duplicate.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 15,
@@ -7084,7 +7084,7 @@
     "icon": "",
     "description": "Skill. You are protected from damage by a golem's Phase Shield.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7104,7 +7104,7 @@
     "icon": "",
     "description": "Skill. A shield around the golem prevents up to 750 damage to nearby allies.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7124,7 +7124,7 @@
     "icon": "",
     "description": "Skill. Powder keg explodes in target's hand, knocking down that target and dealing 50 damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 15,
@@ -7144,7 +7144,7 @@
     "icon": "",
     "description": "Skill. Projectile: deals 80 damage and inflicts Burning and Crippled conditions (7 seconds) on target and adjacent foes. Causes any powder keg in target's hands to explode.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7164,7 +7164,7 @@
     "icon": "",
     "description": "Skill. (30 seconds.) Junundu Feast [sic] is replaced with Choking Breath, Blinding Breath or Burning Breath. Must exploit an adjacent fresh corpse.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7184,7 +7184,7 @@
     "icon": "",
     "description": "Skill. Projectile: deals 100 earth damage and causes knock-down. Cannot be used on nearby foes.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7204,7 +7204,7 @@
     "icon": "",
     "description": "Skill. Deals 80 damage and knocks-down foes adjacent to you (4 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -7224,7 +7224,7 @@
     "icon": "",
     "description": "Skill. (2 minutes.) You have +4 Health regeneration, +1 Energy regeneration, and move 33% faster.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7244,7 +7244,7 @@
     "icon": "",
     "description": "Skill. For 10 seconds, all nearby allies gain +5 Health regeneration.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7264,7 +7264,7 @@
     "icon": "",
     "description": "Skill. P.O.X counts down from 5 before setting off a reactor blast.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7284,7 +7284,7 @@
     "icon": "",
     "description": "Skill. Graven Monolith reforms itself to release new powers.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7304,7 +7304,7 @@
     "icon": "",
     "description": "Skill. Kills target ally. Caster gains Health equal to that ally's current Health.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7324,7 +7324,7 @@
     "icon": "",
     "description": "Skill. A cone of fire deals 80 fire damage and 40 more fire damage for each enchantment on struck foes. All Destroyers in the cone's area are healed for 80.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7344,7 +7344,7 @@
     "icon": "",
     "description": "Skill. (20 seconds.) Damage dealt to this creature is also inflicted upon the attacker. This skill cannot recharge slower than normal.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7364,7 +7364,7 @@
     "icon": "",
     "description": "Skill. Deals 200 damage and causes knockdown.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7384,7 +7384,7 @@
     "icon": "",
     "description": "Skill. Deals 80 damage to foes in the blast area. 250 damage to target foe.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7404,7 +7404,7 @@
     "icon": "",
     "description": "Skill. Deals 80 damage to foes in the blast area. 250 damage to target foe.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7424,7 +7424,7 @@
     "icon": "",
     "description": "Skill. Deals 80 damage to foes in the blast area.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7444,7 +7444,7 @@
     "icon": "",
     "description": "Skill. Deals 80 damage to foes in the blast area.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7464,7 +7464,7 @@
     "icon": "",
     "description": "Skill. Caster consumes a soul, ripping it from this world and sending it to Dhuum.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7484,7 +7484,7 @@
     "icon": "",
     "description": "Skill. 40 damage. Removes one enchantment and inflicts Dazed condition (8 seconds) if target foe is enchanted.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -7504,7 +7504,7 @@
     "icon": "",
     "description": "Skill. Creates a Destroyer hatchling from a pod.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7524,7 +7524,7 @@
     "icon": "",
     "description": "Skill. Summons 2 Destroyer Spawns in the area.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7544,7 +7544,7 @@
     "icon": "",
     "description": "Skill. (5 seconds.) Target foe has -1...30 Health degeneration; moves, attacks, and uses skills 80% slower; and loses 3...81 Health each second.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7564,7 +7564,7 @@
     "icon": "",
     "description": "Skill. For the next 30 seconds, if any friendly spirit is in the area, you take 50% less damage from attacks.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7584,7 +7584,7 @@
     "icon": "",
     "description": "Skill. This plant spore explodes, inflicting Poison and Disease conditions on nearby foes; also spreads seeds for new plants.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7604,7 +7604,7 @@
     "icon": "",
     "description": "Skill. For the next 30 seconds, all of your summoning spells take 1 second to cast instead of their normal casting time.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7624,7 +7624,7 @@
     "icon": "",
     "description": "Skill. (3 seconds.) End effect: all of caster's foes Shadow Step to positions adjacent to the caster.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 10,
@@ -7644,7 +7644,7 @@
     "icon": "",
     "description": "Skill. The Apocrypha is preparing to change to another form! It cannot be harmed while in tablet form.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7664,7 +7664,7 @@
     "icon": "",
     "description": "Skill. 150 damage to all foes in front of you. Hits twice.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7684,7 +7684,7 @@
     "icon": "",
     "description": "Skill. Deals 200 damage twice to all foes directly in front of the torment claw. [sic]",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7704,7 +7704,7 @@
     "icon": "",
     "description": "Skill. (20 seconds.) Target foe's attributes are set to 0. This foe and another random foe swap positions.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": 5,
@@ -7724,7 +7724,7 @@
     "icon": "",
     "description": "Skill. (30 seconds.) If the golem takes elemental damage, its attacks are converted to that damage type.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7744,7 +7744,7 @@
     "icon": "",
     "description": "Skill. (10 seconds.) If the golem takes elemental damge, its attacks are converted to that damage type. End effect: adjacent foes take 175 damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7764,7 +7764,7 @@
     "icon": "",
     "description": "Skill. Heals target ally for 100; the nearest foe takes 100 damage.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7784,7 +7784,7 @@
     "icon": "",
     "description": "Skill. Deals 120 fire damage to foes in the area.",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
@@ -7804,7 +7804,7 @@
     "icon": "",
     "description": "Skill. Deals 120 damage and causes knock-down. Inflicts Dazed condition (10 seconds).",
     "type": "Skill",
-    "profession": "Monster",
+    "profession": null,
     "attribute": null,
     "costs": {
       "energy": null,
