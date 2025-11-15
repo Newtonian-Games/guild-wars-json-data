@@ -183,12 +183,20 @@ def parse_table_based_progression(table_html):
 def parse_div_based_progression(prog_html):
     """Parse the newer DIV-based progression table format."""
     # Split into left side (labels) and right side (data)
-    parts = prog_html.split('<td style="vertical-align: top;">')
-    if len(parts) < 2:
+    # Extract the row after the header
+    row_match = re.search(r'</th></tr>\s*<tr[^>]*>(.*)', prog_html, re.DOTALL)
+    if not row_match:
         return None
 
-    left_side = parts[0]
-    right_side = parts[1]
+    row_content = row_match.group(1)
+
+    # Extract both <td> sections using regex (handles any attributes)
+    td_matches = re.findall(r'<td[^>]*>(.*?)</td>', row_content, re.DOTALL)
+    if len(td_matches) < 2:
+        return None
+
+    left_side = td_matches[0]
+    right_side = td_matches[1]
 
     # Extract attribute name from left side
     attr_match = re.search(r'<div class="attr[^"]*"><a[^>]*>([^<]+)</a></div>', left_side)
@@ -212,7 +220,7 @@ def parse_div_based_progression(prog_html):
         return None
 
     # Extract all columns from right side
-    columns = re.findall(r'<div class="column"[^>]*>(.*?)</div>\s*(?=<div class="column|</td>)', right_side, re.DOTALL)
+    columns = re.findall(r'<div class="column"[^>]*>(.*?)</div>\s*(?=<div class="column|</td>|$)', right_side, re.DOTALL)
     if not columns:
         return None
 
