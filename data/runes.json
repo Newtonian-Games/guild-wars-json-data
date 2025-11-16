@@ -1,0 +1,2465 @@
+[
+  {
+    "name": "Rune of Attunement",
+    "type": "armor",
+    "rarity": "common",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "EnergyBonus": {
+        "value": 2,
+        "cumulative": true
+      }
+    },
+    "description": "Energy +2",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Attunement"
+  },
+  {
+    "name": "Rune of Belt Holding",
+    "type": "inventory",
+    "rarity": "rare",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "BeltPouchSlots": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Upgrades belt pouch carrying capacity by +10 slots",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Belt_Holding"
+  },
+  {
+    "name": "Rune of Clarity",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "ConditionReduction": {
+        "value": {
+          "Blind": 0.2,
+          "Weakness": 0.2
+        },
+        "cumulative": false
+      }
+    },
+    "description": "Reduces Blind duration on you by 20% (Non-stacking)\nReduces Weakness duration on you by 20% (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Clarity"
+  },
+  {
+    "name": "Rune of Holding",
+    "type": "inventory",
+    "rarity": "common",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "BagSlots": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Upgrades bag carrying capacity by +10 slots",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Holding"
+  },
+  {
+    "name": "Rune of Major Air Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Elementalist",
+    "attribute": "Air Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Air Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Air_Magic"
+  },
+  {
+    "name": "Rune of Major Axe Mastery",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Warrior",
+    "attribute": "Axe Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Axe Mastery +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Axe_Mastery"
+  },
+  {
+    "name": "Rune of Major Beast Mastery",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ranger",
+    "attribute": "Beast Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Beast Mastery +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Beast_Mastery"
+  },
+  {
+    "name": "Rune of Major Blood Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Necromancer",
+    "attribute": "Blood Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Blood Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Blood_Magic"
+  },
+  {
+    "name": "Rune of Major Channeling Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ritualist",
+    "attribute": "Channeling Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Channeling Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Channeling_Magic"
+  },
+  {
+    "name": "Rune of Major Command",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Paragon",
+    "attribute": "Command",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Command +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Command"
+  },
+  {
+    "name": "Rune of Major Communing",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ritualist",
+    "attribute": "Communing",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Communing +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Communing"
+  },
+  {
+    "name": "Rune of Major Critical Strikes",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Assassin",
+    "attribute": "Critical Strikes",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Critical Strikes +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Critical_Strikes"
+  },
+  {
+    "name": "Rune of Major Curses",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Necromancer",
+    "attribute": "Curses",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Curses +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Curses"
+  },
+  {
+    "name": "Rune of Major Dagger Mastery",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Assassin",
+    "attribute": "Dagger Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Dagger Mastery +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Dagger_Mastery"
+  },
+  {
+    "name": "Rune of Major Deadly Arts",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Assassin",
+    "attribute": "Deadly Arts",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Deadly Arts +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Deadly_Arts"
+  },
+  {
+    "name": "Rune of Major Death Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Necromancer",
+    "attribute": "Death Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Death Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Death_Magic"
+  },
+  {
+    "name": "Rune of Major Divine Favor",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Monk",
+    "attribute": "Divine Favor",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Divine Favor +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Divine_Favor"
+  },
+  {
+    "name": "Rune of Major Domination Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Domination Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Domination_Magic"
+  },
+  {
+    "name": "Rune of Major Earth Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Elementalist",
+    "attribute": "Earth Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Earth Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Earth_Magic"
+  },
+  {
+    "name": "Rune of Major Earth Prayers",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Earth Prayers +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Earth_Prayers"
+  },
+  {
+    "name": "Rune of Major Energy Storage",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Elementalist",
+    "attribute": "Energy Storage",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Energy Storage +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Energy_Storage"
+  },
+  {
+    "name": "Rune of Major Expertise",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ranger",
+    "attribute": "Expertise",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Expertise +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Expertise"
+  },
+  {
+    "name": "Rune of Major Fast Casting",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Fast Casting +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Fast_Casting"
+  },
+  {
+    "name": "Rune of Major Fire Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Elementalist",
+    "attribute": "Fire Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Fire Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Fire_Magic"
+  },
+  {
+    "name": "Rune of Major Hammer Mastery",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Warrior",
+    "attribute": "Hammer Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Hammer Mastery +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Hammer_Mastery"
+  },
+  {
+    "name": "Rune of Major Healing Prayers",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Monk",
+    "attribute": "Healing Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Healing Prayers +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Healing_Prayers"
+  },
+  {
+    "name": "Rune of Major Illusion Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Illusion Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Illusion_Magic"
+  },
+  {
+    "name": "Rune of Major Inspiration Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Inspiration Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Inspiration_Magic"
+  },
+  {
+    "name": "Rune of Major Leadership",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Paragon",
+    "attribute": "Leadership",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Leadership +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Leadership"
+  },
+  {
+    "name": "Rune of Major Marksmanship",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ranger",
+    "attribute": "Marksmanship",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Marksmanship +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Marksmanship"
+  },
+  {
+    "name": "Rune of Major Motivation",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Paragon",
+    "attribute": "Motivation",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Motivation +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Motivation"
+  },
+  {
+    "name": "Rune of Major Mysticism",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Mysticism +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Mysticism"
+  },
+  {
+    "name": "Rune of Major Protection Prayers",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Monk",
+    "attribute": "Protection Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Protection Prayers +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Protection_Prayers"
+  },
+  {
+    "name": "Rune of Major Restoration Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ritualist",
+    "attribute": "Restoration Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Restoration Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Restoration_Magic"
+  },
+  {
+    "name": "Rune of Major Scythe Mastery",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Scythe Mastery +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Scythe_Mastery"
+  },
+  {
+    "name": "Rune of Major Shadow Arts",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Assassin",
+    "attribute": "Shadow Arts",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Shadow Arts +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Shadow_Arts"
+  },
+  {
+    "name": "Rune of Major Smiting Prayers",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Monk",
+    "attribute": "Smiting Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Smiting Prayers +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Smiting_Prayers"
+  },
+  {
+    "name": "Rune of Major Soul Reaping",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Necromancer",
+    "attribute": "Soul Reaping",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Soul Reaping +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Soul_Reaping"
+  },
+  {
+    "name": "Rune of Major Spawning Power",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ritualist",
+    "attribute": "Spawning Power",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Spawning Power +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Spawning_Power"
+  },
+  {
+    "name": "Rune of Major Spear Mastery",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Paragon",
+    "attribute": "Spear Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Spear Mastery +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Spear_Mastery"
+  },
+  {
+    "name": "Rune of Major Strength",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Warrior",
+    "attribute": "Strength",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Strength +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Strength"
+  },
+  {
+    "name": "Rune of Major Swordsmanship",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Warrior",
+    "attribute": "Swordsmanship",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Swordsmanship +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Swordsmanship"
+  },
+  {
+    "name": "Rune of Major Tactics",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Warrior",
+    "attribute": "Tactics",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Tactics +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Tactics"
+  },
+  {
+    "name": "Rune of Major Vigor",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "HealthBonus": {
+        "value": 41,
+        "cumulative": false
+      }
+    },
+    "description": "Health +41 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Vigor"
+  },
+  {
+    "name": "Rune of Major Water Magic",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Elementalist",
+    "attribute": "Water Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Water Magic +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Water_Magic"
+  },
+  {
+    "name": "Rune of Major Wilderness Survival",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Ranger",
+    "attribute": "Wilderness Survival",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Wilderness Survival +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Wilderness_Survival"
+  },
+  {
+    "name": "Rune of Major Wind Prayers",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 2,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -35,
+        "cumulative": true
+      }
+    },
+    "description": "Wind Prayers +2 (Non-stacking)\nHealth -35",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Major_Wind_Prayers"
+  },
+  {
+    "name": "Rune of Minor Air Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Elementalist",
+    "attribute": "Air Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Air Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Air_Magic"
+  },
+  {
+    "name": "Rune of Minor Axe Mastery",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Warrior",
+    "attribute": "Axe Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Axe Mastery +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Axe_Mastery"
+  },
+  {
+    "name": "Rune of Minor Beast Mastery",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ranger",
+    "attribute": "Beast Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Beast Mastery +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Beast_Mastery"
+  },
+  {
+    "name": "Rune of Minor Blood Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Necromancer",
+    "attribute": "Blood Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Blood Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Blood_Magic"
+  },
+  {
+    "name": "Rune of Minor Channeling Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ritualist",
+    "attribute": "Channeling Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Channeling Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Channeling_Magic"
+  },
+  {
+    "name": "Rune of Minor Command",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Paragon",
+    "attribute": "Command",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Command +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Command"
+  },
+  {
+    "name": "Rune of Minor Communing",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ritualist",
+    "attribute": "Communing",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Communing +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Communing"
+  },
+  {
+    "name": "Rune of Minor Critical Strikes",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Assassin",
+    "attribute": "Critical Strikes",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Critical Strikes +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Critical_Strikes"
+  },
+  {
+    "name": "Rune of Minor Curses",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Necromancer",
+    "attribute": "Curses",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Curses +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Curses"
+  },
+  {
+    "name": "Rune of Minor Dagger Mastery",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Assassin",
+    "attribute": "Dagger Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Dagger Mastery +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Dagger_Mastery"
+  },
+  {
+    "name": "Rune of Minor Deadly Arts",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Assassin",
+    "attribute": "Deadly Arts",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Deadly Arts +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Deadly_Arts"
+  },
+  {
+    "name": "Rune of Minor Death Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Necromancer",
+    "attribute": "Death Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Death Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Death_Magic"
+  },
+  {
+    "name": "Rune of Minor Divine Favor",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Monk",
+    "attribute": "Divine Favor",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Divine Favor +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Divine_Favor"
+  },
+  {
+    "name": "Rune of Minor Domination Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Domination Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Domination_Magic"
+  },
+  {
+    "name": "Rune of Minor Earth Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Elementalist",
+    "attribute": "Earth Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Earth Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Earth_Magic"
+  },
+  {
+    "name": "Rune of Minor Earth Prayers",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Earth Prayers +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Earth_Prayers"
+  },
+  {
+    "name": "Rune of Minor Energy Storage",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Elementalist",
+    "attribute": "Energy Storage",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Energy Storage +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Energy_Storage"
+  },
+  {
+    "name": "Rune of Minor Expertise",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ranger",
+    "attribute": "Expertise",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Expertise +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Expertise"
+  },
+  {
+    "name": "Rune of Minor Fast Casting",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Fast Casting +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Fast_Casting"
+  },
+  {
+    "name": "Rune of Minor Fire Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Elementalist",
+    "attribute": "Fire Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Fire Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Fire_Magic"
+  },
+  {
+    "name": "Rune of Minor Hammer Mastery",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Warrior",
+    "attribute": "Hammer Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Hammer Mastery +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Hammer_Mastery"
+  },
+  {
+    "name": "Rune of Minor Healing Prayers",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Monk",
+    "attribute": "Healing Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Healing Prayers +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Healing_Prayers"
+  },
+  {
+    "name": "Rune of Minor Illusion Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Illusion Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Illusion_Magic"
+  },
+  {
+    "name": "Rune of Minor Inspiration Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Inspiration Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Inspiration_Magic"
+  },
+  {
+    "name": "Rune of Minor Leadership",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Paragon",
+    "attribute": "Leadership",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Leadership +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Leadership"
+  },
+  {
+    "name": "Rune of Minor Marksmanship",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ranger",
+    "attribute": "Marksmanship",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Marksmanship +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Marksmanship"
+  },
+  {
+    "name": "Rune of Minor Motivation",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Paragon",
+    "attribute": "Motivation",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Motivation +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Motivation"
+  },
+  {
+    "name": "Rune of Minor Mysticism",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Mysticism +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Mysticism"
+  },
+  {
+    "name": "Rune of Minor Protection Prayers",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Monk",
+    "attribute": "Protection Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Protection Prayers +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Protection_Prayers"
+  },
+  {
+    "name": "Rune of Minor Restoration Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ritualist",
+    "attribute": "Restoration Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Restoration Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Restoration_Magic"
+  },
+  {
+    "name": "Rune of Minor Scythe Mastery",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Scythe Mastery +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Scythe_Mastery"
+  },
+  {
+    "name": "Rune of Minor Shadow Arts",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Assassin",
+    "attribute": "Shadow Arts",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Shadow Arts +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Shadow_Arts"
+  },
+  {
+    "name": "Rune of Minor Smiting Prayers",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Monk",
+    "attribute": "Smiting Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Smiting Prayers +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Smiting_Prayers"
+  },
+  {
+    "name": "Rune of Minor Soul Reaping",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Necromancer",
+    "attribute": "Soul Reaping",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Soul Reaping +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Soul_Reaping"
+  },
+  {
+    "name": "Rune of Minor Spawning Power",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ritualist",
+    "attribute": "Spawning Power",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Spawning Power +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Spawning_Power"
+  },
+  {
+    "name": "Rune of Minor Spear Mastery",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Paragon",
+    "attribute": "Spear Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Spear Mastery +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Spear_Mastery"
+  },
+  {
+    "name": "Rune of Minor Strength",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Warrior",
+    "attribute": "Strength",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Strength +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Strength"
+  },
+  {
+    "name": "Rune of Minor Swordsmanship",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Warrior",
+    "attribute": "Swordsmanship",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Swordsmanship +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Swordsmanship"
+  },
+  {
+    "name": "Rune of Minor Tactics",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Warrior",
+    "attribute": "Tactics",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Tactics +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Tactics"
+  },
+  {
+    "name": "Rune of Minor Vigor",
+    "type": "armor",
+    "rarity": "common",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "HealthBonus": {
+        "value": 30,
+        "cumulative": false
+      }
+    },
+    "description": "Health +30 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Vigor"
+  },
+  {
+    "name": "Rune of Minor Water Magic",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Elementalist",
+    "attribute": "Water Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Water Magic +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Water_Magic"
+  },
+  {
+    "name": "Rune of Minor Wilderness Survival",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Ranger",
+    "attribute": "Wilderness Survival",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Wilderness Survival +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Wilderness_Survival"
+  },
+  {
+    "name": "Rune of Minor Wind Prayers",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Wind Prayers +1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Minor_Wind_Prayers"
+  },
+  {
+    "name": "Rune of Purity",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "ConditionReduction": {
+        "value": {
+          "Disease": 0.2,
+          "Poison": 0.2
+        },
+        "cumulative": false
+      }
+    },
+    "description": "Reduces Disease duration on you by 20% (Non-stacking)\nReduces Poison duration on you by 20% (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Purity"
+  },
+  {
+    "name": "Rune of Recovery",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "ConditionReduction": {
+        "value": {
+          "Dazed": 0.2,
+          "Deep Wound": 0.2
+        },
+        "cumulative": false
+      }
+    },
+    "description": "Reduces Dazed duration on you by 20% (Non-stacking)\nReduces Deep Wound duration on you by 20% (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Recovery"
+  },
+  {
+    "name": "Rune of Restoration",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "ConditionReduction": {
+        "value": {
+          "Bleeding": 0.2,
+          "Crippled": 0.2
+        },
+        "cumulative": false
+      }
+    },
+    "description": "Reduces Bleeding duration on you by 20% (Non-stacking)\nReduces Crippled duration on you by 20% (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Restoration"
+  },
+  {
+    "name": "Rune of Superior Air Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Elementalist",
+    "attribute": "Air Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Air Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Air_Magic"
+  },
+  {
+    "name": "Rune of Superior Axe Mastery",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Warrior",
+    "attribute": "Axe Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Axe Mastery +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Axe_Mastery"
+  },
+  {
+    "name": "Rune of Superior Beast Mastery",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ranger",
+    "attribute": "Beast Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Beast Mastery +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Beast_Mastery"
+  },
+  {
+    "name": "Rune of Superior Blood Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Necromancer",
+    "attribute": "Blood Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Blood Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Blood_Magic"
+  },
+  {
+    "name": "Rune of Superior Channeling Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ritualist",
+    "attribute": "Channeling Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Channeling Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Channeling_Magic"
+  },
+  {
+    "name": "Rune of Superior Command",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Paragon",
+    "attribute": "Command",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Command +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Command"
+  },
+  {
+    "name": "Rune of Superior Communing",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ritualist",
+    "attribute": "Communing",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Communing +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Communing"
+  },
+  {
+    "name": "Rune of Superior Critical Strikes",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Assassin",
+    "attribute": "Critical Strikes",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Critical Strikes +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Critical_Strikes"
+  },
+  {
+    "name": "Rune of Superior Curses",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Necromancer",
+    "attribute": "Curses",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Curses +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Curses"
+  },
+  {
+    "name": "Rune of Superior Dagger Mastery",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Assassin",
+    "attribute": "Dagger Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Dagger Mastery +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Dagger_Mastery"
+  },
+  {
+    "name": "Rune of Superior Deadly Arts",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Assassin",
+    "attribute": "Deadly Arts",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Deadly Arts +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Deadly_Arts"
+  },
+  {
+    "name": "Rune of Superior Death Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Necromancer",
+    "attribute": "Death Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Death Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Death_Magic"
+  },
+  {
+    "name": "Rune of Superior Divine Favor",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Monk",
+    "attribute": "Divine Favor",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Divine Favor +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Divine_Favor"
+  },
+  {
+    "name": "Rune of Superior Domination Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Mesmer",
+    "attribute": "Domination Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Domination Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Domination_Magic"
+  },
+  {
+    "name": "Rune of Superior Earth Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Elementalist",
+    "attribute": "Earth Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Earth Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Earth_Magic"
+  },
+  {
+    "name": "Rune of Superior Earth Prayers",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Dervish",
+    "attribute": "Earth Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Earth Prayers +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Earth_Prayers"
+  },
+  {
+    "name": "Rune of Superior Energy Storage",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Elementalist",
+    "attribute": "Energy Storage",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Energy Storage +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Energy_Storage"
+  },
+  {
+    "name": "Rune of Superior Expertise",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ranger",
+    "attribute": "Expertise",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Expertise +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Expertise"
+  },
+  {
+    "name": "Rune of Superior Fast Casting",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Mesmer",
+    "attribute": "Fast Casting",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Fast Casting +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Fast_Casting"
+  },
+  {
+    "name": "Rune of Superior Fire Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Elementalist",
+    "attribute": "Fire Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Fire Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Fire_Magic"
+  },
+  {
+    "name": "Rune of Superior Hammer Mastery",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Warrior",
+    "attribute": "Hammer Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Hammer Mastery +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Hammer_Mastery"
+  },
+  {
+    "name": "Rune of Superior Healing Prayers",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Monk",
+    "attribute": "Healing Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Healing Prayers +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Healing_Prayers"
+  },
+  {
+    "name": "Rune of Superior Illusion Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Mesmer",
+    "attribute": "Illusion Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Illusion Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Illusion_Magic"
+  },
+  {
+    "name": "Rune of Superior Inspiration Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Mesmer",
+    "attribute": "Inspiration Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Inspiration Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Inspiration_Magic"
+  },
+  {
+    "name": "Rune of Superior Leadership",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Paragon",
+    "attribute": "Leadership",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Leadership +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Leadership"
+  },
+  {
+    "name": "Rune of Superior Marksmanship",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ranger",
+    "attribute": "Marksmanship",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Marksmanship +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Marksmanship"
+  },
+  {
+    "name": "Rune of Superior Motivation",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Paragon",
+    "attribute": "Motivation",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Motivation +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Motivation"
+  },
+  {
+    "name": "Rune of Superior Mysticism",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Dervish",
+    "attribute": "Mysticism",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Mysticism +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Mysticism"
+  },
+  {
+    "name": "Rune of Superior Protection Prayers",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Monk",
+    "attribute": "Protection Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Protection Prayers +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Protection_Prayers"
+  },
+  {
+    "name": "Rune of Superior Restoration Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ritualist",
+    "attribute": "Restoration Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Restoration Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Restoration_Magic"
+  },
+  {
+    "name": "Rune of Superior Scythe Mastery",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Dervish",
+    "attribute": "Scythe Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Scythe Mastery +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Scythe_Mastery"
+  },
+  {
+    "name": "Rune of Superior Shadow Arts",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Assassin",
+    "attribute": "Shadow Arts",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Shadow Arts +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Shadow_Arts"
+  },
+  {
+    "name": "Rune of Superior Smiting Prayers",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Monk",
+    "attribute": "Smiting Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Smiting Prayers +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Smiting_Prayers"
+  },
+  {
+    "name": "Rune of Superior Soul Reaping",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Necromancer",
+    "attribute": "Soul Reaping",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Soul Reaping +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Soul_Reaping"
+  },
+  {
+    "name": "Rune of Superior Spawning Power",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ritualist",
+    "attribute": "Spawning Power",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Spawning Power +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Spawning_Power"
+  },
+  {
+    "name": "Rune of Superior Spear Mastery",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Paragon",
+    "attribute": "Spear Mastery",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Spear Mastery +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Spear_Mastery"
+  },
+  {
+    "name": "Rune of Superior Strength",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Warrior",
+    "attribute": "Strength",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Strength +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Strength"
+  },
+  {
+    "name": "Rune of Superior Swordsmanship",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Warrior",
+    "attribute": "Swordsmanship",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Swordsmanship +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Swordsmanship"
+  },
+  {
+    "name": "Rune of Superior Tactics",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Warrior",
+    "attribute": "Tactics",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Tactics +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Tactics"
+  },
+  {
+    "name": "Rune of Superior Vigor",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "HealthBonus": {
+        "value": 50,
+        "cumulative": false
+      }
+    },
+    "description": "Health +50 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Vigor"
+  },
+  {
+    "name": "Rune of Superior Water Magic",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Elementalist",
+    "attribute": "Water Magic",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Water Magic +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Water_Magic"
+  },
+  {
+    "name": "Rune of Superior Wilderness Survival",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Ranger",
+    "attribute": "Wilderness Survival",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Wilderness Survival +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Wilderness_Survival"
+  },
+  {
+    "name": "Rune of Superior Wind Prayers",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Dervish",
+    "attribute": "Wind Prayers",
+    "effects": {
+      "AttributeBonus": {
+        "value": 3,
+        "cumulative": false
+      },
+      "HealthPenalty": {
+        "value": -75,
+        "cumulative": true
+      }
+    },
+    "description": "Wind Prayers +3 (Non-stacking)\nHealth -75",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Superior_Wind_Prayers"
+  },
+  {
+    "name": "Rune of Vitae",
+    "type": "armor",
+    "rarity": "common",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "HealthBonus": {
+        "value": 10,
+        "cumulative": true
+      }
+    },
+    "description": "Health +10",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rune_of_Vitae"
+  },
+  {
+    "name": "Superior Rune of Holding",
+    "type": "inventory",
+    "rarity": "rare",
+    "profession": null,
+    "attribute": null,
+    "effects": {
+      "BagSlots": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Upgrades bag carrying capacity by +15 slots",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Superior_Rune_of_Holding"
+  },
+  {
+    "name": "Warrior Rune of Major Absorption",
+    "type": "armor",
+    "rarity": "uncommon",
+    "profession": "Warrior",
+    "attribute": null,
+    "effects": {
+      "DamageReduction": {
+        "value": 2,
+        "cumulative": false
+      }
+    },
+    "description": "Reduces physical damage by 2 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior_Rune_of_Major_Absorption"
+  },
+  {
+    "name": "Warrior Rune of Minor Absorption",
+    "type": "armor",
+    "rarity": "common",
+    "profession": "Warrior",
+    "attribute": null,
+    "effects": {
+      "DamageReduction": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Reduces physical damage by 1 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior_Rune_of_Minor_Absorption"
+  },
+  {
+    "name": "Warrior Rune of Superior Absorption",
+    "type": "armor",
+    "rarity": "rare",
+    "profession": "Warrior",
+    "attribute": null,
+    "effects": {
+      "DamageReduction": {
+        "value": 3,
+        "cumulative": false
+      }
+    },
+    "description": "Reduces physical damage by 3 (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior_Rune_of_Superior_Absorption"
+  }
+]
