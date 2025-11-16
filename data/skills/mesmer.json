@@ -2,7 +2,7 @@
   {
     "name": "Accumulated Pain",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target foe has 2 or more hexes.",
+    "concise_description": "Spell. Deals {{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target foe has 2 or more hexes.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -67,7 +67,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain"
@@ -75,7 +75,7 @@
   {
     "name": "Accumulated Pain (PvP)",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target foe has 2 or more hexes.",
+    "concise_description": "Spell. Deals {{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target foe has 2 or more hexes.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -140,7 +140,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain_(PvP)"
@@ -148,7 +148,7 @@
   {
     "name": "Air of Disenchantment",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Remove one enchantment from target and nearby foes. Enchantments expire {{EnchantmentExpirationSpeedPercent}}% faster on those foes.",
+    "concise_description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Remove one enchantment from target and nearby foes. Enchantments expire {{EnchantmentExpirationSpeedPercent}}% faster on those foes.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -213,7 +213,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment"
@@ -221,7 +221,7 @@
   {
     "name": "Ancestor's Visage",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -262,7 +262,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ancestor%27s_Visage"
@@ -270,7 +270,7 @@
   {
     "name": "Aneurysm",
     "icon": "",
-    "description": "Spell. Target foe regains all Energy. For each point of Energy gained, target takes {{DamagePerEnergyGain}} damage and all adjacent foes lose 1 Energy (maximum {{MaximumEnergyLoss}}).",
+    "concise_description": "Spell. Target foe regains all Energy. For each point of Energy gained, target takes {{DamagePerEnergyGain}} damage and all adjacent foes lose 1 Energy (maximum {{MaximumEnergyLoss}}).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -335,7 +335,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Aneurysm"
@@ -343,7 +343,7 @@
   {
     "name": "Arcane Conundrum",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). Doubles spell casting time. End effect: you gain {{EnergyGain}} energy. [sic]",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). Doubles spell casting time. End effect: you gain {{EnergyGain}} energy. [sic]",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -408,7 +408,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Conundrum"
@@ -416,7 +416,7 @@
   {
     "name": "Arcane Echo",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) Arcane Echo becomes the next spell you use (20 seconds). This enchantment ends if you use any skill that is not a spell.",
+    "concise_description": "Enchantment Spell. (20 seconds.) Arcane Echo becomes the next spell you use (20 seconds). This enchantment ends if you use any skill that is not a spell.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -432,7 +432,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Echo"
@@ -440,7 +440,7 @@
   {
     "name": "Arcane Languor",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe's spells cause 10 Overcast.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe's spells cause 10 Overcast.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -481,7 +481,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Languor"
@@ -489,7 +489,7 @@
   {
     "name": "Arcane Larceny",
     "icon": "",
-    "description": "Spell. ({{Duration}} seconds.) Disables one random spell. This skill becomes that spell.",
+    "concise_description": "Spell. ({{Duration}} seconds.) Disables one random spell. This skill becomes that spell.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -530,7 +530,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Larceny"
@@ -538,7 +538,7 @@
   {
     "name": "Arcane Mimicry",
     "icon": "",
-    "description": "Spell. This skill becomes target ally's elite skill (20 seconds). Cannot self-target. No effect if target's elite skill is a form.",
+    "concise_description": "Spell. This skill becomes target ally's elite skill (20 seconds). Cannot self-target. No effect if target's elite skill is a form.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -554,7 +554,7 @@
     },
     "activation": 2,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Mimicry"
@@ -562,7 +562,7 @@
   {
     "name": "Arcane Thievery",
     "icon": "",
-    "description": "Spell. ({{Duration}} seconds.) Disables one random spell. This skill becomes that spell.",
+    "concise_description": "Spell. ({{Duration}} seconds.) Disables one random spell. This skill becomes that spell.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -603,7 +603,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Thievery"
@@ -611,7 +611,7 @@
   {
     "name": "Auspicious Incantation",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) Your next spell gives you {{PercentOfEnergyCost}}% of its Energy cost. That spell takes {{DisabledDuration}} seconds longer to recharge.",
+    "concise_description": "Enchantment Spell. (20 seconds.) Your next spell gives you {{PercentOfEnergyCost}}% of its Energy cost. That spell takes {{DisabledDuration}} seconds longer to recharge.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -676,7 +676,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Incantation"
@@ -684,7 +684,7 @@
   {
     "name": "Backfire",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Target foe takes {{Damage}} damage whenever it casts a spell.",
+    "concise_description": "Hex Spell. (10 seconds.) Target foe takes {{Damage}} damage whenever it casts a spell.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -725,7 +725,7 @@
     },
     "activation": 3,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Backfire"
@@ -733,7 +733,7 @@
   {
     "name": "Blackout",
     "icon": "",
-    "description": "Touch Skill. ({{Duration}} seconds.) Disables skills. Your skills are disabled (5 seconds).",
+    "concise_description": "Touch Skill. ({{Duration}} seconds.) Disables skills. Your skills are disabled (5 seconds).",
     "type": "Touch Skill",
     "profession": "Mesmer",
     "attribute": {
@@ -774,7 +774,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Blackout"
@@ -782,7 +782,7 @@
   {
     "name": "Calculated Risk",
     "icon": "",
-    "description": "Hex Spell. Target foe does +10 damage with attacks ({{Duration}} seconds). There is a 50% chance that the damage from each attack (maximum {{MaximumDamage}}) will be done to that foe instead.",
+    "concise_description": "Hex Spell. Target foe does +10 damage with attacks ({{Duration}} seconds). There is a 50% chance that the damage from each attack (maximum {{MaximumDamage}}) will be done to that foe instead.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -847,7 +847,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk"
@@ -855,7 +855,7 @@
   {
     "name": "Calculated Risk (PvP)",
     "icon": "",
-    "description": "Hex Spell. Target foe does +10 damage with attacks ({{Duration}} seconds). There is a 50% chance that the damage from each attack (maximum {{MaximumDamage}}) will be done to that foe instead.",
+    "concise_description": "Hex Spell. Target foe does +10 damage with attacks ({{Duration}} seconds). There is a 50% chance that the damage from each attack (maximum {{MaximumDamage}}) will be done to that foe instead.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -920,7 +920,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk_(PvP)"
@@ -928,7 +928,7 @@
   {
     "name": "Channeling",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy for each foe in the area whenever you cast a spell.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy for each foe in the area whenever you cast a spell.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -969,7 +969,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Channeling"
@@ -977,7 +977,7 @@
   {
     "name": "Chaos Storm",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage and causes {{EnergyLoss}} Energy loss each second (10 seconds). Hits foes adjacent to target's initial location.",
+    "concise_description": "Spell. Deals {{Damage}} damage and causes {{EnergyLoss}} Energy loss each second (10 seconds). Hits foes adjacent to target's initial location.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1042,7 +1042,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Chaos_Storm"
@@ -1050,7 +1050,7 @@
   {
     "name": "Clumsiness",
     "icon": "",
-    "description": "Hex Spell. (4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals {{Damage}} damage.",
+    "concise_description": "Hex Spell. (4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals {{Damage}} damage.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1091,7 +1091,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Clumsiness"
@@ -1099,7 +1099,7 @@
   {
     "name": "Complicate",
     "icon": "",
-    "description": "Spell. Interrupt a skill. Interruption effect: disables interrupted skill (+{{Duration}} seconds) for target foe and all foes in the area.",
+    "concise_description": "Spell. Interrupt a skill. Interruption effect: disables interrupted skill (+{{Duration}} seconds) for target foe and all foes in the area.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1140,7 +1140,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Complicate"
@@ -1148,7 +1148,7 @@
   {
     "name": "Confusing Images",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds). Target foe takes twice as long to activate non-attack skills.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds). Target foe takes twice as long to activate non-attack skills.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1189,7 +1189,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Confusing_Images"
@@ -1197,7 +1197,7 @@
   {
     "name": "Conjure Nightmare",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes -8 Health degeneration.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes -8 Health degeneration.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1238,7 +1238,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Nightmare"
@@ -1246,7 +1246,7 @@
   {
     "name": "Conjure Phantasm",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes -5 Health degeneration.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes -5 Health degeneration.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1287,7 +1287,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Phantasm"
@@ -1295,7 +1295,7 @@
   {
     "name": "Crippling Anguish",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe moves and attacks 50% slower and has -{{HealthDegeneration}} Health degeneration.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe moves and attacks 50% slower and has -{{HealthDegeneration}} Health degeneration.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1360,7 +1360,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish"
@@ -1368,7 +1368,7 @@
   {
     "name": "Crippling Anguish (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe moves 50% slower and has -{{HealthDegeneration}} Health degeneration.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe moves 50% slower and has -{{HealthDegeneration}} Health degeneration.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1433,7 +1433,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish_(PvP)"
@@ -1441,7 +1441,7 @@
   {
     "name": "Cry of Frustration",
     "icon": "",
-    "description": "Spell. If target foe is using a skill, that foe and all foes in the area are interrupted and take {{Damage}} damage.",
+    "concise_description": "Spell. If target foe is using a skill, that foe and all foes in the area are interrupted and take {{Damage}} damage.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1482,7 +1482,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Frustration"
@@ -1490,7 +1490,7 @@
   {
     "name": "Cry of Pain",
     "icon": "",
-    "description": "Spell. Interrupts a skill. If target foe had a Mesmer hex, deals {{ArmorMinusIgnoringDamage}} damage to target and foes in the area and causes {{HealthDegeneration}} Health degeneration (10 seconds).",
+    "concise_description": "Spell. Interrupts a skill. If target foe had a Mesmer hex, deals {{ArmorMinusIgnoringDamage}} damage to target and foes in the area and causes {{HealthDegeneration}} Health degeneration (10 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1533,7 +1533,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Pain"
@@ -1541,7 +1541,7 @@
   {
     "name": "Discharge Enchantment",
     "icon": "",
-    "description": "Spell. Removes one enchantment from target foe. {{PercentFasterRecharge}}% faster recharge if that foe was hexed.",
+    "concise_description": "Spell. Removes one enchantment from target foe. {{PercentFasterRecharge}}% faster recharge if that foe was hexed.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1582,7 +1582,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Discharge_Enchantment"
@@ -1590,7 +1590,7 @@
   {
     "name": "Distortion",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. Block cost: you lose 2 Energy or Distortion ends.",
+    "concise_description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. Block cost: you lose 2 Energy or Distortion ends.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -1631,7 +1631,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Distortion"
@@ -1639,7 +1639,7 @@
   {
     "name": "Diversion",
     "icon": "",
-    "description": "Hex Spell. (6 seconds.) Target foe's next skill takes +{{PlusRechargeTime}} seconds to recharge.",
+    "concise_description": "Hex Spell. (6 seconds.) Target foe's next skill takes +{{PlusRechargeTime}} seconds to recharge.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1680,7 +1680,7 @@
     },
     "activation": 3,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Diversion"
@@ -1688,7 +1688,7 @@
   {
     "name": "Drain Delusions",
     "icon": "",
-    "description": "Spell. Removes one Mesmer hex from target foe. Causes {{EnergyLoss}} Energy loss. You gain 4 Energy for each point lost. No effect unless a hex was removed.",
+    "concise_description": "Spell. Removes one Mesmer hex from target foe. Causes {{EnergyLoss}} Energy loss. You gain 4 Energy for each point lost. No effect unless a hex was removed.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1751,7 +1751,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Delusions"
@@ -1759,7 +1759,7 @@
   {
     "name": "Drain Enchantment",
     "icon": "",
-    "description": "Spell. Removes an enchantment from target foe. Removal effect: you gain {{EnergyGain}} Energy and {{HealthGain}} Health.",
+    "concise_description": "Spell. Removes an enchantment from target foe. Removal effect: you gain {{EnergyGain}} Energy and {{HealthGain}} Health.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1824,7 +1824,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Enchantment"
@@ -1832,7 +1832,7 @@
   {
     "name": "Echo",
     "icon": "",
-    "description": "Elite Enchantment Spell. (30 seconds.) Echo becomes the next skill you use (30 seconds).",
+    "concise_description": "Elite Enchantment Spell. (30 seconds.) Echo becomes the next skill you use (30 seconds).",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -1848,7 +1848,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Echo"
@@ -1856,7 +1856,7 @@
   {
     "name": "Elemental Resistance",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You have +40 armor against elemental damage. You have -{{MinusArmorAgainstPhysicalDamage}} armor against physical damage.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You have +40 armor against elemental damage. You have -{{MinusArmorAgainstPhysicalDamage}} armor against physical damage.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -1921,7 +1921,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Resistance"
@@ -1929,7 +1929,7 @@
   {
     "name": "Empathy",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe's attacks deal {{DamageReduction}} less damage, and that foe takes {{Damage}} damage with each attack.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe's attacks deal {{DamageReduction}} less damage, and that foe takes {{Damage}} damage with each attack.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2018,7 +2018,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Empathy"
@@ -2026,7 +2026,7 @@
   {
     "name": "Empathy (PvP)",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe takes {{Damage}} damage whenever it attacks.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe takes {{Damage}} damage whenever it attacks.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2091,7 +2091,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Empathy_(PvP)"
@@ -2099,7 +2099,7 @@
   {
     "name": "Enchanter's Conundrum",
     "icon": "",
-    "description": "Elite Hex Spell. Causes {{CastTimePercentIncrease}}% slower enchantment casting (10 seconds). Initial effect: deals {{Damage}} damage to target and adjacent foes if target foe is not enchanted.",
+    "concise_description": "Elite Hex Spell. Causes {{CastTimePercentIncrease}}% slower enchantment casting (10 seconds). Initial effect: deals {{Damage}} damage to target and adjacent foes if target foe is not enchanted.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2164,7 +2164,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum"
@@ -2172,7 +2172,7 @@
   {
     "name": "Enchanter's Conundrum (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. Causes {{CastTimePercentIncrease}}% slower enchantment casting (10 seconds). Initial effect: deals {{Damage}} damage to target and adjacent foes if target foe is not enchanted.",
+    "concise_description": "Elite Hex Spell. Causes {{CastTimePercentIncrease}}% slower enchantment casting (10 seconds). Initial effect: deals {{Damage}} damage to target and adjacent foes if target foe is not enchanted.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2237,7 +2237,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_(PvP)"
@@ -2245,7 +2245,7 @@
   {
     "name": "Energy Burn",
     "icon": "",
-    "description": "Spell. Causes {{EnergyLoss}} Energy loss. Deals 9 damage for each point of Energy lost.",
+    "concise_description": "Spell. Causes {{EnergyLoss}} Energy loss. Deals 9 damage for each point of Energy lost.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2310,7 +2310,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Burn"
@@ -2318,7 +2318,7 @@
   {
     "name": "Energy Drain",
     "icon": "",
-    "description": "Elite Spell. Causes {{EnergyLoss}} Energy loss. You gain 3 Energy for each point of Energy lost.",
+    "concise_description": "Elite Spell. Causes {{EnergyLoss}} Energy loss. You gain 3 Energy for each point of Energy lost.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2383,7 +2383,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Drain"
@@ -2391,7 +2391,7 @@
   {
     "name": "Energy Surge",
     "icon": "",
-    "description": "Elite Spell. Causes {{EnergyLoss}} Energy loss. Deals 9 damage to target and nearby foes for each point of Energy lost.",
+    "concise_description": "Elite Spell. Causes {{EnergyLoss}} Energy loss. Deals 9 damage to target and nearby foes for each point of Energy lost.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2456,7 +2456,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Surge"
@@ -2464,7 +2464,7 @@
   {
     "name": "Energy Tap",
     "icon": "",
-    "description": "Spell. Causes {{EnergyLoss}} Energy loss. You gain 2 Energy for each point of Energy lost.",
+    "concise_description": "Spell. Causes {{EnergyLoss}} Energy loss. You gain 2 Energy for each point of Energy lost.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2529,7 +2529,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Tap"
@@ -2537,7 +2537,7 @@
   {
     "name": "Epidemic",
     "icon": "",
-    "description": "Spell. Conditions on target foe transfer to adjacent foes.",
+    "concise_description": "Spell. Conditions on target foe transfer to adjacent foes.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2553,7 +2553,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Epidemic"
@@ -2561,7 +2561,7 @@
   {
     "name": "Ether Feast",
     "icon": "",
-    "description": "Spell. Causes 3 Energy loss. You gain {{HealPerEnergyLost}} Health for each point of Energy lost.",
+    "concise_description": "Spell. Causes 3 Energy loss. You gain {{HealPerEnergyLost}} Health for each point of Energy lost.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2626,7 +2626,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Feast"
@@ -2634,7 +2634,7 @@
   {
     "name": "Ether Lord",
     "icon": "",
-    "description": "Hex Spell. You lose all Energy. Target foe has -{{EnergyDegeneration}} Energy degeneration and you have +{{EnergyRegeneration}} Energy regeneration ({{Duration}} seconds).",
+    "concise_description": "Hex Spell. You lose all Energy. Target foe has -{{EnergyDegeneration}} Energy degeneration and you have +{{EnergyRegeneration}} Energy regeneration ({{Duration}} seconds).",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2723,7 +2723,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Lord"
@@ -2731,7 +2731,7 @@
   {
     "name": "Ether Nightmare",
     "icon": "",
-    "description": "Hex spell. Causes {{EnergyLoss}} Energy loss. Target and foes in the area have -1 Health degeneration for each point of Energy lost (10 seconds).",
+    "concise_description": "Hex spell. Causes {{EnergyLoss}} Energy loss. Target and foes in the area have -1 Health degeneration for each point of Energy lost (10 seconds).",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2763,7 +2763,7 @@
     },
     "activation": 3,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Nightmare"
@@ -2771,7 +2771,7 @@
   {
     "name": "Ether Phantom",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Causes -1 Energy degeneration. Causes {{EnergyLoss}} Energy loss if this hex ends early.",
+    "concise_description": "Hex Spell. (10 seconds.) Causes -1 Energy degeneration. Causes {{EnergyLoss}} Energy loss if this hex ends early.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2812,7 +2812,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Phantom"
@@ -2820,7 +2820,7 @@
   {
     "name": "Ether Signet",
     "icon": "",
-    "description": "Signet. You gain {{EnergyGain}} Energy. No effect unless you have less than {{MaxEnergyReq}} Energy.",
+    "concise_description": "Signet. You gain {{EnergyGain}} Energy. No effect unless you have less than {{MaxEnergyReq}} Energy.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -2885,7 +2885,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Signet"
@@ -2893,7 +2893,7 @@
   {
     "name": "Ethereal Burden",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain {{EnergyGain}} Energy.",
+    "concise_description": "Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain {{EnergyGain}} Energy.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2934,7 +2934,7 @@
     },
     "activation": 1.5,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Burden"
@@ -2942,7 +2942,7 @@
   {
     "name": "Expel Hexes",
     "icon": "",
-    "description": "Elite Spell. Removes 2 hexes from target ally.",
+    "concise_description": "Elite Spell. Removes 2 hexes from target ally.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -2958,7 +2958,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Expel_Hexes"
@@ -2966,7 +2966,7 @@
   {
     "name": "Extend Conditions",
     "icon": "",
-    "description": "Elite Spell. Spread all conditions from target foe to foes near your target. Those [sic] durations of those conditions are increased by {{LongerDurationOfConditionsPercent}}% (maximum 30 seconds).",
+    "concise_description": "Elite Spell. Spread all conditions from target foe to foes near your target. Those [sic] durations of those conditions are increased by {{LongerDurationOfConditionsPercent}}% (maximum 30 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3007,7 +3007,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Extend_Conditions"
@@ -3015,7 +3015,7 @@
   {
     "name": "Feedback",
     "icon": "",
-    "description": "Spell. Removes one enchantment. Removal effect: target foe loses {{EnergyLoss}} Energy.",
+    "concise_description": "Spell. Removes one enchantment. Removal effect: target foe loses {{EnergyLoss}} Energy.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3056,7 +3056,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Feedback"
@@ -3064,7 +3064,7 @@
   {
     "name": "Fevered Dreams",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Foes in the area also have any new conditions that target foe acquires. Inflicts Dazed on target foe ({{DazedDuration}} second[s]) if that foe has two or more conditions.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Foes in the area also have any new conditions that target foe acquires. Inflicts Dazed on target foe ({{DazedDuration}} second[s]) if that foe has two or more conditions.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3129,7 +3129,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams"
@@ -3137,7 +3137,7 @@
   {
     "name": "Fevered Dreams (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Foes in the area also have any new conditions that target foe acquires.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Foes in the area also have any new conditions that target foe acquires.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3178,7 +3178,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams_(PvP)"
@@ -3186,7 +3186,7 @@
   {
     "name": "Fragility",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). These foes take {{Damage}} damage each time they gain or lose a condition.",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). These foes take {{Damage}} damage each time they gain or lose a condition.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3251,7 +3251,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Fragility"
@@ -3259,7 +3259,7 @@
   {
     "name": "Fragility (PvP)",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe takes {{Damage}} damage each time it gains or loses a condition.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe takes {{Damage}} damage each time it gains or loses a condition.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3324,7 +3324,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Fragility_(PvP)"
@@ -3332,7 +3332,7 @@
   {
     "name": "Frustration",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes 50% slower spell casting. Target foe takes {{Damage}} damage whenever interrupted. Deals double damage on skill interrupt.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes 50% slower spell casting. Target foe takes {{Damage}} damage whenever interrupted. Deals double damage on skill interrupt.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3397,7 +3397,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Frustration"
@@ -3405,7 +3405,7 @@
   {
     "name": "Frustration (PvP)",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes 50% slower spell casting. Target foe takes {{Damage}} damage whenever interrupted.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes 50% slower spell casting. Target foe takes {{Damage}} damage whenever interrupted.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3470,7 +3470,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Frustration_(PvP)"
@@ -3478,7 +3478,7 @@
   {
     "name": "Guilt",
     "icon": "",
-    "description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal {{EnergyStolen}} Energy. No effect unless this foe's spell targets one of your allies.",
+    "concise_description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal {{EnergyStolen}} Energy. No effect unless this foe's spell targets one of your allies.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3519,7 +3519,7 @@
     },
     "activation": 2,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Guilt"
@@ -3527,7 +3527,7 @@
   {
     "name": "Hex Breaker",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) The next hex against you fails and the caster takes {{Damage}} damage.",
+    "concise_description": "Stance. ({{Duration}} seconds.) The next hex against you fails and the caster takes {{Damage}} damage.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -3592,7 +3592,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Breaker"
@@ -3600,7 +3600,7 @@
   {
     "name": "Hex Eater Signet",
     "icon": "",
-    "description": "Touch Signet. Removes a hex from target and {{AdjacentAllies}} adjacent allies. Removal effect: you gain {{EnergyGain}} Energy for each hex removed.",
+    "concise_description": "Touch Signet. Removes a hex from target and {{AdjacentAllies}} adjacent allies. Removal effect: you gain {{EnergyGain}} Energy for each hex removed.",
     "type": "Touch Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -3665,7 +3665,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet"
@@ -3673,7 +3673,7 @@
   {
     "name": "Hex Eater Vortex",
     "icon": "",
-    "description": "Elite Spell. Removes one hex from target ally. Removal effect: deals {{Damage}} damage and removes one enchantment from foes near this ally.",
+    "concise_description": "Elite Spell. Removes one hex from target ally. Removal effect: deals {{Damage}} damage and removes one enchantment from foes near this ally.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3714,7 +3714,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex"
@@ -3722,7 +3722,7 @@
   {
     "name": "Hypochondria",
     "icon": "",
-    "description": "Spell. Transfer all conditions from foes in the area to target foe.",
+    "concise_description": "Spell. Transfer all conditions from foes in the area to target foe.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3738,7 +3738,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hypochondria"
@@ -3746,7 +3746,7 @@
   {
     "name": "Ignorance",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe cannot use signets.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe cannot use signets.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3787,7 +3787,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ignorance"
@@ -3795,7 +3795,7 @@
   {
     "name": "Illusion of Haste",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You move 33% faster. Initial effect: removes Crippled condition. End effect: you are Crippled (3 seconds).",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You move 33% faster. Initial effect: removes Crippled condition. End effect: you are Crippled (3 seconds).",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3836,7 +3836,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste"
@@ -3844,7 +3844,7 @@
   {
     "name": "Illusion of Haste (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You move 33% faster. End effect: you are Crippled (3 seconds).",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You move 33% faster. End effect: you are Crippled (3 seconds).",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3885,7 +3885,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_(PvP)"
@@ -3893,7 +3893,7 @@
   {
     "name": "Illusion of Pain",
     "icon": "",
-    "description": "Hex Spell. (8 seconds.) Causes -{{HealthDegeneration}} Health degeneration and target foe takes {{DamageEachSecond}} damage each second. End effect: that foe is healed for {{Healing}}.",
+    "concise_description": "Hex Spell. (8 seconds.) Causes -{{HealthDegeneration}} Health degeneration and target foe takes {{DamageEachSecond}} damage each second. End effect: that foe is healed for {{Healing}}.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -3982,7 +3982,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain"
@@ -3990,7 +3990,7 @@
   {
     "name": "Illusion of Pain (PvP)",
     "icon": "",
-    "description": "Hex Spell. (8 seconds.) Causes -{{HealthDegeneration}} Health degeneration and target foe takes {{DamageEachSecond}} damage each second. End effect: that foe is healed for {{Healing}}. Ends if reapplied.",
+    "concise_description": "Hex Spell. (8 seconds.) Causes -{{HealthDegeneration}} Health degeneration and target foe takes {{DamageEachSecond}} damage each second. End effect: that foe is healed for {{Healing}}. Ends if reapplied.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4079,7 +4079,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_(PvP)"
@@ -4087,7 +4087,7 @@
   {
     "name": "Illusion of Weakness",
     "icon": "",
-    "description": "Enchantment Spell. Lose {{HealthLoss}} Health. End effect: you gain {{Healing}} Health. Ends if damage drops your Health below 25% of your maximum.",
+    "concise_description": "Enchantment Spell. Lose {{HealthLoss}} Health. End effect: you gain {{Healing}} Health. Ends if damage drops your Health below 25% of your maximum.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4152,7 +4152,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Weakness"
@@ -4160,7 +4160,7 @@
   {
     "name": "Illusionary Weaponry",
     "icon": "",
-    "description": "Elite Enchantment Spell. (30 seconds.) Deals {{ArmorMinusIgnoringDamage}} damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. Your melee attacks neither hit nor fail to hit.",
+    "concise_description": "Elite Enchantment Spell. (30 seconds.) Deals {{ArmorMinusIgnoringDamage}} damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. Your melee attacks neither hit nor fail to hit.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4201,7 +4201,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry"
@@ -4209,7 +4209,7 @@
   {
     "name": "Illusionary Weaponry (PvP)",
     "icon": "",
-    "description": "Elite Enchantment Spell. (30 seconds.) Deals {{Damage}} damage to foes in place of other damage or effects from melee attacks. Your melee attacks neither hit nor fail to hit.",
+    "concise_description": "Elite Enchantment Spell. (30 seconds.) Deals {{Damage}} damage to foes in place of other damage or effects from melee attacks. Your melee attacks neither hit nor fail to hit.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4250,7 +4250,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry_(PvP)"
@@ -4258,7 +4258,7 @@
   {
     "name": "Images of Remorse",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration. Initial effect: {{Damage}} damage if target foe is attacking.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration. Initial effect: {{Damage}} damage if target foe is attacking.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4347,7 +4347,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Images_of_Remorse"
@@ -4355,7 +4355,7 @@
   {
     "name": "Imagined Burden",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 50% slower.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 50% slower.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4396,7 +4396,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Imagined_Burden"
@@ -4404,7 +4404,7 @@
   {
     "name": "Ineptitude",
     "icon": "",
-    "description": "Elite Hex Spell. (4 seconds.) Also hexes foes adjacent to target. Deals {{Damage}} damage. Inflicts Blindness condition (10 seconds). No effect unless hexed foe attacks.",
+    "concise_description": "Elite Hex Spell. (4 seconds.) Also hexes foes adjacent to target. Deals {{Damage}} damage. Inflicts Blindness condition (10 seconds). No effect unless hexed foe attacks.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4445,7 +4445,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ineptitude"
@@ -4453,7 +4453,7 @@
   {
     "name": "Inspired Enchantment",
     "icon": "",
-    "description": "Spell. Removes an enchantment from target foe. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that enchantment (20 seconds).",
+    "concise_description": "Spell. Removes an enchantment from target foe. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that enchantment (20 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4494,7 +4494,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Enchantment"
@@ -4502,7 +4502,7 @@
   {
     "name": "Inspired Hex",
     "icon": "",
-    "description": "Spell. Removes a hex from target ally. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that hex (20 seconds).",
+    "concise_description": "Spell. Removes a hex from target ally. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that hex (20 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4543,7 +4543,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Hex"
@@ -4551,7 +4551,7 @@
   {
     "name": "Keystone Signet",
     "icon": "",
-    "description": "Elite Signet. (20 seconds.) Your next {{SignetS}} signet[s] interrupt [sic] and deal {{Damage}} damage to other foes adjacent to your target. Initial Effect: [sic] recharges all of your other signets.",
+    "concise_description": "Elite Signet. (20 seconds.) Your next {{SignetS}} signet[s] interrupt [sic] and deal {{Damage}} damage to other foes adjacent to your target. Initial Effect: [sic] recharges all of your other signets.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -4616,7 +4616,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Keystone_Signet"
@@ -4624,7 +4624,7 @@
   {
     "name": "Kitah's Burden",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain {{EnergyGain}} Energy.",
+    "concise_description": "Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain {{EnergyGain}} Energy.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4665,7 +4665,7 @@
     },
     "activation": 1.5,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Kitah%27s_Burden"
@@ -4673,7 +4673,7 @@
   {
     "name": "Leech Signet",
     "icon": "",
-    "description": "Signet. Interrupts an action. Interruption effect: you gain {{EnergyGain}} Energy if the action was a spell.",
+    "concise_description": "Signet. Interrupts an action. Interruption effect: you gain {{EnergyGain}} Energy if the action was a spell.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -4714,7 +4714,7 @@
     },
     "activation": 0.25,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Leech_Signet"
@@ -4722,7 +4722,7 @@
   {
     "name": "Lyssa's Aura",
     "icon": "",
-    "description": "Elite Enchantment Spell. (10 seconds.) You have +{{EnergyRegeneration}} Energy regeneration. Renewal: every time you cast a spell on an enemy.",
+    "concise_description": "Elite Enchantment Spell. (10 seconds.) You have +{{EnergyRegeneration}} Energy regeneration. Renewal: every time you cast a spell on an enemy.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4763,7 +4763,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura"
@@ -4771,7 +4771,7 @@
   {
     "name": "Lyssa's Balance",
     "icon": "",
-    "description": "Spell. Removes one enchantment from target foe. No effect if you have more enchantments than this foe.",
+    "concise_description": "Spell. Removes one enchantment from target foe. No effect if you have more enchantments than this foe.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -4787,7 +4787,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Balance"
@@ -4795,7 +4795,7 @@
   {
     "name": "Mantra of Concentration",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) The next time you would be interrupted, you are not interrupted.",
+    "concise_description": "Stance. ({{Duration}} seconds.) The next time you would be interrupted, you are not interrupted.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -4836,7 +4836,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Concentration"
@@ -4844,7 +4844,7 @@
   {
     "name": "Mantra of Earth",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Reduces earth damage you take by {{EarthDamageReductionPercent}}%. You gain 2 Energy when you take earth damage.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Reduces earth damage you take by {{EarthDamageReductionPercent}}%. You gain 2 Energy when you take earth damage.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -4909,7 +4909,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Earth"
@@ -4917,7 +4917,7 @@
   {
     "name": "Mantra of Flame",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Reduces fire damage you take by {{FireDamageReductionPercent}}%. You gain 2 Energy when you take fire damage.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Reduces fire damage you take by {{FireDamageReductionPercent}}%. You gain 2 Energy when you take fire damage.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -4982,7 +4982,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Flame"
@@ -4990,7 +4990,7 @@
   {
     "name": "Mantra of Frost",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Reduces cold damage you take by {{ColdDamageReductionPercent}}%. You gain 2 Energy when you take cold damage.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Reduces cold damage you take by {{ColdDamageReductionPercent}}%. You gain 2 Energy when you take cold damage.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5055,7 +5055,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Frost"
@@ -5063,7 +5063,7 @@
   {
     "name": "Mantra of Inscriptions",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Signets you successfully activate while in this stance recharge {{FasterRechargePercent}}% faster.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Signets you successfully activate while in this stance recharge {{FasterRechargePercent}}% faster.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5128,7 +5128,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions"
@@ -5136,7 +5136,7 @@
   {
     "name": "Mantra of Lightning",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Reduces lightning damage you take by {{LightningDamageReductionPercent}}%. You gain 2 Energy when you take lightning damage.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Reduces lightning damage you take by {{LightningDamageReductionPercent}}%. You gain 2 Energy when you take lightning damage.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5201,7 +5201,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Lightning"
@@ -5209,7 +5209,7 @@
   {
     "name": "Mantra of Persistence",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Illusion hexes you cast last {{LongerDurationPercent}}% longer.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Illusion hexes you cast last {{LongerDurationPercent}}% longer.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5274,7 +5274,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Persistence"
@@ -5282,7 +5282,7 @@
   {
     "name": "Mantra of Recall",
     "icon": "",
-    "description": "Elite Enchantment Spell. (20 seconds.) End effect: you gain {{EnergyGain}} Energy.",
+    "concise_description": "Elite Enchantment Spell. (20 seconds.) End effect: you gain {{EnergyGain}} Energy.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -5323,7 +5323,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recall"
@@ -5331,7 +5331,7 @@
   {
     "name": "Mantra of Recovery",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) Your spells recharge 33% faster.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) Your spells recharge 33% faster.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5396,7 +5396,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recovery"
@@ -5404,7 +5404,7 @@
   {
     "name": "Mantra of Resolve",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Prevents interrupts against you. Prevention cost: lose {{EnergyLoss}} Energy or Mantra of Resolve ends.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Prevents interrupts against you. Prevention cost: lose {{EnergyLoss}} Energy or Mantra of Resolve ends.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5469,7 +5469,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve"
@@ -5477,7 +5477,7 @@
   {
     "name": "Mantra of Resolve (PvP)",
     "icon": "",
-    "description": "Stance. (5 seconds.) Prevents interrupts against you. Prevention cost: lose {{EnergyLoss}} Energy or Mantra of Resolve ends.",
+    "concise_description": "Stance. (5 seconds.) Prevents interrupts against you. Prevention cost: lose {{EnergyLoss}} Energy or Mantra of Resolve ends.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5518,7 +5518,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve_(PvP)"
@@ -5526,7 +5526,7 @@
   {
     "name": "Mantra of Signets",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You have +3 armor for each signet. You gain {{Healing}} health each time you use a signet.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You have +3 armor for each signet. You gain {{Healing}} health each time you use a signet.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5591,7 +5591,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets"
@@ -5599,7 +5599,7 @@
   {
     "name": "Mantra of Signets (PvP)",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You gain {{Healing}} Health each time you use a signet.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You gain {{Healing}} Health each time you use a signet.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -5664,7 +5664,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets_(PvP)"
@@ -5672,7 +5672,7 @@
   {
     "name": "Migraine",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and doubles skill activation time.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and doubles skill activation time.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -5737,7 +5737,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Migraine"
@@ -5745,7 +5745,7 @@
   {
     "name": "Migraine (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and doubles skill activation time.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and doubles skill activation time.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -5810,7 +5810,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Migraine_(PvP)"
@@ -5818,7 +5818,7 @@
   {
     "name": "Mind Wrack",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. Deals {{DamagePerEnergyLost}} damage per point of Energy lost. If target foe's Energy drops to 0, it takes {{Damage}} damage and Mind Wrack ends.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. Deals {{DamagePerEnergyLost}} damage per point of Energy lost. If target foe's Energy drops to 0, it takes {{Damage}} damage and Mind Wrack ends.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -5907,7 +5907,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack"
@@ -5915,7 +5915,7 @@
   {
     "name": "Mind Wrack (PvP)",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe's Energy drops to 0, Mind Wrack ends and that foe takes {{Damage}} damage.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe's Energy drops to 0, Mind Wrack ends and that foe takes {{Damage}} damage.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -5980,7 +5980,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack_(PvP)"
@@ -5988,7 +5988,7 @@
   {
     "name": "Mirror of Disenchantment",
     "icon": "",
-    "description": "Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment.",
+    "concise_description": "Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6004,7 +6004,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment"
@@ -6012,7 +6012,7 @@
   {
     "name": "Mirror of Disenchantment (PvP)",
     "icon": "",
-    "description": "Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment.",
+    "concise_description": "Spell. Removes one enchantment from target foe. That foe's party members also lose this enchantment.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6028,7 +6028,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_(PvP)"
@@ -6036,7 +6036,7 @@
   {
     "name": "Mistrust",
     "icon": "",
-    "description": "Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals {{Damage}} damage to target and nearby foes.",
+    "concise_description": "Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals {{Damage}} damage to target and nearby foes.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6077,7 +6077,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust"
@@ -6085,7 +6085,7 @@
   {
     "name": "Mistrust (PvP)",
     "icon": "",
-    "description": "Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals {{Damage}} damage to target and nearby foes.",
+    "concise_description": "Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals {{Damage}} damage to target and nearby foes.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6126,7 +6126,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust_(PvP)"
@@ -6134,7 +6134,7 @@
   {
     "name": "Overload",
     "icon": "",
-    "description": "Hex Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration. If target foe is using a skill, that foe and all adjacent foes take {{ConditionalDamage}} damage.",
+    "concise_description": "Hex Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration. If target foe is using a skill, that foe and all adjacent foes take {{ConditionalDamage}} damage.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6199,7 +6199,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Overload"
@@ -6207,7 +6207,7 @@
   {
     "name": "Panic",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} second[s]). Interrupts all other nearby foes whenever a hexed foe successfully activates a skill.",
+    "concise_description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} second[s]). Interrupts all other nearby foes whenever a hexed foe successfully activates a skill.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6248,7 +6248,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Panic"
@@ -6256,7 +6256,7 @@
   {
     "name": "Persistence of Memory",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Your interrupted spells recharge instantly.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your interrupted spells recharge instantly.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6297,7 +6297,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Persistence_of_Memory"
@@ -6305,7 +6305,7 @@
   {
     "name": "Phantom Pain",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. End effect: inflicts Deep Wound condition ({{DeepWoundDuration}} seconds).",
+    "concise_description": "Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. End effect: inflicts Deep Wound condition ({{DeepWoundDuration}} seconds).",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6370,7 +6370,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Phantom_Pain"
@@ -6378,7 +6378,7 @@
   {
     "name": "Physical Resistance",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You have +40 armor against physical damage. You have -{{MinusArmorAgainstElementalDamage}} armor against elemental damage.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You have +40 armor against physical damage. You have -{{MinusArmorAgainstElementalDamage}} armor against elemental damage.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -6443,7 +6443,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Physical_Resistance"
@@ -6451,7 +6451,7 @@
   {
     "name": "Power Block",
     "icon": "",
-    "description": "Elite Spell. If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled ({{DisabledDuration}} seconds) and that skill is interrupted.",
+    "concise_description": "Elite Spell. If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled ({{DisabledDuration}} seconds) and that skill is interrupted.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6492,7 +6492,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Block"
@@ -6500,7 +6500,7 @@
   {
     "name": "Power Drain",
     "icon": "",
-    "description": "Spell. Interrupts a spell or chant. Interruption effect: you gain {{EnergyGain}} Energy.",
+    "concise_description": "Spell. Interrupts a spell or chant. Interruption effect: you gain {{EnergyGain}} Energy.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6541,7 +6541,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Drain"
@@ -6549,7 +6549,7 @@
   {
     "name": "Power Flux",
     "icon": "",
-    "description": "Elite Hex Spell. Interrupts a spell or chant. Interruption effect: -2 Energy degeneration ({{Duration}} seconds).",
+    "concise_description": "Elite Hex Spell. Interrupts a spell or chant. Interruption effect: -2 Energy degeneration ({{Duration}} seconds).",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6590,7 +6590,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Flux"
@@ -6598,7 +6598,7 @@
   {
     "name": "Power Leak",
     "icon": "",
-    "description": "Spell. Interrupts a spell or chant. Interruption effect: causes {{EnergyLoss}} Energy loss.",
+    "concise_description": "Spell. Interrupts a spell or chant. Interruption effect: causes {{EnergyLoss}} Energy loss.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6639,7 +6639,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leak"
@@ -6647,7 +6647,7 @@
   {
     "name": "Power Leech",
     "icon": "",
-    "description": "Elite Hex Spell. Interrupt a spell or a chant. Interruption effect: steal {{EnergyStolen}} Energy whenever target foe casts a spell (10 seconds).",
+    "concise_description": "Elite Hex Spell. Interrupt a spell or a chant. Interruption effect: steal {{EnergyStolen}} Energy whenever target foe casts a spell (10 seconds).",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6688,7 +6688,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leech"
@@ -6696,7 +6696,7 @@
   {
     "name": "Power Lock",
     "icon": "",
-    "description": "Spell. Interrupts a spell or chant. Interruption effect: interrupted spell or chant is disabled for +{{DisableDuration}} seconds.",
+    "concise_description": "Spell. Interrupts a spell or chant. Interruption effect: interrupted spell or chant is disabled for +{{DisableDuration}} seconds.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6737,7 +6737,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Lock"
@@ -6745,7 +6745,7 @@
   {
     "name": "Power Return",
     "icon": "",
-    "description": "Spell. Interrupts a spell or chant. Interruption effect: target foe gains {{EnergyGain}} Energy.",
+    "concise_description": "Spell. Interrupts a spell or chant. Interruption effect: target foe gains {{EnergyGain}} Energy.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6786,7 +6786,7 @@
     },
     "activation": 0.25,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Return"
@@ -6794,7 +6794,7 @@
   {
     "name": "Power Spike",
     "icon": "",
-    "description": "Spell. Interrupts a spell or chant. Interruption effect: deals {{Damage}} damage.",
+    "concise_description": "Spell. Interrupts a spell or chant. Interruption effect: deals {{Damage}} damage.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6835,7 +6835,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Spike"
@@ -6843,7 +6843,7 @@
   {
     "name": "Price of Pride",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes {{EnergyLoss}} Energy loss the next time target foe uses an elite skill.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes {{EnergyLoss}} Energy loss the next time target foe uses an elite skill.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6908,7 +6908,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Pride"
@@ -6916,7 +6916,7 @@
   {
     "name": "Psychic Distraction",
     "icon": "",
-    "description": "Elite Spell. Interrupts a skill. Interruption effect: disables interrupted skill (+{{Duration}} seconds). Your other skills are disabled (8 seconds).",
+    "concise_description": "Elite Spell. Interrupts a skill. Interruption effect: disables interrupted skill (+{{Duration}} seconds). Your other skills are disabled (8 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -6957,7 +6957,7 @@
     },
     "activation": 0.25,
     "recharge": 2,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Distraction"
@@ -6965,7 +6965,7 @@
   {
     "name": "Psychic Instability",
     "icon": "",
-    "description": "Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, cause knockdown for {{Duration}} seconds on target foe and all nearby foes. 50% failure chance unless Fast Casting 5 or higher.",
+    "concise_description": "Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, cause knockdown for {{Duration}} seconds on target foe and all nearby foes. 50% failure chance unless Fast Casting 5 or higher.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7006,7 +7006,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability"
@@ -7014,7 +7014,7 @@
   {
     "name": "Psychic Instability (PvP)",
     "icon": "",
-    "description": "Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, causes knockdown for {{Duration}} seconds on target foe and all adjacent foes. 50% failure chance unless Fast Casting 5 or higher.",
+    "concise_description": "Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, causes knockdown for {{Duration}} seconds on target foe and all adjacent foes. 50% failure chance unless Fast Casting 5 or higher.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7055,7 +7055,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability_(PvP)"
@@ -7063,7 +7063,7 @@
   {
     "name": "Recurring Insecurity",
     "icon": "",
-    "description": "Elite Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end.",
+    "concise_description": "Elite Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7104,7 +7104,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Recurring_Insecurity"
@@ -7112,7 +7112,7 @@
   {
     "name": "Revealed Enchantment",
     "icon": "",
-    "description": "Spell. Removes an enchantment from target foe. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that enchantment (20 seconds).",
+    "concise_description": "Spell. Removes an enchantment from target foe. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that enchantment (20 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7153,7 +7153,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Enchantment"
@@ -7161,7 +7161,7 @@
   {
     "name": "Revealed Hex",
     "icon": "",
-    "description": "Spell. Removes a hex from target ally. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that hex (20 seconds).",
+    "concise_description": "Spell. Removes a hex from target ally. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that hex (20 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7202,7 +7202,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Hex"
@@ -7210,7 +7210,7 @@
   {
     "name": "Shame",
     "icon": "",
-    "description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal {{EnergyStolen}} Energy. No effect unless this foe's spell targeted one of its allies.",
+    "concise_description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal {{EnergyStolen}} Energy. No effect unless this foe's spell targeted one of its allies.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7251,7 +7251,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shame"
@@ -7259,7 +7259,7 @@
   {
     "name": "Shared Burden",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 50% slower.",
+    "concise_description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 50% slower.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7300,7 +7300,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden"
@@ -7308,7 +7308,7 @@
   {
     "name": "Shared Burden (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 33% slower.",
+    "concise_description": "Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 33% slower.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7349,7 +7349,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden_(PvP)"
@@ -7357,7 +7357,7 @@
   {
     "name": "Shatter Delusions",
     "icon": "",
-    "description": "Spell. Removes a Mesmer hex from target foe. Removal effect: {{Damage}} damage to target and all adjacent foes.",
+    "concise_description": "Spell. Removes a Mesmer hex from target foe. Removal effect: {{Damage}} damage to target and all adjacent foes.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7398,7 +7398,7 @@
     },
     "activation": 0.25,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions"
@@ -7406,7 +7406,7 @@
   {
     "name": "Shatter Delusions (PvP)",
     "icon": "",
-    "description": "Spell. Removes a Mesmer hex from target foe. Removal effect: {{Damage}} damage to target and all adjacent foes.",
+    "concise_description": "Spell. Removes a Mesmer hex from target foe. Removal effect: {{Damage}} damage to target and all adjacent foes.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7447,7 +7447,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions_(PvP)"
@@ -7455,7 +7455,7 @@
   {
     "name": "Shatter Enchantment",
     "icon": "",
-    "description": "Spell. Removes an enchantment from target foe. Removal effect: deals {{Damage}} damage.",
+    "concise_description": "Spell. Removes an enchantment from target foe. Removal effect: deals {{Damage}} damage.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7496,7 +7496,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Enchantment"
@@ -7504,7 +7504,7 @@
   {
     "name": "Shatter Hex",
     "icon": "",
-    "description": "Spell. Removes a hex from target ally. Removal effect: deals {{Damage}} damage to foes near this ally.",
+    "concise_description": "Spell. Removes a hex from target ally. Removal effect: deals {{Damage}} damage to foes near this ally.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7545,7 +7545,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Hex"
@@ -7553,7 +7553,7 @@
   {
     "name": "Shatter Storm",
     "icon": "",
-    "description": "Elite Spell. Removes all enchantments. Removal cost: Shatter Storm is disabled for +7 seconds for each enchantment removed.",
+    "concise_description": "Elite Spell. Removes all enchantments. Removal cost: Shatter Storm is disabled for +7 seconds for each enchantment removed.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7569,7 +7569,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Storm"
@@ -7577,7 +7577,7 @@
   {
     "name": "Shrinking Armor",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. End effect: inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds).",
+    "concise_description": "Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. End effect: inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds).",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -7642,7 +7642,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shrinking_Armor"
@@ -7650,7 +7650,7 @@
   {
     "name": "Signet of Clumsiness",
     "icon": "",
-    "description": "Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals {{Damage}} damage; knocks down foes using attack skills.",
+    "concise_description": "Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals {{Damage}} damage; knocks down foes using attack skills.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7691,7 +7691,7 @@
     },
     "activation": 0.25,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness"
@@ -7699,7 +7699,7 @@
   {
     "name": "Signet of Clumsiness (PvP)",
     "icon": "",
-    "description": "Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals {{Damage}} damage; knocks down foes using attack skills.",
+    "concise_description": "Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals {{Damage}} damage; knocks down foes using attack skills.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7740,7 +7740,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness_(PvP)"
@@ -7748,7 +7748,7 @@
   {
     "name": "Signet of Disenchantment",
     "icon": "",
-    "description": "Signet. Removes one enchantment. You lose all Energy.",
+    "concise_description": "Signet. Removes one enchantment. You lose all Energy.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7764,7 +7764,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disenchantment"
@@ -7772,7 +7772,7 @@
   {
     "name": "Signet of Disruption",
     "icon": "",
-    "description": "Signet. Interrupts a spell. Can interrupt any skill if target foe is hexed. Interruption effect: deals {{Damage}} damage.",
+    "concise_description": "Signet. Interrupts a spell. Can interrupt any skill if target foe is hexed. Interruption effect: deals {{Damage}} damage.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7813,7 +7813,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disruption"
@@ -7821,7 +7821,7 @@
   {
     "name": "Signet of Distraction",
     "icon": "",
-    "description": "Signet. Interrupts a spell. Interruption effect: target foe's spell is disabled for {{DisabledDuration}} seconds for each signet you have equipped.",
+    "concise_description": "Signet. Interrupts a spell. Interruption effect: target foe's spell is disabled for {{DisabledDuration}} seconds for each signet you have equipped.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7862,7 +7862,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Distraction"
@@ -7870,7 +7870,7 @@
   {
     "name": "Signet of Humility",
     "icon": "",
-    "description": "Signet. Disables elite skill ({{Duration}} second[s]). Disables your non-Mesmer skills (10 seconds).",
+    "concise_description": "Signet. Disables elite skill ({{Duration}} second[s]). Disables your non-Mesmer skills (10 seconds).",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7911,7 +7911,7 @@
     },
     "activation": 3,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Humility"
@@ -7919,7 +7919,7 @@
   {
     "name": "Signet of Illusions",
     "icon": "",
-    "description": "Elite Signet. Your next {{Spells}} spell[s] use your Illusion attribute instead of its normal attribute.",
+    "concise_description": "Elite Signet. Your next {{Spells}} spell[s] use your Illusion attribute instead of its normal attribute.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7960,7 +7960,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Illusions"
@@ -7968,7 +7968,7 @@
   {
     "name": "Signet of Midnight",
     "icon": "",
-    "description": "Elite Touch Signet. (15 seconds.) Inflicts Blindness condition. You suffer from Blindness (15 seconds).",
+    "concise_description": "Elite Touch Signet. (15 seconds.) Inflicts Blindness condition. You suffer from Blindness (15 seconds).",
     "type": "Touch Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -7984,7 +7984,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Midnight"
@@ -7992,7 +7992,7 @@
   {
     "name": "Signet of Recall",
     "icon": "",
-    "description": "Signet. (10 seconds.) You have -4 Energy regeneration. End effect: you gain {{EnergyGain}} Energy.",
+    "concise_description": "Signet. (10 seconds.) You have -4 Energy regeneration. End effect: you gain {{EnergyGain}} Energy.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -8033,7 +8033,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Recall"
@@ -8041,7 +8041,7 @@
   {
     "name": "Signet of Weariness",
     "icon": "",
-    "description": "Signet. Also affects foes near your target. Causes {{EnergyLoss}} Energy loss and inflicts Weakness ({{WeaknessDuration}} second[s]).",
+    "concise_description": "Signet. Also affects foes near your target. Causes {{EnergyLoss}} Energy loss and inflicts Weakness ({{WeaknessDuration}} second[s]).",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -8106,7 +8106,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Weariness"
@@ -8114,7 +8114,7 @@
   {
     "name": "Simple Thievery",
     "icon": "",
-    "description": "Elite Spell. Interrupts an action. Interruption effect: If a skill was interrupted, that skill is disabled and Simple Thievery becomes that skill ({{Duration}} seconds).",
+    "concise_description": "Elite Spell. Interrupts an action. Interruption effect: If a skill was interrupted, that skill is disabled and Simple Thievery becomes that skill ({{Duration}} seconds).",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8155,7 +8155,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Simple_Thievery"
@@ -8163,7 +8163,7 @@
   {
     "name": "Soothing Images",
     "icon": "",
-    "description": "Hex Spell. Also hexes foe adjacent to target. ({{Duration}} seconds). These foes cannot gain adrenaline.",
+    "concise_description": "Hex Spell. Also hexes foe adjacent to target. ({{Duration}} seconds). These foes cannot gain adrenaline.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8204,7 +8204,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_Images"
@@ -8212,7 +8212,7 @@
   {
     "name": "Spirit Shackles",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}}). Target foe loses 5 Energy whenever it attacks.",
+    "concise_description": "Hex Spell. ({{Duration}}). Target foe loses 5 Energy whenever it attacks.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8253,7 +8253,7 @@
     },
     "activation": 3,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Shackles"
@@ -8261,7 +8261,7 @@
   {
     "name": "Spirit of Failure",
     "icon": "",
-    "description": "Hex Spell. (30 seconds.) Target foe has 25% chance to miss. You gain {{EnergyGain}} Energy whenever this foe misses.",
+    "concise_description": "Hex Spell. (30 seconds.) Target foe has 25% chance to miss. You gain {{EnergyGain}} Energy whenever this foe misses.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8302,7 +8302,7 @@
     },
     "activation": 3,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_of_Failure"
@@ -8310,7 +8310,7 @@
   {
     "name": "Spiritual Pain",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage. Deals {{DamageToSummonedCreatures}} damage to hostile summoned creatures in the area of your target foe.",
+    "concise_description": "Spell. Deals {{Damage}} damage. Deals {{DamageToSummonedCreatures}} damage to hostile summoned creatures in the area of your target foe.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8375,7 +8375,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain"
@@ -8383,7 +8383,7 @@
   {
     "name": "Spiritual Pain (PvP)",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage. Deals {{DamageToSummonedCreatures}} damage to hostile summoned creatures in the area of your target foe.",
+    "concise_description": "Spell. Deals {{Damage}} damage. Deals {{DamageToSummonedCreatures}} damage to hostile summoned creatures in the area of your target foe.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8448,7 +8448,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain_(PvP)"
@@ -8456,7 +8456,7 @@
   {
     "name": "Stolen Speed",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes adjacent foes ({{Duration}} seconds). Doubles spell casting time. Spells cast by you or your allies have -50% casting times.",
+    "concise_description": "Elite Hex Spell. Also hexes adjacent foes ({{Duration}} seconds). Doubles spell casting time. Spells cast by you or your allies have -50% casting times.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8497,7 +8497,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed"
@@ -8505,7 +8505,7 @@
   {
     "name": "Stolen Speed (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes adjacent foes ({{Duration}} second[s]). Doubles spell casting time. Spells you cast on hexed foes have -50% casting time.",
+    "concise_description": "Elite Hex Spell. Also hexes adjacent foes ({{Duration}} second[s]). Doubles spell casting time. Spells you cast on hexed foes have -50% casting time.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8546,7 +8546,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed_(PvP)"
@@ -8554,7 +8554,7 @@
   {
     "name": "Sum of All Fears",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} second[s].) Target foe moves, attacks, and casts spells 33% slower.",
+    "concise_description": "Hex Spell. ({{Duration}} second[s].) Target foe moves, attacks, and casts spells 33% slower.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8595,7 +8595,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sum_of_All_Fears"
@@ -8603,7 +8603,7 @@
   {
     "name": "Symbolic Celerity",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Your signets use your Fast Casting attribute.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your signets use your Fast Casting attribute.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8644,7 +8644,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Celerity"
@@ -8652,7 +8652,7 @@
   {
     "name": "Symbolic Posture",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Your next signet recharges {{FasterRechargePercent}}% faster.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Your next signet recharges {{FasterRechargePercent}}% faster.",
     "type": "Stance",
     "profession": "Mesmer",
     "attribute": {
@@ -8717,7 +8717,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Posture"
@@ -8725,7 +8725,7 @@
   {
     "name": "Symbols of Inspiration",
     "icon": "",
-    "description": "Elite Skill. ({{Duration}} seconds.) This skill becomes the Elite of target foe. Elite spells you cast use your Fast Casting attribute instead of their normal attributes.",
+    "concise_description": "Elite Skill. ({{Duration}} seconds.) This skill becomes the Elite of target foe. Elite spells you cast use your Fast Casting attribute instead of their normal attributes.",
     "type": "Skill",
     "profession": "Mesmer",
     "attribute": {
@@ -8766,7 +8766,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration"
@@ -8774,7 +8774,7 @@
   {
     "name": "Sympathetic Visage",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.",
     "type": "Enchantment Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8815,7 +8815,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sympathetic_Visage"
@@ -8823,7 +8823,7 @@
   {
     "name": "Tease",
     "icon": "",
-    "description": "Elite Spell. Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal {{EnergyStolen}} Energy from all foes in the area.",
+    "concise_description": "Elite Spell. Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal {{EnergyStolen}} Energy from all foes in the area.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8864,7 +8864,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Tease"
@@ -8872,7 +8872,7 @@
   {
     "name": "Time Ward",
     "icon": "",
-    "description": "Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward cast spells {{FasterCastPercent}}% faster and recharge skills {{FasterRechargePercent}}% faster. Allied spirits are not affected. PvE Skill",
+    "concise_description": "Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward cast spells {{FasterCastPercent}}% faster and recharge skills {{FasterRechargePercent}}% faster. Allied spirits are not affected. PvE Skill",
     "type": "Ward Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -8961,7 +8961,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Time_Ward"
@@ -8969,7 +8969,7 @@
   {
     "name": "Unnatural Signet",
     "icon": "",
-    "description": "Signet. Deals {{Damage}} damage. Deals {{DamageToAdjacent}} damage to other adjacent foes if the target is hexed or enchanted.",
+    "concise_description": "Signet. Deals {{Damage}} damage. Deals {{DamageToAdjacent}} damage to other adjacent foes if the target is hexed or enchanted.",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -9034,7 +9034,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet"
@@ -9042,7 +9042,7 @@
   {
     "name": "Unnatural Signet (PvP)",
     "icon": "",
-    "description": "Signet. Deals {{Damage}} damage. Deals {{DamageToAdjacent}} damage to other adjacent foes if the target is hexed or enchanted. Your non-Mesmer skills except signets are disabled (10 seconds).",
+    "concise_description": "Signet. Deals {{Damage}} damage. Deals {{DamageToAdjacent}} damage to other adjacent foes if the target is hexed or enchanted. Your non-Mesmer skills except signets are disabled (10 seconds).",
     "type": "Signet",
     "profession": "Mesmer",
     "attribute": {
@@ -9107,7 +9107,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(PvP)"
@@ -9115,7 +9115,7 @@
   {
     "name": "Visions of Regret",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take {{Damage}} damage whenever they use a skill and {{ConditionalDamage}} additional damage if not under the effects of another Mesmer hex.",
+    "concise_description": "Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take {{Damage}} damage whenever they use a skill and {{ConditionalDamage}} additional damage if not under the effects of another Mesmer hex.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9204,7 +9204,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret"
@@ -9212,7 +9212,7 @@
   {
     "name": "Visions of Regret (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take {{Damage}} damage whenever they use a skill and {{ConditionalDamage}} additional damage if not under the effects of another Mesmer hex.",
+    "concise_description": "Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take {{Damage}} damage whenever they use a skill and {{ConditionalDamage}} additional damage if not under the effects of another Mesmer hex.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9277,7 +9277,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret_(PvP)"
@@ -9285,7 +9285,7 @@
   {
     "name": "Wandering Eye",
     "icon": "",
-    "description": "Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: {{Damage}} damage to nearby foes.",
+    "concise_description": "Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: {{Damage}} damage to nearby foes.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9326,7 +9326,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye"
@@ -9334,7 +9334,7 @@
   {
     "name": "Wandering Eye (PvP)",
     "icon": "",
-    "description": "Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: {{Damage}} damage to nearby foes.",
+    "concise_description": "Hex Spell. (4 seconds.) Interrupts target foe's next attack. Interruption effect: {{Damage}} damage to nearby foes.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9375,7 +9375,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye_(PvP)"
@@ -9383,7 +9383,7 @@
   {
     "name": "Waste Not, Want Not",
     "icon": "",
-    "description": "Spell. You gain {{EnergyGain}} Energy if target foe is not attacking or casting a spell.",
+    "concise_description": "Spell. You gain {{EnergyGain}} Energy if target foe is not attacking or casting a spell.",
     "type": "Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9424,7 +9424,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Waste_Not,_Want_Not"
@@ -9432,7 +9432,7 @@
   {
     "name": "Wastrel's Demise",
     "icon": "",
-    "description": "Hex Spell. (5 seconds.) Each second while hexed, target foe and all foes adjacent to that foe take {{Damage}} damage. Foes take +{{PlusDamage}} damage each second this hex is in effect. Ends early if target foe uses a skill.",
+    "concise_description": "Hex Spell. (5 seconds.) Each second while hexed, target foe and all foes adjacent to that foe take {{Damage}} damage. Foes take +{{PlusDamage}} damage each second this hex is in effect. Ends early if target foe uses a skill.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9521,7 +9521,7 @@
     },
     "activation": 0.25,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Demise"
@@ -9529,7 +9529,7 @@
   {
     "name": "Wastrel's Worry",
     "icon": "",
-    "description": "Hex Spell. (3 seconds). End effect: causes {{Damage}} damage to target and adjacent foes. No effect and ends early if target foe uses a skill.",
+    "concise_description": "Hex Spell. (3 seconds). End effect: causes {{Damage}} damage to target and adjacent foes. No effect and ends early if target foe uses a skill.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9570,7 +9570,7 @@
     },
     "activation": 0.25,
     "recharge": 1,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry"
@@ -9578,7 +9578,7 @@
   {
     "name": "Web of Disruption",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.",
+    "concise_description": "Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9594,7 +9594,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption"
@@ -9602,7 +9602,7 @@
   {
     "name": "Web of Disruption (PvP)",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.",
+    "concise_description": "Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.",
     "type": "Hex Spell",
     "profession": "Mesmer",
     "attribute": {
@@ -9618,7 +9618,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption_(PvP)"

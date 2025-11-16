@@ -2,7 +2,7 @@
   {
     "name": "Angorodon's Gaze",
     "icon": "",
-    "description": "Spell. Steals {{LifeStealing}} Health. You gain {{EnergyGain}} Energy if you have a condition.",
+    "concise_description": "Spell. Steals {{LifeStealing}} Health. You gain {{EnergyGain}} Energy if you have a condition.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -67,7 +67,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Angorodon%27s_Gaze"
@@ -75,7 +75,7 @@
   {
     "name": "Animate Bone Fiend",
     "icon": "",
-    "description": "Spell. Creates a level {{Level}} bone fiend that can attack at range. Exploits a fresh corpse.",
+    "concise_description": "Spell. Creates a level {{Level}} bone fiend that can attack at range. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -116,7 +116,7 @@
     },
     "activation": 3,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Fiend"
@@ -124,7 +124,7 @@
   {
     "name": "Animate Bone Horror",
     "icon": "",
-    "description": "Spell. Creates a level {{Level}} bone horror. Exploits a fresh corpse.",
+    "concise_description": "Spell. Creates a level {{Level}} bone horror. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -165,7 +165,7 @@
     },
     "activation": 3,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Horror"
@@ -173,7 +173,7 @@
   {
     "name": "Animate Bone Minions",
     "icon": "",
-    "description": "Spell. Creates two level {{Level}} bone minions. Exploits a fresh corpse.",
+    "concise_description": "Spell. Creates two level {{Level}} bone minions. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -214,7 +214,7 @@
     },
     "activation": 3,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Minions"
@@ -222,7 +222,7 @@
   {
     "name": "Animate Flesh Golem",
     "icon": "",
-    "description": "Elite Spell. Creates a level {{Level}} flesh golem which leaves a fresh corpse when it dies. Exploits a fresh corpse. You can have only one flesh golem at a time.",
+    "concise_description": "Elite Spell. Creates a level {{Level}} flesh golem which leaves a fresh corpse when it dies. Exploits a fresh corpse. You can have only one flesh golem at a time.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -263,7 +263,7 @@
     },
     "activation": 3,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Flesh_Golem"
@@ -271,7 +271,7 @@
   {
     "name": "Animate Shambling Horror",
     "icon": "",
-    "description": "Spell. Creates a level {{ShamblingHorrorLevel}} shambling horror. When the shambling horror dies, it is replaced by a level {{JaggedHorrorLevel}} jagged horror that causes Bleeding with each of its attacks. Exploits a fresh corpse.",
+    "concise_description": "Spell. Creates a level {{ShamblingHorrorLevel}} shambling horror. When the shambling horror dies, it is replaced by a level {{JaggedHorrorLevel}} jagged horror that causes Bleeding with each of its attacks. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -336,7 +336,7 @@
     },
     "activation": 3,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror"
@@ -344,7 +344,7 @@
   {
     "name": "Animate Vampiric Horror",
     "icon": "",
-    "description": "Spell. Creates a level {{Level}} vampiric horror. You gain Health equal to the damage it deals. Exploits a fresh corpse.",
+    "concise_description": "Spell. Creates a level {{Level}} vampiric horror. You gain Health equal to the damage it deals. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -385,7 +385,7 @@
     },
     "activation": 3,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Vampiric_Horror"
@@ -393,7 +393,7 @@
   {
     "name": "Atrophy",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Reduces this foe's primary attribute to 0.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Reduces this foe's primary attribute to 0.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -434,7 +434,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Atrophy"
@@ -442,7 +442,7 @@
   {
     "name": "Aura of the Lich",
     "icon": "",
-    "description": "Elite Enchantment Spell. Exploit all corpses in earshot. Animates a level {{Level}} bone horror, plus one for each exploited corpse. You have +1 Death Magic ({{Duration}} seconds).",
+    "concise_description": "Elite Enchantment Spell. Exploit all corpses in earshot. Animates a level {{Level}} bone horror, plus one for each exploited corpse. You have +1 Death Magic ({{Duration}} seconds).",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -507,7 +507,7 @@
     },
     "activation": 2,
     "recharge": 45,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich"
@@ -515,7 +515,7 @@
   {
     "name": "Awaken the Blood",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have +2 Blood Magic and Curses. Sacrifice 50% more Health than normal.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have +2 Blood Magic and Curses. Sacrifice 50% more Health than normal.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -556,7 +556,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Awaken_the_Blood"
@@ -564,7 +564,7 @@
   {
     "name": "Barbed Signet",
     "icon": "",
-    "description": "Signet. Target and adjacent foes suffer from Bleeding ({{BleedingDuration}} seconds).",
+    "concise_description": "Signet. Target and adjacent foes suffer from Bleeding ({{BleedingDuration}} seconds).",
     "type": "Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -605,7 +605,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Barbed_Signet"
@@ -613,7 +613,7 @@
   {
     "name": "Barbs",
     "icon": "",
-    "description": "Hex Spell. (30 seconds.) Target foe takes {{Damage}} damage whenever it takes physical damage.",
+    "concise_description": "Hex Spell. (30 seconds.) Target foe takes {{Damage}} damage whenever it takes physical damage.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -654,7 +654,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Barbs"
@@ -662,7 +662,7 @@
   {
     "name": "Bitter Chill",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. Recharges instantly if target foe had more Health than you.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. Recharges instantly if target foe had more Health than you.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -703,7 +703,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bitter_Chill"
@@ -711,7 +711,7 @@
   {
     "name": "Blood Bond",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). Allies hitting these foes gain {{HealthGain}} health. If any of these foes dies while hexed, adjacent allies are healed for {{Healing}}.",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). Allies hitting these foes gain {{HealthGain}} health. If any of these foes dies while hexed, adjacent allies are healed for {{Healing}}.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -800,7 +800,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Bond"
@@ -808,7 +808,7 @@
   {
     "name": "Blood Drinker",
     "icon": "",
-    "description": "Spell. Steals {{LifeStealing}} Health. You begin Bleeding (10 seconds) if your Health is above 50%.",
+    "concise_description": "Spell. Steals {{LifeStealing}} Health. You begin Bleeding (10 seconds) if your Health is above 50%.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -849,7 +849,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Drinker"
@@ -857,7 +857,7 @@
   {
     "name": "Blood Renewal",
     "icon": "",
-    "description": "Enchantment Spell. (7 seconds.) You have +{{Regeneration}} Health regeneration. End effect: heals you for {{Healing}}.",
+    "concise_description": "Enchantment Spell. (7 seconds.) You have +{{Regeneration}} Health regeneration. End effect: heals you for {{Healing}}.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -922,7 +922,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Renewal"
@@ -930,7 +930,7 @@
   {
     "name": "Blood Ritual",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) +3 Energy regeneration. Cannot self-target.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) +3 Energy regeneration. Cannot self-target.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -971,7 +971,7 @@
     },
     "activation": 2,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Ritual"
@@ -979,7 +979,7 @@
   {
     "name": "Blood is Power",
     "icon": "",
-    "description": "Elite Enchantment Spell. (10 seconds.) +{{EnergyRegeneration}} Energy regeneration. Cannot self-target.",
+    "concise_description": "Elite Enchantment Spell. (10 seconds.) +{{EnergyRegeneration}} Energy regeneration. Cannot self-target.",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1020,7 +1020,7 @@
     },
     "activation": 0.25,
     "recharge": 0,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blood_is_Power"
@@ -1028,7 +1028,7 @@
   {
     "name": "Blood of the Aggressor",
     "icon": "",
-    "description": "Spell. Steal {{LifeStealing}} Health. Inflicts Weakness ({{WeaknessDuration}} seconds) if target foe was attacking.",
+    "concise_description": "Spell. Steal {{LifeStealing}} Health. Inflicts Weakness ({{WeaknessDuration}} seconds) if target foe was attacking.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1093,7 +1093,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Aggressor"
@@ -1101,7 +1101,7 @@
   {
     "name": "Blood of the Master",
     "icon": "",
-    "description": "Spell. Heals your undead servants for {{Healing}}. Healing cost: +2% Health sacrifice per servant healed.",
+    "concise_description": "Spell. Heals your undead servants for {{Healing}}. Healing cost: +2% Health sacrifice per servant healed.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1142,7 +1142,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Master"
@@ -1150,7 +1150,7 @@
   {
     "name": "Cacophony",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) Deals {{Damage}} damage whenever target foe uses a shout or chant.",
+    "concise_description": "Hex Spell. (10 seconds.) Deals {{Damage}} damage whenever target foe uses a shout or chant.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1191,7 +1191,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Cacophony"
@@ -1199,7 +1199,7 @@
   {
     "name": "Chilblains",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage to foes in the area around your target; removes {{EnchantmentsRemoved}} enchantment[s] from these foes. You are Poisoned (10 seconds).",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage to foes in the area around your target; removes {{EnchantmentsRemoved}} enchantment[s] from these foes. You are Poisoned (10 seconds).",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1264,7 +1264,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Chilblains"
@@ -1272,7 +1272,7 @@
   {
     "name": "Consume Corpse",
     "icon": "",
-    "description": "Spell. Teleport to a corpse's location. You gain {{HealthGain}} Health and {{EnergyGain}} Energy. Exploits a fresh corpse.",
+    "concise_description": "Spell. Teleport to a corpse's location. You gain {{HealthGain}} Health and {{EnergyGain}} Energy. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1337,7 +1337,7 @@
     },
     "activation": 1,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Corpse"
@@ -1345,7 +1345,7 @@
   {
     "name": "Contagion",
     "icon": "",
-    "description": "Elite Enchantment Spell. (60 seconds.) Whenever you gain a condition, all foes in the area gain that same condition. You sacrifice {{SacrificePercent}}% maximum Health each time this happens.",
+    "concise_description": "Elite Enchantment Spell. (60 seconds.) Whenever you gain a condition, all foes in the area gain that same condition. You sacrifice {{SacrificePercent}}% maximum Health each time this happens.",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1386,7 +1386,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Contagion"
@@ -1394,7 +1394,7 @@
   {
     "name": "Corrupt Enchantment",
     "icon": "",
-    "description": "Elite Hex Spell. Removes one enchantment from target foe. Removal effect: -{{HealthDegeneration}} Health degeneration (10 seconds).",
+    "concise_description": "Elite Hex Spell. Removes one enchantment from target foe. Removal effect: -{{HealthDegeneration}} Health degeneration (10 seconds).",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1435,7 +1435,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Corrupt_Enchantment"
@@ -1443,7 +1443,7 @@
   {
     "name": "Cultist's Fervor",
     "icon": "",
-    "description": "Elite Enchantment Spell. (5 seconds plus 3 seconds more for every rank of Soul Reaping.) Your Necromancer spells cost {{EnergyReduction}} less Energy. You suffer from Bleeding (10 seconds) each time you cast a Necromancer spell.",
+    "concise_description": "Elite Enchantment Spell. (5 seconds plus 3 seconds more for every rank of Soul Reaping.) Your Necromancer spells cost {{EnergyReduction}} less Energy. You suffer from Bleeding (10 seconds) each time you cast a Necromancer spell.",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1484,7 +1484,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Cultist%27s_Fervor"
@@ -1492,7 +1492,7 @@
   {
     "name": "Dark Aura",
     "icon": "",
-    "description": "Enchantment Spell. (30 seconds). Deals {{ShadowDamage}} damage to adjacent foes whenever target ally sacrifices Health. Damage cost: you lose {{HealthLoss}} Health.",
+    "concise_description": "Enchantment Spell. (30 seconds). Deals {{ShadowDamage}} damage to adjacent foes whenever target ally sacrifices Health. Damage cost: you lose {{HealthLoss}} Health.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1557,7 +1557,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Aura"
@@ -1565,7 +1565,7 @@
   {
     "name": "Dark Bond",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Transfers 75% of incoming damage from you to your nearest servant.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Transfers 75% of incoming damage from you to your nearest servant.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1606,7 +1606,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Bond"
@@ -1614,7 +1614,7 @@
   {
     "name": "Dark Fury",
     "icon": "",
-    "description": "Enchantment Spell. Enchants party members (5 seconds). These party members gain one strike of adrenaline each time they hit with an attack. 50% failure chance unless Blood Magic 5 or more.",
+    "concise_description": "Enchantment Spell. Enchants party members (5 seconds). These party members gain one strike of adrenaline each time they hit with an attack. 50% failure chance unless Blood Magic 5 or more.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1630,7 +1630,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Fury"
@@ -1638,7 +1638,7 @@
   {
     "name": "Dark Pact",
     "icon": "",
-    "description": "Spell. Deals {{ShadowDamage}} damage.",
+    "concise_description": "Spell. Deals {{ShadowDamage}} damage.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1679,7 +1679,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Pact"
@@ -1687,7 +1687,7 @@
   {
     "name": "Death Nova",
     "icon": "",
-    "description": "Enchantment Spell. (30 seconds.) Deals {{Damage}} damage and inflicts Poisoned condition (15 seconds) on adjacent foes if target ally dies.",
+    "concise_description": "Enchantment Spell. (30 seconds.) Deals {{Damage}} damage and inflicts Poisoned condition (15 seconds) on adjacent foes if target ally dies.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1728,7 +1728,7 @@
     },
     "activation": 2,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Death_Nova"
@@ -1736,7 +1736,7 @@
   {
     "name": "Deathly Chill",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. Deals {{ShadowDamage}} more damage if target foe was above 50% Health.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. Deals {{ShadowDamage}} more damage if target foe was above 50% Health.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1801,7 +1801,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Chill"
@@ -1809,7 +1809,7 @@
   {
     "name": "Deathly Swarm",
     "icon": "",
-    "description": "Spell. Deathly Swarm flies out slowly and deals {{ColdDamage}} cold damage. Hits two additional foes in the area.",
+    "concise_description": "Spell. Deathly Swarm flies out slowly and deals {{ColdDamage}} cold damage. Hits two additional foes in the area.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1850,7 +1850,7 @@
     },
     "activation": 2,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Swarm"
@@ -1858,7 +1858,7 @@
   {
     "name": "Defile Defenses",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Deals {{Damage}} damage the next time target foe blocks.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Deals {{Damage}} damage the next time target foe blocks.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1923,7 +1923,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Defenses"
@@ -1931,7 +1931,7 @@
   {
     "name": "Defile Enchantments",
     "icon": "",
-    "description": "Spell. Deals {{ShadowDamage}} damage to target and nearby foes. Deals {{DamagePerEnchantment}} more damage for each enchantment on them.",
+    "concise_description": "Spell. Deals {{ShadowDamage}} damage to target and nearby foes. Deals {{DamagePerEnchantment}} more damage for each enchantment on them.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -1996,7 +1996,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Enchantments"
@@ -2004,7 +2004,7 @@
   {
     "name": "Defile Flesh",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Reduces healing target foe receives by 33%. Only skills with the word \"heal\" in the description are affected.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Reduces healing target foe receives by 33%. Only skills with the word \"heal\" in the description are affected.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2045,7 +2045,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Flesh"
@@ -2053,7 +2053,7 @@
   {
     "name": "Demonic Flesh",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) When using a skill on a foe, deal {{ShadowDamage}} shadow damage to all other foes adjacent to you.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) When using a skill on a foe, deal {{ShadowDamage}} shadow damage to all other foes adjacent to you.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2118,7 +2118,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Demonic_Flesh"
@@ -2126,7 +2126,7 @@
   {
     "name": "Depravity",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{EnergyLost}} Energy loss whenever target foe casts a spell. One foe near your target also loses Energy.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{EnergyLost}} Energy loss whenever target foe casts a spell. One foe near your target also loses Energy.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2191,7 +2191,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Depravity"
@@ -2199,7 +2199,7 @@
   {
     "name": "Desecrate Enchantments",
     "icon": "",
-    "description": "Spell. Deals {{ShadowDamage}} damage to target and nearby foes. Deals {{DamagePerEnchantment}} more damage for each enchantment on them.",
+    "concise_description": "Spell. Deals {{ShadowDamage}} damage to target and nearby foes. Deals {{DamagePerEnchantment}} more damage for each enchantment on them.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2264,7 +2264,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments"
@@ -2272,7 +2272,7 @@
   {
     "name": "Discord",
     "icon": "",
-    "description": "Elite Spell. Deals {{ArmorignoringDamage}} damage. No effect unless target foe has a condition and is either hexed or enchanted.",
+    "concise_description": "Elite Spell. Deals {{ArmorignoringDamage}} damage. No effect unless target foe has a condition and is either hexed or enchanted.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2313,7 +2313,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Discord"
@@ -2321,7 +2321,7 @@
   {
     "name": "Discord (PvP)",
     "icon": "",
-    "description": "Elite Spell. Deals {{Damage}} damage. No effect unless target foe has a condition and is either hexed or enchanted.",
+    "concise_description": "Elite Spell. Deals {{Damage}} damage. No effect unless target foe has a condition and is either hexed or enchanted.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2362,7 +2362,7 @@
     },
     "activation": 2,
     "recharge": 2,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Discord_(PvP)"
@@ -2370,7 +2370,7 @@
   {
     "name": "Enfeeble",
     "icon": "",
-    "description": "Spell. Inflicts Weakness condition ({{Duration}} seconds).",
+    "concise_description": "Spell. Inflicts Weakness condition ({{Duration}} seconds).",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2411,7 +2411,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble"
@@ -2419,7 +2419,7 @@
   {
     "name": "Enfeeble (PvP)",
     "icon": "",
-    "description": "Spell. Inflicts Weakness condition ({{Duration}} seconds).",
+    "concise_description": "Spell. Inflicts Weakness condition ({{Duration}} seconds).",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2460,7 +2460,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble_(PvP)"
@@ -2468,7 +2468,7 @@
   {
     "name": "Enfeebling Blood",
     "icon": "",
-    "description": "Spell. Inflicts Weakness condition ({{Duration}} seconds) on this foe and nearby foes.",
+    "concise_description": "Spell. Inflicts Weakness condition ({{Duration}} seconds) on this foe and nearby foes.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2509,7 +2509,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood"
@@ -2517,7 +2517,7 @@
   {
     "name": "Enfeebling Blood (PvP)",
     "icon": "",
-    "description": "Spell. Inflicts Weakness condition ({{Duration}} second[s]) on this foe and nearby foes.",
+    "concise_description": "Spell. Inflicts Weakness condition ({{Duration}} second[s]) on this foe and nearby foes.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2558,7 +2558,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood_(PvP)"
@@ -2566,7 +2566,7 @@
   {
     "name": "Enfeebling Touch",
     "icon": "",
-    "description": "Touch Skill. Causes {{HealthLoss}} Health loss. Inflicts Weakness condition ({{Duration}} seconds).",
+    "concise_description": "Touch Skill. Causes {{HealthLoss}} Health loss. Inflicts Weakness condition ({{Duration}} seconds).",
     "type": "Touch Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -2631,7 +2631,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Touch"
@@ -2639,7 +2639,7 @@
   {
     "name": "Envenom Enchantments",
     "icon": "",
-    "description": "Spell. Removes one enchantment from target foe. Inflicts Poisoned condition ({{PoisonDuration}} seconds for each remaining enchantment on that foe).",
+    "concise_description": "Spell. Removes one enchantment from target foe. Inflicts Poisoned condition ({{PoisonDuration}} seconds for each remaining enchantment on that foe).",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2680,7 +2680,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Envenom_Enchantments"
@@ -2688,7 +2688,7 @@
   {
     "name": "Faintheartedness",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe attacks 50% slower and has -{{HealthDegeneration}} Health degeneration.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe attacks 50% slower and has -{{HealthDegeneration}} Health degeneration.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2753,7 +2753,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Faintheartedness"
@@ -2761,7 +2761,7 @@
   {
     "name": "Feast for the Dead",
     "icon": "",
-    "description": "Spell. Destroys one of your undead servants. Heals your servants for {{Healing}}.",
+    "concise_description": "Spell. Destroys one of your undead servants. Heals your servants for {{Healing}}.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2802,7 +2802,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Feast_for_the_Dead"
@@ -2810,7 +2810,7 @@
   {
     "name": "Feast of Corruption",
     "icon": "",
-    "description": "Elite Spell. Deals {{ShadowDamage}} damage to target and adjacent foes. Steal {{LifeStealing}} Health from each hexed foe.",
+    "concise_description": "Elite Spell. Deals {{ShadowDamage}} damage to target and adjacent foes. Steal {{LifeStealing}} Health from each hexed foe.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2875,7 +2875,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Feast_of_Corruption"
@@ -2883,7 +2883,7 @@
   {
     "name": "Fetid Ground",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds) if target foe is knocked-down.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds) if target foe is knocked-down.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -2948,7 +2948,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fetid_Ground"
@@ -2956,7 +2956,7 @@
   {
     "name": "Foul Feast",
     "icon": "",
-    "description": "Spell. Transfers all conditions from target ally to yourself. You gain {{Healing}} Health and {{EnergyGain}} Energy for each condition transferred. Half recharge if you remove Disease. Cannot self-target.",
+    "concise_description": "Spell. Transfers all conditions from target ally to yourself. You gain {{Healing}} Health and {{EnergyGain}} Energy for each condition transferred. Half recharge if you remove Disease. Cannot self-target.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3021,7 +3021,7 @@
     },
     "activation": 0.25,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Foul_Feast"
@@ -3029,7 +3029,7 @@
   {
     "name": "Gaze of Contempt",
     "icon": "",
-    "description": "Spell. Removes target foe's enchantments. No effect unless this foe has more than 50% Health.",
+    "concise_description": "Spell. Removes target foe's enchantments. No effect unless this foe has more than 50% Health.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3045,7 +3045,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt"
@@ -3053,7 +3053,7 @@
   {
     "name": "Grenth's Balance",
     "icon": "",
-    "description": "Elite Spell. You gain Health equal to half the difference between you and target, and this foe loses an equal amount. If this foe has less Health than you, you lose Health equal to half the difference.",
+    "concise_description": "Elite Spell. You gain Health equal to half the difference between you and target, and this foe loses an equal amount. If this foe has less Health than you, you lose Health equal to half the difference.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3069,7 +3069,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance"
@@ -3077,7 +3077,7 @@
   {
     "name": "Hexer's Vigor",
     "icon": "",
-    "description": "Enchantment Spell. (10 seconds.) You have +{{HealthRegeneration}} Health regeneration. Ends if you use a non-hex skill.",
+    "concise_description": "Enchantment Spell. (10 seconds.) You have +{{HealthRegeneration}} Health regeneration. Ends if you use a non-hex skill.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3118,7 +3118,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hexer%27s_Vigor"
@@ -3126,7 +3126,7 @@
   {
     "name": "Icy Veins",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Deals {{ColdDamageUponDeath}} cold damage to nearby foes if target foe dies. Initial effect: deals {{ColdDamage}} cold damage.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Deals {{ColdDamageUponDeath}} cold damage to nearby foes if target foe dies. Initial effect: deals {{ColdDamage}} cold damage.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3215,7 +3215,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Veins"
@@ -3223,7 +3223,7 @@
   {
     "name": "Infuse Condition",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Whenever you receive a condition, it transfers from you to your closest undead servant.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Whenever you receive a condition, it transfers from you to your closest undead servant.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3264,7 +3264,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Infuse_Condition"
@@ -3272,7 +3272,7 @@
   {
     "name": "Insidious Parasite",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Steal {{LifeStealing}} Health whenever target foe hits with an attack.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Steal {{LifeStealing}} Health whenever target foe hits with an attack.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3337,7 +3337,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Insidious_Parasite"
@@ -3345,7 +3345,7 @@
   {
     "name": "Jagged Bones",
     "icon": "",
-    "description": "Elite Enchantment Spell. (30 seconds.) When target undead servant dies, it is replaced by a level {{Level}} jagged horror that inflicts Bleeding with attacks.",
+    "concise_description": "Elite Enchantment Spell. (30 seconds.) When target undead servant dies, it is replaced by a level {{Level}} jagged horror that inflicts Bleeding with attacks.",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3386,7 +3386,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Bones"
@@ -3394,7 +3394,7 @@
   {
     "name": "Jaundiced Gaze",
     "icon": "",
-    "description": "Enchantment Spell. Removes an enchantment from target foe. Removal effect: your next enchantment casts {{EnchantmentCastReduction}} second[s] faster and costs {{EnchantmentCostReduction}} less Energy. ({{Duration}} second[s])",
+    "concise_description": "Enchantment Spell. Removes an enchantment from target foe. Removal effect: your next enchantment casts {{EnchantmentCastReduction}} second[s] faster and costs {{EnchantmentCostReduction}} less Energy. ({{Duration}} second[s])",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3483,7 +3483,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Jaundiced_Gaze"
@@ -3491,7 +3491,7 @@
   {
     "name": "Life Siphon",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe has -{{HealthDegeneration}} Health degeneration. You have +{{HealthRegeneration}} Health regeneration.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe has -{{HealthDegeneration}} Health degeneration. You have +{{HealthRegeneration}} Health regeneration.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3580,7 +3580,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Life_Siphon"
@@ -3588,7 +3588,7 @@
   {
     "name": "Life Transfer",
     "icon": "",
-    "description": "Elite Hex Spell. Also hexes foes adjacent to target ({{Duration}} second). Causes -{{HealthDegenerationRegeneration}} Health degeneration. You have +{{HealthDegenerationRegeneration}} Health regeneration.",
+    "concise_description": "Elite Hex Spell. Also hexes foes adjacent to target ({{Duration}} second). Causes -{{HealthDegenerationRegeneration}} Health degeneration. You have +{{HealthDegenerationRegeneration}} Health regeneration.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3653,7 +3653,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Life_Transfer"
@@ -3661,7 +3661,7 @@
   {
     "name": "Lifebane Strike",
     "icon": "",
-    "description": "Spell. Deals {{ShadowDamage}} damage. Steals {{LifeStealing}} Health if target foe's Health is above 50%.",
+    "concise_description": "Spell. Deals {{ShadowDamage}} damage. Steals {{LifeStealing}} Health if target foe's Health is above 50%.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3726,7 +3726,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lifebane_Strike"
@@ -3734,7 +3734,7 @@
   {
     "name": "Lingering Curse",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Target and nearby foes have -{{HealthDegeneration}} Health degeneration and receive 20% less benefit from healing.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Target and nearby foes have -{{HealthDegeneration}} Health degeneration and receive 20% less benefit from healing.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3799,7 +3799,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lingering_Curse"
@@ -3807,7 +3807,7 @@
   {
     "name": "Malaise",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes -1 Energy degeneration. Deals {{Damage}} damage if target foe's Energy drops to 0. You have -1 Health degeneration. Ends if this foe's Energy drops to 0.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes -1 Energy degeneration. Deals {{Damage}} damage if target foe's Energy drops to 0. You have -1 Health degeneration. Ends if this foe's Energy drops to 0.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3872,7 +3872,7 @@
     },
     "activation": 2,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Malaise"
@@ -3880,7 +3880,7 @@
   {
     "name": "Malign Intervention",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe receives 20% less from healing. If this foe dies while suffering from this hex, a level {{Level}} masterless bone horror is summoned.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe receives 20% less from healing. If this foe dies while suffering from this hex, a level {{Level}} masterless bone horror is summoned.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -3945,7 +3945,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Malign_Intervention"
@@ -3953,7 +3953,7 @@
   {
     "name": "Mark of Fury",
     "icon": "",
-    "description": "Hex Spell. (5 seconds.) Allies hitting target foe gain {{AdrenalineGain}} strike[s] of adrenaline. End effect: inflicts Cracked Armor ({{CrackedArmorDuration}} second[s].)",
+    "concise_description": "Hex Spell. (5 seconds.) Allies hitting target foe gain {{AdrenalineGain}} strike[s] of adrenaline. End effect: inflicts Cracked Armor ({{CrackedArmorDuration}} second[s].)",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4018,7 +4018,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Fury"
@@ -4026,7 +4026,7 @@
   {
     "name": "Mark of Pain",
     "icon": "",
-    "description": "Hex Spell. (30 seconds.) Deals {{ShadowDamage}} damage to adjacent foes whenever target foe takes physical damage.",
+    "concise_description": "Hex Spell. (30 seconds.) Deals {{ShadowDamage}} damage to adjacent foes whenever target foe takes physical damage.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4067,7 +4067,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Pain"
@@ -4075,7 +4075,7 @@
   {
     "name": "Mark of Subversion",
     "icon": "",
-    "description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal {{LifeStealing}} Health. No effect unless this foe's spell targeted one of its allies.",
+    "concise_description": "Hex Spell. (6 seconds.) Target foe's next spell fails and you steal {{LifeStealing}} Health. No effect unless this foe's spell targeted one of its allies.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4116,7 +4116,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Subversion"
@@ -4124,7 +4124,7 @@
   {
     "name": "Masochism",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have +2 Death Magic and Soul Reaping. Sacrifice {{SacrificePercent}}% Health when you cast a spell.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have +2 Death Magic and Soul Reaping. Sacrifice {{SacrificePercent}}% Health when you cast a spell.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4189,7 +4189,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Masochism"
@@ -4197,7 +4197,7 @@
   {
     "name": "Masochism (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. (30 seconds.) You gain {{EnergyGain}} Energy whenever you sacrifice Health.",
+    "concise_description": "Enchantment Spell. (30 seconds.) You gain {{EnergyGain}} Energy whenever you sacrifice Health.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4238,7 +4238,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Masochism_(PvP)"
@@ -4246,7 +4246,7 @@
   {
     "name": "Meekness",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes in the area of target ({{Duration}} seconds). These foes attack 50% slower.",
+    "concise_description": "Hex Spell. Also hexes foes in the area of target ({{Duration}} seconds). These foes attack 50% slower.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4287,7 +4287,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Meekness"
@@ -4295,7 +4295,7 @@
   {
     "name": "Necrosis",
     "icon": "",
-    "description": "Skill. Deals {{ArmorignoringDamage}} damage if target foe has a condition or hex.",
+    "concise_description": "Skill. Deals {{ArmorignoringDamage}} damage if target foe has a condition or hex.",
     "type": "Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -4325,7 +4325,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Necrosis"
@@ -4333,7 +4333,7 @@
   {
     "name": "Necrotic Traversal",
     "icon": "",
-    "description": "Spell. Teleport to a corpse's location. Inflicts Poisoned condition ({{Duration}} seconds). Affects all nearby foes. Exploits a fresh corpse.",
+    "concise_description": "Spell. Teleport to a corpse's location. Inflicts Poisoned condition ({{Duration}} seconds). Affects all nearby foes. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4374,7 +4374,7 @@
     },
     "activation": 0.75,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Necrotic_Traversal"
@@ -4382,7 +4382,7 @@
   {
     "name": "Offering of Blood",
     "icon": "",
-    "description": "Elite Spell. You gain {{EnergyGain}} Energy.",
+    "concise_description": "Elite Spell. You gain {{EnergyGain}} Energy.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4423,7 +4423,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Offering_of_Blood"
@@ -4431,7 +4431,7 @@
   {
     "name": "Oppressive Gaze",
     "icon": "",
-    "description": "Spell. Deals {{ShadowDamage}} damage to target and adjacent foes. Inflicts Poison and Weakness ({{PoisonAndWeaknessDuration}} second) on foes suffering from a condition.",
+    "concise_description": "Spell. Deals {{ShadowDamage}} damage to target and adjacent foes. Inflicts Poison and Weakness ({{PoisonAndWeaknessDuration}} second) on foes suffering from a condition.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4496,7 +4496,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Oppressive_Gaze"
@@ -4504,7 +4504,7 @@
   {
     "name": "Order of Apostasy",
     "icon": "",
-    "description": "Elite Enchantment Spell. Enchants all party members (5 seconds). These party members remove one enchantment when they deal physical damage. Removal cost: for each Monk enchantment, you lose {{PercentHealthLoss}}% maximum Health.",
+    "concise_description": "Elite Enchantment Spell. Enchants all party members (5 seconds). These party members remove one enchantment when they deal physical damage. Removal cost: for each Monk enchantment, you lose {{PercentHealthLoss}}% maximum Health.",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4545,7 +4545,7 @@
     },
     "activation": 2,
     "recharge": 0,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Apostasy"
@@ -4553,7 +4553,7 @@
   {
     "name": "Order of Pain",
     "icon": "",
-    "description": "Enchantment Spell. Enchants all party members (5 seconds). {{Damage}} more damage whenever these party members hit with physical damage.",
+    "concise_description": "Enchantment Spell. Enchants all party members (5 seconds). {{Damage}} more damage whenever these party members hit with physical damage.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4594,7 +4594,7 @@
     },
     "activation": 2,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Pain"
@@ -4602,7 +4602,7 @@
   {
     "name": "Order of Undeath",
     "icon": "",
-    "description": "Elite Spell. (5 seconds.) Your undead servants deal +{{Damage}} damage. You lose 2% of your maximum Health whenever your servants hit.",
+    "concise_description": "Elite Spell. (5 seconds.) Your undead servants deal +{{Damage}} damage. You lose 2% of your maximum Health whenever your servants hit.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4643,7 +4643,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Undeath"
@@ -4651,7 +4651,7 @@
   {
     "name": "Order of the Vampire",
     "icon": "",
-    "description": "Elite Enchantment Spell. Enchants all party members (5 seconds.) These party members steal {{LifeStealing}} Health with each physical damage attack. Party members under another Necromancer enchantment are not affected.",
+    "concise_description": "Elite Enchantment Spell. Enchants all party members (5 seconds.) These party members steal {{LifeStealing}} Health with each physical damage attack. Party members under another Necromancer enchantment are not affected.",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4692,7 +4692,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Vampire"
@@ -4700,7 +4700,7 @@
   {
     "name": "Pain of Disenchantment",
     "icon": "",
-    "description": "Elite Spell. Target foe loses {{EnchantmentsRemoved}} enchantment[s]. Removal effect: that foe and all adjacent foes lose {{HealthLoss}} Health.",
+    "concise_description": "Elite Spell. Target foe loses {{EnchantmentsRemoved}} enchantment[s]. Removal effect: that foe and all adjacent foes lose {{HealthLoss}} Health.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4765,7 +4765,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment"
@@ -4773,7 +4773,7 @@
   {
     "name": "Parasitic Bond",
     "icon": "",
-    "description": "Hex Spell. (20 seconds.) Causes -1 Health degeneration. End effect: you are healed for {{Healing}} Health.",
+    "concise_description": "Hex Spell. (20 seconds.) Causes -1 Health degeneration. End effect: you are healed for {{Healing}} Health.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4814,7 +4814,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Parasitic_Bond"
@@ -4822,7 +4822,7 @@
   {
     "name": "Plague Sending",
     "icon": "",
-    "description": "Spell. Transfer {{ConditionsTransferred}} condition[s] and [its/their] remaining duration[s] from yourself to target foe and all adjacent foes.",
+    "concise_description": "Spell. Transfer {{ConditionsTransferred}} condition[s] and [its/their] remaining duration[s] from yourself to target foe and all adjacent foes.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -4863,7 +4863,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Sending"
@@ -4871,7 +4871,7 @@
   {
     "name": "Plague Signet",
     "icon": "",
-    "description": "Elite Signet. Transfers all conditions with {{DurationPercent}}% of their remaining durations from yourself to target foe. 50% failure chance unless Curses 5 or more.",
+    "concise_description": "Elite Signet. Transfers all conditions with {{DurationPercent}}% of their remaining durations from yourself to target foe. 50% failure chance unless Curses 5 or more.",
     "type": "Elite Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -4912,7 +4912,7 @@
     },
     "activation": 1,
     "recharge": 4,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Signet"
@@ -4920,7 +4920,7 @@
   {
     "name": "Plague Touch",
     "icon": "",
-    "description": "Touch Skill. Transfers {{ConditionsTransferred}} condition[s] from yourself to target foe.",
+    "concise_description": "Touch Skill. Transfers {{ConditionsTransferred}} condition[s] from yourself to target foe.",
     "type": "Touch Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -4961,7 +4961,7 @@
     },
     "activation": 0.75,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Touch"
@@ -4969,7 +4969,7 @@
   {
     "name": "Poisoned Heart",
     "icon": "",
-    "description": "Spell. Inflicts Poisoned condition ({{PoisonDuration}} seconds) to adjacent foes. You are also Poisoned.",
+    "concise_description": "Spell. Inflicts Poisoned condition ({{PoisonDuration}} seconds) to adjacent foes. You are also Poisoned.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5010,7 +5010,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Poisoned_Heart"
@@ -5018,7 +5018,7 @@
   {
     "name": "Price of Failure",
     "icon": "",
-    "description": "Hex Spell. (30 seconds.) 25% chance to miss. Target foe takes {{Damage}} damage whenever it fails to hit.",
+    "concise_description": "Hex Spell. (30 seconds.) 25% chance to miss. Target foe takes {{Damage}} damage whenever it fails to hit.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5059,7 +5059,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Failure"
@@ -5067,7 +5067,7 @@
   {
     "name": "Putrid Bile",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration. Deals {{Damage}} damage to all nearby foes if target foe dies.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration. Deals {{Damage}} damage to all nearby foes if target foe dies.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5156,7 +5156,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Bile"
@@ -5164,7 +5164,7 @@
   {
     "name": "Putrid Explosion",
     "icon": "",
-    "description": "Spell. Explodes a corpse, dealing {{Damage}} damage to foes near it. Exploits a fresh corpse.",
+    "concise_description": "Spell. Explodes a corpse, dealing {{Damage}} damage to foes near it. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5205,7 +5205,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Explosion"
@@ -5213,7 +5213,7 @@
   {
     "name": "Putrid Flesh",
     "icon": "",
-    "description": "Spell. Destroys one of your undead servants. Inflicts Diseased condition ({{Duration}} seconds) to foes near this servant.",
+    "concise_description": "Spell. Destroys one of your undead servants. Inflicts Diseased condition ({{Duration}} seconds) to foes near this servant.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5254,7 +5254,7 @@
     },
     "activation": 0.25,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Flesh"
@@ -5262,7 +5262,7 @@
   {
     "name": "Ravenous Gaze",
     "icon": "",
-    "description": "Elite Spell. Deals {{Damage}} damage and steals {{LifeStealing}} Health from target and nearby foes.",
+    "concise_description": "Elite Spell. Deals {{Damage}} damage and steals {{LifeStealing}} Health from target and nearby foes.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5327,7 +5327,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ravenous_Gaze"
@@ -5335,7 +5335,7 @@
   {
     "name": "Reaper's Mark",
     "icon": "",
-    "description": "Elite Hex Spell. (30 seconds.) Causes -{{HealthDegeneration}} Health degeneration. You gain {{EnergyGain}} Energy if target foe dies while suffering from this hex.",
+    "concise_description": "Elite Hex Spell. (30 seconds.) Causes -{{HealthDegeneration}} Health degeneration. You gain {{EnergyGain}} Energy if target foe dies while suffering from this hex.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5400,7 +5400,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Reaper%27s_Mark"
@@ -5408,7 +5408,7 @@
   {
     "name": "Reckless Haste",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). These foes have 50% chance to miss, but attack 25% faster.",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). These foes have 50% chance to miss, but attack 25% faster.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5449,7 +5449,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Reckless_Haste"
@@ -5457,7 +5457,7 @@
   {
     "name": "Rend Enchantments",
     "icon": "",
-    "description": "Spell. Removes {{EnchantmentsRemoved}} enchantments from target foe. Removal cost: you lose {{HealthLoss}} Health for each Monk enchantment removed.",
+    "concise_description": "Spell. Removes {{EnchantmentsRemoved}} enchantments from target foe. Removal cost: you lose {{HealthLoss}} Health for each Monk enchantment removed.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5522,7 +5522,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rend_Enchantments"
@@ -5530,7 +5530,7 @@
   {
     "name": "Rigor Mortis",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe cannot block.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe cannot block.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5571,7 +5571,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rigor_Mortis"
@@ -5579,7 +5579,7 @@
   {
     "name": "Rip Enchantment",
     "icon": "",
-    "description": "Spell. Removes 1 enchantment. Removal effect: inflicts Bleeding ({{BleedingDuration}} seconds).",
+    "concise_description": "Spell. Removes 1 enchantment. Removal effect: inflicts Bleeding ({{BleedingDuration}} seconds).",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5620,7 +5620,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rip_Enchantment"
@@ -5628,7 +5628,7 @@
   {
     "name": "Rising Bile",
     "icon": "",
-    "description": "Hex Spell. (20 seconds.) End effect: deals {{Damage}} damage for each second Rising Bile was in effect. Also damages other foes in the area.",
+    "concise_description": "Hex Spell. (20 seconds.) End effect: deals {{Damage}} damage for each second Rising Bile was in effect. Also damages other foes in the area.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5693,7 +5693,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rising_Bile"
@@ -5701,7 +5701,7 @@
   {
     "name": "Rotting Flesh",
     "icon": "",
-    "description": "Spell. Inflicts Diseased condition ({{Duration}} seconds).",
+    "concise_description": "Spell. Inflicts Diseased condition ({{Duration}} seconds).",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5742,7 +5742,7 @@
     },
     "activation": 3,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rotting_Flesh"
@@ -5750,7 +5750,7 @@
   {
     "name": "Shadow Strike",
     "icon": "",
-    "description": "Spell. Deals {{ShadowDamage}} damage. Steal up to {{LifeStealing}} Health if this foe was above 50% Health.",
+    "concise_description": "Spell. Deals {{ShadowDamage}} damage. Steal up to {{LifeStealing}} Health if this foe was above 50% Health.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5815,7 +5815,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Strike"
@@ -5823,7 +5823,7 @@
   {
     "name": "Shadow of Fear",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). They attack 50% slower.",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). They attack 50% slower.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5864,7 +5864,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_of_Fear"
@@ -5872,7 +5872,7 @@
   {
     "name": "Shivers of Dread",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Cold damage interrupts target foe's skills. Interruption cost: you lose {{EnergyLoss}} Energy or this hex ends.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Cold damage interrupts target foe's skills. Interruption cost: you lose {{EnergyLoss}} Energy or this hex ends.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -5937,7 +5937,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shivers_of_Dread"
@@ -5945,7 +5945,7 @@
   {
     "name": "Signet of Agony",
     "icon": "",
-    "description": "Signet. Deals {{Damage}} damage to foes near you. You begin Bleeding (25 seconds).",
+    "concise_description": "Signet. Deals {{Damage}} damage to foes near you. You begin Bleeding (25 seconds).",
     "type": "Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -5986,7 +5986,7 @@
     },
     "activation": 0.75,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony"
@@ -5994,7 +5994,7 @@
   {
     "name": "Signet of Agony (PvP)",
     "icon": "",
-    "description": "Signet. Deals {{Damage}} damage to foes near you. You begin Bleeding (25 seconds).",
+    "concise_description": "Signet. Deals {{Damage}} damage to foes near you. You begin Bleeding (25 seconds).",
     "type": "Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -6035,7 +6035,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony_(PvP)"
@@ -6043,7 +6043,7 @@
   {
     "name": "Signet of Corruption",
     "icon": "",
-    "description": "Signet. Deals {{Damage}} damage to target and nearby foes. You gain 2 Energy (maximum {{MaximumEnergyGain}}) for each of these foes with a condition or hex.",
+    "concise_description": "Signet. Deals {{Damage}} damage to target and nearby foes. You gain 2 Energy (maximum {{MaximumEnergyGain}}) for each of these foes with a condition or hex.",
     "type": "Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -6090,7 +6090,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Corruption"
@@ -6098,7 +6098,7 @@
   {
     "name": "Signet of Lost Souls",
     "icon": "",
-    "description": "Signet. You gain {{HealthGain}} Health and {{EnergyGain}} Energy if target foe is below 50% Health.",
+    "concise_description": "Signet. You gain {{HealthGain}} Health and {{EnergyGain}} Energy if target foe is below 50% Health.",
     "type": "Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -6163,7 +6163,7 @@
     },
     "activation": 0.25,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Lost_Souls"
@@ -6171,7 +6171,7 @@
   {
     "name": "Signet of Sorrow",
     "icon": "",
-    "description": "Signet. Deals {{Damage}} damage. Recharges instantly if target foe is near a corpse or has a dead pet.",
+    "concise_description": "Signet. Deals {{Damage}} damage. Recharges instantly if target foe is near a corpse or has a dead pet.",
     "type": "Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -6212,7 +6212,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Sorrow"
@@ -6220,7 +6220,7 @@
   {
     "name": "Signet of Suffering",
     "icon": "",
-    "description": "Elite Signet. You Bleed for 6 seconds. Applies Bleeding ({{BleedingDuration}} seconds) to the target of your next Necromancer skill.",
+    "concise_description": "Elite Signet. You Bleed for 6 seconds. Applies Bleeding ({{BleedingDuration}} seconds) to the target of your next Necromancer skill.",
     "type": "Elite Signet",
     "profession": "Necromancer",
     "attribute": {
@@ -6261,7 +6261,7 @@
     },
     "activation": 0,
     "recharge": 4,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Suffering"
@@ -6269,7 +6269,7 @@
   {
     "name": "Soul Barbs",
     "icon": "",
-    "description": "Hex Spell. (30 seconds.) Deals {{Damage}} damage when an enchantment or hex is cast on target foe.",
+    "concise_description": "Hex Spell. (30 seconds.) Deals {{Damage}} damage when an enchantment or hex is cast on target foe.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6310,7 +6310,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Barbs"
@@ -6318,7 +6318,7 @@
   {
     "name": "Soul Bind",
     "icon": "",
-    "description": "Elite Hex Spell. (30 seconds.) Every time target foe is healed, the healer takes {{Damage}} damage. Ends if target is suffering from a Smiting Prayers hex.",
+    "concise_description": "Elite Hex Spell. (30 seconds.) Every time target foe is healed, the healer takes {{Damage}} damage. Ends if target is suffering from a Smiting Prayers hex.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6359,7 +6359,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Bind"
@@ -6367,7 +6367,7 @@
   {
     "name": "Soul Feast",
     "icon": "",
-    "description": "Spell. You gain {{HealthGain}} Health. Exploits a fresh corpse.",
+    "concise_description": "Spell. You gain {{HealthGain}} Health. Exploits a fresh corpse.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6408,7 +6408,7 @@
     },
     "activation": 1,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Feast"
@@ -6416,7 +6416,7 @@
   {
     "name": "Soul Leech",
     "icon": "",
-    "description": "Elite Hex Spell. (10 seconds.) Steal {{LifeStealing}} Health whenever target foe casts a spell.",
+    "concise_description": "Elite Hex Spell. (10 seconds.) Steal {{LifeStealing}} Health whenever target foe casts a spell.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6457,7 +6457,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Leech"
@@ -6465,7 +6465,7 @@
   {
     "name": "Soul Taker",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Attacks deal +{{Damage}} damage and sacrifice {{Sacrifice}} health. PvE Skill",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Attacks deal +{{Damage}} damage and sacrifice {{Sacrifice}} health. PvE Skill",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6554,7 +6554,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Taker"
@@ -6562,7 +6562,7 @@
   {
     "name": "Spinal Shivers",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Cold damage interrupts target foe's skills. Interruption cost: you lose {{EnergyLoss}} Energy or Spinal Shivers ends.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Cold damage interrupts target foe's skills. Interruption cost: you lose {{EnergyLoss}} Energy or Spinal Shivers ends.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6627,7 +6627,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spinal_Shivers"
@@ -6635,7 +6635,7 @@
   {
     "name": "Spiteful Spirit",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Deals {{ShadowDamage}} damage to target and adjacent foes whenever this foe attacks or uses a skill.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Deals {{ShadowDamage}} damage to target and adjacent foes whenever this foe attacks or uses a skill.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6700,7 +6700,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spiteful_Spirit"
@@ -6708,7 +6708,7 @@
   {
     "name": "Spoil Victor",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthLoss}} Health loss whenever target foe attacks or casts spells on a creature with less Health.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthLoss}} Health loss whenever target foe attacks or casts spells on a creature with less Health.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6773,7 +6773,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor"
@@ -6781,7 +6781,7 @@
   {
     "name": "Spoil Victor (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthLoss}} Health loss whenever target foe attacks or casts spells on a creature with less Health.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthLoss}} Health loss whenever target foe attacks or casts spells on a creature with less Health.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6846,7 +6846,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor_(PvP)"
@@ -6854,7 +6854,7 @@
   {
     "name": "Strip Enchantment",
     "icon": "",
-    "description": "Spell. Removes {{EnchantmentsRemoved}} enchantment[s] from target foe. Removal effect: you steal {{LifeStealing}} Health.",
+    "concise_description": "Spell. Removes {{EnchantmentsRemoved}} enchantment[s] from target foe. Removal effect: you steal {{LifeStealing}} Health.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6919,7 +6919,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Strip_Enchantment"
@@ -6927,7 +6927,7 @@
   {
     "name": "Suffering",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes near target ({{Duration}} seconds). These foes have -{{HealthDegeneration}} Health degeneration.",
+    "concise_description": "Hex Spell. Also hexes foes near target ({{Duration}} seconds). These foes have -{{HealthDegeneration}} Health degeneration.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -6992,7 +6992,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Suffering"
@@ -7000,7 +7000,7 @@
   {
     "name": "Summon Spirits",
     "icon": "",
-    "description": "Spell. Spirits you control Shadow Step to your location and gain {{HealthGain}} Health.",
+    "concise_description": "Spell. Spirits you control Shadow Step to your location and gain {{HealthGain}} Health.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7032,7 +7032,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Spirits"
@@ -7040,7 +7040,7 @@
   {
     "name": "Tainted Flesh",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Foes who hit target ally in melee become Diseased ({{DiseaseDuration}} seconds); this ally is immune to Disease.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Foes who hit target ally in melee become Diseased ({{DiseaseDuration}} seconds); this ally is immune to Disease.",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7105,7 +7105,7 @@
     },
     "activation": 1,
     "recharge": 0,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Tainted_Flesh"
@@ -7113,7 +7113,7 @@
   {
     "name": "Taste of Death",
     "icon": "",
-    "description": "Spell. Steals {{LifeStealing}} Health from allied undead servant.",
+    "concise_description": "Spell. Steals {{LifeStealing}} Health from allied undead servant.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7154,7 +7154,7 @@
     },
     "activation": 0.25,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Death"
@@ -7162,7 +7162,7 @@
   {
     "name": "Taste of Pain",
     "icon": "",
-    "description": "Spell. Heals you for {{HealthGain}}. No effect unless target foe is below 50% Health.",
+    "concise_description": "Spell. Heals you for {{HealthGain}}. No effect unless target foe is below 50% Health.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7203,7 +7203,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Pain"
@@ -7211,7 +7211,7 @@
   {
     "name": "Touch of Agony",
     "icon": "",
-    "description": "Touch Skill. Deals {{ShadowDamage}} damage.",
+    "concise_description": "Touch Skill. Deals {{ShadowDamage}} damage.",
     "type": "Touch Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -7252,7 +7252,7 @@
     },
     "activation": 0.75,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Agony"
@@ -7260,7 +7260,7 @@
   {
     "name": "Toxic Chill",
     "icon": "",
-    "description": "Elite Spell. Deals {{ColdDamage}} cold damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds) if target foe is hexed or enchanted.",
+    "concise_description": "Elite Spell. Deals {{ColdDamage}} cold damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds) if target foe is hexed or enchanted.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7325,7 +7325,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Toxic_Chill"
@@ -7333,7 +7333,7 @@
   {
     "name": "Ulcerous Lungs",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Causes -4 Health degeneration to any of these foes that are Bleeding. Inflicts Bleeding ({{BleedingDuration}} seconds) whenever these foes use a shout or chant.",
+    "concise_description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Causes -4 Health degeneration to any of these foes that are Bleeding. Inflicts Bleeding ({{BleedingDuration}} seconds) whenever these foes use a shout or chant.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7398,7 +7398,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ulcerous_Lungs"
@@ -7406,7 +7406,7 @@
   {
     "name": "Unholy Feast",
     "icon": "",
-    "description": "Spell. Steals {{LifeStealing}} Health from {{AffectedFoes}} foe[s] in the area around you.",
+    "concise_description": "Spell. Steals {{LifeStealing}} Health from {{AffectedFoes}} foe[s] in the area around you.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7471,7 +7471,7 @@
     },
     "activation": 0.75,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast"
@@ -7479,7 +7479,7 @@
   {
     "name": "Unholy Feast (PvP)",
     "icon": "",
-    "description": "Spell. Steals {{LifeStealing}} Health from {{AffectedFoes}} foe[s] in the area around you.",
+    "concise_description": "Spell. Steals {{LifeStealing}} Health from {{AffectedFoes}} foe[s] in the area around you.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7544,7 +7544,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast_(PvP)"
@@ -7552,7 +7552,7 @@
   {
     "name": "Vile Miasma",
     "icon": "",
-    "description": "Hex Spell. Causes -{{HealthDegeneration}} Health degeneration (10 seconds). Initial effect: deals {{ColdDamage}} cold damage. Hex is only applied if target foe has a condition.",
+    "concise_description": "Hex Spell. Causes -{{HealthDegeneration}} Health degeneration (10 seconds). Initial effect: deals {{ColdDamage}} cold damage. Hex is only applied if target foe has a condition.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7617,7 +7617,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Miasma"
@@ -7625,7 +7625,7 @@
   {
     "name": "Virulence",
     "icon": "",
-    "description": "Elite Spell. Inflicts Disease, Poison, and Weakness conditions ({{DiseasePoisonAndWeaknessDuration}} seconds). No effect unless this foe already had a condition.",
+    "concise_description": "Elite Spell. Inflicts Disease, Poison, and Weakness conditions ({{DiseasePoisonAndWeaknessDuration}} seconds). No effect unless this foe already had a condition.",
     "type": "Elite Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7666,7 +7666,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Virulence"
@@ -7674,7 +7674,7 @@
   {
     "name": "Vampiric Bite",
     "icon": "",
-    "description": "Touch Skill. Steals {{LifeStealing}} Health.",
+    "concise_description": "Touch Skill. Steals {{LifeStealing}} Health.",
     "type": "Touch Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -7715,7 +7715,7 @@
     },
     "activation": 0.75,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Bite"
@@ -7723,7 +7723,7 @@
   {
     "name": "Vampiric Gaze",
     "icon": "",
-    "description": "Spell. Steals {{LifeStealing}} Health.",
+    "concise_description": "Spell. Steals {{LifeStealing}} Health.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7764,7 +7764,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Gaze"
@@ -7772,7 +7772,7 @@
   {
     "name": "Vampiric Spirit",
     "icon": "",
-    "description": "Elite Enchantment Spell. Steal {{LifeStealing}} Health from target foe. You have +{{HealthRegeneration}} Health regeneration (10 seconds).",
+    "concise_description": "Elite Enchantment Spell. Steal {{LifeStealing}} Health from target foe. You have +{{HealthRegeneration}} Health regeneration (10 seconds).",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7837,7 +7837,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Spirit"
@@ -7845,7 +7845,7 @@
   {
     "name": "Vampiric Swarm",
     "icon": "",
-    "description": "Spell. Steals {{LifeStealing}} Health. Hits 2 additional foes in the area.",
+    "concise_description": "Spell. Steals {{LifeStealing}} Health. Hits 2 additional foes in the area.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7886,7 +7886,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Swarm"
@@ -7894,7 +7894,7 @@
   {
     "name": "Vampiric Touch",
     "icon": "",
-    "description": "Touch Skill. Steals {{LifeStealing}} Health.",
+    "concise_description": "Touch Skill. Steals {{LifeStealing}} Health.",
     "type": "Touch Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -7935,7 +7935,7 @@
     },
     "activation": 0.75,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Touch"
@@ -7943,7 +7943,7 @@
   {
     "name": "Verata's Aura",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Become master of all hostile undead servants in the area. End effect: your undead servants become masterless. 50% failure chance unless Death Magic 5 or more.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Become master of all hostile undead servants in the area. End effect: your undead servants become masterless. 50% failure chance unless Death Magic 5 or more.",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -7984,7 +7984,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Aura"
@@ -7992,7 +7992,7 @@
   {
     "name": "Verata's Gaze",
     "icon": "",
-    "description": "Spell. Make target undead servant masterless. If it is already masterless, you become its master. 50% failure chance unless Death Magic 5 or more.",
+    "concise_description": "Spell. Make target undead servant masterless. If it is already masterless, you become its master. 50% failure chance unless Death Magic 5 or more.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8008,7 +8008,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze"
@@ -8016,7 +8016,7 @@
   {
     "name": "Verata's Sacrifice",
     "icon": "",
-    "description": "Spell. ({{Duration}} seconds.) 10 undead allied servants gain +10 Health regeneration. Instantly recharges if you have control of 3 or fewer servants. Transfers all conditions from those servants to you.",
+    "concise_description": "Spell. ({{Duration}} seconds.) 10 undead allied servants gain +10 Health regeneration. Instantly recharges if you have control of 3 or fewer servants. Transfers all conditions from those servants to you.",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8057,7 +8057,7 @@
     },
     "activation": 2,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Sacrifice"
@@ -8065,7 +8065,7 @@
   {
     "name": "Vile Touch",
     "icon": "",
-    "description": "Touch Skill. Deals {{Damage}} damage.",
+    "concise_description": "Touch Skill. Deals {{Damage}} damage.",
     "type": "Touch Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -8106,7 +8106,7 @@
     },
     "activation": 0.75,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Touch"
@@ -8114,7 +8114,7 @@
   {
     "name": "Vocal Minority",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes near target ({{Duration}} seconds). These foes cannot use shouts or chants.",
+    "concise_description": "Hex Spell. Also hexes foes near target ({{Duration}} seconds). These foes cannot use shouts or chants.",
     "type": "Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8155,7 +8155,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vocal_Minority"
@@ -8163,7 +8163,7 @@
   {
     "name": "Wail of Doom",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe's attributes are 0.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe's attributes are 0.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8204,7 +8204,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wail_of_Doom"
@@ -8212,7 +8212,7 @@
   {
     "name": "Wallow's Bite",
     "icon": "",
-    "description": "Touch Skill. Deals {{ShadowDamage}} damage.",
+    "concise_description": "Touch Skill. Deals {{ShadowDamage}} damage.",
     "type": "Touch Skill",
     "profession": "Necromancer",
     "attribute": {
@@ -8253,7 +8253,7 @@
     },
     "activation": 0.75,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wallow%27s_Bite"
@@ -8261,7 +8261,7 @@
   {
     "name": "Weaken Armor",
     "icon": "",
-    "description": "Spell. Also affects adjacent foes. Inflicts Cracked Armor condition ({{Duration}} seconds).",
+    "concise_description": "Spell. Also affects adjacent foes. Inflicts Cracked Armor condition ({{Duration}} seconds).",
     "type": "Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8302,7 +8302,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Armor"
@@ -8310,7 +8310,7 @@
   {
     "name": "Weaken Knees",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe has -{{HealthDegeneration}} Health degeneration and takes {{DamageWhileMoving}} damage while moving.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe has -{{HealthDegeneration}} Health degeneration and takes {{DamageWhileMoving}} damage while moving.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8399,7 +8399,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Knees"
@@ -8407,7 +8407,7 @@
   {
     "name": "Well of Blood",
     "icon": "",
-    "description": "Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration. Exploits a fresh corpse.",
+    "concise_description": "Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration. Exploits a fresh corpse.",
     "type": "Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8472,7 +8472,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Blood"
@@ -8480,7 +8480,7 @@
   {
     "name": "Well of Darkness",
     "icon": "",
-    "description": "Well Spell. ({{WellDuration}} seconds.) Hexed foes in this well have 50% chance to miss. Exploits a fresh corpse.",
+    "concise_description": "Well Spell. ({{WellDuration}} seconds.) Hexed foes in this well have 50% chance to miss. Exploits a fresh corpse.",
     "type": "Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8521,7 +8521,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Darkness"
@@ -8529,7 +8529,7 @@
   {
     "name": "Well of Power",
     "icon": "",
-    "description": "Elite Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration and +2 Energy regeneration. Exploits a fresh corpse.",
+    "concise_description": "Elite Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration and +2 Energy regeneration. Exploits a fresh corpse.",
     "type": "Elite Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8594,7 +8594,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Power"
@@ -8602,7 +8602,7 @@
   {
     "name": "Well of Ruin",
     "icon": "",
-    "description": "Well Spell. ({{WellSpellDuration}} seconds.) Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to any foe in the well that takes physical damage. Exploits a fresh corpse.",
+    "concise_description": "Well Spell. ({{WellSpellDuration}} seconds.) Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to any foe in the well that takes physical damage. Exploits a fresh corpse.",
     "type": "Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8667,7 +8667,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Ruin"
@@ -8675,7 +8675,7 @@
   {
     "name": "Well of Silence",
     "icon": "",
-    "description": "Well Spell. ({{Duration}} seconds.) Foes in this well cannot use shouts and chants and have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse.",
+    "concise_description": "Well Spell. ({{Duration}} seconds.) Foes in this well cannot use shouts and chants and have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse.",
     "type": "Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8740,7 +8740,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Silence"
@@ -8748,7 +8748,7 @@
   {
     "name": "Well of Suffering",
     "icon": "",
-    "description": "Well Spell. ({{Duration}} seconds.) Foes in this well have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse.",
+    "concise_description": "Well Spell. ({{Duration}} seconds.) Foes in this well have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse.",
     "type": "Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8813,7 +8813,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Suffering"
@@ -8821,7 +8821,7 @@
   {
     "name": "Well of Weariness",
     "icon": "",
-    "description": "Well Spell. ({{Duration}} seconds.) Foes in this well have -1 Energy degeneration. Exploits a fresh corpse.",
+    "concise_description": "Well Spell. ({{Duration}} seconds.) Foes in this well have -1 Energy degeneration. Exploits a fresh corpse.",
     "type": "Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8862,7 +8862,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Weariness"
@@ -8870,7 +8870,7 @@
   {
     "name": "Well of the Profane",
     "icon": "",
-    "description": "Well Spell. ({{Duration}} seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. Exploits a fresh corpse. 50% failure chance unless Death Magic 5 or more.",
+    "concise_description": "Well Spell. ({{Duration}} seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. Exploits a fresh corpse. 50% failure chance unless Death Magic 5 or more.",
     "type": "Well Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -8911,7 +8911,7 @@
     },
     "activation": 3,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_the_Profane"
@@ -8919,7 +8919,7 @@
   {
     "name": "Wither",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and -1 Energy degeneration. Deals {{Damage}} damage if target foe's Energy drops to 0. Ends if this foe's Energy drops to 0.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and -1 Energy degeneration. Deals {{Damage}} damage if target foe's Energy drops to 0. Ends if this foe's Energy drops to 0.",
     "type": "Elite Hex Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -9008,7 +9008,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wither"
@@ -9016,7 +9016,7 @@
   {
     "name": "Withering Aura",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Target ally's melee attacks cause Weakness condition ({{WeaknessDuration}} seconds.)",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Target ally's melee attacks cause Weakness condition ({{WeaknessDuration}} seconds.)",
     "type": "Enchantment Spell",
     "profession": "Necromancer",
     "attribute": {
@@ -9081,7 +9081,7 @@
     },
     "activation": 1,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Withering_Aura"

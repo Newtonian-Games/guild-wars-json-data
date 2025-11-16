@@ -2,7 +2,7 @@
   {
     "name": "Aftershock",
     "icon": "",
-    "description": "Spell. Deals {{EarthDamage}} earth damage to nearby foes. Deals {{PlusEarthDamage}} more earth damage to knocked down foes.",
+    "concise_description": "Spell. Deals {{EarthDamage}} earth damage to nearby foes. Deals {{PlusEarthDamage}} more earth damage to knocked down foes.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -67,7 +67,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Aftershock"
@@ -75,7 +75,7 @@
   {
     "name": "Air Attunement",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost whenever you use an Air Magic skill.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost whenever you use an Air Magic skill.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -116,7 +116,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Air_Attunement"
@@ -124,7 +124,7 @@
   {
     "name": "Arc Lightning",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{NearbyLightningDamage}} lightning damage to two nearby foes if you are Overcast. 25% armor penetration.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{NearbyLightningDamage}} lightning damage to two nearby foes if you are Overcast. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -189,7 +189,7 @@
     },
     "activation": 1.5,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Arc_Lightning"
@@ -197,7 +197,7 @@
   {
     "name": "Armor of Earth",
     "icon": "",
-    "description": "Enchantment Spell. (30 seconds.) You have +{{PlusArmor}} armor. You move {{MovementPenalty}}% slower.",
+    "concise_description": "Enchantment Spell. (30 seconds.) You have +{{PlusArmor}} armor. You move {{MovementPenalty}}% slower.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -262,7 +262,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Earth"
@@ -270,7 +270,7 @@
   {
     "name": "Armor of Frost",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have +40 armor against physical damage and have +1 Water Magic.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have +40 armor against physical damage and have +1 Water Magic.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -311,7 +311,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Frost"
@@ -319,7 +319,7 @@
   {
     "name": "Armor of Mist",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor and move 33% faster.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor and move 33% faster.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -384,7 +384,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Mist"
@@ -392,7 +392,7 @@
   {
     "name": "Ash Blast",
     "icon": "",
-    "description": "Hex Spell. Deals {{EarthDamage}} earth damage. Burning foes are hexed for 5 seconds and miss {{MissChancePercent}}% of attacks. Also strikes adjacent.",
+    "concise_description": "Hex Spell. Deals {{EarthDamage}} earth damage. Burning foes are hexed for 5 seconds and miss {{MissChancePercent}}% of attacks. Also strikes adjacent.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -457,7 +457,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ash_Blast"
@@ -465,7 +465,7 @@
   {
     "name": "Aura of Restoration",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{HealingPercent}}% of the Energy cost each time you cast a spell.",
+    "concise_description": "Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{HealingPercent}}% of the Energy cost each time you cast a spell.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -530,7 +530,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration"
@@ -538,7 +538,7 @@
   {
     "name": "Aura of Restoration (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{PercentOfEnergyCost}}% of the Energy cost each time you cast a spell.",
+    "concise_description": "Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{PercentOfEnergyCost}}% of the Energy cost each time you cast a spell.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -603,7 +603,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration_(PvP)"
@@ -611,7 +611,7 @@
   {
     "name": "Bed of Coals",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds) to location of target foe. Hits foes adjacent to your target. Inflicts Burning condition ({{BurningDuration}} seconds) on knocked down foes.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds) to location of target foe. Hits foes adjacent to your target. Inflicts Burning condition ({{BurningDuration}} seconds) on knocked down foes.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -676,7 +676,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bed_of_Coals"
@@ -684,7 +684,7 @@
   {
     "name": "Blinding Flash",
     "icon": "",
-    "description": "Spell. Inflicts Blindness condition ({{BlindDuration}} seconds).",
+    "concise_description": "Spell. Inflicts Blindness condition ({{BlindDuration}} seconds).",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -725,7 +725,7 @@
     },
     "activation": 0.75,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Flash"
@@ -733,7 +733,7 @@
   {
     "name": "Blinding Surge",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. Inflicts Blindness condition ({{BlindDuration}} seconds) on target and adjacent foes. 25% armor penetration. If target was attacking, also hits adjacent foes and deals 50% more damage.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. Inflicts Blindness condition ({{BlindDuration}} seconds) on target and adjacent foes. 25% armor penetration. If target was attacking, also hits adjacent foes and deals 50% more damage.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -798,7 +798,7 @@
     },
     "activation": 0.75,
     "recharge": 6,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Surge"
@@ -806,7 +806,7 @@
   {
     "name": "Blurred Vision",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). They have 50% chance to miss.",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). They have 50% chance to miss.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -847,7 +847,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blurred_Vision"
@@ -855,7 +855,7 @@
   {
     "name": "Breath of Fire",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes adjacent to target's initial location.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes adjacent to target's initial location.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -896,7 +896,7 @@
     },
     "activation": 2,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Breath_of_Fire"
@@ -904,7 +904,7 @@
   {
     "name": "Burning Speed",
     "icon": "",
-    "description": "Enchantment Spell. (7 seconds.) You move {{MovementSpeedIncrease}}% faster. You suffer from Burning (7 seconds). End effect: inflicts Burning condition ({{BurningDuration}} seconds) on adjacent foes.",
+    "concise_description": "Enchantment Spell. (7 seconds.) You move {{MovementSpeedIncrease}}% faster. You suffer from Burning (7 seconds). End effect: inflicts Burning condition ({{BurningDuration}} seconds) on adjacent foes.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -969,7 +969,7 @@
     },
     "activation": 0.25,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Speed"
@@ -977,7 +977,7 @@
   {
     "name": "Chain Lightning",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Also hits two foes near your target. 25% armor penetration.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Also hits two foes near your target. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1018,7 +1018,7 @@
     },
     "activation": 2,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Chain_Lightning"
@@ -1026,7 +1026,7 @@
   {
     "name": "Chilling Winds",
     "icon": "",
-    "description": "Hex Spell. (10 seconds.) The next water hex on target foe lasts {{PercentLonger}}% longer. Initial effect: {{ColdDamage}} cold damage. Also strikes adjacent.",
+    "concise_description": "Hex Spell. (10 seconds.) The next water hex on target foe lasts {{PercentLonger}}% longer. Initial effect: {{ColdDamage}} cold damage. Also strikes adjacent.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1091,7 +1091,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Chilling_Winds"
@@ -1099,7 +1099,7 @@
   {
     "name": "Churning Earth",
     "icon": "",
-    "description": "Spell. Deals {{EarthDamage}} earth damage each second (5 seconds). Hits foes near target's initial location. Causes knock-down to foes moving faster than normal.",
+    "concise_description": "Spell. Deals {{EarthDamage}} earth damage each second (5 seconds). Hits foes near target's initial location. Causes knock-down to foes moving faster than normal.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1140,7 +1140,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Churning_Earth"
@@ -1148,7 +1148,7 @@
   {
     "name": "Conjure Flame",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusFireDamage}} fire damage. No effect unless your weapon deals fire damage.",
+    "concise_description": "Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusFireDamage}} fire damage. No effect unless your weapon deals fire damage.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1189,7 +1189,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Flame"
@@ -1197,7 +1197,7 @@
   {
     "name": "Conjure Frost",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusColdDamage}} cold damage. No effect unless your weapon deals cold damage.",
+    "concise_description": "Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusColdDamage}} cold damage. No effect unless your weapon deals cold damage.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1238,7 +1238,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Frost"
@@ -1246,7 +1246,7 @@
   {
     "name": "Conjure Lightning",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusLightningDamage}} lightning damage. No effect unless your weapon deals lightning damage.",
+    "concise_description": "Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusLightningDamage}} lightning damage. No effect unless your weapon deals lightning damage.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1287,7 +1287,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Lightning"
@@ -1295,7 +1295,7 @@
   {
     "name": "Crystal Wave",
     "icon": "",
-    "description": "Spell. Deals {{ArmorMinusIgnoringDamage}} damage to all foes adjacent to you. Those foes lose all conditions and take {{DamagePerCondition}} damage for each condition removed.",
+    "concise_description": "Spell. Deals {{ArmorMinusIgnoringDamage}} damage to all foes adjacent to you. Those foes lose all conditions and take {{DamagePerCondition}} damage for each condition removed.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1360,7 +1360,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Wave"
@@ -1368,7 +1368,7 @@
   {
     "name": "Deep Freeze",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes in the area of your target (10 seconds). These foes move 66% slower. Initial effect: deals {{ColdDamage}} cold damage.",
+    "concise_description": "Hex Spell. Also hexes foes in the area of your target (10 seconds). These foes move 66% slower. Initial effect: deals {{ColdDamage}} cold damage.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1409,7 +1409,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Deep_Freeze"
@@ -1417,7 +1417,7 @@
   {
     "name": "Double Dragon",
     "icon": "",
-    "description": "Elite Enchantment Spell. (8 seconds.) Enchants you and target ally. Adjacent foes take {{FireDamage}} fire damage each second. Skills that target a foe also inflict Burning ({{BurningDuration}} second[s]).",
+    "concise_description": "Elite Enchantment Spell. (8 seconds.) Enchants you and target ally. Adjacent foes take {{FireDamage}} fire damage each second. Skills that target a foe also inflict Burning ({{BurningDuration}} second[s]).",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1482,7 +1482,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Double_Dragon"
@@ -1490,7 +1490,7 @@
   {
     "name": "Dragon's Stomp",
     "icon": "",
-    "description": "Spell. Deals {{EarthDamage}} earth damage. Causes knock-down. Also hits foes near this foe.",
+    "concise_description": "Spell. Deals {{EarthDamage}} earth damage. Causes knock-down. Also hits foes near this foe.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1531,7 +1531,7 @@
     },
     "activation": 3,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dragon%27s_Stomp"
@@ -1539,7 +1539,7 @@
   {
     "name": "Earth Attunement",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use an Earth Magic skill.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use an Earth Magic skill.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1580,7 +1580,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Attunement"
@@ -1588,7 +1588,7 @@
   {
     "name": "Earthen Shackles",
     "icon": "",
-    "description": "Hex Spell. (3 seconds.) Target and nearby foes move 90% slower. Applies Weakness for {{WeaknessDuration}} seconds when it ends.",
+    "concise_description": "Hex Spell. (3 seconds.) Target and nearby foes move 90% slower. Applies Weakness for {{WeaknessDuration}} seconds when it ends.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1629,7 +1629,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Earthen_Shackles"
@@ -1637,7 +1637,7 @@
   {
     "name": "Earthquake",
     "icon": "",
-    "description": "Spell. Deals {{EarthDamage}} earth damage. Also hits foes near target. Causes knock-down.",
+    "concise_description": "Spell. Deals {{EarthDamage}} earth damage. Also hits foes near target. Causes knock-down.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1678,7 +1678,7 @@
     },
     "activation": 3,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Earthquake"
@@ -1686,7 +1686,7 @@
   {
     "name": "Ebon Hawk",
     "icon": "",
-    "description": "Spell. Projectile: deals {{EarthDamage}} earth damage and inflicts Weakness condition ({{WeaknessDuration}} seconds).",
+    "concise_description": "Spell. Projectile: deals {{EarthDamage}} earth damage and inflicts Weakness condition ({{WeaknessDuration}} seconds).",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1751,7 +1751,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Hawk"
@@ -1759,7 +1759,7 @@
   {
     "name": "Elemental Attunement",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Your elemental attributes are increased by +{{AttributeIncrease}}. You gain 50% of the Energy cost of any Air, Earth, Fire, and Water Magic skills you use.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Your elemental attributes are increased by +{{AttributeIncrease}}. You gain 50% of the Energy cost of any Air, Earth, Fire, and Water Magic skills you use.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1824,7 +1824,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Attunement"
@@ -1832,7 +1832,7 @@
   {
     "name": "Elemental Flame",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) whenever you apply an Elemental hex to a target.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) whenever you apply an Elemental hex to a target.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1897,7 +1897,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Flame"
@@ -1905,7 +1905,7 @@
   {
     "name": "Elemental Flame (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) whenever you apply an Elemental hex to a target.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) whenever you apply an Elemental hex to a target.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -1970,7 +1970,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Flame_(PvP)"
@@ -1978,7 +1978,7 @@
   {
     "name": "Elemental Lord",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 energy for every 10 ranks of Energy Storage and are healed for {{HealingPercent}}% of the spell's Energy cost.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 energy for every 10 ranks of Energy Storage and are healed for {{HealingPercent}}% of the spell's Energy cost.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2025,7 +2025,7 @@
     },
     "activation": 0.25,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Lord"
@@ -2033,7 +2033,7 @@
   {
     "name": "Energy Blast",
     "icon": "",
-    "description": "Spell. Deals {{ArmorMinusIgnoringDamagePerEnergy}} damage (maximum 130) for each point of Energy you have.",
+    "concise_description": "Spell. Deals {{ArmorMinusIgnoringDamagePerEnergy}} damage (maximum 130) for each point of Energy you have.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2074,7 +2074,7 @@
     },
     "activation": 1.5,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Blast"
@@ -2082,7 +2082,7 @@
   {
     "name": "Energy Boon",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Maximum Health for you and target ally is increased by {{PlusMaxHealth}} for each point of maximum Energy. Initial effect: Both gain {{EnergyGain}} Energy. You gain +1 Energy for every 2 points of Energy Storage.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Maximum Health for you and target ally is increased by {{PlusMaxHealth}} for each point of maximum Energy. Initial effect: Both gain {{EnergyGain}} Energy. You gain +1 Energy for every 2 points of Energy Storage.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2171,7 +2171,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Boon"
@@ -2179,7 +2179,7 @@
   {
     "name": "Enervating Charge",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Inflicts Weakness condition ({{WeaknessDuration}} seconds). 25% armor penetration.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Inflicts Weakness condition ({{WeaknessDuration}} seconds). 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2244,7 +2244,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enervating_Charge"
@@ -2252,7 +2252,7 @@
   {
     "name": "Eruption",
     "icon": "",
-    "description": "Spell. Deals {{EarthDamage}} earth damage each second (5 seconds). Hits foes near target's initial location. Inflicts Blindness condition (10 seconds).",
+    "concise_description": "Spell. Deals {{EarthDamage}} earth damage each second (5 seconds). Hits foes near target's initial location. Inflicts Blindness condition (10 seconds).",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2293,7 +2293,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Eruption"
@@ -2301,7 +2301,7 @@
   {
     "name": "Ether Prism",
     "icon": "",
-    "description": "Elite Skill. (3 seconds.) All damage you take is reduced by 75%. End effect: gain {{EnergyGain}} Energy.",
+    "concise_description": "Elite Skill. (3 seconds.) All damage you take is reduced by 75%. End effect: gain {{EnergyGain}} Energy.",
     "type": "Skill",
     "profession": "Elementalist",
     "attribute": {
@@ -2342,7 +2342,7 @@
     },
     "activation": null,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Prism"
@@ -2350,7 +2350,7 @@
   {
     "name": "Ether Prodigy",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) You have +6 Energy regeneration. End effect: lose 2 Health for each point of Energy you have. Lose all enchantments.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) You have +6 Energy regeneration. End effect: lose 2 Health for each point of Energy you have. Lose all enchantments.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2439,7 +2439,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Prodigy"
@@ -2447,7 +2447,7 @@
   {
     "name": "Ether Renewal",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2536,7 +2536,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Renewal"
@@ -2544,7 +2544,7 @@
   {
     "name": "Ether Renewal (PvP)",
     "icon": "",
-    "description": "Elite Enchantment Spell. (7 seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you.",
+    "concise_description": "Elite Enchantment Spell. (7 seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2609,7 +2609,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Renewal_(PvP)"
@@ -2617,7 +2617,7 @@
   {
     "name": "Fire Attunement",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use a Fire Magic skill.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use a Fire Magic skill.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2658,7 +2658,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Attunement"
@@ -2666,7 +2666,7 @@
   {
     "name": "Fire Storm",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage each second (10 seconds). Hits foes adjacent to target's initial location.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage each second (10 seconds). Hits foes adjacent to target's initial location.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2707,7 +2707,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Storm"
@@ -2715,7 +2715,7 @@
   {
     "name": "Fireball",
     "icon": "",
-    "description": "Spell. Projectile: deals {{FireDamage}} fire damage to target and adjacent foes.",
+    "concise_description": "Spell. Projectile: deals {{FireDamage}} fire damage to target and adjacent foes.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2756,7 +2756,7 @@
     },
     "activation": 1.5,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Fireball"
@@ -2764,7 +2764,7 @@
   {
     "name": "Flame Burst",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage to all foes near you.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage to all foes near you.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2805,7 +2805,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Burst"
@@ -2813,7 +2813,7 @@
   {
     "name": "Flame Djinn's Haste",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You move 25% faster. Initial effect: deals {{FireDamage}} fire damage to foes adjacent to you. If you damage a foe with this spell, it recharges 50% faster.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You move 25% faster. Initial effect: deals {{FireDamage}} fire damage to foes adjacent to you. If you damage a foe with this spell, it recharges 50% faster.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2878,7 +2878,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Djinn%27s_Haste"
@@ -2886,7 +2886,7 @@
   {
     "name": "Flare",
     "icon": "",
-    "description": "Spell. Projectile: deals {{FireDamage}} fire damage. If Overcast, strikes adjacent.",
+    "concise_description": "Spell. Projectile: deals {{FireDamage}} fire damage. If Overcast, strikes adjacent.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -2927,7 +2927,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Flare"
@@ -2935,7 +2935,7 @@
   {
     "name": "Freezing Gust",
     "icon": "",
-    "description": "Hex Spell. Deals {{ColdDamage}} cold damage if target foe is hexed with Water Magic. Otherwise, this foe moves 66% slower ({{Duration}} second[s]).",
+    "concise_description": "Hex Spell. Deals {{ColdDamage}} cold damage if target foe is hexed with Water Magic. Otherwise, this foe moves 66% slower ({{Duration}} second[s]).",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3000,7 +3000,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Freezing_Gust"
@@ -3008,7 +3008,7 @@
   {
     "name": "Frigid Armor",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmor}} armor against physical damage and immunity to Burning.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmor}} armor against physical damage and immunity to Burning.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3024,7 +3024,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Frigid_Armor"
@@ -3032,7 +3032,7 @@
   {
     "name": "Frozen Burst",
     "icon": "",
-    "description": "Hex Spell. Hexes foes near you. These foes move 66% slower ({{Duration}} seconds). Initial effect: deals {{ColdDamage}} cold damage to foes near you.",
+    "concise_description": "Hex Spell. Hexes foes near you. These foes move 66% slower ({{Duration}} seconds). Initial effect: deals {{ColdDamage}} cold damage to foes near you.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3097,7 +3097,7 @@
     },
     "activation": 0.75,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Frozen_Burst"
@@ -3105,7 +3105,7 @@
   {
     "name": "Gale",
     "icon": "",
-    "description": "Spell. Causes knock-down. 50% failure chance unless Air Magic 5 or more.",
+    "concise_description": "Spell. Causes knock-down. 50% failure chance unless Air Magic 5 or more.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3121,7 +3121,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Gale"
@@ -3129,7 +3129,7 @@
   {
     "name": "Glimmering Mark",
     "icon": "",
-    "description": "Elite Hex Spell. (10 seconds.) Deals {{ArmorMinusIgnoringDamage}} damage each second to target and adjacent foes. Inflicts Blindness [sic] on foes using attack skills. Ends if you use a skill that targets this foe.",
+    "concise_description": "Elite Hex Spell. (10 seconds.) Deals {{ArmorMinusIgnoringDamage}} damage each second to target and adjacent foes. Inflicts Blindness [sic] on foes using attack skills. Ends if you use a skill that targets this foe.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3170,7 +3170,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glimmering_Mark"
@@ -3178,7 +3178,7 @@
   {
     "name": "Glowing Gaze",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Burning.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Burning.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3219,7 +3219,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glowing_Gaze"
@@ -3227,7 +3227,7 @@
   {
     "name": "Glowing Ice",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is hexed with Water Magic.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is hexed with Water Magic.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3268,7 +3268,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glowing_Ice"
@@ -3276,7 +3276,7 @@
   {
     "name": "Glowstone",
     "icon": "",
-    "description": "Spell. Projectile: deals {{EarthDamage}} earth damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Weakened.",
+    "concise_description": "Spell. Projectile: deals {{EarthDamage}} earth damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Weakened.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3317,7 +3317,7 @@
     },
     "activation": 0.75,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glowstone"
@@ -3325,7 +3325,7 @@
   {
     "name": "Glyph of Concentration",
     "icon": "",
-    "description": "Glyph. (15 seconds.) Your next 1 spell cannot be interrupted and is unaffected by the Dazed condition.",
+    "concise_description": "Glyph. (15 seconds.) Your next 1 spell cannot be interrupted and is unaffected by the Dazed condition.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3341,7 +3341,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Concentration"
@@ -3349,7 +3349,7 @@
   {
     "name": "Glyph of Elemental Power",
     "icon": "",
-    "description": "Glyph. (25 seconds.) Boosts your elemental attributes by +2 for your next 10 spells.",
+    "concise_description": "Glyph. (25 seconds.) Boosts your elemental attributes by +2 for your next 10 spells.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3365,7 +3365,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Elemental_Power"
@@ -3373,7 +3373,7 @@
   {
     "name": "Glyph of Energy",
     "icon": "",
-    "description": "Elite Glyph. Your next {{SpellsAffected}} spell[s] do[es] not cause Overcast and cost[s] {{EnergyReduction}} less Energy. Gain {{AttributeIncrease}} to all elemental attributes.",
+    "concise_description": "Elite Glyph. Your next {{SpellsAffected}} spell[s] do[es] not cause Overcast and cost[s] {{EnergyReduction}} less Energy. Gain {{AttributeIncrease}} to all elemental attributes.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3462,7 +3462,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Energy"
@@ -3470,7 +3470,7 @@
   {
     "name": "Glyph of Essence",
     "icon": "",
-    "description": "Glyph. (15 seconds.) Your next spell casts instantly. You lose all Energy.",
+    "concise_description": "Glyph. (15 seconds.) Your next spell casts instantly. You lose all Energy.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3486,7 +3486,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Essence"
@@ -3494,7 +3494,7 @@
   {
     "name": "Glyph of Immolation",
     "icon": "",
-    "description": "Glyph. (15 seconds.) Your next {{SpellsAffected}} spell[s] that target[s] a foe also inflict[s] Burning condition ({{BurningDuration}} second[s]).",
+    "concise_description": "Glyph. (15 seconds.) Your next {{SpellsAffected}} spell[s] that target[s] a foe also inflict[s] Burning condition ({{BurningDuration}} second[s]).",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3559,7 +3559,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Immolation"
@@ -3567,7 +3567,7 @@
   {
     "name": "Glyph of Lesser Energy",
     "icon": "",
-    "description": "Glyph. (15 seconds.) Your next 2 spells cost {{EnergyReduction}} less Energy.",
+    "concise_description": "Glyph. (15 seconds.) Your next 2 spells cost {{EnergyReduction}} less Energy.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3608,7 +3608,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Lesser_Energy"
@@ -3616,7 +3616,7 @@
   {
     "name": "Glyph of Renewal",
     "icon": "",
-    "description": "Elite Glyph. (15 seconds.) Your next spell recharges instantly.",
+    "concise_description": "Elite Glyph. (15 seconds.) Your next spell recharges instantly.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3632,7 +3632,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Renewal"
@@ -3640,7 +3640,7 @@
   {
     "name": "Glyph of Restoration",
     "icon": "",
-    "description": "Glyph. (15 seconds.) Your next 2 spells heal you for {{Healing}}, and you are healed for {{PercentOfEnergyCostHealed}}% of the Energy cost of each spell.",
+    "concise_description": "Glyph. (15 seconds.) Your next 2 spells heal you for {{Healing}}, and you are healed for {{PercentOfEnergyCostHealed}}% of the Energy cost of each spell.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3705,7 +3705,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Restoration"
@@ -3713,7 +3713,7 @@
   {
     "name": "Glyph of Sacrifice",
     "icon": "",
-    "description": "Glyph. (15 seconds.) Your next spell casts instantly but takes an additional 30 seconds to recharge. Ends if you use a non-spell skill.",
+    "concise_description": "Glyph. (15 seconds.) Your next spell casts instantly but takes an additional 30 seconds to recharge. Ends if you use a non-spell skill.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3729,7 +3729,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice"
@@ -3737,7 +3737,7 @@
   {
     "name": "Glyph of Swiftness",
     "icon": "",
-    "description": "Glyph. (15 seconds.) Your next {{SpellsAffected}} spell[s] recharge 25% faster and projectiles from them move 200% faster.",
+    "concise_description": "Glyph. (15 seconds.) Your next {{SpellsAffected}} spell[s] recharge 25% faster and projectiles from them move 200% faster.",
     "type": "Glyph",
     "profession": "Elementalist",
     "attribute": {
@@ -3778,7 +3778,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Swiftness"
@@ -3786,7 +3786,7 @@
   {
     "name": "Grasping Earth",
     "icon": "",
-    "description": "Hex Spell. Hexes foes near you for ({{Duration}} seconds). These foes move 50% slower.",
+    "concise_description": "Hex Spell. Hexes foes near you for ({{Duration}} seconds). These foes move 50% slower.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3827,7 +3827,7 @@
     },
     "activation": 0.75,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Grasping_Earth"
@@ -3835,7 +3835,7 @@
   {
     "name": "Gust",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) You and target ally move 33% faster. Initial effect: Foes near you and target ally are struck for {{ColdDamage}} cold damage. Attacking or moving foes are knocked down.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) You and target ally move 33% faster. Initial effect: Foes near you and target ally are struck for {{ColdDamage}} cold damage. Attacking or moving foes are knocked down.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3900,7 +3900,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Gust"
@@ -3908,7 +3908,7 @@
   {
     "name": "Ice Prison",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 66% slower.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 66% slower.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -3949,7 +3949,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Prison"
@@ -3957,7 +3957,7 @@
   {
     "name": "Ice Spear",
     "icon": "",
-    "description": "Enchantment Spell. Projectile: deals {{ColdDamage}} cold damage. Gain +{{HealthRegeneration}} Health regeneration for 5 seconds if Overcast.",
+    "concise_description": "Enchantment Spell. Projectile: deals {{ColdDamage}} cold damage. Gain +{{HealthRegeneration}} Health regeneration for 5 seconds if Overcast.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4022,7 +4022,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spear"
@@ -4030,7 +4030,7 @@
   {
     "name": "Ice Spikes",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). These foes move 66% slower. Initial effect: deals {{ColdDamage}} cold damage.",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). These foes move 66% slower. Initial effect: deals {{ColdDamage}} cold damage.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4095,7 +4095,7 @@
     },
     "activation": 1.5,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spikes"
@@ -4103,7 +4103,7 @@
   {
     "name": "Icy Prism",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. Deals +[sic]{{PlusColdDamage}} cold damage to other nearby foes if target has a Water Magic hex.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. Deals +[sic]{{PlusColdDamage}} cold damage to other nearby foes if target has a Water Magic hex.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4168,7 +4168,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Prism"
@@ -4176,7 +4176,7 @@
   {
     "name": "Icy Shackles",
     "icon": "",
-    "description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe moves 66% slower. This foe moves 90% slower if enchanted.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} second[s].) Target foe moves 66% slower. This foe moves 90% slower if enchanted.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4217,7 +4217,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Shackles"
@@ -4225,7 +4225,7 @@
   {
     "name": "Immolate",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage. Inflicts Burning condition ({{BurningDuration}} second[s]).",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage. Inflicts Burning condition ({{BurningDuration}} second[s]).",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4290,7 +4290,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Immolate"
@@ -4298,7 +4298,7 @@
   {
     "name": "Incendiary Bonds",
     "icon": "",
-    "description": "Hex Spell. (3 seconds.) End effect: deals {{FireDamage}} fire damage and inflicts Burning condition ({{BurningDuration}} second[s]) to foes near your target. Also triggers if foe dies.",
+    "concise_description": "Hex Spell. (3 seconds.) End effect: deals {{FireDamage}} fire damage and inflicts Burning condition ({{BurningDuration}} second[s]) to foes near your target. Also triggers if foe dies.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4363,7 +4363,7 @@
     },
     "activation": 1,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Incendiary_Bonds"
@@ -4371,7 +4371,7 @@
   {
     "name": "Inferno",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage to foes adjacent to you.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage to foes adjacent to you.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4412,7 +4412,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Inferno"
@@ -4420,7 +4420,7 @@
   {
     "name": "Intensity",
     "icon": "",
-    "description": "Skill. (10 seconds.) The next time you deal elemental damage with a spell, other targets in the area take {{PercentDamage}}% of that damage.",
+    "concise_description": "Skill. (10 seconds.) The next time you deal elemental damage with a spell, other targets in the area take {{PercentDamage}}% of that damage.",
     "type": "Skill",
     "profession": "Elementalist",
     "attribute": {
@@ -4450,7 +4450,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Intensity"
@@ -4458,7 +4458,7 @@
   {
     "name": "Invoke Lightning",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. Hits two foes near target. 25% armor penetration.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. Hits two foes near target. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4499,7 +4499,7 @@
     },
     "activation": 1,
     "recharge": 6,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Invoke_Lightning"
@@ -4507,7 +4507,7 @@
   {
     "name": "Iron Mist",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Gain +15 armor. Air Magic spells that target a foe activate and recharge 25% faster, but you are Overcast by 3 points.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Gain +15 armor. Air Magic spells that target a foe activate and recharge 25% faster, but you are Overcast by 3 points.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4548,7 +4548,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Iron_Mist"
@@ -4556,7 +4556,7 @@
   {
     "name": "Kinetic Armor",
     "icon": "",
-    "description": "Enchantment Spell. (8 seconds.) You have +{{PlusArmorRating}} armor. Renewal bonus: cast a spell.",
+    "concise_description": "Enchantment Spell. (8 seconds.) You have +{{PlusArmorRating}} armor. Renewal bonus: cast a spell.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4621,7 +4621,7 @@
     },
     "activation": 3,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Kinetic_Armor"
@@ -4629,7 +4629,7 @@
   {
     "name": "Lava Arrows",
     "icon": "",
-    "description": "Spell. Projectile: deals {{Damage}} fire damage. Bonus effect: sends projectiles at 2 other foes near your target.",
+    "concise_description": "Spell. Projectile: deals {{Damage}} fire damage. Bonus effect: sends projectiles at 2 other foes near your target.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4670,7 +4670,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Arrows"
@@ -4678,7 +4678,7 @@
   {
     "name": "Lava Font",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes adjacent to your initial location. If Overcast, range increased to nearby.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes adjacent to your initial location. If Overcast, range increased to nearby.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4719,7 +4719,7 @@
     },
     "activation": 1.5,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Font"
@@ -4727,7 +4727,7 @@
   {
     "name": "Lightning Bolt",
     "icon": "",
-    "description": "Spell. Projectile: deals {{LightningDamage}} lightning damage. Deals {{AdditionalLightningDamage}} more lightning damage if target foe is moving. 25% armor penetration.",
+    "concise_description": "Spell. Projectile: deals {{LightningDamage}} lightning damage. Deals {{AdditionalLightningDamage}} more lightning damage if target foe is moving. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4792,7 +4792,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Bolt"
@@ -4800,7 +4800,7 @@
   {
     "name": "Lightning Hammer",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Applies Cracked Armor ({{CrackedArmorDuration}} seconds). 25% armor penetration.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Applies Cracked Armor ({{CrackedArmorDuration}} seconds). 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4865,7 +4865,7 @@
     },
     "activation": 2,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Hammer"
@@ -4873,7 +4873,7 @@
   {
     "name": "Lightning Hammer (PvP)",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4914,7 +4914,7 @@
     },
     "activation": 2,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Hammer_(PvP)"
@@ -4922,7 +4922,7 @@
   {
     "name": "Lightning Javelin",
     "icon": "",
-    "description": "Spell. Projectile: Deals {{LightningDamage}} lightning damage. Interrupts if your target is attacking. 25% armor penetration. Strikes all foes between you and your target.",
+    "concise_description": "Spell. Projectile: Deals {{LightningDamage}} lightning damage. Interrupts if your target is attacking. 25% armor penetration. Strikes all foes between you and your target.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -4963,7 +4963,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Javelin"
@@ -4971,7 +4971,7 @@
   {
     "name": "Lightning Orb",
     "icon": "",
-    "description": "Spell. Projectile: deals {{LightningDamage}} lightning damage. 25% armor penetration.",
+    "concise_description": "Spell. Projectile: deals {{LightningDamage}} lightning damage. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5012,7 +5012,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Orb"
@@ -5020,7 +5020,7 @@
   {
     "name": "Lightning Strike",
     "icon": "",
-    "description": "Hex Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals {{LightningDamage}} lightning damage.",
+    "concise_description": "Hex Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals {{LightningDamage}} lightning damage.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5061,7 +5061,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Strike"
@@ -5069,7 +5069,7 @@
   {
     "name": "Lightning Surge",
     "icon": "",
-    "description": "Elite Hex Spell. (3 seconds.) End effect: deals {{LightningDamage}} lightning damage, causes knock-down, and inflicts Cracked Armor ({{CrackedArmorDuration}} seconds). 25% armor penetration.",
+    "concise_description": "Elite Hex Spell. (3 seconds.) End effect: deals {{LightningDamage}} lightning damage, causes knock-down, and inflicts Cracked Armor ({{CrackedArmorDuration}} seconds). 25% armor penetration.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5134,7 +5134,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Surge"
@@ -5142,7 +5142,7 @@
   {
     "name": "Lightning Touch",
     "icon": "",
-    "description": "Touch Skill. Deals {{LightningDamage}} lightning damage. Also hits foes adjacent to target foe. Inflicts Blind ({{BlindDuration}} second[s]) and Cracked Armor ({{CrackedArmorDuration}} second[s]) on all struck foes. 25% armor penetration.",
+    "concise_description": "Touch Skill. Deals {{LightningDamage}} lightning damage. Also hits foes adjacent to target foe. Inflicts Blind ({{BlindDuration}} second[s]) and Cracked Armor ({{CrackedArmorDuration}} second[s]) on all struck foes. 25% armor penetration.",
     "type": "Touch Skill",
     "profession": "Elementalist",
     "attribute": {
@@ -5231,7 +5231,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Touch"
@@ -5239,7 +5239,7 @@
   {
     "name": "Liquid Flame",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage. Deals {{FireDamage}} fire damage to nearby foes if target was attacking or casting.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage. Deals {{FireDamage}} fire damage to nearby foes if target was attacking or casting.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5280,7 +5280,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Liquid_Flame"
@@ -5288,7 +5288,7 @@
   {
     "name": "Maelstrom",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage and interrupts spells each second (10 seconds). Hits foes adjacent to target's initial location.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage and interrupts spells each second (10 seconds). Hits foes adjacent to target's initial location.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5329,7 +5329,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Maelstrom"
@@ -5337,7 +5337,7 @@
   {
     "name": "Magnetic Aura",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} second[s].) Block the next attack against you and reflect {{Damage}} damage to the attacker. If you are Overcast, enchant party members in earshot.",
+    "concise_description": "Enchantment Spell. ({{Duration}} second[s].) Block the next attack against you and reflect {{Damage}} damage to the attacker. If you are Overcast, enchant party members in earshot.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5402,7 +5402,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Magnetic_Aura"
@@ -5410,7 +5410,7 @@
   {
     "name": "Magnetic Surge",
     "icon": "",
-    "description": "Enchantment Spell. Deals {{Damage}} damage. If you are Overcast, allies in earshot are enchanted for {{Duration}} [sic] and block the next attack against them.",
+    "concise_description": "Enchantment Spell. Deals {{Damage}} damage. If you are Overcast, allies in earshot are enchanted for {{Duration}} [sic] and block the next attack against them.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5475,7 +5475,7 @@
     },
     "activation": 1.5,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Magnetic_Surge"
@@ -5483,7 +5483,7 @@
   {
     "name": "Mark of Rodgort",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Inflicts Burning condition ({{BurningDuration}} second[s]) when these foes take fire damage.",
+    "concise_description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Inflicts Burning condition ({{BurningDuration}} second[s]) when these foes take fire damage.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5548,7 +5548,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Rodgort"
@@ -5556,7 +5556,7 @@
   {
     "name": "Master of Magic",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} second[s]). Your elemental attributes are set to {{AttributeRank}} and elemental spells return 30% of their Energy cost.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} second[s]). Your elemental attributes are set to {{AttributeRank}} and elemental spells return 30% of their Energy cost.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5621,7 +5621,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Master_of_Magic"
@@ -5629,7 +5629,7 @@
   {
     "name": "Meteor",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage and causes knock-down. Also hits foes adjacent to target foe.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage and causes knock-down. Also hits foes adjacent to target foe.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5670,7 +5670,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Meteor"
@@ -5678,7 +5678,7 @@
   {
     "name": "Meteor Shower",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage and causes knock-down every 3 seconds (9 seconds). Hits foes adjacent to target's initial location.",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage and causes knock-down every 3 seconds (9 seconds). Hits foes adjacent to target's initial location.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5719,7 +5719,7 @@
     },
     "activation": 5,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Meteor_Shower"
@@ -5727,7 +5727,7 @@
   {
     "name": "Mind Blast",
     "icon": "",
-    "description": "Elite Spell. Deals {{FireDamage}} fire damage. You gain {{EnergyGain}} Energy if you have more Energy than target foe.",
+    "concise_description": "Elite Spell. Deals {{FireDamage}} fire damage. You gain {{EnergyGain}} Energy if you have more Energy than target foe.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5792,7 +5792,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Blast"
@@ -5800,7 +5800,7 @@
   {
     "name": "Mind Burn",
     "icon": "",
-    "description": "Elite Spell. Deals {{FireDamage}} fire damage. If you have more energy than target foe, deals {{PlusFireDamage}} more fire damage and inflicts Burning ({{BurningDuration}} second[s]). Also hits adjacent foes.",
+    "concise_description": "Elite Spell. Deals {{FireDamage}} fire damage. If you have more energy than target foe, deals {{PlusFireDamage}} more fire damage and inflicts Burning ({{BurningDuration}} second[s]). Also hits adjacent foes.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5889,7 +5889,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Burn"
@@ -5897,7 +5897,7 @@
   {
     "name": "Mind Freeze",
     "icon": "",
-    "description": "Elite Hex Spell. Deals {{ColdDamage}} cold damage. If you have more Energy than target foe, deals +{{PlusColdDamage}} cold damage and causes 90% slower movement ({{Duration}} second[s]).",
+    "concise_description": "Elite Hex Spell. Deals {{ColdDamage}} cold damage. If you have more Energy than target foe, deals +{{PlusColdDamage}} cold damage and causes 90% slower movement ({{Duration}} second[s]).",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -5986,7 +5986,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Freeze"
@@ -5994,7 +5994,7 @@
   {
     "name": "Mind Freeze (PvP)",
     "icon": "",
-    "description": "Elite Hex Spell. Deals {{ColdDamage}} cold damage. If you have more Energy than target foe, deals +{{PlusColdDamage}} cold damage and causes 90% slower movement ({{Duration}} second[s]).",
+    "concise_description": "Elite Hex Spell. Deals {{ColdDamage}} cold damage. If you have more Energy than target foe, deals +{{PlusColdDamage}} cold damage and causes 90% slower movement ({{Duration}} second[s]).",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6083,7 +6083,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Freeze_(PvP)"
@@ -6091,7 +6091,7 @@
   {
     "name": "Mind Shock",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. If you have more Energy than target foe, deals +{{PlusLightningDamage}} lightning damage and causes knockdown. 25% armor penetration.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. If you have more Energy than target foe, deals +{{PlusLightningDamage}} lightning damage and causes knockdown. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6156,7 +6156,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Shock"
@@ -6164,7 +6164,7 @@
   {
     "name": "Mind Shock (PvP)",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. If you have more Energy than target foe, deals +{{PlusLightningDamage}} lightning damage and causes knockdown. 25% armor penetration.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. If you have more Energy than target foe, deals +{{PlusLightningDamage}} lightning damage and causes knockdown. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6229,7 +6229,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Shock_(PvP)"
@@ -6237,7 +6237,7 @@
   {
     "name": "Mirror of Ice",
     "icon": "",
-    "description": "Elite Hex Spell. Deals {{ColdDamage}} cold damage and slows foes by 66% ({{Duration}} seconds). Hits foes near you and target ally. Recharges 50% faster if it hits a foe hexed with Water Magic.",
+    "concise_description": "Elite Hex Spell. Deals {{ColdDamage}} cold damage and slows foes by 66% ({{Duration}} seconds). Hits foes near you and target ally. Recharges 50% faster if it hits a foe hexed with Water Magic.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6302,7 +6302,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Ice"
@@ -6310,7 +6310,7 @@
   {
     "name": "Mist Form",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for {{HealingPercent}}% of the energy cost of your elemental spells.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for {{HealingPercent}}% of the energy cost of your elemental spells.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6375,7 +6375,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mist_Form"
@@ -6383,7 +6383,7 @@
   {
     "name": "Mist Form (PvP)",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for {{HealingPercent}}% of the energy cost of your elemental spells. Does not heal allies above 80% Health.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for {{HealingPercent}}% of the energy cost of your elemental spells. Does not heal allies above 80% Health.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6448,7 +6448,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mist_Form_(PvP)"
@@ -6456,7 +6456,7 @@
   {
     "name": "Obsidian Flame",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage.",
+    "concise_description": "Spell. Deals {{Damage}} damage.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6497,7 +6497,7 @@
     },
     "activation": 1.5,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flame"
@@ -6505,7 +6505,7 @@
   {
     "name": "Obsidian Flame (PvP)",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage.",
+    "concise_description": "Spell. Deals {{Damage}} damage.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6546,7 +6546,7 @@
     },
     "activation": 1.5,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flame_(PvP)"
@@ -6554,7 +6554,7 @@
   {
     "name": "Obsidian Flesh",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) You have +20 armor and enemy spells cannot target you. You cannot attack and have -2 energy degeneration.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) You have +20 armor and enemy spells cannot target you. You cannot attack and have -2 energy degeneration.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6595,7 +6595,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flesh"
@@ -6603,7 +6603,7 @@
   {
     "name": "Over the Limit",
     "icon": "",
-    "description": "Elite Enchantment Spell. Spells cast {{CastingPercent}}% faster and recharge {{RechargePercent}}% faster. Continuously gain Overcast while active. PvE Skill",
+    "concise_description": "Elite Enchantment Spell. Spells cast {{CastingPercent}}% faster and recharge {{RechargePercent}}% faster. Continuously gain Overcast while active. PvE Skill",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6668,7 +6668,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Over_the_Limit"
@@ -6676,7 +6676,7 @@
   {
     "name": "Phoenix",
     "icon": "",
-    "description": "Spell. Projectile: deals {{FireDamage}} fire damage to target and nearby foes. Heals allies for {{Healing}} if you are Overcast.",
+    "concise_description": "Spell. Projectile: deals {{FireDamage}} fire damage to target and nearby foes. Heals allies for {{Healing}} if you are Overcast.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6741,7 +6741,7 @@
     },
     "activation": 1.5,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Phoenix"
@@ -6749,7 +6749,7 @@
   {
     "name": "Ride the Lightning",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Blinds all adjacent foes ({{BlindDuration}} second[s]). You instantly move to your target. May target allies.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Blinds all adjacent foes ({{BlindDuration}} second[s]). You instantly move to your target. May target allies.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6814,7 +6814,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning"
@@ -6822,7 +6822,7 @@
   {
     "name": "Ride the Lightning (PvP)",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Blinds all adjacent foes ({{BlindDuration}} second[s]). You instantly move to your target. May target allies.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Blinds all adjacent foes ({{BlindDuration}} second[s]). You instantly move to your target. May target allies.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6887,7 +6887,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning_(PvP)"
@@ -6895,7 +6895,7 @@
   {
     "name": "Rodgort's Invocation",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage. Also affects foes near your target. Inflicts Burning condition ({{BurningDuration}} second[s]).",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage. Also affects foes near your target. Inflicts Burning condition ({{BurningDuration}} second[s]).",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -6960,7 +6960,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rodgort%27s_Invocation"
@@ -6968,7 +6968,7 @@
   {
     "name": "Rust",
     "icon": "",
-    "description": "Hex Spell. Deals {{ColdDamage}} cold damage to target and adjacent foes. Hexes target and adjacent foes ({{Duration}} seconds). Doubles signet activation time. Interrupts and disables signets for {{DisableDuration}} second[s] if you are Overcast.",
+    "concise_description": "Hex Spell. Deals {{ColdDamage}} cold damage to target and adjacent foes. Hexes target and adjacent foes ({{Duration}} seconds). Doubles signet activation time. Interrupts and disables signets for {{DisableDuration}} second[s] if you are Overcast.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7057,7 +7057,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rust"
@@ -7065,7 +7065,7 @@
   {
     "name": "Sandstorm",
     "icon": "",
-    "description": "Elite Spell. Deals {{EarthDamage}} earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for {{EarthDamage}} more earth damage each second.",
+    "concise_description": "Elite Spell. Deals {{EarthDamage}} earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for {{EarthDamage}} more earth damage each second.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7130,7 +7130,7 @@
     },
     "activation": 2,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sandstorm"
@@ -7138,7 +7138,7 @@
   {
     "name": "Savannah Heat",
     "icon": "",
-    "description": "Elite Spell. Deals {{FireDamage}} fire damage for each second since casting this spell (5 seconds). Hits foes near target's initial location.",
+    "concise_description": "Elite Spell. Deals {{FireDamage}} fire damage for each second since casting this spell (5 seconds). Hits foes near target's initial location.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7227,7 +7227,7 @@
     },
     "activation": 2,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Savannah_Heat"
@@ -7235,7 +7235,7 @@
   {
     "name": "Savannah Heat (PvP)",
     "icon": "",
-    "description": "Elite Spell. Deals {{FireDamage}} fire damage for each second since casting this spell (5 seconds). Hits foes near target's initial location.",
+    "concise_description": "Elite Spell. Deals {{FireDamage}} fire damage for each second since casting this spell (5 seconds). Hits foes near target's initial location.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7324,7 +7324,7 @@
     },
     "activation": 2,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Savannah_Heat_(PvP)"
@@ -7332,7 +7332,7 @@
   {
     "name": "Searing Flames",
     "icon": "",
-    "description": "Elite Spell. Hits foes near your target. Deals {{FireDamage}} fire damage to foes already Burning. Inflicts Burning condition ({{BurningDuration}} seconds) to foes not Burning.",
+    "concise_description": "Elite Spell. Hits foes near your target. Deals {{FireDamage}} fire damage to foes already Burning. Inflicts Burning condition ({{BurningDuration}} seconds) to foes not Burning.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7397,7 +7397,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Flames"
@@ -7405,7 +7405,7 @@
   {
     "name": "Searing Heat",
     "icon": "",
-    "description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes near target's initial location. End effect: inflicts Burning condition (3 seconds).",
+    "concise_description": "Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes near target's initial location. End effect: inflicts Burning condition (3 seconds).",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7446,7 +7446,7 @@
     },
     "activation": 2,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Heat"
@@ -7454,7 +7454,7 @@
   {
     "name": "Second Wind",
     "icon": "",
-    "description": "Elite Spell. You gain 1 Energy and 5 Health for each point of Overcast. You lose all enchantments.",
+    "concise_description": "Elite Spell. You gain 1 Energy and 5 Health for each point of Overcast. You lose all enchantments.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7470,7 +7470,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Second_Wind"
@@ -7478,7 +7478,7 @@
   {
     "name": "Shard Storm",
     "icon": "",
-    "description": "Hex Spell. Projectile: deals {{ColdDamage}} cold damage. Target foe moves 66% slower ({{Duration}} seconds).",
+    "concise_description": "Hex Spell. Projectile: deals {{ColdDamage}} cold damage. Target foe moves 66% slower ({{Duration}} seconds).",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7543,7 +7543,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shard_Storm"
@@ -7551,7 +7551,7 @@
   {
     "name": "Shatterstone",
     "icon": "",
-    "description": "Elite Hex Spell. (3 seconds.) Initial effect: deals {{ColdDamage}} cold damage. End effect: deals {{ColdDamage}} cold damage to target and all nearby foes.",
+    "concise_description": "Elite Hex Spell. (3 seconds.) Initial effect: deals {{ColdDamage}} cold damage. End effect: deals {{ColdDamage}} cold damage to target and all nearby foes.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7592,7 +7592,7 @@
     },
     "activation": 2,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shatterstone"
@@ -7600,7 +7600,7 @@
   {
     "name": "Shell Shock",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds). 25% armor penetration. If Overcast, strikes adjacent.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds). 25% armor penetration. If Overcast, strikes adjacent.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7665,7 +7665,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shell_Shock"
@@ -7673,7 +7673,7 @@
   {
     "name": "Shock",
     "icon": "",
-    "description": "Touch Skill. Deals {{LightningDamage}} lightning damage. Causes knock-down. 25% armor penetration.",
+    "concise_description": "Touch Skill. Deals {{LightningDamage}} lightning damage. Causes knock-down. 25% armor penetration.",
     "type": "Touch Skill",
     "profession": "Elementalist",
     "attribute": {
@@ -7714,7 +7714,7 @@
     },
     "activation": 0.75,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shock"
@@ -7722,7 +7722,7 @@
   {
     "name": "Shock Arrow",
     "icon": "",
-    "description": "Spell. Rapid projectile: deals {{LightningDamage}} lightning damage. Gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if you hit a foe suffering from Cracked Armor. 25% armor penetration.",
+    "concise_description": "Spell. Rapid projectile: deals {{LightningDamage}} lightning damage. Gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if you hit a foe suffering from Cracked Armor. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7763,7 +7763,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shock_Arrow"
@@ -7771,7 +7771,7 @@
   {
     "name": "Shockwave",
     "icon": "",
-    "description": "Elite Spell. Foes in the area take {{EachEarthDamagePacket}} earth damage and are Weakened ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Nearby foes also take +{{EachEarthDamagePacket}} earth damage and have Cracked Armor ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Adjacent foes also take +{{EachEarthDamagePacket}} earth damage and are Blinded ({{WeaknessCrackedArmorAndBlindDuration}} second[s]).",
+    "concise_description": "Elite Spell. Foes in the area take {{EachEarthDamagePacket}} earth damage and are Weakened ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Nearby foes also take +{{EachEarthDamagePacket}} earth damage and have Cracked Armor ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Adjacent foes also take +{{EachEarthDamagePacket}} earth damage and are Blinded ({{WeaknessCrackedArmorAndBlindDuration}} second[s]).",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7836,7 +7836,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shockwave"
@@ -7844,7 +7844,7 @@
   {
     "name": "Slippery Ground",
     "icon": "",
-    "description": "Spell. Causes knock-down if this foe is Blind or moving. Affects foes adjacent to your target. 50% failure chance unless Water Magic greater than 4.",
+    "concise_description": "Spell. Causes knock-down if this foe is Blind or moving. Affects foes adjacent to your target. 50% failure chance unless Water Magic greater than 4.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7860,7 +7860,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Slippery_Ground"
@@ -7868,7 +7868,7 @@
   {
     "name": "Slippery Ground (PvP)",
     "icon": "",
-    "description": "Spell. Causes knock-down if this foe is Blind or moving. 50% failure chance unless Water Magic 5 or higher.",
+    "concise_description": "Spell. Causes knock-down if this foe is Blind or moving. 50% failure chance unless Water Magic 5 or higher.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7884,7 +7884,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Slippery_Ground_(PvP)"
@@ -7892,7 +7892,7 @@
   {
     "name": "Sliver Armor",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have {{BlockChancePercent}}% chance to block. Deals {{EarthDamage}} earth damage to one nearby foe whenever you are the target of a hostile spell or attack.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have {{BlockChancePercent}}% chance to block. Deals {{EarthDamage}} earth damage to one nearby foe whenever you are the target of a hostile spell or attack.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -7981,7 +7981,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sliver_Armor"
@@ -7989,7 +7989,7 @@
   {
     "name": "Smoldering Embers",
     "icon": "",
-    "description": "Hex Spell. Deals {{FireDamage}} fire damage to target. If you are Overcast, foe is hexed for 3 seconds, taking {{FireDamageEachSecond}} fire damage each second.",
+    "concise_description": "Hex Spell. Deals {{FireDamage}} fire damage to target. If you are Overcast, foe is hexed for 3 seconds, taking {{FireDamageEachSecond}} fire damage each second.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8054,7 +8054,7 @@
     },
     "activation": 1.5,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Smoldering_Embers"
@@ -8062,7 +8062,7 @@
   {
     "name": "Star Burst",
     "icon": "",
-    "description": "Elite Touch Spell. Deals {{FireDamage}} fire damage. Inflicts Burning ({{BurningDuration}} seconds). [sic] Gain 2 Energy for each foe struck. Also hits foes in the area.",
+    "concise_description": "Elite Touch Spell. Deals {{FireDamage}} fire damage. Inflicts Burning ({{BurningDuration}} seconds). [sic] Gain 2 Energy for each foe struck. Also hits foes in the area.",
     "type": "Touch Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8127,7 +8127,7 @@
     },
     "activation": 0.75,
     "recharge": 7,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Star_Burst"
@@ -8135,7 +8135,7 @@
   {
     "name": "Steam",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. Inflicts Blindness condition ({{BlindDuration}} seconds) if target foe is Burning.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. Inflicts Blindness condition ({{BlindDuration}} seconds) if target foe is Burning.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8200,7 +8200,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Steam"
@@ -8208,7 +8208,7 @@
   {
     "name": "Stone Daggers",
     "icon": "",
-    "description": "Spell. Two projectiles: each deals {{EarthDamage}} earth damage. If Overcast, cause Bleeding for {{BleedingDuration}} second[s].",
+    "concise_description": "Spell. Two projectiles: each deals {{EarthDamage}} earth damage. If Overcast, cause Bleeding for {{BleedingDuration}} second[s].",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8273,7 +8273,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Daggers"
@@ -8281,7 +8281,7 @@
   {
     "name": "Stone Sheath",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Gives you and target ally +{{PlusArmorRating}} armor and immunity to critical hits. Initial effect: Foes near you and target ally are struck for {{EarthDamage}} earth damage and are Weakened ({{WeaknessDuration}} seconds).",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Gives you and target ally +{{PlusArmorRating}} armor and immunity to critical hits. Initial effect: Foes near you and target ally are struck for {{EarthDamage}} earth damage and are Weakened ({{WeaknessDuration}} seconds).",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8394,7 +8394,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Sheath"
@@ -8402,7 +8402,7 @@
   {
     "name": "Stone Striker",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Converts elemental and physical damage you take or deal to earth damage.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Converts elemental and physical damage you take or deal to earth damage.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8443,7 +8443,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Striker"
@@ -8451,7 +8451,7 @@
   {
     "name": "Stoneflesh Aura",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Reduces damage you take by {{DamageReduction}}, and you are immune to critical hits.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Reduces damage you take by {{DamageReduction}}, and you are immune to critical hits.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8516,7 +8516,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Stoneflesh_Aura"
@@ -8524,7 +8524,7 @@
   {
     "name": "Stoning",
     "icon": "",
-    "description": "Spell. Projectile: deals {{EarthDamage}} earth damage. Causes knock-down if target foe is Weakened.",
+    "concise_description": "Spell. Projectile: deals {{EarthDamage}} earth damage. Causes knock-down if target foe is Weakened.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8565,7 +8565,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Stoning"
@@ -8573,7 +8573,7 @@
   {
     "name": "Storm Djinn's Haste",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You move 25% faster. Lose 1 Energy each second while moving.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You move 25% faster. Lose 1 Energy each second while moving.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8614,7 +8614,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Storm_Djinn%27s_Haste"
@@ -8622,7 +8622,7 @@
   {
     "name": "Swirling Aura",
     "icon": "",
-    "description": "Enchantment Spell. (5 seconds.) Gives {{HealthRegeneration}} Health regeneration and a 50% chance to block projectiles. If Overcast, also enchants party members in earshot.",
+    "concise_description": "Enchantment Spell. (5 seconds.) Gives {{HealthRegeneration}} Health regeneration and a 50% chance to block projectiles. If Overcast, also enchants party members in earshot.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8663,7 +8663,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Swirling_Aura"
@@ -8671,7 +8671,7 @@
   {
     "name": "Teinai's Crystals",
     "icon": "",
-    "description": "Spell. Deals {{ArmorMinusIgnoringDamage}} damage to target. Deals +{{AdditionalDamage}} more [sic] damage and causes Cracked Armor ({{CrackedArmorDuration}} seconds) nearby if that foe had a Water Magic hex.",
+    "concise_description": "Spell. Deals {{ArmorMinusIgnoringDamage}} damage to target. Deals +{{AdditionalDamage}} more [sic] damage and causes Cracked Armor ({{CrackedArmorDuration}} seconds) nearby if that foe had a Water Magic hex.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8760,7 +8760,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Crystals"
@@ -8768,7 +8768,7 @@
   {
     "name": "Teinai's Heat",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} health [sic] degeneration. Weakened foes in the ward attack 33% slower. Disabled for 20 seconds.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} health [sic] degeneration. Weakened foes in the ward attack 33% slower. Disabled for 20 seconds.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8833,7 +8833,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Heat"
@@ -8841,7 +8841,7 @@
   {
     "name": "Teinai's Prison",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} second[s].) Target foe moves 66% slower. Foes with Cracked Armor have {{HealthDegeneration}} Health degeneration.",
+    "concise_description": "Hex Spell. ({{Duration}} second[s].) Target foe moves 66% slower. Foes with Cracked Armor have {{HealthDegeneration}} Health degeneration.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -8906,7 +8906,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Prison"
@@ -8914,7 +8914,7 @@
   {
     "name": "Teinai's Wind",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. Burning foes take +{{PlusColdDamage}} damage and are interrupted. Also strikes adjacent.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. Burning foes take +{{PlusColdDamage}} damage and are interrupted. Also strikes adjacent.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9003,7 +9003,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Wind"
@@ -9011,7 +9011,7 @@
   {
     "name": "Thunderclap",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. Also strikes adjacent foes. Inflicts Cracked Armor and Weakness ({{CrackedArmorAndWeaknessDurations}} seconds). Causes interrupt. 25% armor penetration.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. Also strikes adjacent foes. Inflicts Cracked Armor and Weakness ({{CrackedArmorAndWeaknessDurations}} seconds). Causes interrupt. 25% armor penetration.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9076,7 +9076,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Thunderclap"
@@ -9084,7 +9084,7 @@
   {
     "name": "Unsteady Ground",
     "icon": "",
-    "description": "Elite Spell. Deals {{EarthDamage}} earth damage each second (5 seconds) and causes knock-down to attacking foes. Hits foes near target's initial location.",
+    "concise_description": "Elite Spell. Deals {{EarthDamage}} earth damage each second (5 seconds) and causes knock-down to attacking foes. Hits foes near target's initial location.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9125,7 +9125,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Unsteady_Ground"
@@ -9133,7 +9133,7 @@
   {
     "name": "Vapor Blade",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage. Half damage if target foe is enchanted.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage. Half damage if target foe is enchanted.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9174,7 +9174,7 @@
     },
     "activation": 1.5,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vapor_Blade"
@@ -9182,7 +9182,7 @@
   {
     "name": "Ward Against Elements",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward have +24 armor against elemental damage. Spirits are unaffected.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward have +24 armor against elemental damage. Spirits are unaffected.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9223,7 +9223,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Elements"
@@ -9231,7 +9231,7 @@
   {
     "name": "Ward Against Foes",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Foes in this ward move 50% slower.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Foes in this ward move 50% slower.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9272,7 +9272,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Foes"
@@ -9280,7 +9280,7 @@
   {
     "name": "Ward Against Harm",
     "icon": "",
-    "description": "Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward have +{{HealthRegeneration}} Health regeneration, +{{PlusArmor}} armor, and +{{PlusArmorVsElementalDamage}} additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 20 seconds.",
+    "concise_description": "Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward have +{{HealthRegeneration}} Health regeneration, +{{PlusArmor}} armor, and +{{PlusArmorVsElementalDamage}} additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 20 seconds.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9393,7 +9393,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Harm"
@@ -9401,7 +9401,7 @@
   {
     "name": "Ward Against Harm (PvP)",
     "icon": "",
-    "description": "Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward have +{{HealthRegeneration}} Health regeneration, +{{PlusArmor}} armor, and +{{PlusArmorVsElementalDamage}} additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 30 seconds.",
+    "concise_description": "Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward have +{{HealthRegeneration}} Health regeneration, +{{PlusArmor}} armor, and +{{PlusArmorVsElementalDamage}} additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 30 seconds.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9514,7 +9514,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Harm_(PvP)"
@@ -9522,7 +9522,7 @@
   {
     "name": "Ward Against Melee",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward have a 50% chance to block melee attacks. Allied spirits are not affected.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward have a 50% chance to block melee attacks. Allied spirits are not affected.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9563,7 +9563,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Melee"
@@ -9571,7 +9571,7 @@
   {
     "name": "Ward of Stability",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward cannot be knocked-down. Allied spirits are not affected.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward cannot be knocked-down. Allied spirits are not affected.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9612,7 +9612,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_of_Stability"
@@ -9620,7 +9620,7 @@
   {
     "name": "Ward of Weakness",
     "icon": "",
-    "description": "Ward Spell. ({{WardDuration}} seconds). Inflicts Weakened condition ({{WeaknessDuration}} seconds) to any foes that take elemental damage in this ward.",
+    "concise_description": "Ward Spell. ({{WardDuration}} seconds). Inflicts Weakened condition ({{WeaknessDuration}} seconds) to any foes that take elemental damage in this ward.",
     "type": "Ward Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9685,7 +9685,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_of_Weakness"
@@ -9693,7 +9693,7 @@
   {
     "name": "Water Attunement",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use a Water Magic skill.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use a Water Magic skill.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9734,7 +9734,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Water_Attunement"
@@ -9742,7 +9742,7 @@
   {
     "name": "Water Trident",
     "icon": "",
-    "description": "Elite Spell. Fast Projectile: deals {{ColdDamage}} cold damage and knocks-down moving foes. Shoots 2 additional projectiles at adjacent foes.",
+    "concise_description": "Elite Spell. Fast Projectile: deals {{ColdDamage}} cold damage and knocks-down moving foes. Shoots 2 additional projectiles at adjacent foes.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9783,7 +9783,7 @@
     },
     "activation": 1,
     "recharge": 3,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Water_Trident"
@@ -9791,7 +9791,7 @@
   {
     "name": "Whirlwind",
     "icon": "",
-    "description": "Spell. Hits foes adjacent to you. Deals {{ColdDamage}} cold damage. Causes knock-down to attacking foes. Strikes nearby instead of adjacent if Overcast.",
+    "concise_description": "Spell. Hits foes adjacent to you. Deals {{ColdDamage}} cold damage. Causes knock-down to attacking foes. Strikes nearby instead of adjacent if Overcast.",
     "type": "Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9832,7 +9832,7 @@
     },
     "activation": 0.75,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind"
@@ -9840,7 +9840,7 @@
   {
     "name": "Windborne Speed",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Target ally moves 33% faster.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Target ally moves 33% faster.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9881,7 +9881,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Windborne_Speed"
@@ -9889,7 +9889,7 @@
   {
     "name": "Winter's Embrace",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 66% slower and takes {{DamageWhileMoving}} damage while moving.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 66% slower and takes {{DamageWhileMoving}} damage while moving.",
     "type": "Hex Spell",
     "profession": "Elementalist",
     "attribute": {
@@ -9954,7 +9954,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Winter%27s_Embrace"

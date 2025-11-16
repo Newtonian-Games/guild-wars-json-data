@@ -2,7 +2,7 @@
   {
     "name": "Resurrection Signet",
     "icon": "",
-    "description": "Signet. Resurrects target party member ({{HealthPercentage}}% Health, {{EnergyPercentage}}% Energy). This signet only recharges when you gain a morale boost.",
+    "concise_description": "Signet. Resurrects target party member ({{HealthPercentage}}% Health, {{EnergyPercentage}}% Energy). This signet only recharges when you gain a morale boost.",
     "type": "Signet",
     "profession": null,
     "attribute": {
@@ -25,7 +25,7 @@
     },
     "activation": 3,
     "recharge": "morale boost",
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Resurrection_Signet"
@@ -33,7 +33,7 @@
   {
     "name": "Signet of Capture",
     "icon": "",
-    "description": "Signet. Choose one skill from a nearby dead Boss of your profession. Signet of Capture is permanently replaced by that skill. If that skill was elite, gain 250 XP for every level you have earned.",
+    "concise_description": "Signet. Choose one skill from a nearby dead Boss of your profession. Signet of Capture is permanently replaced by that skill. If that skill was elite, gain 250 XP for every level you have earned.",
     "type": "Signet",
     "profession": null,
     "attribute": {
@@ -49,7 +49,7 @@
     },
     "activation": 2,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Capture"
@@ -57,7 +57,7 @@
   {
     "name": "Lightbringer Signet",
     "icon": "",
-    "description": "Signet. You gain {{AdrenalineGain}} strikes of adrenaline and {{EnergyGain}} Energy if you are within the area of a demonic servant of Abaddon.",
+    "concise_description": "Signet. You gain {{AdrenalineGain}} strikes of adrenaline and {{EnergyGain}} Energy if you are within the area of a demonic servant of Abaddon.",
     "type": "Signet",
     "profession": null,
     "attribute": {
@@ -90,7 +90,7 @@
     },
     "activation": 0.25,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightbringer_Signet"
@@ -98,7 +98,7 @@
   {
     "name": "Lightbringer's Gaze",
     "icon": "",
-    "description": "Skill. Target demonic servant of Abaddon takes {{HolyDamage}} holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled ({{DisabledDuration}} seconds).",
+    "concise_description": "Skill. Target demonic servant of Abaddon takes {{HolyDamage}} holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled ({{DisabledDuration}} seconds).",
     "type": "Skill",
     "profession": null,
     "attribute": {
@@ -121,7 +121,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Gaze"
@@ -129,7 +129,7 @@
   {
     "name": "Sunspear Rebirth Signet",
     "icon": "",
-    "description": "Signet. Resurrect target dead ally at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost.",
+    "concise_description": "Signet. Resurrect target dead ally at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost.",
     "type": "Signet",
     "profession": null,
     "attribute": {
@@ -159,7 +159,7 @@
     },
     "activation": 3,
     "recharge": "morale boost",
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Sunspear_Rebirth_Signet"
@@ -167,7 +167,7 @@
   {
     "name": "Air of Superiority",
     "icon": "",
-    "description": "Skill. ({{Duration}} seconds). Gain a random Asura benefit every time you earn experience from killing an enemy.",
+    "concise_description": "Skill. ({{Duration}} seconds). Gain a random Asura benefit every time you earn experience from killing an enemy.",
     "type": "Skill",
     "profession": null,
     "attribute": {
@@ -197,7 +197,7 @@
     },
     "activation": 0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Air_of_Superiority"
@@ -205,7 +205,7 @@
   {
     "name": "Asuran Scan",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty.",
     "type": "Hex Spell",
     "profession": null,
     "attribute": {
@@ -235,7 +235,7 @@
     },
     "activation": 0,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Asuran_Scan"
@@ -243,7 +243,7 @@
   {
     "name": "Mental Block",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have a 50% chance to block. Renewal: every time an enemy hits you.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have a 50% chance to block. Renewal: every time an enemy hits you.",
     "type": "Enchantment Spell",
     "profession": null,
     "attribute": {
@@ -273,7 +273,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mental_Block"
@@ -281,7 +281,7 @@
   {
     "name": "Mindbender",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You move {{SpeedBoostPercent}}% faster and cast Spells 20% faster.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You move {{SpeedBoostPercent}}% faster and cast Spells 20% faster.",
     "type": "Enchantment Spell",
     "profession": null,
     "attribute": {
@@ -324,7 +324,7 @@
     },
     "activation": 1,
     "recharge": 24,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mindbender"
@@ -332,7 +332,7 @@
   {
     "name": "Pain Inverter",
     "icon": "",
-    "description": "Hex Spell. ({{Duration}} seconds.) Deals {{PercentOfDamage}}% of the damage (maximum 80) back to target foe every time it does damage.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Deals {{PercentOfDamage}}% of the damage (maximum 80) back to target foe every time it does damage.",
     "type": "Hex Spell",
     "profession": null,
     "attribute": {
@@ -388,7 +388,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Pain_Inverter"
@@ -396,7 +396,7 @@
   {
     "name": "Radiation Field",
     "icon": "",
-    "description": "Ward Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration to foes in the area. End effect: inflicts Disease condition ({{DiseaseDuration}} seconds) to foes in the area.",
+    "concise_description": "Ward Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration to foes in the area. End effect: inflicts Disease condition ({{DiseaseDuration}} seconds) to foes in the area.",
     "type": "Ward Spell",
     "profession": null,
     "attribute": {
@@ -439,7 +439,7 @@
     },
     "activation": 2,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Radiation_Field"
@@ -447,7 +447,7 @@
   {
     "name": "Smooth Criminal",
     "icon": "",
-    "description": "Spell. ({{Duration}} seconds.) Disables one Spell. This skill becomes that Spell. You gain {{EnergyGain}} Energy.",
+    "concise_description": "Spell. ({{Duration}} seconds.) Disables one Spell. This skill becomes that Spell. You gain {{EnergyGain}} Energy.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -490,7 +490,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Smooth_Criminal"
@@ -498,7 +498,7 @@
   {
     "name": "Summon Ice Imp",
     "icon": "",
-    "description": "Spell. Summon a level {{IceImpLevel}} Ice Imp ({{Duration}} lifespan) that has Ice Spikes. Only 1 Asura Summon can be active a time.",
+    "concise_description": "Spell. Summon a level {{IceImpLevel}} Ice Imp ({{Duration}} lifespan) that has Ice Spikes. Only 1 Asura Summon can be active a time.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -541,7 +541,7 @@
     },
     "activation": 3,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Ice_Imp"
@@ -549,7 +549,7 @@
   {
     "name": "Summon Mursaat",
     "icon": "",
-    "description": "Spell. Summon a level {{MursaatLevel}} Mursaat ({{Duration}} lifespan) that has Enervating Charge. Only 1 Asura Summon can be active a time.",
+    "concise_description": "Spell. Summon a level {{MursaatLevel}} Mursaat ({{Duration}} lifespan) that has Enervating Charge. Only 1 Asura Summon can be active a time.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -592,7 +592,7 @@
     },
     "activation": 3,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Mursaat"
@@ -600,7 +600,7 @@
   {
     "name": "Summon Naga Shaman",
     "icon": "",
-    "description": "Spell. Summon a level {{NagaShamanLevel}} Naga Shaman ({{Duration}} lifespan) that has Stoning. Only 1 Asura Summon can be active a time.",
+    "concise_description": "Spell. Summon a level {{NagaShamanLevel}} Naga Shaman ({{Duration}} lifespan) that has Stoning. Only 1 Asura Summon can be active a time.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -643,7 +643,7 @@
     },
     "activation": 3,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Naga_Shaman"
@@ -651,7 +651,7 @@
   {
     "name": "Summon Ruby Djinn",
     "icon": "",
-    "description": "Spell. Summon a level {{RubyDjinnLevel}} Ruby Djinn ({{Duration}} lifespan) that has Immolate. Only 1 Asura Summon can be active a time.",
+    "concise_description": "Spell. Summon a level {{RubyDjinnLevel}} Ruby Djinn ({{Duration}} lifespan) that has Immolate. Only 1 Asura Summon can be active a time.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -694,7 +694,7 @@
     },
     "activation": 3,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Ruby_Djinn"
@@ -702,7 +702,7 @@
   {
     "name": "Technobabble",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} damage to target and adjacent foes. Inflicts Dazed condition ({{DazedDuration}} seconds) on these foes if target was not a boss.",
+    "concise_description": "Spell. Deals {{Damage}} damage to target and adjacent foes. Inflicts Dazed condition ({{DazedDuration}} seconds) on these foes if target was not a boss.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -745,7 +745,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Technobabble"
@@ -753,7 +753,7 @@
   {
     "name": "\"By Ural's Hammer!\"",
     "icon": "",
-    "description": "Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal {{IncreasedDamagePercent}}% more damage. Affected party members die when it ends, but do not receive a death penalty.",
+    "concise_description": "Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal {{IncreasedDamagePercent}}% more damage. Affected party members die when it ends, but do not receive a death penalty.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -783,7 +783,7 @@
     },
     "activation": 0,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22By_Ural%27s_Hammer!%22"
@@ -791,7 +791,7 @@
   {
     "name": "\"Don't Trip!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) Prevents knock-down; affects party members within earshot.",
+    "concise_description": "Shout. ({{Duration}} seconds.) Prevents knock-down; affects party members within earshot.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -821,7 +821,7 @@
     },
     "activation": 0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Don%27t_Trip!%22"
@@ -829,7 +829,7 @@
   {
     "name": "Alkar's Alchemical Acid",
     "icon": "",
-    "description": "Spell. Projectile: deals {{Damage}} damage to target and adjacent foes. Deals {{AdditionalDamage}} more damage and inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to Destroyers.",
+    "concise_description": "Spell. Projectile: deals {{Damage}} damage to target and adjacent foes. Deals {{AdditionalDamage}} more damage and inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to Destroyers.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -885,7 +885,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Alkar%27s_Alchemical_Acid"
@@ -893,7 +893,7 @@
   {
     "name": "Black Powder Mine",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{FireDamage}} damage. Inflicts Blindness and Bleeding conditions ({{BlindAndBleedingDuration}} seconds). Easily interrupted.",
+    "concise_description": "Trap. (90 seconds.) Affects nearby foes. Deals {{FireDamage}} damage. Inflicts Blindness and Bleeding conditions ({{BlindAndBleedingDuration}} seconds). Easily interrupted.",
     "type": "Trap",
     "profession": null,
     "attribute": {
@@ -936,7 +936,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Black_Powder_Mine"
@@ -944,7 +944,7 @@
   {
     "name": "Brawling Headbutt",
     "icon": "",
-    "description": "Touch Skill. Deals {{Damage}} damage; causes knock-down.",
+    "concise_description": "Touch Skill. Deals {{Damage}} damage; causes knock-down.",
     "type": "Touch Skill",
     "profession": null,
     "attribute": {
@@ -974,7 +974,7 @@
     },
     "activation": 0.75,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Brawling_Headbutt"
@@ -982,7 +982,7 @@
   {
     "name": "Breath of the Great Dwarf",
     "icon": "",
-    "description": "Spell. Removes burning and heals for {{Healing}} Health. Affects party members.",
+    "concise_description": "Spell. Removes burning and heals for {{Healing}} Health. Affects party members.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -1012,7 +1012,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Breath_of_the_Great_Dwarf"
@@ -1020,7 +1020,7 @@
   {
     "name": "Drunken Master",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You move and attack {{SpeedIncreasePercentIfSober}}% faster if you are not drunk. You move and attack {{SpeedIncreasePercentIfDrunk}}% faster if you are drunk.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You move and attack {{SpeedIncreasePercentIfSober}}% faster if you are not drunk. You move and attack {{SpeedIncreasePercentIfDrunk}}% faster if you are drunk.",
     "type": "Stance",
     "profession": null,
     "attribute": {
@@ -1076,7 +1076,7 @@
     },
     "activation": 0,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Master"
@@ -1084,7 +1084,7 @@
   {
     "name": "Dwarven Stability",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk.",
     "type": "Enchantment Spell",
     "profession": null,
     "attribute": {
@@ -1127,7 +1127,7 @@
     },
     "activation": 0.25,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Dwarven_Stability"
@@ -1135,7 +1135,7 @@
   {
     "name": "Ear Bite",
     "icon": "",
-    "description": "Touch Skill. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds).",
+    "concise_description": "Touch Skill. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Touch Skill",
     "profession": null,
     "attribute": {
@@ -1178,7 +1178,7 @@
     },
     "activation": 0.75,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ear_Bite"
@@ -1186,7 +1186,7 @@
   {
     "name": "Great Dwarf Armor",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) +24 armor and +60 maximum Health. Additional +24 armor against Destroyers.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) +24 armor and +60 maximum Health. Additional +24 armor against Destroyers.",
     "type": "Enchantment Spell",
     "profession": null,
     "attribute": {
@@ -1216,7 +1216,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Great_Dwarf_Armor"
@@ -1224,7 +1224,7 @@
   {
     "name": "Great Dwarf Weapon",
     "icon": "",
-    "description": "Weapon Spell. (20 seconds.) +{{Damage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target.",
+    "concise_description": "Weapon Spell. (20 seconds.) +{{Damage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target.",
     "type": "Weapon Spell",
     "profession": null,
     "attribute": {
@@ -1267,7 +1267,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Great_Dwarf_Weapon"
@@ -1275,7 +1275,7 @@
   {
     "name": "Light of Deldrimor",
     "icon": "",
-    "description": "Spell. Deals {{HolyDamage}} holy damage to foes in the area. Pings hidden objects within the area on the compass.",
+    "concise_description": "Spell. Deals {{HolyDamage}} holy damage to foes in the area. Pings hidden objects within the area on the compass.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -1305,7 +1305,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Light_of_Deldrimor"
@@ -1313,7 +1313,7 @@
   {
     "name": "Low Blow",
     "icon": "",
-    "description": "Touch Skill. Deals {{Damage}} damage. Inflicts {{ConditionalDamage}} damage and Cracked Armor ({{CrackedArmorDuration}} seconds) if target foe is knocked down.",
+    "concise_description": "Touch Skill. Deals {{Damage}} damage. Inflicts {{ConditionalDamage}} damage and Cracked Armor ({{CrackedArmorDuration}} seconds) if target foe is knocked down.",
     "type": "Touch Skill",
     "profession": null,
     "attribute": {
@@ -1369,7 +1369,7 @@
     },
     "activation": 0.75,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Low_Blow"
@@ -1377,7 +1377,7 @@
   {
     "name": "Snow Storm",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage each second (5 seconds). Hits foes adjacent to target foe's initial location.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage each second (5 seconds). Hits foes adjacent to target foe's initial location.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -1407,7 +1407,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Snow_Storm"
@@ -1415,7 +1415,7 @@
   {
     "name": "Deft Strike",
     "icon": "",
-    "description": "Ranged Attack. Deals {{ArmorignoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor.",
+    "concise_description": "Ranged Attack. Deals {{ArmorignoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor.",
     "type": "Ranged Attack",
     "profession": null,
     "attribute": {
@@ -1458,7 +1458,7 @@
     },
     "activation": 0.5,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Deft_Strike"
@@ -1466,7 +1466,7 @@
   {
     "name": "Ebon Battle Standard of Courage",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. Spirits are unaffected.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. Spirits are unaffected.",
     "type": "Ward Spell",
     "profession": null,
     "attribute": {
@@ -1496,7 +1496,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Courage"
@@ -1504,7 +1504,7 @@
   {
     "name": "Ebon Battle Standard of Honor",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{Damage}} damage and +{{DamageVsCharr}} more damage against Charr. Spirits are unaffected.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{Damage}} damage and +{{DamageVsCharr}} more damage against Charr. Spirits are unaffected.",
     "type": "Ward Spell",
     "profession": null,
     "attribute": {
@@ -1560,7 +1560,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Honor"
@@ -1568,7 +1568,7 @@
   {
     "name": "Ebon Battle Standard of Wisdom",
     "icon": "",
-    "description": "Ward Spell. ({{Duration}} seconds.) Spells that allies in this ward cast have a {{HsrChancePercent}}% chance to recharge 50% faster. Spirits are unaffected.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Spells that allies in this ward cast have a {{HsrChancePercent}}% chance to recharge 50% faster. Spirits are unaffected.",
     "type": "Ward Spell",
     "profession": null,
     "attribute": {
@@ -1611,7 +1611,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Wisdom"
@@ -1619,7 +1619,7 @@
   {
     "name": "Ebon Escape",
     "icon": "",
-    "description": "Spell. Heals you and target ally for {{Healing}}. Initial effect: Shadow Step to this ally. Cannot self-target.",
+    "concise_description": "Spell. Heals you and target ally for {{Healing}}. Initial effect: Shadow Step to this ally. Cannot self-target.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -1649,7 +1649,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Escape"
@@ -1657,7 +1657,7 @@
   {
     "name": "Ebon Vanguard Assassin Support",
     "icon": "",
-    "description": "Spell. Summon a level {{AssassinLevel}} assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. If this foe is a Charr, the assassin lives for {{DurationVsCharr}} seconds. If target foe is not a Charr, the Assassin lives for {{DurationVsOtherFoes}} seconds.",
+    "concise_description": "Spell. Summon a level {{AssassinLevel}} assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. If this foe is a Charr, the assassin lives for {{DurationVsCharr}} seconds. If target foe is not a Charr, the Assassin lives for {{DurationVsOtherFoes}} seconds.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -1713,7 +1713,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support"
@@ -1721,7 +1721,7 @@
   {
     "name": "Ebon Vanguard Sniper Support",
     "icon": "",
-    "description": "Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +{{AdditionalPiercingDamage}} piercing damage if target foe is a Charr.",
+    "concise_description": "Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +{{AdditionalPiercingDamage}} piercing damage if target foe is a Charr.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -1777,7 +1777,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Sniper_Support"
@@ -1785,7 +1785,7 @@
   {
     "name": "Signet of Infection",
     "icon": "",
-    "description": "Signet. Inflicts Diseased condition {{DiseaseDuration}} seconds if target foe is Bleeding.",
+    "concise_description": "Signet. Inflicts Diseased condition {{DiseaseDuration}} seconds if target foe is Bleeding.",
     "type": "Signet",
     "profession": null,
     "attribute": {
@@ -1815,7 +1815,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Infection"
@@ -1823,7 +1823,7 @@
   {
     "name": "Sneak Attack",
     "icon": "",
-    "description": "Melee Attack. Inflicts Blindness ({{BlindDuration}} seconds). Counts as a lead attack.",
+    "concise_description": "Melee Attack. Inflicts Blindness ({{BlindDuration}} seconds). Counts as a lead attack.",
     "type": "Melee Attack",
     "profession": null,
     "attribute": {
@@ -1853,7 +1853,7 @@
     },
     "activation": 0,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Sneak_Attack"
@@ -1861,7 +1861,7 @@
   {
     "name": "Tryptophan Signet",
     "icon": "",
-    "description": "Signet. ({{Duration}} seconds.) Target and adjacent foes move and attack {{SpeedReductionPercent}}% slower.",
+    "concise_description": "Signet. ({{Duration}} seconds.) Target and adjacent foes move and attack {{SpeedReductionPercent}}% slower.",
     "type": "Signet",
     "profession": null,
     "attribute": {
@@ -1904,7 +1904,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Tryptophan_Signet"
@@ -1912,7 +1912,7 @@
   {
     "name": "Weakness Trap",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{LightningDamage}} lightning damage. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Knocks-down Charr. Easily interrupted.",
+    "concise_description": "Trap. (90 seconds.) Affects nearby foes. Deals {{LightningDamage}} lightning damage. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Knocks-down Charr. Easily interrupted.",
     "type": "Trap",
     "profession": null,
     "attribute": {
@@ -1955,7 +1955,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Weakness_Trap"
@@ -1963,7 +1963,7 @@
   {
     "name": "Winds",
     "icon": "",
-    "description": "Ebon Vanguard Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan.) Affects foes within range. 15% chance to miss with ranged attacks.",
+    "concise_description": "Ebon Vanguard Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan.) Affects foes within range. 15% chance to miss with ranged attacks.",
     "type": "Ebon Vanguard Ritual",
     "profession": null,
     "attribute": {
@@ -2006,7 +2006,7 @@
     },
     "activation": 5,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Winds"
@@ -2014,7 +2014,7 @@
   {
     "name": "\"Dodge This!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{Damage}} damage.",
+    "concise_description": "Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{Damage}} damage.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -2057,7 +2057,7 @@
     },
     "activation": 0,
     "recharge": 0,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Dodge_This!%22"
@@ -2065,7 +2065,7 @@
   {
     "name": "\"Finish Him!\"",
     "icon": "",
-    "description": "Shout. Deals {{Damage}} damage and inflicts Cracked Armor and Deep Wound conditions ({{CrackedArmorAndDeepWoundDuration}} seconds). No effect unless target foe has less than 50% Health.",
+    "concise_description": "Shout. Deals {{Damage}} damage and inflicts Cracked Armor and Deep Wound conditions ({{CrackedArmorAndDeepWoundDuration}} seconds). No effect unless target foe has less than 50% Health.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -2108,7 +2108,7 @@
     },
     "activation": 0,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Finish_Him!%22"
@@ -2116,7 +2116,7 @@
   {
     "name": "\"I Am Unstoppable!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) You have +24 armor and cannot be knocked-down or Crippled.",
+    "concise_description": "Shout. ({{Duration}} seconds.) You have +24 armor and cannot be knocked-down or Crippled.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -2146,7 +2146,7 @@
     },
     "activation": 0,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Am_Unstoppable!%22"
@@ -2154,7 +2154,7 @@
   {
     "name": "\"I Am the Strongest!\"",
     "icon": "",
-    "description": "Shout. Your next {{OfAttacks}} attacks deal +{{AdditionalDamage}} damage.",
+    "concise_description": "Shout. Your next {{OfAttacks}} attacks deal +{{AdditionalDamage}} damage.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -2197,7 +2197,7 @@
     },
     "activation": 0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Am_the_Strongest!%22"
@@ -2205,7 +2205,7 @@
   {
     "name": "\"You Are All Weaklings!\"",
     "icon": "",
-    "description": "Shout. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Also affects adjacent foes.",
+    "concise_description": "Shout. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Also affects adjacent foes.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -2235,7 +2235,7 @@
     },
     "activation": 0,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Are_All_Weaklings!%22"
@@ -2243,7 +2243,7 @@
   {
     "name": "\"You Move Like a Dwarf!\"",
     "icon": "",
-    "description": "Shout. Deals {{Damage}} damage, causes knock-down, and inflicts Crippled condition ({{CrippledDuration}} seconds).",
+    "concise_description": "Shout. Deals {{Damage}} damage, causes knock-down, and inflicts Crippled condition ({{CrippledDuration}} seconds).",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -2286,7 +2286,7 @@
     },
     "activation": 0,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Move_Like_a_Dwarf!%22"
@@ -2294,7 +2294,7 @@
   {
     "name": "A Touch of Guile",
     "icon": "",
-    "description": "Touch Hex Spell. Deals {{ArmorignoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down.",
+    "concise_description": "Touch Hex Spell. Deals {{ArmorignoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down.",
     "type": "Touch Hex Spell",
     "profession": null,
     "attribute": {
@@ -2337,7 +2337,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/A_Touch_of_Guile"
@@ -2345,7 +2345,7 @@
   {
     "name": "Club of a Thousand Bears",
     "icon": "",
-    "description": "Melee Attack. Deals +{{DamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human.",
+    "concise_description": "Melee Attack. Deals +{{DamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human.",
     "type": "Melee Attack",
     "profession": null,
     "attribute": {
@@ -2375,7 +2375,7 @@
     },
     "activation": 0,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears"
@@ -2383,7 +2383,7 @@
   {
     "name": "Feel No Pain",
     "icon": "",
-    "description": "Skill. (30 seconds.) You have +{{HealthRegeneration}} Health regeneration. You have +{{ConditionalMaximumHealth}} maximum Health if you are drunk when activating this skill.",
+    "concise_description": "Skill. (30 seconds.) You have +{{HealthRegeneration}} Health regeneration. You have +{{ConditionalMaximumHealth}} maximum Health if you are drunk when activating this skill.",
     "type": "Skill",
     "profession": null,
     "attribute": {
@@ -2426,7 +2426,7 @@
     },
     "activation": 0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Feel_No_Pain"
@@ -2434,7 +2434,7 @@
   {
     "name": "Raven Blessing",
     "icon": "",
-    "description": "Elite Form. You lose all effects and take on the aspect of the Raven (60 seconds). All your attributes are set to 0 and raven attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health, and a {{BlockChancePercent}}% block chance.",
+    "concise_description": "Elite Form. You lose all effects and take on the aspect of the Raven (60 seconds). All your attributes are set to 0 and raven attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health, and a {{BlockChancePercent}}% block chance.",
     "type": "Elite Form",
     "profession": null,
     "attribute": {
@@ -2477,7 +2477,7 @@
     },
     "activation": 0,
     "recharge": 60,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Raven_Blessing"
@@ -2485,7 +2485,7 @@
   {
     "name": "Ursan Blessing",
     "icon": "",
-    "description": "Elite Form. You lose all effects and take on the aspect of the bear (60 seconds). All your attributes are set to 0 and bear attacks replace your skills, and you have 100 armor and {{MaximumHealth}} Health.",
+    "concise_description": "Elite Form. You lose all effects and take on the aspect of the bear (60 seconds). All your attributes are set to 0 and bear attacks replace your skills, and you have 100 armor and {{MaximumHealth}} Health.",
     "type": "Elite Form",
     "profession": null,
     "attribute": {
@@ -2515,7 +2515,7 @@
     },
     "activation": 0,
     "recharge": 60,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ursan_Blessing"
@@ -2523,7 +2523,7 @@
   {
     "name": "Volfen Blessing",
     "icon": "",
-    "description": "Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{HealthRegeneration}} Health regeneration.",
+    "concise_description": "Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{HealthRegeneration}} Health regeneration.",
     "type": "Elite Form",
     "profession": null,
     "attribute": {
@@ -2566,7 +2566,7 @@
     },
     "activation": 0,
     "recharge": 60,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Eye of the North",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Volfen_Blessing"

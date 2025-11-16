@@ -2,7 +2,7 @@
   {
     "name": "Arcane Zeal",
     "icon": "",
-    "description": "Elite Enchantment Spell. (10 seconds.) You gain 1 Energy (maximum {{MaximumEnergyGain}}) for each enchantment on you whenever you cast a spell.",
+    "concise_description": "Elite Enchantment Spell. (10 seconds.) You gain 1 Energy (maximum {{MaximumEnergyGain}}) for each enchantment on you whenever you cast a spell.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -43,7 +43,7 @@
     },
     "activation": 1.0,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Zeal"
@@ -51,7 +51,7 @@
   {
     "name": "Armor of Sanctity",
     "icon": "",
-    "description": "Enchantment Spell. Inflicts Weakness condition on all adjacent foes ({{WeaknessDuration}}). You take {{DamageReduction}} less damage from foes with a condition. (15 seconds.)",
+    "concise_description": "Enchantment Spell. Inflicts Weakness condition on all adjacent foes ({{WeaknessDuration}}). You take {{DamageReduction}} less damage from foes with a condition. (15 seconds.)",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -114,7 +114,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Sanctity"
@@ -122,7 +122,7 @@
   {
     "name": "Attacker's Insight",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) Gives 50% block chance while attacking. End Effect: Causes Weakness {{WeaknessDuration}} seconds to adjacent foes.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) Gives 50% block chance while attacking. End Effect: Causes Weakness {{WeaknessDuration}} seconds to adjacent foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -185,7 +185,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Attacker%27s_Insight"
@@ -193,7 +193,7 @@
   {
     "name": "Aura Slicer",
     "icon": "",
-    "description": "Melee Attack. ({{BleedingDuration}} seconds.)Inflicts [sic] Bleeding condition. Also inflicts Cracked Armor ({{CrackedArmorDuration}} second[s]) if you are enchanted.",
+    "concise_description": "Melee Attack. ({{BleedingDuration}} seconds.)Inflicts [sic] Bleeding condition. Also inflicts Cracked Armor ({{CrackedArmorDuration}} second[s]) if you are enchanted.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -258,7 +258,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_Slicer"
@@ -266,7 +266,7 @@
   {
     "name": "Aura of Holy Might",
     "icon": "",
-    "description": "Enchantment Spell. (45 seconds.) Whenever you lose a Dervish enchantment, adjacent foes take {{HolyDamage}} holy damage.",
+    "concise_description": "Enchantment Spell. (45 seconds.) Whenever you lose a Dervish enchantment, adjacent foes take {{HolyDamage}} holy damage.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -298,7 +298,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Holy_Might"
@@ -306,7 +306,7 @@
   {
     "name": "Aura of Thorns",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition ({{BleedingDuration}} seconds) on nearby foes. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds) on nearby foes.",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition ({{BleedingDuration}} seconds) on nearby foes. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds) on nearby foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -369,7 +369,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Thorns"
@@ -377,7 +377,7 @@
   {
     "name": "Aura of Thorns (PvP)",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition ({{BleedingDuration}} seconds) on nearby foes. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds) on nearby foes.",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition ({{BleedingDuration}} seconds) on nearby foes. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds) on nearby foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -440,7 +440,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Thorns_(PvP)"
@@ -448,7 +448,7 @@
   {
     "name": "Avatar of Balthazar",
     "icon": "",
-    "description": "Elite Form. ({{Duration}} seconds.) You gain +20 armor against physical damage, you gain adrenaline 25% faster, your attacks deal holy damage, you inflict Burning ({{BurningDuration}} second[s]) on nearby foes whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "concise_description": "Elite Form. ({{Duration}} seconds.) You gain +20 armor against physical damage, you gain adrenaline 25% faster, your attacks deal holy damage, you inflict Burning ({{BurningDuration}} second[s]) on nearby foes whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
     "type": "Form",
     "profession": "Dervish",
     "attribute": {
@@ -513,7 +513,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Balthazar"
@@ -521,7 +521,7 @@
   {
     "name": "Avatar of Dwayna",
     "icon": "",
-    "description": "Elite Form. ({{Duration}} seconds.) You deal holy damage. Whenever you use a Dervish attack skill, you lose 1 hex. Heal allies in earshot for {{Healing}} Health when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "concise_description": "Elite Form. ({{Duration}} seconds.) You deal holy damage. Whenever you use a Dervish attack skill, you lose 1 hex. Heal allies in earshot for {{Healing}} Health when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
     "type": "Form",
     "profession": "Dervish",
     "attribute": {
@@ -586,7 +586,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna"
@@ -594,7 +594,7 @@
   {
     "name": "Avatar of Dwayna (PvP)",
     "icon": "",
-    "description": "Elite Form. ({{Duration}} seconds.) Deal holy damage. You lose 1 hex whenever you use a Dervish attack skill. Heal yourself for {{Healing}} Health whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "concise_description": "Elite Form. ({{Duration}} seconds.) Deal holy damage. You lose 1 hex whenever you use a Dervish attack skill. Heal yourself for {{Healing}} Health whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
     "type": "Form",
     "profession": "Dervish",
     "attribute": {
@@ -659,7 +659,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna_(PvP)"
@@ -667,7 +667,7 @@
   {
     "name": "Avatar of Grenth",
     "icon": "",
-    "description": "Elite Form. ({{Duration}} seconds.) Your scythe attacks deal dark damage and steal {{LifeStealing}} Health. You are immune to Disease. Apply Disease to all adjacent foes (3 seconds) when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "concise_description": "Elite Form. ({{Duration}} seconds.) Your scythe attacks deal dark damage and steal {{LifeStealing}} Health. You are immune to Disease. Apply Disease to all adjacent foes (3 seconds) when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
     "type": "Form",
     "profession": "Dervish",
     "attribute": {
@@ -732,7 +732,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth"
@@ -740,7 +740,7 @@
   {
     "name": "Avatar of Lyssa",
     "icon": "",
-    "description": "Elite Form. ({{Duration}} seconds.) Your Dervish enchantments recharge 50% faster and deal chaos damage with attacks. Steal 1 Energy from nearby foes when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "concise_description": "Elite Form. ({{Duration}} seconds.) Your Dervish enchantments recharge 50% faster and deal chaos damage with attacks. Steal 1 Energy from nearby foes when you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
     "type": "Form",
     "profession": "Dervish",
     "attribute": {
@@ -781,7 +781,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Lyssa"
@@ -789,7 +789,7 @@
   {
     "name": "Avatar of Melandru",
     "icon": "",
-    "description": "Elite Form. ({{Duration}} seconds.) You have +150 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 1 condition from all party members in earshot whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "concise_description": "Elite Form. ({{Duration}} seconds.) You have +150 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 1 condition from all party members in earshot whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
     "type": "Form",
     "profession": "Dervish",
     "attribute": {
@@ -830,7 +830,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru"
@@ -838,7 +838,7 @@
   {
     "name": "Avatar of Melandru (PvP)",
     "icon": "",
-    "description": "Elite Form. ({{Duration}} seconds.) You have +100 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 2 conditions from yourself whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
+    "concise_description": "Elite Form. ({{Duration}} seconds.) You have +100 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 2 conditions from yourself whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.",
     "type": "Form",
     "profession": "Dervish",
     "attribute": {
@@ -879,7 +879,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru_(PvP)"
@@ -887,7 +887,7 @@
   {
     "name": "Balthazar's Rage",
     "icon": "",
-    "description": "Flash Enchantment Spell. (20 seconds.) Initial Effect: Inflicts burning ({{BurningDuration}} second[s]) on nearby foes. End effect: gain {{AdrenalineGain}} strike[s] of adrenaline if any foes are within earshot.",
+    "concise_description": "Flash Enchantment Spell. (20 seconds.) Initial Effect: Inflicts burning ({{BurningDuration}} second[s]) on nearby foes. End effect: gain {{AdrenalineGain}} strike[s] of adrenaline if any foes are within earshot.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -952,7 +952,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Rage"
@@ -960,7 +960,7 @@
   {
     "name": "Banishing Strike",
     "icon": "",
-    "description": "Melee Attack. Deals {{HolyDamage}} holy damage. Deals double damage to summoned creatures.",
+    "concise_description": "Melee Attack. Deals {{HolyDamage}} holy damage. Deals double damage to summoned creatures.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -1001,7 +1001,7 @@
     },
     "activation": 1.0,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Banishing_Strike"
@@ -1009,7 +1009,7 @@
   {
     "name": "Banishing Strike (PvP)",
     "icon": "",
-    "description": "Melee Attack. Deals {{HolyDamage}} holy damage. Deals double damage to summoned creatures.",
+    "concise_description": "Melee Attack. Deals {{HolyDamage}} holy damage. Deals double damage to summoned creatures.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -1050,7 +1050,7 @@
     },
     "activation": null,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Banishing_Strike_(PvP)"
@@ -1058,7 +1058,7 @@
   {
     "name": "Chilling Victory",
     "icon": "",
-    "description": "Scythe Attack. Deals +{{PlusDamage}} damage. Deals {{ColdDamage}} cold damage to each foe hit who has less Health than you and foes adjacent to those targets.",
+    "concise_description": "Scythe Attack. Deals +{{PlusDamage}} damage. Deals {{ColdDamage}} cold damage to each foe hit who has less Health than you and foes adjacent to those targets.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -1123,7 +1123,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Chilling_Victory"
@@ -1131,7 +1131,7 @@
   {
     "name": "Conviction",
     "icon": "",
-    "description": "Flash Enchantment Spell. (10 seconds.) Gain +10 armor while conditioned. Gain {{HealthRegeneration}} Health regeneration for each condition you have. End Effect: Remove {{ConditionsRemoved}} condition[s].",
+    "concise_description": "Flash Enchantment Spell. (10 seconds.) Gain +10 armor while conditioned. Gain {{HealthRegeneration}} Health regeneration for each condition you have. End Effect: Remove {{ConditionsRemoved}} condition[s].",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1194,7 +1194,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Conviction"
@@ -1202,7 +1202,7 @@
   {
     "name": "Crippling Sweep",
     "icon": "",
-    "description": "Scythe Attack. ({{CrippledDuration}} seconds.) Inflicts Cripple [sic] condition. Deals +{{PlusDamage}} damage to moving foes.",
+    "concise_description": "Scythe Attack. ({{CrippledDuration}} seconds.) Inflicts Cripple [sic] condition. Deals +{{PlusDamage}} damage to moving foes.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -1267,7 +1267,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Sweep"
@@ -1275,7 +1275,7 @@
   {
     "name": "Crippling Victory",
     "icon": "",
-    "description": "Scythe Attack. ({{CrippledDuration}} seconds) Cripples target foe. If your health is greater than target foe's, all adjacent foes take {{EarthDamage}} earth damage.",
+    "concise_description": "Scythe Attack. ({{CrippledDuration}} seconds) Cripples target foe. If your health is greater than target foe's, all adjacent foes take {{EarthDamage}} earth damage.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -1340,7 +1340,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Victory"
@@ -1348,7 +1348,7 @@
   {
     "name": "Dust Cloak",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to adjacent foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on adjacent foes.",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to adjacent foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on adjacent foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1411,7 +1411,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dust_Cloak"
@@ -1419,7 +1419,7 @@
   {
     "name": "Dust Cloak (PvP)",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to adjacent foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on adjacent foes.",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to adjacent foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on adjacent foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1482,7 +1482,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Dust_Cloak_(PvP)"
@@ -1490,7 +1490,7 @@
   {
     "name": "Dwayna's Touch",
     "icon": "",
-    "description": "Touch Spell. Heals for {{Healing}} (maximum 150) for each enchantment on you.",
+    "concise_description": "Touch Spell. Heals for {{Healing}} (maximum 150) for each enchantment on you.",
     "type": "Touch Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1530,7 +1530,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Touch"
@@ -1538,7 +1538,7 @@
   {
     "name": "Ebon Dust Aura",
     "icon": "",
-    "description": "Elite Flash Enchantment Spell. (30 seconds.) Deal +{{PlusEarthDamage}} earth damage with your melee attacks. Initial Effect: Blinds nearby foes for {{BlindDuration}} second[s]. End Effect: removes Blindness. No effect unless wielding an earth weapon.",
+    "concise_description": "Elite Flash Enchantment Spell. (30 seconds.) Deal +{{PlusEarthDamage}} earth damage with your melee attacks. Initial Effect: Blinds nearby foes for {{BlindDuration}} second[s]. End Effect: removes Blindness. No effect unless wielding an earth weapon.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1601,7 +1601,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura"
@@ -1609,7 +1609,7 @@
   {
     "name": "Enchanted Haste",
     "icon": "",
-    "description": "Flash Enchantment Spell. (7 seconds). You move 25% faster. Lose 1 condition if this enchantment ends prematurely.",
+    "concise_description": "Flash Enchantment Spell. (7 seconds). You move 25% faster. Lose 1 condition if this enchantment ends prematurely.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1625,7 +1625,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enchanted_Haste"
@@ -1633,7 +1633,7 @@
   {
     "name": "Eremite's Attack",
     "icon": "",
-    "description": "Scythe Attack. Deals +{{PlusDamage}} damage and removes a Dervish enchantment. Removal Effect: Deals +{{PlusDamage}} damage and strikes all adjacent foes.",
+    "concise_description": "Scythe Attack. Deals +{{PlusDamage}} damage and removes a Dervish enchantment. Removal Effect: Deals +{{PlusDamage}} damage and strikes all adjacent foes.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -1674,7 +1674,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack"
@@ -1682,7 +1682,7 @@
   {
     "name": "Eremite's Zeal",
     "icon": "",
-    "description": "Enchantment Spell. (10 seconds.) Initial effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot. End effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot.",
+    "concise_description": "Enchantment Spell. (10 seconds.) Initial effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot. End effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1723,7 +1723,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Eremite%27s_Zeal"
@@ -1731,7 +1731,7 @@
   {
     "name": "Eternal Aura",
     "icon": "",
-    "description": "Enchantment Spell. You have +100 max Health. End effect: all party members in the area are resurrected with {{PercentHealth}}% Health and {{PercentEnergy}}% Energy.",
+    "concise_description": "Enchantment Spell. You have +100 max Health. End effect: all party members in the area are resurrected with {{PercentHealth}}% Health and {{PercentEnergy}}% Energy.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1774,7 +1774,7 @@
     },
     "activation": 4.0,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Eternal_Aura"
@@ -1782,7 +1782,7 @@
   {
     "name": "Extend Enchantments",
     "icon": "",
-    "description": "Skill. (10 seconds.) Your next Dervish enchantment lasts {{PlusEnchantmentPercentDuration}}% longer.",
+    "concise_description": "Skill. (10 seconds.) Your next Dervish enchantment lasts {{PlusEnchantmentPercentDuration}}% longer.",
     "type": "Skill",
     "profession": "Dervish",
     "attribute": {
@@ -1823,7 +1823,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Extend_Enchantments"
@@ -1831,7 +1831,7 @@
   {
     "name": "Faithful Intervention",
     "icon": "",
-    "description": "Enchantment Spell. You gain {{Healing}} Health the next time damage drops your Health below 50%.",
+    "concise_description": "Enchantment Spell. You gain {{Healing}} Health the next time damage drops your Health below 50%.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1872,7 +1872,7 @@
     },
     "activation": 2.0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Faithful_Intervention"
@@ -1880,7 +1880,7 @@
   {
     "name": "Farmer's Scythe",
     "icon": "",
-    "description": "Scythe Attack. Deals +{{PlusDamage}} damage. Instant recharge if you hit more than one foe.",
+    "concise_description": "Scythe Attack. Deals +{{PlusDamage}} damage. Instant recharge if you hit more than one foe.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -1921,7 +1921,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Farmer%27s_Scythe"
@@ -1929,7 +1929,7 @@
   {
     "name": "Featherfoot Grace",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You move 25% faster, and conditions expire 25% faster.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You move 25% faster, and conditions expire 25% faster.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -1969,7 +1969,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Featherfoot_Grace"
@@ -1977,7 +1977,7 @@
   {
     "name": "Fleeting Stability",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2017,7 +2017,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fleeting_Stability"
@@ -2025,7 +2025,7 @@
   {
     "name": "Grenth's Aura",
     "icon": "",
-    "description": "Flash Enchantment Spell. (20 seconds.) You deal {{LessDamage}} less damage and steal {{LifeStealing}} Health when you hit with a scythe. Initial effect: steal {{InitialLifeStealing}} Health from all adjacent foes.",
+    "concise_description": "Flash Enchantment Spell. (20 seconds.) You deal {{LessDamage}} less damage and steal {{LifeStealing}} Health when you hit with a scythe. Initial effect: steal {{InitialLifeStealing}} Health from all adjacent foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2065,7 +2065,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Aura"
@@ -2073,7 +2073,7 @@
   {
     "name": "Grenth's Fingers",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal cold damage. Initial effect: hits nearby foes for {{ColdDamage}} cold damage. End effect: transfers {{ConditionsTransferred}} condition[s] to all nearby foes.",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal cold damage. Initial effect: hits nearby foes for {{ColdDamage}} cold damage. End effect: transfers {{ConditionsTransferred}} condition[s] to all nearby foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2136,7 +2136,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Fingers"
@@ -2144,7 +2144,7 @@
   {
     "name": "Grenth's Grasp",
     "icon": "",
-    "description": "Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled condition ({{CrippledDuration}} second[s]) with your attack skills and transfer 1 condition. No effect unless wielding a cold weapon.",
+    "concise_description": "Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled condition ({{CrippledDuration}} second[s]) with your attack skills and transfer 1 condition. No effect unless wielding a cold weapon.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2184,7 +2184,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Grasp"
@@ -2192,7 +2192,7 @@
   {
     "name": "Guiding Hands",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) Your next {{Attacks}} attack[s] cannot be blocked. Initial effect: removes Blindness.",
+    "concise_description": "Enchantment Spell. (20 seconds.) Your next {{Attacks}} attack[s] cannot be blocked. Initial effect: removes Blindness.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2232,7 +2232,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Guiding_Hands"
@@ -2240,7 +2240,7 @@
   {
     "name": "Guiding Hands (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) Your next {{Attacks}} attack[s] cannot be blocked. Initial effect: removes Blindness.",
+    "concise_description": "Enchantment Spell. (20 seconds.) Your next {{Attacks}} attack[s] cannot be blocked. Initial effect: removes Blindness.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2280,7 +2280,7 @@
     },
     "activation": 0.25,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Guiding_Hands_(PvP)"
@@ -2288,7 +2288,7 @@
   {
     "name": "Harrier's Grasp",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) Attacks on moving foes also Cripple them. [sic] Ends after you apply Cripple {{MaximumCrippleApplications}} times. [sic] Initial Effect: you lose Cripple and 1 other condition.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) Attacks on moving foes also Cripple them. [sic] Ends after you apply Cripple {{MaximumCrippleApplications}} times. [sic] Initial Effect: you lose Cripple and 1 other condition.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2374,7 +2374,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp"
@@ -2382,7 +2382,7 @@
   {
     "name": "Harrier's Haste",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) You move 25% faster and deal +{{PlusDamage}} damage to moving foes.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) You move 25% faster and deal +{{PlusDamage}} damage to moving foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2445,7 +2445,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Haste"
@@ -2453,7 +2453,7 @@
   {
     "name": "Heart of Fury",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You attack 25% faster.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You attack 25% faster.",
     "type": "Stance",
     "profession": "Dervish",
     "attribute": {
@@ -2494,7 +2494,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Fury"
@@ -2502,7 +2502,7 @@
   {
     "name": "Heart of Fury (PvP)",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You attack 25% faster.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You attack 25% faster.",
     "type": "Stance",
     "profession": "Dervish",
     "attribute": {
@@ -2543,7 +2543,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Fury_(PvP)"
@@ -2551,7 +2551,7 @@
   {
     "name": "Heart of Holy Flame",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal holy damage. Initial effect: deals {{HolyDamage}} holy damage to nearby foes. End effect: inflicts Burning condition ({{BurningDuration}} seconds) on nearby foes.",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal holy damage. Initial effect: deals {{HolyDamage}} holy damage to nearby foes. End effect: inflicts Burning condition ({{BurningDuration}} seconds) on nearby foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2616,7 +2616,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Holy_Flame"
@@ -2624,7 +2624,7 @@
   {
     "name": "Imbue Health",
     "icon": "",
-    "description": "Spell. Heals for {{PercentHealing}}% of your current Health (maximum 300). Cannot self-target.",
+    "concise_description": "Spell. Heals for {{PercentHealing}}% of your current Health (maximum 300). Cannot self-target.",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2665,7 +2665,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Imbue_Health"
@@ -2673,7 +2673,7 @@
   {
     "name": "Intimidating Aura",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) You have +{{PlusMaximumHealth}} max Health and take -{{DamageReduction}} damage from foes with less Health than you.",
+    "concise_description": "Enchantment Spell. (60 seconds.) You have +{{PlusMaximumHealth}} max Health and take -{{DamageReduction}} damage from foes with less Health than you.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2738,7 +2738,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Intimidating_Aura"
@@ -2746,7 +2746,7 @@
   {
     "name": "Irresistible Sweep",
     "icon": "",
-    "description": "Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +{{PlusDamage}} additional damage.",
+    "concise_description": "Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +{{PlusDamage}} additional damage.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -2787,7 +2787,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep"
@@ -2795,7 +2795,7 @@
   {
     "name": "Irresistible Sweep (PvP)",
     "icon": "",
-    "description": "Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance.",
+    "concise_description": "Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -2836,7 +2836,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_(PvP)"
@@ -2844,7 +2844,7 @@
   {
     "name": "Lyssa's Assault",
     "icon": "",
-    "description": "Scythe Attack. Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional {{DisabledDuration}} second[s]. This attack does 50% of normal damage.",
+    "concise_description": "Scythe Attack. Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional {{DisabledDuration}} second[s]. This attack does 50% of normal damage.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -2885,7 +2885,7 @@
     },
     "activation": 0.5,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Assault"
@@ -2893,7 +2893,7 @@
   {
     "name": "Lyssa's Haste",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2933,7 +2933,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste"
@@ -2941,7 +2941,7 @@
   {
     "name": "Lyssa's Haste (PvP)",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -2981,7 +2981,7 @@
     },
     "activation": null,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste_(PvP)"
@@ -2989,7 +2989,7 @@
   {
     "name": "Meditation",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) Lose all adrenaline. Gain {{EnergyGain}} Energy whenever an enchantment on you ends.",
+    "concise_description": "Enchantment Spell. (20 seconds.) Lose all adrenaline. Gain {{EnergyGain}} Energy whenever an enchantment on you ends.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3030,7 +3030,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Meditation"
@@ -3038,7 +3038,7 @@
   {
     "name": "Mirage Cloak",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} second[s].) You have {{ChanceToBlock}}% chance to block. Initial Effect: deals {{EarthDamage}} earth damage to nearby foes.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} second[s].) You have {{ChanceToBlock}}% chance to block. Initial Effect: deals {{EarthDamage}} earth damage to nearby foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3124,7 +3124,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mirage_Cloak"
@@ -3132,7 +3132,7 @@
   {
     "name": "Mystic Corruption",
     "icon": "",
-    "description": "Flash Enchantment Spell. (20 seconds.) Initial Effect: all adjacent foes are Diseased ({{DiseaseDuration}} second[s].) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease.",
+    "concise_description": "Flash Enchantment Spell. (20 seconds.) Initial Effect: all adjacent foes are Diseased ({{DiseaseDuration}} second[s].) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3173,7 +3173,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Corruption"
@@ -3181,7 +3181,7 @@
   {
     "name": "Mystic Healing",
     "icon": "",
-    "description": "Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health.",
+    "concise_description": "Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health.",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3221,7 +3221,7 @@
     },
     "activation": 1.0,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Healing"
@@ -3229,7 +3229,7 @@
   {
     "name": "Mystic Healing (PvP)",
     "icon": "",
-    "description": "Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health.",
+    "concise_description": "Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health.",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3269,7 +3269,7 @@
     },
     "activation": 1.0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Healing_(PvP)"
@@ -3277,7 +3277,7 @@
   {
     "name": "Mystic Regeneration",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{HealthRegeneration}} Health regeneration for each enchantment (maximum of 8) on you.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{HealthRegeneration}} Health regeneration for each enchantment (maximum of 8) on you.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3340,7 +3340,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration"
@@ -3348,7 +3348,7 @@
   {
     "name": "Mystic Regeneration (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{HealthRegeneration}} Health regeneration for each enchantment (maximum of 3) on you.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have +{{HealthRegeneration}} Health regeneration for each enchantment (maximum of 3) on you.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3411,7 +3411,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_(PvP)"
@@ -3419,7 +3419,7 @@
   {
     "name": "Mystic Sandstorm",
     "icon": "",
-    "description": "Spell. (3 seconds.) Deals {{EarthDamage}} earth damage each second. Deals an additional {{EarthDamage}} damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted.",
+    "concise_description": "Spell. (3 seconds.) Deals {{EarthDamage}} earth damage each second. Deals an additional {{EarthDamage}} damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted.",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3459,7 +3459,7 @@
     },
     "activation": 1.0,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm"
@@ -3467,7 +3467,7 @@
   {
     "name": "Mystic Sweep",
     "icon": "",
-    "description": "Melee Attack. Deals +{{PlusDamage}} damage. Deals an additional +{{PlusDamage}} damage if you are enchanted.",
+    "concise_description": "Melee Attack. Deals +{{PlusDamage}} damage. Deals an additional +{{PlusDamage}} damage if you are enchanted.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -3508,7 +3508,7 @@
     },
     "activation": 1.0,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Sweep"
@@ -3516,7 +3516,7 @@
   {
     "name": "Mystic Twister",
     "icon": "",
-    "description": "Spell. Deals {{ColdDamage}} cold damage to all nearby foes. Deals {{ColdDamage}} more cold damage if you are enchanted.",
+    "concise_description": "Spell. Deals {{ColdDamage}} cold damage to all nearby foes. Deals {{ColdDamage}} more cold damage if you are enchanted.",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3579,7 +3579,7 @@
     },
     "activation": 1.0,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Twister"
@@ -3587,7 +3587,7 @@
   {
     "name": "Mystic Vigor",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) You gain {{HealthGain}} Health (maximum 25) for each enchantment on you whenever you hit with an attack.",
+    "concise_description": "Enchantment Spell. (20 seconds.) You gain {{HealthGain}} Health (maximum 25) for each enchantment on you whenever you hit with an attack.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3628,7 +3628,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Vigor"
@@ -3636,7 +3636,7 @@
   {
     "name": "Natural Healing",
     "icon": "",
-    "description": "Spell. Heals you for {{Healing}}. This skill activates 50% faster if you are not enchanted.",
+    "concise_description": "Spell. Heals you for {{Healing}}. This skill activates 50% faster if you are not enchanted.",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3676,7 +3676,7 @@
     },
     "activation": 2.0,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Natural_Healing"
@@ -3684,7 +3684,7 @@
   {
     "name": "Onslaught",
     "icon": "",
-    "description": "Elite Flash Enchantment Spell. ({{Duration}} seconds.) You attack, move and gain adrenaline 25% faster.",
+    "concise_description": "Elite Flash Enchantment Spell. ({{Duration}} seconds.) You attack, move and gain adrenaline 25% faster.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3724,7 +3724,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Onslaught"
@@ -3732,7 +3732,7 @@
   {
     "name": "Onslaught (PvP)",
     "icon": "",
-    "description": "Elite Flash Enchantment Spell. ({{Duration}} seconds.) You attack and gain adrenaline 25% faster.",
+    "concise_description": "Elite Flash Enchantment Spell. ({{Duration}} seconds.) You attack and gain adrenaline 25% faster.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -3772,7 +3772,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Onslaught_(PvP)"
@@ -3780,7 +3780,7 @@
   {
     "name": "Pious Assault",
     "icon": "",
-    "description": "Melee Attack. Deals +{{PlusDamage}} damage. Removes 1 of your Dervish enchantments. Removal Effect: this skill recharges 75% faster and adjacent foes take {{AdjacentDamage}} damage.",
+    "concise_description": "Melee Attack. Deals +{{PlusDamage}} damage. Removes 1 of your Dervish enchantments. Removal Effect: this skill recharges 75% faster and adjacent foes take {{AdjacentDamage}} damage.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -3845,7 +3845,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Assault"
@@ -3853,7 +3853,7 @@
   {
     "name": "Pious Assault (PvP)",
     "icon": "",
-    "description": "Melee Attack. Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take {{Damage}} damage.",
+    "concise_description": "Melee Attack. Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take {{Damage}} damage.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -3894,7 +3894,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Assault_(PvP)"
@@ -3902,7 +3902,7 @@
   {
     "name": "Pious Concentration",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) Prevents interrupts. Prevention cost: you lose one Dervish enchantment or Pious Concentration ends.",
+    "concise_description": "Stance. ({{Duration}} seconds.) Prevents interrupts. Prevention cost: you lose one Dervish enchantment or Pious Concentration ends.",
     "type": "Stance",
     "profession": "Dervish",
     "attribute": {
@@ -3942,7 +3942,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Concentration"
@@ -3950,7 +3950,7 @@
   {
     "name": "Pious Fury",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.",
+    "concise_description": "Stance. ({{Duration}} second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.",
     "type": "Stance",
     "profession": "Dervish",
     "attribute": {
@@ -3991,7 +3991,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Fury"
@@ -3999,7 +3999,7 @@
   {
     "name": "Pious Fury (PvP)",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.",
+    "concise_description": "Stance. ({{Duration}} second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.",
     "type": "Stance",
     "profession": "Dervish",
     "attribute": {
@@ -4040,7 +4040,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Fury_(PvP)"
@@ -4048,7 +4048,7 @@
   {
     "name": "Pious Haste",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) Lose 1 Dervish enchantment and move 25% faster. Removal Effect: Run 50% faster instead.",
+    "concise_description": "Stance. ({{Duration}} second[s].) Lose 1 Dervish enchantment and move 25% faster. Removal Effect: Run 50% faster instead.",
     "type": "Stance",
     "profession": "Dervish",
     "attribute": {
@@ -4089,7 +4089,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Haste"
@@ -4097,7 +4097,7 @@
   {
     "name": "Pious Renewal",
     "icon": "",
-    "description": "Elite Flash Enchantment Spell. (8 seconds.) End Effect: recharges itself and you gain {{EnergyGain}} Energy and {{HealthGain}} Health.",
+    "concise_description": "Elite Flash Enchantment Spell. (8 seconds.) End Effect: recharges itself and you gain {{EnergyGain}} Energy and {{HealthGain}} Health.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -4162,7 +4162,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Renewal"
@@ -4170,7 +4170,7 @@
   {
     "name": "Pious Restoration",
     "icon": "",
-    "description": "Spell. Gain {{HealthGain}} Health and remove 1 Dervish enchantment. Removal effect: lose {{HexesLost}} hex[es].",
+    "concise_description": "Spell. Gain {{HealthGain}} Health and remove 1 Dervish enchantment. Removal effect: lose {{HexesLost}} hex[es].",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -4233,7 +4233,7 @@
     },
     "activation": 1.0,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Restoration"
@@ -4241,7 +4241,7 @@
   {
     "name": "Radiant Scythe",
     "icon": "",
-    "description": "Scythe Attack. Deals +1 damage (maximum {{MaximumPlusDamage}}) for each point of Energy you have. Gain {{EnergyGain}} Energy.",
+    "concise_description": "Scythe Attack. Deals +1 damage (maximum {{MaximumPlusDamage}}) for each point of Energy you have. Gain {{EnergyGain}} Energy.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -4306,7 +4306,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Radiant_Scythe"
@@ -4314,7 +4314,7 @@
   {
     "name": "Reap Impurities",
     "icon": "",
-    "description": "Melee Attack. Deals +{{PlusDamage}} damage. Struck foes lose 1 condition. Removal Effect: all foes adjacent to those struck take {{HolyDamage}} holy damage.",
+    "concise_description": "Melee Attack. Deals +{{PlusDamage}} damage. Struck foes lose 1 condition. Removal Effect: all foes adjacent to those struck take {{HolyDamage}} holy damage.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -4379,7 +4379,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Reap_Impurities"
@@ -4387,7 +4387,7 @@
   {
     "name": "Reaper's Sweep",
     "icon": "",
-    "description": "Elite Scythe Attack. ({{CrippleDuration}} seconds.) Cause Cripple. Lose 1 Dervish enchantment. Removal Effect: cause knockdown for {{KnockDownDuration}} seconds.",
+    "concise_description": "Elite Scythe Attack. ({{CrippleDuration}} seconds.) Cause Cripple. Lose 1 Dervish enchantment. Removal Effect: cause knockdown for {{KnockDownDuration}} seconds.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -4452,7 +4452,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Reaper%27s_Sweep"
@@ -4460,7 +4460,7 @@
   {
     "name": "Rending Aura",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: deals {{ColdDamage}} cold damage to all nearby foes. End effect: nearby foes have Cracked Armor for {{CrackedArmorDuration}} second[s].",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: deals {{ColdDamage}} cold damage to all nearby foes. End effect: nearby foes have Cracked Armor for {{CrackedArmorDuration}} second[s].",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -4523,7 +4523,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Aura"
@@ -4531,7 +4531,7 @@
   {
     "name": "Rending Sweep",
     "icon": "",
-    "description": "Scythe Attack. Deals +{{PlusDamage}} damage. You lose 1 Dervish enchantment. Removal effect: struck foes lose an enchantment.",
+    "concise_description": "Scythe Attack. Deals +{{PlusDamage}} damage. You lose 1 Dervish enchantment. Removal effect: struck foes lose an enchantment.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -4572,7 +4572,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Sweep"
@@ -4580,7 +4580,7 @@
   {
     "name": "Rending Touch",
     "icon": "",
-    "description": "Touch Spell. Deals {{ColdDamage}} cold damage. Lose 1 Dervish enchantment. Removal effect: target foe loses 1 enchantment and you gain 1 strike of adrenaline.",
+    "concise_description": "Touch Spell. Deals {{ColdDamage}} cold damage. Lose 1 Dervish enchantment. Removal effect: target foe loses 1 enchantment and you gain 1 strike of adrenaline.",
     "type": "Touch Spell",
     "profession": "Dervish",
     "attribute": {
@@ -4621,7 +4621,7 @@
     },
     "activation": 0.75,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Touch"
@@ -4629,7 +4629,7 @@
   {
     "name": "Sand Shards",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Deal {{EarthDamage}} earth damage to all other adjacent foes whenever you hit with your scythe. Ends after {{AttacksAffected}} hit[s].",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Deal {{EarthDamage}} earth damage to all other adjacent foes whenever you hit with your scythe. Ends after {{AttacksAffected}} hit[s].",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -4692,7 +4692,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sand_Shards"
@@ -4700,7 +4700,7 @@
   {
     "name": "Shield of Force",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} second[s].) Blocks the next 1 attack against you. Knocks down and inflicts Weakness ({{WeaknessDuration}} seconds) on all adjacent attacking foes.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} second[s].) Blocks the next 1 attack against you. Knocks down and inflicts Weakness ({{WeaknessDuration}} seconds) on all adjacent attacking foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -4763,7 +4763,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Force"
@@ -4771,7 +4771,7 @@
   {
     "name": "Signet of Mystic Speed",
     "icon": "",
-    "description": "Signet. (30 seconds.) Your next {{Enchantments}} self-targeted enchantments [sic] cast instantly. Flash enchantments do not consume uses of this skill.",
+    "concise_description": "Signet. (30 seconds.) Your next {{Enchantments}} self-targeted enchantments [sic] cast instantly. Flash enchantments do not consume uses of this skill.",
     "type": "Signet",
     "profession": "Dervish",
     "attribute": {
@@ -4811,7 +4811,7 @@
     },
     "activation": 1.0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Speed"
@@ -4819,7 +4819,7 @@
   {
     "name": "Signet of Pious Light",
     "icon": "",
-    "description": "Signet. Heals for {{Healing}}. Removes one of your Dervish enchantments. Removal effect: recharges 75% faster.",
+    "concise_description": "Signet. Heals for {{Healing}}. Removes one of your Dervish enchantments. Removal effect: recharges 75% faster.",
     "type": "Signet",
     "profession": "Dervish",
     "attribute": {
@@ -4859,7 +4859,7 @@
     },
     "activation": 1.0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Light"
@@ -4867,7 +4867,7 @@
   {
     "name": "Signet of Pious Restraint",
     "icon": "",
-    "description": "Signet. Inflicts Crippled condition ({{CrippledDuration}} seconds). Remove one of your Dervish enchantments. Removal effect: also causes Cripple to foes nearby your target and recharges 75% faster.",
+    "concise_description": "Signet. Inflicts Crippled condition ({{CrippledDuration}} seconds). Remove one of your Dervish enchantments. Removal effect: also causes Cripple to foes nearby your target and recharges 75% faster.",
     "type": "Signet",
     "profession": "Dervish",
     "attribute": {
@@ -4907,7 +4907,7 @@
     },
     "activation": 1.0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint"
@@ -4915,7 +4915,7 @@
   {
     "name": "Signet of Pious Restraint (PvP)",
     "icon": "",
-    "description": "Signet. ({{CrippledDuration}} seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 75% faster.",
+    "concise_description": "Signet. ({{CrippledDuration}} seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 75% faster.",
     "type": "Signet",
     "profession": "Dervish",
     "attribute": {
@@ -4955,7 +4955,7 @@
     },
     "activation": 1.0,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_(PvP)"
@@ -4963,7 +4963,7 @@
   {
     "name": "Staggering Force",
     "icon": "",
-    "description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to nearby foes. End effect: inflicts Cracked Armor condition ({{CrackedArmorDuration}} second[s]) on nearby foes.",
+    "concise_description": "Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to nearby foes. End effect: inflicts Cracked Armor condition ({{CrackedArmorDuration}} second[s]) on nearby foes.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5026,7 +5026,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Force"
@@ -5034,7 +5034,7 @@
   {
     "name": "Test of Faith",
     "icon": "",
-    "description": "Touch Spell. Deals {{ColdDamage}} cold damage and removes 1 enchantment. Target foe is Dazed for {{DazedDuration}} second[s] if that foe was not enchanted.",
+    "concise_description": "Touch Spell. Deals {{ColdDamage}} cold damage and removes 1 enchantment. Target foe is Dazed for {{DazedDuration}} second[s] if that foe was not enchanted.",
     "type": "Touch Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5097,7 +5097,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Test_of_Faith"
@@ -5105,7 +5105,7 @@
   {
     "name": "Twin Moon Sweep",
     "icon": "",
-    "description": "Melee Attack. Remove 1 of your Dervish enchantments. Gain {{HealthGain}} Health. Removal effect: unblockable, attack twice, and gain {{AdditionalHealthGain}} more Health.",
+    "concise_description": "Melee Attack. Remove 1 of your Dervish enchantments. Gain {{HealthGain}} Health. Removal effect: unblockable, attack twice, and gain {{AdditionalHealthGain}} more Health.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -5170,7 +5170,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep"
@@ -5178,7 +5178,7 @@
   {
     "name": "Twin Moon Sweep (PvP)",
     "icon": "",
-    "description": "Melee Attack. Remove 1 of your Dervish enchantments. Gain {{HealthGain}} Health. Removal effect: Unblockable, attack twice, each strike doing 25% less damage, and gain {{AdditionalHealthGain}} more Health.",
+    "concise_description": "Melee Attack. Remove 1 of your Dervish enchantments. Gain {{HealthGain}} Health. Removal effect: Unblockable, attack twice, each strike doing 25% less damage, and gain {{AdditionalHealthGain}} more Health.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -5243,7 +5243,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_(PvP)"
@@ -5251,7 +5251,7 @@
   {
     "name": "Veil of Thorns",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) Spell damage is reduced by {{SpellDamageReduction}}%. Initial Effect: nearby foes are struck for {{PiercingDamage}} piercing damage.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) Spell damage is reduced by {{SpellDamageReduction}}%. Initial Effect: nearby foes are struck for {{PiercingDamage}} piercing damage.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5337,7 +5337,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Veil_of_Thorns"
@@ -5345,7 +5345,7 @@
   {
     "name": "Victorious Sweep",
     "icon": "",
-    "description": "Melee Attack. Deals +{{PlusDamage}} damage. You gain {{HealthGain}} Health for each foe you hit that has less Health than you.",
+    "concise_description": "Melee Attack. Deals +{{PlusDamage}} damage. You gain {{HealthGain}} Health for each foe you hit that has less Health than you.",
     "type": "Melee Attack",
     "profession": "Dervish",
     "attribute": {
@@ -5410,7 +5410,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Victorious_Sweep"
@@ -5418,7 +5418,7 @@
   {
     "name": "Vital Boon",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds.) You have +{{PlusMaxHealth}} maximum Health. End effect: Heals you for {{HealthGain}}.",
+    "concise_description": "Enchantment Spell. (20 seconds.) You have +{{PlusMaxHealth}} maximum Health. End effect: Heals you for {{HealthGain}}.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5481,7 +5481,7 @@
     },
     "activation": 1.0,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Vital_Boon"
@@ -5489,7 +5489,7 @@
   {
     "name": "Vow of Piety",
     "icon": "",
-    "description": "Enchantment Spell. (20 seconds) +24 armor and +{{HealthRegeneration}} Health regeneration. Renewal: Whenever an enchantment on you ends.",
+    "concise_description": "Enchantment Spell. (20 seconds) +24 armor and +{{HealthRegeneration}} Health regeneration. Renewal: Whenever an enchantment on you ends.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5529,7 +5529,7 @@
     },
     "activation": 0.25,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Piety"
@@ -5537,7 +5537,7 @@
   {
     "name": "Vow of Revolution",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Gain +{{EnergyRegeneration}} energy regeneration. Renewal: whenever you use a non-Dervish skill. PvE Skill",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Gain +{{EnergyRegeneration}} energy regeneration. Renewal: whenever you use a non-Dervish skill. PvE Skill",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5602,7 +5602,7 @@
     },
     "activation": 1.0,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Revolution"
@@ -5610,7 +5610,7 @@
   {
     "name": "Vow of Silence",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Spells cannot target you. You cannot cast spells.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Spells cannot target you. You cannot cast spells.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5651,7 +5651,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Silence"
@@ -5659,7 +5659,7 @@
   {
     "name": "Vow of Strength",
     "icon": "",
-    "description": "Elite Enchantment Spell. (15 seconds.) When you attack with a scythe, deals {{SlashingDamage}} slashing damage to adjacent foes.",
+    "concise_description": "Elite Enchantment Spell. (15 seconds.) When you attack with a scythe, deals {{SlashingDamage}} slashing damage to adjacent foes.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5699,7 +5699,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Strength"
@@ -5707,7 +5707,7 @@
   {
     "name": "Watchful Intervention",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) Heals for {{Healing}} the next time damage drops target ally's Health below 25%.",
+    "concise_description": "Enchantment Spell. (60 seconds.) Heals for {{Healing}} the next time damage drops target ally's Health below 25%.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5748,7 +5748,7 @@
     },
     "activation": 1.0,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Watchful_Intervention"
@@ -5756,7 +5756,7 @@
   {
     "name": "Wearying Strike",
     "icon": "",
-    "description": "Scythe Attack. Remove 1 Dervish Enchantment. Removal Effect: Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). You are Weakened (10 seconds) if an enchantment is not lost.",
+    "concise_description": "Scythe Attack. Remove 1 Dervish Enchantment. Removal Effect: Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). You are Weakened (10 seconds) if an enchantment is not lost.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -5797,7 +5797,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wearying_Strike"
@@ -5805,7 +5805,7 @@
   {
     "name": "Whirling Charge",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} second[s].) You move 33% faster. Deal {{ColdDamage}} cold damage to all other nearby foes the next time you hit a foe and this enchantment ends.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} second[s].) You move 33% faster. Deal {{ColdDamage}} cold damage to all other nearby foes the next time you hit a foe and this enchantment ends.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5868,7 +5868,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Charge"
@@ -5876,7 +5876,7 @@
   {
     "name": "Winds of Disenchantment",
     "icon": "",
-    "description": "Spell. Remove one of your Dervish enchantments. Removal effect: all nearby foes lose 1 enchantment and take {{ColdDamage}} cold damage.",
+    "concise_description": "Spell. Remove one of your Dervish enchantments. Removal effect: all nearby foes lose 1 enchantment and take {{ColdDamage}} cold damage.",
     "type": "Spell",
     "profession": "Dervish",
     "attribute": {
@@ -5916,7 +5916,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Winds_of_Disenchantment"
@@ -5924,7 +5924,7 @@
   {
     "name": "Wounding Strike",
     "icon": "",
-    "description": "Elite Scythe Attack. Deals +{{Damage}} damage and inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Remove 1 Dervish enchantment. Removal Effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds).",
+    "concise_description": "Elite Scythe Attack. Deals +{{Damage}} damage and inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Remove 1 Dervish enchantment. Removal Effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds).",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -5989,7 +5989,7 @@
     },
     "activation": null,
     "recharge": 3,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wounding_Strike"
@@ -5997,7 +5997,7 @@
   {
     "name": "Wounding Strike (PvP)",
     "icon": "",
-    "description": "Elite Scythe Attack. Inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds).",
+    "concise_description": "Elite Scythe Attack. Inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds).",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -6038,7 +6038,7 @@
     },
     "activation": null,
     "recharge": 3,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Wounding_Strike_(PvP)"
@@ -6046,7 +6046,7 @@
   {
     "name": "Zealous Renewal",
     "icon": "",
-    "description": "Flash Enchantment Spell. ({{Duration}} seconds.) Initial effect: deals {{HolyDamage}} holy damage to nearby foes. You have -1 Energy regeneration and gain 1 Energy when you hit. Gain {{EnergyGain}} Energy if this enchantment ends early.",
+    "concise_description": "Flash Enchantment Spell. ({{Duration}} seconds.) Initial effect: deals {{HolyDamage}} holy damage to nearby foes. You have -1 Energy regeneration and gain 1 Energy when you hit. Gain {{EnergyGain}} Energy if this enchantment ends early.",
     "type": "Flash Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -6135,7 +6135,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Renewal"
@@ -6143,7 +6143,7 @@
   {
     "name": "Zealous Sweep",
     "icon": "",
-    "description": "Scythe Attack. Deals +{{PlusDamage}} damage. You gain 3 Energy and 1 adrenaline for each foe you hit.",
+    "concise_description": "Scythe Attack. Deals +{{PlusDamage}} damage. You gain 3 Energy and 1 adrenaline for each foe you hit.",
     "type": "Scythe Attack",
     "profession": "Dervish",
     "attribute": {
@@ -6184,7 +6184,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Sweep"
@@ -6192,7 +6192,7 @@
   {
     "name": "Zealous Vow",
     "icon": "",
-    "description": "Elite Enchantment Spell. (20 seconds.) You gain {{EnergyGain}} Energy each time you hit with an attack. You have -3 Energy regeneration.",
+    "concise_description": "Elite Enchantment Spell. (20 seconds.) You gain {{EnergyGain}} Energy each time you hit with an attack. You have -3 Energy regeneration.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
     "attribute": {
@@ -6232,7 +6232,7 @@
     },
     "activation": 0.25,
     "recharge": 12,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Vow"

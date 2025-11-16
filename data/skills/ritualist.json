@@ -2,7 +2,7 @@
   {
     "name": "Agony",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -115,7 +115,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Agony"
@@ -123,7 +123,7 @@
   {
     "name": "Agony (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.",
+    "concise_description": "Binding Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -236,7 +236,7 @@
     },
     "activation": 3,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Agony_(PvP)"
@@ -244,7 +244,7 @@
   {
     "name": "Ancestors' Rage",
     "icon": "",
-    "description": "Skill. (1 second.) End Effect: deals {{LightningDamage}} lightning damage to foes adjacent to target ally.",
+    "concise_description": "Skill. (1 second.) End Effect: deals {{LightningDamage}} lightning damage to foes adjacent to target ally.",
     "type": "Skill",
     "profession": "Ritualist",
     "attribute": {
@@ -285,7 +285,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage"
@@ -293,7 +293,7 @@
   {
     "name": "Ancestors' Rage (PvP)",
     "icon": "",
-    "description": "Skill. (3 seconds.) Deals {{LightningDamage}} lightning damage to foes adjacent to target ally each second.",
+    "concise_description": "Skill. (3 seconds.) Deals {{LightningDamage}} lightning damage to foes adjacent to target ally each second.",
     "type": "Skill",
     "profession": "Ritualist",
     "attribute": {
@@ -334,7 +334,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage_(PvP)"
@@ -342,7 +342,7 @@
   {
     "name": "Anguish",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -431,7 +431,7 @@
     },
     "activation": 0.75,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Anguish"
@@ -439,7 +439,7 @@
   {
     "name": "Anguish (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -528,7 +528,7 @@
     },
     "activation": 3,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Anguish_(PvP)"
@@ -536,7 +536,7 @@
   {
     "name": "Anguished Was Lingwah",
     "icon": "",
-    "description": "Item Spell. ({{ItemSpellDuration}} seconds.) Your Ritualist hexes cost {{LessEnergy}} less energy and last 33% longer. Drop effect: all your Ritualist hexes are recharged.",
+    "concise_description": "Item Spell. ({{ItemSpellDuration}} seconds.) Your Ritualist hexes cost {{LessEnergy}} less energy and last 33% longer. Drop effect: all your Ritualist hexes are recharged.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -601,7 +601,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Anguished_Was_Lingwah"
@@ -609,7 +609,7 @@
   {
     "name": "Armor of Unfeeling",
     "icon": "",
-    "description": "Skill. ({{Duration}} seconds.) Your spirits within earshot take 50% less damage and are immune to critical attacks.",
+    "concise_description": "Skill. ({{Duration}} seconds.) Your spirits within earshot take 50% less damage and are immune to critical attacks.",
     "type": "Skill",
     "profession": "Ritualist",
     "attribute": {
@@ -650,7 +650,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling"
@@ -658,7 +658,7 @@
   {
     "name": "Armor of Unfeeling (PvP)",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You have 10 base damage reduction while casting binding rituals.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have 10 base damage reduction while casting binding rituals.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -699,7 +699,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling_(PvP)"
@@ -707,7 +707,7 @@
   {
     "name": "Attuned Was Songkai",
     "icon": "",
-    "description": "Elite Item Spell. (45 seconds.) Your spells and binding rituals cost -{{EnergyCostReductionPercent}}% of the base Energy.",
+    "concise_description": "Elite Item Spell. (45 seconds.) Your spells and binding rituals cost -{{EnergyCostReductionPercent}}% of the base Energy.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -748,7 +748,7 @@
     },
     "activation": 2,
     "recharge": 60,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Attuned_Was_Songkai"
@@ -756,7 +756,7 @@
   {
     "name": "Binding Chains",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes near your target. (3 seconds.) These foes move 90% slower and takes {{DamageWhileMoving}} damage each second while moving.",
+    "concise_description": "Hex Spell. Also hexes foes near your target. (3 seconds.) These foes move 90% slower and takes {{DamageWhileMoving}} damage each second while moving.",
     "type": "Hex Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -797,7 +797,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Binding_Chains"
@@ -805,7 +805,7 @@
   {
     "name": "Blind Was Mingson",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) Drop effect: inflicts Blindness condition ({{BlindDuration}} seconds) on all nearby foes.",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) Drop effect: inflicts Blindness condition ({{BlindDuration}} seconds) on all nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -870,7 +870,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blind_Was_Mingson"
@@ -878,7 +878,7 @@
   {
     "name": "Bloodsong",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -967,7 +967,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bloodsong"
@@ -975,7 +975,7 @@
   {
     "name": "Bloodsong (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -1064,7 +1064,7 @@
     },
     "activation": 3,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Bloodsong_(PvP)"
@@ -1072,7 +1072,7 @@
   {
     "name": "Boon of Creation",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) You gain {{Healing}} Health and {{EnergyGain}} Energy whenever you create a creature.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You gain {{Healing}} Health and {{EnergyGain}} Energy whenever you create a creature.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1161,7 +1161,7 @@
     },
     "activation": 2,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Boon_of_Creation"
@@ -1169,7 +1169,7 @@
   {
     "name": "Brutal Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) Attacks deal +{{PlusDamage}} damage. No effect while target ally is enchanted.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks deal +{{PlusDamage}} damage. No effect while target ally is enchanted.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1234,7 +1234,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Brutal_Weapon"
@@ -1242,7 +1242,7 @@
   {
     "name": "Caretaker's Charge",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage. You gain 5 Energy and {{HealthGain}} Health if you are holding an item.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. You gain 5 Energy and {{HealthGain}} Health if you are holding an item.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1307,7 +1307,7 @@
     },
     "activation": 1,
     "recharge": 4,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Caretaker%27s_Charge"
@@ -1315,7 +1315,7 @@
   {
     "name": "Channeled Strike",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} additional lightning damage if you are holding an item.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} additional lightning damage if you are holding an item.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1380,7 +1380,7 @@
     },
     "activation": 2,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Channeled_Strike"
@@ -1388,7 +1388,7 @@
   {
     "name": "Clamor of Souls",
     "icon": "",
-    "description": "Elite Spell. Deals {{LightningDamage}} lightning damage to target and nearby foes. You gain 10 Energy if you are within earshot of a spirit or holding a bundle item.",
+    "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage to target and nearby foes. You gain 10 Energy if you are within earshot of a spirit or holding a bundle item.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1429,7 +1429,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Clamor_of_Souls"
@@ -1437,7 +1437,7 @@
   {
     "name": "Consume Soul",
     "icon": "",
-    "description": "Elite Spell. Steals {{LifeStealing}} Health. Deal {{Damage}} damage to hostile summoned creatures in the area of target foe.",
+    "concise_description": "Elite Spell. Steals {{LifeStealing}} Health. Deal {{Damage}} damage to hostile summoned creatures in the area of target foe.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1502,7 +1502,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Soul"
@@ -1510,7 +1510,7 @@
   {
     "name": "Cruel Was Daoshen",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all nearby foes.",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1575,7 +1575,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Cruel_Was_Daoshen"
@@ -1583,7 +1583,7 @@
   {
     "name": "Death Pact Signet",
     "icon": "",
-    "description": "Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.",
+    "concise_description": "Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -1624,7 +1624,7 @@
     },
     "activation": 3,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet"
@@ -1632,7 +1632,7 @@
   {
     "name": "Death Pact Signet (PvP)",
     "icon": "",
-    "description": "Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.",
+    "concise_description": "Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -1673,7 +1673,7 @@
     },
     "activation": 4,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet_(PvP)"
@@ -1681,7 +1681,7 @@
   {
     "name": "Defiant Was Xinrae",
     "icon": "",
-    "description": "Elite Item Spell. ({{Duration}} seconds.) You cannot lose more than 20% of your max Health from a single hit. Drop effect: steal {{LifeStealing}} Health from nearby foes.",
+    "concise_description": "Elite Item Spell. ({{Duration}} seconds.) You cannot lose more than 20% of your max Health from a single hit. Drop effect: steal {{LifeStealing}} Health from nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1746,7 +1746,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Defiant_Was_Xinrae"
@@ -1754,7 +1754,7 @@
   {
     "name": "Destruction",
     "icon": "",
-    "description": "Binding Ritual. Create a level {{Level}} Spirit that dies after 30 seconds. When this Spirit dies, all foes in the area take {{LightningDamage}} damage for each second the Spirit was alive (maximum 150 damage).",
+    "concise_description": "Binding Ritual. Create a level {{Level}} Spirit that dies after 30 seconds. When this Spirit dies, all foes in the area take {{LightningDamage}} damage for each second the Spirit was alive (maximum 150 damage).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -1819,7 +1819,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Destruction"
@@ -1827,7 +1827,7 @@
   {
     "name": "Destruction (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). On death, it deals {{LightningDamage}} damage for each second it was alive to all foes in the area (maximum 150 damage).",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). On death, it deals {{LightningDamage}} damage for each second it was alive to all foes in the area (maximum 150 damage).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -1892,7 +1892,7 @@
     },
     "activation": 3,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Destruction_(PvP)"
@@ -1900,7 +1900,7 @@
   {
     "name": "Destructive Was Glaive",
     "icon": "",
-    "description": "Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 20% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.",
+    "concise_description": "Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 20% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -1965,7 +1965,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive"
@@ -1973,7 +1973,7 @@
   {
     "name": "Destructive Was Glaive (PvP)",
     "icon": "",
-    "description": "Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.",
+    "concise_description": "Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -2038,7 +2038,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive_(PvP)"
@@ -2046,7 +2046,7 @@
   {
     "name": "Disenchantment",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2135,7 +2135,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Disenchantment"
@@ -2143,7 +2143,7 @@
   {
     "name": "Disenchantment (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2232,7 +2232,7 @@
     },
     "activation": 5,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Disenchantment_(PvP)"
@@ -2240,7 +2240,7 @@
   {
     "name": "Displacement",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2329,7 +2329,7 @@
     },
     "activation": 0.75,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Displacement"
@@ -2337,7 +2337,7 @@
   {
     "name": "Displacement (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2426,7 +2426,7 @@
     },
     "activation": 3,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Displacement_(PvP)"
@@ -2434,7 +2434,7 @@
   {
     "name": "Dissonance",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2523,7 +2523,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance"
@@ -2531,7 +2531,7 @@
   {
     "name": "Dissonance (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2620,7 +2620,7 @@
     },
     "activation": 5,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance_(PvP)"
@@ -2628,7 +2628,7 @@
   {
     "name": "Doom",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage (maximum 135) for each of your recharging binding rituals.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage (maximum 135) for each of your recharging binding rituals.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -2669,7 +2669,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Doom"
@@ -2677,7 +2677,7 @@
   {
     "name": "Draw Spirit",
     "icon": "",
-    "description": "Spell. Teleports target allied spirit to your location.",
+    "concise_description": "Spell. Teleports target allied spirit to your location.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -2693,7 +2693,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Draw_Spirit"
@@ -2701,7 +2701,7 @@
   {
     "name": "Dulled Weapon",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). Removes ability to land a critical hit. Reduces damage by {{DamageReduction}}.",
+    "concise_description": "Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). Removes ability to land a critical hit. Reduces damage by {{DamageReduction}}.",
     "type": "Hex Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -2766,7 +2766,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dulled_Weapon"
@@ -2774,7 +2774,7 @@
   {
     "name": "Earthbind",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2863,7 +2863,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Earthbind"
@@ -2871,7 +2871,7 @@
   {
     "name": "Earthbind (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -2960,7 +2960,7 @@
     },
     "activation": 5,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Earthbind_(PvP)"
@@ -2968,7 +2968,7 @@
   {
     "name": "Empowerment",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -3057,7 +3057,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Empowerment"
@@ -3065,7 +3065,7 @@
   {
     "name": "Empowerment (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -3154,7 +3154,7 @@
     },
     "activation": 3,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Empowerment_(PvP)"
@@ -3162,7 +3162,7 @@
   {
     "name": "Energetic Was Lee Sa",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) You have +2 Energy regeneration. Drop effect: you gain +{{EnergyGainWhenDropped}} Energy.",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) You have +2 Energy regeneration. Drop effect: you gain +{{EnergyGainWhenDropped}} Energy.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3275,7 +3275,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Energetic_Was_Lee_Sa"
@@ -3283,7 +3283,7 @@
   {
     "name": "Essence Strike",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. You gain {{EnergyGain}} Energy if any spirits are within earshot.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. You gain {{EnergyGain}} Energy if any spirits are within earshot.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3348,7 +3348,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Essence_Strike"
@@ -3356,7 +3356,7 @@
   {
     "name": "Explosive Growth",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Deals {{LightningDamage}} lightning damage each time you create a creature to 5 foes near that creature.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Deals {{LightningDamage}} lightning damage each time you create a creature to 5 foes near that creature.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3421,7 +3421,7 @@
     },
     "activation": 2,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Explosive_Growth"
@@ -3429,7 +3429,7 @@
   {
     "name": "Feast of Souls",
     "icon": "",
-    "description": "Spell. Heals all party members for {{Healing}} for each nearby allied spirit. All nearby allied spirits are destroyed.",
+    "concise_description": "Spell. Heals all party members for {{Healing}} for each nearby allied spirit. All nearby allied spirits are destroyed.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3470,7 +3470,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Feast_of_Souls"
@@ -3478,7 +3478,7 @@
   {
     "name": "Flesh of My Flesh",
     "icon": "",
-    "description": "Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.",
+    "concise_description": "Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3519,7 +3519,7 @@
     },
     "activation": 4,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh"
@@ -3527,7 +3527,7 @@
   {
     "name": "Flesh of My Flesh (PvP)",
     "icon": "",
-    "description": "Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.",
+    "concise_description": "Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3568,7 +3568,7 @@
     },
     "activation": 4,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh_(PvP)"
@@ -3576,7 +3576,7 @@
   {
     "name": "Gaze from Beyond",
     "icon": "",
-    "description": "Spell. Deals {{Damage}} lightning damage. Inflicts Blindness condition for {{BlindDuration}} seconds if you are within earshot of a spirit.",
+    "concise_description": "Spell. Deals {{Damage}} lightning damage. Inflicts Blindness condition for {{BlindDuration}} seconds if you are within earshot of a spirit.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3641,7 +3641,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_from_Beyond"
@@ -3649,7 +3649,7 @@
   {
     "name": "Gaze of Fury",
     "icon": "",
-    "description": "Binding Ritual. Destroys a spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.",
+    "concise_description": "Binding Ritual. Destroys a spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -3738,7 +3738,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury"
@@ -3746,7 +3746,7 @@
   {
     "name": "Gaze of Fury (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Destroys an allied spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.",
+    "concise_description": "Binding Ritual. Destroys an allied spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -3835,7 +3835,7 @@
     },
     "activation": 2,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury_(PvP)"
@@ -3843,7 +3843,7 @@
   {
     "name": "Generous Was Tsungrai",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) You have +{{PlusMaxHealth}} maximum Health. Drop effect: you gain {{HealthGain}} Health.",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) You have +{{PlusMaxHealth}} maximum Health. Drop effect: you gain {{HealthGain}} Health.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3932,7 +3932,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Generous_Was_Tsungrai"
@@ -3940,7 +3940,7 @@
   {
     "name": "Ghostly Haste",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Spells you cast recharge 25% faster. No effect unless you are within earshot of a spirit.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Spells you cast recharge 25% faster. No effect unless you are within earshot of a spirit.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -3981,7 +3981,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ghostly_Haste"
@@ -3989,7 +3989,7 @@
   {
     "name": "Ghostly Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) Target ally's next attack is unblockable. Cannot self-target.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) Target ally's next attack is unblockable. Cannot self-target.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4030,7 +4030,7 @@
     },
     "activation": 0.25,
     "recharge": 1,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ghostly_Weapon"
@@ -4038,7 +4038,7 @@
   {
     "name": "Ghostmirror Light",
     "icon": "",
-    "description": "Spell. Heals for {{OtherHeal}}. You gain {{SelfHeal}} Health if you are within earshot of a spirit. Cannot self-target.",
+    "concise_description": "Spell. Heals for {{OtherHeal}}. You gain {{SelfHeal}} Health if you are within earshot of a spirit. Cannot self-target.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4103,7 +4103,7 @@
     },
     "activation": 1,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ghostmirror_Light"
@@ -4111,7 +4111,7 @@
   {
     "name": "Grasping Was Kuurong",
     "icon": "",
-    "description": "Elite Item Spell. ({{Duration}} seconds.) Drop effect: deal {{ArmorMinusIgnoringDamage}} damage and knocks-down all nearby foes.",
+    "concise_description": "Elite Item Spell. ({{Duration}} seconds.) Drop effect: deal {{ArmorMinusIgnoringDamage}} damage and knocks-down all nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4176,7 +4176,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Grasping_Was_Kuurong"
@@ -4184,7 +4184,7 @@
   {
     "name": "Guided Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) Attacks are unblockable.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks are unblockable.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4225,7 +4225,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Guided_Weapon"
@@ -4233,7 +4233,7 @@
   {
     "name": "Lamentation",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Causes -{{HealthDegeneration}} Health degeneration. Initial effect: Deals {{ArmorMinusIgnoringDamage}} damage to these foes if you are within earshot of a spirit or corpse.",
+    "concise_description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Causes -{{HealthDegeneration}} Health degeneration. Initial effect: Deals {{ArmorMinusIgnoringDamage}} damage to these foes if you are within earshot of a spirit or corpse.",
     "type": "Hex Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4322,7 +4322,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lamentation"
@@ -4330,7 +4330,7 @@
   {
     "name": "Life",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -4395,7 +4395,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Life"
@@ -4403,7 +4403,7 @@
   {
     "name": "Life (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -4468,7 +4468,7 @@
     },
     "activation": 3,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Life_(PvP)"
@@ -4476,7 +4476,7 @@
   {
     "name": "Lively Was Naomei",
     "icon": "",
-    "description": "Item Spell. (45 seconds.) Drop effect: resurrects party members in the area ({{PercentHealth}}% Health and zero Energy).",
+    "concise_description": "Item Spell. (45 seconds.) Drop effect: resurrects party members in the area ({{PercentHealth}}% Health and zero Energy).",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4517,7 +4517,7 @@
     },
     "activation": 6,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lively_Was_Naomei"
@@ -4525,7 +4525,7 @@
   {
     "name": "Mend Body and Soul",
     "icon": "",
-    "description": "Spell. Heals for {{Healing}}. Removes one condition for each spirit within earshot.",
+    "concise_description": "Spell. Heals for {{Healing}}. Removes one condition for each spirit within earshot.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4566,7 +4566,7 @@
     },
     "activation": 0.75,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mend_Body_and_Soul"
@@ -4574,7 +4574,7 @@
   {
     "name": "Mending Grip",
     "icon": "",
-    "description": "Spell. Heals for {{Healing}}. Removes one condition if target ally is under a Weapon [sic] spell.",
+    "concise_description": "Spell. Heals for {{Healing}}. Removes one condition if target ally is under a Weapon [sic] spell.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4615,7 +4615,7 @@
     },
     "activation": 1,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mending_Grip"
@@ -4623,7 +4623,7 @@
   {
     "name": "Mighty Was Vorizun",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) You have +15 armor and +30 maximum Energy.",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) You have +15 armor and +30 maximum Energy.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4664,7 +4664,7 @@
     },
     "activation": 2,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Was_Vorizun"
@@ -4672,7 +4672,7 @@
   {
     "name": "Nightmare Weapon",
     "icon": "",
-    "description": "Weapon Spell. (12 seconds.) Target ally's attacks steal {{LifeStealing}} Health but deal {{DamageReduction}} less damage. Ends after 3 attacks.",
+    "concise_description": "Weapon Spell. (12 seconds.) Target ally's attacks steal {{LifeStealing}} Health but deal {{DamageReduction}} less damage. Ends after 3 attacks.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4737,7 +4737,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Nightmare_Weapon"
@@ -4745,7 +4745,7 @@
   {
     "name": "Offering of Spirit",
     "icon": "",
-    "description": "Elite Spell. You gain {{EnergyGain}} Energy. You do not sacrifice Health if any spirits are within earshot.",
+    "concise_description": "Elite Spell. You gain {{EnergyGain}} Energy. You do not sacrifice Health if any spirits are within earshot.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -4786,7 +4786,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Offering_of_Spirit"
@@ -4794,7 +4794,7 @@
   {
     "name": "Pain",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -4883,7 +4883,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Pain"
@@ -4891,7 +4891,7 @@
   {
     "name": "Pain (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -4980,7 +4980,7 @@
     },
     "activation": 3,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(PvP)"
@@ -4988,7 +4988,7 @@
   {
     "name": "Painful Bond",
     "icon": "",
-    "description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Spirits do {{Damage}} more damage against these foes.",
+    "concise_description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Spirits do {{Damage}} more damage against these foes.",
     "type": "Hex Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -5053,7 +5053,7 @@
     },
     "activation": 1,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Painful_Bond"
@@ -5061,7 +5061,7 @@
   {
     "name": "Preservation",
     "icon": "",
-    "description": "Elite Binding Ritual. Creates a level {{Level}} spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.",
+    "concise_description": "Elite Binding Ritual. Creates a level {{Level}} spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5126,7 +5126,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Preservation"
@@ -5134,7 +5134,7 @@
   {
     "name": "Preservation (PvP)",
     "icon": "",
-    "description": "Elite Binding Ritual. Creates a level {{Level}} Spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.",
+    "concise_description": "Elite Binding Ritual. Creates a level {{Level}} Spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5199,7 +5199,7 @@
     },
     "activation": 3,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Preservation_(PvP)"
@@ -5207,7 +5207,7 @@
   {
     "name": "Protective Was Kaolai",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) You have +10 armor. Drop effect: all party members are healed for {{Healing}}.",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) You have +10 armor. Drop effect: all party members are healed for {{Healing}}.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -5272,7 +5272,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Protective_Was_Kaolai"
@@ -5280,7 +5280,7 @@
   {
     "name": "Pure Was Li Ming",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) Conditions on you expire {{ConditionDurationReductionPercent}}% faster. Drop effect: removes {{ConditionsRemoved}} condition[s] from allies in earshot.",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) Conditions on you expire {{ConditionDurationReductionPercent}}% faster. Drop effect: removes {{ConditionsRemoved}} condition[s] from allies in earshot.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -5369,7 +5369,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pure_Was_Li_Ming"
@@ -5377,7 +5377,7 @@
   {
     "name": "Reclaim Essence",
     "icon": "",
-    "description": "Elite Spell. All of your Spirits die. If a Spirit dies in this way, you gain {{EnergyGain}} Energy and all of your Binding Rituals are recharged.",
+    "concise_description": "Elite Spell. All of your Spirits die. If a Spirit dies in this way, you gain {{EnergyGain}} Energy and all of your Binding Rituals are recharged.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -5418,7 +5418,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Reclaim_Essence"
@@ -5426,7 +5426,7 @@
   {
     "name": "Recovery",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5515,7 +5515,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Recovery"
@@ -5523,7 +5523,7 @@
   {
     "name": "Recovery (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5612,7 +5612,7 @@
     },
     "activation": 3,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Recovery_(PvP)"
@@ -5620,7 +5620,7 @@
   {
     "name": "Recuperation",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5709,7 +5709,7 @@
     },
     "activation": 0.75,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Recuperation"
@@ -5717,7 +5717,7 @@
   {
     "name": "Recuperation (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5806,7 +5806,7 @@
     },
     "activation": 3,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Recuperation_(PvP)"
@@ -5814,7 +5814,7 @@
   {
     "name": "Rejuvenation",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5830,7 +5830,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rejuvenation"
@@ -5838,7 +5838,7 @@
   {
     "name": "Rejuvenation (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -5854,7 +5854,7 @@
     },
     "activation": 3,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Rejuvenation_(PvP)"
@@ -5862,7 +5862,7 @@
   {
     "name": "Renewing Memories",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Your weapon and item spells cost {{EnergyReductionPercent}}% less Energy. No effect unless holding an item.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your weapon and item spells cost {{EnergyReductionPercent}}% less Energy. No effect unless holding an item.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -5927,7 +5927,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Memories"
@@ -5935,7 +5935,7 @@
   {
     "name": "Renewing Surge",
     "icon": "",
-    "description": "Hex Spell. (8 seconds.) Deals {{DamagePerSecond}} damage each second. End effect: You gain {{EnergyGain}} energy.",
+    "concise_description": "Hex Spell. (8 seconds.) Deals {{DamagePerSecond}} damage each second. End effect: You gain {{EnergyGain}} energy.",
     "type": "Hex Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -6000,7 +6000,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Surge"
@@ -6008,7 +6008,7 @@
   {
     "name": "Resilient Was Xiko",
     "icon": "",
-    "description": "Item Spell. ({{Duration}} seconds.) You have +3 Health regeneration for each hex or condition on you. Drop effect: you lose {{ConditionsLost}} condition[s].",
+    "concise_description": "Item Spell. ({{Duration}} seconds.) You have +3 Health regeneration for each hex or condition on you. Drop effect: you lose {{ConditionsLost}} condition[s].",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -6073,7 +6073,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Resilient_Was_Xiko"
@@ -6081,7 +6081,7 @@
   {
     "name": "Resilient Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration and +24 armor. No effect unless target ally is hexed or has a condition.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration and +24 armor. No effect unless target ally is hexed or has a condition.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -6146,7 +6146,7 @@
     },
     "activation": 1,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Resilient_Weapon"
@@ -6154,7 +6154,7 @@
   {
     "name": "Restoration",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -6219,7 +6219,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Restoration"
@@ -6227,7 +6227,7 @@
   {
     "name": "Restoration (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -6292,7 +6292,7 @@
     },
     "activation": 5,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Restoration_(PvP)"
@@ -6300,7 +6300,7 @@
   {
     "name": "Ritual Lord",
     "icon": "",
-    "description": "Elite Skill. ({{Duration}} seconds.) You have +{{AttributeBoost}} to all Ritualist attributes for your next skill. If that skill is a Binding Ritual, it recharges {{PercentFasterRecharge}}% faster and Ritual Lord recharges instantly.",
+    "concise_description": "Elite Skill. ({{Duration}} seconds.) You have +{{AttributeBoost}} to all Ritualist attributes for your next skill. If that skill is a Binding Ritual, it recharges {{PercentFasterRecharge}}% faster and Ritual Lord recharges instantly.",
     "type": "Skill",
     "profession": "Ritualist",
     "attribute": {
@@ -6389,7 +6389,7 @@
     },
     "activation": null,
     "recharge": 45,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ritual_Lord"
@@ -6397,7 +6397,7 @@
   {
     "name": "Rupture Soul",
     "icon": "",
-    "description": "Spell. Destroys target allied spirit. Deals {{LightningDamage}} lightning damage and inflicts Blindness condition ({{BlindDuration}} seconds) to nearby foes.",
+    "concise_description": "Spell. Destroys target allied spirit. Deals {{LightningDamage}} lightning damage and inflicts Blindness condition ({{BlindDuration}} seconds) to nearby foes.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -6462,7 +6462,7 @@
     },
     "activation": 0.75,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rupture_Soul"
@@ -6470,7 +6470,7 @@
   {
     "name": "Shadowsong",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -6559,7 +6559,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong"
@@ -6567,7 +6567,7 @@
   {
     "name": "Shadowsong (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -6656,7 +6656,7 @@
     },
     "activation": 5,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong_(PvP)"
@@ -6664,7 +6664,7 @@
   {
     "name": "Shelter",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -6753,7 +6753,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shelter"
@@ -6761,7 +6761,7 @@
   {
     "name": "Shelter (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -6850,7 +6850,7 @@
     },
     "activation": 5,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shelter_(PvP)"
@@ -6858,7 +6858,7 @@
   {
     "name": "Sight Beyond Sight",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds). You are immune to Blindness.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds). You are immune to Blindness.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -6899,7 +6899,7 @@
     },
     "activation": 0.25,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sight_Beyond_Sight"
@@ -6907,7 +6907,7 @@
   {
     "name": "Signet of Binding",
     "icon": "",
-    "description": "Signet. You lose {{HealthLoss}} Health. Gain control of target enemy-controlled spirit. 50% failure chance unless Spawning Power 5 or more.",
+    "concise_description": "Signet. You lose {{HealthLoss}} Health. Gain control of target enemy-controlled spirit. 50% failure chance unless Spawning Power 5 or more.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -6948,7 +6948,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Binding"
@@ -6956,7 +6956,7 @@
   {
     "name": "Signet of Creation",
     "icon": "",
-    "description": "Signet. Gain 4 Energy (maximum {{MaxEnergyGained}} Energy) for each summoned creature you control within earshot.",
+    "concise_description": "Signet. Gain 4 Energy (maximum {{MaxEnergyGained}} Energy) for each summoned creature you control within earshot.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -6997,7 +6997,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Creation"
@@ -7005,7 +7005,7 @@
   {
     "name": "Signet of Ghostly Might",
     "icon": "",
-    "description": "Elite Signet. ({{Duration}} seconds.) All spirits you control within earshot attack 33% faster and deal +{{PlusDamage}} damage.",
+    "concise_description": "Elite Signet. ({{Duration}} seconds.) All spirits you control within earshot attack 33% faster and deal +{{PlusDamage}} damage.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -7070,7 +7070,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might"
@@ -7078,7 +7078,7 @@
   {
     "name": "Signet of Ghostly Might (PvP)",
     "icon": "",
-    "description": "Elite Signet. Target allied summoned creature deals +{{PlusDamage}} damage. That creature is destroyed after 10 seconds.",
+    "concise_description": "Elite Signet. Target allied summoned creature deals +{{PlusDamage}} damage. That creature is destroyed after 10 seconds.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -7119,7 +7119,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might_(PvP)"
@@ -7127,7 +7127,7 @@
   {
     "name": "Signet of Spirits",
     "icon": "",
-    "description": "Elite Signet. Creates 3 level {{Level}} spirits (60 second lifespan). These spirits deal {{Damage}} damage with attacks.",
+    "concise_description": "Elite Signet. Creates 3 level {{Level}} spirits (60 second lifespan). These spirits deal {{Damage}} damage with attacks.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -7192,7 +7192,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits"
@@ -7200,7 +7200,7 @@
   {
     "name": "Signet of Spirits (PvP)",
     "icon": "",
-    "description": "Elite Signet. You gain {{EnergyGain}} Energy. No effect unless you are within earshot of a spirit.",
+    "concise_description": "Elite Signet. You gain {{EnergyGain}} Energy. No effect unless you are within earshot of a spirit.",
     "type": "Signet",
     "profession": "Ritualist",
     "attribute": {
@@ -7241,7 +7241,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits_(PvP)"
@@ -7249,7 +7249,7 @@
   {
     "name": "Soothing",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -7314,7 +7314,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soothing"
@@ -7322,7 +7322,7 @@
   {
     "name": "Soothing (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -7387,7 +7387,7 @@
     },
     "activation": 5,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_(PvP)"
@@ -7395,7 +7395,7 @@
   {
     "name": "Soothing Memories",
     "icon": "",
-    "description": "Spell. Heals for {{Healing}}. You gain 3 Energy if you are holding an item.",
+    "concise_description": "Spell. Heals for {{Healing}}. You gain 3 Energy if you are holding an item.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7436,7 +7436,7 @@
     },
     "activation": 0.75,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_Memories"
@@ -7444,7 +7444,7 @@
   {
     "name": "Soul Twisting",
     "icon": "",
-    "description": "Elite Skill. ({{Duration}} seconds.) Your Binding Rituals cost 15 less Energy (minimum 10) and recharge instantly. Ends after {{BindingRituals}} Binding Ritual[s].",
+    "concise_description": "Elite Skill. ({{Duration}} seconds.) Your Binding Rituals cost 15 less Energy (minimum 10) and recharge instantly. Ends after {{BindingRituals}} Binding Ritual[s].",
     "type": "Skill",
     "profession": "Ritualist",
     "attribute": {
@@ -7509,7 +7509,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Twisting"
@@ -7517,7 +7517,7 @@
   {
     "name": "Spirit Boon Strike",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Spirits you control within earshot gain {{LightningDamage}} Health.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Spirits you control within earshot gain {{LightningDamage}} Health.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7582,7 +7582,7 @@
     },
     "activation": 1,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Boon_Strike"
@@ -7590,7 +7590,7 @@
   {
     "name": "Spirit Burn",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Inflicts Burning condition ({{BurningDuration}} second[s]) if you are within earshot of a spirit.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Inflicts Burning condition ({{BurningDuration}} second[s]) if you are within earshot of a spirit.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7655,7 +7655,7 @@
     },
     "activation": 1,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Burn"
@@ -7663,7 +7663,7 @@
   {
     "name": "Spirit Channeling",
     "icon": "",
-    "description": "Elite Enchantment Spell. (12 seconds.) You have +{{EnergyRegeneration}} Energy regeneration. Initial effect: you gain {{EnergyGain}} Energy if you are within earshot of a spirit.",
+    "concise_description": "Elite Enchantment Spell. (12 seconds.) You have +{{EnergyRegeneration}} Energy regeneration. Initial effect: you gain {{EnergyGain}} Energy if you are within earshot of a spirit.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7728,7 +7728,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Channeling"
@@ -7736,7 +7736,7 @@
   {
     "name": "Spirit Light",
     "icon": "",
-    "description": "Spell. Heals for {{Healing}}. You don't sacrifice Health if you are within earshot of any spirits.",
+    "concise_description": "Spell. Heals for {{Healing}}. You don't sacrifice Health if you are within earshot of any spirits.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7777,7 +7777,7 @@
     },
     "activation": 1,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Light"
@@ -7785,7 +7785,7 @@
   {
     "name": "Spirit Light Weapon",
     "icon": "",
-    "description": "Elite Weapon Spell. (10 seconds.) Target ally gains {{HealthGainPerSecond}} Health each second. {{AdditionalHealthGainPerSecond}} more healing per second while within earshot of a spirit.",
+    "concise_description": "Elite Weapon Spell. (10 seconds.) Target ally gains {{HealthGainPerSecond}} Health each second. {{AdditionalHealthGainPerSecond}} more healing per second while within earshot of a spirit.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7850,7 +7850,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Light_Weapon"
@@ -7858,7 +7858,7 @@
   {
     "name": "Spirit Rift",
     "icon": "",
-    "description": "Spell. After 3 seconds, affects foes adjacent to target's initial location. Deals {{LightningDamage}} lightning damage and inflicts Cracked Armor ({{CrackedArmorDuration}} second[s]).",
+    "concise_description": "Spell. After 3 seconds, affects foes adjacent to target's initial location. Deals {{LightningDamage}} lightning damage and inflicts Cracked Armor ({{CrackedArmorDuration}} second[s]).",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7923,7 +7923,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Rift"
@@ -7931,7 +7931,7 @@
   {
     "name": "Spirit Siphon",
     "icon": "",
-    "description": "Spell. The spirit nearest you loses all Energy. You gain {{PercentEnergy}}% of that Energy.",
+    "concise_description": "Spell. The spirit nearest you loses all Energy. You gain {{PercentEnergy}}% of that Energy.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -7996,7 +7996,7 @@
     },
     "activation": 0.25,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Siphon"
@@ -8004,7 +8004,7 @@
   {
     "name": "Spirit Transfer",
     "icon": "",
-    "description": "Spell. The spirit nearest you loses {{SpiritHealthLoss}} Health. Heals target ally for 5 for each point of Health lost.",
+    "concise_description": "Spell. The spirit nearest you loses {{SpiritHealthLoss}} Health. Heals target ally for 5 for each point of Health lost.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8069,7 +8069,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Transfer"
@@ -8077,7 +8077,7 @@
   {
     "name": "Spirit to Flesh",
     "icon": "",
-    "description": "Touch Spell. Destroys target touched allied spirit. Heals nearby allies for {{Healing}}.",
+    "concise_description": "Touch Spell. Destroys target touched allied spirit. Heals nearby allies for {{Healing}}.",
     "type": "Touch Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8118,7 +8118,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_to_Flesh"
@@ -8126,7 +8126,7 @@
   {
     "name": "Spirit's Gift",
     "icon": "",
-    "description": "Enchantment Spell. (60 seconds.) Whenever you create a creature, all nearby allies gain {{HealthGain}} Health and lose one condition.",
+    "concise_description": "Enchantment Spell. (60 seconds.) Whenever you create a creature, all nearby allies gain {{HealthGain}} Health and lose one condition.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8167,7 +8167,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit%27s_Gift"
@@ -8175,7 +8175,7 @@
   {
     "name": "Spirit's Strength",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) Your attacks deal +{{PlusDamage}} damage if you are under a weapon spell.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Your attacks deal +{{PlusDamage}} damage if you are under a weapon spell.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8240,7 +8240,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit%27s_Strength"
@@ -8248,7 +8248,7 @@
   {
     "name": "Spiritleech Aura",
     "icon": "",
-    "description": "Skill. ({{Duration}} seconds.) All of your spirits within earshot deal {{DamageConvertedToLifeStealing}} less damage and steal {{DamageConvertedToLifeStealing}} Health when they attack.",
+    "concise_description": "Skill. ({{Duration}} seconds.) All of your spirits within earshot deal {{DamageConvertedToLifeStealing}} less damage and steal {{DamageConvertedToLifeStealing}} Health when they attack.",
     "type": "Skill",
     "profession": "Ritualist",
     "attribute": {
@@ -8313,7 +8313,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spiritleech_Aura"
@@ -8321,7 +8321,7 @@
   {
     "name": "Splinter Weapon",
     "icon": "",
-    "description": "Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].",
+    "concise_description": "Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8386,7 +8386,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Weapon"
@@ -8394,7 +8394,7 @@
   {
     "name": "Splinter Weapon (PvP)",
     "icon": "",
-    "description": "Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].",
+    "concise_description": "Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8459,7 +8459,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Weapon_(PvP)"
@@ -8467,7 +8467,7 @@
   {
     "name": "Summon Spirits",
     "icon": "",
-    "description": "Spell. Spirits you control Shadow Step to your location and gain {{HealthGain}} Health.",
+    "concise_description": "Spell. Spirits you control Shadow Step to your location and gain {{HealthGain}} Health.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8499,7 +8499,7 @@
     },
     "activation": 0.25,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Spirits"
@@ -8507,7 +8507,7 @@
   {
     "name": "Sundering Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) Target ally's next 3 attacks inflict Cracked Armor condition ({{CrackedArmorDuration}} seconds) and have 10% armor penetration.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) Target ally's next 3 attacks inflict Cracked Armor condition ({{CrackedArmorDuration}} seconds) and have 10% armor penetration.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8572,7 +8572,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sundering_Weapon"
@@ -8580,7 +8580,7 @@
   {
     "name": "Tranquil Was Tanasen",
     "icon": "",
-    "description": "Elite Item Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor. You cannot be interrupted.",
+    "concise_description": "Elite Item Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor. You cannot be interrupted.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8645,7 +8645,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Tranquil_Was_Tanasen"
@@ -8653,7 +8653,7 @@
   {
     "name": "Union",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -8718,7 +8718,7 @@
     },
     "activation": 0.75,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Union"
@@ -8726,7 +8726,7 @@
   {
     "name": "Union (PvP)",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, that damage is reduced by 15 and the spirit takes 15 damage.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, that damage is reduced by 15 and the spirit takes 15 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -8791,7 +8791,7 @@
     },
     "activation": 3,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Union_(PvP)"
@@ -8799,7 +8799,7 @@
   {
     "name": "Vampirism",
     "icon": "",
-    "description": "Binding Ritual. Creates a level {{Level}} spirit (lifespan {{Duration}} seconds). Its attacks steal {{LifeStealing}} Health, and you are healed for {{Healing}} Health.",
+    "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (lifespan {{Duration}} seconds). Its attacks steal {{LifeStealing}} Health, and you are healed for {{Healing}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -8868,7 +8868,7 @@
     },
     "activation": 0.75,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Vampirism"
@@ -8876,7 +8876,7 @@
   {
     "name": "Vengeful Was Khanhei",
     "icon": "",
-    "description": "Elite Item Spell. ({{Duration}} seconds.) You steal {{LifeStealing}} Health from every foe that hits you with an attack.",
+    "concise_description": "Elite Item Spell. ({{Duration}} seconds.) You steal {{LifeStealing}} Health from every foe that hits you with an attack.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8941,7 +8941,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vengeful_Was_Khanhei"
@@ -8949,7 +8949,7 @@
   {
     "name": "Vengeful Weapon",
     "icon": "",
-    "description": "Weapon Spell. (8 seconds.) Steals {{LifeStealing}} Health from the next foe that deals damage or life steal to target ally.",
+    "concise_description": "Weapon Spell. (8 seconds.) Steals {{LifeStealing}} Health from the next foe that deals damage or life steal to target ally.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -8990,7 +8990,7 @@
     },
     "activation": 0.25,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Vengeful_Weapon"
@@ -8998,7 +8998,7 @@
   {
     "name": "Vital Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) +{{PlusMaxHealth}} maximum Health.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{PlusMaxHealth}} maximum Health.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9063,7 +9063,7 @@
     },
     "activation": 1,
     "recharge": 2,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vital_Weapon"
@@ -9071,7 +9071,7 @@
   {
     "name": "Vocal Was Sogolon",
     "icon": "",
-    "description": "Item Spell. (60 seconds.) Shouts and chants you use last {{PercentLonger}}% longer.",
+    "concise_description": "Item Spell. (60 seconds.) Shouts and chants you use last {{PercentLonger}}% longer.",
     "type": "Item Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9112,7 +9112,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vocal_Was_Sogolon"
@@ -9120,7 +9120,7 @@
   {
     "name": "Wailing Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) Attacks interrupt attacking foes.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks interrupt attacking foes.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9161,7 +9161,7 @@
     },
     "activation": 1,
     "recharge": 25,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wailing_Weapon"
@@ -9169,7 +9169,7 @@
   {
     "name": "Wanderlust",
     "icon": "",
-    "description": "Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -9258,7 +9258,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wanderlust"
@@ -9266,7 +9266,7 @@
   {
     "name": "Wanderlust (PvP)",
     "icon": "",
-    "description": "Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
+    "concise_description": "Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
     "attribute": {
@@ -9355,7 +9355,7 @@
     },
     "activation": 5,
     "recharge": 45,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Wanderlust_(PvP)"
@@ -9363,7 +9363,7 @@
   {
     "name": "Warmonger's Weapon",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) Attacks interrupt an action. Does not interrupt attacking foes.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks interrupt an action. Does not interrupt attacking foes.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9404,7 +9404,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Warmonger%27s_Weapon"
@@ -9412,7 +9412,7 @@
   {
     "name": "Weapon of Aggression",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) You attack 25% faster.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) You attack 25% faster.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9453,7 +9453,7 @@
     },
     "activation": 0.25,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Aggression"
@@ -9461,7 +9461,7 @@
   {
     "name": "Weapon of Fury",
     "icon": "",
-    "description": "Elite Weapon Spell. ({{Duration}} seconds.) {{MoreAdrenalineGainPercent}}% more adrenaline gain and +1 Energy whenever target ally hits with an attack.",
+    "concise_description": "Elite Weapon Spell. ({{Duration}} seconds.) {{MoreAdrenalineGainPercent}}% more adrenaline gain and +1 Energy whenever target ally hits with an attack.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9526,7 +9526,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Fury"
@@ -9534,7 +9534,7 @@
   {
     "name": "Weapon of Quickening",
     "icon": "",
-    "description": "Elite Weapon Spell. ({{Duration}} seconds.) Spells and binding rituals recharge 33% faster.",
+    "concise_description": "Elite Weapon Spell. ({{Duration}} seconds.) Spells and binding rituals recharge 33% faster.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9575,7 +9575,7 @@
     },
     "activation": 2,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Quickening"
@@ -9583,7 +9583,7 @@
   {
     "name": "Weapon of Remedy",
     "icon": "",
-    "description": "Elite Weapon Spell. (8 seconds.) The next time target ally takes damage or life steal from a foe, this ally steals {{LifeStealing}} Health from that foe and loses 1 condition.",
+    "concise_description": "Elite Weapon Spell. (8 seconds.) The next time target ally takes damage or life steal from a foe, this ally steals {{LifeStealing}} Health from that foe and loses 1 condition.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9624,7 +9624,7 @@
     },
     "activation": 0.25,
     "recharge": 3,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Remedy"
@@ -9632,7 +9632,7 @@
   {
     "name": "Weapon of Renewal",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) Target ally gains {{EnergyGain}} Energy the next time this ally hits with an attack skill.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) Target ally gains {{EnergyGain}} Energy the next time this ally hits with an attack skill.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9697,7 +9697,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Renewal"
@@ -9705,7 +9705,7 @@
   {
     "name": "Weapon of Shadow",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} second[s].) Inflicts Blindness condition (5 seconds) on anyone who attacks target ally. Target ally's next {{Attacks}} attack[s] inflict Blindness (5 seconds) if they hit.",
+    "concise_description": "Weapon Spell. ({{Duration}} second[s].) Inflicts Blindness condition (5 seconds) on anyone who attacks target ally. Target ally's next {{Attacks}} attack[s] inflict Blindness (5 seconds) if they hit.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9770,7 +9770,7 @@
     },
     "activation": 1,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Shadow"
@@ -9778,7 +9778,7 @@
   {
     "name": "Weapon of Warding",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9843,7 +9843,7 @@
     },
     "activation": 1,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Warding"
@@ -9851,7 +9851,7 @@
   {
     "name": "Weapon of Warding (PvP)",
     "icon": "",
-    "description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block. Ends if target ally attacks.",
+    "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block. Ends if target ally attacks.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9916,7 +9916,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Warding_(PvP)"
@@ -9924,7 +9924,7 @@
   {
     "name": "Weapons of Three Forges",
     "icon": "",
-    "description": "Elite Weapon Spell. ({{Duration}} seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill",
+    "concise_description": "Elite Weapon Spell. ({{Duration}} seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -9965,7 +9965,7 @@
     },
     "activation": 2,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapons_of_Three_Forges"
@@ -9973,7 +9973,7 @@
   {
     "name": "Wielder's Boon",
     "icon": "",
-    "description": "Spell. Heals for {{Healing}}. Heals for {{AdditionalHealing}} more if this ally is under a Weapon [sic] spell.",
+    "concise_description": "Spell. Heals for {{Healing}}. Heals for {{AdditionalHealing}} more if this ally is under a Weapon [sic] spell.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -10062,7 +10062,7 @@
     },
     "activation": 0.25,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Boon"
@@ -10070,7 +10070,7 @@
   {
     "name": "Wielder's Remedy",
     "icon": "",
-    "description": "Enchantment Spell. ({{Duration}} seconds.) Whenever you cast a weapon spell, the targeted ally loses one condition.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Whenever you cast a weapon spell, the targeted ally loses one condition.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -10111,7 +10111,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Remedy"
@@ -10119,7 +10119,7 @@
   {
     "name": "Wielder's Strike",
     "icon": "",
-    "description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} more lightning damage if you are under a weapon spell.",
+    "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} more lightning damage if you are under a weapon spell.",
     "type": "Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -10184,7 +10184,7 @@
     },
     "activation": 1,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Strike"
@@ -10192,7 +10192,7 @@
   {
     "name": "Wielder's Zeal",
     "icon": "",
-    "description": "Elite Enchantment Spell. ({{Duration}} seconds.) You gain {{EnergyGain}} Energy whenever you cast a weapon spell.",
+    "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) You gain {{EnergyGain}} Energy whenever you cast a weapon spell.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -10257,7 +10257,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Zeal"
@@ -10265,7 +10265,7 @@
   {
     "name": "Xinrae's Weapon",
     "icon": "",
-    "description": "Elite Weapon Spell. (8 seconds). The next time target ally takes damage from a foe, that damage is limited to 5% of target ally's max Health and that ally steals {{LifeStealing}} Health from that foe.",
+    "concise_description": "Elite Weapon Spell. (8 seconds). The next time target ally takes damage from a foe, that damage is limited to 5% of target ally's max Health and that ally steals {{LifeStealing}} Health from that foe.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
     "attribute": {
@@ -10306,7 +10306,7 @@
     },
     "activation": 0.25,
     "recharge": 3,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Xinrae%27s_Weapon"

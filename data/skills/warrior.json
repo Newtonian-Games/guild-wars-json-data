@@ -2,7 +2,7 @@
   {
     "name": "\"Charge!\"",
     "icon": "",
-    "description": "Elite Shout. ({{Duration}} seconds.) Allies in earshot move 33% faster. Initial effect: these allies lose the Crippled condition.",
+    "concise_description": "Elite Shout. ({{Duration}} seconds.) Allies in earshot move 33% faster. Initial effect: these allies lose the Crippled condition.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -43,7 +43,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Charge!%22"
@@ -51,7 +51,7 @@
   {
     "name": "\"Coward!\"",
     "icon": "",
-    "description": "Elite Shout. Causes knock-down if target foe is moving.",
+    "concise_description": "Elite Shout. Causes knock-down if target foe is moving.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -67,7 +67,7 @@
     },
     "activation": null,
     "recharge": 2,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Coward!%22"
@@ -75,7 +75,7 @@
   {
     "name": "\"Fear Me!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} second[s].) You have +{{CriticalPercentChance}}% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose {{EnergyLoss}} Energy.",
+    "concise_description": "Shout. ({{Duration}} second[s].) You have +{{CriticalPercentChance}}% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose {{EnergyLoss}} Energy.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -164,7 +164,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Fear_Me!%22"
@@ -172,7 +172,7 @@
   {
     "name": "\"For Great Justice!\"",
     "icon": "",
-    "description": "Shout. (20 seconds.) You gain 100% more adrenaline.",
+    "concise_description": "Shout. (20 seconds.) You gain 100% more adrenaline.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -188,7 +188,7 @@
     },
     "activation": null,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22"
@@ -196,7 +196,7 @@
   {
     "name": "\"For Great Justice!\" (PvP)",
     "icon": "",
-    "description": "Shout. (8 seconds.) You gain 1 extra strike of adrenaline whenever you hit with an attack.",
+    "concise_description": "Shout. (8 seconds.) You gain 1 extra strike of adrenaline whenever you hit with an attack.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -212,7 +212,7 @@
     },
     "activation": null,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22_(PvP)"
@@ -220,7 +220,7 @@
   {
     "name": "\"I Meant to Do That!\"",
     "icon": "",
-    "description": "Shout. You gain {{AdrenalineGain}} strikes of adrenaline if you are knocked-down.",
+    "concise_description": "Shout. You gain {{AdrenalineGain}} strikes of adrenaline if you are knocked-down.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -261,7 +261,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Meant_to_Do_That!%22"
@@ -269,7 +269,7 @@
   {
     "name": "\"I Will Avenge You!\"",
     "icon": "",
-    "description": "Shout. You have +{{HealthRegeneration}} Health regeneration and attack 25% faster (10 seconds for each dead ally).",
+    "concise_description": "Shout. You have +{{HealthRegeneration}} Health regeneration and attack 25% faster (10 seconds for each dead ally).",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -310,7 +310,7 @@
     },
     "activation": null,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Avenge_You!%22"
@@ -318,7 +318,7 @@
   {
     "name": "\"I Will Survive!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) You have +3 Health regeneration for each condition on you.",
+    "concise_description": "Shout. ({{Duration}} seconds.) You have +3 Health regeneration for each condition on you.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -359,7 +359,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Survive!%22"
@@ -367,7 +367,7 @@
   {
     "name": "\"None Shall Pass!\"",
     "icon": "",
-    "description": "Shout. Knocks down all nearby moving foes. Recharges {{FasterRechargePerFoe}} second[s] faster for each affected foe (maximum 25 seconds).",
+    "concise_description": "Shout. Knocks down all nearby moving foes. Recharges {{FasterRechargePerFoe}} second[s] faster for each affected foe (maximum 25 seconds).",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -408,7 +408,7 @@
     },
     "activation": null,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass!%22"
@@ -416,7 +416,7 @@
   {
     "name": "\"On Your Knees!\"",
     "icon": "",
-    "description": "Shout. Recharges all your stances if you are adjacent to a knocked-down foe. You lose all adrenaline.",
+    "concise_description": "Shout. Recharges all your stances if you are adjacent to a knocked-down foe. You lose all adrenaline.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -432,7 +432,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22On_Your_Knees!%22"
@@ -440,7 +440,7 @@
   {
     "name": "\"Retreat!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) Party members in earshot move 33% faster. No effect unless there are dead allies within earshot.",
+    "concise_description": "Shout. ({{Duration}} seconds.) Party members in earshot move 33% faster. No effect unless there are dead allies within earshot.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -481,7 +481,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Retreat!%22"
@@ -489,7 +489,7 @@
   {
     "name": "\"Save Yourselves!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) All other party members gain +100 armor.",
+    "concise_description": "Shout. ({{Duration}} seconds.) All other party members gain +100 armor.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -521,7 +521,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Save_Yourselves!%22"
@@ -529,7 +529,7 @@
   {
     "name": "\"Shields Up!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) Party members in earshot have +60 armor against projectile attacks.",
+    "concise_description": "Shout. ({{Duration}} seconds.) Party members in earshot have +60 armor against projectile attacks.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -570,7 +570,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Shields_Up!%22"
@@ -578,7 +578,7 @@
   {
     "name": "\"To the Limit!\"",
     "icon": "",
-    "description": "Shout. ({{Duration}} seconds.) You have +{{MaxHealth}} maximum Health. Initial effect: you gain one strike of adrenaline for each foe within earshot (maximum {{MaxFoes}}).",
+    "concise_description": "Shout. ({{Duration}} seconds.) You have +{{MaxHealth}} maximum Health. Initial effect: you gain one strike of adrenaline for each foe within earshot (maximum {{MaxFoes}}).",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -667,7 +667,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22To_the_Limit!%22"
@@ -675,7 +675,7 @@
   {
     "name": "\"Victory Is Mine!\"",
     "icon": "",
-    "description": "Elite Shout. You gain {{HealthGain}} Health and {{EnergyGain}} Energy for each condition on target foe.",
+    "concise_description": "Elite Shout. You gain {{HealthGain}} Health and {{EnergyGain}} Energy for each condition on target foe.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -740,7 +740,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine!%22"
@@ -748,7 +748,7 @@
   {
     "name": "\"Watch Yourself!\"",
     "icon": "",
-    "description": "Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after 10 incoming attacks.",
+    "concise_description": "Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after 10 incoming attacks.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -789,7 +789,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22"
@@ -797,7 +797,7 @@
   {
     "name": "\"Watch Yourself!\" (PvP)",
     "icon": "",
-    "description": "Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after {{Attacks}} incoming attack[s].",
+    "concise_description": "Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after {{Attacks}} incoming attack[s].",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -862,7 +862,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22_(PvP)"
@@ -870,7 +870,7 @@
   {
     "name": "\"You Will Die!\"",
     "icon": "",
-    "description": "Shout. You gain {{AdrenalineGain}} strike[s] of adrenaline. No effect unless target foe is under 50% Health.",
+    "concise_description": "Shout. You gain {{AdrenalineGain}} strike[s] of adrenaline. No effect unless target foe is under 50% Health.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -911,7 +911,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Will_Die!%22"
@@ -919,7 +919,7 @@
   {
     "name": "\"You're All Alone!\"",
     "icon": "",
-    "description": "Elite Shout. Inflicts Cripple and Weakness conditions (8 seconds). No effect if target foe is near one of its allies.",
+    "concise_description": "Elite Shout. Inflicts Cripple and Weakness conditions (8 seconds). No effect if target foe is near one of its allies.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -935,7 +935,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22You%27re_All_Alone!%22"
@@ -943,7 +943,7 @@
   {
     "name": "Agonizing Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage. Interrupts an action if target foe has a Deep Wound.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage. Interrupts an action if target foe has a Deep Wound.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -984,7 +984,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Agonizing_Chop"
@@ -992,7 +992,7 @@
   {
     "name": "Auspicious Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage and you gain {{EnergyGain}} Energy. Unblockable if target foe is Weakened.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage and you gain {{EnergyGain}} Energy. Unblockable if target foe is Weakened.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1057,7 +1057,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Blow"
@@ -1065,7 +1065,7 @@
   {
     "name": "Auspicious Parry",
     "icon": "",
-    "description": "Elite Stance. (8 seconds.) Blocks one attack. End effect: you gain {{AdrenalineGain}} strike[s] of adrenaline.",
+    "concise_description": "Elite Stance. (8 seconds.) Blocks one attack. End effect: you gain {{AdrenalineGain}} strike[s] of adrenaline.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1106,7 +1106,7 @@
     },
     "activation": null,
     "recharge": 2,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Parry"
@@ -1114,7 +1114,7 @@
   {
     "name": "Axe Rake",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1155,7 +1155,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Rake"
@@ -1163,7 +1163,7 @@
   {
     "name": "Axe Twist",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1204,7 +1204,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Twist"
@@ -1212,7 +1212,7 @@
   {
     "name": "Backbreaker",
     "icon": "",
-    "description": "Elite Hammer Attack. Deals +{{Damage}} damage. Causes knockdown. Knockdown lasts 4 seconds with Strength 8 or higher.",
+    "concise_description": "Elite Hammer Attack. Deals +{{Damage}} damage. Causes knockdown. Knockdown lasts 4 seconds with Strength 8 or higher.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1253,7 +1253,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Backbreaker"
@@ -1261,7 +1261,7 @@
   {
     "name": "Balanced Stance",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You cannot be knocked-down and do not take extra damage from critical hits.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You cannot be knocked-down and do not take extra damage from critical hits.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1302,7 +1302,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Balanced_Stance"
@@ -1310,7 +1310,7 @@
   {
     "name": "Barbarous Slice",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if you are not in a stance.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if you are not in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1375,7 +1375,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Barbarous_Slice"
@@ -1383,7 +1383,7 @@
   {
     "name": "Battle Rage",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) You move 33% faster and gain double adrenaline from your attacks. Ends if you use any non-adrenal skills.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) You move 33% faster and gain double adrenaline from your attacks. Ends if you use any non-adrenal skills.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1424,7 +1424,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Battle_Rage"
@@ -1432,7 +1432,7 @@
   {
     "name": "Belly Smash",
     "icon": "",
-    "description": "Hammer Attack. Inflicts Blindness condition to adjacent foes ({{BlindDuration}} seconds) if target foe is knocked down.",
+    "concise_description": "Hammer Attack. Inflicts Blindness condition to adjacent foes ({{BlindDuration}} seconds) if target foe is knocked down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1473,7 +1473,7 @@
     },
     "activation": 1,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Belly_Smash"
@@ -1481,7 +1481,7 @@
   {
     "name": "Berserker Stance",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster and gain 50% more adrenaline. Ends if you use a skill.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You attack 33% faster and gain 50% more adrenaline. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1522,7 +1522,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Berserker_Stance"
@@ -1530,7 +1530,7 @@
   {
     "name": "Body Blow",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe has Cracked Armor.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe has Cracked Armor.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1595,7 +1595,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Body_Blow"
@@ -1603,7 +1603,7 @@
   {
     "name": "Bonetti's Defense",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You have 75% chance to block. Gain 5 Energy for each melee attack blocked. Ends if you use a skill.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You have 75% chance to block. Gain 5 Energy for each melee attack blocked. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1644,7 +1644,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense"
@@ -1652,7 +1652,7 @@
   {
     "name": "Bull's Charge",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) You move 33% faster. Causes knock-down if you hit a moving foe in melee. Ends if you use a skill.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) You move 33% faster. Causes knock-down if you hit a moving foe in melee. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1693,7 +1693,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Charge"
@@ -1701,7 +1701,7 @@
   {
     "name": "Bull's Strike",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage and causes knock-down if target foe is moving.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage and causes knock-down if target foe is moving.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1742,7 +1742,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Strike"
@@ -1750,7 +1750,7 @@
   {
     "name": "Burst of Aggression",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster. End effect: lose all adrenaline.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You attack 33% faster. End effect: lose all adrenaline.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1791,7 +1791,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Burst_of_Aggression"
@@ -1799,7 +1799,7 @@
   {
     "name": "Charging Strike",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} second[s].) You move 33% faster and deal +{{Damage}} damage with your next melee hit. Ends when you hit or if you use a skill.",
+    "concise_description": "Elite Stance. ({{Duration}} second[s].) You move 33% faster and deal +{{Damage}} damage with your next melee hit. Ends when you hit or if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1864,7 +1864,7 @@
     },
     "activation": null,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Charging_Strike"
@@ -1872,7 +1872,7 @@
   {
     "name": "Cleave",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +{{Damage}} damage.",
+    "concise_description": "Elite Axe Attack. Deals +{{Damage}} damage.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1913,7 +1913,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Cleave"
@@ -1921,7 +1921,7 @@
   {
     "name": "Counter Blow",
     "icon": "",
-    "description": "Hammer Attack. Causes knock-down if target foe is attacking.",
+    "concise_description": "Hammer Attack. Causes knock-down if target foe is attacking.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1937,7 +1937,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Counter_Blow"
@@ -1945,7 +1945,7 @@
   {
     "name": "Counterattack",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if target foe is attacking.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if target foe is attacking.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2010,7 +2010,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Counterattack"
@@ -2018,7 +2018,7 @@
   {
     "name": "Crippling Slash",
     "icon": "",
-    "description": "Elite Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds) and Bleeding condition ({{BleedingDuration}} seconds).",
+    "concise_description": "Elite Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds) and Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2083,7 +2083,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Slash"
@@ -2091,7 +2091,7 @@
   {
     "name": "Critical Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage. Interrupts an action if you land a critical hit.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage. Interrupts an action if you land a critical hit.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2132,7 +2132,7 @@
     },
     "activation": 1,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Chop"
@@ -2140,7 +2140,7 @@
   {
     "name": "Crude Swing",
     "icon": "",
-    "description": "Hammer Attack. Attack all adjacent foes for +{{Damage}} damage.",
+    "concise_description": "Hammer Attack. Attack all adjacent foes for +{{Damage}} damage.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2181,7 +2181,7 @@
     },
     "activation": null,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Crude_Swing"
@@ -2189,7 +2189,7 @@
   {
     "name": "Crushing Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition if target foe is knocked-down ({{DeepWoundDuration}} seconds).",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition if target foe is knocked-down ({{DeepWoundDuration}} seconds).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2254,7 +2254,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Crushing_Blow"
@@ -2262,7 +2262,7 @@
   {
     "name": "Cyclone Axe",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage to all foes adjacent to you.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage to all foes adjacent to you.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2303,7 +2303,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Cyclone_Axe"
@@ -2311,7 +2311,7 @@
   {
     "name": "Deadly Riposte",
     "icon": "",
-    "description": "Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. Inflicts Bleeding condition. ({{Bleeding}} seconds). No effect unless you have a sword equipped.",
+    "concise_description": "Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. Inflicts Bleeding condition. ({{Bleeding}} seconds). No effect unless you have a sword equipped.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -2376,7 +2376,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Riposte"
@@ -2384,7 +2384,7 @@
   {
     "name": "Decapitate",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). Automatic critical hit. You lose all adrenaline and Energy.",
+    "concise_description": "Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). Automatic critical hit. You lose all adrenaline and Energy.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2449,7 +2449,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Decapitate"
@@ -2457,7 +2457,7 @@
   {
     "name": "Defensive Stance",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. End effect: gain one adrenaline for each melee attack skill you have (maximum {{MaximumAdrenalineGain}}).",
+    "concise_description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. End effect: gain one adrenaline for each melee attack skill you have (maximum {{MaximumAdrenalineGain}}).",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2522,7 +2522,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Defensive_Stance"
@@ -2530,7 +2530,7 @@
   {
     "name": "Deflect Arrows",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block attacks. Adjacent foes suffer Bleeding ({{BleedingDuration}} seconds) when you block a projectile attack.",
+    "concise_description": "Stance. ({{Duration}} second[s].) You have 75% chance to block attacks. Adjacent foes suffer Bleeding ({{BleedingDuration}} seconds) when you block a projectile attack.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2595,7 +2595,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Deflect_Arrows"
@@ -2603,7 +2603,7 @@
   {
     "name": "Defy Pain",
     "icon": "",
-    "description": "Elite Skill. (20 seconds.) You have +{{MaximumHealth}} maximum Health, +20 armor, and take {{DamageReduction}} less damage.",
+    "concise_description": "Elite Skill. (20 seconds.) You have +{{MaximumHealth}} maximum Health, +20 armor, and take {{DamageReduction}} less damage.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -2668,7 +2668,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain"
@@ -2676,7 +2676,7 @@
   {
     "name": "Defy Pain (PvP)",
     "icon": "",
-    "description": "Elite Stance. (20 seconds.) You have +{{MaximumHealth}} maximum Health and +20 armor.",
+    "concise_description": "Elite Stance. (20 seconds.) You have +{{MaximumHealth}} maximum Health and +20 armor.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2717,7 +2717,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain_(PvP)"
@@ -2725,7 +2725,7 @@
   {
     "name": "Desperation Blow",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2766,7 +2766,7 @@
     },
     "activation": null,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Desperation_Blow"
@@ -2774,7 +2774,7 @@
   {
     "name": "Devastating Hammer",
     "icon": "",
-    "description": "Elite Hammer Attack. Causes knock-down. Inflicts Weakness condition ({{WeaknessDuration}} seconds).",
+    "concise_description": "Elite Hammer Attack. Causes knock-down. Inflicts Weakness condition ({{WeaknessDuration}} seconds).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2815,7 +2815,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Devastating_Hammer"
@@ -2823,7 +2823,7 @@
   {
     "name": "Disarm",
     "icon": "",
-    "description": "Sword Attack. Interrupts target foe. Interruption effect: disables this foe's attack skills ({{DisabledDuration}} second[s]) if that action was an attack.",
+    "concise_description": "Sword Attack. Interrupts target foe. Interruption effect: disables this foe's attack skills ({{DisabledDuration}} second[s]) if that action was an attack.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2864,7 +2864,7 @@
     },
     "activation": 0.5,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Disarm"
@@ -2872,7 +2872,7 @@
   {
     "name": "Disciplined Stance",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block and +10 armor. Ends if you use an adrenal skill.",
+    "concise_description": "Stance. ({{Duration}} second[s].) You have 75% chance to block and +10 armor. Ends if you use an adrenal skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2913,7 +2913,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Disciplined_Stance"
@@ -2921,7 +2921,7 @@
   {
     "name": "Dismember",
     "icon": "",
-    "description": "Axe Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds).",
+    "concise_description": "Axe Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds).",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2962,7 +2962,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Dismember"
@@ -2970,7 +2970,7 @@
   {
     "name": "Disrupting Chop",
     "icon": "",
-    "description": "Axe Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds.",
+    "concise_description": "Axe Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2986,7 +2986,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Chop"
@@ -2994,7 +2994,7 @@
   {
     "name": "Distracting Blow",
     "icon": "",
-    "description": "Melee Attack. Also attacks foes adjacent to your target. Interrupts an action. Hits for no damage.",
+    "concise_description": "Melee Attack. Also attacks foes adjacent to your target. Interrupts an action. Hits for no damage.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3010,7 +3010,7 @@
     },
     "activation": 0.5,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Blow"
@@ -3018,7 +3018,7 @@
   {
     "name": "Distracting Strike",
     "icon": "",
-    "description": "Melee Attack. Interrupts an action. Interruption effect: Disables interrupted skill (20 seconds) if target foe has Cracked Armor. Deals no damage.",
+    "concise_description": "Melee Attack. Interrupts an action. Interruption effect: Disables interrupted skill (20 seconds) if target foe has Cracked Armor. Deals no damage.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3034,7 +3034,7 @@
     },
     "activation": 0.5,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Strike"
@@ -3042,7 +3042,7 @@
   {
     "name": "Dolyak Signet",
     "icon": "",
-    "description": "Signet. ({{Duration}} seconds.) You have +{{ArmorRating}} armor and cannot be knocked-down. You move 75% slower.",
+    "concise_description": "Signet. ({{Duration}} seconds.) You have +{{ArmorRating}} armor and cannot be knocked-down. You move 75% slower.",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -3107,7 +3107,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dolyak_Signet"
@@ -3115,7 +3115,7 @@
   {
     "name": "Dragon Slash",
     "icon": "",
-    "description": "Elite Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} strike[s] of adrenaline if it hits.",
+    "concise_description": "Elite Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} strike[s] of adrenaline if it hits.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3180,7 +3180,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dragon_Slash"
@@ -3188,7 +3188,7 @@
   {
     "name": "Drunken Blow",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3229,7 +3229,7 @@
     },
     "activation": null,
     "recharge": 7,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Blow"
@@ -3237,7 +3237,7 @@
   {
     "name": "Dwarven Battle Stance",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) You attack 33% faster, you gain +40 armor, and your attack skills interrupt actions. No effect unless you have a hammer equipped.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) You attack 33% faster, you gain +40 armor, and your attack skills interrupt actions. No effect unless you have a hammer equipped.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -3278,7 +3278,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dwarven_Battle_Stance"
@@ -3286,7 +3286,7 @@
   {
     "name": "Earth Shaker",
     "icon": "",
-    "description": "Elite Hammer Attack. Knocks down target and adjacent foes. 50% failure chance unless Hammer Mastery is 5 or more.",
+    "concise_description": "Elite Hammer Attack. Knocks down target and adjacent foes. 50% failure chance unless Hammer Mastery is 5 or more.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3302,7 +3302,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Shaker"
@@ -3310,7 +3310,7 @@
   {
     "name": "Endure Pain",
     "icon": "",
-    "description": "Skill. ({{Duration}} seconds.) You have +{{MaximumHealth}} maximum Health.",
+    "concise_description": "Skill. ({{Duration}} seconds.) You have +{{MaximumHealth}} maximum Health.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -3375,7 +3375,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Endure_Pain"
@@ -3383,7 +3383,7 @@
   {
     "name": "Enraged Smash",
     "icon": "",
-    "description": "Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.",
+    "concise_description": "Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3448,7 +3448,7 @@
     },
     "activation": null,
     "recharge": 5,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash"
@@ -3456,7 +3456,7 @@
   {
     "name": "Enraged Smash (PvP)",
     "icon": "",
-    "description": "Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.",
+    "concise_description": "Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3521,7 +3521,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash_(PvP)"
@@ -3529,7 +3529,7 @@
   {
     "name": "Enraging Charge",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You move 25% faster. Gain +{{AdrenalineGain}} adrenaline on your next melee attack. Ends after your next hit.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You move 25% faster. Gain +{{AdrenalineGain}} adrenaline on your next melee attack. Ends after your next hit.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -3594,7 +3594,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Enraging_Charge"
@@ -3602,7 +3602,7 @@
   {
     "name": "Eviscerate",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{Duration}} seconds).",
+    "concise_description": "Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{Duration}} seconds).",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3667,7 +3667,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Eviscerate"
@@ -3675,7 +3675,7 @@
   {
     "name": "Executioner's Strike",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3716,7 +3716,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike"
@@ -3724,7 +3724,7 @@
   {
     "name": "Fierce Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe is Weakened.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe is Weakened.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3789,7 +3789,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fierce_Blow"
@@ -3797,7 +3797,7 @@
   {
     "name": "Final Thrust",
     "icon": "",
-    "description": "Sword Attack. Deals +{{BonusDamage}} damage. Deals +{{BonusDamage}} more damage if target foe is below 50% Health. Lose all adrenaline.",
+    "concise_description": "Sword Attack. Deals +{{BonusDamage}} damage. Deals +{{BonusDamage}} more damage if target foe is below 50% Health. Lose all adrenaline.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3862,7 +3862,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Final_Thrust"
@@ -3870,7 +3870,7 @@
   {
     "name": "Flail",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) You attack 33% faster. You move 33% slower.",
+    "concise_description": "Stance. ({{Duration}} second[s].) You attack 33% faster. You move 33% slower.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -3911,7 +3911,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flail"
@@ -3919,7 +3919,7 @@
   {
     "name": "Flourish",
     "icon": "",
-    "description": "Elite Skill. Recharges your attack skills. You gain {{EnergyGain}} Energy for each skill recharged.",
+    "concise_description": "Elite Skill. Recharges your attack skills. You gain {{EnergyGain}} Energy for each skill recharged.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -3960,7 +3960,7 @@
     },
     "activation": 1,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flourish"
@@ -3968,7 +3968,7 @@
   {
     "name": "Flurry",
     "icon": "",
-    "description": "Stance. (5 seconds). You attack 33% faster. You do 25% less damage.",
+    "concise_description": "Stance. (5 seconds). You attack 33% faster. You do 25% less damage.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -3984,7 +3984,7 @@
     },
     "activation": null,
     "recharge": 5,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Flurry"
@@ -3992,7 +3992,7 @@
   {
     "name": "Forceful Blow",
     "icon": "",
-    "description": "Elite Hammer Attack. Deals +{{Damage}} damage. Remove target foe's stance. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Unblockable.",
+    "concise_description": "Elite Hammer Attack. Deals +{{Damage}} damage. Remove target foe's stance. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Unblockable.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4057,7 +4057,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Forceful_Blow"
@@ -4065,7 +4065,7 @@
   {
     "name": "Frenzied Defense",
     "icon": "",
-    "description": "Stance. (8 seconds.) You have 75% chance to block. You take double damage.",
+    "concise_description": "Stance. (8 seconds.) You have 75% chance to block. You take double damage.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -4081,7 +4081,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Frenzied_Defense"
@@ -4089,7 +4089,7 @@
   {
     "name": "Frenzy",
     "icon": "",
-    "description": "Stance. (8 seconds.) You attack 33% faster. You take double damage.",
+    "concise_description": "Stance. (8 seconds.) You attack 33% faster. You take double damage.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -4105,7 +4105,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Frenzy"
@@ -4113,7 +4113,7 @@
   {
     "name": "Furious Axe",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage. Gives you 3 strikes of adrenaline if blocked.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage. Gives you 3 strikes of adrenaline if blocked.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4154,7 +4154,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Furious_Axe"
@@ -4162,7 +4162,7 @@
   {
     "name": "Galrath Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4203,7 +4203,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Galrath_Slash"
@@ -4211,7 +4211,7 @@
   {
     "name": "Gash",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage and inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if your target is Bleeding.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage and inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if your target is Bleeding.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4276,7 +4276,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Gash"
@@ -4284,7 +4284,7 @@
   {
     "name": "Gladiator's Defense",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) You have 75% chance to block. Your attacker takes {{ArmorignoringDamage}} damage whenever you block a melee attack this way.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) You have 75% chance to block. Your attacker takes {{ArmorignoringDamage}} damage whenever you block a melee attack this way.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -4349,7 +4349,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Gladiator%27s_Defense"
@@ -4357,7 +4357,7 @@
   {
     "name": "Grapple",
     "icon": "",
-    "description": "Touch Skill. Causes knockdown. You are also knocked down. Your current stance ends.",
+    "concise_description": "Touch Skill. Causes knockdown. You are also knocked down. Your current stance ends.",
     "type": "Touch Skill",
     "profession": "Warrior",
     "attribute": {
@@ -4373,7 +4373,7 @@
     },
     "activation": 0.75,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Grapple"
@@ -4381,7 +4381,7 @@
   {
     "name": "Griffon's Sweep",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4397,7 +4397,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep"
@@ -4405,7 +4405,7 @@
   {
     "name": "Hammer Bash",
     "icon": "",
-    "description": "Hammer Attack. Causes knock-down. Lose all adrenaline.",
+    "concise_description": "Hammer Attack. Causes knock-down. Lose all adrenaline.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4421,7 +4421,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Hammer_Bash"
@@ -4429,7 +4429,7 @@
   {
     "name": "Hamstring",
     "icon": "",
-    "description": "Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds).",
+    "concise_description": "Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds).",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4470,7 +4470,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Hamstring"
@@ -4478,7 +4478,7 @@
   {
     "name": "Headbutt",
     "icon": "",
-    "description": "Elite Touch Skill. Deals {{Damage}} damage. You are Dazed ({{DazedDuration}} seconds).",
+    "concise_description": "Elite Touch Skill. Deals {{Damage}} damage. You are Dazed ({{DazedDuration}} seconds).",
     "type": "Touch Skill",
     "profession": "Warrior",
     "attribute": {
@@ -4543,7 +4543,7 @@
     },
     "activation": 0.75,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Headbutt"
@@ -4551,7 +4551,7 @@
   {
     "name": "Healing Signet",
     "icon": "",
-    "description": "Signet. You gain {{Healing}} Health. You have -40 armor while using this skill.",
+    "concise_description": "Signet. You gain {{Healing}} Health. You have -40 armor while using this skill.",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -4592,7 +4592,7 @@
     },
     "activation": 2,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Signet"
@@ -4600,7 +4600,7 @@
   {
     "name": "Heavy Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage and causes knock-down if target foe is Weakened. Lose all adrenaline.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage and causes knock-down if target foe is Weakened. Lose all adrenaline.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4641,7 +4641,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Heavy_Blow"
@@ -4649,7 +4649,7 @@
   {
     "name": "Hundred Blades",
     "icon": "",
-    "description": "Elite Skill. (15 seconds.) Deals {{SlashingDamage}} slashing damage to all adjacent foes whenever you attack with a sword.",
+    "concise_description": "Elite Skill. (15 seconds.) Deals {{SlashingDamage}} slashing damage to all adjacent foes whenever you attack with a sword.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -4690,7 +4690,7 @@
     },
     "activation": null,
     "recharge": 25,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hundred_Blades"
@@ -4698,7 +4698,7 @@
   {
     "name": "Irresistible Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and causes knock-down if blocked.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and causes knock-down if blocked.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4763,7 +4763,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Blow"
@@ -4771,7 +4771,7 @@
   {
     "name": "Jaizhenju Strike",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4812,7 +4812,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Jaizhenju_Strike"
@@ -4820,7 +4820,7 @@
   {
     "name": "Keen Chop",
     "icon": "",
-    "description": "Axe Attack. Always a critical hit.",
+    "concise_description": "Axe Attack. Always a critical hit.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4836,7 +4836,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Keen_Chop"
@@ -4844,7 +4844,7 @@
   {
     "name": "Knee Cutter",
     "icon": "",
-    "description": "Sword Attack. You gain {{EnergyGain}} Energy and {{AdrenalineGain}} adrenaline if target foe is Crippled.",
+    "concise_description": "Sword Attack. You gain {{EnergyGain}} Energy and {{AdrenalineGain}} adrenaline if target foe is Crippled.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4909,7 +4909,7 @@
     },
     "activation": null,
     "recharge": 1,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Knee_Cutter"
@@ -4917,7 +4917,7 @@
   {
     "name": "Lacerating Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{Bleeding}} seconds) if target foe is knocked-down.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{Bleeding}} seconds) if target foe is knocked-down.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4982,7 +4982,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lacerating_Chop"
@@ -4990,7 +4990,7 @@
   {
     "name": "Leviathan's Sweep",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5055,7 +5055,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Leviathan%27s_Sweep"
@@ -5063,7 +5063,7 @@
   {
     "name": "Lion's Comfort",
     "icon": "",
-    "description": "Skill. You are healed for {{Healing}} and gain {{AdrenalineGain}} strike[s] of adrenaline. Disables your signets (12 seconds).",
+    "concise_description": "Skill. You are healed for {{Healing}} and gain {{AdrenalineGain}} strike[s] of adrenaline. Disables your signets (12 seconds).",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -5128,7 +5128,7 @@
     },
     "activation": 1,
     "recharge": 1,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lion%27s_Comfort"
@@ -5136,7 +5136,7 @@
   {
     "name": "Magehunter Strike",
     "icon": "",
-    "description": "Elite Melee Attack. Deals +{{Damage}} damage. Unblockable if target foe is enchanted.",
+    "concise_description": "Elite Melee Attack. Deals +{{Damage}} damage. Unblockable if target foe is enchanted.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5177,7 +5177,7 @@
     },
     "activation": 0.5,
     "recharge": 3,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter_Strike"
@@ -5185,7 +5185,7 @@
   {
     "name": "Magehunter's Smash",
     "icon": "",
-    "description": "Elite Hammer Attack. Causes knock-down. Unblockable if target foe is enchanted.",
+    "concise_description": "Elite Hammer Attack. Causes knock-down. Unblockable if target foe is enchanted.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5201,7 +5201,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter%27s_Smash"
@@ -5209,7 +5209,7 @@
   {
     "name": "Mighty Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5250,7 +5250,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Blow"
@@ -5258,7 +5258,7 @@
   {
     "name": "Mokele Smash",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage and you gain 2 strikes of adrenaline.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage and you gain 2 strikes of adrenaline.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5299,7 +5299,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mokele_Smash"
@@ -5307,7 +5307,7 @@
   {
     "name": "Overbearing Smash",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage. If target foe is knocked down, they are Dazed ({{DazedDuration}} second[s]).",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage. If target foe is knocked down, they are Dazed ({{DazedDuration}} second[s]).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5372,7 +5372,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Overbearing_Smash"
@@ -5380,7 +5380,7 @@
   {
     "name": "Penetrating Blow",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5421,7 +5421,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Blow"
@@ -5429,7 +5429,7 @@
   {
     "name": "Penetrating Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5470,7 +5470,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Chop"
@@ -5478,7 +5478,7 @@
   {
     "name": "Power Attack",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5519,7 +5519,7 @@
     },
     "activation": null,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Attack"
@@ -5527,7 +5527,7 @@
   {
     "name": "Primal Rage",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} second[s].) You attack 33% faster and move 25% faster. You take double damage.",
+    "concise_description": "Elite Stance. ({{Duration}} second[s].) You attack 33% faster and move 25% faster. You take double damage.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -5568,7 +5568,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Primal_Rage"
@@ -5576,7 +5576,7 @@
   {
     "name": "Protector's Defense",
     "icon": "",
-    "description": "Skill. ({{Duration}} seconds.) Allies adjacent to you have 75% chance to block. Ends if you move.",
+    "concise_description": "Skill. ({{Duration}} seconds.) Allies adjacent to you have 75% chance to block. Ends if you move.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -5617,7 +5617,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Defense"
@@ -5625,7 +5625,7 @@
   {
     "name": "Protector's Strike",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage if target is moving.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage if target is moving.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5666,7 +5666,7 @@
     },
     "activation": 0.5,
     "recharge": 3,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Strike"
@@ -5674,7 +5674,7 @@
   {
     "name": "Pulverizing Smash",
     "icon": "",
-    "description": "Hammer Attack. Inflicts Weakness and Deep Wound conditions ({{WeaknessAndDeepWoundDuration}} seconds) if target foe is knocked-down.",
+    "concise_description": "Hammer Attack. Inflicts Weakness and Deep Wound conditions ({{WeaknessAndDeepWoundDuration}} seconds) if target foe is knocked-down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5715,7 +5715,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pulverizing_Smash"
@@ -5723,7 +5723,7 @@
   {
     "name": "Pure Strike",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5764,7 +5764,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Pure_Strike"
@@ -5772,7 +5772,7 @@
   {
     "name": "Quivering Blade",
     "icon": "",
-    "description": "Elite Sword Attack. Deals +{{Damage}} damage. Inflicts Dazed condition (5 seconds) if target foe was moving.",
+    "concise_description": "Elite Sword Attack. Deals +{{Damage}} damage. Inflicts Dazed condition (5 seconds) if target foe was moving.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5813,7 +5813,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Quivering_Blade"
@@ -5821,7 +5821,7 @@
   {
     "name": "Rage of the Ntouka",
     "icon": "",
-    "description": "Elite Skill. You gain {{AdrenalineGain}} adrenaline. For 10 seconds, adrenal skills have a 5 second recharge when used.",
+    "concise_description": "Elite Skill. You gain {{AdrenalineGain}} adrenaline. For 10 seconds, adrenal skills have a 5 second recharge when used.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -5862,7 +5862,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rage_of_the_Ntouka"
@@ -5870,7 +5870,7 @@
   {
     "name": "Renewing Smash",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage. You gain 3 Energy and this attack recharges instantly if target foe was knocked down.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage. You gain 3 Energy and this attack recharges instantly if target foe was knocked down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5911,7 +5911,7 @@
     },
     "activation": 1,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash"
@@ -5919,7 +5919,7 @@
   {
     "name": "Renewing Smash (PvP)",
     "icon": "",
-    "description": "Hammer Attack. Deals +{{Damage}} damage. You gain 3 energy and this attack recharges instantly if target foe was knocked down.",
+    "concise_description": "Hammer Attack. Deals +{{Damage}} damage. You gain 3 energy and this attack recharges instantly if target foe was knocked down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5960,7 +5960,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash_(PvP)"
@@ -5968,7 +5968,7 @@
   {
     "name": "Riposte",
     "icon": "",
-    "description": "Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. No effect unless you have a sword equipped.",
+    "concise_description": "Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. No effect unless you have a sword equipped.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -6009,7 +6009,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Riposte"
@@ -6017,7 +6017,7 @@
   {
     "name": "Rush",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You move 25% faster.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You move 25% faster.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6058,7 +6058,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rush"
@@ -6066,7 +6066,7 @@
   {
     "name": "Savage Slash",
     "icon": "",
-    "description": "Sword Attack. Interrupts an action. Interruption effect: deals +{{Damage}} damage if action was a spell.",
+    "concise_description": "Sword Attack. Interrupts an action. Interruption effect: deals +{{Damage}} damage if action was a spell.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6107,7 +6107,7 @@
     },
     "activation": 0.5,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Savage_Slash"
@@ -6115,7 +6115,7 @@
   {
     "name": "Seeking Blade",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Bleeding condition (25 seconds) if blocked.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Bleeding condition (25 seconds) if blocked.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6180,7 +6180,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Seeking_Blade"
@@ -6188,7 +6188,7 @@
   {
     "name": "Seven Weapons Stance",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) Weapon attributes are increased by +{{Attributes}}. You attack 33% faster. PvE Skill",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) Weapon attributes are increased by +{{Attributes}}. You attack 33% faster. PvE Skill",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6253,7 +6253,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Seven_Weapons_Stance"
@@ -6261,7 +6261,7 @@
   {
     "name": "Sever Artery",
     "icon": "",
-    "description": "Sword Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds).",
+    "concise_description": "Sword Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6302,7 +6302,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Sever_Artery"
@@ -6310,7 +6310,7 @@
   {
     "name": "Shield Bash",
     "icon": "",
-    "description": "Skill. ({{Duration}} seconds.) You block the next attack skill. Causes knock-down and +15 second recharge if it was a melee skill. No effect unless you are wielding a shield.",
+    "concise_description": "Skill. ({{Duration}} seconds.) You block the next attack skill. Causes knock-down and +15 second recharge if it was a melee skill. No effect unless you are wielding a shield.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -6351,7 +6351,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Bash"
@@ -6359,7 +6359,7 @@
   {
     "name": "Shield Stance",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). No effect unless you have a shield equipped.",
+    "concise_description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). No effect unless you have a shield equipped.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6400,7 +6400,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Stance"
@@ -6408,7 +6408,7 @@
   {
     "name": "Shove",
     "icon": "",
-    "description": "Elite Touch Skill. Causes knockdown. Initial effect: ends foe's stance and deals {{Damage}} damage if target foe is moving.",
+    "concise_description": "Elite Touch Skill. Causes knockdown. Initial effect: ends foe's stance and deals {{Damage}} damage if target foe is moving.",
     "type": "Touch Skill",
     "profession": "Warrior",
     "attribute": {
@@ -6449,7 +6449,7 @@
     },
     "activation": 0.75,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shove"
@@ -6457,7 +6457,7 @@
   {
     "name": "Signet of Stamina",
     "icon": "",
-    "description": "Signet. You have +{{MaxHealth}} maximum Health. Ends if you hit with an attack.",
+    "concise_description": "Signet. You have +{{MaxHealth}} maximum Health. Ends if you hit with an attack.",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -6498,7 +6498,7 @@
     },
     "activation": 0.25,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Stamina"
@@ -6506,7 +6506,7 @@
   {
     "name": "Signet of Strength",
     "icon": "",
-    "description": "Signet. Your attacks deal +5 damage. Ends after {{Attacks}} attack[s].",
+    "concise_description": "Signet. Your attacks deal +5 damage. Ends after {{Attacks}} attack[s].",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -6522,7 +6522,7 @@
     },
     "activation": 1,
     "recharge": 45,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Strength"
@@ -6530,7 +6530,7 @@
   {
     "name": "Silverwing Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6546,7 +6546,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Silverwing_Slash"
@@ -6554,7 +6554,7 @@
   {
     "name": "Skull Crack",
     "icon": "",
-    "description": "Elite Melee Attack. Interrupts an action. Inflicts Dazed condition (10 seconds) if target is casting a spell.",
+    "concise_description": "Elite Melee Attack. Interrupts an action. Inflicts Dazed condition (10 seconds) if target is casting a spell.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6570,7 +6570,7 @@
     },
     "activation": 0.5,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Skull_Crack"
@@ -6578,7 +6578,7 @@
   {
     "name": "Soldier's Defense",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block while under the effects of a shout or chant. Block effect: gain 1 adrenaline.",
+    "concise_description": "Stance. ({{Duration}} second[s].) You have 75% chance to block while under the effects of a shout or chant. Block effect: gain 1 adrenaline.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6619,7 +6619,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense"
@@ -6627,7 +6627,7 @@
   {
     "name": "Soldier's Speed",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You move 15% faster and an additional 15% while affected by a chant or shout.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You move 15% faster and an additional 15% while affected by a chant or shout.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6668,7 +6668,7 @@
     },
     "activation": null,
     "recharge": 12,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Speed"
@@ -6676,7 +6676,7 @@
   {
     "name": "Soldier's Stance",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) You have a 75% chance to block. You attack 33% faster while under the effects of a chant or shout.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) You have a 75% chance to block. You attack 33% faster while under the effects of a chant or shout.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6717,7 +6717,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance"
@@ -6725,7 +6725,7 @@
   {
     "name": "Soldier's Stance (PvP)",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) You attack 33% faster while under the effects of a shout or chant.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) You attack 33% faster while under the effects of a shout or chant.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6766,7 +6766,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_(PvP)"
@@ -6774,7 +6774,7 @@
   {
     "name": "Soldier's Strike",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. Unblockable if you are under the effects of a chant or shout.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. Unblockable if you are under the effects of a chant or shout.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6815,7 +6815,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Strike"
@@ -6823,7 +6823,7 @@
   {
     "name": "Sprint",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You move 25% faster.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You move 25% faster.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6864,7 +6864,7 @@
     },
     "activation": null,
     "recharge": 15,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Sprint"
@@ -6872,7 +6872,7 @@
   {
     "name": "Staggering Blow",
     "icon": "",
-    "description": "Hammer Attack. Inflicts Weakness condition ({{WeaknessDuration}} seconds).",
+    "concise_description": "Hammer Attack. Inflicts Weakness condition ({{WeaknessDuration}} seconds).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6913,7 +6913,7 @@
     },
     "activation": 1,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Blow"
@@ -6921,7 +6921,7 @@
   {
     "name": "Standing Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage. Deals {{Damage}} more damage if you are in a stance.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage. Deals {{Damage}} more damage if you are in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6962,7 +6962,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Standing_Slash"
@@ -6970,7 +6970,7 @@
   {
     "name": "Steady Stance",
     "icon": "",
-    "description": "Elite Stance. (10 seconds.) The next time you would be knocked-down, you gain {{AdrenalineGain}} adrenaline and {{EnergyGain}} Energy instead.",
+    "concise_description": "Elite Stance. (10 seconds.) The next time you would be knocked-down, you gain {{AdrenalineGain}} adrenaline and {{EnergyGain}} Energy instead.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7035,7 +7035,7 @@
     },
     "activation": null,
     "recharge": 6,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Steady_Stance"
@@ -7043,7 +7043,7 @@
   {
     "name": "Steelfang Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} adrenaline if target foe is knocked down.",
+    "concise_description": "Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} adrenaline if target foe is knocked down.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7108,7 +7108,7 @@
     },
     "activation": null,
     "recharge": 1,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Steelfang_Slash"
@@ -7116,7 +7116,7 @@
   {
     "name": "Sun and Moon Slash",
     "icon": "",
-    "description": "Sword Attack. You attack target foe twice. Unblockable.",
+    "concise_description": "Sword Attack. You attack target foe twice. Unblockable.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7132,7 +7132,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash"
@@ -7140,7 +7140,7 @@
   {
     "name": "Swift Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Deep Wound condition (20 seconds) if blocked.",
+    "concise_description": "Axe Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Deep Wound condition (20 seconds) if blocked.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7205,7 +7205,7 @@
     },
     "activation": null,
     "recharge": 4,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Swift_Chop"
@@ -7213,7 +7213,7 @@
   {
     "name": "Symbolic Strike",
     "icon": "",
-    "description": "Melee Attack. Deals +12 damage (maximum 70) for each signet you have equipped.",
+    "concise_description": "Melee Attack. Deals +12 damage (maximum 70) for each signet you have equipped.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7229,7 +7229,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Strike"
@@ -7237,7 +7237,7 @@
   {
     "name": "Thrill of Victory",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage. If you have more Health than your target, you gain {{AdrenalineGain}} adrenaline.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage. If you have more Health than your target, you gain {{AdrenalineGain}} adrenaline.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7302,7 +7302,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Thrill_of_Victory"
@@ -7310,7 +7310,7 @@
   {
     "name": "Tiger Stance",
     "icon": "",
-    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster. Ends if you fail to hit.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You attack 33% faster. Ends if you fail to hit.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7351,7 +7351,7 @@
     },
     "activation": null,
     "recharge": 20,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Tiger_Stance"
@@ -7359,7 +7359,7 @@
   {
     "name": "Triple Chop",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +{{Damage}} damage. Also hits adjacent foes.",
+    "concise_description": "Elite Axe Attack. Deals +{{Damage}} damage. Also hits adjacent foes.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7400,7 +7400,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Triple_Chop"
@@ -7408,7 +7408,7 @@
   {
     "name": "Warrior's Cunning",
     "icon": "",
-    "description": "Skill. ({{Duration}} seconds.) Your melee attacks are unblockable.",
+    "concise_description": "Skill. ({{Duration}} seconds.) Your melee attacks are unblockable.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -7449,7 +7449,7 @@
     },
     "activation": null,
     "recharge": 60,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Cunning"
@@ -7457,7 +7457,7 @@
   {
     "name": "Warrior's Endurance",
     "icon": "",
-    "description": "Elite Skill. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.",
+    "concise_description": "Elite Skill. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -7522,7 +7522,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance"
@@ -7530,7 +7530,7 @@
   {
     "name": "Warrior's Endurance (PvP)",
     "icon": "",
-    "description": "Elite Stance. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.",
+    "concise_description": "Elite Stance. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7595,7 +7595,7 @@
     },
     "activation": null,
     "recharge": 30,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance_(PvP)"
@@ -7603,7 +7603,7 @@
   {
     "name": "Wary Stance",
     "icon": "",
-    "description": "Stance. ({{Duration}} second[s]). You block attack skills. Gain adrenaline and 5 Energy for each block. Ends if you use a skill.",
+    "concise_description": "Stance. ({{Duration}} second[s]). You block attack skills. Gain adrenaline and 5 Energy for each block. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7644,7 +7644,7 @@
     },
     "activation": null,
     "recharge": 10,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wary_Stance"
@@ -7652,7 +7652,7 @@
   {
     "name": "Whirling Axe",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +{{Damage}} damage and removes a stance. Unblockable.",
+    "concise_description": "Elite Axe Attack. Deals +{{Damage}} damage and removes a stance. Unblockable.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7693,7 +7693,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": true,
+    "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Axe"
@@ -7701,7 +7701,7 @@
   {
     "name": "Whirlwind Attack",
     "icon": "",
-    "description": "Melee Attack. Deals +{{Damage}} damage to target and adjacent foes.",
+    "concise_description": "Melee Attack. Deals +{{Damage}} damage to target and adjacent foes.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7731,7 +7731,7 @@
     },
     "activation": null,
     "recharge": 1,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
     "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind_Attack"
@@ -7739,7 +7739,7 @@
   {
     "name": "Wild Blow",
     "icon": "",
-    "description": "Melee Attack. Always a critical hit. Removes a stance. Unblockable. Lose all adrenaline.",
+    "concise_description": "Melee Attack. Always a critical hit. Removes a stance. Unblockable. Lose all adrenaline.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7755,7 +7755,7 @@
     },
     "activation": null,
     "recharge": 8,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Core",
     "limitation": "quest",
     "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Blow"
@@ -7763,7 +7763,7 @@
   {
     "name": "Yeti Smash",
     "icon": "",
-    "description": "Hammer Attack. Attack all adjacent foes. Knocks down foes suffering from a condition. You lose all adrenaline. 50% failure chance unless Hammer Mastery is 5 or more.",
+    "concise_description": "Hammer Attack. Attack all adjacent foes. Knocks down foes suffering from a condition. You lose all adrenaline. 50% failure chance unless Hammer Mastery is 5 or more.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7779,7 +7779,7 @@
     },
     "activation": null,
     "recharge": null,
-    "isElite": false,
+    "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Yeti_Smash"
