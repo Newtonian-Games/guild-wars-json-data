@@ -2,3 +2,5 @@
 # Supabase environment
 supabase/.env
 supabase/.temp/
+
+__pycache__/
