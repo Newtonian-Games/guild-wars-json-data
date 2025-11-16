@@ -5,6 +5,7 @@
     "rarity": "common",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/fb/Rune_All_Minor.png",
     "effects": {
       "EnergyBonus": {
         "value": 2,
@@ -20,6 +21,7 @@
     "rarity": "rare",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/1/18/Rune_of_Belt_Holding.png",
     "effects": {
       "BeltPouchSlots": {
         "value": 10,
@@ -35,6 +37,7 @@
     "rarity": "uncommon",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/f6/Rune_All_Major.png",
     "effects": {
       "ConditionReduction": {
         "value": {
@@ -53,6 +56,7 @@
     "rarity": "common",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/5/58/Rune_of_Holding.png",
     "effects": {
       "BagSlots": {
         "value": 10,
@@ -68,6 +72,7 @@
     "rarity": "uncommon",
     "profession": "Elementalist",
     "attribute": "Air Magic",
+    "icon": "https://wiki.guildwars.com/images/1/14/Rune_Elementalist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -87,6 +92,7 @@
     "rarity": "uncommon",
     "profession": "Warrior",
     "attribute": "Axe Mastery",
+    "icon": "https://wiki.guildwars.com/images/4/46/Rune_Warrior_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -106,6 +112,7 @@
     "rarity": "uncommon",
     "profession": "Ranger",
     "attribute": "Beast Mastery",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Ranger_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -125,6 +132,7 @@
     "rarity": "uncommon",
     "profession": "Necromancer",
     "attribute": "Blood Magic",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Necromancer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -144,6 +152,7 @@
     "rarity": "uncommon",
     "profession": "Ritualist",
     "attribute": "Channeling Magic",
+    "icon": "https://wiki.guildwars.com/images/9/90/Rune_Ritualist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -163,6 +172,7 @@
     "rarity": "uncommon",
     "profession": "Paragon",
     "attribute": "Command",
+    "icon": "https://wiki.guildwars.com/images/9/9a/Rune_Paragon_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -182,6 +192,7 @@
     "rarity": "uncommon",
     "profession": "Ritualist",
     "attribute": "Communing",
+    "icon": "https://wiki.guildwars.com/images/9/90/Rune_Ritualist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -201,6 +212,7 @@
     "rarity": "uncommon",
     "profession": "Assassin",
     "attribute": "Critical Strikes",
+    "icon": "https://wiki.guildwars.com/images/c/cc/Rune_Assassin_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -220,6 +232,7 @@
     "rarity": "uncommon",
     "profession": "Necromancer",
     "attribute": "Curses",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Necromancer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -239,6 +252,7 @@
     "rarity": "uncommon",
     "profession": "Assassin",
     "attribute": "Dagger Mastery",
+    "icon": "https://wiki.guildwars.com/images/c/cc/Rune_Assassin_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -258,6 +272,7 @@
     "rarity": "uncommon",
     "profession": "Assassin",
     "attribute": "Deadly Arts",
+    "icon": "https://wiki.guildwars.com/images/c/cc/Rune_Assassin_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -277,6 +292,7 @@
     "rarity": "uncommon",
     "profession": "Necromancer",
     "attribute": "Death Magic",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Necromancer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -296,6 +312,7 @@
     "rarity": "uncommon",
     "profession": "Monk",
     "attribute": "Divine Favor",
+    "icon": "https://wiki.guildwars.com/images/2/27/Rune_Monk_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -315,6 +332,7 @@
     "rarity": "uncommon",
     "profession": "Mesmer",
     "attribute": "Domination Magic",
+    "icon": "https://wiki.guildwars.com/images/f/f9/Rune_Mesmer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -334,6 +352,7 @@
     "rarity": "uncommon",
     "profession": "Elementalist",
     "attribute": "Earth Magic",
+    "icon": "https://wiki.guildwars.com/images/1/14/Rune_Elementalist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -353,6 +372,7 @@
     "rarity": "uncommon",
     "profession": "Dervish",
     "attribute": "Earth Prayers",
+    "icon": "https://wiki.guildwars.com/images/4/44/Rune_Dervish_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -372,6 +392,7 @@
     "rarity": "uncommon",
     "profession": "Elementalist",
     "attribute": "Energy Storage",
+    "icon": "https://wiki.guildwars.com/images/1/14/Rune_Elementalist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -391,6 +412,7 @@
     "rarity": "uncommon",
     "profession": "Ranger",
     "attribute": "Expertise",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Ranger_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -410,6 +432,7 @@
     "rarity": "uncommon",
     "profession": "Mesmer",
     "attribute": "Fast Casting",
+    "icon": "https://wiki.guildwars.com/images/f/f9/Rune_Mesmer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -429,6 +452,7 @@
     "rarity": "uncommon",
     "profession": "Elementalist",
     "attribute": "Fire Magic",
+    "icon": "https://wiki.guildwars.com/images/1/14/Rune_Elementalist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -448,6 +472,7 @@
     "rarity": "uncommon",
     "profession": "Warrior",
     "attribute": "Hammer Mastery",
+    "icon": "https://wiki.guildwars.com/images/4/46/Rune_Warrior_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -467,6 +492,7 @@
     "rarity": "uncommon",
     "profession": "Monk",
     "attribute": "Healing Prayers",
+    "icon": "https://wiki.guildwars.com/images/2/27/Rune_Monk_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -486,6 +512,7 @@
     "rarity": "uncommon",
     "profession": "Mesmer",
     "attribute": "Illusion Magic",
+    "icon": "https://wiki.guildwars.com/images/f/f9/Rune_Mesmer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -505,6 +532,7 @@
     "rarity": "uncommon",
     "profession": "Mesmer",
     "attribute": "Inspiration Magic",
+    "icon": "https://wiki.guildwars.com/images/f/f9/Rune_Mesmer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -524,6 +552,7 @@
     "rarity": "uncommon",
     "profession": "Paragon",
     "attribute": "Leadership",
+    "icon": "https://wiki.guildwars.com/images/9/9a/Rune_Paragon_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -543,6 +572,7 @@
     "rarity": "uncommon",
     "profession": "Ranger",
     "attribute": "Marksmanship",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Ranger_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -562,6 +592,7 @@
     "rarity": "uncommon",
     "profession": "Paragon",
     "attribute": "Motivation",
+    "icon": "https://wiki.guildwars.com/images/9/9a/Rune_Paragon_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -581,6 +612,7 @@
     "rarity": "uncommon",
     "profession": "Dervish",
     "attribute": "Mysticism",
+    "icon": "https://wiki.guildwars.com/images/4/44/Rune_Dervish_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -600,6 +632,7 @@
     "rarity": "uncommon",
     "profession": "Monk",
     "attribute": "Protection Prayers",
+    "icon": "https://wiki.guildwars.com/images/2/27/Rune_Monk_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -619,6 +652,7 @@
     "rarity": "uncommon",
     "profession": "Ritualist",
     "attribute": "Restoration Magic",
+    "icon": "https://wiki.guildwars.com/images/9/90/Rune_Ritualist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -638,6 +672,7 @@
     "rarity": "uncommon",
     "profession": "Dervish",
     "attribute": "Scythe Mastery",
+    "icon": "https://wiki.guildwars.com/images/4/44/Rune_Dervish_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -657,6 +692,7 @@
     "rarity": "uncommon",
     "profession": "Assassin",
     "attribute": "Shadow Arts",
+    "icon": "https://wiki.guildwars.com/images/c/cc/Rune_Assassin_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -676,6 +712,7 @@
     "rarity": "uncommon",
     "profession": "Monk",
     "attribute": "Smiting Prayers",
+    "icon": "https://wiki.guildwars.com/images/2/27/Rune_Monk_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -695,6 +732,7 @@
     "rarity": "uncommon",
     "profession": "Necromancer",
     "attribute": "Soul Reaping",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Necromancer_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -714,6 +752,7 @@
     "rarity": "uncommon",
     "profession": "Ritualist",
     "attribute": "Spawning Power",
+    "icon": "https://wiki.guildwars.com/images/9/90/Rune_Ritualist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -733,6 +772,7 @@
     "rarity": "uncommon",
     "profession": "Paragon",
     "attribute": "Spear Mastery",
+    "icon": "https://wiki.guildwars.com/images/9/9a/Rune_Paragon_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -752,6 +792,7 @@
     "rarity": "uncommon",
     "profession": "Warrior",
     "attribute": "Strength",
+    "icon": "https://wiki.guildwars.com/images/4/46/Rune_Warrior_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -771,6 +812,7 @@
     "rarity": "uncommon",
     "profession": "Warrior",
     "attribute": "Swordsmanship",
+    "icon": "https://wiki.guildwars.com/images/4/46/Rune_Warrior_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -790,6 +832,7 @@
     "rarity": "uncommon",
     "profession": "Warrior",
     "attribute": "Tactics",
+    "icon": "https://wiki.guildwars.com/images/4/46/Rune_Warrior_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -809,6 +852,7 @@
     "rarity": "uncommon",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/f6/Rune_All_Major.png",
     "effects": {
       "HealthBonus": {
         "value": 41,
@@ -824,6 +868,7 @@
     "rarity": "uncommon",
     "profession": "Elementalist",
     "attribute": "Water Magic",
+    "icon": "https://wiki.guildwars.com/images/1/14/Rune_Elementalist_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -843,6 +888,7 @@
     "rarity": "uncommon",
     "profession": "Ranger",
     "attribute": "Wilderness Survival",
+    "icon": "https://wiki.guildwars.com/images/8/85/Rune_Ranger_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -862,6 +908,7 @@
     "rarity": "uncommon",
     "profession": "Dervish",
     "attribute": "Wind Prayers",
+    "icon": "https://wiki.guildwars.com/images/4/44/Rune_Dervish_Major.png",
     "effects": {
       "AttributeBonus": {
         "value": 2,
@@ -881,6 +928,7 @@
     "rarity": "common",
     "profession": "Elementalist",
     "attribute": "Air Magic",
+    "icon": "https://wiki.guildwars.com/images/6/6f/Rune_Elementalist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -896,6 +944,7 @@
     "rarity": "common",
     "profession": "Warrior",
     "attribute": "Axe Mastery",
+    "icon": "https://wiki.guildwars.com/images/2/2f/Rune_Warrior_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -911,6 +960,7 @@
     "rarity": "common",
     "profession": "Ranger",
     "attribute": "Beast Mastery",
+    "icon": "https://wiki.guildwars.com/images/1/15/Rune_Ranger_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -926,6 +976,7 @@
     "rarity": "common",
     "profession": "Necromancer",
     "attribute": "Blood Magic",
+    "icon": "https://wiki.guildwars.com/images/c/c5/Rune_Necromancer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -941,6 +992,7 @@
     "rarity": "common",
     "profession": "Ritualist",
     "attribute": "Channeling Magic",
+    "icon": "https://wiki.guildwars.com/images/c/cb/Rune_Ritualist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -956,6 +1008,7 @@
     "rarity": "common",
     "profession": "Paragon",
     "attribute": "Command",
+    "icon": "https://wiki.guildwars.com/images/e/e8/Rune_Paragon_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -971,6 +1024,7 @@
     "rarity": "common",
     "profession": "Ritualist",
     "attribute": "Communing",
+    "icon": "https://wiki.guildwars.com/images/c/cb/Rune_Ritualist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -986,6 +1040,7 @@
     "rarity": "common",
     "profession": "Assassin",
     "attribute": "Critical Strikes",
+    "icon": "https://wiki.guildwars.com/images/d/dd/Rune_Assassin_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1001,6 +1056,7 @@
     "rarity": "common",
     "profession": "Necromancer",
     "attribute": "Curses",
+    "icon": "https://wiki.guildwars.com/images/c/c5/Rune_Necromancer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1016,6 +1072,7 @@
     "rarity": "common",
     "profession": "Assassin",
     "attribute": "Dagger Mastery",
+    "icon": "https://wiki.guildwars.com/images/d/dd/Rune_Assassin_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1031,6 +1088,7 @@
     "rarity": "common",
     "profession": "Assassin",
     "attribute": "Deadly Arts",
+    "icon": "https://wiki.guildwars.com/images/d/dd/Rune_Assassin_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1046,6 +1104,7 @@
     "rarity": "common",
     "profession": "Necromancer",
     "attribute": "Death Magic",
+    "icon": "https://wiki.guildwars.com/images/c/c5/Rune_Necromancer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1061,6 +1120,7 @@
     "rarity": "common",
     "profession": "Monk",
     "attribute": "Divine Favor",
+    "icon": "https://wiki.guildwars.com/images/2/28/Rune_Monk_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1076,6 +1136,7 @@
     "rarity": "common",
     "profession": "Mesmer",
     "attribute": "Domination Magic",
+    "icon": "https://wiki.guildwars.com/images/6/6c/Rune_Mesmer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1091,6 +1152,7 @@
     "rarity": "common",
     "profession": "Elementalist",
     "attribute": "Earth Magic",
+    "icon": "https://wiki.guildwars.com/images/6/6f/Rune_Elementalist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1106,6 +1168,7 @@
     "rarity": "common",
     "profession": "Dervish",
     "attribute": "Earth Prayers",
+    "icon": "https://wiki.guildwars.com/images/4/45/Rune_Dervish_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1121,6 +1184,7 @@
     "rarity": "common",
     "profession": "Elementalist",
     "attribute": "Energy Storage",
+    "icon": "https://wiki.guildwars.com/images/6/6f/Rune_Elementalist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1136,6 +1200,7 @@
     "rarity": "common",
     "profession": "Ranger",
     "attribute": "Expertise",
+    "icon": "https://wiki.guildwars.com/images/1/15/Rune_Ranger_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1151,6 +1216,7 @@
     "rarity": "common",
     "profession": "Mesmer",
     "attribute": "Fast Casting",
+    "icon": "https://wiki.guildwars.com/images/6/6c/Rune_Mesmer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1166,6 +1232,7 @@
     "rarity": "common",
     "profession": "Elementalist",
     "attribute": "Fire Magic",
+    "icon": "https://wiki.guildwars.com/images/6/6f/Rune_Elementalist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1181,6 +1248,7 @@
     "rarity": "common",
     "profession": "Warrior",
     "attribute": "Hammer Mastery",
+    "icon": "https://wiki.guildwars.com/images/2/2f/Rune_Warrior_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1196,6 +1264,7 @@
     "rarity": "common",
     "profession": "Monk",
     "attribute": "Healing Prayers",
+    "icon": "https://wiki.guildwars.com/images/2/28/Rune_Monk_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1211,6 +1280,7 @@
     "rarity": "common",
     "profession": "Mesmer",
     "attribute": "Illusion Magic",
+    "icon": "https://wiki.guildwars.com/images/6/6c/Rune_Mesmer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1226,6 +1296,7 @@
     "rarity": "common",
     "profession": "Mesmer",
     "attribute": "Inspiration Magic",
+    "icon": "https://wiki.guildwars.com/images/6/6c/Rune_Mesmer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1241,6 +1312,7 @@
     "rarity": "common",
     "profession": "Paragon",
     "attribute": "Leadership",
+    "icon": "https://wiki.guildwars.com/images/e/e8/Rune_Paragon_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1256,6 +1328,7 @@
     "rarity": "common",
     "profession": "Ranger",
     "attribute": "Marksmanship",
+    "icon": "https://wiki.guildwars.com/images/1/15/Rune_Ranger_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1271,6 +1344,7 @@
     "rarity": "common",
     "profession": "Paragon",
     "attribute": "Motivation",
+    "icon": "https://wiki.guildwars.com/images/e/e8/Rune_Paragon_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1286,6 +1360,7 @@
     "rarity": "common",
     "profession": "Dervish",
     "attribute": "Mysticism",
+    "icon": "https://wiki.guildwars.com/images/4/45/Rune_Dervish_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1301,6 +1376,7 @@
     "rarity": "common",
     "profession": "Monk",
     "attribute": "Protection Prayers",
+    "icon": "https://wiki.guildwars.com/images/2/28/Rune_Monk_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1316,6 +1392,7 @@
     "rarity": "common",
     "profession": "Ritualist",
     "attribute": "Restoration Magic",
+    "icon": "https://wiki.guildwars.com/images/c/cb/Rune_Ritualist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1331,6 +1408,7 @@
     "rarity": "common",
     "profession": "Dervish",
     "attribute": "Scythe Mastery",
+    "icon": "https://wiki.guildwars.com/images/4/45/Rune_Dervish_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1346,6 +1424,7 @@
     "rarity": "common",
     "profession": "Assassin",
     "attribute": "Shadow Arts",
+    "icon": "https://wiki.guildwars.com/images/d/dd/Rune_Assassin_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1361,6 +1440,7 @@
     "rarity": "common",
     "profession": "Monk",
     "attribute": "Smiting Prayers",
+    "icon": "https://wiki.guildwars.com/images/2/28/Rune_Monk_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1376,6 +1456,7 @@
     "rarity": "common",
     "profession": "Necromancer",
     "attribute": "Soul Reaping",
+    "icon": "https://wiki.guildwars.com/images/c/c5/Rune_Necromancer_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1391,6 +1472,7 @@
     "rarity": "common",
     "profession": "Ritualist",
     "attribute": "Spawning Power",
+    "icon": "https://wiki.guildwars.com/images/c/cb/Rune_Ritualist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1406,6 +1488,7 @@
     "rarity": "common",
     "profession": "Paragon",
     "attribute": "Spear Mastery",
+    "icon": "https://wiki.guildwars.com/images/e/e8/Rune_Paragon_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1421,6 +1504,7 @@
     "rarity": "common",
     "profession": "Warrior",
     "attribute": "Strength",
+    "icon": "https://wiki.guildwars.com/images/2/2f/Rune_Warrior_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1436,6 +1520,7 @@
     "rarity": "common",
     "profession": "Warrior",
     "attribute": "Swordsmanship",
+    "icon": "https://wiki.guildwars.com/images/2/2f/Rune_Warrior_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1451,6 +1536,7 @@
     "rarity": "common",
     "profession": "Warrior",
     "attribute": "Tactics",
+    "icon": "https://wiki.guildwars.com/images/2/2f/Rune_Warrior_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1466,6 +1552,7 @@
     "rarity": "common",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/fb/Rune_All_Minor.png",
     "effects": {
       "HealthBonus": {
         "value": 30,
@@ -1481,6 +1568,7 @@
     "rarity": "common",
     "profession": "Elementalist",
     "attribute": "Water Magic",
+    "icon": "https://wiki.guildwars.com/images/6/6f/Rune_Elementalist_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1496,6 +1584,7 @@
     "rarity": "common",
     "profession": "Ranger",
     "attribute": "Wilderness Survival",
+    "icon": "https://wiki.guildwars.com/images/1/15/Rune_Ranger_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1511,6 +1600,7 @@
     "rarity": "common",
     "profession": "Dervish",
     "attribute": "Wind Prayers",
+    "icon": "https://wiki.guildwars.com/images/4/45/Rune_Dervish_Minor.png",
     "effects": {
       "AttributeBonus": {
         "value": 1,
@@ -1526,6 +1616,7 @@
     "rarity": "uncommon",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/f6/Rune_All_Major.png",
     "effects": {
       "ConditionReduction": {
         "value": {
@@ -1544,6 +1635,7 @@
     "rarity": "uncommon",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/f6/Rune_All_Major.png",
     "effects": {
       "ConditionReduction": {
         "value": {
@@ -1562,6 +1654,7 @@
     "rarity": "uncommon",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/f6/Rune_All_Major.png",
     "effects": {
       "ConditionReduction": {
         "value": {
@@ -1580,6 +1673,7 @@
     "rarity": "rare",
     "profession": "Elementalist",
     "attribute": "Air Magic",
+    "icon": "https://wiki.guildwars.com/images/8/83/Rune_Elementalist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1599,6 +1693,7 @@
     "rarity": "rare",
     "profession": "Warrior",
     "attribute": "Axe Mastery",
+    "icon": "https://wiki.guildwars.com/images/3/31/Rune_Warrior_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1618,6 +1713,7 @@
     "rarity": "rare",
     "profession": "Ranger",
     "attribute": "Beast Mastery",
+    "icon": "https://wiki.guildwars.com/images/4/4d/Rune_Ranger_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1637,6 +1733,7 @@
     "rarity": "rare",
     "profession": "Necromancer",
     "attribute": "Blood Magic",
+    "icon": "https://wiki.guildwars.com/images/d/d9/Rune_Necromancer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1656,6 +1753,7 @@
     "rarity": "rare",
     "profession": "Ritualist",
     "attribute": "Channeling Magic",
+    "icon": "https://wiki.guildwars.com/images/1/13/Rune_Ritualist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1675,6 +1773,7 @@
     "rarity": "rare",
     "profession": "Paragon",
     "attribute": "Command",
+    "icon": "https://wiki.guildwars.com/images/3/35/Rune_Paragon_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1694,6 +1793,7 @@
     "rarity": "rare",
     "profession": "Ritualist",
     "attribute": "Communing",
+    "icon": "https://wiki.guildwars.com/images/1/13/Rune_Ritualist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1713,6 +1813,7 @@
     "rarity": "rare",
     "profession": "Assassin",
     "attribute": "Critical Strikes",
+    "icon": "https://wiki.guildwars.com/images/7/75/Rune_Assassin_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1732,6 +1833,7 @@
     "rarity": "rare",
     "profession": "Necromancer",
     "attribute": "Curses",
+    "icon": "https://wiki.guildwars.com/images/d/d9/Rune_Necromancer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1751,6 +1853,7 @@
     "rarity": "rare",
     "profession": "Assassin",
     "attribute": "Dagger Mastery",
+    "icon": "https://wiki.guildwars.com/images/7/75/Rune_Assassin_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1770,6 +1873,7 @@
     "rarity": "rare",
     "profession": "Assassin",
     "attribute": "Deadly Arts",
+    "icon": "https://wiki.guildwars.com/images/7/75/Rune_Assassin_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1789,6 +1893,7 @@
     "rarity": "rare",
     "profession": "Necromancer",
     "attribute": "Death Magic",
+    "icon": "https://wiki.guildwars.com/images/d/d9/Rune_Necromancer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1808,6 +1913,7 @@
     "rarity": "rare",
     "profession": "Monk",
     "attribute": "Divine Favor",
+    "icon": "https://wiki.guildwars.com/images/e/e5/Rune_Monk_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1827,6 +1933,7 @@
     "rarity": "rare",
     "profession": "Mesmer",
     "attribute": "Domination Magic",
+    "icon": "https://wiki.guildwars.com/images/0/08/Rune_Mesmer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1846,6 +1953,7 @@
     "rarity": "rare",
     "profession": "Elementalist",
     "attribute": "Earth Magic",
+    "icon": "https://wiki.guildwars.com/images/8/83/Rune_Elementalist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1865,6 +1973,7 @@
     "rarity": "rare",
     "profession": "Dervish",
     "attribute": "Earth Prayers",
+    "icon": "https://wiki.guildwars.com/images/e/e1/Rune_Dervish_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1884,6 +1993,7 @@
     "rarity": "rare",
     "profession": "Elementalist",
     "attribute": "Energy Storage",
+    "icon": "https://wiki.guildwars.com/images/8/83/Rune_Elementalist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1903,6 +2013,7 @@
     "rarity": "rare",
     "profession": "Ranger",
     "attribute": "Expertise",
+    "icon": "https://wiki.guildwars.com/images/4/4d/Rune_Ranger_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1922,6 +2033,7 @@
     "rarity": "rare",
     "profession": "Mesmer",
     "attribute": "Fast Casting",
+    "icon": "https://wiki.guildwars.com/images/0/08/Rune_Mesmer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1941,6 +2053,7 @@
     "rarity": "rare",
     "profession": "Elementalist",
     "attribute": "Fire Magic",
+    "icon": "https://wiki.guildwars.com/images/8/83/Rune_Elementalist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1960,6 +2073,7 @@
     "rarity": "rare",
     "profession": "Warrior",
     "attribute": "Hammer Mastery",
+    "icon": "https://wiki.guildwars.com/images/3/31/Rune_Warrior_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1979,6 +2093,7 @@
     "rarity": "rare",
     "profession": "Monk",
     "attribute": "Healing Prayers",
+    "icon": "https://wiki.guildwars.com/images/e/e5/Rune_Monk_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -1998,6 +2113,7 @@
     "rarity": "rare",
     "profession": "Mesmer",
     "attribute": "Illusion Magic",
+    "icon": "https://wiki.guildwars.com/images/0/08/Rune_Mesmer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2017,6 +2133,7 @@
     "rarity": "rare",
     "profession": "Mesmer",
     "attribute": "Inspiration Magic",
+    "icon": "https://wiki.guildwars.com/images/0/08/Rune_Mesmer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2036,6 +2153,7 @@
     "rarity": "rare",
     "profession": "Paragon",
     "attribute": "Leadership",
+    "icon": "https://wiki.guildwars.com/images/3/35/Rune_Paragon_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2055,6 +2173,7 @@
     "rarity": "rare",
     "profession": "Ranger",
     "attribute": "Marksmanship",
+    "icon": "https://wiki.guildwars.com/images/4/4d/Rune_Ranger_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2074,6 +2193,7 @@
     "rarity": "rare",
     "profession": "Paragon",
     "attribute": "Motivation",
+    "icon": "https://wiki.guildwars.com/images/3/35/Rune_Paragon_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2093,6 +2213,7 @@
     "rarity": "rare",
     "profession": "Dervish",
     "attribute": "Mysticism",
+    "icon": "https://wiki.guildwars.com/images/e/e1/Rune_Dervish_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2112,6 +2233,7 @@
     "rarity": "rare",
     "profession": "Monk",
     "attribute": "Protection Prayers",
+    "icon": "https://wiki.guildwars.com/images/e/e5/Rune_Monk_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2131,6 +2253,7 @@
     "rarity": "rare",
     "profession": "Ritualist",
     "attribute": "Restoration Magic",
+    "icon": "https://wiki.guildwars.com/images/1/13/Rune_Ritualist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2150,6 +2273,7 @@
     "rarity": "rare",
     "profession": "Dervish",
     "attribute": "Scythe Mastery",
+    "icon": "https://wiki.guildwars.com/images/e/e1/Rune_Dervish_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2169,6 +2293,7 @@
     "rarity": "rare",
     "profession": "Assassin",
     "attribute": "Shadow Arts",
+    "icon": "https://wiki.guildwars.com/images/7/75/Rune_Assassin_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2188,6 +2313,7 @@
     "rarity": "rare",
     "profession": "Monk",
     "attribute": "Smiting Prayers",
+    "icon": "https://wiki.guildwars.com/images/e/e5/Rune_Monk_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2207,6 +2333,7 @@
     "rarity": "rare",
     "profession": "Necromancer",
     "attribute": "Soul Reaping",
+    "icon": "https://wiki.guildwars.com/images/d/d9/Rune_Necromancer_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2226,6 +2353,7 @@
     "rarity": "rare",
     "profession": "Ritualist",
     "attribute": "Spawning Power",
+    "icon": "https://wiki.guildwars.com/images/1/13/Rune_Ritualist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2245,6 +2373,7 @@
     "rarity": "rare",
     "profession": "Paragon",
     "attribute": "Spear Mastery",
+    "icon": "https://wiki.guildwars.com/images/3/35/Rune_Paragon_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2264,6 +2393,7 @@
     "rarity": "rare",
     "profession": "Warrior",
     "attribute": "Strength",
+    "icon": "https://wiki.guildwars.com/images/3/31/Rune_Warrior_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2283,6 +2413,7 @@
     "rarity": "rare",
     "profession": "Warrior",
     "attribute": "Swordsmanship",
+    "icon": "https://wiki.guildwars.com/images/3/31/Rune_Warrior_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2302,6 +2433,7 @@
     "rarity": "rare",
     "profession": "Warrior",
     "attribute": "Tactics",
+    "icon": "https://wiki.guildwars.com/images/3/31/Rune_Warrior_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2321,6 +2453,7 @@
     "rarity": "rare",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/9/9e/Rune_All_Sup.png",
     "effects": {
       "HealthBonus": {
         "value": 50,
@@ -2336,6 +2469,7 @@
     "rarity": "rare",
     "profession": "Elementalist",
     "attribute": "Water Magic",
+    "icon": "https://wiki.guildwars.com/images/8/83/Rune_Elementalist_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2355,6 +2489,7 @@
     "rarity": "rare",
     "profession": "Ranger",
     "attribute": "Wilderness Survival",
+    "icon": "https://wiki.guildwars.com/images/4/4d/Rune_Ranger_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2374,6 +2509,7 @@
     "rarity": "rare",
     "profession": "Dervish",
     "attribute": "Wind Prayers",
+    "icon": "https://wiki.guildwars.com/images/e/e1/Rune_Dervish_Sup.png",
     "effects": {
       "AttributeBonus": {
         "value": 3,
@@ -2393,6 +2529,7 @@
     "rarity": "common",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/fb/Rune_All_Minor.png",
     "effects": {
       "HealthBonus": {
         "value": 10,
@@ -2408,6 +2545,7 @@
     "rarity": "rare",
     "profession": null,
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/f/f2/Superior_Rune_of_Holding.png",
     "effects": {
       "BagSlots": {
         "value": 15,
@@ -2423,6 +2561,7 @@
     "rarity": "uncommon",
     "profession": "Warrior",
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/4/46/Rune_Warrior_Major.png",
     "effects": {
       "DamageReduction": {
         "value": 2,
@@ -2438,6 +2577,7 @@
     "rarity": "common",
     "profession": "Warrior",
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/2/2f/Rune_Warrior_Minor.png",
     "effects": {
       "DamageReduction": {
         "value": 1,
@@ -2453,6 +2593,7 @@
     "rarity": "rare",
     "profession": "Warrior",
     "attribute": null,
+    "icon": "https://wiki.guildwars.com/images/3/31/Rune_Warrior_Sup.png",
     "effects": {
       "DamageReduction": {
         "value": 3,

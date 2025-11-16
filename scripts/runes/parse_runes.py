@@ -23,6 +23,29 @@ with open('guild-wars-json-data/data/attributes.json', 'r') as f:
 with open('guild-wars-json-data/data/professions.json', 'r') as f:
     professions = json.load(f)
 
+def get_rune_icon(profession, rarity):
+    """Generate the icon URL for a rune based on profession and rarity."""
+    base_url = "https://wiki.guildwars.com/images/"
+
+    # Map rarity to wiki tier naming
+    rarity_to_tier = {
+        "common": "Minor",
+        "uncommon": "Major",
+        "rare": "Sup"
+    }
+
+    tier = rarity_to_tier.get(rarity, "Minor")
+
+    if profession:
+        # Profession-specific rune icons: Rune_{Profession}_{Tier}.png
+        filename = f"Rune_{profession}_{tier}.png"
+    else:
+        # Universal rune icons: Rune_All_{Tier}.png
+        filename = f"Rune_All_{tier}.png"
+
+    # Wiki uses underscores in filenames
+    return f"{base_url}{filename}"
+
 runes = []
 
 # Get profession attributes (excluding null and rank attributes)
@@ -41,6 +64,7 @@ for attribute in profession_attributes:
         "rarity": "common",
         "profession": profession,
         "attribute": attr_name,
+        "icon": get_rune_icon(profession, "common"),
         "effects": {
             "AttributeBonus": {
                 "value": 1,
@@ -59,6 +83,7 @@ for attribute in profession_attributes:
         "rarity": "uncommon",
         "profession": profession,
         "attribute": attr_name,
+        "icon": get_rune_icon(profession, "uncommon"),
         "effects": {
             "AttributeBonus": {
                 "value": 2,
@@ -81,6 +106,7 @@ for attribute in profession_attributes:
         "rarity": "rare",
         "profession": profession,
         "attribute": attr_name,
+        "icon": get_rune_icon(profession, "rare"),
         "effects": {
             "AttributeBonus": {
                 "value": 3,
@@ -103,6 +129,7 @@ absorption_runes = [
         "rarity": "common",
         "profession": "Warrior",
         "attribute": None,
+        "icon": get_rune_icon("Warrior", "common"),
         "effects": {
             "DamageReduction": {
                 "value": 1,
@@ -118,6 +145,7 @@ absorption_runes = [
         "rarity": "uncommon",
         "profession": "Warrior",
         "attribute": None,
+        "icon": get_rune_icon("Warrior", "uncommon"),
         "effects": {
             "DamageReduction": {
                 "value": 2,
@@ -133,6 +161,7 @@ absorption_runes = [
         "rarity": "rare",
         "profession": "Warrior",
         "attribute": None,
+        "icon": get_rune_icon("Warrior", "rare"),
         "effects": {
             "DamageReduction": {
                 "value": 3,
@@ -153,6 +182,7 @@ vigor_runes = [
         "rarity": "common",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "common"),
         "effects": {
             "HealthBonus": {
                 "value": 30,
@@ -168,6 +198,7 @@ vigor_runes = [
         "rarity": "uncommon",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "uncommon"),
         "effects": {
             "HealthBonus": {
                 "value": 41,
@@ -183,6 +214,7 @@ vigor_runes = [
         "rarity": "rare",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "rare"),
         "effects": {
             "HealthBonus": {
                 "value": 50,
@@ -203,6 +235,7 @@ universal_runes = [
         "rarity": "common",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "common"),
         "effects": {
             "EnergyBonus": {
                 "value": 2,
@@ -218,6 +251,7 @@ universal_runes = [
         "rarity": "common",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "common"),
         "effects": {
             "HealthBonus": {
                 "value": 10,
@@ -233,6 +267,7 @@ universal_runes = [
         "rarity": "uncommon",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "uncommon"),
         "effects": {
             "ConditionReduction": {
                 "value": {
@@ -251,6 +286,7 @@ universal_runes = [
         "rarity": "uncommon",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "uncommon"),
         "effects": {
             "ConditionReduction": {
                 "value": {
@@ -269,6 +305,7 @@ universal_runes = [
         "rarity": "uncommon",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "uncommon"),
         "effects": {
             "ConditionReduction": {
                 "value": {
@@ -287,6 +324,7 @@ universal_runes = [
         "rarity": "uncommon",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "uncommon"),
         "effects": {
             "ConditionReduction": {
                 "value": {
@@ -310,6 +348,7 @@ container_runes = [
         "rarity": "common",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "common"),
         "effects": {
             "BagSlots": {
                 "value": 10,
@@ -325,6 +364,7 @@ container_runes = [
         "rarity": "rare",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "rare"),
         "effects": {
             "BagSlots": {
                 "value": 15,
@@ -340,6 +380,7 @@ container_runes = [
         "rarity": "rare",
         "profession": None,
         "attribute": None,
+        "icon": get_rune_icon(None, "rare"),
         "effects": {
             "BeltPouchSlots": {
                 "value": 10,
