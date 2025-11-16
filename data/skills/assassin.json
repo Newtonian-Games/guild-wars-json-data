@@ -644,7 +644,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Powder"
   },
   {
@@ -692,7 +692,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Caltrops"
   },
   {
@@ -920,7 +920,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Eye"
   },
   {
@@ -1039,7 +1039,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dancing_Daggers"
   },
   {
@@ -1566,7 +1566,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Charge"
   },
   {
@@ -2000,7 +2000,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Expunge_Enchantments"
   },
   {
@@ -2316,7 +2316,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fox_Fangs"
   },
   {
@@ -4410,7 +4410,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Refuge"
   },
   {
@@ -4927,7 +4927,7 @@
     "recharge": 45,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress"
   },
   {
@@ -5670,7 +5670,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Twisting_Fangs"
   },
   {
@@ -5860,7 +5860,7 @@
     "recharge": 2,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Unsuspecting_Strike"
   },
   {
@@ -6028,7 +6028,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_Perfection"
   },
   {

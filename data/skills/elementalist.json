@@ -118,7 +118,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Air_Attunement"
   },
   {
@@ -264,7 +264,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Earth"
   },
   {
@@ -532,7 +532,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration"
   },
   {
@@ -727,7 +727,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Flash"
   },
   {
@@ -1240,7 +1240,7 @@
     "recharge": 45,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Frost"
   },
   {
@@ -1411,7 +1411,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Deep_Freeze"
   },
   {
@@ -1582,7 +1582,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Attunement"
   },
   {
@@ -1680,7 +1680,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Earthquake"
   },
   {
@@ -2295,7 +2295,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Eruption"
   },
   {
@@ -2660,7 +2660,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Attunement"
   },
   {
@@ -2709,7 +2709,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Storm"
   },
   {
@@ -2758,7 +2758,7 @@
     "recharge": 7,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Fireball"
   },
   {
@@ -2807,7 +2807,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Burst"
   },
   {
@@ -2929,7 +2929,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flare"
   },
   {
@@ -3099,7 +3099,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Frozen_Burst"
   },
   {
@@ -3123,7 +3123,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Gale"
   },
   {
@@ -3367,7 +3367,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Elemental_Power"
   },
   {
@@ -3610,7 +3610,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Lesser_Energy"
   },
   {
@@ -3829,7 +3829,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Grasping_Earth"
   },
   {
@@ -3951,7 +3951,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Prison"
   },
   {
@@ -4024,7 +4024,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spear"
   },
   {
@@ -4097,7 +4097,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spikes"
   },
   {
@@ -4365,7 +4365,7 @@
     "recharge": 7,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Incendiary_Bonds"
   },
   {
@@ -4414,7 +4414,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Inferno"
   },
   {
@@ -4550,7 +4550,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Iron_Mist"
   },
   {
@@ -4721,7 +4721,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Font"
   },
   {
@@ -4965,7 +4965,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Javelin"
   },
   {
@@ -5014,7 +5014,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Orb"
   },
   {
@@ -5063,7 +5063,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Strike"
   },
   {
@@ -5404,7 +5404,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Magnetic_Aura"
   },
   {
@@ -5672,7 +5672,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Meteor"
   },
   {
@@ -6499,7 +6499,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flame"
   },
   {
@@ -7545,7 +7545,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shard_Storm"
   },
   {
@@ -8275,7 +8275,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Daggers"
   },
   {
@@ -8567,7 +8567,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Stoning"
   },
   {
@@ -8665,7 +8665,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Swirling_Aura"
   },
   {
@@ -9225,7 +9225,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Elements"
   },
   {
@@ -9274,7 +9274,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Foes"
   },
   {
@@ -9565,7 +9565,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Melee"
   },
   {
@@ -9736,7 +9736,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Water_Attunement"
   },
   {
@@ -9834,7 +9834,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind"
   },
   {
@@ -9883,7 +9883,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Windborne_Speed"
   },
   {

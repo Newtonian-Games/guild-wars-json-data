@@ -114,7 +114,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Antidote_Signet"
   },
   {
@@ -378,7 +378,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Barbed_Trap"
   },
   {
@@ -594,7 +594,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bestial_Pounce"
   },
   {
@@ -955,7 +955,7 @@
     "recharge": 25,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Haste"
   },
   {
@@ -1027,7 +1027,7 @@
     "recharge": 90,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Protection"
   },
   {
@@ -1051,7 +1051,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Called_Shot"
   },
   {
@@ -1075,7 +1075,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal"
   },
   {
@@ -1170,7 +1170,7 @@
     "recharge": 24,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Choking_Gas"
   },
   {
@@ -1241,7 +1241,7 @@
     "recharge": 1,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Comfort_Animal"
   },
   {
@@ -1433,7 +1433,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Concussion_Shot"
   },
   {
@@ -1651,7 +1651,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Debilitating_Shot"
   },
   {
@@ -1700,7 +1700,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Determined_Shot"
   },
   {
@@ -1869,7 +1869,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Shot"
   },
   {
@@ -1940,7 +1940,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dodge"
   },
   {
@@ -2035,7 +2035,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dual_Shot"
   },
   {
@@ -2106,7 +2106,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dust_Trap"
   },
   {
@@ -2200,7 +2200,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Edge_of_Extinction"
   },
   {
@@ -2891,7 +2891,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Favorable_Winds"
   },
   {
@@ -3033,7 +3033,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Feral_Lunge"
   },
   {
@@ -3269,7 +3269,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Trap"
   },
   {
@@ -3960,7 +3960,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hunter%27s_Shot"
   },
   {
@@ -4008,7 +4008,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Ignite_Arrows"
   },
   {
@@ -4321,7 +4321,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Kindle_Arrows"
   },
   {
@@ -4463,7 +4463,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Reflexes"
   },
   {
@@ -5424,7 +5424,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Otyugh%27s_Cry"
   },
   {
@@ -5473,7 +5473,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Attack"
   },
   {
@@ -5713,7 +5713,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pin_Down"
   },
   {
@@ -5761,7 +5761,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Point_Blank_Shot"
   },
   {
@@ -6002,7 +6002,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Shot"
   },
   {
@@ -6122,7 +6122,7 @@
     "recharge": 6,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Precision_Shot"
   },
   {
@@ -6359,7 +6359,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Predatory_Season"
   },
   {
@@ -6647,7 +6647,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Quickening_Zephyr"
   },
   {
@@ -6864,7 +6864,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Read_the_Wind"
   },
   {
@@ -7175,7 +7175,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Savage_Shot"
   },
   {
@@ -7464,7 +7464,7 @@
     "recharge": 45,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Serpent%27s_Quickness"
   },
   {
@@ -7921,7 +7921,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Storm_Chaser"
   },
   {
@@ -8208,7 +8208,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Symbiosis"
   },
   {
@@ -8327,7 +8327,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Throw_Dirt"
   },
   {
@@ -8375,7 +8375,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Tiger%27s_Fury"
   },
   {
@@ -8795,7 +8795,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Troll_Unguent"
   },
   {
@@ -8986,7 +8986,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Defense"
   },
   {
@@ -9057,7 +9057,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Winnowing"
   },
   {
@@ -9128,7 +9128,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Winter"
   },
   {

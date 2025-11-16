@@ -2123,7 +2123,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Flame"
   },
   {
@@ -2539,7 +2539,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Barbed_Spear"
   },
   {
@@ -4271,7 +4271,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Leader%27s_Comfort"
   },
   {
@@ -4516,7 +4516,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mending_Refrain"
   },
   {
@@ -4809,7 +4809,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Aggression"
   },
   {
@@ -5028,7 +5028,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Synergy"
   },
   {
@@ -5547,7 +5547,7 @@
     "recharge": 6,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spear_of_Lightning"
   },
   {
@@ -5938,7 +5938,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Nightfall",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Throw"
   },
   {

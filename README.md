@@ -31,6 +31,8 @@ npx supabase link --project-ref <project-id>
 
 ### 3. Run migrations
 
+> **Note for maintainers:** If you've updated JSON data files, regenerate migrations first with `node scripts/generate-seed-migrations.js`
+
 ```bash
 npx supabase db push
 ```

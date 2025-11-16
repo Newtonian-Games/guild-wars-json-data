@@ -166,7 +166,7 @@
     "recharge": 6,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Fear_Me!%22"
   },
   {
@@ -190,7 +190,7 @@
     "recharge": 45,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22"
   },
   {
@@ -361,7 +361,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Survive!%22"
   },
   {
@@ -572,7 +572,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Shields_Up!%22"
   },
   {
@@ -669,7 +669,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22To_the_Limit!%22"
   },
   {
@@ -791,7 +791,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22"
   },
   {
@@ -1157,7 +1157,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Rake"
   },
   {
@@ -1206,7 +1206,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Twist"
   },
   {
@@ -1304,7 +1304,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Balanced_Stance"
   },
   {
@@ -1646,7 +1646,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense"
   },
   {
@@ -1744,7 +1744,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Strike"
   },
   {
@@ -1939,7 +1939,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Counter_Blow"
   },
   {
@@ -2256,7 +2256,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Crushing_Blow"
   },
   {
@@ -2305,7 +2305,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Cyclone_Axe"
   },
   {
@@ -2524,7 +2524,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Defensive_Stance"
   },
   {
@@ -2964,7 +2964,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dismember"
   },
   {
@@ -3012,7 +3012,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Blow"
   },
   {
@@ -3231,7 +3231,7 @@
     "recharge": 7,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Blow"
   },
   {
@@ -3377,7 +3377,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Endure_Pain"
   },
   {
@@ -3718,7 +3718,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike"
   },
   {
@@ -3864,7 +3864,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Final_Thrust"
   },
   {
@@ -3986,7 +3986,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Flurry"
   },
   {
@@ -4107,7 +4107,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Frenzy"
   },
   {
@@ -4278,7 +4278,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Gash"
   },
   {
@@ -4399,7 +4399,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep"
   },
   {
@@ -4423,7 +4423,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hammer_Bash"
   },
   {
@@ -4472,7 +4472,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Hamstring"
   },
   {
@@ -4594,7 +4594,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Signet"
   },
   {
@@ -4765,7 +4765,7 @@
     "recharge": 6,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Blow"
   },
   {
@@ -5252,7 +5252,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Blow"
   },
   {
@@ -5423,7 +5423,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Blow"
   },
   {
@@ -5521,7 +5521,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Power_Attack"
   },
   {
@@ -5668,7 +5668,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Strike"
   },
   {
@@ -5766,7 +5766,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pure_Strike"
   },
   {
@@ -6109,7 +6109,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Savage_Slash"
   },
   {
@@ -6182,7 +6182,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Seeking_Blade"
   },
   {
@@ -6304,7 +6304,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sever_Artery"
   },
   {
@@ -6353,7 +6353,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Bash"
   },
   {
@@ -6402,7 +6402,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Stance"
   },
   {
@@ -6866,7 +6866,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Sprint"
   },
   {
@@ -6915,7 +6915,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Blow"
   },
   {
@@ -7207,7 +7207,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Swift_Chop"
   },
   {
@@ -7757,7 +7757,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Blow"
   },
   {

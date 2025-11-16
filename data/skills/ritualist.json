@@ -1236,7 +1236,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Brutal_Weapon"
   },
   {
@@ -1382,7 +1382,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Channeled_Strike"
   },
   {
@@ -1577,7 +1577,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Cruel_Was_Daoshen"
   },
   {
@@ -2525,7 +2525,7 @@
     "recharge": 45,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance"
   },
   {
@@ -3934,7 +3934,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Generous_Was_Tsungrai"
   },
   {
@@ -4885,7 +4885,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pain"
   },
   {
@@ -5055,7 +5055,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Painful_Bond"
   },
   {
@@ -6148,7 +6148,7 @@
     "recharge": 6,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Resilient_Weapon"
   },
   {
@@ -6561,7 +6561,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong"
   },
   {
@@ -7925,7 +7925,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Rift"
   },
   {
@@ -8720,7 +8720,7 @@
     "recharge": 45,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Union"
   },
   {
@@ -8992,7 +8992,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vengeful_Weapon"
   },
   {
@@ -9845,7 +9845,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Factions",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Warding"
   },
   {

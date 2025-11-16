@@ -363,7 +363,7 @@
     "recharge": 25,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Aura"
   },
   {
@@ -436,7 +436,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Spirit"
   },
   {
@@ -485,7 +485,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Bane_Signet"
   },
   {
@@ -534,7 +534,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Banish"
   },
   {
@@ -583,7 +583,7 @@
     "recharge": 2,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blessed_Aura"
   },
   {
@@ -681,7 +681,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Blessed_Signet"
   },
   {
@@ -900,7 +900,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Contemplation_of_Purity"
   },
   {
@@ -1242,7 +1242,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Divine_Boon"
   },
   {
@@ -1389,7 +1389,7 @@
     "recharge": 60,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Divine_Spirit"
   },
   {
@@ -1438,7 +1438,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Draw_Conditions"
   },
   {
@@ -1511,7 +1511,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Kiss"
   },
   {
@@ -1926,7 +1926,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Heal_Area"
   },
   {
@@ -1975,7 +1975,7 @@
     "recharge": 3,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Heal_Other"
   },
   {
@@ -2024,7 +2024,7 @@
     "recharge": 2,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Heal_Party"
   },
   {
@@ -2220,7 +2220,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Breeze"
   },
   {
@@ -2562,7 +2562,7 @@
     "recharge": 25,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Seed"
   },
   {
@@ -2611,7 +2611,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Touch"
   },
   {
@@ -2855,7 +2855,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Holy_Veil"
   },
   {
@@ -3001,7 +3001,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Infuse_Health"
   },
   {
@@ -3344,7 +3344,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Life_Attunement"
   },
   {
@@ -3686,7 +3686,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Live_Vicariously"
   },
   {
@@ -3808,7 +3808,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mend_Ailment"
   },
   {
@@ -3857,7 +3857,7 @@
     "recharge": 2,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mend_Condition"
   },
   {
@@ -3906,7 +3906,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Mending"
   },
   {
@@ -4004,7 +4004,7 @@
     "recharge": 2,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Orison_of_Healing"
   },
   {
@@ -4053,7 +4053,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Pacifism"
   },
   {
@@ -4322,7 +4322,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Protective_Spirit"
   },
   {
@@ -4346,7 +4346,7 @@
     "recharge": 20,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Purge_Conditions"
   },
   {
@@ -4541,7 +4541,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Rebirth"
   },
   {
@@ -4614,7 +4614,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Remove_Hex"
   },
   {
@@ -4882,7 +4882,7 @@
     "recharge": 8,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect"
   },
   {
@@ -4980,7 +4980,7 @@
     "recharge": null,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Retribution"
   },
   {
@@ -5078,7 +5078,7 @@
     "recharge": 2,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Reversal_of_Fortune"
   },
   {
@@ -5249,7 +5249,7 @@
     "recharge": 5,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Scourge_Healing"
   },
   {
@@ -5839,7 +5839,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Shielding_Hands"
   },
   {
@@ -6302,7 +6302,7 @@
     "recharge": 10,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Smite"
   },
   {
@@ -6400,7 +6400,7 @@
     "recharge": 12,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Smite_Hex"
   },
   {
@@ -6961,7 +6961,7 @@
     "recharge": 15,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Strength_of_Honor"
   },
   {
@@ -7156,7 +7156,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Symbol_of_Wrath"
   },
   {
@@ -7253,7 +7253,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vengeance"
   },
   {
@@ -7302,7 +7302,7 @@
     "recharge": 4,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vigorous_Spirit"
   },
   {
@@ -7351,7 +7351,7 @@
     "recharge": 2,
     "is_elite": false,
     "campaign": "Prophecies",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Vital_Blessing"
   },
   {
@@ -7814,7 +7814,7 @@
     "recharge": 30,
     "is_elite": false,
     "campaign": "Core",
-    "limitation": "quest",
+    "limitation": null,
     "wiki_url": "https://wiki.guildwars.com/wiki/Zealot%27s_Fire"
   },
   {
