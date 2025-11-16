@@ -365,13 +365,13 @@ def main():
 
     args = parser.parse_args()
 
-    # Load skills/elementalist.json
-    skills_path = '../data/skills/elementalist.json'
+    # Load skills/ritualist.json
+    skills_path = '../data/skills/ritualist.json'
     try:
         with open(skills_path, 'r') as f:
             skills = json.load(f)
     except Exception as e:
-        print(f"ERROR: Could not load skills/elementalist.json: {e}")
+        print(f"ERROR: Could not load skills/ritualist.json: {e}")
         return 1
 
     print(f"Loaded {len(skills)} skills")
@@ -450,7 +450,7 @@ def main():
                     with open(skills_path, 'w') as f:
                         json.dump(skills, f, indent=2)
                 except Exception as e:
-                    print(f"  ERROR: Could not save skills/elementalist.json: {e}")
+                    print(f"  ERROR: Could not save skills/ritualist.json: {e}")
                     return 1
         elif "skipping" in message.lower():
             print(f"  - {message}")

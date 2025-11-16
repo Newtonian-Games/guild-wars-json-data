@@ -2,7 +2,7 @@
   {
     "name": "\"Charge!\"",
     "icon": "",
-    "description": "Elite Shout. (5...11...13 seconds.) Allies in earshot move 33% faster. Initial effect: these allies lose the Crippled condition.",
+    "description": "Elite Shout. ({{Duration}} seconds.) Allies in earshot move 33% faster. Initial effect: these allies lose the Crippled condition.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -75,7 +75,7 @@
   {
     "name": "\"Fear Me!\"",
     "icon": "",
-    "description": "Shout. (1...12...15 second[s].) You have +5...25...30% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose 1...3...4 Energy.",
+    "description": "Shout. ({{Duration}} second[s].) You have +{{CriticalPercentChance}}% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose {{EnergyLoss}} Energy.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -220,7 +220,7 @@
   {
     "name": "\"I Meant to Do That!\"",
     "icon": "",
-    "description": "Shout. You gain 1...4...5 strikes of adrenaline if you are knocked-down.",
+    "description": "Shout. You gain {{AdrenalineGain}} strikes of adrenaline if you are knocked-down.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -269,7 +269,7 @@
   {
     "name": "\"I Will Avenge You!\"",
     "icon": "",
-    "description": "Shout. You have +3...6...7 Health regeneration and attack 25% faster (10 seconds for each dead ally).",
+    "description": "Shout. You have +{{HealthRegeneration}} Health regeneration and attack 25% faster (10 seconds for each dead ally).",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -318,7 +318,7 @@
   {
     "name": "\"I Will Survive!\"",
     "icon": "",
-    "description": "Shout. (5...10...11 seconds.) You have +3 Health regeneration for each condition on you.",
+    "description": "Shout. ({{Duration}} seconds.) You have +3 Health regeneration for each condition on you.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -367,7 +367,7 @@
   {
     "name": "\"None Shall Pass!\"",
     "icon": "",
-    "description": "Shout. Knocks down all nearby moving foes. Recharges 1...7...8 second[s] faster for each affected foe (maximum 25 seconds).",
+    "description": "Shout. Knocks down all nearby moving foes. Recharges {{FasterRechargePerFoe}} second[s] faster for each affected foe (maximum 25 seconds).",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -440,7 +440,7 @@
   {
     "name": "\"Retreat!\"",
     "icon": "",
-    "description": "Shout. (5...10...11 seconds.) Party members in earshot move 33% faster. No effect unless there are dead allies within earshot.",
+    "description": "Shout. ({{Duration}} seconds.) Party members in earshot move 33% faster. No effect unless there are dead allies within earshot.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -489,7 +489,7 @@
   {
     "name": "\"Save Yourselves!\"",
     "icon": "",
-    "description": "Shout. (4...6 seconds.) All other party members gain +100 armor.",
+    "description": "Shout. ({{Duration}} seconds.) All other party members gain +100 armor.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -529,7 +529,7 @@
   {
     "name": "\"Shields Up!\"",
     "icon": "",
-    "description": "Shout. (5...10...11 seconds.) Party members in earshot have +60 armor against projectile attacks.",
+    "description": "Shout. ({{Duration}} seconds.) Party members in earshot have +60 armor against projectile attacks.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -578,7 +578,7 @@
   {
     "name": "\"To the Limit!\"",
     "icon": "",
-    "description": "Shout. (10...18...20 seconds.) You have +10...50...60 maximum Health. Initial effect: you gain one strike of adrenaline for each foe within earshot (maximum 1...5...6).",
+    "description": "Shout. ({{Duration}} seconds.) You have +{{MaxHealth}} maximum Health. Initial effect: you gain one strike of adrenaline for each foe within earshot (maximum {{MaxFoes}}).",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -675,7 +675,7 @@
   {
     "name": "\"Victory Is Mine!\"",
     "icon": "",
-    "description": "Elite Shout. You gain 10...56...68 Health and 3...6...7 Energy for each condition on target foe.",
+    "description": "Elite Shout. You gain {{HealthGain}} Health and {{EnergyGain}} Energy for each condition on target foe.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -748,7 +748,7 @@
   {
     "name": "\"Watch Yourself!\"",
     "icon": "",
-    "description": "Shout. (10 seconds.) Party members in earshot have +5...21...25 armor. Ends after 10 incoming attacks.",
+    "description": "Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after 10 incoming attacks.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -797,7 +797,7 @@
   {
     "name": "\"Watch Yourself!\" (PvP)",
     "icon": "",
-    "description": "Shout. (10 seconds.) Party members in earshot have +5...21...25 armor. Ends after 1...3...3 incoming attack[s].",
+    "description": "Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after {{Attacks}} incoming attack[s].",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -870,7 +870,7 @@
   {
     "name": "\"You Will Die!\"",
     "icon": "",
-    "description": "Shout. You gain 1...3...3 strike[s] of adrenaline. No effect unless target foe is under 50% Health.",
+    "description": "Shout. You gain {{AdrenalineGain}} strike[s] of adrenaline. No effect unless target foe is under 50% Health.",
     "type": "Shout",
     "profession": "Warrior",
     "attribute": {
@@ -943,7 +943,7 @@
   {
     "name": "Agonizing Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +5...17...20 damage. Interrupts an action if target foe has a Deep Wound.",
+    "description": "Axe Attack. Deals +{{Damage}} damage. Interrupts an action if target foe has a Deep Wound.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -992,7 +992,7 @@
   {
     "name": "Auspicious Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +5...17...20 damage and you gain 3...7...8 Energy. Unblockable if target foe is Weakened.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage and you gain {{EnergyGain}} Energy. Unblockable if target foe is Weakened.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1065,7 +1065,7 @@
   {
     "name": "Auspicious Parry",
     "icon": "",
-    "description": "Elite Stance. (8 seconds.) Blocks one attack. End effect: you gain 1...3...4 strike[s] of adrenaline.",
+    "description": "Elite Stance. (8 seconds.) Blocks one attack. End effect: you gain {{AdrenalineGain}} strike[s] of adrenaline.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1114,7 +1114,7 @@
   {
     "name": "Axe Rake",
     "icon": "",
-    "description": "Axe Attack. Deals +1...8...10 damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound.",
+    "description": "Axe Attack. Deals +{{Damage}} damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1163,7 +1163,7 @@
   {
     "name": "Axe Twist",
     "icon": "",
-    "description": "Axe Attack. Deals +1...16...20 damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound.",
+    "description": "Axe Attack. Deals +{{Damage}} damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1212,7 +1212,7 @@
   {
     "name": "Backbreaker",
     "icon": "",
-    "description": "Elite Hammer Attack. Deals +1...16...20 damage. Causes knockdown. Knockdown lasts 4 seconds with Strength 8 or higher.",
+    "description": "Elite Hammer Attack. Deals +{{Damage}} damage. Causes knockdown. Knockdown lasts 4 seconds with Strength 8 or higher.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1261,7 +1261,7 @@
   {
     "name": "Balanced Stance",
     "icon": "",
-    "description": "Stance. (8...18...20 seconds.) You cannot be knocked-down and do not take extra damage from critical hits.",
+    "description": "Stance. ({{Duration}} seconds.) You cannot be knocked-down and do not take extra damage from critical hits.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1310,7 +1310,7 @@
   {
     "name": "Barbarous Slice",
     "icon": "",
-    "description": "Sword Attack. Deals +5...25...30 damage. Inflicts Bleeding condition (5...13...15 seconds) if you are not in a stance.",
+    "description": "Sword Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if you are not in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1383,7 +1383,7 @@
   {
     "name": "Battle Rage",
     "icon": "",
-    "description": "Elite Stance. (5...17...20 seconds.) You move 33% faster and gain double adrenaline from your attacks. Ends if you use any non-adrenal skills.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You move 33% faster and gain double adrenaline from your attacks. Ends if you use any non-adrenal skills.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1432,7 +1432,7 @@
   {
     "name": "Belly Smash",
     "icon": "",
-    "description": "Hammer Attack. Inflicts Blindness condition to adjacent foes (3...6...7 seconds) if target foe is knocked down.",
+    "description": "Hammer Attack. Inflicts Blindness condition to adjacent foes ({{BlindDuration}} seconds) if target foe is knocked down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1481,7 +1481,7 @@
   {
     "name": "Berserker Stance",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You attack 33% faster and gain 50% more adrenaline. Ends if you use a skill.",
+    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster and gain 50% more adrenaline. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1530,7 +1530,7 @@
   {
     "name": "Body Blow",
     "icon": "",
-    "description": "Melee Attack. Deals +10...34...40 damage. Inflicts Deep Wound (0...12...15 second[s]) if target foe has Cracked Armor.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe has Cracked Armor.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1603,7 +1603,7 @@
   {
     "name": "Bonetti's Defense",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You have 75% chance to block. Gain 5 Energy for each melee attack blocked. Ends if you use a skill.",
+    "description": "Stance. ({{Duration}} seconds.) You have 75% chance to block. Gain 5 Energy for each melee attack blocked. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1652,7 +1652,7 @@
   {
     "name": "Bull's Charge",
     "icon": "",
-    "description": "Elite Stance. (5...10...11 seconds.) You move 33% faster. Causes knock-down if you hit a moving foe in melee. Ends if you use a skill.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You move 33% faster. Causes knock-down if you hit a moving foe in melee. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1701,7 +1701,7 @@
   {
     "name": "Bull's Strike",
     "icon": "",
-    "description": "Melee Attack. Deals +5...25...30 damage and causes knock-down if target foe is moving.",
+    "description": "Melee Attack. Deals +{{Damage}} damage and causes knock-down if target foe is moving.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1750,7 +1750,7 @@
   {
     "name": "Burst of Aggression",
     "icon": "",
-    "description": "Stance. (2...8...10 seconds.) You attack 33% faster. End effect: lose all adrenaline.",
+    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster. End effect: lose all adrenaline.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1799,7 +1799,7 @@
   {
     "name": "Charging Strike",
     "icon": "",
-    "description": "Elite Stance. (1...8...10 second[s].) You move 33% faster and deal +10...34...40 damage with your next melee hit. Ends when you hit or if you use a skill.",
+    "description": "Elite Stance. ({{Duration}} second[s].) You move 33% faster and deal +{{Damage}} damage with your next melee hit. Ends when you hit or if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -1872,7 +1872,7 @@
   {
     "name": "Cleave",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +10...26...30 damage.",
+    "description": "Elite Axe Attack. Deals +{{Damage}} damage.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -1945,7 +1945,7 @@
   {
     "name": "Counterattack",
     "icon": "",
-    "description": "Melee Attack. Deals +5...29...35 damage. You gain 2...5...6 Energy if target foe is attacking.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if target foe is attacking.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2018,7 +2018,7 @@
   {
     "name": "Crippling Slash",
     "icon": "",
-    "description": "Elite Sword Attack. Inflicts Crippled condition (5...13...15 seconds) and Bleeding condition (10...22...25 seconds).",
+    "description": "Elite Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds) and Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2091,7 +2091,7 @@
   {
     "name": "Critical Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +5...17...20 damage. Interrupts an action if you land a critical hit.",
+    "description": "Axe Attack. Deals +{{Damage}} damage. Interrupts an action if you land a critical hit.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2140,7 +2140,7 @@
   {
     "name": "Crude Swing",
     "icon": "",
-    "description": "Hammer Attack. Attack all adjacent foes for +1...16...20 damage.",
+    "description": "Hammer Attack. Attack all adjacent foes for +{{Damage}} damage.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2189,7 +2189,7 @@
   {
     "name": "Crushing Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +1...16...20 damage. Inflicts Deep Wound condition if target foe is knocked-down (5...17...20 seconds).",
+    "description": "Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition if target foe is knocked-down ({{DeepWoundDuration}} seconds).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2262,7 +2262,7 @@
   {
     "name": "Cyclone Axe",
     "icon": "",
-    "description": "Axe Attack. Deals +4...10...12 damage to all foes adjacent to you.",
+    "description": "Axe Attack. Deals +{{Damage}} damage to all foes adjacent to you.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2311,7 +2311,7 @@
   {
     "name": "Deadly Riposte",
     "icon": "",
-    "description": "Skill. (8 seconds). You block the next melee attack and your attacker takes 15...75...90 damage. Inflicts Bleeding condition. (3...21...25 seconds). No effect unless you have a sword equipped.",
+    "description": "Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. Inflicts Bleeding condition. ({{Bleeding}} seconds). No effect unless you have a sword equipped.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -2384,7 +2384,7 @@
   {
     "name": "Decapitate",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +5...41...50 damage. Inflicts Deep Wound condition (5...17...20 seconds). Automatic critical hit. You lose all adrenaline and Energy.",
+    "description": "Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). Automatic critical hit. You lose all adrenaline and Energy.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2457,7 +2457,7 @@
   {
     "name": "Defensive Stance",
     "icon": "",
-    "description": "Stance. (1...4...5 second[s].) You have 75% chance to block. End effect: gain one adrenaline for each melee attack skill you have (maximum 0...3...4).",
+    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. End effect: gain one adrenaline for each melee attack skill you have (maximum {{MaximumAdrenalineGain}}).",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2530,7 +2530,7 @@
   {
     "name": "Deflect Arrows",
     "icon": "",
-    "description": "Stance. (1...5...6 second[s].) You have 75% chance to block attacks. Adjacent foes suffer Bleeding (5...13...15 seconds) when you block a projectile attack.",
+    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block attacks. Adjacent foes suffer Bleeding ({{BleedingDuration}} seconds) when you block a projectile attack.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2603,7 +2603,7 @@
   {
     "name": "Defy Pain",
     "icon": "",
-    "description": "Elite Skill. (20 seconds.) You have +90...258...300 maximum Health, +20 armor, and take 1...8...10 less damage.",
+    "description": "Elite Skill. (20 seconds.) You have +{{MaximumHealth}} maximum Health, +20 armor, and take {{DamageReduction}} less damage.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -2676,7 +2676,7 @@
   {
     "name": "Defy Pain (PvP)",
     "icon": "",
-    "description": "Elite Stance. (20 seconds.) You have +90...258...300 maximum Health and +20 armor.",
+    "description": "Elite Stance. (20 seconds.) You have +{{MaximumHealth}} maximum Health and +20 armor.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2725,7 +2725,7 @@
   {
     "name": "Desperation Blow",
     "icon": "",
-    "description": "Melee Attack. Deals +10...34...40 damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2774,7 +2774,7 @@
   {
     "name": "Devastating Hammer",
     "icon": "",
-    "description": "Elite Hammer Attack. Causes knock-down. Inflicts Weakness condition (5...17...20 seconds).",
+    "description": "Elite Hammer Attack. Causes knock-down. Inflicts Weakness condition ({{WeaknessDuration}} seconds).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2823,7 +2823,7 @@
   {
     "name": "Disarm",
     "icon": "",
-    "description": "Sword Attack. Interrupts target foe. Interruption effect: disables this foe's attack skills (0...2...3 second[s]) if that action was an attack.",
+    "description": "Sword Attack. Interrupts target foe. Interruption effect: disables this foe's attack skills ({{DisabledDuration}} second[s]) if that action was an attack.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -2872,7 +2872,7 @@
   {
     "name": "Disciplined Stance",
     "icon": "",
-    "description": "Stance. (1...3...4 second[s].) You have 75% chance to block and +10 armor. Ends if you use an adrenal skill.",
+    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block and +10 armor. Ends if you use an adrenal skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -2921,7 +2921,7 @@
   {
     "name": "Dismember",
     "icon": "",
-    "description": "Axe Attack. Inflicts Deep Wound condition (5...17...20 seconds).",
+    "description": "Axe Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds).",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3042,7 +3042,7 @@
   {
     "name": "Dolyak Signet",
     "icon": "",
-    "description": "Signet. (8...18...20 seconds.) You have +10...34...40 armor and cannot be knocked-down. You move 75% slower.",
+    "description": "Signet. ({{Duration}} seconds.) You have +{{ArmorRating}} armor and cannot be knocked-down. You move 75% slower.",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -3115,7 +3115,7 @@
   {
     "name": "Dragon Slash",
     "icon": "",
-    "description": "Elite Sword Attack. Deals +10...34...40 damage. You gain 1...4...5 strike[s] of adrenaline if it hits.",
+    "description": "Elite Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} strike[s] of adrenaline if it hits.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3188,7 +3188,7 @@
   {
     "name": "Drunken Blow",
     "icon": "",
-    "description": "Melee Attack. Deals +10...34...40 damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3237,7 +3237,7 @@
   {
     "name": "Dwarven Battle Stance",
     "icon": "",
-    "description": "Elite Stance. (5...10...11 seconds.) You attack 33% faster, you gain +40 armor, and your attack skills interrupt actions. No effect unless you have a hammer equipped.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You attack 33% faster, you gain +40 armor, and your attack skills interrupt actions. No effect unless you have a hammer equipped.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -3310,7 +3310,7 @@
   {
     "name": "Endure Pain",
     "icon": "",
-    "description": "Skill. (7...16...18 seconds.) You have +90...258...300 maximum Health.",
+    "description": "Skill. ({{Duration}} seconds.) You have +{{MaximumHealth}} maximum Health.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -3383,7 +3383,7 @@
   {
     "name": "Enraged Smash",
     "icon": "",
-    "description": "Elite Hammer Attack. Gives you 1...3...4 strike[s] of adrenaline if you hit. Deals +10...34...40 damage and causes knockdown if target foe was moving.",
+    "description": "Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3456,7 +3456,7 @@
   {
     "name": "Enraged Smash (PvP)",
     "icon": "",
-    "description": "Elite Hammer Attack. Gives you 1...3...4 strike[s] of adrenaline if you hit. Deals +10...34...40 damage and causes knockdown if target foe was moving.",
+    "description": "Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3529,7 +3529,7 @@
   {
     "name": "Enraging Charge",
     "icon": "",
-    "description": "Stance. (5...13...15 seconds.) You move 25% faster. Gain +0...2...3 adrenaline on your next melee attack. Ends after your next hit.",
+    "description": "Stance. ({{Duration}} seconds.) You move 25% faster. Gain +{{AdrenalineGain}} adrenaline on your next melee attack. Ends after your next hit.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -3602,7 +3602,7 @@
   {
     "name": "Eviscerate",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +1...25...31 damage. Inflicts Deep Wound condition (5...17...20 seconds).",
+    "description": "Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{Duration}} seconds).",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3675,7 +3675,7 @@
   {
     "name": "Executioner's Strike",
     "icon": "",
-    "description": "Axe Attack. Deals +10...34...40 damage.",
+    "description": "Axe Attack. Deals +{{Damage}} damage.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3724,7 +3724,7 @@
   {
     "name": "Fierce Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +5...17...20 damage. Inflicts Deep Wound (1...7...8 second[s]) if target foe is Weakened.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe is Weakened.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3797,7 +3797,7 @@
   {
     "name": "Final Thrust",
     "icon": "",
-    "description": "Sword Attack. Deals +1...32...40 damage. Deals +1...32...40 more damage if target foe is below 50% Health. Lose all adrenaline.",
+    "description": "Sword Attack. Deals +{{BonusDamage}} damage. Deals +{{BonusDamage}} more damage if target foe is below 50% Health. Lose all adrenaline.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -3870,7 +3870,7 @@
   {
     "name": "Flail",
     "icon": "",
-    "description": "Stance. (1...12...15 second[s].) You attack 33% faster. You move 33% slower.",
+    "description": "Stance. ({{Duration}} second[s].) You attack 33% faster. You move 33% slower.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -3919,7 +3919,7 @@
   {
     "name": "Flourish",
     "icon": "",
-    "description": "Elite Skill. Recharges your attack skills. You gain 2...6...7 Energy for each skill recharged.",
+    "description": "Elite Skill. Recharges your attack skills. You gain {{EnergyGain}} Energy for each skill recharged.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -3992,7 +3992,7 @@
   {
     "name": "Forceful Blow",
     "icon": "",
-    "description": "Elite Hammer Attack. Deals +10...26...30 damage. Remove target foe's stance. Inflicts Weakness condition (5...17...20 seconds). Unblockable.",
+    "description": "Elite Hammer Attack. Deals +{{Damage}} damage. Remove target foe's stance. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Unblockable.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4113,7 +4113,7 @@
   {
     "name": "Furious Axe",
     "icon": "",
-    "description": "Axe Attack. Deals +5...29...35 damage. Gives you 3 strikes of adrenaline if blocked.",
+    "description": "Axe Attack. Deals +{{Damage}} damage. Gives you 3 strikes of adrenaline if blocked.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4162,7 +4162,7 @@
   {
     "name": "Galrath Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +1...32...40 damage.",
+    "description": "Sword Attack. Deals +{{Damage}} damage.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4211,7 +4211,7 @@
   {
     "name": "Gash",
     "icon": "",
-    "description": "Sword Attack. Deals +5...17...20 damage and inflicts Deep Wound condition (5...17...20 seconds) if your target is Bleeding.",
+    "description": "Sword Attack. Deals +{{Damage}} damage and inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if your target is Bleeding.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4284,7 +4284,7 @@
   {
     "name": "Gladiator's Defense",
     "icon": "",
-    "description": "Elite Stance. (5...10...11 seconds.) You have 75% chance to block. Your attacker takes 5...29...35 damage whenever you block a melee attack this way.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You have 75% chance to block. Your attacker takes {{ArmorignoringDamage}} damage whenever you block a melee attack this way.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -4381,7 +4381,7 @@
   {
     "name": "Griffon's Sweep",
     "icon": "",
-    "description": "Melee Attack. Deals +5...17...20 damage. Causes knock-down and deals 10...29...34 damage if blocked.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4429,7 +4429,7 @@
   {
     "name": "Hamstring",
     "icon": "",
-    "description": "Sword Attack. Inflicts Crippled condition (3...13...15 seconds).",
+    "description": "Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds).",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4478,7 +4478,7 @@
   {
     "name": "Headbutt",
     "icon": "",
-    "description": "Elite Touch Skill. Deals 40...88...100 damage. You are Dazed (5...17...20 seconds).",
+    "description": "Elite Touch Skill. Deals {{Damage}} damage. You are Dazed ({{DazedDuration}} seconds).",
     "type": "Touch Skill",
     "profession": "Warrior",
     "attribute": {
@@ -4551,7 +4551,7 @@
   {
     "name": "Healing Signet",
     "icon": "",
-    "description": "Signet. You gain 82...154...172 Health. You have -40 armor while using this skill.",
+    "description": "Signet. You gain {{Healing}} Health. You have -40 armor while using this skill.",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -4600,7 +4600,7 @@
   {
     "name": "Heavy Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +1...24...30 damage and causes knock-down if target foe is Weakened. Lose all adrenaline.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage and causes knock-down if target foe is Weakened. Lose all adrenaline.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4649,7 +4649,7 @@
   {
     "name": "Hundred Blades",
     "icon": "",
-    "description": "Elite Skill. (15 seconds.) Deals 10...22...25 slashing damage to all adjacent foes whenever you attack with a sword.",
+    "description": "Elite Skill. (15 seconds.) Deals {{SlashingDamage}} slashing damage to all adjacent foes whenever you attack with a sword.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -4698,7 +4698,7 @@
   {
     "name": "Irresistible Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +5...17...20 damage. Deals 5...17...20 damage and causes knock-down if blocked.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and causes knock-down if blocked.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4771,7 +4771,7 @@
   {
     "name": "Jaizhenju Strike",
     "icon": "",
-    "description": "Sword Attack. Deals +1...24...30 damage. Unblockable unless you are in a stance.",
+    "description": "Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4844,7 +4844,7 @@
   {
     "name": "Knee Cutter",
     "icon": "",
-    "description": "Sword Attack. You gain 2...6...7 Energy and 1...3...3 adrenaline if target foe is Crippled.",
+    "description": "Sword Attack. You gain {{EnergyGain}} Energy and {{AdrenalineGain}} adrenaline if target foe is Crippled.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4917,7 +4917,7 @@
   {
     "name": "Lacerating Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +5...17...20 damage. Inflicts Bleeding condition (5...17...20 seconds) if target foe is knocked-down.",
+    "description": "Axe Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{Bleeding}} seconds) if target foe is knocked-down.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -4990,7 +4990,7 @@
   {
     "name": "Leviathan's Sweep",
     "icon": "",
-    "description": "Melee Attack. Deals +5...17...20 damage. Causes knock-down and deals 10...29...34 damage if blocked.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5063,7 +5063,7 @@
   {
     "name": "Lion's Comfort",
     "icon": "",
-    "description": "Skill. You are healed for 50...98...110 and gain 0...2...3 strike[s] of adrenaline. Disables your signets (12 seconds).",
+    "description": "Skill. You are healed for {{Healing}} and gain {{AdrenalineGain}} strike[s] of adrenaline. Disables your signets (12 seconds).",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -5136,7 +5136,7 @@
   {
     "name": "Magehunter Strike",
     "icon": "",
-    "description": "Elite Melee Attack. Deals +5...17...20 damage. Unblockable if target foe is enchanted.",
+    "description": "Elite Melee Attack. Deals +{{Damage}} damage. Unblockable if target foe is enchanted.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5209,7 +5209,7 @@
   {
     "name": "Mighty Blow",
     "icon": "",
-    "description": "Hammer Attack. Deals +10...34...40 damage.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5258,7 +5258,7 @@
   {
     "name": "Mokele Smash",
     "icon": "",
-    "description": "Hammer Attack. Deals +5...17...20 damage and you gain 2 strikes of adrenaline.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage and you gain 2 strikes of adrenaline.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5307,7 +5307,7 @@
   {
     "name": "Overbearing Smash",
     "icon": "",
-    "description": "Hammer Attack. Deals +1...16...20 damage. If target foe is knocked down, they are Dazed (1...7...8 second[s]).",
+    "description": "Hammer Attack. Deals +{{Damage}} damage. If target foe is knocked down, they are Dazed ({{DazedDuration}} second[s]).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5380,7 +5380,7 @@
   {
     "name": "Penetrating Blow",
     "icon": "",
-    "description": "Axe Attack. Deals +5...17...20 damage. 20% armor penetration.",
+    "description": "Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5429,7 +5429,7 @@
   {
     "name": "Penetrating Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +5...17...20 damage. 20% armor penetration.",
+    "description": "Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5478,7 +5478,7 @@
   {
     "name": "Power Attack",
     "icon": "",
-    "description": "Melee Attack. Deals +10...34...40 damage.",
+    "description": "Melee Attack. Deals +{{Damage}} damage.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5527,7 +5527,7 @@
   {
     "name": "Primal Rage",
     "icon": "",
-    "description": "Elite Stance. (1...12...15 second[s].) You attack 33% faster and move 25% faster. You take double damage.",
+    "description": "Elite Stance. ({{Duration}} second[s].) You attack 33% faster and move 25% faster. You take double damage.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -5576,7 +5576,7 @@
   {
     "name": "Protector's Defense",
     "icon": "",
-    "description": "Skill. (5...10...11 seconds.) Allies adjacent to you have 75% chance to block. Ends if you move.",
+    "description": "Skill. ({{Duration}} seconds.) Allies adjacent to you have 75% chance to block. Ends if you move.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -5625,7 +5625,7 @@
   {
     "name": "Protector's Strike",
     "icon": "",
-    "description": "Melee Attack. Deals +10...34...40 damage if target is moving.",
+    "description": "Melee Attack. Deals +{{Damage}} damage if target is moving.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5674,7 +5674,7 @@
   {
     "name": "Pulverizing Smash",
     "icon": "",
-    "description": "Hammer Attack. Inflicts Weakness and Deep Wound conditions (5...17...20 seconds) if target foe is knocked-down.",
+    "description": "Hammer Attack. Inflicts Weakness and Deep Wound conditions ({{WeaknessAndDeepWoundDuration}} seconds) if target foe is knocked-down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5723,7 +5723,7 @@
   {
     "name": "Pure Strike",
     "icon": "",
-    "description": "Sword Attack. Deals +1...24...30 damage. Unblockable unless you are in a stance.",
+    "description": "Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5772,7 +5772,7 @@
   {
     "name": "Quivering Blade",
     "icon": "",
-    "description": "Elite Sword Attack. Deals +10...34...40 damage. Inflicts Dazed condition (5 seconds) if target foe was moving.",
+    "description": "Elite Sword Attack. Deals +{{Damage}} damage. Inflicts Dazed condition (5 seconds) if target foe was moving.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5821,7 +5821,7 @@
   {
     "name": "Rage of the Ntouka",
     "icon": "",
-    "description": "Elite Skill. You gain 1...6...7 adrenaline. For 10 seconds, adrenal skills have a 5 second recharge when used.",
+    "description": "Elite Skill. You gain {{AdrenalineGain}} adrenaline. For 10 seconds, adrenal skills have a 5 second recharge when used.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -5870,7 +5870,7 @@
   {
     "name": "Renewing Smash",
     "icon": "",
-    "description": "Hammer Attack. Deals +10...34...40 damage. You gain 3 Energy and this attack recharges instantly if target foe was knocked down.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage. You gain 3 Energy and this attack recharges instantly if target foe was knocked down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5919,7 +5919,7 @@
   {
     "name": "Renewing Smash (PvP)",
     "icon": "",
-    "description": "Hammer Attack. Deals +5...17...20 damage. You gain 3 energy and this attack recharges instantly if target foe was knocked down.",
+    "description": "Hammer Attack. Deals +{{Damage}} damage. You gain 3 energy and this attack recharges instantly if target foe was knocked down.",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -5968,7 +5968,7 @@
   {
     "name": "Riposte",
     "icon": "",
-    "description": "Skill. (8 seconds). You block the next melee attack and your attacker takes 20...68...80 damage. No effect unless you have a sword equipped.",
+    "description": "Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. No effect unless you have a sword equipped.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -6017,7 +6017,7 @@
   {
     "name": "Rush",
     "icon": "",
-    "description": "Stance. (8...18...20 seconds.) You move 25% faster.",
+    "description": "Stance. ({{Duration}} seconds.) You move 25% faster.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6066,7 +6066,7 @@
   {
     "name": "Savage Slash",
     "icon": "",
-    "description": "Sword Attack. Interrupts an action. Interruption effect: deals +1...32...40 damage if action was a spell.",
+    "description": "Sword Attack. Interrupts an action. Interruption effect: deals +{{Damage}} damage if action was a spell.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6115,7 +6115,7 @@
   {
     "name": "Seeking Blade",
     "icon": "",
-    "description": "Sword Attack. Deals +1...16...20 damage. Deals 1...16...20 damage and inflicts Bleeding condition (25 seconds) if blocked.",
+    "description": "Sword Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Bleeding condition (25 seconds) if blocked.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6188,7 +6188,7 @@
   {
     "name": "Seven Weapons Stance",
     "icon": "",
-    "description": "Elite Stance. (3...17...20 seconds.) Weapon attributes are increased by +1...12...15. You attack 33% faster. PvE Skill",
+    "description": "Elite Stance. ({{Duration}} seconds.) Weapon attributes are increased by +{{Attributes}}. You attack 33% faster. PvE Skill",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6261,7 +6261,7 @@
   {
     "name": "Sever Artery",
     "icon": "",
-    "description": "Sword Attack. Inflicts Bleeding condition (5...21...25 seconds).",
+    "description": "Sword Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6310,7 +6310,7 @@
   {
     "name": "Shield Bash",
     "icon": "",
-    "description": "Skill. (5...10...11 seconds.) You block the next attack skill. Causes knock-down and +15 second recharge if it was a melee skill. No effect unless you are wielding a shield.",
+    "description": "Skill. ({{Duration}} seconds.) You block the next attack skill. Causes knock-down and +15 second recharge if it was a melee skill. No effect unless you are wielding a shield.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -6359,7 +6359,7 @@
   {
     "name": "Shield Stance",
     "icon": "",
-    "description": "Stance. (1...5...6 second[s].) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). No effect unless you have a shield equipped.",
+    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). No effect unless you have a shield equipped.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6408,7 +6408,7 @@
   {
     "name": "Shove",
     "icon": "",
-    "description": "Elite Touch Skill. Causes knockdown. Initial effect: ends foe's stance and deals 15...63...75 damage if target foe is moving.",
+    "description": "Elite Touch Skill. Causes knockdown. Initial effect: ends foe's stance and deals {{Damage}} damage if target foe is moving.",
     "type": "Touch Skill",
     "profession": "Warrior",
     "attribute": {
@@ -6457,7 +6457,7 @@
   {
     "name": "Signet of Stamina",
     "icon": "",
-    "description": "Signet. You have +50...250...300 maximum Health. Ends if you hit with an attack.",
+    "description": "Signet. You have +{{MaxHealth}} maximum Health. Ends if you hit with an attack.",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -6506,7 +6506,7 @@
   {
     "name": "Signet of Strength",
     "icon": "",
-    "description": "Signet. Your attacks deal +5 damage. Ends after 1...13...16 attack[s].",
+    "description": "Signet. Your attacks deal +5 damage. Ends after {{Attacks}} attack[s].",
     "type": "Signet",
     "profession": "Warrior",
     "attribute": {
@@ -6530,7 +6530,7 @@
   {
     "name": "Silverwing Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +1...32...40 damage.",
+    "description": "Sword Attack. Deals +{{Damage}} damage.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6578,7 +6578,7 @@
   {
     "name": "Soldier's Defense",
     "icon": "",
-    "description": "Stance. (1...5...6 second[s].) You have 75% chance to block while under the effects of a shout or chant. Block effect: gain 1 adrenaline.",
+    "description": "Stance. ({{Duration}} second[s].) You have 75% chance to block while under the effects of a shout or chant. Block effect: gain 1 adrenaline.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6627,7 +6627,7 @@
   {
     "name": "Soldier's Speed",
     "icon": "",
-    "description": "Stance. (3...15...18 seconds.) You move 15% faster and an additional 15% while affected by a chant or shout.",
+    "description": "Stance. ({{Duration}} seconds.) You move 15% faster and an additional 15% while affected by a chant or shout.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6676,7 +6676,7 @@
   {
     "name": "Soldier's Stance",
     "icon": "",
-    "description": "Elite Stance. (5...13...15 seconds.) You have a 75% chance to block. You attack 33% faster while under the effects of a chant or shout.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You have a 75% chance to block. You attack 33% faster while under the effects of a chant or shout.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6725,7 +6725,7 @@
   {
     "name": "Soldier's Stance (PvP)",
     "icon": "",
-    "description": "Elite Stance. (4...9...10 seconds.) You attack 33% faster while under the effects of a shout or chant.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You attack 33% faster while under the effects of a shout or chant.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6774,7 +6774,7 @@
   {
     "name": "Soldier's Strike",
     "icon": "",
-    "description": "Melee Attack. Deals +10...34...40 damage. Unblockable if you are under the effects of a chant or shout.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. Unblockable if you are under the effects of a chant or shout.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6823,7 +6823,7 @@
   {
     "name": "Sprint",
     "icon": "",
-    "description": "Stance. (8...13...14 seconds.) You move 25% faster.",
+    "description": "Stance. ({{Duration}} seconds.) You move 25% faster.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -6872,7 +6872,7 @@
   {
     "name": "Staggering Blow",
     "icon": "",
-    "description": "Hammer Attack. Inflicts Weakness condition (5...17...20 seconds).",
+    "description": "Hammer Attack. Inflicts Weakness condition ({{WeaknessDuration}} seconds).",
     "type": "Hammer Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6921,7 +6921,7 @@
   {
     "name": "Standing Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +5...17...20 damage. Deals 5...17...20 more damage if you are in a stance.",
+    "description": "Sword Attack. Deals +{{Damage}} damage. Deals {{Damage}} more damage if you are in a stance.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -6970,7 +6970,7 @@
   {
     "name": "Steady Stance",
     "icon": "",
-    "description": "Elite Stance. (10 seconds.) The next time you would be knocked-down, you gain 1...3...3 adrenaline and 1...6...7 Energy instead.",
+    "description": "Elite Stance. (10 seconds.) The next time you would be knocked-down, you gain {{AdrenalineGain}} adrenaline and {{EnergyGain}} Energy instead.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7043,7 +7043,7 @@
   {
     "name": "Steelfang Slash",
     "icon": "",
-    "description": "Sword Attack. Deals +1...25...31 damage. You gain 1...4...5 adrenaline if target foe is knocked down.",
+    "description": "Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} adrenaline if target foe is knocked down.",
     "type": "Sword Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7140,7 +7140,7 @@
   {
     "name": "Swift Chop",
     "icon": "",
-    "description": "Axe Attack. Deals +1...16...20 damage. Deals 1...16...20 damage and inflicts Deep Wound condition (20 seconds) if blocked.",
+    "description": "Axe Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Deep Wound condition (20 seconds) if blocked.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7237,7 +7237,7 @@
   {
     "name": "Thrill of Victory",
     "icon": "",
-    "description": "Melee Attack. Deals +20...36...40 damage. If you have more Health than your target, you gain 1...2...2 adrenaline.",
+    "description": "Melee Attack. Deals +{{Damage}} damage. If you have more Health than your target, you gain {{AdrenalineGain}} adrenaline.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7310,7 +7310,7 @@
   {
     "name": "Tiger Stance",
     "icon": "",
-    "description": "Stance. (4...9...10 seconds.) You attack 33% faster. Ends if you fail to hit.",
+    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster. Ends if you fail to hit.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7359,7 +7359,7 @@
   {
     "name": "Triple Chop",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +10...34...40 damage. Also hits adjacent foes.",
+    "description": "Elite Axe Attack. Deals +{{Damage}} damage. Also hits adjacent foes.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7408,7 +7408,7 @@
   {
     "name": "Warrior's Cunning",
     "icon": "",
-    "description": "Skill. (5...10...11 seconds.) Your melee attacks are unblockable.",
+    "description": "Skill. ({{Duration}} seconds.) Your melee attacks are unblockable.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -7457,7 +7457,7 @@
   {
     "name": "Warrior's Endurance",
     "icon": "",
-    "description": "Elite Skill. (5...29...35 seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than 10...22...25 Energy.",
+    "description": "Elite Skill. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.",
     "type": "Skill",
     "profession": "Warrior",
     "attribute": {
@@ -7530,7 +7530,7 @@
   {
     "name": "Warrior's Endurance (PvP)",
     "icon": "",
-    "description": "Elite Stance. (5...29...35 seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than 10...22...25 Energy.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7603,7 +7603,7 @@
   {
     "name": "Wary Stance",
     "icon": "",
-    "description": "Stance. (1...5...6 second[s]). You block attack skills. Gain adrenaline and 5 Energy for each block. Ends if you use a skill.",
+    "description": "Stance. ({{Duration}} second[s]). You block attack skills. Gain adrenaline and 5 Energy for each block. Ends if you use a skill.",
     "type": "Stance",
     "profession": "Warrior",
     "attribute": {
@@ -7652,7 +7652,7 @@
   {
     "name": "Whirling Axe",
     "icon": "",
-    "description": "Elite Axe Attack. Deals +5...17...20 damage and removes a stance. Unblockable.",
+    "description": "Elite Axe Attack. Deals +{{Damage}} damage and removes a stance. Unblockable.",
     "type": "Axe Attack",
     "profession": "Warrior",
     "attribute": {
@@ -7701,7 +7701,7 @@
   {
     "name": "Whirlwind Attack",
     "icon": "",
-    "description": "Melee Attack. Deals +13...20 damage to target and adjacent foes.",
+    "description": "Melee Attack. Deals +{{Damage}} damage to target and adjacent foes.",
     "type": "Melee Attack",
     "profession": "Warrior",
     "attribute": {

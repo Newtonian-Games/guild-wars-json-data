@@ -2,7 +2,7 @@
   {
     "name": "\"Together as One!\"",
     "icon": "",
-    "description": "Elite Shout. (3...13...15 seconds.) All party members near you or your pet deal +5...13...15 damage [sic] and gain +1...6...7 Health regeneration. PvE Skill",
+    "description": "Elite Shout. ({{Duration}} seconds.) All party members near you or your pet deal +{{Damage}} damage [sic] and gain +{{Regeneration}} Health regeneration. PvE Skill",
     "type": "Shout",
     "profession": "Ranger",
     "attribute": {
@@ -120,7 +120,7 @@
   {
     "name": "Apply Poison",
     "icon": "",
-    "description": "Preparation. (24 seconds.) Your physical attacks inflict Poisoned condition (3...13...15 seconds).",
+    "description": "Preparation. (24 seconds.) Your physical attacks inflict Poisoned condition ({{Duration}} seconds).",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -168,7 +168,7 @@
   {
     "name": "Archer's Signet",
     "icon": "",
-    "description": "Elite Signet. (1...19...24 second[s].) Conditions you apply while wielding a bow last 100% longer.",
+    "description": "Elite Signet. ({{Duration}} second[s].) Conditions you apply while wielding a bow last 100% longer.",
     "type": "Signet",
     "profession": "Ranger",
     "attribute": {
@@ -216,7 +216,7 @@
   {
     "name": "Arcing Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +10...22...25 damage. Unblockable. This arrow moves 50% slower.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Unblockable. This arrow moves 50% slower.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -265,7 +265,7 @@
   {
     "name": "Barbed Arrows",
     "icon": "",
-    "description": "Preparation. (24 seconds.) Your arrows inflict Bleeding condition (3...13...15 seconds). You have -40 armor while activating this skill.",
+    "description": "Preparation. (24 seconds.) Your arrows inflict Bleeding condition ({{BleedingDuration}} seconds). You have -40 armor while activating this skill.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -313,7 +313,7 @@
   {
     "name": "Barbed Trap",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Deals 7...20...23 piercing damage. Inflicts Crippled and Bleeding conditions (3...21...25 seconds). Easily interrupted.",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{PiercingDamage}} piercing damage. Inflicts Crippled and Bleeding conditions ({{CrippledAndBleedingDuration}} seconds). Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -384,7 +384,7 @@
   {
     "name": "Barrage",
     "icon": "",
-    "description": "Elite Bow Attack. Deals +5...17...20 damage. Hits 5 foes adjacent to your target. All your preparations are removed.",
+    "description": "Elite Bow Attack. Deals +{{Damage}} damage. Hits 5 foes adjacent to your target. All your preparations are removed.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -433,7 +433,7 @@
   {
     "name": "Bestial Fury",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You attack 25% faster. Your non-attack skills are disabled (5 seconds).",
+    "description": "Stance. ({{Duration}} seconds.) You attack 25% faster. Your non-attack skills are disabled (5 seconds).",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -481,7 +481,7 @@
   {
     "name": "Bestial Mauling",
     "icon": "",
-    "description": "Pet Attack. Deals +5...17...20 damage. Inflicts Dazed condition (4...9...10 seconds) if target foe is knocked-down.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Inflicts Dazed condition ({{DazedDuration}} seconds) if target foe is knocked-down.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -552,7 +552,7 @@
   {
     "name": "Bestial Pounce",
     "icon": "",
-    "description": "Pet Attack. Deals +5...17...20 damage. Causes knock-down if target foe is casting a spell.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Causes knock-down if target foe is casting a spell.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -600,7 +600,7 @@
   {
     "name": "Body Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +5...17...20 damage. You gain 5...9...10 Energy if target foe has Cracked Armor.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if target foe has Cracked Armor.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -673,7 +673,7 @@
   {
     "name": "Brambles",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Knocked-down creatures take 5 damage and begin Bleeding (5...17...20 seconds). Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Knocked-down creatures take 5 damage and begin Bleeding ({{BleedingDuration}} seconds). Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -767,7 +767,7 @@
   {
     "name": "Broad Head Arrow",
     "icon": "",
-    "description": "Elite Bow Attack. Slow moving arrow. Interrupts a spell. Inflicts Dazed condition (5...17...20 seconds).",
+    "description": "Elite Bow Attack. Slow moving arrow. Interrupts a spell. Inflicts Dazed condition ({{DazedDuration}} seconds).",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -816,7 +816,7 @@
   {
     "name": "Brutal Strike",
     "icon": "",
-    "description": "Pet Attack. Deals +5...29...35 damage. Deals +5...29...35 more damage if target foe is under 50% health.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Deals +{{Damage}} more damage if target foe is under 50% health.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -864,7 +864,7 @@
   {
     "name": "Burning Arrow",
     "icon": "",
-    "description": "Elite Bow Attack. Deals +10...26...30 damage. Inflicts Burning condition (1...6...7 seconds).",
+    "description": "Elite Bow Attack. Deals +{{Damage}} damage. Inflicts Burning condition ({{BurningDuration}} seconds).",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -985,7 +985,7 @@
   {
     "name": "Call of Protection",
     "icon": "",
-    "description": "Shout. (120 seconds.) Your pet has 5...17...20 damage reduction.",
+    "description": "Shout. (120 seconds.) Your pet has {{DamageReduction}} damage reduction.",
     "type": "Shout",
     "profession": "Ranger",
     "attribute": {
@@ -1105,7 +1105,7 @@
   {
     "name": "Choking Gas",
     "icon": "",
-    "description": "Preparation. (1...10...12 seconds.) +1...7...8 damage. Spreads Choking Gas to foes adjacent to target. Choking Gas interrupts spells.",
+    "description": "Preparation. ({{Duration}} seconds.) +{{Damage}} damage. Spreads Choking Gas to foes adjacent to target. Choking Gas interrupts spells.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -1176,7 +1176,7 @@
   {
     "name": "Comfort Animal",
     "icon": "",
-    "description": "Skill. Your pet gains 20...87...104 Health. Resurrects your pet (10...48...58% Health.) If you have Comfort Animal equipped, your animal companion will travel with you.",
+    "description": "Skill. Your pet gains {{Healing}} Health. Resurrects your pet ({{HealthPercent}}% Health.) If you have Comfort Animal equipped, your animal companion will travel with you.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -1247,7 +1247,7 @@
   {
     "name": "Comfort Animal (PvP)",
     "icon": "",
-    "description": "Skill. Your pet gains 20...87...104 Health. Resurrects your pet (10...48...58% Health.)",
+    "description": "Skill. Your pet gains {{Healing}} Health. Resurrects your pet ({{HealthPercent}}% Health.)",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -1318,7 +1318,7 @@
   {
     "name": "Companionship",
     "icon": "",
-    "description": "Skill. Heals you for 30...102...120 if you have less Health than your pet. Heals your pet for 30...102...120 if it has less Health than you.",
+    "description": "Skill. Heals you for {{Healing}} if you have less Health than your pet. Heals your pet for {{Healing}} if it has less Health than you.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -1366,7 +1366,7 @@
   {
     "name": "Concussion Shot",
     "icon": "",
-    "description": "Bow Attack. Interrupts a spell. Interruption effect: inflicts Dazed condition (5...17...20 seconds). Hits for only 1...13...16 damage.",
+    "description": "Bow Attack. Interrupts a spell. Interruption effect: inflicts Dazed condition ({{DazedDuration}} seconds). Hits for only {{ArmorignoringDamage}} damage.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1439,7 +1439,7 @@
   {
     "name": "Conflagration",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). All arrows deal fire damage for creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). All arrows deal fire damage for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -1510,7 +1510,7 @@
   {
     "name": "Crippling Shot",
     "icon": "",
-    "description": "Elite Bow Attack. Unblockable. Inflicts Crippled condition (1...9...11 second[s]).",
+    "description": "Elite Bow Attack. Unblockable. Inflicts Crippled condition ({{CrippleDuration}} second[s]).",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1559,7 +1559,7 @@
   {
     "name": "Crossfire",
     "icon": "",
-    "description": "Bow Attack. Deals +5...17...20 damage. Unblockable if target foe is near any of your allies.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Unblockable if target foe is near any of your allies.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1608,7 +1608,7 @@
   {
     "name": "Debilitating Shot",
     "icon": "",
-    "description": "Bow Attack. Causes 1...8...10 Energy loss.",
+    "description": "Bow Attack. Causes {{EnergyLoss}} Energy loss.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1657,7 +1657,7 @@
   {
     "name": "Determined Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +5...17...20 damage. Recharges your attack skills if it fails to hit.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Recharges your attack skills if it fails to hit.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1730,7 +1730,7 @@
   {
     "name": "Disrupting Lunge",
     "icon": "",
-    "description": "Pet Attack. Deals +1...10...12 damage. Interrupts a skill. Interruption effect: interrupted skill is disabled for +20 seconds.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Interrupts a skill. Interruption effect: interrupted skill is disabled for +20 seconds.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1778,7 +1778,7 @@
   {
     "name": "Disrupting Shot",
     "icon": "",
-    "description": "Bow Attack. Interrupts an action. Interruption effect: +10...34...40 damage if you interrupt a skill.",
+    "description": "Bow Attack. Interrupts an action. Interruption effect: +{{Damage}} damage if you interrupt a skill.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1827,7 +1827,7 @@
   {
     "name": "Distracting Shot",
     "icon": "",
-    "description": "Bow Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds. Hits for only 1...13...16 damage.",
+    "description": "Bow Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds. Hits for only {{ArmorignoringDamage}} damage.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -1875,7 +1875,7 @@
   {
     "name": "Dodge",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You move 33% faster and have 27...65...75% chance to block projectile attacks. Ends if you attack.",
+    "description": "Stance. ({{Duration}} seconds.) You move 33% faster and have {{BlockChancePercent}}% chance to block projectile attacks. Ends if you attack.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -1946,7 +1946,7 @@
   {
     "name": "Dryder's Defenses",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You have 75% chance to block and +34...55...60 armor against elemental damage.",
+    "description": "Stance. ({{Duration}} seconds.) You have 75% chance to block and +{{Armor}} armor against elemental damage.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -2041,7 +2041,7 @@
   {
     "name": "Dust Trap",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Deals 10...22...25 damage every second (5 seconds). Inflicts Blindness condition (3...7...8 seconds) every second (5 seconds). Easily interrupted.",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{ArmorignoringDamage}} damage every second (5 seconds). Inflicts Blindness condition ({{BlindDuration}} seconds) every second (5 seconds). Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -2112,7 +2112,7 @@
   {
     "name": "Edge of Extinction",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Deals 14...43...50 damage to creatures in its range whenever a creature of the same type dies. Does not affect spirits. No damage to creatures above 90% Health.",
+    "description": "Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{Duration}} second lifespan). Deals {{Damage}} damage to creatures in its range whenever a creature of the same type dies. Does not affect spirits. No damage to creatures above 90% Health.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -2206,7 +2206,7 @@
   {
     "name": "Energizing Wind",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...5...6 spirit (1...25...31 second[s] lifespan). Skills cost 15 less energy (minimum cost 10 energy) and recharge 25% slower for creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second[s] lifespan). Skills cost 15 less energy (minimum cost 10 energy) and recharge 25% slower for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -2277,7 +2277,7 @@
   {
     "name": "Enraged Lunge",
     "icon": "",
-    "description": "Elite Pet Attack. Inflicts Deep Wound condition (5...17...20 seconds) and deals +10...42...50 damage.",
+    "description": "Elite Pet Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) and deals +{{Damage}} damage.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -2348,7 +2348,7 @@
   {
     "name": "Enraged Lunge (PvP)",
     "icon": "",
-    "description": "Elite Pet Attack. Deals +3...19...23 damage (maximum 80) for each of your recharging Beast Mastery skills.",
+    "description": "Elite Pet Attack. Deals +{{Damage}} damage (maximum 80) for each of your recharging Beast Mastery skills.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -2396,7 +2396,7 @@
   {
     "name": "Equinox",
     "icon": "",
-    "description": "Elite Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Overcast-causing spells cast within range cause an additional 10 Overcast.",
+    "description": "Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Overcast-causing spells cast within range cause an additional 10 Overcast.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -2467,7 +2467,7 @@
   {
     "name": "Escape",
     "icon": "",
-    "description": "Elite Stance. (1...7...8 second[s].) You move 33% faster and have 75% chance to block.",
+    "description": "Elite Stance. ({{Duration}} second[s].) You move 33% faster and have 75% chance to block.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -2515,7 +2515,7 @@
   {
     "name": "Escape (PvP)",
     "icon": "",
-    "description": "Elite Stance. (1...7...8 second[s].) You move 33% faster and have 75% chance to block. Ends if you make a melee attack.",
+    "description": "Elite Stance. ({{Duration}} second[s].) You move 33% faster and have 75% chance to block. Ends if you make a melee attack.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -2563,7 +2563,7 @@
   {
     "name": "Expert Focus",
     "icon": "",
-    "description": "Preparation. (24 seconds.) Your bow attack skills cost 1...2...2 less Energy and do +1...8...10 damage.",
+    "description": "Preparation. (24 seconds.) Your bow attack skills cost {{LessEnergyCost}} less Energy and do +{{Damage}} damage.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -2634,7 +2634,7 @@
   {
     "name": "Expert's Dexterity",
     "icon": "",
-    "description": "Elite Stance. (1...16...20 second[s].) You attack 33% faster and you gain +2 to your Marksmanship attribute.",
+    "description": "Elite Stance. ({{Duration}} second[s].) You attack 33% faster and you gain +2 to your Marksmanship attribute.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -2682,7 +2682,7 @@
   {
     "name": "Expert's Dexterity (PvP)",
     "icon": "",
-    "description": "Elite Stance. (1...16...20 second[s].) You attack 15% faster and you gain +1 to your Marksmanship attribute.",
+    "description": "Elite Stance. ({{Duration}} second[s].) You attack 15% faster and you gain +1 to your Marksmanship attribute.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -2730,7 +2730,7 @@
   {
     "name": "Famine",
     "icon": "",
-    "description": "Elite Nature Ritual. Creates a level 1...8...10 spirit (30...78...90 lifespan). Deals 10...30...35 damage to creatures in range that reach 0 energy. Does not affect spirits.",
+    "description": "Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} lifespan). Deals {{Damage}} damage to creatures in range that reach 0 energy. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -2824,7 +2824,7 @@
   {
     "name": "Favorable Winds",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Arrows move twice as fast and hit for +6 damage for creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Arrows move twice as fast and hit for +6 damage for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -2897,7 +2897,7 @@
   {
     "name": "Feral Aggression",
     "icon": "",
-    "description": "Skill. (5...17...20 seconds.) Your pet attacks 33% faster and deals +3...9...10 damage.",
+    "description": "Skill. ({{Duration}} seconds.) Your pet attacks 33% faster and deals +{{Damage}} damage.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -2968,7 +2968,7 @@
   {
     "name": "Feral Lunge",
     "icon": "",
-    "description": "Pet Attack. Deals +5...29...35 damage. Inflicts Bleeding condition if target foe is attacking (5...21...25 seconds).",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition if target foe is attacking ({{BleedingDuration}} seconds).",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -3039,7 +3039,7 @@
   {
     "name": "Ferocious Strike",
     "icon": "",
-    "description": "Elite Pet Attack. Deals +13...25...28 damage. You gain adrenaline and 3...9...10 energy.",
+    "description": "Elite Pet Attack. Deals +{{Damage}} damage. You gain adrenaline and {{EnergyGain}} energy.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -3110,7 +3110,7 @@
   {
     "name": "Fertile Season",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (15...39...45 second lifespan). Creatures in range have +50...130...150 maximum health and +8 armor. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures in range have +{{MaxHealth}} maximum health and +8 armor. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -3204,7 +3204,7 @@
   {
     "name": "Flame Trap",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Deals 5...17...20 fire damage every second (3 seconds). Inflicts Burning condition (1...3...3 second[s]). Easily interrupted.",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{FireDamage}} fire damage every second (3 seconds). Inflicts Burning condition ({{BurningDuration}} second[s]). Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -3275,7 +3275,7 @@
   {
     "name": "Focused Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +10...22...25 damage. Your other attack skills are disabled (5...3...3 seconds) if this attack hits.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Your other attack skills are disabled ({{Duration}} seconds) if this attack hits.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -3372,7 +3372,7 @@
   {
     "name": "Frozen Soil",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit. (30...78...90 second lifespan). Creatures in range cannot activate resurrection skills. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit. ({{Duration}} second lifespan). Creatures in range cannot activate resurrection skills. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -3443,7 +3443,7 @@
   {
     "name": "Glass Arrows",
     "icon": "",
-    "description": "Elite Preparation. (10...30...35 seconds.) Your arrows deal +5...17...20 damage. Inflicts Bleeding condition if blocked (10...18...20 seconds).",
+    "description": "Elite Preparation. ({{Duration}} seconds.) Your arrows deal +{{Damage}} damage. Inflicts Bleeding condition if blocked ({{BleedingDuration}} seconds).",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -3537,7 +3537,7 @@
   {
     "name": "Glass Arrows (PvP)",
     "icon": "",
-    "description": "Elite Preparation. (10...30...35 seconds.) Your arrows deal +5...11...12 damage. Inflicts Bleeding condition if blocked (10...18...20 seconds).",
+    "description": "Elite Preparation. ({{Duration}} seconds.) Your arrows deal +{{Damage}} damage. Inflicts Bleeding condition if blocked ({{BleedingDuration}} seconds).",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -3631,7 +3631,7 @@
   {
     "name": "Greater Conflagration",
     "icon": "",
-    "description": "Elite Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Converts physical damage to fire damage for creatures in range. Does not affect spirits.",
+    "description": "Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Converts physical damage to fire damage for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -3702,7 +3702,7 @@
   {
     "name": "Heal as One",
     "icon": "",
-    "description": "Elite Skill. (15 seconds.) Your pet's attacks steal 1...16...20 Health. Initial effect: heals you and your pet for 20...87...104; resurrects your pet (50% Health) if dead. If you have this equipped, your pet will travel with you.",
+    "description": "Elite Skill. (15 seconds.) Your pet's attacks steal {{LifeStealing}} Health. Initial effect: heals you and your pet for {{Healing}}; resurrects your pet (50% Health) if dead. If you have this equipped, your pet will travel with you.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -3773,7 +3773,7 @@
   {
     "name": "Heal as One (PvP)",
     "icon": "",
-    "description": "Elite Skill. Heals you and your pet for 25...121...145. If your pet is dead, it is resurrected with 50% Health. No effect if neither you nor your pet are below 75% Health.",
+    "description": "Elite Skill. Heals you and your pet for {{Healing}}. If your pet is dead, it is resurrected with 50% Health. No effect if neither you nor your pet are below 75% Health.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -3821,7 +3821,7 @@
   {
     "name": "Healing Spring",
     "icon": "",
-    "description": "Trap. (10 seconds.) Affects adjacent allies. Heals for 15...51...60 every 2 seconds. Easily interrupted.",
+    "description": "Trap. (10 seconds.) Affects adjacent allies. Heals for {{Healing}} every 2 seconds. Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -3869,7 +3869,7 @@
   {
     "name": "Heket's Rampage",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds). You attack 33% faster. Ends if you use an attack skill.",
+    "description": "Stance. ({{Duration}} seconds). You attack 33% faster. Ends if you use an attack skill.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -3917,7 +3917,7 @@
   {
     "name": "Hunter's Shot",
     "icon": "",
-    "description": "Bow Attack. Inflicts Bleeding condition (3...21...25 seconds) if your target is hit.",
+    "description": "Bow Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if your target is hit.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -3966,7 +3966,7 @@
   {
     "name": "Ignite Arrows",
     "icon": "",
-    "description": "Preparation. (24 seconds.) Your arrows deal 3...15...18 fire damage to target and foes adjacent to target.",
+    "description": "Preparation. (24 seconds.) Your arrows deal {{FireDamage}} fire damage to target and foes adjacent to target.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -4014,7 +4014,7 @@
   {
     "name": "Incendiary Arrows",
     "icon": "",
-    "description": "Elite Bow Attack. Hits 2 foes near your target and inflicts burning (1...3...3 second[s]).",
+    "description": "Elite Bow Attack. Hits 2 foes near your target and inflicts burning ({{BurningDuration}} second[s]).",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -4062,7 +4062,7 @@
   {
     "name": "Infuriating Heat",
     "icon": "",
-    "description": "Elite Nature Ritual. Creates a level 1...8...10 spirit (30...54...60 second lifespan). Doubles adrenaline gain for creatures in range.",
+    "description": "Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Doubles adrenaline gain for creatures in range.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -4133,7 +4133,7 @@
   {
     "name": "Keen Arrow",
     "icon": "",
-    "description": "Bow Attack. Deals +5...17...20 damage. Deals +5...21...25 more damage if you land a critical hit.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{DamageWhenCritical}} more damage if you land a critical hit.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -4206,7 +4206,7 @@
   {
     "name": "Keen Arrow (PvP)",
     "icon": "",
-    "description": "Bow Attack. Deals +1...4...5 damage. Deals +5...25...30 more damage if you land a critical hit.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{DamageWhenCritical}} more damage if you land a critical hit.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -4279,7 +4279,7 @@
   {
     "name": "Kindle Arrows",
     "icon": "",
-    "description": "Preparation. (24 seconds.) +3...20...24 fire damage. Your arrows deal fire damage.",
+    "description": "Preparation. (24 seconds.) +{{FireDamage}} fire damage. Your arrows deal fire damage.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -4327,7 +4327,7 @@
   {
     "name": "Lacerate",
     "icon": "",
-    "description": "Elite Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Bleeding creatures in range have -2 Health degeneration. End effect: Inflicts Bleeding condition (5...21...25 seconds) on creatures in range that have less than 90% health. Does not affect spirits.",
+    "description": "Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Bleeding creatures in range have -2 Health degeneration. End effect: Inflicts Bleeding condition ({{BleedingDuration}} seconds) on creatures in range that have less than 90% health. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -4421,7 +4421,7 @@
   {
     "name": "Lightning Reflexes",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You attack 33% faster and have 75% chance to block.",
+    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster and have 75% chance to block.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -4469,7 +4469,7 @@
   {
     "name": "Lightning Reflexes (PvP)",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You attack 33% faster and have 75% chance to block.",
+    "description": "Stance. ({{Duration}} seconds.) You attack 33% faster and have 75% chance to block.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -4541,7 +4541,7 @@
   {
     "name": "Maiming Strike",
     "icon": "",
-    "description": "Pet Attack. Deals +5...17...20 damage. Inflicts Crippled condition (3...13...15 seconds) if target foe is moving.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Inflicts Crippled condition ({{CrippledDuration}} seconds) if target foe is moving.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -4612,7 +4612,7 @@
   {
     "name": "Marauder's Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +10...30...35 damage. Your non-attack skills are disabled (10 seconds) if this attack hits.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Your non-attack skills are disabled (10 seconds) if this attack hits.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -4661,7 +4661,7 @@
   {
     "name": "Marksman's Wager",
     "icon": "",
-    "description": "Elite Preparation. (18 seconds.) Gain 5...9...10 Energy whenever your arrows hit. Lose 10 Energy whenever your arrows fail to hit.",
+    "description": "Elite Preparation. (18 seconds.) Gain {{EnergyGain}} Energy whenever your arrows hit. Lose 10 Energy whenever your arrows fail to hit.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -4709,7 +4709,7 @@
   {
     "name": "Melandru's Arrows",
     "icon": "",
-    "description": "Elite Preparation. (18 seconds.) Your arrows inflict Bleeding condition (3...21...25 seconds) and deal +8...24...28 damage to enchanted foes.",
+    "description": "Elite Preparation. (18 seconds.) Your arrows inflict Bleeding condition ({{BleedingDuration}} seconds) and deal +{{Damage}} damage to enchanted foes.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -4780,7 +4780,7 @@
   {
     "name": "Melandru's Assault",
     "icon": "",
-    "description": "Pet Attack. Deals +5...17...20 damage to nearby foes.",
+    "description": "Pet Attack. Deals +{{ArmorignoringDamage}} damage to nearby foes.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -4828,7 +4828,7 @@
   {
     "name": "Melandru's Assault (PvP)",
     "icon": "",
-    "description": "Pet Attack. Deals +5...17...20 damage. Deals +5...29...35 more damage to target and foes adjacent to target if this foe is enchanted.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Deals +{{DamageEnchantedFoe}} more damage to target and foes adjacent to target if this foe is enchanted.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -4899,7 +4899,7 @@
   {
     "name": "Melandru's Resilience",
     "icon": "",
-    "description": "Elite Stance. (8...18...20 seconds.) You have +4 Health regeneration and +1 Energy regeneration for each condition and hex on you.",
+    "description": "Elite Stance. ({{Duration}} seconds.) You have +4 Health regeneration and +1 Energy regeneration for each condition and hex on you.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -4947,7 +4947,7 @@
   {
     "name": "Melandru's Shot",
     "icon": "",
-    "description": "Elite Bow Attack. Inflicts Bleeding (5...21...25 seconds). Deals +10...22...25 damage and inflicts Crippled (5...13...15 seconds) if target foe was moving or knocked down.",
+    "description": "Elite Bow Attack. Inflicts Bleeding ({{BleedingDuration}} seconds). Deals +{{Damage}} damage and inflicts Crippled ({{CrippledDuration}} seconds) if target foe was moving or knocked down.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5044,7 +5044,7 @@
   {
     "name": "Muddy Terrain",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...78...90 second lifespan). Creatures in range have 10% slower movement: also negates speed boosts. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures in range have 10% slower movement: also negates speed boosts. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -5115,7 +5115,7 @@
   {
     "name": "Natural Stride",
     "icon": "",
-    "description": "Stance. (1...7...8 second[s].) You move 33% faster and have 50% chance to block. Ends if you become hexed or enchanted.",
+    "description": "Stance. ({{Duration}} second[s].) You move 33% faster and have 50% chance to block. Ends if you become hexed or enchanted.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -5163,7 +5163,7 @@
   {
     "name": "Nature's Renewal",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). For creatures in range, enchantments and Hexes [sic] take twice as long to cast and it costs twice as much Energy to maintain enchantments. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). For creatures in range, enchantments and Hexes [sic] take twice as long to cast and it costs twice as much Energy to maintain enchantments. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -5234,7 +5234,7 @@
   {
     "name": "Needling Shot",
     "icon": "",
-    "description": "Bow Attack. Fast-moving arrow. Deals 10...26...30 damage. Recharges instantly if target foe is below 50% Health. Your other attack skills are disabled (2 seconds).",
+    "description": "Bow Attack. Fast-moving arrow. Deals {{ArmorignoringDamage}} damage. Recharges instantly if target foe is below 50% Health. Your other attack skills are disabled (2 seconds).",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5283,7 +5283,7 @@
   {
     "name": "Never Rampage Alone",
     "icon": "",
-    "description": "Skill. (18...25 seconds.) You and your pet attack 25% faster and have +1...3 Health regeneration.",
+    "description": "Skill. ({{Duration}} seconds.) You and your pet attack 25% faster and have +{{HealthRegeneration}} Health regeneration.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -5334,7 +5334,7 @@
   {
     "name": "Oath Shot",
     "icon": "",
-    "description": "Elite Bow Attack. Recharges all skills except Oath Shot if it hits. Disables all skills if it misses (10...5...4 seconds). 50% miss chance unless Expertise 8 or higher.",
+    "description": "Elite Bow Attack. Recharges all skills except Oath Shot if it hits. Disables all skills if it misses ({{DisableDuration}} seconds). 50% miss chance unless Expertise 8 or higher.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5382,7 +5382,7 @@
   {
     "name": "Otyugh's Cry",
     "icon": "",
-    "description": "Shout. (10...22...25 seconds.) Your pet has +24 armor and is unblockable.",
+    "description": "Shout. ({{Duration}} seconds.) Your pet has +24 armor and is unblockable.",
     "type": "Shout",
     "profession": "Ranger",
     "attribute": {
@@ -5430,7 +5430,7 @@
   {
     "name": "Penetrating Attack",
     "icon": "",
-    "description": "Bow Attack. Deals +5...21...25 damage. 10% armor penetration.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5479,7 +5479,7 @@
   {
     "name": "Penetrating Attack (PvP)",
     "icon": "",
-    "description": "Bow Attack. Deals +3...9...10 damage. 10% armor penetration.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5528,7 +5528,7 @@
   {
     "name": "Pestilence",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...78...90 second lifespan). When any creature in range dies, conditions on this creature spread to any creature in the area with a condition. Spirits are not affected.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). When any creature in range dies, conditions on this creature spread to any creature in the area with a condition. Spirits are not affected.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -5599,7 +5599,7 @@
   {
     "name": "Piercing Trap",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Deals 5...41...50 piercing damage. Deals 15...51...60 more damage to any foes with Cracked Armor. Easily interrupted.",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{PiercingDamage}} piercing damage. Deals {{AdditionalDamage}} more damage to any foes with Cracked Armor. Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -5670,7 +5670,7 @@
   {
     "name": "Pin Down",
     "icon": "",
-    "description": "Bow Attack. Inflicts Crippled condition (3...13...15 seconds).",
+    "description": "Bow Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds).",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5719,7 +5719,7 @@
   {
     "name": "Point Blank Shot",
     "icon": "",
-    "description": "Half Range Bow Attack. Deals +10...34...40 damage.",
+    "description": "Half Range Bow Attack. Deals +{{Damage}} damage.",
     "type": "Half Range Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5767,7 +5767,7 @@
   {
     "name": "Poison Arrow",
     "icon": "",
-    "description": "Elite Bow Attack. Inflicts Poisoned condition. (5...17...20)",
+    "description": "Elite Bow Attack. Inflicts Poisoned condition. ({{PoisonDuration}})",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5815,7 +5815,7 @@
   {
     "name": "Poison Tip Signet",
     "icon": "",
-    "description": "Signet. (60 seconds.) Inflicts Poisoned condition (8...14...15 seconds) with your next attack.",
+    "description": "Signet. (60 seconds.) Inflicts Poisoned condition ({{PoisonDuration}} seconds) with your next attack.",
     "type": "Signet",
     "profession": "Ranger",
     "attribute": {
@@ -5863,7 +5863,7 @@
   {
     "name": "Poisonous Bite",
     "icon": "",
-    "description": "Pet Attack. Inflicts Poisoned condition (5...17...20 seconds).",
+    "description": "Pet Attack. Inflicts Poisoned condition ({{PoisonDuration}} seconds).",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5911,7 +5911,7 @@
   {
     "name": "Pounce",
     "icon": "",
-    "description": "Pet Attack. Deals +5...17...20 damage. Causes knock-down if target foe is moving.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Causes knock-down if target foe is moving.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -5959,7 +5959,7 @@
   {
     "name": "Power Shot",
     "icon": "",
-    "description": "Bow Attack. Target foe takes 25...45...50 damage.",
+    "description": "Bow Attack. Target foe takes {{ArmorignoringDamage}} damage.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -6008,7 +6008,7 @@
   {
     "name": "Practiced Stance",
     "icon": "",
-    "description": "Elite Stance. (20...32...35 seconds.) Your preparations recharge 50% faster and last 30...126...150% longer.",
+    "description": "Elite Stance. ({{Duration}} seconds.) Your preparations recharge 50% faster and last {{LongerPreparationsPercent}}% longer.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -6079,7 +6079,7 @@
   {
     "name": "Precision Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +3...9...10 damage. Unblockable. Easily Interrupted.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Unblockable. Easily Interrupted.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -6128,7 +6128,7 @@
   {
     "name": "Predator's Pounce",
     "icon": "",
-    "description": "Pet Attack. Deals +5...29...35 damage. Your pet gains 5...41...50 Health if this attack hits.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Your pet gains {{HealthGain}} Health if this attack hits.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -6199,7 +6199,7 @@
   {
     "name": "Predatory Bond",
     "icon": "",
-    "description": "Shout. (5...17...20 seconds.) Your pet attacks 25% faster and you gain 1...25...31 Health whenever your pet makes a successful attack.",
+    "description": "Shout. ({{Duration}} seconds.) Your pet attacks 25% faster and you gain {{Healing}} Health whenever your pet makes a successful attack.",
     "type": "Shout",
     "profession": "Ranger",
     "attribute": {
@@ -6270,7 +6270,7 @@
   {
     "name": "Predatory Bond (PvP)",
     "icon": "",
-    "description": "Shout. (5...17...20 seconds.) You gain 1...25...31 Health whenever your pet makes a successful attack.",
+    "description": "Shout. ({{Duration}} seconds.) You gain {{Healing}} Health whenever your pet makes a successful attack.",
     "type": "Shout",
     "profession": "Ranger",
     "attribute": {
@@ -6341,7 +6341,7 @@
   {
     "name": "Predatory Season",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -6365,7 +6365,7 @@
   {
     "name": "Prepared Shot",
     "icon": "",
-    "description": "Elite Bow Attack. Deals +10...22...25 damage. You gain 1...7...9 Energy if you have a preparation active.",
+    "description": "Elite Bow Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if you have a preparation active.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -6438,7 +6438,7 @@
   {
     "name": "Primal Echoes",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Signets cost 10 energy for creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Signets cost 10 energy for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -6509,7 +6509,7 @@
   {
     "name": "Punishing Shot",
     "icon": "",
-    "description": "Elite Bow Attack. Deals +10...18...20 damage. Interrupts an action.",
+    "description": "Elite Bow Attack. Deals +{{Damage}} damage. Interrupts an action.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -6582,7 +6582,7 @@
   {
     "name": "Quickening Zephyr",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (15...39...45 second lifespan). Skills cost 30% more Energy and recharge twice as fast for creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{Duration}} second lifespan). Skills cost 30% more Energy and recharge twice as fast for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -6653,7 +6653,7 @@
   {
     "name": "Quicksand",
     "icon": "",
-    "description": "Elite Nature Ritual. Creates a level 1...8...10 spirit (30...78...90 second lifespan). Creatures lose 1 Energy each time they attack or use a skill. Does not affect spirits.",
+    "description": "Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures lose 1 Energy each time they attack or use a skill. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -6724,7 +6724,7 @@
   {
     "name": "Rampage as One",
     "icon": "",
-    "description": "Elite Skill. (3...13...15 seconds.) You and your pet attack 33% faster and move 25% faster. No effect unless your pet is alive.",
+    "description": "Elite Skill. ({{Duration}} seconds.) You and your pet attack 33% faster and move 25% faster. No effect unless your pet is alive.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -6772,7 +6772,7 @@
   {
     "name": "Rapid Fire",
     "icon": "",
-    "description": "Preparation. (5...21...25 seconds.) You attack 33% faster while wielding a bow.",
+    "description": "Preparation. ({{Duration}} seconds.) You attack 33% faster while wielding a bow.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -6821,7 +6821,7 @@
   {
     "name": "Read the Wind",
     "icon": "",
-    "description": "Preparation. (24 seconds). +3...9...10 damage. Your arrows move twice as fast.",
+    "description": "Preparation. (24 seconds). +{{Damage}} damage. Your arrows move twice as fast.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -6894,7 +6894,7 @@
   {
     "name": "Revive Animal",
     "icon": "",
-    "description": "Skill. Resurrects all nearby allied pets (10...77...94% Health).",
+    "description": "Skill. Resurrects all nearby allied pets ({{PercentHealth}}% Health).",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -6942,7 +6942,7 @@
   {
     "name": "Roaring Winds",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...54...60 second lifespan). Chants and shouts cost 1...4...5 more Energy for creatures in range.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Chants and shouts cost {{IncreasedEnergyCost}} more Energy for creatures in range.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -7036,7 +7036,7 @@
   {
     "name": "Run as One",
     "icon": "",
-    "description": "Stance. (5...13...15 seconds.) You and your pet move 25% faster.",
+    "description": "Stance. ({{Duration}} seconds.) You and your pet move 25% faster.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -7084,7 +7084,7 @@
   {
     "name": "Savage Pounce",
     "icon": "",
-    "description": "Pet Attack. Deals +5...17...20 damage. Causes knock-down if target foe is casting a spell.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. Causes knock-down if target foe is casting a spell.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7132,7 +7132,7 @@
   {
     "name": "Savage Shot",
     "icon": "",
-    "description": "Bow Attack. Interrupts an action. Interruption effect: deals +13...25...28 damage if action was a spell.",
+    "description": "Bow Attack. Interrupts an action. Interruption effect: deals +{{Damage}} damage if action was a spell.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7181,7 +7181,7 @@
   {
     "name": "Scavenger Strike",
     "icon": "",
-    "description": "Pet Attack. Deals +10...22...25 damage. You gain 3...13...15 Energy if target foe has a condition.",
+    "description": "Pet Attack. Deals +{{Damage}} damage. You gain {{EnergyGained}} Energy if target foe has a condition.",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7252,7 +7252,7 @@
   {
     "name": "Scavenger's Focus",
     "icon": "",
-    "description": "Elite Skill. (10 seconds). You gain 3...10...12 Energy if you strike a foe who has a condition.",
+    "description": "Elite Skill. (10 seconds). You gain {{EnergyGain}} Energy if you strike a foe who has a condition.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -7300,7 +7300,7 @@
   {
     "name": "Screaming Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +10...22...25 damage. Inflicts Bleeding condition (5...17...20 seconds) if target foe is within earshot.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe is within earshot.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7373,7 +7373,7 @@
   {
     "name": "Seeking Arrows",
     "icon": "",
-    "description": "Preparation. (3...12...14 seconds.) Your arrows are unblockable. Ends if you fail to hit.",
+    "description": "Preparation. ({{Duration}} seconds.) Your arrows are unblockable. Ends if you fail to hit.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -7422,7 +7422,7 @@
   {
     "name": "Serpent's Quickness",
     "icon": "",
-    "description": "Stance. (15...27...30 seconds.) Your skills recharge 33% faster. Ends if your Health drops below 50%.",
+    "description": "Stance. ({{Duration}} seconds.) Your skills recharge 33% faster. Ends if your Health drops below 50%.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -7470,7 +7470,7 @@
   {
     "name": "Sloth Hunter's Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +10...22...25 damage. Deals +10...30...35 more damage if target foe is not using a skill.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{BonusDamage}} more damage if target foe is not using a skill.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7543,7 +7543,7 @@
   {
     "name": "Sloth Hunter's Shot (PvP)",
     "icon": "",
-    "description": "Bow Attack. Deals +5...17...20 damage. Deals +5...13...15 more damage if target foe is not using a skill.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{BonusDamage}} more damage if target foe is not using a skill.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7616,7 +7616,7 @@
   {
     "name": "Smoke Trap",
     "icon": "",
-    "description": "Elite Trap. (90 seconds.) Inflicts Blinded and Dazed conditions (5...9...10 seconds) to nearby foes. Easily interrupted.",
+    "description": "Elite Trap. (90 seconds.) Inflicts Blinded and Dazed conditions ({{BlindAndDazedDuration}} seconds) to nearby foes. Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -7664,7 +7664,7 @@
   {
     "name": "Snare",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Inflicts Crippled condition (3...13...15 seconds). Easily interrupted.",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Inflicts Crippled condition ({{CrippledDuration}} seconds). Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -7712,7 +7712,7 @@
   {
     "name": "Spike Trap",
     "icon": "",
-    "description": "Elite Trap. (90 seconds.) Affects nearby foes. Every second, (for 2 seconds), this trap deals 10...34...40 piercing damage, causes knockdown, and inflicts Crippled condition (3...21...25 seconds). Easily interrupted.",
+    "description": "Elite Trap. (90 seconds.) Affects nearby foes. Every second, (for 2 seconds), this trap deals {{Damage}} piercing damage, causes knockdown, and inflicts Crippled condition ({{CrippledDuration}} seconds). Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -7783,7 +7783,7 @@
   {
     "name": "Splinter Shot",
     "icon": "",
-    "description": "Bow Attack. Deals +3...13...15 damage. Deals 5...53...65 damage to adjacent foes if blocked.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Deals {{AdjacentDamage}} damage to adjacent foes if blocked.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7856,7 +7856,7 @@
   {
     "name": "Storm Chaser",
     "icon": "",
-    "description": "Stance. (8...18...20 seconds.) You move 25% faster and gain 1...4...5 Energy whenever you take elemental damage.",
+    "description": "Stance. ({{Duration}} seconds.) You move 25% faster and gain {{EnergyGain}} Energy whenever you take elemental damage.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -7951,7 +7951,7 @@
   {
     "name": "Strike as One",
     "icon": "",
-    "description": "Elite Shout. Your animal companion instantly moves to your target and inflicts Bleeding (5...13...15 seconds) with its next attack. The next time you hit with an attack, you inflict Crippled condition (5...13...15 seconds).",
+    "description": "Elite Shout. Your animal companion instantly moves to your target and inflicts Bleeding ({{BleedingDuration}} seconds) with its next attack. The next time you hit with an attack, you inflict Crippled condition ({{CrippledDuration}} seconds).",
     "type": "Shout",
     "profession": "Ranger",
     "attribute": {
@@ -8022,7 +8022,7 @@
   {
     "name": "Sundering Attack",
     "icon": "",
-    "description": "Bow Attack. Deals +5...21...25 damage. 10% armor penetration.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -8071,7 +8071,7 @@
   {
     "name": "Sundering Attack (PvP)",
     "icon": "",
-    "description": "Bow Attack. Deals +3...9...10 damage. 10% armor penetration.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -8120,7 +8120,7 @@
   {
     "name": "Symbiosis",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Creatures in range have +27...125...150 maximum health for each enchantment on them. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{Duration}} second lifespan). Creatures in range have +{{MaxHealth}} maximum health for each enchantment on them. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -8214,7 +8214,7 @@
   {
     "name": "Symbiotic Bond",
     "icon": "",
-    "description": "Shout. (120...264...300 seconds.) Your pet has +1...3...3 Health regeneration. Half of all damage dealt to your pet is redirected to you.",
+    "description": "Shout. ({{Duration}} seconds.) Your pet has +{{HealthRegeneration}} Health regeneration. Half of all damage dealt to your pet is redirected to you.",
     "type": "Shout",
     "profession": "Ranger",
     "attribute": {
@@ -8285,7 +8285,7 @@
   {
     "name": "Throw Dirt",
     "icon": "",
-    "description": "Touch Skill. Inflicts Blindness condition (3...13...15 seconds). Also affects foes adjacent to target foe.",
+    "description": "Touch Skill. Inflicts Blindness condition ({{BlindDuration}} seconds). Also affects foes adjacent to target foe.",
     "type": "Touch Skill",
     "profession": "Ranger",
     "attribute": {
@@ -8333,7 +8333,7 @@
   {
     "name": "Tiger's Fury",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You attack 25% faster. Disables your non-attack skills (5 seconds).",
+    "description": "Stance. ({{Duration}} seconds.) You attack 25% faster. Disables your non-attack skills (5 seconds).",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -8381,7 +8381,7 @@
   {
     "name": "Toxicity",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...78...90 second lifespan.) Poisoned or Diseased creatures within range have -2 Health degeneration.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan.) Poisoned or Diseased creatures within range have -2 Health degeneration.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -8452,7 +8452,7 @@
   {
     "name": "Tranquility",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (15...51...60 second lifespan). Enchantments expire 20...44...50% faster on creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Enchantments expire {{EnchantmentExpirationPercent}}% faster on creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -8546,7 +8546,7 @@
   {
     "name": "Trapper's Focus",
     "icon": "",
-    "description": "Elite Preparation. (12...22...24 seconds.) Your trap skills are no longer easy to interrupt. You gain +0...2...2 to your Wilderness Survival attribute.",
+    "description": "Elite Preparation. ({{Duration}} seconds.) Your trap skills are no longer easy to interrupt. You gain +{{AttributeBonus}} to your Wilderness Survival attribute.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -8617,7 +8617,7 @@
   {
     "name": "Trapper's Speed",
     "icon": "",
-    "description": "Stance. (5...25...30 seconds.) Your traps recharge 25% faster and activate 25% faster. Ends if you hit with an attack.",
+    "description": "Stance. ({{Duration}} seconds.) Your traps recharge 25% faster and activate 25% faster. Ends if you hit with an attack.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -8665,7 +8665,7 @@
   {
     "name": "Triple Shot",
     "icon": "",
-    "description": "Bow Attack. Shoot 3 arrows simultaneously at target foe. These arrows deal 40...25% less damage",
+    "description": "Bow Attack. Shoot 3 arrows simultaneously at target foe. These arrows deal {{PercentDamageReduction}}% less damage",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -8705,7 +8705,7 @@
   {
     "name": "Tripwire",
     "icon": "",
-    "description": "Trap. (90 seconds.) Deals 5...17...20 piercing damage to nearby foes. Causes knock-down to Crippled foes. Easily interrupted.",
+    "description": "Trap. (90 seconds.) Deals {{PiercingDamage}} piercing damage to nearby foes. Causes knock-down to Crippled foes. Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -8753,7 +8753,7 @@
   {
     "name": "Troll Unguent",
     "icon": "",
-    "description": "Skill. (13 seconds.) You have +3...9...10 Health regeneration.",
+    "description": "Skill. (13 seconds.) You have +{{HealthRegeneration}} Health regeneration.",
     "type": "Skill",
     "profession": "Ranger",
     "attribute": {
@@ -8801,7 +8801,7 @@
   {
     "name": "Viper's Nest",
     "icon": "",
-    "description": "Trap. (90 seconds.) Affects nearby foes. Deals 5...29...35 piercing damage. Inflicts Poisoned condition (5...17...20 seconds). Easily interrupted.",
+    "description": "Trap. (90 seconds.) Affects nearby foes. Deals {{PiercingDamage}} piercing damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds). Easily interrupted.",
     "type": "Trap",
     "profession": "Ranger",
     "attribute": {
@@ -8872,7 +8872,7 @@
   {
     "name": "Volley",
     "icon": "",
-    "description": "Bow Attack. Deals +1...8...10 damage. Hits up to 3 foes adjacent to your target. All your preparations are removed.",
+    "description": "Bow Attack. Deals +{{Damage}} damage. Hits up to 3 foes adjacent to your target. All your preparations are removed.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -8921,7 +8921,7 @@
   {
     "name": "Whirling Defense",
     "icon": "",
-    "description": "Stance. (8...18...20 seconds.) You have 75% chance to block. Deals 5...10...11 damage to adjacent foes whenever you block a projectile attack.",
+    "description": "Stance. ({{Duration}} seconds.) You have 75% chance to block. Deals {{Damage}} damage to adjacent foes whenever you block a projectile attack.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -8992,7 +8992,7 @@
   {
     "name": "Winnowing",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Increases physical damage by +4 for creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Increases physical damage by +4 for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -9063,7 +9063,7 @@
   {
     "name": "Winter",
     "icon": "",
-    "description": "Nature Ritual. Creates a level 1...8...10 spirit (30...126...150 second lifespan). Converts elemental damage to cold damage for creatures in range. Does not affect spirits.",
+    "description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Converts elemental damage to cold damage for creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -9134,7 +9134,7 @@
   {
     "name": "Zojun's Haste",
     "icon": "",
-    "description": "Stance. (5...10...11 seconds.) You move 33% faster and have 27...65...75% chance to block projectiles. Ends if you attack.",
+    "description": "Stance. ({{Duration}} seconds.) You move 33% faster and have {{BlockChancePercent}}% chance to block projectiles. Ends if you attack.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {
@@ -9205,7 +9205,7 @@
   {
     "name": "Zojun's Shot",
     "icon": "",
-    "description": "Half Range Bow Attack. Deals +10...34...40 damage.",
+    "description": "Half Range Bow Attack. Deals +{{Damage}} damage.",
     "type": "Half Range Bow Attack",
     "profession": "Ranger",
     "attribute": {
