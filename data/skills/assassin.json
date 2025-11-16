@@ -67,7 +67,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Promise"
   },
   {
     "name": "Assassin's Remedy",
@@ -114,7 +115,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy"
   },
   {
     "name": "Assassin's Remedy (PvP)",
@@ -161,7 +163,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy_(PvP)"
   },
   {
     "name": "Assault Enchantments",
@@ -184,7 +187,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assault_Enchantments"
   },
   {
     "name": "Augury of Death",
@@ -254,7 +258,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Augury_of_Death"
   },
   {
     "name": "Aura of Displacement",
@@ -277,7 +282,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Displacement"
   },
   {
     "name": "Beguiling Haze",
@@ -324,7 +330,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Beguiling_Haze"
   },
   {
     "name": "Black Lotus Strike",
@@ -394,7 +401,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Lotus_Strike"
   },
   {
     "name": "Black Mantis Thrust",
@@ -466,7 +474,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Mantis_Thrust"
   },
   {
     "name": "Black Spider Strike",
@@ -538,7 +547,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Spider_Strike"
   },
   {
     "name": "Blades of Steel",
@@ -586,7 +596,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blades_of_Steel"
   },
   {
     "name": "Blinding Powder",
@@ -633,7 +644,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Powder"
   },
   {
     "name": "Caltrops",
@@ -680,7 +692,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Caltrops"
   },
   {
     "name": "Crippling Dagger",
@@ -750,7 +763,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Dagger"
   },
   {
     "name": "Critical Agility",
@@ -787,7 +801,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Agility"
   },
   {
     "name": "Critical Defenses",
@@ -834,7 +849,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Defenses"
   },
   {
     "name": "Critical Eye",
@@ -904,7 +920,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Eye"
   },
   {
     "name": "Critical Strike",
@@ -974,7 +991,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Strike"
   },
   {
     "name": "Dancing Daggers",
@@ -1021,7 +1039,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dancing_Daggers"
   },
   {
     "name": "Dark Apostasy",
@@ -1091,7 +1110,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Apostasy"
   },
   {
     "name": "Dark Escape",
@@ -1138,7 +1158,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Escape"
   },
   {
     "name": "Dark Prison",
@@ -1185,7 +1206,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Prison"
   },
   {
     "name": "Dash",
@@ -1208,7 +1230,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dash"
   },
   {
     "name": "Deadly Haste",
@@ -1301,7 +1324,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Haste"
   },
   {
     "name": "Deadly Paradox",
@@ -1348,7 +1372,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Paradox"
   },
   {
     "name": "Death Blossom",
@@ -1420,7 +1445,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Blossom"
   },
   {
     "name": "Death Blossom (PvP)",
@@ -1492,7 +1518,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Blossom_(PvP)"
   },
   {
     "name": "Death's Charge",
@@ -1539,7 +1566,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Charge"
   },
   {
     "name": "Death's Retreat",
@@ -1586,7 +1614,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Retreat"
   },
   {
     "name": "Desperate Strike",
@@ -1658,7 +1687,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Desperate_Strike"
   },
   {
     "name": "Disrupting Dagger",
@@ -1705,7 +1735,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Dagger"
   },
   {
     "name": "Disrupting Stab",
@@ -1753,7 +1784,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Stab"
   },
   {
     "name": "Enduring Toxin",
@@ -1800,7 +1832,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enduring_Toxin"
   },
   {
     "name": "Entangling Asp",
@@ -1847,7 +1880,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Entangling_Asp"
   },
   {
     "name": "Exhausting Assault",
@@ -1870,7 +1904,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Exhausting_Assault"
   },
   {
     "name": "Expose Defenses",
@@ -1917,7 +1952,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Expose_Defenses"
   },
   {
     "name": "Expunge Enchantments",
@@ -1964,7 +2000,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Expunge_Enchantments"
   },
   {
     "name": "Falling Lotus Strike",
@@ -2036,7 +2073,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike"
   },
   {
     "name": "Falling Spider",
@@ -2108,7 +2146,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Falling_Spider"
   },
   {
     "name": "Feigned Neutrality",
@@ -2155,7 +2194,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feigned_Neutrality"
   },
   {
     "name": "Flashing Blades",
@@ -2227,7 +2267,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flashing_Blades"
   },
   {
     "name": "Fox Fangs",
@@ -2275,7 +2316,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fox_Fangs"
   },
   {
     "name": "Fox Fangs (PvP)",
@@ -2323,7 +2365,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fox_Fangs_(PvP)"
   },
   {
     "name": "Fox's Promise",
@@ -2371,7 +2414,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fox%27s_Promise"
   },
   {
     "name": "Golden Fang Strike",
@@ -2419,7 +2463,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Fang_Strike"
   },
   {
     "name": "Golden Fox Strike",
@@ -2467,7 +2512,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Fox_Strike"
   },
   {
     "name": "Golden Lotus Strike",
@@ -2539,7 +2585,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Lotus_Strike"
   },
   {
     "name": "Golden Phoenix Strike",
@@ -2587,7 +2634,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Phoenix_Strike"
   },
   {
     "name": "Golden Skull Strike",
@@ -2635,7 +2683,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Skull_Strike"
   },
   {
     "name": "Heart of Shadow",
@@ -2682,7 +2731,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Shadow"
   },
   {
     "name": "Hidden Caltrops",
@@ -2752,7 +2802,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hidden_Caltrops"
   },
   {
     "name": "Horns of the Ox",
@@ -2800,7 +2851,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox"
   },
   {
     "name": "Impale",
@@ -2870,7 +2922,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Impale"
   },
   {
     "name": "Iron Palm",
@@ -2917,7 +2970,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Iron_Palm"
   },
   {
     "name": "Jagged Strike",
@@ -2965,7 +3019,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Strike"
   },
   {
     "name": "Jungle Strike",
@@ -3037,7 +3092,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jungle_Strike"
   },
   {
     "name": "Leaping Mantis Sting",
@@ -3109,7 +3165,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leaping_Mantis_Sting"
   },
   {
     "name": "Lift Enchantment",
@@ -3132,7 +3189,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lift_Enchantment"
   },
   {
     "name": "Locust's Fury",
@@ -3179,7 +3237,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Locust%27s_Fury"
   },
   {
     "name": "Lotus Strike",
@@ -3251,7 +3310,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lotus_Strike"
   },
   {
     "name": "Malicious Strike",
@@ -3298,7 +3358,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Malicious_Strike"
   },
   {
     "name": "Mantis Touch",
@@ -3345,7 +3406,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantis_Touch"
   },
   {
     "name": "Mark of Death",
@@ -3392,7 +3454,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Death"
   },
   {
     "name": "Mark of Insecurity",
@@ -3485,7 +3548,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Insecurity"
   },
   {
     "name": "Mark of Instability",
@@ -3508,7 +3572,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Instability"
   },
   {
     "name": "Mirrored Stance",
@@ -3555,7 +3620,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirrored_Stance"
   },
   {
     "name": "Moebius Strike",
@@ -3603,7 +3669,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Moebius_Strike"
   },
   {
     "name": "Nine Tail Strike",
@@ -3651,7 +3718,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nine_Tail_Strike"
   },
   {
     "name": "Palm Strike",
@@ -3721,7 +3789,8 @@
     "recharge": 7,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Palm_Strike"
   },
   {
     "name": "Recall",
@@ -3744,7 +3813,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recall"
   },
   {
     "name": "Repeating Strike",
@@ -3792,7 +3862,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Repeating_Strike"
   },
   {
     "name": "Return",
@@ -3839,7 +3910,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Return"
   },
   {
     "name": "Sadist's Signet",
@@ -3886,7 +3958,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sadist%27s_Signet"
   },
   {
     "name": "Scorpion Wire",
@@ -3933,7 +4006,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scorpion_Wire"
   },
   {
     "name": "Seeping Wound",
@@ -4003,7 +4077,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seeping_Wound"
   },
   {
     "name": "Shadow Fang",
@@ -4050,7 +4125,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Fang"
   },
   {
     "name": "Shadow Form",
@@ -4120,7 +4196,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Form"
   },
   {
     "name": "Shadow Form (PvP)",
@@ -4190,7 +4267,8 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Form_(PvP)"
   },
   {
     "name": "Shadow Meld",
@@ -4213,7 +4291,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Meld"
   },
   {
     "name": "Shadow Prison",
@@ -4260,7 +4339,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Prison"
   },
   {
     "name": "Shadow Refuge",
@@ -4330,7 +4410,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Refuge"
   },
   {
     "name": "Shadow Sanctuary",
@@ -4369,7 +4450,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary"
   },
   {
     "name": "Shadow Shroud",
@@ -4416,7 +4498,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Shroud"
   },
   {
     "name": "Shadow Theft",
@@ -4486,7 +4569,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Theft"
   },
   {
     "name": "Shadow Walk",
@@ -4509,7 +4593,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Walk"
   },
   {
     "name": "Shadow of Haste",
@@ -4556,7 +4641,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_of_Haste"
   },
   {
     "name": "Shadowy Burden",
@@ -4603,7 +4689,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowy_Burden"
   },
   {
     "name": "Shameful Fear",
@@ -4650,7 +4737,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shameful_Fear"
   },
   {
     "name": "Sharpen Daggers",
@@ -4720,7 +4808,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sharpen_Daggers"
   },
   {
     "name": "Shattering Assault",
@@ -4767,7 +4856,8 @@
     "recharge": 6,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shattering_Assault"
   },
   {
     "name": "Shroud of Distress",
@@ -4837,7 +4927,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress"
   },
   {
     "name": "Shroud of Distress (PvP)",
@@ -4884,7 +4975,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_(PvP)"
   },
   {
     "name": "Shroud of Silence",
@@ -4931,7 +5023,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Silence"
   },
   {
     "name": "Signet of Deadly Corruption",
@@ -4978,7 +5071,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption"
   },
   {
     "name": "Signet of Deadly Corruption (PvP)",
@@ -5025,7 +5119,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption_(PvP)"
   },
   {
     "name": "Signet of Malice",
@@ -5048,7 +5143,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Malice"
   },
   {
     "name": "Signet of Shadows",
@@ -5118,7 +5214,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Shadows"
   },
   {
     "name": "Signet of Toxic Shock",
@@ -5165,7 +5262,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Toxic_Shock"
   },
   {
     "name": "Signet of Twilight",
@@ -5188,7 +5286,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Twilight"
   },
   {
     "name": "Siphon Speed",
@@ -5235,7 +5334,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siphon_Speed"
   },
   {
     "name": "Siphon Strength",
@@ -5305,7 +5405,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siphon_Strength"
   },
   {
     "name": "Smoke Powder Defense",
@@ -5352,7 +5453,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smoke_Powder_Defense"
   },
   {
     "name": "Spirit Walk",
@@ -5375,7 +5477,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Walk"
   },
   {
     "name": "Swap",
@@ -5398,7 +5501,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swap"
   },
   {
     "name": "Temple Strike",
@@ -5446,7 +5550,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Temple_Strike"
   },
   {
     "name": "Trampling Ox",
@@ -5494,7 +5599,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Trampling_Ox"
   },
   {
     "name": "Twisting Fangs",
@@ -5564,7 +5670,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Twisting_Fangs"
   },
   {
     "name": "Unseen Fury",
@@ -5634,7 +5741,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Fury"
   },
   {
     "name": "Unseen Fury (PvP)",
@@ -5681,7 +5789,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Fury_(PvP)"
   },
   {
     "name": "Unsuspecting Strike",
@@ -5751,7 +5860,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unsuspecting_Strike"
   },
   {
     "name": "Vampiric Assault",
@@ -5798,7 +5908,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Assault"
   },
   {
     "name": "Viper's Defense",
@@ -5845,7 +5956,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Viper%27s_Defense"
   },
   {
     "name": "Wastrel's Collapse",
@@ -5868,7 +5980,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Collapse"
   },
   {
     "name": "Way of Perfection",
@@ -5915,7 +6028,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_Perfection"
   },
   {
     "name": "Way of the Assassin",
@@ -5985,7 +6099,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Assassin"
   },
   {
     "name": "Way of the Empty Palm",
@@ -6032,7 +6147,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm"
   },
   {
     "name": "Way of the Fox",
@@ -6102,7 +6218,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Fox"
   },
   {
     "name": "Way of the Lotus",
@@ -6149,7 +6266,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Lotus"
   },
   {
     "name": "Way of the Master",
@@ -6196,7 +6314,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Master"
   },
   {
     "name": "Wild Strike",
@@ -6244,7 +6363,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Strike"
   },
   {
     "name": "Wild Strike (PvP)",
@@ -6292,6 +6412,7 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Strike_(PvP)"
   }
 ]

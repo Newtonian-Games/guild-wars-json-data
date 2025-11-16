@@ -17,7 +17,8 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22It%27s_Good_to_Be_King!%22"
   },
   {
     "name": "Mad King Pony Support",
@@ -37,7 +38,8 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mad_King_Pony_Support"
   },
   {
     "name": "Maddening Laughter",
@@ -57,7 +59,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maddening_Laughter"
   },
   {
     "name": "Motivating Insults",
@@ -77,7 +80,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Motivating_Insults"
   },
   {
     "name": "Scourge of Candy",
@@ -97,7 +101,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scourge_of_Candy"
   },
   {
     "name": "Taste of Undeath",
@@ -117,7 +122,8 @@
     "recharge": 4,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Undeath"
   },
   {
     "name": "A pool of water.",
@@ -137,7 +143,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/A_pool_of_water."
   },
   {
     "name": "Afflicted Soul Explosion",
@@ -157,7 +164,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Afflicted_Soul_Explosion"
   },
   {
     "name": "Amulet of Protection",
@@ -177,7 +185,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Amulet_of_Protection"
   },
   {
     "name": "Blood Splattering",
@@ -197,7 +206,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Splattering"
   },
   {
     "name": "Burning Immunity",
@@ -217,7 +227,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Immunity"
   },
   {
     "name": "Chains of Enslavement",
@@ -237,7 +248,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chains_of_Enslavement"
   },
   {
     "name": "Chaotic Soul Explosion",
@@ -257,7 +269,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chaotic_Soul_Explosion"
   },
   {
     "name": "Create Spore",
@@ -277,7 +290,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Create_Spore"
   },
   {
     "name": "Critical Hit Probability",
@@ -297,7 +311,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Hit_Probability"
   },
   {
     "name": "Dark Soul Explosion",
@@ -317,7 +332,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Soul_Explosion"
   },
   {
     "name": "Dhuum",
@@ -337,7 +353,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dhuum"
   },
   {
     "name": "Duncan's Defense",
@@ -357,7 +374,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Duncan%27s_Defense"
   },
   {
     "name": "Elite Regeneration",
@@ -377,7 +395,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elite_Regeneration"
   },
   {
     "name": "Emperor Degen",
@@ -397,7 +416,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Emperor_Degen"
   },
   {
     "name": "Energy Boost",
@@ -417,7 +437,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Boost"
   },
   {
     "name": "Ethereal Soul Explosion",
@@ -437,7 +458,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Soul_Explosion"
   },
   {
     "name": "Exploding Spores",
@@ -457,7 +479,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Exploding_Spores"
   },
   {
     "name": "Exposed Underbelly",
@@ -477,7 +500,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Exposed_Underbelly"
   },
   {
     "name": "False Death",
@@ -497,7 +521,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/False_Death"
   },
   {
     "name": "Fiery Soul Explosion",
@@ -517,7 +542,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fiery_Soul_Explosion"
   },
   {
     "name": "Fire Flower",
@@ -537,7 +563,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Flower"
   },
   {
     "name": "Fix Monster Attributes",
@@ -557,7 +584,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fix_Monster_Attributes"
   },
   {
     "name": "Forgewight's Blessing",
@@ -577,7 +605,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forgewight%27s_Blessing"
   },
   {
     "name": "Golem Fire Shield",
@@ -597,7 +626,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Fire_Shield"
   },
   {
     "name": "Greater Hard Mode NPC Buff",
@@ -617,7 +647,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Greater_Hard_Mode_NPC_Buff"
   },
   {
     "name": "Ground Cover",
@@ -637,7 +668,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ground_Cover"
   },
   {
     "name": "Guild Lord Aura",
@@ -657,7 +689,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guild_Lord_Aura"
   },
   {
     "name": "Hard Mode Dungeon Boss",
@@ -677,7 +710,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hard_Mode_Dungeon_Boss"
   },
   {
     "name": "Hard Mode NPC Buff",
@@ -697,7 +731,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hard_Mode_NPC_Buff"
   },
   {
     "name": "Health Drain",
@@ -717,7 +752,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Health_Drain"
   },
   {
     "name": "Immunity to Critical Hits",
@@ -737,7 +773,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Immunity_to_Critical_Hits"
   },
   {
     "name": "Impending Dhuum",
@@ -757,7 +794,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Impending_Dhuum"
   },
   {
     "name": "Inanimate Object",
@@ -777,7 +815,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inanimate_Object"
   },
   {
     "name": "Inscribed Ettin Aura",
@@ -797,7 +836,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin_Aura"
   },
   {
     "name": "Internal Power Engaged",
@@ -817,7 +857,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Internal_Power_Engaged"
   },
   {
     "name": "Invulnerability",
@@ -837,7 +878,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Invulnerability"
   },
   {
     "name": "Last Rites of Torment",
@@ -857,7 +899,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Last_Rites_of_Torment"
   },
   {
     "name": "Lesser Flame Sentinel Resistance",
@@ -877,7 +920,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lesser_Flame_Sentinel_Resistance"
   },
   {
     "name": "Lesser Hard Mode NPC Buff",
@@ -897,7 +941,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lesser_Hard_Mode_NPC_Buff"
   },
   {
     "name": "Long Claws",
@@ -917,7 +962,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Long_Claws"
   },
   {
     "name": "Mad King's Fan",
@@ -937,7 +983,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mad_King%27s_Fan"
   },
   {
     "name": "Marked For Death",
@@ -957,7 +1004,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Marked_For_Death"
   },
   {
     "name": "Monster doesn't get death penalty",
@@ -977,7 +1025,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Monster_doesn%27t_get_death_penalty"
   },
   {
     "name": "N.O.X. Driver",
@@ -997,7 +1046,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Driver"
   },
   {
     "name": "Natural Resistance",
@@ -1017,7 +1067,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Natural_Resistance"
   },
   {
     "name": "Nightmarish Aura",
@@ -1037,7 +1088,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Bonus Mission Pack",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nightmarish_Aura"
   },
   {
     "name": "Plague Spring",
@@ -1057,7 +1109,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Spring"
   },
   {
     "name": "Rejuvenating Soul Explosion",
@@ -1077,7 +1130,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rejuvenating_Soul_Explosion"
   },
   {
     "name": "Respawn",
@@ -1097,7 +1151,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Respawn"
   },
   {
     "name": "Seal Regen",
@@ -1117,7 +1172,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seal_Regen"
   },
   {
     "name": "Selvetarm's Attack",
@@ -1137,7 +1193,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Selvetarm%27s_Attack"
   },
   {
     "name": "Selvetarm's Blessing",
@@ -1157,7 +1214,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Selvetarm%27s_Blessing"
   },
   {
     "name": "Shadow Smash",
@@ -1177,7 +1235,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Smash"
   },
   {
     "name": "Shadowy Soul Explosion",
@@ -1197,7 +1256,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowy_Soul_Explosion"
   },
   {
     "name": "Skin of Stone",
@@ -1217,7 +1277,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Skin_of_Stone"
   },
   {
     "name": "Spectral Infusion",
@@ -1237,7 +1298,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spectral_Infusion"
   },
   {
     "name": "Strong Natural Resistance",
@@ -1257,7 +1319,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strong_Natural_Resistance"
   },
   {
     "name": "Stun Immunity",
@@ -1277,7 +1340,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stun_Immunity"
   },
   {
     "name": "Stun on Critical Hit",
@@ -1297,7 +1361,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stun_on_Critical_Hit"
   },
   {
     "name": "Sweeping Strikes",
@@ -1317,7 +1382,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sweeping_Strikes"
   },
   {
     "name": "Temporal Sheen",
@@ -1337,7 +1403,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Temporal_Sheen"
   },
   {
     "name": "Tengu's Gaze",
@@ -1357,7 +1424,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tengu%27s_Gaze"
   },
   {
     "name": "The Chalice of Corruption",
@@ -1377,7 +1445,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Chalice_of_Corruption"
   },
   {
     "name": "Thommis's Attack",
@@ -1397,7 +1466,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thommis%27s_Attack"
   },
   {
     "name": "Thommis's Blessing",
@@ -1417,7 +1487,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thommis%27s_Blessing"
   },
   {
     "name": "Titans get plus Health regen and set enemies on fire each time he is hit.",
@@ -1437,7 +1508,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Titans_get_plus_Health_regen_and_set_enemies_on_fire_each_time_he_is_hit."
   },
   {
     "name": "Turtle Shell",
@@ -1457,7 +1529,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Turtle_Shell"
   },
   {
     "name": "Unbalancing Soul Explosion",
@@ -1477,7 +1550,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unbalancing_Soul_Explosion"
   },
   {
     "name": "Undead sensitivity to Light",
@@ -1497,7 +1571,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Undead_sensitivity_to_Light"
   },
   {
     "name": "Undying",
@@ -1517,7 +1592,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Undying"
   },
   {
     "name": "Vengeance is Ours",
@@ -1537,7 +1613,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vengeance_is_Ours"
   },
   {
     "name": "Wandering Mind",
@@ -1557,7 +1634,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Mind"
   },
   {
     "name": "Agnar's Rage",
@@ -1577,7 +1655,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Agnar%27s_Rage"
   },
   {
     "name": "Brutal Mauling",
@@ -1597,7 +1676,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Brutal_Mauling"
   },
   {
     "name": "Crippling Attack",
@@ -1617,7 +1697,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Attack"
   },
   {
     "name": "Dark Chain Lightning",
@@ -1637,7 +1718,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Chain_Lightning"
   },
   {
     "name": "Earth Shattering Blow",
@@ -1657,7 +1739,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Shattering_Blow"
   },
   {
     "name": "Earth Vortex",
@@ -1677,7 +1760,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Vortex"
   },
   {
     "name": "Frost Vortex",
@@ -1697,7 +1781,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frost_Vortex"
   },
   {
     "name": "Giant Stomp",
@@ -1717,7 +1802,8 @@
     "recharge": 32,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Giant_Stomp"
   },
   {
     "name": "Hunger of the Lich",
@@ -1737,7 +1823,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hunger_of_the_Lich"
   },
   {
     "name": "Hunger's Bite",
@@ -1757,7 +1844,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hunger%27s_Bite"
   },
   {
     "name": "Quake Of Ahdashim",
@@ -1777,7 +1865,8 @@
     "recharge": 18,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Quake_Of_Ahdashim"
   },
   {
     "name": "Rolling Shift",
@@ -1797,7 +1886,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rolling_Shift"
   },
   {
     "name": "Siege Attack",
@@ -1817,7 +1907,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Attack"
   },
   {
     "name": "Suicide Energy",
@@ -1837,7 +1928,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Suicide_Energy"
   },
   {
     "name": "Suicide Health",
@@ -1857,7 +1949,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Suicide_Health"
   },
   {
     "name": "Wild Smash",
@@ -1877,7 +1970,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Smash"
   },
   {
     "name": "Annihilator Bash",
@@ -1897,7 +1991,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Annihilator_Bash"
   },
   {
     "name": "Bloodstone Slash",
@@ -1917,7 +2012,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodstone_Slash"
   },
   {
     "name": "Consuming Flames",
@@ -1937,7 +2033,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consuming_Flames"
   },
   {
     "name": "Falken Punch",
@@ -1957,7 +2054,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Falken_Punch"
   },
   {
     "name": "Feeding Frenzy",
@@ -1977,7 +2075,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feeding_Frenzy"
   },
   {
     "name": "Golem Strike",
@@ -1997,7 +2096,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Strike"
   },
   {
     "name": "Parasitic Bite",
@@ -2017,7 +2117,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Parasitic_Bite"
   },
   {
     "name": "Reaping of Dhuum",
@@ -2037,7 +2138,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reaping_of_Dhuum"
   },
   {
     "name": "Shattered Spirit",
@@ -2057,7 +2159,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shattered_Spirit"
   },
   {
     "name": "Thunderfist Strike",
@@ -2077,7 +2180,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thunderfist_Strike"
   },
   {
     "name": "Unseen Aggression",
@@ -2097,7 +2201,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Aggression"
   },
   {
     "name": "Venom Fang",
@@ -2117,7 +2222,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Hearts of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Venom_Fang"
   },
   {
     "name": "Weight of Dhuum",
@@ -2137,7 +2243,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weight_of_Dhuum"
   },
   {
     "name": "Withering Blade",
@@ -2157,7 +2264,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Hearts of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Withering_Blade"
   },
   {
     "name": "Anguish",
@@ -2177,7 +2285,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anguish"
   },
   {
     "name": "Bloodsong",
@@ -2197,7 +2306,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodsong"
   },
   {
     "name": "Bone Spike",
@@ -2217,7 +2327,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bone_Spike"
   },
   {
     "name": "Disenchantment",
@@ -2237,7 +2348,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disenchantment"
   },
   {
     "name": "Dissonance",
@@ -2257,7 +2369,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance"
   },
   {
     "name": "Flurry of Splinters",
@@ -2277,7 +2390,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flurry_of_Splinters"
   },
   {
     "name": "Gaze of Fury",
@@ -2297,7 +2411,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury"
   },
   {
     "name": "Jadoth's Storm of Judgment",
@@ -2317,7 +2432,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jadoth%27s_Storm_of_Judgment"
   },
   {
     "name": "Keiran's Sniper Shot",
@@ -2337,7 +2453,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Keiran%27s_Sniper_Shot"
   },
   {
     "name": "Pain",
@@ -2357,7 +2474,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain"
   },
   {
     "name": "Pain (Signet of Spirits)",
@@ -2377,7 +2495,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(Signet_of_Spirits)"
   },
   {
     "name": "Pain (Togo)",
@@ -2397,7 +2516,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Bonus Mission Pack",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(Togo)"
   },
   {
     "name": "Shadowsong",
@@ -2417,7 +2537,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong"
   },
   {
     "name": "Splinter Shot",
@@ -2437,7 +2558,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Shot"
   },
   {
     "name": "The Sniper's Spear",
@@ -2457,7 +2579,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Sniper%27s_Spear"
   },
   {
     "name": "Vampirism",
@@ -2477,7 +2600,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampirism"
   },
   {
     "name": "Wanderlust",
@@ -2497,7 +2621,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wanderlust"
   },
   {
     "name": "Adoration",
@@ -2517,7 +2642,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Adoration"
   },
   {
     "name": "Animate Undead",
@@ -2537,7 +2663,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Undead"
   },
   {
     "name": "Animate Undead (Palawa Joko)",
@@ -2557,7 +2684,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Undead_(Palawa_Joko)"
   },
   {
     "name": "Argo's Cry",
@@ -2577,7 +2705,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Argo%27s_Cry"
   },
   {
     "name": "Banish Enchantment",
@@ -2597,7 +2726,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Banish_Enchantment"
   },
   {
     "name": "Bit Golem Breaker",
@@ -2617,7 +2747,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Breaker"
   },
   {
     "name": "Bit Golem Crash",
@@ -2637,7 +2768,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Crash"
   },
   {
     "name": "Bit Golem Force",
@@ -2657,7 +2789,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Force"
   },
   {
     "name": "Blast Furnace",
@@ -2677,7 +2810,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blast_Furnace"
   },
   {
     "name": "Blizzard",
@@ -2697,7 +2831,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blizzard"
   },
   {
     "name": "Blood Flower",
@@ -2717,7 +2852,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Flower"
   },
   {
     "name": "Blood of zu Heltzer",
@@ -2737,7 +2873,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_zu_Heltzer"
   },
   {
     "name": "Ceiling Collapse",
@@ -2757,7 +2894,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ceiling_Collapse"
   },
   {
     "name": "Chomper",
@@ -2777,7 +2915,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chomper"
   },
   {
     "name": "Consume Flames",
@@ -2797,7 +2936,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Flames"
   },
   {
     "name": "Corrupted Dragon Scales",
@@ -2817,7 +2957,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Dragon_Scales"
   },
   {
     "name": "Corrupted Dragon Spores",
@@ -2837,7 +2978,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Dragon_Spores"
   },
   {
     "name": "Corrupted Healing",
@@ -2857,7 +2999,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Healing"
   },
   {
     "name": "Death's Embrace",
@@ -2877,7 +3020,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Hearts of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Embrace"
   },
   {
     "name": "Dhuum's Rest",
@@ -2897,7 +3041,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dhuum%27s_Rest"
   },
   {
     "name": "Diamondshard Grave",
@@ -2917,7 +3062,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Diamondshard_Grave"
   },
   {
     "name": "Diamondshard Mist",
@@ -2937,7 +3083,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Diamondshard_Mist"
   },
   {
     "name": "Drain Minion",
@@ -2957,7 +3104,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Minion"
   },
   {
     "name": "Dryder's Feast",
@@ -2977,7 +3125,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dryder%27s_Feast"
   },
   {
     "name": "Ebon Vanguard Assassin Support",
@@ -2997,7 +3146,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support"
   },
   {
     "name": "Fleshreaver's Escape",
@@ -3017,7 +3167,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fleshreaver%27s_Escape"
   },
   {
     "name": "Ghostly Fury",
@@ -3037,7 +3188,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ghostly_Fury"
   },
   {
     "name": "Grand Illusion",
@@ -3057,7 +3209,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grand_Illusion"
   },
   {
     "name": "Jade Brotherhood Bomb",
@@ -3077,7 +3230,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jade_Brotherhood_Bomb"
   },
   {
     "name": "Jade Fury",
@@ -3097,7 +3251,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jade_Fury"
   },
   {
     "name": "Judgment of Dhuum",
@@ -3117,7 +3272,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Judgment_of_Dhuum"
   },
   {
     "name": "Koro's Gaze",
@@ -3137,7 +3293,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Koro%27s_Gaze"
   },
   {
     "name": "Master of Necromancy",
@@ -3157,7 +3314,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Master_of_Necromancy"
   },
   {
     "name": "Mirror of Darkness",
@@ -3177,7 +3335,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Darkness"
   },
   {
     "name": "Murakai's Calamity",
@@ -3197,7 +3356,8 @@
     "recharge": 14,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Calamity"
   },
   {
     "name": "Murakai's Call",
@@ -3217,7 +3377,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Call"
   },
   {
     "name": "Murakai's Censure",
@@ -3237,7 +3398,8 @@
     "recharge": 18,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Censure"
   },
   {
     "name": "Murakai's Consumption",
@@ -3257,7 +3419,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Consumption"
   },
   {
     "name": "Murakai's Storm of Souls",
@@ -3277,7 +3440,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Storm_of_Souls"
   },
   {
     "name": "N.O.X. Beam",
@@ -3297,7 +3461,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Beam"
   },
   {
     "name": "N.O.X. Divider Drive",
@@ -3317,7 +3482,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Divider_Drive"
   },
   {
     "name": "N.O.X. Fire",
@@ -3337,7 +3503,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Fire"
   },
   {
     "name": "N.O.X. Knuckle",
@@ -3357,7 +3524,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Knuckle"
   },
   {
     "name": "N.O.X. Thunder",
@@ -3377,7 +3545,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Thunder"
   },
   {
     "name": "N.O.X.ion Buster",
@@ -3397,7 +3566,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X.ion_Buster"
   },
   {
     "name": "Oath of Healing",
@@ -3417,7 +3587,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Oath_of_Healing"
   },
   {
     "name": "Of Royal Blood",
@@ -3437,7 +3608,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Royal_Blood"
   },
   {
     "name": "Order of Unholy Vigor",
@@ -3457,7 +3629,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Unholy_Vigor"
   },
   {
     "name": "Order of Unholy Vigor (Palawa Joko)",
@@ -3477,7 +3650,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Unholy_Vigor_(Palawa_Joko)"
   },
   {
     "name": "Order of the Lich",
@@ -3497,7 +3671,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Lich"
   },
   {
     "name": "Order of the Lich (Palawa Joko)",
@@ -3517,7 +3692,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Lich_(Palawa_Joko)"
   },
   {
     "name": "Passage to Tahnnakai",
@@ -3537,7 +3713,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Passage_to_Tahnnakai"
   },
   {
     "name": "Phased Plasma Burst",
@@ -3557,7 +3734,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phased_Plasma_Burst"
   },
   {
     "name": "Plasma Shot",
@@ -3577,7 +3755,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plasma_Shot"
   },
   {
     "name": "Poison Arrow",
@@ -3597,7 +3776,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Poison_Arrow"
   },
   {
     "name": "Purify Energy",
@@ -3617,7 +3797,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purify_Energy"
   },
   {
     "name": "Purify Soul",
@@ -3637,7 +3818,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purify_Soul"
   },
   {
     "name": "Purifying Flame",
@@ -3657,7 +3839,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Flame"
   },
   {
     "name": "Purifying Prayer",
@@ -3677,7 +3860,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Prayer"
   },
   {
     "name": "Putrid Flames",
@@ -3697,7 +3881,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Flames"
   },
   {
     "name": "Reactor Blast",
@@ -3717,7 +3902,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reactor_Blast"
   },
   {
     "name": "Redemption of Purity",
@@ -3737,7 +3923,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Redemption_of_Purity"
   },
   {
     "name": "Resurrect (Gargoyle)",
@@ -3757,7 +3944,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect_(Gargoyle)"
   },
   {
     "name": "Resurrect",
@@ -3777,7 +3965,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect"
   },
   {
     "name": "Reverse Polarity Fire Shield",
@@ -3797,7 +3986,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reverse_Polarity_Fire_Shield"
   },
   {
     "name": "Rise From Your Grave!",
@@ -3817,7 +4007,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rise_From_Your_Grave!"
   },
   {
     "name": "Snowball (NPC)",
@@ -3837,7 +4028,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Snowball_(NPC)"
   },
   {
     "name": "Sorrow's Fist",
@@ -3857,7 +4049,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Fist"
   },
   {
     "name": "Sorrow's Flame",
@@ -3877,7 +4070,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Flame"
   },
   {
     "name": "Soul Vortex",
@@ -3897,7 +4091,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Vortex"
   },
   {
     "name": "Spike Trap (spell)",
@@ -3917,7 +4112,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Bonus Mission Pack",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spike_Trap_(spell)"
   },
   {
     "name": "Spirit Siphon (Master Riyo)",
@@ -3937,7 +4133,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Bonus Mission Pack",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Siphon_(Master_Riyo)"
   },
   {
     "name": "Statue's Blessing",
@@ -3957,7 +4154,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Statue%27s_Blessing"
   },
   {
     "name": "Stormcaller",
@@ -3977,7 +4175,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stormcaller"
   },
   {
     "name": "Summon Champion",
@@ -3997,7 +4196,8 @@
     "recharge": 35,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Champion"
   },
   {
     "name": "Summon Minions",
@@ -4017,7 +4217,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Minions"
   },
   {
     "name": "Summon Torment",
@@ -4037,7 +4238,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Torment"
   },
   {
     "name": "Turret Arrow",
@@ -4057,7 +4259,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Turret_Arrow"
   },
   {
     "name": "Ultra Snowball",
@@ -4077,7 +4280,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ultra_Snowball"
   },
   {
     "name": "Unyielding Anguish",
@@ -4097,7 +4301,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unyielding_Anguish"
   },
   {
     "name": "Wave of Torment",
@@ -4117,7 +4322,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wave_of_Torment"
   },
   {
     "name": "Wurm Siege",
@@ -4137,7 +4343,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege"
   },
   {
     "name": "Wurm Siege",
@@ -4157,7 +4364,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege"
   },
   {
     "name": "Wurm Siege (Eye of the North)",
@@ -4177,7 +4385,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Eye_of_the_North)"
   },
   {
     "name": "Abaddon's Chosen",
@@ -4197,7 +4406,8 @@
     "recharge": 90,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Chosen"
   },
   {
     "name": "Abaddon's Conspiracy",
@@ -4217,7 +4427,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Conspiracy"
   },
   {
     "name": "Bit Golem Rectifier",
@@ -4237,7 +4448,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Rectifier"
   },
   {
     "name": "Blessing of the Kirin",
@@ -4257,7 +4469,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blessing_of_the_Kirin"
   },
   {
     "name": "Chimera of Intensity",
@@ -4277,7 +4490,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chimera_of_Intensity"
   },
   {
     "name": "Crystal Shield",
@@ -4297,7 +4511,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Shield"
   },
   {
     "name": "Demonic Agility",
@@ -4317,7 +4532,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Demonic_Agility"
   },
   {
     "name": "Healing Breeze",
@@ -4337,7 +4553,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Breeze"
   },
   {
     "name": "Nightmare Refuge",
@@ -4357,7 +4574,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nightmare_Refuge"
   },
   {
     "name": "Spirit Form (Remains of Sahlahja)",
@@ -4377,7 +4595,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Form_(Remains_of_Sahlahja)"
   },
   {
     "name": "Verata's Promise",
@@ -4397,7 +4616,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Promise"
   },
   {
     "name": "Bonds of Torment",
@@ -4417,7 +4637,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bonds_of_Torment"
   },
   {
     "name": "Call of Sacrifice",
@@ -4437,7 +4658,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Sacrifice"
   },
   {
     "name": "Corsair's Net",
@@ -4457,7 +4679,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corsair%27s_Net"
   },
   {
     "name": "Crystal Bonds",
@@ -4477,7 +4700,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Bonds"
   },
   {
     "name": "Crystal Haze",
@@ -4497,7 +4721,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Haze"
   },
   {
     "name": "Crystal Snare",
@@ -4517,7 +4742,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Snare"
   },
   {
     "name": "Enchantment Collapse",
@@ -4537,7 +4763,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enchantment_Collapse"
   },
   {
     "name": "Isaiah's Balance",
@@ -4557,7 +4784,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Isaiah%27s_Balance"
   },
   {
     "name": "N.O.X. Phantom",
@@ -4577,7 +4805,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Phantom"
   },
   {
     "name": "Paranoid Indignation",
@@ -4597,7 +4826,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Paranoid_Indignation"
   },
   {
     "name": "Promise of Death",
@@ -4617,7 +4847,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Hearts of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Promise_of_Death"
   },
   {
     "name": "Sky Net",
@@ -4637,7 +4868,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sky_Net"
   },
   {
     "name": "Snaring Web",
@@ -4657,7 +4889,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Snaring_Web"
   },
   {
     "name": "Spirit World Retreat",
@@ -4677,7 +4910,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_World_Retreat"
   },
   {
     "name": "Target Acquisition",
@@ -4697,7 +4931,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Target_Acquisition"
   },
   {
     "name": "The Master's Mark",
@@ -4717,7 +4952,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Master%27s_Mark"
   },
   {
     "name": "Tongue Lash",
@@ -4737,7 +4973,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tongue_Lash"
   },
   {
     "name": "Tongue Whip",
@@ -4757,7 +4994,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tongue_Whip"
   },
   {
     "name": "Weight of Dhuum (hex)",
@@ -4777,7 +5015,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weight_of_Dhuum_(hex)"
   },
   {
     "name": "Words of Madness",
@@ -4797,7 +5036,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness"
   },
   {
     "name": "Wurm Bile",
@@ -4817,7 +5057,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Bile"
   },
   {
     "name": "Aura of Purity",
@@ -4837,7 +5078,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Purity"
   },
   {
     "name": "Ebon Vanguard Battle Standard of Power",
@@ -4857,7 +5099,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Battle_Standard_of_Power"
   },
   {
     "name": "Mandragor's Charge",
@@ -4877,7 +5120,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mandragor%27s_Charge"
   },
   {
     "name": "Nibble",
@@ -4897,7 +5141,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nibble"
   },
   {
     "name": "Restore Life",
@@ -4917,7 +5162,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restore_Life"
   },
   {
     "name": "Chomp",
@@ -4937,7 +5183,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chomp"
   },
   {
     "name": "Ehzah from Above",
@@ -4957,7 +5204,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ehzah_from_Above"
   },
   {
     "name": "Juggernaut Toss",
@@ -4977,7 +5225,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Juggernaut_Toss"
   },
   {
     "name": "Maddened Strike",
@@ -4997,7 +5246,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maddened_Strike"
   },
   {
     "name": "Ooze Combination",
@@ -5017,7 +5267,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ooze_Combination"
   },
   {
     "name": "Queen Bite",
@@ -5037,7 +5288,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Bite"
   },
   {
     "name": "Smash of the Titans",
@@ -5057,7 +5309,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smash_of_the_Titans"
   },
   {
     "name": "Touch of Dhuum",
@@ -5077,7 +5330,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Dhuum"
   },
   {
     "name": "Trample",
@@ -5097,7 +5351,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Trample"
   },
   {
     "name": "Twisting Jaws",
@@ -5117,7 +5372,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Twisting_Jaws"
   },
   {
     "name": "Unstable Ooze Explosion",
@@ -5137,7 +5393,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Ooze_Explosion"
   },
   {
     "name": "Battle Scars",
@@ -5157,7 +5414,8 @@
     "recharge": 11,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Battle_Scars"
   },
   {
     "name": "Charging Spirit",
@@ -5177,7 +5435,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charging_Spirit"
   },
   {
     "name": "Corrupted Strength",
@@ -5197,7 +5456,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Strength"
   },
   {
     "name": "Drunken Stumbling",
@@ -5217,7 +5477,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Stumbling"
   },
   {
     "name": "Fingers of Chaos",
@@ -5237,7 +5498,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fingers_of_Chaos"
   },
   {
     "name": "Golem Boosters",
@@ -5257,7 +5519,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Boosters"
   },
   {
     "name": "Infernal Rage",
@@ -5277,7 +5540,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Infernal_Rage"
   },
   {
     "name": "Jagged Crystal Skin",
@@ -5297,7 +5561,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Crystal_Skin"
   },
   {
     "name": "Junundu Tunnel",
@@ -5317,7 +5582,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Junundu_Tunnel"
   },
   {
     "name": "Mirror Echo",
@@ -5337,7 +5603,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_Echo"
   },
   {
     "name": "N.O.X. Field Dash",
@@ -5357,7 +5624,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Field_Dash"
   },
   {
     "name": "Renewing Corruption",
@@ -5377,7 +5645,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Corruption"
   },
   {
     "name": "Riposting Shadows",
@@ -5397,7 +5666,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Riposting_Shadows"
   },
   {
     "name": "Spirit Senses",
@@ -5417,7 +5687,8 @@
     "recharge": 75,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Senses"
   },
   {
     "name": "Strength of Purity",
@@ -5437,7 +5708,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strength_of_Purity"
   },
   {
     "name": "Survivor's Will",
@@ -5457,7 +5729,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Hearts of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Survivor%27s_Will"
   },
   {
     "name": "Toriimo's Burning Fury",
@@ -5477,7 +5750,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Toriimo%27s_Burning_Fury"
   },
   {
     "name": "Way of the Pure",
@@ -5497,7 +5771,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Pure"
   },
   {
     "name": "Bear Form",
@@ -5517,7 +5792,8 @@
     "recharge": 120,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bear_Form"
   },
   {
     "name": "Elemental Shift",
@@ -5537,7 +5813,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Shift"
   },
   {
     "name": "Quest skill for Coastal Exam.",
@@ -5557,7 +5834,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Quest_skill_for_Coastal_Exam."
   },
   {
     "name": "Shadowsong (Master Riyo)",
@@ -5577,7 +5855,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Bonus Mission Pack",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong_(Master_Riyo)"
   },
   {
     "name": "Shapeshift",
@@ -5597,7 +5876,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shapeshift"
   },
   {
     "name": "Splinter Mine (Flame Geyser)",
@@ -5617,7 +5897,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Mine_(Flame_Geyser)"
   },
   {
     "name": "Spring of Purity",
@@ -5637,7 +5918,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spring_of_Purity"
   },
   {
     "name": "\"I'll Be Back!\"",
@@ -5657,7 +5939,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I%27ll_Be_Back!%22"
   },
   {
     "name": "\"Kilroy Stonekin\"",
@@ -5677,7 +5960,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Kilroy_Stonekin%22"
   },
   {
     "name": "\"There's not enough time!!\"",
@@ -5697,7 +5981,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22There%27s_not_enough_time!!%22"
   },
   {
     "name": "Anthem of Purity",
@@ -5717,7 +6002,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Winds of Change",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Purity"
   },
   {
     "name": "Echoing Banishment",
@@ -5737,7 +6023,8 @@
     "recharge": 40,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Echoing_Banishment"
   },
   {
     "name": "Enemies Must Die!",
@@ -5757,7 +6044,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enemies_Must_Die!"
   },
   {
     "name": "Presence of the Skale Lord",
@@ -5777,7 +6065,8 @@
     "recharge": 50,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Presence_of_the_Skale_Lord"
   },
   {
     "name": "Song of the Mists",
@@ -5797,7 +6086,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_the_Mists"
   },
   {
     "name": "Spirit Roar",
@@ -5817,7 +6107,8 @@
     "recharge": 16,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Roar"
   },
   {
     "name": "Tengu's Mimicry",
@@ -5837,7 +6128,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tengu%27s_Mimicry"
   },
   {
     "name": "Tremor",
@@ -5857,7 +6149,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tremor"
   },
   {
     "name": "Abaddon's Favor",
@@ -5877,7 +6170,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Favor"
   },
   {
     "name": "Aspect of Oak",
@@ -5897,7 +6191,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aspect_of_Oak"
   },
   {
     "name": "Aura of the Juggernaut",
@@ -5917,7 +6212,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_the_Juggernaut"
   },
   {
     "name": "Base Defense",
@@ -5937,7 +6233,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Base_Defense"
   },
   {
     "name": "Berserk",
@@ -5957,7 +6254,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Berserk"
   },
   {
     "name": "Blood Rage",
@@ -5977,7 +6275,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Rage"
   },
   {
     "name": "Breaking Charm",
@@ -5997,7 +6296,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Breaking_Charm"
   },
   {
     "name": "Call of Destruction",
@@ -6017,7 +6317,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Destruction"
   },
   {
     "name": "Call to the Torment",
@@ -6037,7 +6338,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Call_to_the_Torment"
   },
   {
     "name": "Carrier Defense",
@@ -6057,7 +6359,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Carrier_Defense"
   },
   {
     "name": "Chaotic Energy",
@@ -6077,7 +6380,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chaotic_Energy"
   },
   {
     "name": "Charm Animal (Ashlyn Spiderfriend)",
@@ -6097,7 +6401,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(Ashlyn_Spiderfriend)"
   },
   {
     "name": "Charm Animal (Charr Demolisher)",
@@ -6117,7 +6422,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Bonus Mission Pack",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(Charr_Demolisher)"
   },
   {
     "name": "Charm Animal (White Mantle)",
@@ -6137,7 +6443,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(White_Mantle)"
   },
   {
     "name": "Charm Animal",
@@ -6157,7 +6464,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal"
   },
   {
     "name": "Charm Animal (monster)",
@@ -6177,7 +6485,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(monster)"
   },
   {
     "name": "Charm Drake",
@@ -6197,7 +6506,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Drake"
   },
   {
     "name": "Charr Siege Attack (Against the Charr)",
@@ -6217,7 +6527,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(Against_the_Charr)"
   },
   {
     "name": "Charr Siege Attack (Assault on the Stronghold)",
@@ -6237,7 +6548,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(Assault_on_the_Stronghold)"
   },
   {
     "name": "Charr Siege Attack (What Must Be Done)",
@@ -6257,7 +6569,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(What_Must_Be_Done)"
   },
   {
     "name": "Claim Resource",
@@ -6277,7 +6590,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Claim_Resource"
   },
   {
     "name": "Claim Resource (Heroes' Ascent)",
@@ -6297,7 +6611,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Claim_Resource_(Heroes%27_Ascent)"
   },
   {
     "name": "Consume Torment",
@@ -6317,7 +6632,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Torment"
   },
   {
     "name": "Corrupt Power",
@@ -6337,7 +6653,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupt_Power"
   },
   {
     "name": "Countdown",
@@ -6357,7 +6674,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Countdown"
   },
   {
     "name": "Create Light of Seborhin",
@@ -6377,7 +6695,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Create_Light_of_Seborhin"
   },
   {
     "name": "Crystal Hibernation",
@@ -6397,7 +6716,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Hibernation"
   },
   {
     "name": "Damage Assessment",
@@ -6417,7 +6737,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Damage_Assessment"
   },
   {
     "name": "Deafening Roar",
@@ -6437,7 +6758,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deafening_Roar"
   },
   {
     "name": "Decipher Inscriptions",
@@ -6457,7 +6779,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Decipher_Inscriptions"
   },
   {
     "name": "Dormant Husk",
@@ -6477,7 +6800,8 @@
     "recharge": 9999,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dormant_Husk"
   },
   {
     "name": "Energy Blast (golem)",
@@ -6497,7 +6821,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Blast_(golem)"
   },
   {
     "name": "Enraged",
@@ -6517,7 +6842,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged"
   },
   {
     "name": "Enraged Blast",
@@ -6537,7 +6863,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Blast"
   },
   {
     "name": "Entourage",
@@ -6557,7 +6884,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Entourage"
   },
   {
     "name": "Extract Inscription",
@@ -6577,7 +6905,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Extract_Inscription"
   },
   {
     "name": "Firebomb",
@@ -6597,7 +6926,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Firebomb"
   },
   {
     "name": "Flame Call",
@@ -6617,7 +6947,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Call"
   },
   {
     "name": "Flame Jet",
@@ -6637,7 +6968,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Jet"
   },
   {
     "name": "Forest's Binding",
@@ -6657,7 +6989,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forest%27s_Binding"
   },
   {
     "name": "Fungal Explosion",
@@ -6677,7 +7010,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fungal_Explosion"
   },
   {
     "name": "Gelatinous Absorption",
@@ -6697,7 +7031,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Absorption"
   },
   {
     "name": "Gelatinous Corpse Consumption",
@@ -6717,7 +7052,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Corpse_Consumption"
   },
   {
     "name": "Gelatinous Mutation",
@@ -6737,7 +7073,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Mutation"
   },
   {
     "name": "Gloat",
@@ -6757,7 +7094,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gloat"
   },
   {
     "name": "Gunther's Gaze",
@@ -6777,7 +7115,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gunther%27s_Gaze"
   },
   {
     "name": "Impossible Odds",
@@ -6797,7 +7136,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Impossible_Odds"
   },
   {
     "name": "Inner Fire",
@@ -6817,7 +7157,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inner_Fire"
   },
   {
     "name": "Knock",
@@ -6837,7 +7178,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Knock"
   },
   {
     "name": "Kournan Siege",
@@ -6857,7 +7199,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Kournan_Siege"
   },
   {
     "name": "Lava Blast",
@@ -6877,7 +7220,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Blast"
   },
   {
     "name": "Lava Ground",
@@ -6897,7 +7241,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Ground"
   },
   {
     "name": "Lava Wave",
@@ -6917,7 +7262,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Wave"
   },
   {
     "name": "Life Vortex",
@@ -6937,7 +7283,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Vortex"
   },
   {
     "name": "Maddened Stance",
@@ -6957,7 +7304,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maddened_Stance"
   },
   {
     "name": "Meditation of the Reaper",
@@ -6977,7 +7325,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Meditation_of_the_Reaper"
   },
   {
     "name": "Metamorphosis",
@@ -6997,7 +7346,8 @@
     "recharge": 9999,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Metamorphosis"
   },
   {
     "name": "Monkey See, Monkey Do",
@@ -7017,7 +7367,8 @@
     "recharge": 40,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Monkey_See,_Monkey_Do"
   },
   {
     "name": "Mount",
@@ -7037,7 +7388,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mount"
   },
   {
     "name": "N.O.X. Lock On",
@@ -7057,7 +7409,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Lock_On"
   },
   {
     "name": "Ooze Division",
@@ -7077,7 +7430,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ooze_Division"
   },
   {
     "name": "Phase Shield (effect)",
@@ -7097,7 +7451,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phase_Shield_(effect)"
   },
   {
     "name": "Phase Shield",
@@ -7117,7 +7472,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phase_Shield"
   },
   {
     "name": "Powder Keg Explosion",
@@ -7137,7 +7493,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Powder_Keg_Explosion"
   },
   {
     "name": "Pyroclastic Shot",
@@ -7157,7 +7514,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pyroclastic_Shot"
   },
   {
     "name": "Queen Heal",
@@ -7177,7 +7535,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Heal"
   },
   {
     "name": "Queen Siege",
@@ -7197,7 +7556,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Siege"
   },
   {
     "name": "Queen Thump",
@@ -7217,7 +7577,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Thump"
   },
   {
     "name": "Rage of the Sea",
@@ -7237,7 +7598,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rage_of_the_Sea"
   },
   {
     "name": "Rand's Attack",
@@ -7257,7 +7619,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rand%27s_Attack"
   },
   {
     "name": "Reactor Blast Timer",
@@ -7277,7 +7640,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reactor_Blast_Timer"
   },
   {
     "name": "Reform Carvings",
@@ -7297,7 +7661,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reform_Carvings"
   },
   {
     "name": "Sacrifice Pawn",
@@ -7317,7 +7682,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sacrifice_Pawn"
   },
   {
     "name": "Searing Breath",
@@ -7337,7 +7703,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Breath"
   },
   {
     "name": "Shield of Fire",
@@ -7357,7 +7724,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Fire"
   },
   {
     "name": "Siege Strike",
@@ -7377,7 +7745,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Bonus Mission Pack",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Strike"
   },
   {
     "name": "Siege Turtle Attack (Fort Aspenwood)",
@@ -7397,7 +7766,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(Fort_Aspenwood)"
   },
   {
     "name": "Siege Turtle Attack (Gyala Hatchery)",
@@ -7417,7 +7787,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(Gyala_Hatchery)"
   },
   {
     "name": "Siege Turtle Attack (The Eternal Grove)",
@@ -7437,7 +7808,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(The_Eternal_Grove)"
   },
   {
     "name": "Siege Turtle Attack",
@@ -7457,7 +7829,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack"
   },
   {
     "name": "Soul Torture",
@@ -7477,7 +7850,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Torture"
   },
   {
     "name": "Soulrending Shriek",
@@ -7497,7 +7871,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soulrending_Shriek"
   },
   {
     "name": "Spawn Hatchling",
@@ -7517,7 +7892,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spawn_Hatchling"
   },
   {
     "name": "Spawn Pods",
@@ -7537,7 +7913,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spawn_Pods"
   },
   {
     "name": "Spectral Agony",
@@ -7557,7 +7934,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spectral_Agony"
   },
   {
     "name": "Spirit Shield",
@@ -7577,7 +7955,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Shield"
   },
   {
     "name": "Spore Explosion",
@@ -7597,7 +7976,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spore_Explosion"
   },
   {
     "name": "Summoning Lord",
@@ -7617,7 +7997,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summoning_Lord"
   },
   {
     "name": "Summoning Shadows",
@@ -7637,7 +8018,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summoning_Shadows"
   },
   {
     "name": "The Apocrypha is changing to another form!",
@@ -7657,7 +8039,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Apocrypha_is_changing_to_another_form!"
   },
   {
     "name": "Torment Slash",
@@ -7677,7 +8060,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Torment_Slash"
   },
   {
     "name": "Torment Slash (Smothering Tendrils)",
@@ -7697,7 +8081,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Torment_Slash_(Smothering_Tendrils)"
   },
   {
     "name": "Touch of Aaaaarrrrrrggghhh",
@@ -7717,7 +8102,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Aaaaarrrrrrggghhh"
   },
   {
     "name": "Unstable Aura",
@@ -7737,7 +8123,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Aura"
   },
   {
     "name": "Unstable Pulse",
@@ -7757,7 +8144,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Pulse"
   },
   {
     "name": "Vitality Transfer",
@@ -7777,7 +8165,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vitality_Transfer"
   },
   {
     "name": "Whirling Fires",
@@ -7797,7 +8186,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Fires"
   },
   {
     "name": "Words of Madness",
@@ -7817,6 +8207,7 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "monster-only"
+    "limitation": "monster-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness"
   }
 ]

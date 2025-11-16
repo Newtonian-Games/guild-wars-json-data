@@ -117,7 +117,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Agony"
   },
   {
     "name": "Agony (PvP)",
@@ -237,7 +238,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Agony_(PvP)"
   },
   {
     "name": "Ancestors' Rage",
@@ -285,7 +287,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage"
   },
   {
     "name": "Ancestors' Rage (PvP)",
@@ -333,7 +336,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage_(PvP)"
   },
   {
     "name": "Anguish",
@@ -429,7 +433,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anguish"
   },
   {
     "name": "Anguish (PvP)",
@@ -525,7 +530,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anguish_(PvP)"
   },
   {
     "name": "Anguished Was Lingwah",
@@ -597,7 +603,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anguished_Was_Lingwah"
   },
   {
     "name": "Armor of Unfeeling",
@@ -645,7 +652,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling"
   },
   {
     "name": "Armor of Unfeeling (PvP)",
@@ -693,7 +701,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling_(PvP)"
   },
   {
     "name": "Attuned Was Songkai",
@@ -741,7 +750,8 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Attuned_Was_Songkai"
   },
   {
     "name": "Binding Chains",
@@ -789,7 +799,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Binding_Chains"
   },
   {
     "name": "Blind Was Mingson",
@@ -861,7 +872,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blind_Was_Mingson"
   },
   {
     "name": "Bloodsong",
@@ -957,7 +969,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodsong"
   },
   {
     "name": "Bloodsong (PvP)",
@@ -1053,7 +1066,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodsong_(PvP)"
   },
   {
     "name": "Boon of Creation",
@@ -1149,7 +1163,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Boon_of_Creation"
   },
   {
     "name": "Brutal Weapon",
@@ -1221,7 +1236,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Brutal_Weapon"
   },
   {
     "name": "Caretaker's Charge",
@@ -1293,7 +1309,8 @@
     "recharge": 4,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Caretaker%27s_Charge"
   },
   {
     "name": "Channeled Strike",
@@ -1365,7 +1382,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Channeled_Strike"
   },
   {
     "name": "Clamor of Souls",
@@ -1413,7 +1431,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Clamor_of_Souls"
   },
   {
     "name": "Consume Soul",
@@ -1485,7 +1504,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Soul"
   },
   {
     "name": "Cruel Was Daoshen",
@@ -1557,7 +1577,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cruel_Was_Daoshen"
   },
   {
     "name": "Death Pact Signet",
@@ -1605,7 +1626,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet"
   },
   {
     "name": "Death Pact Signet (PvP)",
@@ -1653,7 +1675,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Pact_Signet_(PvP)"
   },
   {
     "name": "Defiant Was Xinrae",
@@ -1725,7 +1748,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defiant_Was_Xinrae"
   },
   {
     "name": "Destruction",
@@ -1797,7 +1821,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Destruction"
   },
   {
     "name": "Destruction (PvP)",
@@ -1869,7 +1894,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Destruction_(PvP)"
   },
   {
     "name": "Destructive Was Glaive",
@@ -1941,7 +1967,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive"
   },
   {
     "name": "Destructive Was Glaive (PvP)",
@@ -2013,7 +2040,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive_(PvP)"
   },
   {
     "name": "Disenchantment",
@@ -2109,7 +2137,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disenchantment"
   },
   {
     "name": "Disenchantment (PvP)",
@@ -2205,7 +2234,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disenchantment_(PvP)"
   },
   {
     "name": "Displacement",
@@ -2301,7 +2331,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Displacement"
   },
   {
     "name": "Displacement (PvP)",
@@ -2397,7 +2428,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Displacement_(PvP)"
   },
   {
     "name": "Dissonance",
@@ -2493,7 +2525,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance"
   },
   {
     "name": "Dissonance (PvP)",
@@ -2589,7 +2622,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance_(PvP)"
   },
   {
     "name": "Doom",
@@ -2637,7 +2671,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Doom"
   },
   {
     "name": "Draw Spirit",
@@ -2660,7 +2695,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Draw_Spirit"
   },
   {
     "name": "Dulled Weapon",
@@ -2732,7 +2768,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dulled_Weapon"
   },
   {
     "name": "Earthbind",
@@ -2828,7 +2865,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earthbind"
   },
   {
     "name": "Earthbind (PvP)",
@@ -2924,7 +2962,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earthbind_(PvP)"
   },
   {
     "name": "Empowerment",
@@ -3020,7 +3059,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Empowerment"
   },
   {
     "name": "Empowerment (PvP)",
@@ -3116,7 +3156,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Empowerment_(PvP)"
   },
   {
     "name": "Energetic Was Lee Sa",
@@ -3236,7 +3277,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energetic_Was_Lee_Sa"
   },
   {
     "name": "Essence Strike",
@@ -3308,7 +3350,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Essence_Strike"
   },
   {
     "name": "Explosive Growth",
@@ -3380,7 +3423,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Explosive_Growth"
   },
   {
     "name": "Feast of Souls",
@@ -3428,7 +3472,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feast_of_Souls"
   },
   {
     "name": "Flesh of My Flesh",
@@ -3476,7 +3521,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh"
   },
   {
     "name": "Flesh of My Flesh (PvP)",
@@ -3524,7 +3570,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh_(PvP)"
   },
   {
     "name": "Gaze from Beyond",
@@ -3596,7 +3643,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_from_Beyond"
   },
   {
     "name": "Gaze of Fury",
@@ -3692,7 +3740,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury"
   },
   {
     "name": "Gaze of Fury (PvP)",
@@ -3788,7 +3837,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury_(PvP)"
   },
   {
     "name": "Generous Was Tsungrai",
@@ -3884,7 +3934,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Generous_Was_Tsungrai"
   },
   {
     "name": "Ghostly Haste",
@@ -3932,7 +3983,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ghostly_Haste"
   },
   {
     "name": "Ghostly Weapon",
@@ -3980,7 +4032,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ghostly_Weapon"
   },
   {
     "name": "Ghostmirror Light",
@@ -4052,7 +4105,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ghostmirror_Light"
   },
   {
     "name": "Grasping Was Kuurong",
@@ -4124,7 +4178,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grasping_Was_Kuurong"
   },
   {
     "name": "Guided Weapon",
@@ -4172,7 +4227,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guided_Weapon"
   },
   {
     "name": "Lamentation",
@@ -4268,7 +4324,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lamentation"
   },
   {
     "name": "Life",
@@ -4340,7 +4397,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life"
   },
   {
     "name": "Life (PvP)",
@@ -4412,7 +4470,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_(PvP)"
   },
   {
     "name": "Lively Was Naomei",
@@ -4460,7 +4519,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lively_Was_Naomei"
   },
   {
     "name": "Mend Body and Soul",
@@ -4508,7 +4568,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mend_Body_and_Soul"
   },
   {
     "name": "Mending Grip",
@@ -4556,7 +4617,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mending_Grip"
   },
   {
     "name": "Mighty Was Vorizun",
@@ -4604,7 +4666,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Was_Vorizun"
   },
   {
     "name": "Nightmare Weapon",
@@ -4676,7 +4739,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nightmare_Weapon"
   },
   {
     "name": "Offering of Spirit",
@@ -4724,7 +4788,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Offering_of_Spirit"
   },
   {
     "name": "Pain",
@@ -4820,7 +4885,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain"
   },
   {
     "name": "Pain (PvP)",
@@ -4916,7 +4982,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(PvP)"
   },
   {
     "name": "Painful Bond",
@@ -4988,7 +5055,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Painful_Bond"
   },
   {
     "name": "Preservation",
@@ -5060,7 +5128,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Preservation"
   },
   {
     "name": "Preservation (PvP)",
@@ -5132,7 +5201,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Preservation_(PvP)"
   },
   {
     "name": "Protective Was Kaolai",
@@ -5204,7 +5274,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protective_Was_Kaolai"
   },
   {
     "name": "Pure Was Li Ming",
@@ -5300,7 +5371,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pure_Was_Li_Ming"
   },
   {
     "name": "Reclaim Essence",
@@ -5348,7 +5420,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reclaim_Essence"
   },
   {
     "name": "Recovery",
@@ -5444,7 +5517,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recovery"
   },
   {
     "name": "Recovery (PvP)",
@@ -5540,7 +5614,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recovery_(PvP)"
   },
   {
     "name": "Recuperation",
@@ -5636,7 +5711,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recuperation"
   },
   {
     "name": "Recuperation (PvP)",
@@ -5732,7 +5808,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recuperation_(PvP)"
   },
   {
     "name": "Rejuvenation",
@@ -5755,7 +5832,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rejuvenation"
   },
   {
     "name": "Rejuvenation (PvP)",
@@ -5778,7 +5856,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rejuvenation_(PvP)"
   },
   {
     "name": "Renewing Memories",
@@ -5850,7 +5929,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Memories"
   },
   {
     "name": "Renewing Surge",
@@ -5922,7 +6002,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Surge"
   },
   {
     "name": "Resilient Was Xiko",
@@ -5994,7 +6075,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resilient_Was_Xiko"
   },
   {
     "name": "Resilient Weapon",
@@ -6066,7 +6148,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resilient_Weapon"
   },
   {
     "name": "Restoration",
@@ -6138,7 +6221,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restoration"
   },
   {
     "name": "Restoration (PvP)",
@@ -6210,7 +6294,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restoration_(PvP)"
   },
   {
     "name": "Ritual Lord",
@@ -6306,7 +6391,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ritual_Lord"
   },
   {
     "name": "Rupture Soul",
@@ -6378,7 +6464,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rupture_Soul"
   },
   {
     "name": "Shadowsong",
@@ -6474,7 +6561,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong"
   },
   {
     "name": "Shadowsong (PvP)",
@@ -6570,7 +6658,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong_(PvP)"
   },
   {
     "name": "Shelter",
@@ -6666,7 +6755,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shelter"
   },
   {
     "name": "Shelter (PvP)",
@@ -6762,7 +6852,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shelter_(PvP)"
   },
   {
     "name": "Sight Beyond Sight",
@@ -6810,7 +6901,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sight_Beyond_Sight"
   },
   {
     "name": "Signet of Binding",
@@ -6858,7 +6950,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Binding"
   },
   {
     "name": "Signet of Creation",
@@ -6906,7 +6999,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Creation"
   },
   {
     "name": "Signet of Ghostly Might",
@@ -6978,7 +7072,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might"
   },
   {
     "name": "Signet of Ghostly Might (PvP)",
@@ -7026,7 +7121,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might_(PvP)"
   },
   {
     "name": "Signet of Spirits",
@@ -7098,7 +7194,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits"
   },
   {
     "name": "Signet of Spirits (PvP)",
@@ -7146,7 +7243,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Spirits_(PvP)"
   },
   {
     "name": "Soothing",
@@ -7218,7 +7316,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soothing"
   },
   {
     "name": "Soothing (PvP)",
@@ -7290,7 +7389,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_(PvP)"
   },
   {
     "name": "Soothing Memories",
@@ -7338,7 +7438,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_Memories"
   },
   {
     "name": "Soul Twisting",
@@ -7410,7 +7511,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Twisting"
   },
   {
     "name": "Spirit Boon Strike",
@@ -7482,7 +7584,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Boon_Strike"
   },
   {
     "name": "Spirit Burn",
@@ -7554,7 +7657,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Burn"
   },
   {
     "name": "Spirit Channeling",
@@ -7626,7 +7730,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Channeling"
   },
   {
     "name": "Spirit Light",
@@ -7674,7 +7779,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Light"
   },
   {
     "name": "Spirit Light Weapon",
@@ -7746,7 +7852,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Light_Weapon"
   },
   {
     "name": "Spirit Rift",
@@ -7818,7 +7925,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Rift"
   },
   {
     "name": "Spirit Siphon",
@@ -7890,7 +7998,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Siphon"
   },
   {
     "name": "Spirit Transfer",
@@ -7962,7 +8071,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Transfer"
   },
   {
     "name": "Spirit to Flesh",
@@ -8010,7 +8120,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_to_Flesh"
   },
   {
     "name": "Spirit's Gift",
@@ -8058,7 +8169,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit%27s_Gift"
   },
   {
     "name": "Spirit's Strength",
@@ -8130,7 +8242,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit%27s_Strength"
   },
   {
     "name": "Spiritleech Aura",
@@ -8202,7 +8315,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spiritleech_Aura"
   },
   {
     "name": "Splinter Weapon",
@@ -8274,7 +8388,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Weapon"
   },
   {
     "name": "Splinter Weapon (PvP)",
@@ -8346,7 +8461,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Weapon_(PvP)"
   },
   {
     "name": "Summon Spirits",
@@ -8369,7 +8485,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Spirits"
   },
   {
     "name": "Sundering Weapon",
@@ -8441,7 +8558,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sundering_Weapon"
   },
   {
     "name": "Tranquil Was Tanasen",
@@ -8513,7 +8631,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tranquil_Was_Tanasen"
   },
   {
     "name": "Union",
@@ -8585,7 +8704,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Union"
   },
   {
     "name": "Union (PvP)",
@@ -8657,7 +8777,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Union_(PvP)"
   },
   {
     "name": "Vampirism",
@@ -8720,7 +8841,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampirism"
   },
   {
     "name": "Vengeful Was Khanhei",
@@ -8792,7 +8914,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vengeful_Was_Khanhei"
   },
   {
     "name": "Vengeful Weapon",
@@ -8840,7 +8963,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vengeful_Weapon"
   },
   {
     "name": "Vital Weapon",
@@ -8912,7 +9036,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vital_Weapon"
   },
   {
     "name": "Vocal Was Sogolon",
@@ -8960,7 +9085,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vocal_Was_Sogolon"
   },
   {
     "name": "Wailing Weapon",
@@ -9008,7 +9134,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wailing_Weapon"
   },
   {
     "name": "Wanderlust",
@@ -9104,7 +9231,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wanderlust"
   },
   {
     "name": "Wanderlust (PvP)",
@@ -9200,7 +9328,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wanderlust_(PvP)"
   },
   {
     "name": "Warmonger's Weapon",
@@ -9248,7 +9377,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warmonger%27s_Weapon"
   },
   {
     "name": "Weapon of Aggression",
@@ -9296,7 +9426,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Aggression"
   },
   {
     "name": "Weapon of Fury",
@@ -9368,7 +9499,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Fury"
   },
   {
     "name": "Weapon of Quickening",
@@ -9416,7 +9548,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Quickening"
   },
   {
     "name": "Weapon of Remedy",
@@ -9464,7 +9597,8 @@
     "recharge": 3,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Remedy"
   },
   {
     "name": "Weapon of Renewal",
@@ -9536,7 +9670,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Renewal"
   },
   {
     "name": "Weapon of Shadow",
@@ -9608,7 +9743,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Shadow"
   },
   {
     "name": "Weapon of Warding",
@@ -9680,7 +9816,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Warding"
   },
   {
     "name": "Weapon of Warding (PvP)",
@@ -9752,7 +9889,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapon_of_Warding_(PvP)"
   },
   {
     "name": "Weapons of Three Forges",
@@ -9800,7 +9938,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weapons_of_Three_Forges"
   },
   {
     "name": "Wielder's Boon",
@@ -9896,7 +10035,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Boon"
   },
   {
     "name": "Wielder's Remedy",
@@ -9944,7 +10084,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Remedy"
   },
   {
     "name": "Wielder's Strike",
@@ -10016,7 +10157,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Strike"
   },
   {
     "name": "Wielder's Zeal",
@@ -10088,7 +10230,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wielder%27s_Zeal"
   },
   {
     "name": "Xinrae's Weapon",
@@ -10136,6 +10279,7 @@
     "recharge": 3,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Xinrae%27s_Weapon"
   }
 ]

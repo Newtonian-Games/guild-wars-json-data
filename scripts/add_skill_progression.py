@@ -201,7 +201,10 @@ def parse_div_based_progression(prog_html):
     # Extract attribute name from left side
     attr_match = re.search(r'<div class="attr[^"]*"><a[^>]*>([^<]+)</a></div>', left_side)
     if not attr_match:
-        return None
+        # Try alternate pattern without link (for some skills like Stone Daggers)
+        attr_match = re.search(r'<div class="attr[^"]*">([^<]+)</div>', left_side)
+        if not attr_match:
+            return None
 
     attribute_name = attr_match.group(1).strip()
 
@@ -362,13 +365,13 @@ def main():
 
     args = parser.parse_args()
 
-    # Load skills.json
-    skills_path = '../data/skills.json'
+    # Load skills/elementalist.json
+    skills_path = '../data/skills/elementalist.json'
     try:
         with open(skills_path, 'r') as f:
             skills = json.load(f)
     except Exception as e:
-        print(f"ERROR: Could not load skills.json: {e}")
+        print(f"ERROR: Could not load skills/elementalist.json: {e}")
         return 1
 
     print(f"Loaded {len(skills)} skills")
@@ -447,7 +450,7 @@ def main():
                     with open(skills_path, 'w') as f:
                         json.dump(skills, f, indent=2)
                 except Exception as e:
-                    print(f"  ERROR: Could not save skills.json: {e}")
+                    print(f"  ERROR: Could not save skills/elementalist.json: {e}")
                     return 1
         elif "skipping" in message.lower():
             print(f"  - {message}")

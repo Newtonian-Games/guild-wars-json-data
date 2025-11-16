@@ -69,7 +69,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain"
   },
   {
     "name": "Accumulated Pain (PvP)",
@@ -141,7 +142,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain_(PvP)"
   },
   {
     "name": "Air of Disenchantment",
@@ -213,7 +215,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment"
   },
   {
     "name": "Ancestor's Visage",
@@ -261,7 +264,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ancestor%27s_Visage"
   },
   {
     "name": "Aneurysm",
@@ -333,7 +337,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aneurysm"
   },
   {
     "name": "Arcane Conundrum",
@@ -405,7 +410,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Conundrum"
   },
   {
     "name": "Arcane Echo",
@@ -428,7 +434,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Echo"
   },
   {
     "name": "Arcane Languor",
@@ -476,7 +483,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Languor"
   },
   {
     "name": "Arcane Larceny",
@@ -524,7 +532,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Larceny"
   },
   {
     "name": "Arcane Mimicry",
@@ -547,7 +556,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Mimicry"
   },
   {
     "name": "Arcane Thievery",
@@ -595,7 +605,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Thievery"
   },
   {
     "name": "Auspicious Incantation",
@@ -667,7 +678,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Incantation"
   },
   {
     "name": "Backfire",
@@ -715,7 +727,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Backfire"
   },
   {
     "name": "Blackout",
@@ -763,7 +776,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blackout"
   },
   {
     "name": "Calculated Risk",
@@ -835,7 +849,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk"
   },
   {
     "name": "Calculated Risk (PvP)",
@@ -907,7 +922,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk_(PvP)"
   },
   {
     "name": "Channeling",
@@ -955,7 +971,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Channeling"
   },
   {
     "name": "Chaos Storm",
@@ -1027,7 +1044,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chaos_Storm"
   },
   {
     "name": "Clumsiness",
@@ -1075,7 +1093,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Clumsiness"
   },
   {
     "name": "Complicate",
@@ -1123,7 +1142,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Complicate"
   },
   {
     "name": "Confusing Images",
@@ -1171,7 +1191,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Confusing_Images"
   },
   {
     "name": "Conjure Nightmare",
@@ -1219,7 +1240,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Nightmare"
   },
   {
     "name": "Conjure Phantasm",
@@ -1267,7 +1289,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Phantasm"
   },
   {
     "name": "Crippling Anguish",
@@ -1339,7 +1362,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish"
   },
   {
     "name": "Crippling Anguish (PvP)",
@@ -1411,7 +1435,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish_(PvP)"
   },
   {
     "name": "Cry of Frustration",
@@ -1459,7 +1484,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Frustration"
   },
   {
     "name": "Cry of Pain",
@@ -1509,7 +1535,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Pain"
   },
   {
     "name": "Discharge Enchantment",
@@ -1557,7 +1584,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Discharge_Enchantment"
   },
   {
     "name": "Distortion",
@@ -1605,7 +1633,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Distortion"
   },
   {
     "name": "Diversion",
@@ -1653,7 +1682,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Diversion"
   },
   {
     "name": "Drain Delusions",
@@ -1723,7 +1753,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Delusions"
   },
   {
     "name": "Drain Enchantment",
@@ -1795,7 +1826,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Enchantment"
   },
   {
     "name": "Echo",
@@ -1818,7 +1850,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Echo"
   },
   {
     "name": "Elemental Resistance",
@@ -1890,7 +1923,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Resistance"
   },
   {
     "name": "Empathy",
@@ -1986,7 +2020,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Empathy"
   },
   {
     "name": "Empathy (PvP)",
@@ -2058,7 +2093,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Empathy_(PvP)"
   },
   {
     "name": "Enchanter's Conundrum",
@@ -2130,7 +2166,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum"
   },
   {
     "name": "Enchanter's Conundrum (PvP)",
@@ -2202,7 +2239,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_(PvP)"
   },
   {
     "name": "Energy Burn",
@@ -2274,7 +2312,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Burn"
   },
   {
     "name": "Energy Drain",
@@ -2346,7 +2385,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Drain"
   },
   {
     "name": "Energy Surge",
@@ -2418,7 +2458,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Surge"
   },
   {
     "name": "Energy Tap",
@@ -2490,7 +2531,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Tap"
   },
   {
     "name": "Epidemic",
@@ -2513,7 +2555,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Epidemic"
   },
   {
     "name": "Ether Feast",
@@ -2585,7 +2628,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Feast"
   },
   {
     "name": "Ether Lord",
@@ -2681,7 +2725,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Lord"
   },
   {
     "name": "Ether Nightmare",
@@ -2720,7 +2765,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Nightmare"
   },
   {
     "name": "Ether Phantom",
@@ -2768,7 +2814,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Phantom"
   },
   {
     "name": "Ether Signet",
@@ -2840,7 +2887,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Signet"
   },
   {
     "name": "Ethereal Burden",
@@ -2888,7 +2936,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Burden"
   },
   {
     "name": "Expel Hexes",
@@ -2911,7 +2960,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Expel_Hexes"
   },
   {
     "name": "Extend Conditions",
@@ -2959,7 +3009,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Extend_Conditions"
   },
   {
     "name": "Feedback",
@@ -3007,7 +3058,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feedback"
   },
   {
     "name": "Fevered Dreams",
@@ -3079,7 +3131,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams"
   },
   {
     "name": "Fevered Dreams (PvP)",
@@ -3127,7 +3180,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams_(PvP)"
   },
   {
     "name": "Fragility",
@@ -3199,7 +3253,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fragility"
   },
   {
     "name": "Fragility (PvP)",
@@ -3271,7 +3326,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fragility_(PvP)"
   },
   {
     "name": "Frustration",
@@ -3343,7 +3399,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frustration"
   },
   {
     "name": "Frustration (PvP)",
@@ -3415,7 +3472,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frustration_(PvP)"
   },
   {
     "name": "Guilt",
@@ -3463,7 +3521,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guilt"
   },
   {
     "name": "Hex Breaker",
@@ -3535,7 +3594,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Breaker"
   },
   {
     "name": "Hex Eater Signet",
@@ -3607,7 +3667,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet"
   },
   {
     "name": "Hex Eater Vortex",
@@ -3655,7 +3716,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex"
   },
   {
     "name": "Hypochondria",
@@ -3678,7 +3740,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hypochondria"
   },
   {
     "name": "Ignorance",
@@ -3726,7 +3789,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ignorance"
   },
   {
     "name": "Illusion of Haste",
@@ -3774,7 +3838,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste"
   },
   {
     "name": "Illusion of Haste (PvP)",
@@ -3822,7 +3887,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_(PvP)"
   },
   {
     "name": "Illusion of Pain",
@@ -3918,7 +3984,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain"
   },
   {
     "name": "Illusion of Pain (PvP)",
@@ -4014,7 +4081,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_(PvP)"
   },
   {
     "name": "Illusion of Weakness",
@@ -4086,7 +4154,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Weakness"
   },
   {
     "name": "Illusionary Weaponry",
@@ -4134,7 +4203,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry"
   },
   {
     "name": "Illusionary Weaponry (PvP)",
@@ -4182,7 +4252,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry_(PvP)"
   },
   {
     "name": "Images of Remorse",
@@ -4278,7 +4349,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Images_of_Remorse"
   },
   {
     "name": "Imagined Burden",
@@ -4326,7 +4398,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Imagined_Burden"
   },
   {
     "name": "Ineptitude",
@@ -4374,7 +4447,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ineptitude"
   },
   {
     "name": "Inspired Enchantment",
@@ -4422,7 +4496,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Enchantment"
   },
   {
     "name": "Inspired Hex",
@@ -4470,7 +4545,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Hex"
   },
   {
     "name": "Keystone Signet",
@@ -4542,7 +4618,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Keystone_Signet"
   },
   {
     "name": "Kitah's Burden",
@@ -4590,7 +4667,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Kitah%27s_Burden"
   },
   {
     "name": "Leech Signet",
@@ -4638,7 +4716,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leech_Signet"
   },
   {
     "name": "Lyssa's Aura",
@@ -4686,7 +4765,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura"
   },
   {
     "name": "Lyssa's Balance",
@@ -4709,7 +4789,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Balance"
   },
   {
     "name": "Mantra of Concentration",
@@ -4757,7 +4838,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Concentration"
   },
   {
     "name": "Mantra of Earth",
@@ -4829,7 +4911,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Earth"
   },
   {
     "name": "Mantra of Flame",
@@ -4901,7 +4984,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Flame"
   },
   {
     "name": "Mantra of Frost",
@@ -4973,7 +5057,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Frost"
   },
   {
     "name": "Mantra of Inscriptions",
@@ -5045,7 +5130,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions"
   },
   {
     "name": "Mantra of Lightning",
@@ -5117,7 +5203,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Lightning"
   },
   {
     "name": "Mantra of Persistence",
@@ -5189,7 +5276,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Persistence"
   },
   {
     "name": "Mantra of Recall",
@@ -5237,7 +5325,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recall"
   },
   {
     "name": "Mantra of Recovery",
@@ -5309,7 +5398,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recovery"
   },
   {
     "name": "Mantra of Resolve",
@@ -5381,7 +5471,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve"
   },
   {
     "name": "Mantra of Resolve (PvP)",
@@ -5429,7 +5520,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve_(PvP)"
   },
   {
     "name": "Mantra of Signets",
@@ -5501,7 +5593,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets"
   },
   {
     "name": "Mantra of Signets (PvP)",
@@ -5573,7 +5666,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets_(PvP)"
   },
   {
     "name": "Migraine",
@@ -5645,7 +5739,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Migraine"
   },
   {
     "name": "Migraine (PvP)",
@@ -5717,7 +5812,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Migraine_(PvP)"
   },
   {
     "name": "Mind Wrack",
@@ -5813,7 +5909,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack"
   },
   {
     "name": "Mind Wrack (PvP)",
@@ -5885,7 +5982,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack_(PvP)"
   },
   {
     "name": "Mirror of Disenchantment",
@@ -5908,7 +6006,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment"
   },
   {
     "name": "Mirror of Disenchantment (PvP)",
@@ -5931,7 +6030,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_(PvP)"
   },
   {
     "name": "Mistrust",
@@ -5979,7 +6079,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust"
   },
   {
     "name": "Mistrust (PvP)",
@@ -6027,7 +6128,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust_(PvP)"
   },
   {
     "name": "Overload",
@@ -6099,7 +6201,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Overload"
   },
   {
     "name": "Panic",
@@ -6147,7 +6250,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Panic"
   },
   {
     "name": "Persistence of Memory",
@@ -6195,7 +6299,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Persistence_of_Memory"
   },
   {
     "name": "Phantom Pain",
@@ -6267,7 +6372,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phantom_Pain"
   },
   {
     "name": "Physical Resistance",
@@ -6339,7 +6445,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Physical_Resistance"
   },
   {
     "name": "Power Block",
@@ -6387,7 +6494,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Block"
   },
   {
     "name": "Power Drain",
@@ -6435,7 +6543,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Drain"
   },
   {
     "name": "Power Flux",
@@ -6483,7 +6592,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Flux"
   },
   {
     "name": "Power Leak",
@@ -6531,7 +6641,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leak"
   },
   {
     "name": "Power Leech",
@@ -6579,7 +6690,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leech"
   },
   {
     "name": "Power Lock",
@@ -6627,7 +6739,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Lock"
   },
   {
     "name": "Power Return",
@@ -6675,7 +6788,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Return"
   },
   {
     "name": "Power Spike",
@@ -6723,7 +6837,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Spike"
   },
   {
     "name": "Price of Pride",
@@ -6795,7 +6910,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Pride"
   },
   {
     "name": "Psychic Distraction",
@@ -6843,7 +6959,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Distraction"
   },
   {
     "name": "Psychic Instability",
@@ -6891,7 +7008,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability"
   },
   {
     "name": "Psychic Instability (PvP)",
@@ -6939,7 +7057,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability_(PvP)"
   },
   {
     "name": "Recurring Insecurity",
@@ -6987,7 +7106,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recurring_Insecurity"
   },
   {
     "name": "Revealed Enchantment",
@@ -7035,7 +7155,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Enchantment"
   },
   {
     "name": "Revealed Hex",
@@ -7083,7 +7204,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Hex"
   },
   {
     "name": "Shame",
@@ -7131,7 +7253,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shame"
   },
   {
     "name": "Shared Burden",
@@ -7179,7 +7302,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden"
   },
   {
     "name": "Shared Burden (PvP)",
@@ -7227,7 +7351,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden_(PvP)"
   },
   {
     "name": "Shatter Delusions",
@@ -7275,7 +7400,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions"
   },
   {
     "name": "Shatter Delusions (PvP)",
@@ -7323,7 +7449,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions_(PvP)"
   },
   {
     "name": "Shatter Enchantment",
@@ -7371,7 +7498,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Enchantment"
   },
   {
     "name": "Shatter Hex",
@@ -7419,7 +7547,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Hex"
   },
   {
     "name": "Shatter Storm",
@@ -7442,7 +7571,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Storm"
   },
   {
     "name": "Shrinking Armor",
@@ -7514,7 +7644,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shrinking_Armor"
   },
   {
     "name": "Signet of Clumsiness",
@@ -7562,7 +7693,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness"
   },
   {
     "name": "Signet of Clumsiness (PvP)",
@@ -7610,7 +7742,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness_(PvP)"
   },
   {
     "name": "Signet of Disenchantment",
@@ -7633,7 +7766,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disenchantment"
   },
   {
     "name": "Signet of Disruption",
@@ -7681,7 +7815,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disruption"
   },
   {
     "name": "Signet of Distraction",
@@ -7729,7 +7864,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Distraction"
   },
   {
     "name": "Signet of Humility",
@@ -7777,7 +7913,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Humility"
   },
   {
     "name": "Signet of Illusions",
@@ -7825,7 +7962,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Illusions"
   },
   {
     "name": "Signet of Midnight",
@@ -7848,7 +7986,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Midnight"
   },
   {
     "name": "Signet of Recall",
@@ -7896,7 +8035,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Recall"
   },
   {
     "name": "Signet of Weariness",
@@ -7968,7 +8108,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Weariness"
   },
   {
     "name": "Simple Thievery",
@@ -8016,7 +8157,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Simple_Thievery"
   },
   {
     "name": "Soothing Images",
@@ -8064,7 +8206,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_Images"
   },
   {
     "name": "Spirit Shackles",
@@ -8112,7 +8255,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Shackles"
   },
   {
     "name": "Spirit of Failure",
@@ -8160,7 +8304,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_of_Failure"
   },
   {
     "name": "Spiritual Pain",
@@ -8232,7 +8377,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain"
   },
   {
     "name": "Spiritual Pain (PvP)",
@@ -8304,7 +8450,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain_(PvP)"
   },
   {
     "name": "Stolen Speed",
@@ -8352,7 +8499,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed"
   },
   {
     "name": "Stolen Speed (PvP)",
@@ -8400,7 +8548,8 @@
     "recharge": 12,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed_(PvP)"
   },
   {
     "name": "Sum of All Fears",
@@ -8448,7 +8597,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sum_of_All_Fears"
   },
   {
     "name": "Symbolic Celerity",
@@ -8496,7 +8646,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Celerity"
   },
   {
     "name": "Symbolic Posture",
@@ -8568,7 +8719,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Posture"
   },
   {
     "name": "Symbols of Inspiration",
@@ -8616,7 +8768,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration"
   },
   {
     "name": "Sympathetic Visage",
@@ -8664,7 +8817,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sympathetic_Visage"
   },
   {
     "name": "Tease",
@@ -8712,7 +8866,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tease"
   },
   {
     "name": "Time Ward",
@@ -8808,7 +8963,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Time_Ward"
   },
   {
     "name": "Unnatural Signet",
@@ -8880,7 +9036,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet"
   },
   {
     "name": "Unnatural Signet (PvP)",
@@ -8952,7 +9109,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(PvP)"
   },
   {
     "name": "Visions of Regret",
@@ -9048,7 +9206,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret"
   },
   {
     "name": "Visions of Regret (PvP)",
@@ -9120,7 +9279,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret_(PvP)"
   },
   {
     "name": "Wandering Eye",
@@ -9168,7 +9328,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye"
   },
   {
     "name": "Wandering Eye (PvP)",
@@ -9216,7 +9377,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye_(PvP)"
   },
   {
     "name": "Waste Not, Want Not",
@@ -9264,7 +9426,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Waste_Not,_Want_Not"
   },
   {
     "name": "Wastrel's Demise",
@@ -9360,7 +9523,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Demise"
   },
   {
     "name": "Wastrel's Worry",
@@ -9408,7 +9572,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry"
   },
   {
     "name": "Web of Disruption",
@@ -9431,7 +9596,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption"
   },
   {
     "name": "Web of Disruption (PvP)",
@@ -9454,6 +9620,7 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption_(PvP)"
   }
 ]

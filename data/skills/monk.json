@@ -45,7 +45,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aegis"
   },
   {
     "name": "Aegis (PvP)",
@@ -93,7 +94,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aegis_(PvP)"
   },
   {
     "name": "Air of Enchantment",
@@ -141,7 +143,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Air_of_Enchantment"
   },
   {
     "name": "Amity",
@@ -189,7 +192,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Amity"
   },
   {
     "name": "Aura of Faith",
@@ -261,7 +265,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Faith"
   },
   {
     "name": "Aura of Stability",
@@ -309,7 +314,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Stability"
   },
   {
     "name": "Balthazar's Aura",
@@ -357,7 +363,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Aura"
   },
   {
     "name": "Balthazar's Pendulum",
@@ -405,7 +412,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Pendulum"
   },
   {
     "name": "Balthazar's Spirit",
@@ -428,7 +436,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Spirit"
   },
   {
     "name": "Bane Signet",
@@ -476,7 +485,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bane_Signet"
   },
   {
     "name": "Banish",
@@ -524,7 +534,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Banish"
   },
   {
     "name": "Blessed Aura",
@@ -572,7 +583,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blessed_Aura"
   },
   {
     "name": "Blessed Light",
@@ -620,7 +632,8 @@
     "recharge": 3,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blessed_Light"
   },
   {
     "name": "Blessed Signet",
@@ -668,7 +681,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blessed_Signet"
   },
   {
     "name": "Boon Signet",
@@ -740,7 +754,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Boon_Signet"
   },
   {
     "name": "Castigation Signet",
@@ -812,7 +827,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Castigation_Signet"
   },
   {
     "name": "Contemplation of Purity",
@@ -884,7 +900,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Contemplation_of_Purity"
   },
   {
     "name": "Convert Hexes",
@@ -932,7 +949,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Convert_Hexes"
   },
   {
     "name": "Cure Hex",
@@ -980,7 +998,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cure_Hex"
   },
   {
     "name": "Defender's Zeal",
@@ -1028,7 +1047,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defender%27s_Zeal"
   },
   {
     "name": "Deny Hexes",
@@ -1051,7 +1071,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deny_Hexes"
   },
   {
     "name": "Dismiss Condition",
@@ -1099,7 +1120,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dismiss_Condition"
   },
   {
     "name": "Divert Hexes",
@@ -1171,7 +1193,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Divert_Hexes"
   },
   {
     "name": "Divine Boon",
@@ -1219,7 +1242,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Divine_Boon"
   },
   {
     "name": "Divine Healing",
@@ -1267,7 +1291,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Divine_Healing"
   },
   {
     "name": "Divine Intervention",
@@ -1315,7 +1340,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Divine_Intervention"
   },
   {
     "name": "Divine Spirit",
@@ -1363,7 +1389,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Divine_Spirit"
   },
   {
     "name": "Draw Conditions",
@@ -1411,7 +1438,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Draw_Conditions"
   },
   {
     "name": "Dwayna's Kiss",
@@ -1483,7 +1511,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Kiss"
   },
   {
     "name": "Dwayna's Sorrow",
@@ -1531,7 +1560,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Sorrow"
   },
   {
     "name": "Empathic Removal",
@@ -1554,7 +1584,8 @@
     "recharge": 7,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Empathic_Removal"
   },
   {
     "name": "Essence Bond",
@@ -1577,7 +1608,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Essence_Bond"
   },
   {
     "name": "Ethereal Light",
@@ -1625,7 +1657,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Light"
   },
   {
     "name": "Extinguish",
@@ -1673,7 +1706,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Extinguish"
   },
   {
     "name": "Gift of Health",
@@ -1745,7 +1779,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gift_of_Health"
   },
   {
     "name": "Glimmer of Light",
@@ -1793,7 +1828,8 @@
     "recharge": 1,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glimmer_of_Light"
   },
   {
     "name": "Guardian",
@@ -1841,7 +1877,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guardian"
   },
   {
     "name": "Heal Area",
@@ -1889,7 +1926,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heal_Area"
   },
   {
     "name": "Heal Other",
@@ -1937,7 +1975,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heal_Other"
   },
   {
     "name": "Heal Party",
@@ -1985,7 +2024,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heal_Party"
   },
   {
     "name": "Heal Party (PvP)",
@@ -2033,7 +2073,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heal_Party_(PvP)"
   },
   {
     "name": "Healer's Boon",
@@ -2081,7 +2122,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healer%27s_Boon"
   },
   {
     "name": "Healer's Covenant",
@@ -2129,7 +2171,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healer%27s_Covenant"
   },
   {
     "name": "Healing Breeze",
@@ -2177,7 +2220,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Breeze"
   },
   {
     "name": "Healing Burst",
@@ -2225,7 +2269,8 @@
     "recharge": 4,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Burst"
   },
   {
     "name": "Healing Hands",
@@ -2273,7 +2318,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Hands"
   },
   {
     "name": "Healing Light",
@@ -2345,7 +2391,8 @@
     "recharge": 4,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Light"
   },
   {
     "name": "Healing Ribbon",
@@ -2417,7 +2464,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Ribbon"
   },
   {
     "name": "Healing Ring",
@@ -2465,7 +2513,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Ring"
   },
   {
     "name": "Healing Seed",
@@ -2513,7 +2562,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Seed"
   },
   {
     "name": "Healing Touch",
@@ -2561,7 +2611,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Touch"
   },
   {
     "name": "Healing Whisper",
@@ -2609,7 +2660,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Whisper"
   },
   {
     "name": "Heaven's Delight",
@@ -2657,7 +2709,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heaven%27s_Delight"
   },
   {
     "name": "Holy Haste",
@@ -2705,7 +2758,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Holy_Haste"
   },
   {
     "name": "Holy Strike",
@@ -2777,7 +2831,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Holy_Strike"
   },
   {
     "name": "Holy Veil",
@@ -2800,7 +2855,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Holy_Veil"
   },
   {
     "name": "Holy Wrath",
@@ -2896,7 +2952,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Holy_Wrath"
   },
   {
     "name": "Infuse Health",
@@ -2944,7 +3001,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Infuse_Health"
   },
   {
     "name": "Jamei's Gaze",
@@ -2992,7 +3050,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jamei%27s_Gaze"
   },
   {
     "name": "Judge's Insight",
@@ -3040,7 +3099,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Judge%27s_Insight"
   },
   {
     "name": "Judge's Intervention",
@@ -3088,7 +3148,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Judge%27s_Intervention"
   },
   {
     "name": "Judgment Strike",
@@ -3136,7 +3197,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Judgment_Strike"
   },
   {
     "name": "Karei's Healing Circle",
@@ -3184,7 +3246,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Karei%27s_Healing_Circle"
   },
   {
     "name": "Kirin's Wrath",
@@ -3232,7 +3295,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Kirin%27s_Wrath"
   },
   {
     "name": "Life Attunement",
@@ -3280,7 +3344,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Attunement"
   },
   {
     "name": "Life Barrier",
@@ -3328,7 +3393,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Barrier"
   },
   {
     "name": "Life Bond",
@@ -3376,7 +3442,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Bond"
   },
   {
     "name": "Life Sheath",
@@ -3448,7 +3515,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Sheath"
   },
   {
     "name": "Light of Deliverance",
@@ -3496,7 +3564,8 @@
     "recharge": 6,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Light_of_Deliverance"
   },
   {
     "name": "Light of Deliverance (PvP)",
@@ -3544,7 +3613,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Light_of_Deliverance_(PvP)"
   },
   {
     "name": "Light of Dwayna",
@@ -3567,7 +3637,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Light_of_Dwayna"
   },
   {
     "name": "Live Vicariously",
@@ -3615,7 +3686,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Live_Vicariously"
   },
   {
     "name": "Mark of Protection",
@@ -3663,7 +3735,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Protection"
   },
   {
     "name": "Martyr",
@@ -3686,7 +3759,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Martyr"
   },
   {
     "name": "Mend Ailment",
@@ -3734,7 +3808,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mend_Ailment"
   },
   {
     "name": "Mend Condition",
@@ -3782,7 +3857,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mend_Condition"
   },
   {
     "name": "Mending",
@@ -3830,7 +3906,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mending"
   },
   {
     "name": "Mending Touch",
@@ -3878,7 +3955,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mending_Touch"
   },
   {
     "name": "Orison of Healing",
@@ -3926,7 +4004,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Orison_of_Healing"
   },
   {
     "name": "Pacifism",
@@ -3974,7 +4053,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pacifism"
   },
   {
     "name": "Patient Spirit",
@@ -4022,7 +4102,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Patient_Spirit"
   },
   {
     "name": "Peace and Harmony",
@@ -4094,7 +4175,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Peace_and_Harmony"
   },
   {
     "name": "Pensive Guardian",
@@ -4142,7 +4224,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pensive_Guardian"
   },
   {
     "name": "Protective Bond",
@@ -4190,7 +4273,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protective_Bond"
   },
   {
     "name": "Protective Spirit",
@@ -4238,7 +4322,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protective_Spirit"
   },
   {
     "name": "Purge Conditions",
@@ -4261,7 +4346,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purge_Conditions"
   },
   {
     "name": "Purge Signet",
@@ -4284,7 +4370,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purge_Signet"
   },
   {
     "name": "Purifying Veil",
@@ -4332,7 +4419,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Veil"
   },
   {
     "name": "Ray of Judgment",
@@ -4404,7 +4492,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ray_of_Judgment"
   },
   {
     "name": "Rebirth",
@@ -4452,7 +4541,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rebirth"
   },
   {
     "name": "Release Enchantments",
@@ -4500,7 +4590,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Release_Enchantments"
   },
   {
     "name": "Remove Hex",
@@ -4523,7 +4614,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Remove_Hex"
   },
   {
     "name": "Renew Life",
@@ -4595,7 +4687,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renew_Life"
   },
   {
     "name": "Restful Breeze",
@@ -4643,7 +4736,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restful_Breeze"
   },
   {
     "name": "Restore Condition",
@@ -4691,7 +4785,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restore_Condition"
   },
   {
     "name": "Restore Life",
@@ -4763,7 +4858,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restore_Life"
   },
   {
     "name": "Resurrect",
@@ -4786,7 +4882,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect"
   },
   {
     "name": "Resurrection Chant",
@@ -4834,7 +4931,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrection_Chant"
   },
   {
     "name": "Retribution",
@@ -4882,7 +4980,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Retribution"
   },
   {
     "name": "Reversal of Damage",
@@ -4930,7 +5029,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reversal_of_Damage"
   },
   {
     "name": "Reversal of Fortune",
@@ -4978,7 +5078,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reversal_of_Fortune"
   },
   {
     "name": "Reverse Hex",
@@ -5050,7 +5151,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reverse_Hex"
   },
   {
     "name": "Scourge Enchantment",
@@ -5098,7 +5200,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scourge_Enchantment"
   },
   {
     "name": "Scourge Healing",
@@ -5146,7 +5249,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scourge_Healing"
   },
   {
     "name": "Scourge Sacrifice",
@@ -5194,7 +5298,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scourge_Sacrifice"
   },
   {
     "name": "Scribe's Insight",
@@ -5242,7 +5347,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scribe%27s_Insight"
   },
   {
     "name": "Seed of Life",
@@ -5279,7 +5385,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seed_of_Life"
   },
   {
     "name": "Selfless Spirit",
@@ -5318,7 +5425,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Selfless_Spirit"
   },
   {
     "name": "Shield Guardian",
@@ -5390,7 +5498,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Guardian"
   },
   {
     "name": "Shield of Absorption",
@@ -5438,7 +5547,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Absorption"
   },
   {
     "name": "Shield of Deflection",
@@ -5510,7 +5620,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Deflection"
   },
   {
     "name": "Shield of Judgment",
@@ -5582,7 +5693,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Judgment"
   },
   {
     "name": "Shield of Regeneration",
@@ -5654,7 +5766,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Regeneration"
   },
   {
     "name": "Shielding Hands",
@@ -5726,7 +5839,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shielding_Hands"
   },
   {
     "name": "Signet of Devotion",
@@ -5774,7 +5888,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Devotion"
   },
   {
     "name": "Signet of Judgment",
@@ -5822,7 +5937,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Judgment"
   },
   {
     "name": "Signet of Judgment (PvP)",
@@ -5870,7 +5986,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Judgment_(PvP)"
   },
   {
     "name": "Signet of Mystic Wrath",
@@ -5918,7 +6035,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Wrath"
   },
   {
     "name": "Signet of Rage",
@@ -5990,7 +6108,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Rage"
   },
   {
     "name": "Signet of Rejuvenation",
@@ -6086,7 +6205,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Rejuvenation"
   },
   {
     "name": "Signet of Removal",
@@ -6109,7 +6229,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Removal"
   },
   {
     "name": "Smite",
@@ -6181,7 +6302,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smite"
   },
   {
     "name": "Smite Condition",
@@ -6229,7 +6351,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smite_Condition"
   },
   {
     "name": "Smite Hex",
@@ -6277,7 +6400,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smite_Hex"
   },
   {
     "name": "Smiter's Boon",
@@ -6300,7 +6424,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smiter%27s_Boon"
   },
   {
     "name": "Smiter's Boon (PvP)",
@@ -6323,7 +6448,8 @@
     "recharge": 90,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smiter%27s_Boon_(PvP)"
   },
   {
     "name": "Spear of Light",
@@ -6395,7 +6521,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spear_of_Light"
   },
   {
     "name": "Spell Breaker",
@@ -6443,7 +6570,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spell_Breaker"
   },
   {
     "name": "Spell Shield",
@@ -6515,7 +6643,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spell_Shield"
   },
   {
     "name": "Spirit Bond",
@@ -6563,7 +6692,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Bond"
   },
   {
     "name": "Spirit Bond (PvP)",
@@ -6611,7 +6741,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Bond_(PvP)"
   },
   {
     "name": "Spotless Mind",
@@ -6659,7 +6790,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spotless_Mind"
   },
   {
     "name": "Spotless Soul",
@@ -6707,7 +6839,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spotless_Soul"
   },
   {
     "name": "Stonesoul Strike",
@@ -6779,7 +6912,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stonesoul_Strike"
   },
   {
     "name": "Strength of Honor",
@@ -6827,7 +6961,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strength_of_Honor"
   },
   {
     "name": "Strength of Honor (PvP)",
@@ -6875,7 +7010,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strength_of_Honor_(PvP)"
   },
   {
     "name": "Succor",
@@ -6898,7 +7034,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Succor"
   },
   {
     "name": "Supportive Spirit",
@@ -6970,7 +7107,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Supportive_Spirit"
   },
   {
     "name": "Symbol of Wrath",
@@ -7018,7 +7156,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbol_of_Wrath"
   },
   {
     "name": "Unyielding Aura",
@@ -7066,7 +7205,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unyielding_Aura"
   },
   {
     "name": "Unyielding Aura (PvP)",
@@ -7089,7 +7229,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unyielding_Aura_(PvP)"
   },
   {
     "name": "Vengeance",
@@ -7112,7 +7253,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vengeance"
   },
   {
     "name": "Vigorous Spirit",
@@ -7160,7 +7302,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vigorous_Spirit"
   },
   {
     "name": "Vital Blessing",
@@ -7208,7 +7351,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vital_Blessing"
   },
   {
     "name": "Watchful Healing",
@@ -7280,7 +7424,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Watchful_Healing"
   },
   {
     "name": "Watchful Spirit",
@@ -7328,7 +7473,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Watchful_Spirit"
   },
   {
     "name": "Withdraw Hexes",
@@ -7376,7 +7522,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Withdraw_Hexes"
   },
   {
     "name": "Word of Censure",
@@ -7424,7 +7571,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Word_of_Censure"
   },
   {
     "name": "Word of Healing",
@@ -7520,7 +7668,8 @@
     "recharge": 3,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Word_of_Healing"
   },
   {
     "name": "Words of Comfort",
@@ -7616,7 +7765,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Comfort"
   },
   {
     "name": "Zealot's Fire",
@@ -7664,7 +7814,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Zealot%27s_Fire"
   },
   {
     "name": "Zealous Benediction",
@@ -7712,6 +7863,7 @@
     "recharge": 4,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Benediction"
   }
 ]

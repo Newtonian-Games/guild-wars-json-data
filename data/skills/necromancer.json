@@ -69,7 +69,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Angorodon%27s_Gaze"
   },
   {
     "name": "Animate Bone Fiend",
@@ -117,7 +118,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Fiend"
   },
   {
     "name": "Animate Bone Horror",
@@ -165,7 +167,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Horror"
   },
   {
     "name": "Animate Bone Minions",
@@ -213,7 +216,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Minions"
   },
   {
     "name": "Animate Flesh Golem",
@@ -261,7 +265,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Flesh_Golem"
   },
   {
     "name": "Animate Shambling Horror",
@@ -333,7 +338,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror"
   },
   {
     "name": "Animate Vampiric Horror",
@@ -381,7 +387,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Vampiric_Horror"
   },
   {
     "name": "Atrophy",
@@ -429,7 +436,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Atrophy"
   },
   {
     "name": "Aura of the Lich",
@@ -501,7 +509,8 @@
     "recharge": 45,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich"
   },
   {
     "name": "Awaken the Blood",
@@ -549,7 +558,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Awaken_the_Blood"
   },
   {
     "name": "Barbed Signet",
@@ -597,7 +607,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbed_Signet"
   },
   {
     "name": "Barbs",
@@ -645,7 +656,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbs"
   },
   {
     "name": "Bitter Chill",
@@ -693,7 +705,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bitter_Chill"
   },
   {
     "name": "Blood Bond",
@@ -789,7 +802,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Bond"
   },
   {
     "name": "Blood Drinker",
@@ -837,7 +851,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Drinker"
   },
   {
     "name": "Blood Renewal",
@@ -909,7 +924,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Renewal"
   },
   {
     "name": "Blood Ritual",
@@ -957,7 +973,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Ritual"
   },
   {
     "name": "Blood is Power",
@@ -1005,7 +1022,8 @@
     "recharge": 0,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_is_Power"
   },
   {
     "name": "Blood of the Aggressor",
@@ -1077,7 +1095,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Aggressor"
   },
   {
     "name": "Blood of the Master",
@@ -1125,7 +1144,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Master"
   },
   {
     "name": "Cacophony",
@@ -1173,7 +1193,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cacophony"
   },
   {
     "name": "Chilblains",
@@ -1245,7 +1266,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chilblains"
   },
   {
     "name": "Consume Corpse",
@@ -1317,7 +1339,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Corpse"
   },
   {
     "name": "Contagion",
@@ -1365,7 +1388,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Contagion"
   },
   {
     "name": "Corrupt Enchantment",
@@ -1413,7 +1437,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupt_Enchantment"
   },
   {
     "name": "Cultist's Fervor",
@@ -1461,7 +1486,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cultist%27s_Fervor"
   },
   {
     "name": "Dark Aura",
@@ -1533,7 +1559,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Aura"
   },
   {
     "name": "Dark Bond",
@@ -1581,7 +1608,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Bond"
   },
   {
     "name": "Dark Fury",
@@ -1604,7 +1632,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Fury"
   },
   {
     "name": "Dark Pact",
@@ -1652,7 +1681,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Pact"
   },
   {
     "name": "Death Nova",
@@ -1700,7 +1730,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Nova"
   },
   {
     "name": "Deathly Chill",
@@ -1772,7 +1803,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Chill"
   },
   {
     "name": "Deathly Swarm",
@@ -1820,7 +1852,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Swarm"
   },
   {
     "name": "Defile Defenses",
@@ -1892,7 +1925,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Defenses"
   },
   {
     "name": "Defile Enchantments",
@@ -1964,7 +1998,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Enchantments"
   },
   {
     "name": "Defile Flesh",
@@ -2012,7 +2047,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Flesh"
   },
   {
     "name": "Demonic Flesh",
@@ -2084,7 +2120,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Demonic_Flesh"
   },
   {
     "name": "Depravity",
@@ -2156,7 +2193,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Depravity"
   },
   {
     "name": "Desecrate Enchantments",
@@ -2228,7 +2266,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments"
   },
   {
     "name": "Discord",
@@ -2276,7 +2315,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Discord"
   },
   {
     "name": "Discord (PvP)",
@@ -2324,7 +2364,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Discord_(PvP)"
   },
   {
     "name": "Enfeeble",
@@ -2372,7 +2413,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble"
   },
   {
     "name": "Enfeeble (PvP)",
@@ -2420,7 +2462,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble_(PvP)"
   },
   {
     "name": "Enfeebling Blood",
@@ -2468,7 +2511,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood"
   },
   {
     "name": "Enfeebling Blood (PvP)",
@@ -2516,7 +2560,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood_(PvP)"
   },
   {
     "name": "Enfeebling Touch",
@@ -2588,7 +2633,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Touch"
   },
   {
     "name": "Envenom Enchantments",
@@ -2636,7 +2682,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Envenom_Enchantments"
   },
   {
     "name": "Faintheartedness",
@@ -2708,7 +2755,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Faintheartedness"
   },
   {
     "name": "Feast for the Dead",
@@ -2756,7 +2804,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feast_for_the_Dead"
   },
   {
     "name": "Feast of Corruption",
@@ -2828,7 +2877,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feast_of_Corruption"
   },
   {
     "name": "Fetid Ground",
@@ -2900,7 +2950,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fetid_Ground"
   },
   {
     "name": "Foul Feast",
@@ -2972,7 +3023,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Foul_Feast"
   },
   {
     "name": "Gaze of Contempt",
@@ -2995,7 +3047,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt"
   },
   {
     "name": "Grenth's Balance",
@@ -3018,7 +3071,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance"
   },
   {
     "name": "Hexer's Vigor",
@@ -3066,7 +3120,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hexer%27s_Vigor"
   },
   {
     "name": "Icy Veins",
@@ -3162,7 +3217,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Veins"
   },
   {
     "name": "Infuse Condition",
@@ -3210,7 +3266,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Infuse_Condition"
   },
   {
     "name": "Insidious Parasite",
@@ -3282,7 +3339,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Insidious_Parasite"
   },
   {
     "name": "Jagged Bones",
@@ -3330,7 +3388,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Bones"
   },
   {
     "name": "Jaundiced Gaze",
@@ -3426,7 +3485,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jaundiced_Gaze"
   },
   {
     "name": "Life Siphon",
@@ -3522,7 +3582,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Siphon"
   },
   {
     "name": "Life Transfer",
@@ -3594,7 +3655,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Transfer"
   },
   {
     "name": "Lifebane Strike",
@@ -3666,7 +3728,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lifebane_Strike"
   },
   {
     "name": "Lingering Curse",
@@ -3738,7 +3801,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lingering_Curse"
   },
   {
     "name": "Malaise",
@@ -3810,7 +3874,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Malaise"
   },
   {
     "name": "Malign Intervention",
@@ -3882,7 +3947,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Malign_Intervention"
   },
   {
     "name": "Mark of Fury",
@@ -3954,7 +4020,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Fury"
   },
   {
     "name": "Mark of Pain",
@@ -4002,7 +4069,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Pain"
   },
   {
     "name": "Mark of Subversion",
@@ -4050,7 +4118,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Subversion"
   },
   {
     "name": "Masochism",
@@ -4122,7 +4191,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Masochism"
   },
   {
     "name": "Masochism (PvP)",
@@ -4170,7 +4240,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Masochism_(PvP)"
   },
   {
     "name": "Meekness",
@@ -4218,7 +4289,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Meekness"
   },
   {
     "name": "Necrosis",
@@ -4255,7 +4327,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Necrosis"
   },
   {
     "name": "Necrotic Traversal",
@@ -4303,7 +4376,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Necrotic_Traversal"
   },
   {
     "name": "Offering of Blood",
@@ -4351,7 +4425,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Offering_of_Blood"
   },
   {
     "name": "Oppressive Gaze",
@@ -4423,7 +4498,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Oppressive_Gaze"
   },
   {
     "name": "Order of Apostasy",
@@ -4471,7 +4547,8 @@
     "recharge": 0,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Apostasy"
   },
   {
     "name": "Order of Pain",
@@ -4519,7 +4596,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Pain"
   },
   {
     "name": "Order of Undeath",
@@ -4567,7 +4645,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Undeath"
   },
   {
     "name": "Order of the Vampire",
@@ -4615,7 +4694,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Vampire"
   },
   {
     "name": "Pain of Disenchantment",
@@ -4687,7 +4767,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment"
   },
   {
     "name": "Parasitic Bond",
@@ -4735,7 +4816,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Parasitic_Bond"
   },
   {
     "name": "Plague Sending",
@@ -4783,7 +4865,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Sending"
   },
   {
     "name": "Plague Signet",
@@ -4831,7 +4914,8 @@
     "recharge": 4,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Signet"
   },
   {
     "name": "Plague Touch",
@@ -4879,7 +4963,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Touch"
   },
   {
     "name": "Poisoned Heart",
@@ -4927,7 +5012,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Poisoned_Heart"
   },
   {
     "name": "Price of Failure",
@@ -4975,7 +5061,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Failure"
   },
   {
     "name": "Putrid Bile",
@@ -5071,7 +5158,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Bile"
   },
   {
     "name": "Putrid Explosion",
@@ -5119,7 +5207,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Explosion"
   },
   {
     "name": "Putrid Flesh",
@@ -5167,7 +5256,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Flesh"
   },
   {
     "name": "Ravenous Gaze",
@@ -5239,7 +5329,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ravenous_Gaze"
   },
   {
     "name": "Reaper's Mark",
@@ -5311,7 +5402,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reaper%27s_Mark"
   },
   {
     "name": "Reckless Haste",
@@ -5359,7 +5451,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reckless_Haste"
   },
   {
     "name": "Rend Enchantments",
@@ -5431,7 +5524,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rend_Enchantments"
   },
   {
     "name": "Rigor Mortis",
@@ -5479,7 +5573,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rigor_Mortis"
   },
   {
     "name": "Rip Enchantment",
@@ -5527,7 +5622,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rip_Enchantment"
   },
   {
     "name": "Rising Bile",
@@ -5599,7 +5695,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rising_Bile"
   },
   {
     "name": "Rotting Flesh",
@@ -5647,7 +5744,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rotting_Flesh"
   },
   {
     "name": "Shadow Strike",
@@ -5719,7 +5817,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Strike"
   },
   {
     "name": "Shadow of Fear",
@@ -5767,7 +5866,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_of_Fear"
   },
   {
     "name": "Shivers of Dread",
@@ -5839,7 +5939,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shivers_of_Dread"
   },
   {
     "name": "Signet of Agony",
@@ -5887,7 +5988,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony"
   },
   {
     "name": "Signet of Agony (PvP)",
@@ -5935,7 +6037,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony_(PvP)"
   },
   {
     "name": "Signet of Corruption",
@@ -5989,7 +6092,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Corruption"
   },
   {
     "name": "Signet of Lost Souls",
@@ -6061,7 +6165,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Lost_Souls"
   },
   {
     "name": "Signet of Sorrow",
@@ -6109,7 +6214,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Sorrow"
   },
   {
     "name": "Signet of Suffering",
@@ -6157,7 +6263,8 @@
     "recharge": 4,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Suffering"
   },
   {
     "name": "Soul Barbs",
@@ -6205,7 +6312,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Barbs"
   },
   {
     "name": "Soul Bind",
@@ -6253,7 +6361,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Bind"
   },
   {
     "name": "Soul Feast",
@@ -6301,7 +6410,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Feast"
   },
   {
     "name": "Soul Leech",
@@ -6349,7 +6459,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Leech"
   },
   {
     "name": "Soul Taker",
@@ -6445,7 +6556,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Taker"
   },
   {
     "name": "Spinal Shivers",
@@ -6517,7 +6629,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spinal_Shivers"
   },
   {
     "name": "Spiteful Spirit",
@@ -6589,7 +6702,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spiteful_Spirit"
   },
   {
     "name": "Spoil Victor",
@@ -6661,7 +6775,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor"
   },
   {
     "name": "Spoil Victor (PvP)",
@@ -6733,7 +6848,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor_(PvP)"
   },
   {
     "name": "Strip Enchantment",
@@ -6805,7 +6921,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strip_Enchantment"
   },
   {
     "name": "Suffering",
@@ -6877,7 +6994,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Suffering"
   },
   {
     "name": "Summon Spirits",
@@ -6916,7 +7034,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Spirits"
   },
   {
     "name": "Tainted Flesh",
@@ -6988,7 +7107,8 @@
     "recharge": 0,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tainted_Flesh"
   },
   {
     "name": "Taste of Death",
@@ -7036,7 +7156,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Death"
   },
   {
     "name": "Taste of Pain",
@@ -7084,7 +7205,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Pain"
   },
   {
     "name": "Touch of Agony",
@@ -7132,7 +7254,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Agony"
   },
   {
     "name": "Toxic Chill",
@@ -7204,7 +7327,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Toxic_Chill"
   },
   {
     "name": "Ulcerous Lungs",
@@ -7276,7 +7400,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ulcerous_Lungs"
   },
   {
     "name": "Unholy Feast",
@@ -7348,7 +7473,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast"
   },
   {
     "name": "Unholy Feast (PvP)",
@@ -7420,7 +7546,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast_(PvP)"
   },
   {
     "name": "Vile Miasma",
@@ -7492,7 +7619,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Miasma"
   },
   {
     "name": "Virulence",
@@ -7540,7 +7668,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Virulence"
   },
   {
     "name": "Vampiric Bite",
@@ -7588,7 +7717,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Bite"
   },
   {
     "name": "Vampiric Gaze",
@@ -7636,7 +7766,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Gaze"
   },
   {
     "name": "Vampiric Spirit",
@@ -7708,7 +7839,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Spirit"
   },
   {
     "name": "Vampiric Swarm",
@@ -7756,7 +7888,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Swarm"
   },
   {
     "name": "Vampiric Touch",
@@ -7804,7 +7937,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Touch"
   },
   {
     "name": "Verata's Aura",
@@ -7852,7 +7986,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Aura"
   },
   {
     "name": "Verata's Gaze",
@@ -7875,7 +8010,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze"
   },
   {
     "name": "Verata's Sacrifice",
@@ -7923,7 +8059,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Sacrifice"
   },
   {
     "name": "Vile Touch",
@@ -7971,7 +8108,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Touch"
   },
   {
     "name": "Vocal Minority",
@@ -8019,7 +8157,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vocal_Minority"
   },
   {
     "name": "Wail of Doom",
@@ -8067,7 +8206,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wail_of_Doom"
   },
   {
     "name": "Wallow's Bite",
@@ -8115,7 +8255,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wallow%27s_Bite"
   },
   {
     "name": "Weaken Armor",
@@ -8163,7 +8304,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Armor"
   },
   {
     "name": "Weaken Knees",
@@ -8259,7 +8401,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Knees"
   },
   {
     "name": "Well of Blood",
@@ -8331,7 +8474,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Blood"
   },
   {
     "name": "Well of Darkness",
@@ -8379,7 +8523,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Darkness"
   },
   {
     "name": "Well of Power",
@@ -8451,7 +8596,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Power"
   },
   {
     "name": "Well of Ruin",
@@ -8523,7 +8669,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Ruin"
   },
   {
     "name": "Well of Silence",
@@ -8595,7 +8742,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Silence"
   },
   {
     "name": "Well of Suffering",
@@ -8667,7 +8815,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Suffering"
   },
   {
     "name": "Well of Weariness",
@@ -8715,7 +8864,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Weariness"
   },
   {
     "name": "Well of the Profane",
@@ -8763,7 +8913,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_the_Profane"
   },
   {
     "name": "Wither",
@@ -8859,7 +9010,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wither"
   },
   {
     "name": "Withering Aura",
@@ -8931,6 +9083,7 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Withering_Aura"
   }
 ]

@@ -69,7 +69,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Brace_Yourself!%22"
   },
   {
     "name": "\"Brace Yourself!\" (PvP)",
@@ -141,7 +142,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Brace_Yourself!%22_(PvP)"
   },
   {
     "name": "\"Can't Touch This!\"",
@@ -189,7 +191,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This!%22"
   },
   {
     "name": "\"Can't Touch This!\" (PvP)",
@@ -237,7 +240,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This!%22_(PvP)"
   },
   {
     "name": "\"Fall Back!\"",
@@ -309,7 +313,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Fall_Back!%22"
   },
   {
     "name": "\"Fall Back!\" (PvP)",
@@ -381,7 +386,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Fall_Back!%22_(PvP)"
   },
   {
     "name": "\"Find Their Weakness!\"",
@@ -477,7 +483,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22"
   },
   {
     "name": "\"Find Their Weakness!\" (PvP)",
@@ -549,7 +556,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22_(PvP)"
   },
   {
     "name": "\"Go for the Eyes!\"",
@@ -597,7 +605,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes!%22"
   },
   {
     "name": "\"Go for the Eyes!\" (PvP)",
@@ -645,7 +654,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes!%22_(PvP)"
   },
   {
     "name": "\"Help Me!\"",
@@ -717,7 +727,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Help_Me!%22"
   },
   {
     "name": "\"Help Me!\" (PvP)",
@@ -789,7 +800,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Help_Me!%22_(PvP)"
   },
   {
     "name": "\"Incoming!\"",
@@ -861,7 +873,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Incoming!%22"
   },
   {
     "name": "\"Incoming!\" (PvP)",
@@ -933,7 +946,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Incoming!%22_(PvP)"
   },
   {
     "name": "\"It's Just a Flesh Wound.\"",
@@ -981,7 +995,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22It%27s_Just_a_Flesh_Wound.%22"
   },
   {
     "name": "\"Lead the Way!\"",
@@ -1029,7 +1044,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Lead_the_Way!%22"
   },
   {
     "name": "\"Make Haste!\"",
@@ -1077,7 +1093,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Make_Haste!%22"
   },
   {
     "name": "\"Make Your Time!\"",
@@ -1125,7 +1142,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Make_Your_Time!%22"
   },
   {
     "name": "\"Never Give Up!\"",
@@ -1173,7 +1191,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Never_Give_Up!%22"
   },
   {
     "name": "\"Never Give Up!\" (PvP)",
@@ -1221,7 +1240,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Never_Give_Up!%22_(PvP)"
   },
   {
     "name": "\"Never Surrender!\"",
@@ -1269,7 +1289,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Never_Surrender!%22"
   },
   {
     "name": "\"Never Surrender!\" (PvP)",
@@ -1317,7 +1338,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Never_Surrender!%22_(PvP)"
   },
   {
     "name": "\"Stand Your Ground!\"",
@@ -1365,7 +1387,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Stand_Your_Ground!%22"
   },
   {
     "name": "\"Stand Your Ground!\" (PvP)",
@@ -1413,7 +1436,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Stand_Your_Ground!%22_(PvP)"
   },
   {
     "name": "\"The Power Is Yours!\"",
@@ -1461,7 +1485,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22The_Power_Is_Yours!%22"
   },
   {
     "name": "\"There's Nothing to Fear!\"",
@@ -1511,7 +1536,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22There%27s_Nothing_to_Fear!%22"
   },
   {
     "name": "\"They're on Fire!\"",
@@ -1559,7 +1585,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22They%27re_on_Fire!%22"
   },
   {
     "name": "\"We Shall Return!\"",
@@ -1631,7 +1658,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22We_Shall_Return!%22"
   },
   {
     "name": "\"We Shall Return!\" (PvP)",
@@ -1703,7 +1731,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22We_Shall_Return!%22_(PvP)"
   },
   {
     "name": "Aggressive Refrain",
@@ -1751,7 +1780,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aggressive_Refrain"
   },
   {
     "name": "Angelic Bond",
@@ -1799,7 +1829,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Angelic_Bond"
   },
   {
     "name": "Angelic Protection",
@@ -1847,7 +1878,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Angelic_Protection"
   },
   {
     "name": "Anthem of Disruption",
@@ -1895,7 +1927,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Disruption"
   },
   {
     "name": "Anthem of Disruption (PvP)",
@@ -1943,7 +1976,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Disruption_(PvP)"
   },
   {
     "name": "Anthem of Envy",
@@ -1991,7 +2025,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Envy"
   },
   {
     "name": "Anthem of Envy (PvP)",
@@ -2039,7 +2074,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Envy_(PvP)"
   },
   {
     "name": "Anthem of Flame",
@@ -2087,7 +2123,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Flame"
   },
   {
     "name": "Anthem of Fury",
@@ -2135,7 +2172,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Fury"
   },
   {
     "name": "Anthem of Guidance",
@@ -2158,7 +2196,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Guidance"
   },
   {
     "name": "Anthem of Weariness",
@@ -2206,7 +2245,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Weariness"
   },
   {
     "name": "Aria of Restoration",
@@ -2254,7 +2294,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aria_of_Restoration"
   },
   {
     "name": "Aria of Zeal",
@@ -2302,7 +2343,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aria_of_Zeal"
   },
   {
     "name": "Awe",
@@ -2350,7 +2392,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Awe"
   },
   {
     "name": "Ballad of Restoration",
@@ -2398,7 +2441,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ballad_of_Restoration"
   },
   {
     "name": "Ballad of Restoration (PvP)",
@@ -2446,7 +2490,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ballad_of_Restoration_(PvP)"
   },
   {
     "name": "Barbed Spear",
@@ -2494,7 +2539,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbed_Spear"
   },
   {
     "name": "Bladeturn Refrain",
@@ -2542,7 +2588,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain"
   },
   {
     "name": "Bladeturn Refrain (PvP)",
@@ -2590,7 +2637,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain_(PvP)"
   },
   {
     "name": "Blazing Finale",
@@ -2662,7 +2710,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blazing_Finale"
   },
   {
     "name": "Blazing Finale (PvP)",
@@ -2734,7 +2783,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blazing_Finale_(PvP)"
   },
   {
     "name": "Blazing Spear",
@@ -2806,7 +2856,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blazing_Spear"
   },
   {
     "name": "Burning Refrain",
@@ -2854,7 +2905,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Refrain"
   },
   {
     "name": "Burning Shield",
@@ -2926,7 +2978,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Shield"
   },
   {
     "name": "Cautery Signet",
@@ -2949,7 +3002,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cautery_Signet"
   },
   {
     "name": "Chest Thumper",
@@ -2997,7 +3051,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chest_Thumper"
   },
   {
     "name": "Chorus of Restoration",
@@ -3045,7 +3100,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chorus_of_Restoration"
   },
   {
     "name": "Crippling Anthem",
@@ -3093,7 +3149,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anthem"
   },
   {
     "name": "Cruel Spear",
@@ -3165,7 +3222,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cruel_Spear"
   },
   {
     "name": "Defensive Anthem",
@@ -3213,7 +3271,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defensive_Anthem"
   },
   {
     "name": "Defensive Anthem (PvP)",
@@ -3261,7 +3320,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defensive_Anthem_(PvP)"
   },
   {
     "name": "Disrupting Throw",
@@ -3284,7 +3344,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Throw"
   },
   {
     "name": "Enduring Harmony",
@@ -3332,7 +3393,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enduring_Harmony"
   },
   {
     "name": "Energizing Chorus",
@@ -3380,7 +3442,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energizing_Chorus"
   },
   {
     "name": "Energizing Finale",
@@ -3428,7 +3491,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energizing_Finale"
   },
   {
     "name": "Finale of Restoration",
@@ -3500,7 +3564,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Finale_of_Restoration"
   },
   {
     "name": "Finale of Restoration (PvP)",
@@ -3572,7 +3637,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Finale_of_Restoration_(PvP)"
   },
   {
     "name": "Focused Anger",
@@ -3620,7 +3686,8 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Focused_Anger"
   },
   {
     "name": "Glowing Signet",
@@ -3668,7 +3735,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glowing_Signet"
   },
   {
     "name": "Godspeed",
@@ -3716,7 +3784,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Godspeed"
   },
   {
     "name": "Harrier's Toss",
@@ -3788,7 +3857,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss"
   },
   {
     "name": "Harrier's Toss (PvP)",
@@ -3860,7 +3930,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss_(PvP)"
   },
   {
     "name": "Hasty Refrain",
@@ -3908,7 +3979,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hasty_Refrain"
   },
   {
     "name": "Heroic Refrain",
@@ -3980,7 +4052,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heroic_Refrain"
   },
   {
     "name": "Hexbreaker Aria",
@@ -4003,7 +4076,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hexbreaker_Aria"
   },
   {
     "name": "Holy Spear",
@@ -4075,7 +4149,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Holy_Spear"
   },
   {
     "name": "Inspirational Speech",
@@ -4123,7 +4198,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inspirational_Speech"
   },
   {
     "name": "Leader's Comfort",
@@ -4195,7 +4271,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leader%27s_Comfort"
   },
   {
     "name": "Leader's Zeal",
@@ -4243,7 +4320,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leader%27s_Zeal"
   },
   {
     "name": "Lyric of Purification",
@@ -4291,7 +4369,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyric_of_Purification"
   },
   {
     "name": "Lyric of Zeal",
@@ -4339,7 +4418,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyric_of_Zeal"
   },
   {
     "name": "Maiming Spear",
@@ -4387,7 +4467,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maiming_Spear"
   },
   {
     "name": "Mending Refrain",
@@ -4435,7 +4516,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mending_Refrain"
   },
   {
     "name": "Mending Refrain (PvP)",
@@ -4483,7 +4565,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mending_Refrain_(PvP)"
   },
   {
     "name": "Merciless Spear",
@@ -4531,7 +4614,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Merciless_Spear"
   },
   {
     "name": "Mighty Throw",
@@ -4579,7 +4663,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Throw"
   },
   {
     "name": "Natural Temper",
@@ -4627,7 +4712,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Natural_Temper"
   },
   {
     "name": "Purifying Finale",
@@ -4675,7 +4761,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Finale"
   },
   {
     "name": "Remedy Signet",
@@ -4698,7 +4785,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Remedy_Signet"
   },
   {
     "name": "Signet of Aggression",
@@ -4721,7 +4809,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Aggression"
   },
   {
     "name": "Signet of Return",
@@ -4793,7 +4882,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Return"
   },
   {
     "name": "Signet of Return (PvP)",
@@ -4865,7 +4955,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Return_(PvP)"
   },
   {
     "name": "Signet of Synergy",
@@ -4937,7 +5028,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Synergy"
   },
   {
     "name": "Slayer's Spear",
@@ -5009,7 +5101,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Slayer%27s_Spear"
   },
   {
     "name": "Soldier's Fury",
@@ -5057,7 +5150,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Fury"
   },
   {
     "name": "Song of Concentration",
@@ -5080,7 +5174,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_Concentration"
   },
   {
     "name": "Song of Power",
@@ -5128,7 +5223,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_Power"
   },
   {
     "name": "Song of Purification",
@@ -5176,7 +5272,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_Purification"
   },
   {
     "name": "Song of Restoration",
@@ -5224,7 +5321,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_Restoration"
   },
   {
     "name": "Song of Restoration (PvP)",
@@ -5272,7 +5370,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_Restoration_(PvP)"
   },
   {
     "name": "Spear Swipe",
@@ -5344,7 +5443,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spear_Swipe"
   },
   {
     "name": "Spear of Fury",
@@ -5398,7 +5498,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spear_of_Fury"
   },
   {
     "name": "Spear of Lightning",
@@ -5446,7 +5547,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spear_of_Lightning"
   },
   {
     "name": "Spear of Redemption",
@@ -5494,7 +5596,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spear_of_Redemption"
   },
   {
     "name": "Stunning Strike",
@@ -5566,7 +5669,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stunning_Strike"
   },
   {
     "name": "Swift Javelin",
@@ -5614,7 +5718,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swift_Javelin"
   },
   {
     "name": "Unblockable Throw",
@@ -5662,7 +5767,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unblockable_Throw"
   },
   {
     "name": "Vicious Attack",
@@ -5734,7 +5840,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vicious_Attack"
   },
   {
     "name": "Wearying Spear",
@@ -5782,7 +5889,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wearying_Spear"
   },
   {
     "name": "Wild Throw",
@@ -5830,7 +5938,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Throw"
   },
   {
     "name": "Zealous Anthem",
@@ -5878,6 +5987,7 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Anthem"
   }
 ]

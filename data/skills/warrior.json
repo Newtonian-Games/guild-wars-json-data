@@ -45,7 +45,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Charge!%22"
   },
   {
     "name": "\"Coward!\"",
@@ -68,7 +69,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Coward!%22"
   },
   {
     "name": "\"Fear Me!\"",
@@ -164,7 +166,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Fear_Me!%22"
   },
   {
     "name": "\"For Great Justice!\"",
@@ -187,7 +190,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22"
   },
   {
     "name": "\"For Great Justice!\" (PvP)",
@@ -210,7 +214,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22_(PvP)"
   },
   {
     "name": "\"I Meant to Do That!\"",
@@ -258,7 +263,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Meant_to_Do_That!%22"
   },
   {
     "name": "\"I Will Avenge You!\"",
@@ -306,7 +312,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Avenge_You!%22"
   },
   {
     "name": "\"I Will Survive!\"",
@@ -354,7 +361,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Survive!%22"
   },
   {
     "name": "\"None Shall Pass!\"",
@@ -402,7 +410,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass!%22"
   },
   {
     "name": "\"On Your Knees!\"",
@@ -425,7 +434,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22On_Your_Knees!%22"
   },
   {
     "name": "\"Retreat!\"",
@@ -473,7 +483,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Retreat!%22"
   },
   {
     "name": "\"Save Yourselves!\"",
@@ -512,7 +523,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Save_Yourselves!%22"
   },
   {
     "name": "\"Shields Up!\"",
@@ -560,7 +572,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Shields_Up!%22"
   },
   {
     "name": "\"To the Limit!\"",
@@ -656,7 +669,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22To_the_Limit!%22"
   },
   {
     "name": "\"Victory Is Mine!\"",
@@ -728,7 +742,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine!%22"
   },
   {
     "name": "\"Watch Yourself!\"",
@@ -776,7 +791,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22"
   },
   {
     "name": "\"Watch Yourself!\" (PvP)",
@@ -848,7 +864,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22_(PvP)"
   },
   {
     "name": "\"You Will Die!\"",
@@ -896,7 +913,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Will_Die!%22"
   },
   {
     "name": "\"You're All Alone!\"",
@@ -919,7 +937,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22You%27re_All_Alone!%22"
   },
   {
     "name": "Agonizing Chop",
@@ -967,7 +986,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Agonizing_Chop"
   },
   {
     "name": "Auspicious Blow",
@@ -1039,7 +1059,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Blow"
   },
   {
     "name": "Auspicious Parry",
@@ -1087,7 +1108,8 @@
     "recharge": 2,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Parry"
   },
   {
     "name": "Axe Rake",
@@ -1135,7 +1157,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Rake"
   },
   {
     "name": "Axe Twist",
@@ -1183,7 +1206,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Twist"
   },
   {
     "name": "Backbreaker",
@@ -1231,7 +1255,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Backbreaker"
   },
   {
     "name": "Balanced Stance",
@@ -1279,7 +1304,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Balanced_Stance"
   },
   {
     "name": "Barbarous Slice",
@@ -1351,7 +1377,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbarous_Slice"
   },
   {
     "name": "Battle Rage",
@@ -1399,7 +1426,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Battle_Rage"
   },
   {
     "name": "Belly Smash",
@@ -1447,7 +1475,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Belly_Smash"
   },
   {
     "name": "Berserker Stance",
@@ -1495,7 +1524,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Berserker_Stance"
   },
   {
     "name": "Body Blow",
@@ -1567,7 +1597,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Body_Blow"
   },
   {
     "name": "Bonetti's Defense",
@@ -1615,7 +1646,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense"
   },
   {
     "name": "Bull's Charge",
@@ -1663,7 +1695,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Charge"
   },
   {
     "name": "Bull's Strike",
@@ -1711,7 +1744,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Strike"
   },
   {
     "name": "Burst of Aggression",
@@ -1759,7 +1793,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burst_of_Aggression"
   },
   {
     "name": "Charging Strike",
@@ -1831,7 +1866,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charging_Strike"
   },
   {
     "name": "Cleave",
@@ -1879,7 +1915,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cleave"
   },
   {
     "name": "Counter Blow",
@@ -1902,7 +1939,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Counter_Blow"
   },
   {
     "name": "Counterattack",
@@ -1974,7 +2012,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Counterattack"
   },
   {
     "name": "Crippling Slash",
@@ -2046,7 +2085,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Slash"
   },
   {
     "name": "Critical Chop",
@@ -2094,7 +2134,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Chop"
   },
   {
     "name": "Crude Swing",
@@ -2142,7 +2183,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crude_Swing"
   },
   {
     "name": "Crushing Blow",
@@ -2214,7 +2256,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crushing_Blow"
   },
   {
     "name": "Cyclone Axe",
@@ -2262,7 +2305,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cyclone_Axe"
   },
   {
     "name": "Deadly Riposte",
@@ -2334,7 +2378,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Riposte"
   },
   {
     "name": "Decapitate",
@@ -2406,7 +2451,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Decapitate"
   },
   {
     "name": "Defensive Stance",
@@ -2478,7 +2524,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defensive_Stance"
   },
   {
     "name": "Deflect Arrows",
@@ -2550,7 +2597,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deflect_Arrows"
   },
   {
     "name": "Defy Pain",
@@ -2622,7 +2670,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain"
   },
   {
     "name": "Defy Pain (PvP)",
@@ -2670,7 +2719,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain_(PvP)"
   },
   {
     "name": "Desperation Blow",
@@ -2718,7 +2768,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Desperation_Blow"
   },
   {
     "name": "Devastating Hammer",
@@ -2766,7 +2817,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Devastating_Hammer"
   },
   {
     "name": "Disarm",
@@ -2814,7 +2866,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disarm"
   },
   {
     "name": "Disciplined Stance",
@@ -2862,7 +2915,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disciplined_Stance"
   },
   {
     "name": "Dismember",
@@ -2910,7 +2964,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dismember"
   },
   {
     "name": "Disrupting Chop",
@@ -2933,7 +2988,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Chop"
   },
   {
     "name": "Distracting Blow",
@@ -2956,7 +3012,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Blow"
   },
   {
     "name": "Distracting Strike",
@@ -2979,7 +3036,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Strike"
   },
   {
     "name": "Dolyak Signet",
@@ -3051,7 +3109,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dolyak_Signet"
   },
   {
     "name": "Dragon Slash",
@@ -3123,7 +3182,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dragon_Slash"
   },
   {
     "name": "Drunken Blow",
@@ -3171,7 +3231,8 @@
     "recharge": 7,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Blow"
   },
   {
     "name": "Dwarven Battle Stance",
@@ -3219,7 +3280,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dwarven_Battle_Stance"
   },
   {
     "name": "Earth Shaker",
@@ -3242,7 +3304,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Shaker"
   },
   {
     "name": "Endure Pain",
@@ -3314,7 +3377,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Endure_Pain"
   },
   {
     "name": "Enraged Smash",
@@ -3386,7 +3450,8 @@
     "recharge": 5,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash"
   },
   {
     "name": "Enraged Smash (PvP)",
@@ -3458,7 +3523,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash_(PvP)"
   },
   {
     "name": "Enraging Charge",
@@ -3530,7 +3596,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraging_Charge"
   },
   {
     "name": "Eviscerate",
@@ -3602,7 +3669,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Eviscerate"
   },
   {
     "name": "Executioner's Strike",
@@ -3650,7 +3718,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike"
   },
   {
     "name": "Fierce Blow",
@@ -3722,7 +3791,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fierce_Blow"
   },
   {
     "name": "Final Thrust",
@@ -3794,7 +3864,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Final_Thrust"
   },
   {
     "name": "Flail",
@@ -3842,7 +3913,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flail"
   },
   {
     "name": "Flourish",
@@ -3890,7 +3962,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flourish"
   },
   {
     "name": "Flurry",
@@ -3913,7 +3986,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flurry"
   },
   {
     "name": "Forceful Blow",
@@ -3985,7 +4059,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forceful_Blow"
   },
   {
     "name": "Frenzied Defense",
@@ -4008,7 +4083,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frenzied_Defense"
   },
   {
     "name": "Frenzy",
@@ -4031,7 +4107,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frenzy"
   },
   {
     "name": "Furious Axe",
@@ -4079,7 +4156,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Furious_Axe"
   },
   {
     "name": "Galrath Slash",
@@ -4127,7 +4205,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Galrath_Slash"
   },
   {
     "name": "Gash",
@@ -4199,7 +4278,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gash"
   },
   {
     "name": "Gladiator's Defense",
@@ -4271,7 +4351,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gladiator%27s_Defense"
   },
   {
     "name": "Grapple",
@@ -4294,7 +4375,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grapple"
   },
   {
     "name": "Griffon's Sweep",
@@ -4317,7 +4399,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep"
   },
   {
     "name": "Hammer Bash",
@@ -4340,7 +4423,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hammer_Bash"
   },
   {
     "name": "Hamstring",
@@ -4388,7 +4472,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hamstring"
   },
   {
     "name": "Headbutt",
@@ -4460,7 +4545,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Headbutt"
   },
   {
     "name": "Healing Signet",
@@ -4508,7 +4594,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Signet"
   },
   {
     "name": "Heavy Blow",
@@ -4556,7 +4643,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heavy_Blow"
   },
   {
     "name": "Hundred Blades",
@@ -4604,7 +4692,8 @@
     "recharge": 25,
     "isElite": true,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hundred_Blades"
   },
   {
     "name": "Irresistible Blow",
@@ -4676,7 +4765,8 @@
     "recharge": 6,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Blow"
   },
   {
     "name": "Jaizhenju Strike",
@@ -4724,7 +4814,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jaizhenju_Strike"
   },
   {
     "name": "Keen Chop",
@@ -4747,7 +4838,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Keen_Chop"
   },
   {
     "name": "Knee Cutter",
@@ -4819,7 +4911,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Knee_Cutter"
   },
   {
     "name": "Lacerating Chop",
@@ -4891,7 +4984,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lacerating_Chop"
   },
   {
     "name": "Leviathan's Sweep",
@@ -4963,7 +5057,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leviathan%27s_Sweep"
   },
   {
     "name": "Lion's Comfort",
@@ -5035,7 +5130,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lion%27s_Comfort"
   },
   {
     "name": "Magehunter Strike",
@@ -5083,7 +5179,8 @@
     "recharge": 3,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter_Strike"
   },
   {
     "name": "Magehunter's Smash",
@@ -5106,7 +5203,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter%27s_Smash"
   },
   {
     "name": "Mighty Blow",
@@ -5154,7 +5252,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Blow"
   },
   {
     "name": "Mokele Smash",
@@ -5202,7 +5301,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mokele_Smash"
   },
   {
     "name": "Overbearing Smash",
@@ -5274,7 +5374,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Overbearing_Smash"
   },
   {
     "name": "Penetrating Blow",
@@ -5322,7 +5423,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Blow"
   },
   {
     "name": "Penetrating Chop",
@@ -5370,7 +5472,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Chop"
   },
   {
     "name": "Power Attack",
@@ -5418,7 +5521,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Attack"
   },
   {
     "name": "Primal Rage",
@@ -5466,7 +5570,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Primal_Rage"
   },
   {
     "name": "Protector's Defense",
@@ -5514,7 +5619,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Defense"
   },
   {
     "name": "Protector's Strike",
@@ -5562,7 +5668,8 @@
     "recharge": 3,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Strike"
   },
   {
     "name": "Pulverizing Smash",
@@ -5610,7 +5717,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pulverizing_Smash"
   },
   {
     "name": "Pure Strike",
@@ -5658,7 +5766,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pure_Strike"
   },
   {
     "name": "Quivering Blade",
@@ -5706,7 +5815,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Quivering_Blade"
   },
   {
     "name": "Rage of the Ntouka",
@@ -5754,7 +5864,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rage_of_the_Ntouka"
   },
   {
     "name": "Renewing Smash",
@@ -5802,7 +5913,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash"
   },
   {
     "name": "Renewing Smash (PvP)",
@@ -5850,7 +5962,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash_(PvP)"
   },
   {
     "name": "Riposte",
@@ -5898,7 +6011,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Riposte"
   },
   {
     "name": "Rush",
@@ -5946,7 +6060,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rush"
   },
   {
     "name": "Savage Slash",
@@ -5994,7 +6109,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Savage_Slash"
   },
   {
     "name": "Seeking Blade",
@@ -6066,7 +6182,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seeking_Blade"
   },
   {
     "name": "Seven Weapons Stance",
@@ -6138,7 +6255,8 @@
     "recharge": 20,
     "isElite": true,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seven_Weapons_Stance"
   },
   {
     "name": "Sever Artery",
@@ -6186,7 +6304,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sever_Artery"
   },
   {
     "name": "Shield Bash",
@@ -6234,7 +6353,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Bash"
   },
   {
     "name": "Shield Stance",
@@ -6282,7 +6402,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Stance"
   },
   {
     "name": "Shove",
@@ -6330,7 +6451,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shove"
   },
   {
     "name": "Signet of Stamina",
@@ -6378,7 +6500,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Stamina"
   },
   {
     "name": "Signet of Strength",
@@ -6401,7 +6524,8 @@
     "recharge": 45,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Strength"
   },
   {
     "name": "Silverwing Slash",
@@ -6424,7 +6548,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Silverwing_Slash"
   },
   {
     "name": "Skull Crack",
@@ -6447,7 +6572,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Skull_Crack"
   },
   {
     "name": "Soldier's Defense",
@@ -6495,7 +6621,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense"
   },
   {
     "name": "Soldier's Speed",
@@ -6543,7 +6670,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Speed"
   },
   {
     "name": "Soldier's Stance",
@@ -6591,7 +6719,8 @@
     "recharge": 15,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance"
   },
   {
     "name": "Soldier's Stance (PvP)",
@@ -6639,7 +6768,8 @@
     "recharge": 8,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_(PvP)"
   },
   {
     "name": "Soldier's Strike",
@@ -6687,7 +6817,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Strike"
   },
   {
     "name": "Sprint",
@@ -6735,7 +6866,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sprint"
   },
   {
     "name": "Staggering Blow",
@@ -6783,7 +6915,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Blow"
   },
   {
     "name": "Standing Slash",
@@ -6831,7 +6964,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Standing_Slash"
   },
   {
     "name": "Steady Stance",
@@ -6903,7 +7037,8 @@
     "recharge": 6,
     "isElite": true,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Steady_Stance"
   },
   {
     "name": "Steelfang Slash",
@@ -6975,7 +7110,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Steelfang_Slash"
   },
   {
     "name": "Sun and Moon Slash",
@@ -6998,7 +7134,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash"
   },
   {
     "name": "Swift Chop",
@@ -7070,7 +7207,8 @@
     "recharge": 4,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swift_Chop"
   },
   {
     "name": "Symbolic Strike",
@@ -7093,7 +7231,8 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Strike"
   },
   {
     "name": "Thrill of Victory",
@@ -7165,7 +7304,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thrill_of_Victory"
   },
   {
     "name": "Tiger Stance",
@@ -7213,7 +7353,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tiger_Stance"
   },
   {
     "name": "Triple Chop",
@@ -7261,7 +7402,8 @@
     "recharge": 10,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Triple_Chop"
   },
   {
     "name": "Warrior's Cunning",
@@ -7309,7 +7451,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Cunning"
   },
   {
     "name": "Warrior's Endurance",
@@ -7381,7 +7524,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance"
   },
   {
     "name": "Warrior's Endurance (PvP)",
@@ -7453,7 +7597,8 @@
     "recharge": 30,
     "isElite": true,
     "campaign": "Prophecies",
-    "limitation": "PvP-only"
+    "limitation": "PvP-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance_(PvP)"
   },
   {
     "name": "Wary Stance",
@@ -7501,7 +7646,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Prophecies",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wary_Stance"
   },
   {
     "name": "Whirling Axe",
@@ -7549,7 +7695,8 @@
     "recharge": null,
     "isElite": true,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Axe"
   },
   {
     "name": "Whirlwind Attack",
@@ -7586,7 +7733,8 @@
     "recharge": 1,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind_Attack"
   },
   {
     "name": "Wild Blow",
@@ -7609,7 +7757,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "quest"
+    "limitation": "quest",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Blow"
   },
   {
     "name": "Yeti Smash",
@@ -7632,6 +7781,7 @@
     "recharge": null,
     "isElite": false,
     "campaign": "Factions",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Yeti_Smash"
   }
 ]

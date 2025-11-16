@@ -27,7 +27,8 @@
     "recharge": "morale boost",
     "isElite": false,
     "campaign": "Core",
-    "limitation": null
+    "limitation": null,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrection_Signet"
   },
   {
     "name": "Signet of Capture",
@@ -50,7 +51,8 @@
     "recharge": 2,
     "isElite": false,
     "campaign": "Core",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Capture"
   },
   {
     "name": "Lightbringer Signet",
@@ -90,7 +92,8 @@
     "recharge": 25,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightbringer_Signet"
   },
   {
     "name": "Lightbringer's Gaze",
@@ -120,7 +123,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Gaze"
   },
   {
     "name": "Sunspear Rebirth Signet",
@@ -157,7 +161,8 @@
     "recharge": "morale boost",
     "isElite": false,
     "campaign": "Nightfall",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sunspear_Rebirth_Signet"
   },
   {
     "name": "Air of Superiority",
@@ -194,7 +199,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Air_of_Superiority"
   },
   {
     "name": "Asuran Scan",
@@ -231,7 +237,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Asuran_Scan"
   },
   {
     "name": "Mental Block",
@@ -268,7 +275,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mental_Block"
   },
   {
     "name": "Mindbender",
@@ -318,7 +326,8 @@
     "recharge": 24,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mindbender"
   },
   {
     "name": "Pain Inverter",
@@ -381,7 +390,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_Inverter"
   },
   {
     "name": "Radiation Field",
@@ -431,7 +441,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Radiation_Field"
   },
   {
     "name": "Smooth Criminal",
@@ -481,7 +492,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smooth_Criminal"
   },
   {
     "name": "Summon Ice Imp",
@@ -531,7 +543,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Ice_Imp"
   },
   {
     "name": "Summon Mursaat",
@@ -581,7 +594,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Mursaat"
   },
   {
     "name": "Summon Naga Shaman",
@@ -631,7 +645,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Naga_Shaman"
   },
   {
     "name": "Summon Ruby Djinn",
@@ -681,7 +696,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Ruby_Djinn"
   },
   {
     "name": "Technobabble",
@@ -731,7 +747,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Technobabble"
   },
   {
     "name": "\"By Ural's Hammer!\"",
@@ -768,7 +785,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22By_Ural%27s_Hammer!%22"
   },
   {
     "name": "\"Don't Trip!\"",
@@ -805,7 +823,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Don%27t_Trip!%22"
   },
   {
     "name": "Alkar's Alchemical Acid",
@@ -868,7 +887,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Alkar%27s_Alchemical_Acid"
   },
   {
     "name": "Black Powder Mine",
@@ -918,7 +938,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Powder_Mine"
   },
   {
     "name": "Brawling Headbutt",
@@ -955,7 +976,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Brawling_Headbutt"
   },
   {
     "name": "Breath of the Great Dwarf",
@@ -992,7 +1014,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Breath_of_the_Great_Dwarf"
   },
   {
     "name": "Drunken Master",
@@ -1055,7 +1078,8 @@
     "recharge": 60,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Master"
   },
   {
     "name": "Dwarven Stability",
@@ -1105,7 +1129,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dwarven_Stability"
   },
   {
     "name": "Ear Bite",
@@ -1155,7 +1180,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ear_Bite"
   },
   {
     "name": "Great Dwarf Armor",
@@ -1192,7 +1218,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Great_Dwarf_Armor"
   },
   {
     "name": "Great Dwarf Weapon",
@@ -1242,7 +1269,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Great_Dwarf_Weapon"
   },
   {
     "name": "Light of Deldrimor",
@@ -1279,7 +1307,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Light_of_Deldrimor"
   },
   {
     "name": "Low Blow",
@@ -1342,7 +1371,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Low_Blow"
   },
   {
     "name": "Snow Storm",
@@ -1379,7 +1409,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Snow_Storm"
   },
   {
     "name": "Deft Strike",
@@ -1429,7 +1460,8 @@
     "recharge": 8,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deft_Strike"
   },
   {
     "name": "Ebon Battle Standard of Courage",
@@ -1466,7 +1498,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Courage"
   },
   {
     "name": "Ebon Battle Standard of Honor",
@@ -1529,7 +1562,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Honor"
   },
   {
     "name": "Ebon Battle Standard of Wisdom",
@@ -1579,7 +1613,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Wisdom"
   },
   {
     "name": "Ebon Escape",
@@ -1616,7 +1651,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Escape"
   },
   {
     "name": "Ebon Vanguard Assassin Support",
@@ -1679,7 +1715,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support"
   },
   {
     "name": "Ebon Vanguard Sniper Support",
@@ -1742,7 +1779,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Sniper_Support"
   },
   {
     "name": "Signet of Infection",
@@ -1779,7 +1817,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Infection"
   },
   {
     "name": "Sneak Attack",
@@ -1816,7 +1855,8 @@
     "recharge": 5,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sneak_Attack"
   },
   {
     "name": "Tryptophan Signet",
@@ -1866,7 +1906,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tryptophan_Signet"
   },
   {
     "name": "Weakness Trap",
@@ -1916,7 +1957,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weakness_Trap"
   },
   {
     "name": "Winds",
@@ -1966,7 +2008,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Winds"
   },
   {
     "name": "\"Dodge This!\"",
@@ -2016,7 +2059,8 @@
     "recharge": 0,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Dodge_This!%22"
   },
   {
     "name": "\"Finish Him!\"",
@@ -2066,7 +2110,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Finish_Him!%22"
   },
   {
     "name": "\"I Am Unstoppable!\"",
@@ -2103,7 +2148,8 @@
     "recharge": 30,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Am_Unstoppable!%22"
   },
   {
     "name": "\"I Am the Strongest!\"",
@@ -2153,7 +2199,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Am_the_Strongest!%22"
   },
   {
     "name": "\"You Are All Weaklings!\"",
@@ -2190,7 +2237,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Are_All_Weaklings!%22"
   },
   {
     "name": "\"You Move Like a Dwarf!\"",
@@ -2240,7 +2288,8 @@
     "recharge": 10,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Move_Like_a_Dwarf!%22"
   },
   {
     "name": "A Touch of Guile",
@@ -2290,7 +2339,8 @@
     "recharge": 15,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/A_Touch_of_Guile"
   },
   {
     "name": "Club of a Thousand Bears",
@@ -2327,7 +2377,8 @@
     "recharge": 12,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears"
   },
   {
     "name": "Feel No Pain",
@@ -2377,7 +2428,8 @@
     "recharge": 20,
     "isElite": false,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feel_No_Pain"
   },
   {
     "name": "Raven Blessing",
@@ -2427,7 +2479,8 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Raven_Blessing"
   },
   {
     "name": "Ursan Blessing",
@@ -2464,7 +2517,8 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ursan_Blessing"
   },
   {
     "name": "Volfen Blessing",
@@ -2514,6 +2568,7 @@
     "recharge": 60,
     "isElite": true,
     "campaign": "Eye of the North",
-    "limitation": "PvE-only"
+    "limitation": "PvE-only",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Volfen_Blessing"
   }
 ]
