@@ -4326,7 +4326,7 @@
     "wiki_url": "https://wiki.guildwars.com/wiki/Wave_of_Torment"
   },
   {
-    "name": "Wurm Siege",
+    "name": "Wurm Siege (Core)",
     "icon": "",
     "concise_description": "Spell. (monster only)",
     "type": "Spell",
@@ -4344,10 +4344,10 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Core)"
   },
   {
-    "name": "Wurm Siege",
+    "name": "Wurm Siege (Dunes of Despair)",
     "icon": "",
     "concise_description": "Spell. Damages creatures at the impact site.",
     "type": "Spell",
@@ -4365,7 +4365,7 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Dunes_of_Despair)"
   },
   {
     "name": "Wurm Siege (Eye of the North)",
@@ -5019,7 +5019,7 @@
     "wiki_url": "https://wiki.guildwars.com/wiki/Weight_of_Dhuum_(hex)"
   },
   {
-    "name": "Words of Madness",
+    "name": "Words of Madness (Qwytzylkak)",
     "icon": "",
     "concise_description": "Hex Spell. (15 seconds.) Foes within earshot each have a random skill disabled (30 seconds) and take 20 damage for each of their skills currently recharging. End effect: their skills are recharged.",
     "type": "Hex Spell",
@@ -5037,7 +5037,7 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness_(Qwytzylkak)"
   },
   {
     "name": "Wurm Bile",
