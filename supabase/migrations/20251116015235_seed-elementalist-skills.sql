@@ -1,6 +1,6 @@
 -- Seed elementalist skills
 -- Auto-generated from data/skills/elementalist.json
--- Generated: 2025-11-17T05:10:24.803Z
+-- Generated: 2025-11-17T07:36:05.755Z
 -- Total skills: 159
 
 INSERT INTO skills (
@@ -26,7 +26,7 @@ INSERT INTO skills (
 VALUES
   (
     'Aftershock',
-    '',
+    'https://wiki.guildwars.com/images/c/ca/Aftershock_%28large%29.jpg',
     'Spell. Deals {{EarthDamage}} earth damage to nearby foes. Deals {{PlusEarthDamage}} more earth damage to knocked down foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -46,7 +46,7 @@ VALUES
   ),
   (
     'Air Attunement',
-    '',
+    'https://wiki.guildwars.com/images/c/cc/Air_Attunement_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost whenever you use an Air Magic skill.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -66,7 +66,7 @@ VALUES
   ),
   (
     'Arc Lightning',
-    '',
+    'https://wiki.guildwars.com/images/e/e5/Arc_Lightning_%28large%29.jpg',
     'Spell. Deals {{LightningDamage}} lightning damage. Deals {{NearbyLightningDamage}} lightning damage to two nearby foes if you are Overcast. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -86,7 +86,7 @@ VALUES
   ),
   (
     'Armor of Earth',
-    '',
+    'https://wiki.guildwars.com/images/5/51/Armor_of_Earth_%28large%29.jpg',
     'Enchantment Spell. (30 seconds.) You have +{{PlusArmor}} armor. You move {{MovementPenalty}}% slower.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -106,7 +106,7 @@ VALUES
   ),
   (
     'Armor of Frost',
-    '',
+    'https://wiki.guildwars.com/images/f/f5/Armor_of_Frost_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have +40 armor against physical damage and have +1 Water Magic.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -126,7 +126,7 @@ VALUES
   ),
   (
     'Armor of Mist',
-    '',
+    'https://wiki.guildwars.com/images/c/cf/Armor_of_Mist_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor and move 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -146,7 +146,7 @@ VALUES
   ),
   (
     'Ash Blast',
-    '',
+    'https://wiki.guildwars.com/images/3/33/Ash_Blast_%28large%29.jpg',
     'Hex Spell. Deals {{EarthDamage}} earth damage. Burning foes are hexed for 5 seconds and miss {{MissChancePercent}}% of attacks. Also strikes adjacent.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -166,7 +166,7 @@ VALUES
   ),
   (
     'Aura of Restoration',
-    '',
+    'https://wiki.guildwars.com/images/4/4e/Aura_of_Restoration_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{HealingPercent}}% of the Energy cost each time you cast a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -186,7 +186,7 @@ VALUES
   ),
   (
     'Aura of Restoration (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/4/4e/Aura_of_Restoration_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{PercentOfEnergyCost}}% of the Energy cost each time you cast a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -206,7 +206,7 @@ VALUES
   ),
   (
     'Bed of Coals',
-    '',
+    'https://wiki.guildwars.com/images/c/c5/Bed_of_Coals_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage each second (5 seconds) to location of target foe. Hits foes adjacent to your target. Inflicts Burning condition ({{BurningDuration}} seconds) on knocked down foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -226,7 +226,7 @@ VALUES
   ),
   (
     'Blinding Flash',
-    '',
+    'https://wiki.guildwars.com/images/0/07/Blinding_Flash_%28large%29.jpg',
     'Spell. Inflicts Blindness condition ({{BlindDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -246,7 +246,7 @@ VALUES
   ),
   (
     'Blinding Surge',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Blinding_Surge_%28large%29.jpg',
     'Elite Spell. Deals {{LightningDamage}} lightning damage. Inflicts Blindness condition ({{BlindDuration}} seconds) on target and adjacent foes. 25% armor penetration. If target was attacking, also hits adjacent foes and deals 50% more damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -266,7 +266,7 @@ VALUES
   ),
   (
     'Blurred Vision',
-    '',
+    'https://wiki.guildwars.com/images/a/a6/Blurred_Vision_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). They have 50% chance to miss.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -286,7 +286,7 @@ VALUES
   ),
   (
     'Breath of Fire',
-    '',
+    'https://wiki.guildwars.com/images/d/db/Breath_of_Fire_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes adjacent to target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -306,7 +306,7 @@ VALUES
   ),
   (
     'Burning Speed',
-    '',
+    'https://wiki.guildwars.com/images/0/07/Burning_Speed_%28large%29.jpg',
     'Enchantment Spell. (7 seconds.) You move {{MovementSpeedIncrease}}% faster. You suffer from Burning (7 seconds). End effect: inflicts Burning condition ({{BurningDuration}} seconds) on adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -326,7 +326,7 @@ VALUES
   ),
   (
     'Chain Lightning',
-    '',
+    'https://wiki.guildwars.com/images/3/3a/Chain_Lightning_%28large%29.jpg',
     'Spell. Deals {{LightningDamage}} lightning damage. Also hits two foes near your target. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -346,7 +346,7 @@ VALUES
   ),
   (
     'Chilling Winds',
-    '',
+    'https://wiki.guildwars.com/images/3/3e/Chilling_Winds_%28large%29.jpg',
     'Hex Spell. (10 seconds.) The next water hex on target foe lasts {{PercentLonger}}% longer. Initial effect: {{ColdDamage}} cold damage. Also strikes adjacent.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -366,7 +366,7 @@ VALUES
   ),
   (
     'Churning Earth',
-    '',
+    'https://wiki.guildwars.com/images/f/fa/Churning_Earth_%28large%29.jpg',
     'Spell. Deals {{EarthDamage}} earth damage each second (5 seconds). Hits foes near target''s initial location. Causes knock-down to foes moving faster than normal.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -386,7 +386,7 @@ VALUES
   ),
   (
     'Conjure Flame',
-    '',
+    'https://wiki.guildwars.com/images/9/92/Conjure_Flame_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusFireDamage}} fire damage. No effect unless your weapon deals fire damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -406,7 +406,7 @@ VALUES
   ),
   (
     'Conjure Frost',
-    '',
+    'https://wiki.guildwars.com/images/a/a6/Conjure_Frost_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusColdDamage}} cold damage. No effect unless your weapon deals cold damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -426,7 +426,7 @@ VALUES
   ),
   (
     'Conjure Lightning',
-    '',
+    'https://wiki.guildwars.com/images/b/b1/Conjure_Lightning_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) Your attacks hit for +{{PlusLightningDamage}} lightning damage. No effect unless your weapon deals lightning damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -446,7 +446,7 @@ VALUES
   ),
   (
     'Crystal Wave',
-    '',
+    'https://wiki.guildwars.com/images/9/91/Crystal_Wave_%28large%29.jpg',
     'Spell. Deals {{ArmorMinusIgnoringDamage}} damage to all foes adjacent to you. Those foes lose all conditions and take {{DamagePerCondition}} damage for each condition removed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -466,7 +466,7 @@ VALUES
   ),
   (
     'Deep Freeze',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Deep_Freeze_%28large%29.jpg',
     'Hex Spell. Also hexes foes in the area of your target (10 seconds). These foes move 66% slower. Initial effect: deals {{ColdDamage}} cold damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -486,7 +486,7 @@ VALUES
   ),
   (
     'Double Dragon',
-    '',
+    'https://wiki.guildwars.com/images/c/c8/Double_Dragon_%28large%29.jpg',
     'Elite Enchantment Spell. (8 seconds.) Enchants you and target ally. Adjacent foes take {{FireDamage}} fire damage each second. Skills that target a foe also inflict Burning ({{BurningDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -506,7 +506,7 @@ VALUES
   ),
   (
     'Dragon''s Stomp',
-    '',
+    'https://wiki.guildwars.com/images/e/e8/Dragon%27s_Stomp_%28large%29.jpg',
     'Spell. Deals {{EarthDamage}} earth damage. Causes knock-down. Also hits foes near this foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -526,7 +526,7 @@ VALUES
   ),
   (
     'Earth Attunement',
-    '',
+    'https://wiki.guildwars.com/images/2/2a/Earth_Attunement_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use an Earth Magic skill.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -546,7 +546,7 @@ VALUES
   ),
   (
     'Earthen Shackles',
-    '',
+    'https://wiki.guildwars.com/images/2/2e/Earthen_Shackles_%28large%29.jpg',
     'Hex Spell. (3 seconds.) Target and nearby foes move 90% slower. Applies Weakness for {{WeaknessDuration}} seconds when it ends.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -566,7 +566,7 @@ VALUES
   ),
   (
     'Earthquake',
-    '',
+    'https://wiki.guildwars.com/images/f/f4/Earthquake_%28large%29.jpg',
     'Spell. Deals {{EarthDamage}} earth damage. Also hits foes near target. Causes knock-down.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -586,7 +586,7 @@ VALUES
   ),
   (
     'Ebon Hawk',
-    '',
+    'https://wiki.guildwars.com/images/4/44/Ebon_Hawk_%28large%29.jpg',
     'Spell. Projectile: deals {{EarthDamage}} earth damage and inflicts Weakness condition ({{WeaknessDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -606,7 +606,7 @@ VALUES
   ),
   (
     'Elemental Attunement',
-    '',
+    'https://wiki.guildwars.com/images/b/b2/Elemental_Attunement_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Your elemental attributes are increased by +{{AttributeIncrease}}. You gain 50% of the Energy cost of any Air, Earth, Fire, and Water Magic skills you use.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -626,7 +626,7 @@ VALUES
   ),
   (
     'Elemental Flame',
-    '',
+    'https://wiki.guildwars.com/images/7/7b/Elemental_Flame_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) whenever you apply an Elemental hex to a target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -646,7 +646,7 @@ VALUES
   ),
   (
     'Elemental Flame (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/7/7b/Elemental_Flame_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) whenever you apply an Elemental hex to a target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -686,7 +686,7 @@ VALUES
   ),
   (
     'Energy Blast',
-    '',
+    'https://wiki.guildwars.com/images/5/52/Energy_Blast_%28large%29.jpg',
     'Spell. Deals {{ArmorMinusIgnoringDamagePerEnergy}} damage (maximum 130) for each point of Energy you have.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -706,7 +706,7 @@ VALUES
   ),
   (
     'Energy Boon',
-    '',
+    'https://wiki.guildwars.com/images/d/df/Energy_Boon_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Maximum Health for you and target ally is increased by {{PlusMaxHealth}} for each point of maximum Energy. Initial effect: Both gain {{EnergyGain}} Energy. You gain +1 Energy for every 2 points of Energy Storage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -726,7 +726,7 @@ VALUES
   ),
   (
     'Enervating Charge',
-    '',
+    'https://wiki.guildwars.com/images/b/ba/Enervating_Charge_%28large%29.jpg',
     'Spell. Deals {{LightningDamage}} lightning damage. Inflicts Weakness condition ({{WeaknessDuration}} seconds). 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -746,7 +746,7 @@ VALUES
   ),
   (
     'Eruption',
-    '',
+    'https://wiki.guildwars.com/images/d/dc/Eruption_%28large%29.jpg',
     'Spell. Deals {{EarthDamage}} earth damage each second (5 seconds). Hits foes near target''s initial location. Inflicts Blindness condition (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -766,7 +766,7 @@ VALUES
   ),
   (
     'Ether Prism',
-    '',
+    'https://wiki.guildwars.com/images/e/e8/Ether_Prism_%28large%29.jpg',
     'Elite Skill. (3 seconds.) All damage you take is reduced by 75%. End effect: gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -786,7 +786,7 @@ VALUES
   ),
   (
     'Ether Prodigy',
-    '',
+    'https://wiki.guildwars.com/images/4/42/Ether_Prodigy_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) You have +6 Energy regeneration. End effect: lose 2 Health for each point of Energy you have. Lose all enchantments.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -806,7 +806,7 @@ VALUES
   ),
   (
     'Ether Renewal',
-    '',
+    'https://wiki.guildwars.com/images/4/40/Ether_Renewal_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -826,7 +826,7 @@ VALUES
   ),
   (
     'Ether Renewal (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/4/40/Ether_Renewal_%28large%29.jpg',
     'Elite Enchantment Spell. (7 seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -846,7 +846,7 @@ VALUES
   ),
   (
     'Fire Attunement',
-    '',
+    'https://wiki.guildwars.com/images/b/b6/Fire_Attunement_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use a Fire Magic skill.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -866,7 +866,7 @@ VALUES
   ),
   (
     'Fire Storm',
-    '',
+    'https://wiki.guildwars.com/images/8/83/Fire_Storm_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage each second (10 seconds). Hits foes adjacent to target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -886,7 +886,7 @@ VALUES
   ),
   (
     'Fireball',
-    '',
+    'https://wiki.guildwars.com/images/a/a1/Fireball_%28large%29.jpg',
     'Spell. Projectile: deals {{FireDamage}} fire damage to target and adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -906,7 +906,7 @@ VALUES
   ),
   (
     'Flame Burst',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Flame_Burst_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage to all foes near you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -926,7 +926,7 @@ VALUES
   ),
   (
     'Flame Djinn''s Haste',
-    '',
+    'https://wiki.guildwars.com/images/1/1f/Flame_Djinn%27s_Haste_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You move 25% faster. Initial effect: deals {{FireDamage}} fire damage to foes adjacent to you. If you damage a foe with this spell, it recharges 50% faster.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -946,7 +946,7 @@ VALUES
   ),
   (
     'Flare',
-    '',
+    'https://wiki.guildwars.com/images/1/13/Flare_%28large%29.jpg',
     'Spell. Projectile: deals {{FireDamage}} fire damage. If Overcast, strikes adjacent.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -966,7 +966,7 @@ VALUES
   ),
   (
     'Freezing Gust',
-    '',
+    'https://wiki.guildwars.com/images/b/b7/Freezing_Gust_%28large%29.jpg',
     'Hex Spell. Deals {{ColdDamage}} cold damage if target foe is hexed with Water Magic. Otherwise, this foe moves 66% slower ({{Duration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -986,7 +986,7 @@ VALUES
   ),
   (
     'Frigid Armor',
-    '',
+    'https://wiki.guildwars.com/images/2/20/Frigid_Armor_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmor}} armor against physical damage and immunity to Burning.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1006,7 +1006,7 @@ VALUES
   ),
   (
     'Frozen Burst',
-    '',
+    'https://wiki.guildwars.com/images/e/e1/Frozen_Burst_%28large%29.jpg',
     'Hex Spell. Hexes foes near you. These foes move 66% slower ({{Duration}} seconds). Initial effect: deals {{ColdDamage}} cold damage to foes near you.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1026,7 +1026,7 @@ VALUES
   ),
   (
     'Gale',
-    '',
+    'https://wiki.guildwars.com/images/5/58/Gale_%28large%29.jpg',
     'Spell. Causes knock-down. 50% failure chance unless Air Magic 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1046,7 +1046,7 @@ VALUES
   ),
   (
     'Glimmering Mark',
-    '',
+    'https://wiki.guildwars.com/images/a/a4/Glimmering_Mark_%28large%29.jpg',
     'Elite Hex Spell. (10 seconds.) Deals {{ArmorMinusIgnoringDamage}} damage each second to target and adjacent foes. Inflicts Blindness [sic] on foes using attack skills. Ends if you use a skill that targets this foe.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1066,7 +1066,7 @@ VALUES
   ),
   (
     'Glowing Gaze',
-    '',
+    'https://wiki.guildwars.com/images/2/20/Glowing_Gaze_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Burning.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1086,7 +1086,7 @@ VALUES
   ),
   (
     'Glowing Ice',
-    '',
+    'https://wiki.guildwars.com/images/2/23/Glowing_Ice_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is hexed with Water Magic.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1106,7 +1106,7 @@ VALUES
   ),
   (
     'Glowstone',
-    '',
+    'https://wiki.guildwars.com/images/9/9f/Glowstone_%28large%29.jpg',
     'Spell. Projectile: deals {{EarthDamage}} earth damage. You gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if target foe is Weakened.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1126,7 +1126,7 @@ VALUES
   ),
   (
     'Glyph of Concentration',
-    '',
+    'https://wiki.guildwars.com/images/4/4e/Glyph_of_Concentration_%28large%29.jpg',
     'Glyph. (15 seconds.) Your next 1 spell cannot be interrupted and is unaffected by the Dazed condition.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1146,7 +1146,7 @@ VALUES
   ),
   (
     'Glyph of Elemental Power',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Glyph_of_Elemental_Power_%28large%29.jpg',
     'Glyph. (25 seconds.) Boosts your elemental attributes by +2 for your next 10 spells.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1166,7 +1166,7 @@ VALUES
   ),
   (
     'Glyph of Energy',
-    '',
+    'https://wiki.guildwars.com/images/9/95/Glyph_of_Energy_%28large%29.jpg',
     'Elite Glyph. Your next {{SpellsAffected}} spell[s] do[es] not cause Overcast and cost[s] {{EnergyReduction}} less Energy. Gain {{AttributeIncrease}} to all elemental attributes.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1186,7 +1186,7 @@ VALUES
   ),
   (
     'Glyph of Essence',
-    '',
+    'https://wiki.guildwars.com/images/f/f0/Glyph_of_Essence_%28large%29.jpg',
     'Glyph. (15 seconds.) Your next spell casts instantly. You lose all Energy.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1206,7 +1206,7 @@ VALUES
   ),
   (
     'Glyph of Immolation',
-    '',
+    'https://wiki.guildwars.com/images/2/2e/Glyph_of_Immolation_%28large%29.jpg',
     'Glyph. (15 seconds.) Your next {{SpellsAffected}} spell[s] that target[s] a foe also inflict[s] Burning condition ({{BurningDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1226,7 +1226,7 @@ VALUES
   ),
   (
     'Glyph of Lesser Energy',
-    '',
+    'https://wiki.guildwars.com/images/d/d5/Glyph_of_Lesser_Energy_%28large%29.jpg',
     'Glyph. (15 seconds.) Your next 2 spells cost {{EnergyReduction}} less Energy.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1246,7 +1246,7 @@ VALUES
   ),
   (
     'Glyph of Renewal',
-    '',
+    'https://wiki.guildwars.com/images/8/8e/Glyph_of_Renewal_%28large%29.jpg',
     'Elite Glyph. (15 seconds.) Your next spell recharges instantly.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1266,7 +1266,7 @@ VALUES
   ),
   (
     'Glyph of Restoration',
-    '',
+    'https://wiki.guildwars.com/images/0/0b/Glyph_of_Restoration_%28large%29.jpg',
     'Glyph. (15 seconds.) Your next 2 spells heal you for {{Healing}}, and you are healed for {{PercentOfEnergyCostHealed}}% of the Energy cost of each spell.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1286,7 +1286,7 @@ VALUES
   ),
   (
     'Glyph of Sacrifice',
-    '',
+    'https://wiki.guildwars.com/images/d/db/Glyph_of_Sacrifice_%28large%29.jpg',
     'Glyph. (15 seconds.) Your next spell casts instantly but takes an additional 30 seconds to recharge. Ends if you use a non-spell skill.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1306,7 +1306,7 @@ VALUES
   ),
   (
     'Glyph of Swiftness',
-    '',
+    'https://wiki.guildwars.com/images/4/41/Glyph_of_Swiftness_%28large%29.jpg',
     'Glyph. (15 seconds.) Your next {{SpellsAffected}} spell[s] recharge 25% faster and projectiles from them move 200% faster.',
     (SELECT id FROM skill_types WHERE name = 'Glyph'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1326,7 +1326,7 @@ VALUES
   ),
   (
     'Grasping Earth',
-    '',
+    'https://wiki.guildwars.com/images/a/ae/Grasping_Earth_%28large%29.jpg',
     'Hex Spell. Hexes foes near you for ({{Duration}} seconds). These foes move 50% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1346,7 +1346,7 @@ VALUES
   ),
   (
     'Gust',
-    '',
+    'https://wiki.guildwars.com/images/a/aa/Gust_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) You and target ally move 33% faster. Initial effect: Foes near you and target ally are struck for {{ColdDamage}} cold damage. Attacking or moving foes are knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1366,7 +1366,7 @@ VALUES
   ),
   (
     'Ice Prison',
-    '',
+    'https://wiki.guildwars.com/images/d/d2/Ice_Prison_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe moves 66% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1386,7 +1386,7 @@ VALUES
   ),
   (
     'Ice Spear',
-    '',
+    'https://wiki.guildwars.com/images/c/c1/Ice_Spear_%28large%29.jpg',
     'Enchantment Spell. Projectile: deals {{ColdDamage}} cold damage. Gain +{{HealthRegeneration}} Health regeneration for 5 seconds if Overcast.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1406,7 +1406,7 @@ VALUES
   ),
   (
     'Ice Spikes',
-    '',
+    'https://wiki.guildwars.com/images/7/7d/Ice_Spikes_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). These foes move 66% slower. Initial effect: deals {{ColdDamage}} cold damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1426,7 +1426,7 @@ VALUES
   ),
   (
     'Icy Prism',
-    '',
+    'https://wiki.guildwars.com/images/b/b1/Icy_Prism_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. Deals +[sic]{{PlusColdDamage}} cold damage to other nearby foes if target has a Water Magic hex.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1446,7 +1446,7 @@ VALUES
   ),
   (
     'Icy Shackles',
-    '',
+    'https://wiki.guildwars.com/images/6/6c/Icy_Shackles_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} second[s].) Target foe moves 66% slower. This foe moves 90% slower if enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1466,7 +1466,7 @@ VALUES
   ),
   (
     'Immolate',
-    '',
+    'https://wiki.guildwars.com/images/a/a7/Immolate_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage. Inflicts Burning condition ({{BurningDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1486,7 +1486,7 @@ VALUES
   ),
   (
     'Incendiary Bonds',
-    '',
+    'https://wiki.guildwars.com/images/9/9d/Incendiary_Bonds_%28large%29.jpg',
     'Hex Spell. (3 seconds.) End effect: deals {{FireDamage}} fire damage and inflicts Burning condition ({{BurningDuration}} second[s]) to foes near your target. Also triggers if foe dies.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1506,7 +1506,7 @@ VALUES
   ),
   (
     'Inferno',
-    '',
+    'https://wiki.guildwars.com/images/1/1c/Inferno_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage to foes adjacent to you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1546,7 +1546,7 @@ VALUES
   ),
   (
     'Invoke Lightning',
-    '',
+    'https://wiki.guildwars.com/images/e/e5/Invoke_Lightning_%28large%29.jpg',
     'Elite Spell. Deals {{LightningDamage}} lightning damage. Hits two foes near target. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1566,7 +1566,7 @@ VALUES
   ),
   (
     'Iron Mist',
-    '',
+    'https://wiki.guildwars.com/images/4/4a/Iron_Mist_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Gain +15 armor. Air Magic spells that target a foe activate and recharge 25% faster, but you are Overcast by 3 points.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1586,7 +1586,7 @@ VALUES
   ),
   (
     'Kinetic Armor',
-    '',
+    'https://wiki.guildwars.com/images/3/37/Kinetic_Armor_%28large%29.jpg',
     'Enchantment Spell. (8 seconds.) You have +{{PlusArmorRating}} armor. Renewal bonus: cast a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1606,7 +1606,7 @@ VALUES
   ),
   (
     'Lava Arrows',
-    '',
+    'https://wiki.guildwars.com/images/8/87/Lava_Arrows_%28large%29.jpg',
     'Spell. Projectile: deals {{Damage}} fire damage. Bonus effect: sends projectiles at 2 other foes near your target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1626,7 +1626,7 @@ VALUES
   ),
   (
     'Lava Font',
-    '',
+    'https://wiki.guildwars.com/images/c/c7/Lava_Font_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes adjacent to your initial location. If Overcast, range increased to nearby.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1646,7 +1646,7 @@ VALUES
   ),
   (
     'Lightning Bolt',
-    '',
+    'https://wiki.guildwars.com/images/6/6c/Lightning_Bolt_%28large%29.jpg',
     'Spell. Projectile: deals {{LightningDamage}} lightning damage. Deals {{AdditionalLightningDamage}} more lightning damage if target foe is moving. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1666,7 +1666,7 @@ VALUES
   ),
   (
     'Lightning Hammer',
-    '',
+    'https://wiki.guildwars.com/images/0/00/Lightning_Hammer_%28large%29.jpg',
     'Spell. Deals {{LightningDamage}} lightning damage. Applies Cracked Armor ({{CrackedArmorDuration}} seconds). 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1686,7 +1686,7 @@ VALUES
   ),
   (
     'Lightning Hammer (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/0/00/Lightning_Hammer_%28large%29.jpg',
     'Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1706,7 +1706,7 @@ VALUES
   ),
   (
     'Lightning Javelin',
-    '',
+    'https://wiki.guildwars.com/images/8/8e/Lightning_Javelin_%28large%29.jpg',
     'Spell. Projectile: Deals {{LightningDamage}} lightning damage. Interrupts if your target is attacking. 25% armor penetration. Strikes all foes between you and your target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1726,7 +1726,7 @@ VALUES
   ),
   (
     'Lightning Orb',
-    '',
+    'https://wiki.guildwars.com/images/1/13/Lightning_Orb_%28large%29.jpg',
     'Spell. Projectile: deals {{LightningDamage}} lightning damage. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1746,7 +1746,7 @@ VALUES
   ),
   (
     'Lightning Strike',
-    '',
+    'https://wiki.guildwars.com/images/f/f9/Lightning_Strike_%28large%29.jpg',
     'Hex Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals {{LightningDamage}} lightning damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1766,7 +1766,7 @@ VALUES
   ),
   (
     'Lightning Surge',
-    '',
+    'https://wiki.guildwars.com/images/8/88/Lightning_Surge_%28large%29.jpg',
     'Elite Hex Spell. (3 seconds.) End effect: deals {{LightningDamage}} lightning damage, causes knock-down, and inflicts Cracked Armor ({{CrackedArmorDuration}} seconds). 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1786,7 +1786,7 @@ VALUES
   ),
   (
     'Lightning Touch',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Lightning_Touch_%28large%29.jpg',
     'Touch Skill. Deals {{LightningDamage}} lightning damage. Also hits foes adjacent to target foe. Inflicts Blind ({{BlindDuration}} second[s]) and Cracked Armor ({{CrackedArmorDuration}} second[s]) on all struck foes. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1806,7 +1806,7 @@ VALUES
   ),
   (
     'Liquid Flame',
-    '',
+    'https://wiki.guildwars.com/images/2/24/Liquid_Flame_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage. Deals {{FireDamage}} fire damage to nearby foes if target was attacking or casting.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1826,7 +1826,7 @@ VALUES
   ),
   (
     'Maelstrom',
-    '',
+    'https://wiki.guildwars.com/images/5/54/Maelstrom_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage and interrupts spells each second (10 seconds). Hits foes adjacent to target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1846,7 +1846,7 @@ VALUES
   ),
   (
     'Magnetic Aura',
-    '',
+    'https://wiki.guildwars.com/images/b/b5/Magnetic_Aura_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} second[s].) Block the next attack against you and reflect {{Damage}} damage to the attacker. If you are Overcast, enchant party members in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1866,7 +1866,7 @@ VALUES
   ),
   (
     'Magnetic Surge',
-    '',
+    'https://wiki.guildwars.com/images/3/3a/Magnetic_Surge_%28large%29.jpg',
     'Enchantment Spell. Deals {{Damage}} damage. If you are Overcast, allies in earshot are enchanted for {{Duration}} [sic] and block the next attack against them.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1886,7 +1886,7 @@ VALUES
   ),
   (
     'Mark of Rodgort',
-    '',
+    'https://wiki.guildwars.com/images/0/01/Mark_of_Rodgort_%28large%29.jpg',
     'Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Inflicts Burning condition ({{BurningDuration}} second[s]) when these foes take fire damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1906,7 +1906,7 @@ VALUES
   ),
   (
     'Master of Magic',
-    '',
+    'https://wiki.guildwars.com/images/6/6e/Master_of_Magic_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} second[s]). Your elemental attributes are set to {{AttributeRank}} and elemental spells return 30% of their Energy cost.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1926,7 +1926,7 @@ VALUES
   ),
   (
     'Meteor',
-    '',
+    'https://wiki.guildwars.com/images/b/b6/Meteor_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage and causes knock-down. Also hits foes adjacent to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1946,7 +1946,7 @@ VALUES
   ),
   (
     'Meteor Shower',
-    '',
+    'https://wiki.guildwars.com/images/9/9c/Meteor_Shower_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage and causes knock-down every 3 seconds (9 seconds). Hits foes adjacent to target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1966,7 +1966,7 @@ VALUES
   ),
   (
     'Mind Blast',
-    '',
+    'https://wiki.guildwars.com/images/f/f1/Mind_Blast_%28large%29.jpg',
     'Elite Spell. Deals {{FireDamage}} fire damage. You gain {{EnergyGain}} Energy if you have more Energy than target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -1986,7 +1986,7 @@ VALUES
   ),
   (
     'Mind Burn',
-    '',
+    'https://wiki.guildwars.com/images/8/8f/Mind_Burn_%28large%29.jpg',
     'Elite Spell. Deals {{FireDamage}} fire damage. If you have more energy than target foe, deals {{PlusFireDamage}} more fire damage and inflicts Burning ({{BurningDuration}} second[s]). Also hits adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2006,7 +2006,7 @@ VALUES
   ),
   (
     'Mind Freeze',
-    '',
+    'https://wiki.guildwars.com/images/a/a8/Mind_Freeze_%28large%29.jpg',
     'Elite Hex Spell. Deals {{ColdDamage}} cold damage. If you have more Energy than target foe, deals +{{PlusColdDamage}} cold damage and causes 90% slower movement ({{Duration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2026,7 +2026,7 @@ VALUES
   ),
   (
     'Mind Freeze (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/a/a8/Mind_Freeze_%28large%29.jpg',
     'Elite Hex Spell. Deals {{ColdDamage}} cold damage. If you have more Energy than target foe, deals +{{PlusColdDamage}} cold damage and causes 90% slower movement ({{Duration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2046,7 +2046,7 @@ VALUES
   ),
   (
     'Mind Shock',
-    '',
+    'https://wiki.guildwars.com/images/2/2f/Mind_Shock_%28large%29.jpg',
     'Elite Spell. Deals {{LightningDamage}} lightning damage. If you have more Energy than target foe, deals +{{PlusLightningDamage}} lightning damage and causes knockdown. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2066,7 +2066,7 @@ VALUES
   ),
   (
     'Mind Shock (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/2/2f/Mind_Shock_%28large%29.jpg',
     'Elite Spell. Deals {{LightningDamage}} lightning damage. If you have more Energy than target foe, deals +{{PlusLightningDamage}} lightning damage and causes knockdown. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2086,7 +2086,7 @@ VALUES
   ),
   (
     'Mirror of Ice',
-    '',
+    'https://wiki.guildwars.com/images/4/41/Mirror_of_Ice_%28large%29.jpg',
     'Elite Hex Spell. Deals {{ColdDamage}} cold damage and slows foes by 66% ({{Duration}} seconds). Hits foes near you and target ally. Recharges 50% faster if it hits a foe hexed with Water Magic.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2106,7 +2106,7 @@ VALUES
   ),
   (
     'Mist Form',
-    '',
+    'https://wiki.guildwars.com/images/8/86/Mist_Form_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for {{HealingPercent}}% of the energy cost of your elemental spells.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2126,7 +2126,7 @@ VALUES
   ),
   (
     'Mist Form (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/8/86/Mist_Form_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Take 33% less damage from foes hexed with Water Magic. Heals non-spirit allies in earshot for {{HealingPercent}}% of the energy cost of your elemental spells. Does not heal allies above 80% Health.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2146,7 +2146,7 @@ VALUES
   ),
   (
     'Obsidian Flame',
-    '',
+    'https://wiki.guildwars.com/images/4/49/Obsidian_Flame_%28large%29.jpg',
     'Spell. Deals {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2166,7 +2166,7 @@ VALUES
   ),
   (
     'Obsidian Flame (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/4/49/Obsidian_Flame_%28large%29.jpg',
     'Spell. Deals {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2186,7 +2186,7 @@ VALUES
   ),
   (
     'Obsidian Flesh',
-    '',
+    'https://wiki.guildwars.com/images/1/1c/Obsidian_Flesh_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) You have +20 armor and enemy spells cannot target you. You cannot attack and have -2 energy degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2226,7 +2226,7 @@ VALUES
   ),
   (
     'Phoenix',
-    '',
+    'https://wiki.guildwars.com/images/5/57/Phoenix_%28large%29.jpg',
     'Spell. Projectile: deals {{FireDamage}} fire damage to target and nearby foes. Heals allies for {{Healing}} if you are Overcast.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2246,7 +2246,7 @@ VALUES
   ),
   (
     'Ride the Lightning',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Ride_the_Lightning_%28large%29.jpg',
     'Elite Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Blinds all adjacent foes ({{BlindDuration}} second[s]). You instantly move to your target. May target allies.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2266,7 +2266,7 @@ VALUES
   ),
   (
     'Ride the Lightning (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Ride_the_Lightning_%28large%29.jpg',
     'Elite Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Blinds all adjacent foes ({{BlindDuration}} second[s]). You instantly move to your target. May target allies.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2286,7 +2286,7 @@ VALUES
   ),
   (
     'Rodgort''s Invocation',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Rodgort%27s_Invocation_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage. Also affects foes near your target. Inflicts Burning condition ({{BurningDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2306,7 +2306,7 @@ VALUES
   ),
   (
     'Rust',
-    '',
+    'https://wiki.guildwars.com/images/d/d2/Rust_%28large%29.jpg',
     'Hex Spell. Deals {{ColdDamage}} cold damage to target and adjacent foes. Hexes target and adjacent foes ({{Duration}} seconds). Doubles signet activation time. Interrupts and disables signets for {{DisableDuration}} second[s] if you are Overcast.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2326,7 +2326,7 @@ VALUES
   ),
   (
     'Sandstorm',
-    '',
+    'https://wiki.guildwars.com/images/7/76/Sandstorm_%28large%29.jpg',
     'Elite Spell. Deals {{EarthDamage}} earth damage each second (10 seconds). Hits foes near target foe''s initial location. Hits attacking foes for {{EarthDamage}} more earth damage each second.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2346,7 +2346,7 @@ VALUES
   ),
   (
     'Savannah Heat',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Savannah_Heat_%28large%29.jpg',
     'Elite Spell. Deals {{FireDamage}} fire damage for each second since casting this spell (5 seconds). Hits foes near target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2366,7 +2366,7 @@ VALUES
   ),
   (
     'Savannah Heat (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Savannah_Heat_%28large%29.jpg',
     'Elite Spell. Deals {{FireDamage}} fire damage for each second since casting this spell (5 seconds). Hits foes near target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2386,7 +2386,7 @@ VALUES
   ),
   (
     'Searing Flames',
-    '',
+    'https://wiki.guildwars.com/images/3/3a/Searing_Flames_%28large%29.jpg',
     'Elite Spell. Hits foes near your target. Deals {{FireDamage}} fire damage to foes already Burning. Inflicts Burning condition ({{BurningDuration}} seconds) to foes not Burning.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2406,7 +2406,7 @@ VALUES
   ),
   (
     'Searing Heat',
-    '',
+    'https://wiki.guildwars.com/images/5/57/Searing_Heat_%28large%29.jpg',
     'Spell. Deals {{FireDamage}} fire damage each second (5 seconds). Hits foes near target''s initial location. End effect: inflicts Burning condition (3 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2426,7 +2426,7 @@ VALUES
   ),
   (
     'Second Wind',
-    '',
+    'https://wiki.guildwars.com/images/8/81/Second_Wind_%28large%29.jpg',
     'Elite Spell. You gain 1 Energy and 5 Health for each point of Overcast. You lose all enchantments.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2446,7 +2446,7 @@ VALUES
   ),
   (
     'Shard Storm',
-    '',
+    'https://wiki.guildwars.com/images/c/c2/Shard_Storm_%28large%29.jpg',
     'Hex Spell. Projectile: deals {{ColdDamage}} cold damage. Target foe moves 66% slower ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2466,7 +2466,7 @@ VALUES
   ),
   (
     'Shatterstone',
-    '',
+    'https://wiki.guildwars.com/images/5/58/Shatterstone_%28large%29.jpg',
     'Elite Hex Spell. (3 seconds.) Initial effect: deals {{ColdDamage}} cold damage. End effect: deals {{ColdDamage}} cold damage to target and all nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2486,7 +2486,7 @@ VALUES
   ),
   (
     'Shell Shock',
-    '',
+    'https://wiki.guildwars.com/images/0/01/Shell_Shock_%28large%29.jpg',
     'Spell. Deals {{LightningDamage}} lightning damage. Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds). 25% armor penetration. If Overcast, strikes adjacent.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2506,7 +2506,7 @@ VALUES
   ),
   (
     'Shock',
-    '',
+    'https://wiki.guildwars.com/images/8/8a/Shock_%28large%29.jpg',
     'Touch Skill. Deals {{LightningDamage}} lightning damage. Causes knock-down. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2526,7 +2526,7 @@ VALUES
   ),
   (
     'Shock Arrow',
-    '',
+    'https://wiki.guildwars.com/images/b/bc/Shock_Arrow_%28large%29.jpg',
     'Spell. Rapid projectile: deals {{LightningDamage}} lightning damage. Gain 5 Energy plus 1 Energy for every 2 ranks of Energy Storage if you hit a foe suffering from Cracked Armor. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2546,7 +2546,7 @@ VALUES
   ),
   (
     'Shockwave',
-    '',
+    'https://wiki.guildwars.com/images/4/46/Shockwave_%28large%29.jpg',
     'Elite Spell. Foes in the area take {{EachEarthDamagePacket}} earth damage and are Weakened ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Nearby foes also take +{{EachEarthDamagePacket}} earth damage and have Cracked Armor ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Adjacent foes also take +{{EachEarthDamagePacket}} earth damage and are Blinded ({{WeaknessCrackedArmorAndBlindDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2566,7 +2566,7 @@ VALUES
   ),
   (
     'Slippery Ground',
-    '',
+    'https://wiki.guildwars.com/images/5/5d/Slippery_Ground_%28large%29.jpg',
     'Spell. Causes knock-down if this foe is Blind or moving. Affects foes adjacent to your target. 50% failure chance unless Water Magic greater than 4.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2586,7 +2586,7 @@ VALUES
   ),
   (
     'Slippery Ground (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/5/5d/Slippery_Ground_%28large%29.jpg',
     'Spell. Causes knock-down if this foe is Blind or moving. 50% failure chance unless Water Magic 5 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2606,7 +2606,7 @@ VALUES
   ),
   (
     'Sliver Armor',
-    '',
+    'https://wiki.guildwars.com/images/a/ae/Sliver_Armor_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have {{BlockChancePercent}}% chance to block. Deals {{EarthDamage}} earth damage to one nearby foe whenever you are the target of a hostile spell or attack.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2626,7 +2626,7 @@ VALUES
   ),
   (
     'Smoldering Embers',
-    '',
+    'https://wiki.guildwars.com/images/d/de/Smoldering_Embers_%28large%29.jpg',
     'Hex Spell. Deals {{FireDamage}} fire damage to target. If you are Overcast, foe is hexed for 3 seconds, taking {{FireDamageEachSecond}} fire damage each second.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2646,7 +2646,7 @@ VALUES
   ),
   (
     'Star Burst',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Star_Burst_%28large%29.jpg',
     'Elite Touch Spell. Deals {{FireDamage}} fire damage. Inflicts Burning ({{BurningDuration}} seconds). [sic] Gain 2 Energy for each foe struck. Also hits foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2666,7 +2666,7 @@ VALUES
   ),
   (
     'Steam',
-    '',
+    'https://wiki.guildwars.com/images/a/a9/Steam_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. Inflicts Blindness condition ({{BlindDuration}} seconds) if target foe is Burning.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2686,7 +2686,7 @@ VALUES
   ),
   (
     'Stone Daggers',
-    '',
+    'https://wiki.guildwars.com/images/7/7d/Stone_Daggers_%28large%29.jpg',
     'Spell. Two projectiles: each deals {{EarthDamage}} earth damage. If Overcast, cause Bleeding for {{BleedingDuration}} second[s].',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2706,7 +2706,7 @@ VALUES
   ),
   (
     'Stone Sheath',
-    '',
+    'https://wiki.guildwars.com/images/4/41/Stone_Sheath_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Gives you and target ally +{{PlusArmorRating}} armor and immunity to critical hits. Initial effect: Foes near you and target ally are struck for {{EarthDamage}} earth damage and are Weakened ({{WeaknessDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2726,7 +2726,7 @@ VALUES
   ),
   (
     'Stone Striker',
-    '',
+    'https://wiki.guildwars.com/images/3/32/Stone_Striker_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Converts elemental and physical damage you take or deal to earth damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2746,7 +2746,7 @@ VALUES
   ),
   (
     'Stoneflesh Aura',
-    '',
+    'https://wiki.guildwars.com/images/e/e3/Stoneflesh_Aura_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Reduces damage you take by {{DamageReduction}}, and you are immune to critical hits.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2766,7 +2766,7 @@ VALUES
   ),
   (
     'Stoning',
-    '',
+    'https://wiki.guildwars.com/images/8/8d/Stoning_%28large%29.jpg',
     'Spell. Projectile: deals {{EarthDamage}} earth damage. Causes knock-down if target foe is Weakened.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2786,7 +2786,7 @@ VALUES
   ),
   (
     'Storm Djinn''s Haste',
-    '',
+    'https://wiki.guildwars.com/images/8/81/Storm_Djinn%27s_Haste_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You move 25% faster. Lose 1 Energy each second while moving.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2806,7 +2806,7 @@ VALUES
   ),
   (
     'Swirling Aura',
-    '',
+    'https://wiki.guildwars.com/images/0/03/Swirling_Aura_%28large%29.jpg',
     'Enchantment Spell. (5 seconds.) Gives {{HealthRegeneration}} Health regeneration and a 50% chance to block projectiles. If Overcast, also enchants party members in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2826,7 +2826,7 @@ VALUES
   ),
   (
     'Teinai''s Crystals',
-    '',
+    'https://wiki.guildwars.com/images/8/88/Teinai%27s_Crystals_%28large%29.jpg',
     'Spell. Deals {{ArmorMinusIgnoringDamage}} damage to target. Deals +{{AdditionalDamage}} more [sic] damage and causes Cracked Armor ({{CrackedArmorDuration}} seconds) nearby if that foe had a Water Magic hex.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2846,7 +2846,7 @@ VALUES
   ),
   (
     'Teinai''s Heat',
-    '',
+    'https://wiki.guildwars.com/images/a/a2/Teinai%27s_Heat_%28large%29.jpg',
     'Ward Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} health [sic] degeneration. Weakened foes in the ward attack 33% slower. Disabled for 20 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2866,7 +2866,7 @@ VALUES
   ),
   (
     'Teinai''s Prison',
-    '',
+    'https://wiki.guildwars.com/images/a/aa/Teinai%27s_Prison_%28large%29.jpg',
     'Hex Spell. ({{Duration}} second[s].) Target foe moves 66% slower. Foes with Cracked Armor have {{HealthDegeneration}} Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2886,7 +2886,7 @@ VALUES
   ),
   (
     'Teinai''s Wind',
-    '',
+    'https://wiki.guildwars.com/images/d/d4/Teinai%27s_Wind_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. Burning foes take +{{PlusColdDamage}} damage and are interrupted. Also strikes adjacent.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2906,7 +2906,7 @@ VALUES
   ),
   (
     'Thunderclap',
-    '',
+    'https://wiki.guildwars.com/images/f/f8/Thunderclap_%28large%29.jpg',
     'Elite Spell. Deals {{LightningDamage}} lightning damage. Also strikes adjacent foes. Inflicts Cracked Armor and Weakness ({{CrackedArmorAndWeaknessDurations}} seconds). Causes interrupt. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2926,7 +2926,7 @@ VALUES
   ),
   (
     'Unsteady Ground',
-    '',
+    'https://wiki.guildwars.com/images/a/a0/Unsteady_Ground_%28large%29.jpg',
     'Elite Spell. Deals {{EarthDamage}} earth damage each second (5 seconds) and causes knock-down to attacking foes. Hits foes near target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2946,7 +2946,7 @@ VALUES
   ),
   (
     'Vapor Blade',
-    '',
+    'https://wiki.guildwars.com/images/1/16/Vapor_Blade_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. Half damage if target foe is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2966,7 +2966,7 @@ VALUES
   ),
   (
     'Ward Against Elements',
-    '',
+    'https://wiki.guildwars.com/images/7/71/Ward_Against_Elements_%28large%29.jpg',
     'Ward Spell. ({{Duration}} seconds.) Allies in this ward have +24 armor against elemental damage. Spirits are unaffected.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -2986,7 +2986,7 @@ VALUES
   ),
   (
     'Ward Against Foes',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Ward_Against_Foes_%28large%29.jpg',
     'Ward Spell. ({{Duration}} seconds.) Foes in this ward move 50% slower.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3006,7 +3006,7 @@ VALUES
   ),
   (
     'Ward Against Harm',
-    '',
+    'https://wiki.guildwars.com/images/c/c8/Ward_Against_Harm_%28large%29.jpg',
     'Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward have +{{HealthRegeneration}} Health regeneration, +{{PlusArmor}} armor, and +{{PlusArmorVsElementalDamage}} additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 20 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3026,7 +3026,7 @@ VALUES
   ),
   (
     'Ward Against Harm (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/c8/Ward_Against_Harm_%28large%29.jpg',
     'Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward have +{{HealthRegeneration}} Health regeneration, +{{PlusArmor}} armor, and +{{PlusArmorVsElementalDamage}} additional armor against elemental damage. Spirits are unaffected. This spell is disabled for 30 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3046,7 +3046,7 @@ VALUES
   ),
   (
     'Ward Against Melee',
-    '',
+    'https://wiki.guildwars.com/images/c/cc/Ward_Against_Melee_%28large%29.jpg',
     'Ward Spell. ({{Duration}} seconds.) Allies in this ward have a 50% chance to block melee attacks. Allied spirits are not affected.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3066,7 +3066,7 @@ VALUES
   ),
   (
     'Ward of Stability',
-    '',
+    'https://wiki.guildwars.com/images/e/ea/Ward_of_Stability_%28large%29.jpg',
     'Ward Spell. ({{Duration}} seconds.) Allies in this ward cannot be knocked-down. Allied spirits are not affected.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3086,7 +3086,7 @@ VALUES
   ),
   (
     'Ward of Weakness',
-    '',
+    'https://wiki.guildwars.com/images/0/05/Ward_of_Weakness_%28large%29.jpg',
     'Ward Spell. ({{WardDuration}} seconds). Inflicts Weakened condition ({{WeaknessDuration}} seconds) to any foes that take elemental damage in this ward.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3106,7 +3106,7 @@ VALUES
   ),
   (
     'Water Attunement',
-    '',
+    'https://wiki.guildwars.com/images/3/32/Water_Attunement_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy plus 30% of the Energy cost when you use a Water Magic skill.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3126,7 +3126,7 @@ VALUES
   ),
   (
     'Water Trident',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Water_Trident_%28large%29.jpg',
     'Elite Spell. Fast Projectile: deals {{ColdDamage}} cold damage and knocks-down moving foes. Shoots 2 additional projectiles at adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3146,7 +3146,7 @@ VALUES
   ),
   (
     'Whirlwind',
-    '',
+    'https://wiki.guildwars.com/images/1/1e/Whirlwind_%28large%29.jpg',
     'Spell. Hits foes adjacent to you. Deals {{ColdDamage}} cold damage. Causes knock-down to attacking foes. Strikes nearby instead of adjacent if Overcast.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3166,7 +3166,7 @@ VALUES
   ),
   (
     'Windborne Speed',
-    '',
+    'https://wiki.guildwars.com/images/8/87/Windborne_Speed_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Target ally moves 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),
@@ -3186,7 +3186,7 @@ VALUES
   ),
   (
     'Winter''s Embrace',
-    '',
+    'https://wiki.guildwars.com/images/9/9d/Winter%27s_Embrace_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe moves 66% slower and takes {{DamageWhileMoving}} damage while moving.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Elementalist'),

@@ -1,6 +1,6 @@
 -- Seed weapon upgrades
 -- Auto-generated from data/weapon_upgrades.json
--- Generated: 2025-11-17T05:10:24.847Z
+-- Generated: 2025-11-17T07:36:05.805Z
 -- Total weapon upgrades: 130
 
 INSERT INTO weapon_upgrades (name, type, description, attaches_to, release_id, wiki_url, icon, variables)

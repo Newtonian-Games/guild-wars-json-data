@@ -1,6 +1,6 @@
 -- Seed monk skills
 -- Auto-generated from data/skills/monk.json
--- Generated: 2025-11-17T05:10:24.813Z
+-- Generated: 2025-11-17T07:36:05.766Z
 -- Total skills: 152
 
 INSERT INTO skills (
@@ -26,7 +26,7 @@ INSERT INTO skills (
 VALUES
   (
     'Aegis',
-    '',
+    'https://wiki.guildwars.com/images/9/93/Aegis_%28large%29.jpg',
     'Enchantment Spell. Enchants all party members within earshot ({{Duration}} seconds). 50% chance to block.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -46,7 +46,7 @@ VALUES
   ),
   (
     'Aegis (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/9/93/Aegis_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds). Target party member cannot be targeted by hostile spells. Attacks against this party member fail. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -66,7 +66,7 @@ VALUES
   ),
   (
     'Air of Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/b/bf/Air_of_Enchantment_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Enchantments cast on target ally cost 5 less Energy (minimum 1 Energy). Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -86,7 +86,7 @@ VALUES
   ),
   (
     'Amity',
-    '',
+    'https://wiki.guildwars.com/images/9/98/Amity_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Foes adjacent to you cannot attack. Ends on any foes that take damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -106,7 +106,7 @@ VALUES
   ),
   (
     'Aura of Faith',
-    '',
+    'https://wiki.guildwars.com/images/2/29/Aura_of_Faith_%28large%29.jpg',
     'Elite Enchantment Spell. (3 seconds.) Target ally gains {{PercentExtraHealing}}% more Health when healed and takes {{PercentLessDamage}}% less damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -126,7 +126,7 @@ VALUES
   ),
   (
     'Aura of Stability',
-    '',
+    'https://wiki.guildwars.com/images/5/52/Aura_of_Stability_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Target ally cannot be knocked-down. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -146,7 +146,7 @@ VALUES
   ),
   (
     'Balthazar''s Aura',
-    '',
+    'https://wiki.guildwars.com/images/1/12/Balthazar%27s_Aura_%28large%29.jpg',
     'Enchantment Spell. (8 seconds.) Deals {{HolyDamage}} holy damage each second to foes adjacent to target ally.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -166,7 +166,7 @@ VALUES
   ),
   (
     'Balthazar''s Pendulum',
-    '',
+    'https://wiki.guildwars.com/images/1/17/Balthazar%27s_Pendulum_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Causes knock-down to the next foe attempting to knock-down target ally.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -186,7 +186,7 @@ VALUES
   ),
   (
     'Balthazar''s Spirit',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Balthazar%27s_Spirit_%28large%29.jpg',
     'Enchantment Spell. Target ally gains adrenaline and 1 Energy when taking damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -206,7 +206,7 @@ VALUES
   ),
   (
     'Bane Signet',
-    '',
+    'https://wiki.guildwars.com/images/9/9c/Bane_Signet_%28large%29.jpg',
     'Signet. Deals {{HolyDamage}} holy damage. Causes knock-down if target foe is attacking.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -226,7 +226,7 @@ VALUES
   ),
   (
     'Banish',
-    '',
+    'https://wiki.guildwars.com/images/4/4a/Banish_%28large%29.jpg',
     'Spell. Deals {{HolyDamage}} holy damage. Deals double damage to summoned creatures.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -246,7 +246,7 @@ VALUES
   ),
   (
     'Blessed Aura',
-    '',
+    'https://wiki.guildwars.com/images/9/97/Blessed_Aura_%28large%29.jpg',
     'Enchantment Spell. Monk enchantments you cast last {{PercentLongerDuration}}% longer.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -266,7 +266,7 @@ VALUES
   ),
   (
     'Blessed Light',
-    '',
+    'https://wiki.guildwars.com/images/5/5d/Blessed_Light_%28large%29.jpg',
     'Elite Spell. Heals for {{Healing}}. Removes one condition and one hex.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -286,7 +286,7 @@ VALUES
   ),
   (
     'Blessed Signet',
-    '',
+    'https://wiki.guildwars.com/images/e/e2/Blessed_Signet_%28large%29.jpg',
     'Signet. You gain 3 Energy for each enchantment you are maintaining. You cannot gain more than {{Energy}} Energy in this way.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -306,7 +306,7 @@ VALUES
   ),
   (
     'Boon Signet',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Boon_Signet_%28large%29.jpg',
     'Elite Signet. Heals for {{Healing}}. Your next Healing or Protection Prayer [sic] spell that targets an ally heals for +{{HealingOnNextSpell}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -326,7 +326,7 @@ VALUES
   ),
   (
     'Castigation Signet',
-    '',
+    'https://wiki.guildwars.com/images/8/8c/Castigation_Signet_%28large%29.jpg',
     'Signet. Deals {{HolyDamage}} holy damage. You gain {{EnergyGain}} Energy if target foe is attacking.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -346,7 +346,7 @@ VALUES
   ),
   (
     'Contemplation of Purity',
-    '',
+    'https://wiki.guildwars.com/images/2/2a/Contemplation_of_Purity_%28large%29.jpg',
     'Skill. You gain {{HealthGain}} Health and lose one hex and one condition for each enchantment on you (maximum {{MaximumLost}} hexes and conditions). You lose all enchantments.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -366,7 +366,7 @@ VALUES
   ),
   (
     'Convert Hexes',
-    '',
+    'https://wiki.guildwars.com/images/0/0b/Convert_Hexes_%28large%29.jpg',
     'Spell. Removes all hexes; +10 armor for each Necromancer hex removed ({{Duration}} seconds). Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -386,7 +386,7 @@ VALUES
   ),
   (
     'Cure Hex',
-    '',
+    'https://wiki.guildwars.com/images/b/b0/Cure_Hex_%28large%29.jpg',
     'Spell. Removes a Hex. Removal effect: Heals for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -406,7 +406,7 @@ VALUES
   ),
   (
     'Defender''s Zeal',
-    '',
+    'https://wiki.guildwars.com/images/b/b1/Defender%27s_Zeal_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) You gain 2 Energy whenever target foe hits with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -426,7 +426,7 @@ VALUES
   ),
   (
     'Deny Hexes',
-    '',
+    'https://wiki.guildwars.com/images/a/ac/Deny_Hexes_%28large%29.jpg',
     'Spell. Removes one hex from target ally and one additional hex for each recharging Divine Favor skill you have.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -446,7 +446,7 @@ VALUES
   ),
   (
     'Dismiss Condition',
-    '',
+    'https://wiki.guildwars.com/images/e/ea/Dismiss_Condition_%28large%29.jpg',
     'Spell. Removes one condition. Heals for {{Healing}} if target ally is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -466,7 +466,7 @@ VALUES
   ),
   (
     'Divert Hexes',
-    '',
+    'https://wiki.guildwars.com/images/7/74/Divert_Hexes_%28large%29.jpg',
     'Elite Spell. Removes {{HexesRemoved}} hex[es]. For each hex removed, target ally loses one condition and gains {{HealthGain}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -486,7 +486,7 @@ VALUES
   ),
   (
     'Divine Boon',
-    '',
+    'https://wiki.guildwars.com/images/3/3c/Divine_Boon_%28large%29.jpg',
     'Enchantment Spell. Whenever you cast a Protection Prayer [sic] or Divine Favor spell on an ally, that ally is healed for {{Healing}}. Heal cost: you lose 1 Energy.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -506,7 +506,7 @@ VALUES
   ),
   (
     'Divine Healing',
-    '',
+    'https://wiki.guildwars.com/images/0/08/Divine_Healing_%28large%29.jpg',
     'Spell. Heals you and party members within earshot for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -526,7 +526,7 @@ VALUES
   ),
   (
     'Divine Intervention',
-    '',
+    'https://wiki.guildwars.com/images/a/af/Divine_Intervention_%28large%29.jpg',
     'Enchantment Spell. (10 seconds.) Negates the next fatal damage target ally takes. Negation effect: heals for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -546,7 +546,7 @@ VALUES
   ),
   (
     'Divine Spirit',
-    '',
+    'https://wiki.guildwars.com/images/f/f8/Divine_Spirit_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} second[s].) Monk spells cost you 5 less Energy. Minimum cost: 1 Energy.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -566,7 +566,7 @@ VALUES
   ),
   (
     'Draw Conditions',
-    '',
+    'https://wiki.guildwars.com/images/f/f3/Draw_Conditions_%28large%29.jpg',
     'Spell. Transfers all conditions from target ally to yourself. Transfer effect: you gain {{HealthGain}} Health for each condition. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -586,7 +586,7 @@ VALUES
   ),
   (
     'Dwayna''s Kiss',
-    '',
+    'https://wiki.guildwars.com/images/f/f8/Dwayna%27s_Kiss_%28large%29.jpg',
     'Spell. Heals for {{Healing}}. Heals for {{AdditionalHealing}} more for each enchantment and hex on target ally. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -606,7 +606,7 @@ VALUES
   ),
   (
     'Dwayna''s Sorrow',
-    '',
+    'https://wiki.guildwars.com/images/6/61/Dwayna%27s_Sorrow_%28large%29.jpg',
     'Enchantment Spell. Enchants allies near your target (30 seconds). Your party is healed for {{Healing}} whenever one of these allies dies.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -626,7 +626,7 @@ VALUES
   ),
   (
     'Empathic Removal',
-    '',
+    'https://wiki.guildwars.com/images/d/d4/Empathic_Removal_%28large%29.jpg',
     'Elite Spell. Removes one condition and hex from target ally and yourself, and heals for 50. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -646,7 +646,7 @@ VALUES
   ),
   (
     'Essence Bond',
-    '',
+    'https://wiki.guildwars.com/images/8/8b/Essence_Bond_%28large%29.jpg',
     'Enchantment Spell. You gain 1 Energy whenever target ally takes physical or elemental damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -666,7 +666,7 @@ VALUES
   ),
   (
     'Ethereal Light',
-    '',
+    'https://wiki.guildwars.com/images/3/38/Ethereal_Light_%28large%29.jpg',
     'Spell. Heals for {{Healing}}. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -686,7 +686,7 @@ VALUES
   ),
   (
     'Extinguish',
-    '',
+    'https://wiki.guildwars.com/images/a/ad/Extinguish_%28large%29.jpg',
     'Spell. Affects all party members. Removes one condition. Party members relieved of Burning are healed for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -706,7 +706,7 @@ VALUES
   ),
   (
     'Gift of Health',
-    '',
+    'https://wiki.guildwars.com/images/0/0a/Gift_of_Health_%28large%29.jpg',
     'Spell. Heals for {{Healing}}. Disables your other Healing Prayers skills ({{Disabled}} seconds). Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -726,7 +726,7 @@ VALUES
   ),
   (
     'Glimmer of Light',
-    '',
+    'https://wiki.guildwars.com/images/d/dd/Glimmer_of_Light_%28large%29.jpg',
     'Elite Spell. Heals for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -746,7 +746,7 @@ VALUES
   ),
   (
     'Guardian',
-    '',
+    'https://wiki.guildwars.com/images/a/ae/Guardian_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) 50% chance to block.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -766,7 +766,7 @@ VALUES
   ),
   (
     'Heal Area',
-    '',
+    'https://wiki.guildwars.com/images/8/85/Heal_Area_%28large%29.jpg',
     'Spell. Heals you and adjacent allies and foes for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -786,7 +786,7 @@ VALUES
   ),
   (
     'Heal Other',
-    '',
+    'https://wiki.guildwars.com/images/5/5c/Heal_Other_%28large%29.jpg',
     'Spell. Heals for {{Healing}}. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -806,7 +806,7 @@ VALUES
   ),
   (
     'Heal Party',
-    '',
+    'https://wiki.guildwars.com/images/3/39/Heal_Party_%28large%29.jpg',
     'Spell. Heals entire party for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -826,7 +826,7 @@ VALUES
   ),
   (
     'Heal Party (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/3/39/Heal_Party_%28large%29.jpg',
     'Spell. Heals entire party for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -846,7 +846,7 @@ VALUES
   ),
   (
     'Healer''s Boon',
-    '',
+    'https://wiki.guildwars.com/images/c/c2/Healer%27s_Boon_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Healing Prayers spells cast 50% faster and heal for 50% more.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -866,7 +866,7 @@ VALUES
   ),
   (
     'Healer''s Covenant',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Healer%27s_Covenant_%28large%29.jpg',
     'Elite Enchantment Spell. Your Healing Prayers spells cost {{EnergyReduction}} less Energy. These spells heal for 25% less.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -886,7 +886,7 @@ VALUES
   ),
   (
     'Healing Breeze',
-    '',
+    'https://wiki.guildwars.com/images/6/6b/Healing_Breeze_%28large%29.jpg',
     'Enchantment Spell. (15 seconds.) +{{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -906,7 +906,7 @@ VALUES
   ),
   (
     'Healing Burst',
-    '',
+    'https://wiki.guildwars.com/images/e/e3/Healing_Burst_%28large%29.jpg',
     'Elite Spell. Heals for {{Healing}}. Party members in earshot of your target gain Health equal to the Divine Favor bonus. Disables your Smiting Prayers (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -926,7 +926,7 @@ VALUES
   ),
   (
     'Healing Hands',
-    '',
+    'https://wiki.guildwars.com/images/8/8c/Healing_Hands_%28large%29.jpg',
     'Elite Enchantment Spell. (10 seconds.) Heals for {{HealthGain}} whenever target takes damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -946,7 +946,7 @@ VALUES
   ),
   (
     'Healing Light',
-    '',
+    'https://wiki.guildwars.com/images/7/72/Healing_Light_%28large%29.jpg',
     'Elite Spell. Heals for {{Healing}}. You gain {{EnergyGain}} Energy if target ally is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -966,7 +966,7 @@ VALUES
   ),
   (
     'Healing Ribbon',
-    '',
+    'https://wiki.guildwars.com/images/c/cc/Healing_Ribbon_%28large%29.jpg',
     'Spell. Heals for {{Healing}}. Heals two additional allies near target ally for {{AdditionalHealing}}. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -986,7 +986,7 @@ VALUES
   ),
   (
     'Healing Ring',
-    '',
+    'https://wiki.guildwars.com/images/8/81/Healing_Ring_%28large%29.jpg',
     'Spell. Heals adjacent allies and foes for {{Healing}}. The caster is not healed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1006,7 +1006,7 @@ VALUES
   ),
   (
     'Healing Seed',
-    '',
+    'https://wiki.guildwars.com/images/e/ec/Healing_Seed_%28large%29.jpg',
     'Enchantment Spell. (10 seconds.) Target and adjacent allies gain {{HealthGain}} Health whenever this ally takes damage. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1026,7 +1026,7 @@ VALUES
   ),
   (
     'Healing Touch',
-    '',
+    'https://wiki.guildwars.com/images/c/c3/Healing_Touch_%28large%29.jpg',
     'Touch Spell. Heals for {{Healing}}. Double Health gain from Divine Favor for this spell.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1046,7 +1046,7 @@ VALUES
   ),
   (
     'Healing Whisper',
-    '',
+    'https://wiki.guildwars.com/images/f/f7/Healing_Whisper_%28large%29.jpg',
     'Half Range Spell. Heals for {{Healing}}. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1066,7 +1066,7 @@ VALUES
   ),
   (
     'Heaven''s Delight',
-    '',
+    'https://wiki.guildwars.com/images/6/64/Heaven%27s_Delight_%28large%29.jpg',
     'Spell. Heals you and party members within earshot for {{Healing}} points.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1086,7 +1086,7 @@ VALUES
   ),
   (
     'Holy Haste',
-    '',
+    'https://wiki.guildwars.com/images/5/5b/Holy_Haste_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} second[s].) Your Healing Prayers spells cast 50% faster. Ends if you cast an enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1106,7 +1106,7 @@ VALUES
   ),
   (
     'Holy Strike',
-    '',
+    'https://wiki.guildwars.com/images/5/58/Holy_Strike_%28large%29.jpg',
     'Touch Skill. Deals {{HolyDamage}} holy damage. Deals {{PlusHolyDamage}} more holy damage if target is knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1126,7 +1126,7 @@ VALUES
   ),
   (
     'Holy Veil',
-    '',
+    'https://wiki.guildwars.com/images/f/f1/Holy_Veil_%28large%29.jpg',
     'Enchantment Spell. Doubles casting time of hexes cast on target ally. End effect: removes a hex.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1146,7 +1146,7 @@ VALUES
   ),
   (
     'Holy Wrath',
-    '',
+    'https://wiki.guildwars.com/images/b/b3/Holy_Wrath_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds). Deals 66% of each attack''s damage (maximum {{MaximumDamage}}) back to source. Ends after dealing damage {{NumberOfAttacks}} time[s]. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1166,7 +1166,7 @@ VALUES
   ),
   (
     'Infuse Health',
-    '',
+    'https://wiki.guildwars.com/images/6/6e/Infuse_Health_%28large%29.jpg',
     'Spell. Heals for {{PercentHealing}}% of half your current Health. Lose half your current Health. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1186,7 +1186,7 @@ VALUES
   ),
   (
     'Jamei''s Gaze',
-    '',
+    'https://wiki.guildwars.com/images/1/16/Jamei%27s_Gaze_%28large%29.jpg',
     'Spell. Heals for {{Healing}}. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1206,7 +1206,7 @@ VALUES
   ),
   (
     'Judge''s Insight',
-    '',
+    'https://wiki.guildwars.com/images/5/5d/Judge%27s_Insight_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Converts target ally''s attacks to holy damage and adds +20% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1226,7 +1226,7 @@ VALUES
   ),
   (
     'Judge''s Intervention',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Judge%27s_Intervention_%28large%29.jpg',
     'Enchantment Spell. (10 seconds.) Negates the next fatal damage. Negation effect: deals {{HolyDamage}} holy damage to one foe near target ally.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1266,7 +1266,7 @@ VALUES
   ),
   (
     'Karei''s Healing Circle',
-    '',
+    'https://wiki.guildwars.com/images/7/74/Karei%27s_Healing_Circle_%28large%29.jpg',
     'Spell. Heals you for {{Healing}}. Also heals adjacent creatures.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1286,7 +1286,7 @@ VALUES
   ),
   (
     'Kirin''s Wrath',
-    '',
+    'https://wiki.guildwars.com/images/5/57/Kirin%27s_Wrath_%28large%29.jpg',
     'Spell. Deals {{HolyDamage}} holy damage each second (5 seconds). Hits foes adjacent to your initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1306,7 +1306,7 @@ VALUES
   ),
   (
     'Life Attunement',
-    '',
+    'https://wiki.guildwars.com/images/5/53/Life_Attunement_%28large%29.jpg',
     'Enchantment Spell. Target ally gains {{Percentage}}% more Health when healed. This ally deals 30% less damage with attacks.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1326,7 +1326,7 @@ VALUES
   ),
   (
     'Life Barrier',
-    '',
+    'https://wiki.guildwars.com/images/3/32/Life_Barrier_%28large%29.jpg',
     'Elite Enchantment Spell. Reduces damage by {{PercentDamageReduction}}%. Cannot self-target. If your Health is below 50% when target takes damage, Life Barrier ends.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1346,7 +1346,7 @@ VALUES
   ),
   (
     'Life Bond',
-    '',
+    'https://wiki.guildwars.com/images/3/3e/Life_Bond_%28large%29.jpg',
     'Enchantment Spell. Half of the damage target ally takes from attacks is redirected to you. Redirected damage is reduced by {{DamageReduction}}. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1366,7 +1366,7 @@ VALUES
   ),
   (
     'Life Sheath',
-    '',
+    'https://wiki.guildwars.com/images/6/69/Life_Sheath_%28large%29.jpg',
     'Elite Enchantment Spell. (8 seconds.) Converts the next incoming damage or life steal (maximum {{MaximumHealing}}) to healing. Initial effect: Removes {{ConditionsRemoved}} condition[s].',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1386,7 +1386,7 @@ VALUES
   ),
   (
     'Light of Deliverance',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Light_of_Deliverance_%28large%29.jpg',
     'Elite Spell. Heals entire party for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1406,7 +1406,7 @@ VALUES
   ),
   (
     'Light of Deliverance (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Light_of_Deliverance_%28large%29.jpg',
     'Elite Spell. Heals entire party for {{Healing}}. Disables your Smiting Prayers (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1426,7 +1426,7 @@ VALUES
   ),
   (
     'Light of Dwayna',
-    '',
+    'https://wiki.guildwars.com/images/d/d1/Light_of_Dwayna_%28large%29.jpg',
     'Spell. Resurrects all dead party members in the area. (25% Health, zero Energy).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1446,7 +1446,7 @@ VALUES
   ),
   (
     'Live Vicariously',
-    '',
+    'https://wiki.guildwars.com/images/3/34/Live_Vicariously_%28large%29.jpg',
     'Enchantment Spell. You gain {{HealthGain}} Health whenever target ally hits a foe.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1466,7 +1466,7 @@ VALUES
   ),
   (
     'Mark of Protection',
-    '',
+    'https://wiki.guildwars.com/images/0/09/Mark_of_Protection_%28large%29.jpg',
     'Elite Enchantment Spell. (10 seconds.) Converts incoming damage to healing (maximum {{MaximumHealing}}). All your Protection Prayers are disabled (5 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1486,7 +1486,7 @@ VALUES
   ),
   (
     'Martyr',
-    '',
+    'https://wiki.guildwars.com/images/0/05/Martyr_%28large%29.jpg',
     'Elite Spell. Transfer all conditions from all allies to you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1506,7 +1506,7 @@ VALUES
   ),
   (
     'Mend Ailment',
-    '',
+    'https://wiki.guildwars.com/images/e/e2/Mend_Ailment_%28large%29.jpg',
     'Spell. Removes a condition. Removal effect: heals for {{Healing}} for each remaining condition.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1526,7 +1526,7 @@ VALUES
   ),
   (
     'Mend Condition',
-    '',
+    'https://wiki.guildwars.com/images/7/78/Mend_Condition_%28large%29.jpg',
     'Spell. Removes one condition. Removal effect: heals for {{Health}}. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1546,7 +1546,7 @@ VALUES
   ),
   (
     'Mending',
-    '',
+    'https://wiki.guildwars.com/images/1/14/Mending_%28large%29.jpg',
     'Enchantment Spell. +{{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1566,7 +1566,7 @@ VALUES
   ),
   (
     'Mending Touch',
-    '',
+    'https://wiki.guildwars.com/images/8/8c/Mending_Touch_%28large%29.jpg',
     'Touch Spell. Removes two conditions. Heals for {{Healing}} for each condition removed.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1586,7 +1586,7 @@ VALUES
   ),
   (
     'Orison of Healing',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Orison_of_Healing_%28large%29.jpg',
     'Spell. Heals for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1606,7 +1606,7 @@ VALUES
   ),
   (
     'Pacifism',
-    '',
+    'https://wiki.guildwars.com/images/0/05/Pacifism_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe cannot attack. Ends if this foe takes damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1626,7 +1626,7 @@ VALUES
   ),
   (
     'Patient Spirit',
-    '',
+    'https://wiki.guildwars.com/images/e/e4/Patient_Spirit_%28large%29.jpg',
     'Enchantment Spell. (2 seconds.) End effect: heals for {{Healing}}. No effect if ends early.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1646,7 +1646,7 @@ VALUES
   ),
   (
     'Peace and Harmony',
-    '',
+    'https://wiki.guildwars.com/images/d/d1/Peace_and_Harmony_%28large%29.jpg',
     'Elite Enchantment Spell. Target ally loses {{OfConditionsAndHexes}} condition[s] and hex[es]. Conditions and hexes expire 90% faster on that ally ({{Duration}} second[s]). Disables your Smiting Prayers (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1666,7 +1666,7 @@ VALUES
   ),
   (
     'Pensive Guardian',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Pensive_Guardian_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) 50% chance to block enchanted foes.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1686,7 +1686,7 @@ VALUES
   ),
   (
     'Protective Bond',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Protective_Bond_%28large%29.jpg',
     'Enchantment Spell. Target ally cannot lose more than 5% max Health from a single attack or spell. Each time damage is reduced you lose {{EnergyLoss}} Energy or this spell ends.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1706,7 +1706,7 @@ VALUES
   ),
   (
     'Protective Spirit',
-    '',
+    'https://wiki.guildwars.com/images/9/99/Protective_Spirit_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Incoming damage is reduced to 10% of target ally''s maximum Health.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1726,7 +1726,7 @@ VALUES
   ),
   (
     'Purge Conditions',
-    '',
+    'https://wiki.guildwars.com/images/8/83/Purge_Conditions_%28large%29.jpg',
     'Spell. Removes all conditions.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1746,7 +1746,7 @@ VALUES
   ),
   (
     'Purge Signet',
-    '',
+    'https://wiki.guildwars.com/images/c/c2/Purge_Signet_%28large%29.jpg',
     'Signet. Removes all hexes and conditions. Removal cost: 10 Energy each.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1766,7 +1766,7 @@ VALUES
   ),
   (
     'Purifying Veil',
-    '',
+    'https://wiki.guildwars.com/images/d/dd/Purifying_Veil_%28large%29.jpg',
     'Enchantment Spell. Conditions expire {{FasterConditionExpirationPercent}}% faster on target ally. End effect: removes a condition.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1786,7 +1786,7 @@ VALUES
   ),
   (
     'Ray of Judgment',
-    '',
+    'https://wiki.guildwars.com/images/a/a7/Ray_of_Judgment_%28large%29.jpg',
     'Elite Spell. Deals {{HolyDamage}} holy damage and inflicts Burning ({{BurningDuration}} second[s]) every second (5 seconds). Hits foes adjacent to target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1806,7 +1806,7 @@ VALUES
   ),
   (
     'Rebirth',
-    '',
+    'https://wiki.guildwars.com/images/9/9f/Rebirth_%28large%29.jpg',
     'Spell. Resurrects target party member (25% Health, 0 Energy). Teleports target to you. Disables target''s skills ({{DisabledDuration}} seconds). You lose all Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1826,7 +1826,7 @@ VALUES
   ),
   (
     'Release Enchantments',
-    '',
+    'https://wiki.guildwars.com/images/6/66/Release_Enchantments_%28large%29.jpg',
     'Spell. Removes all of your enchantments. Heals all party members for {{Healing}} for each Monk Enchantment removed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1846,7 +1846,7 @@ VALUES
   ),
   (
     'Remove Hex',
-    '',
+    'https://wiki.guildwars.com/images/b/b0/Remove_Hex_%28large%29.jpg',
     'Spell. Removes a hex from target ally.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1866,7 +1866,7 @@ VALUES
   ),
   (
     'Renew Life',
-    '',
+    'https://wiki.guildwars.com/images/4/46/Renew_Life_%28large%29.jpg',
     'Touch Spell. Resurrects target party member (50% Health and {{PercentEnergy}}% Energy). Heals allies within earshot for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1886,7 +1886,7 @@ VALUES
   ),
   (
     'Restful Breeze',
-    '',
+    'https://wiki.guildwars.com/images/0/06/Restful_Breeze_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) +10 Health regeneration. Ends if target ally attacks or uses a skill.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1906,7 +1906,7 @@ VALUES
   ),
   (
     'Restore Condition',
-    '',
+    'https://wiki.guildwars.com/images/9/9d/Restore_Condition_%28large%29.jpg',
     'Elite Spell. Removes all conditions. Removal effect: heals for {{Healing}} for each condition removed. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1926,7 +1926,7 @@ VALUES
   ),
   (
     'Restore Life',
-    '',
+    'https://wiki.guildwars.com/images/8/8d/Restore_Life_%28large%29.jpg',
     'Touch Spell. Resurrects target party member ({{PercentHealth}}% Health, {{PercentEnergy}}% Energy).',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1946,7 +1946,7 @@ VALUES
   ),
   (
     'Resurrect',
-    '',
+    'https://wiki.guildwars.com/images/6/64/Resurrect_%28large%29.jpg',
     'Spell. Resurrects target party member (25% Health, 0 Energy).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1966,7 +1966,7 @@ VALUES
   ),
   (
     'Resurrection Chant',
-    '',
+    'https://wiki.guildwars.com/images/0/01/Resurrection_Chant_%28large%29.jpg',
     'Half Range Spell. Resurrects target party member at your current Health and with {{PercentEnergy}}% Energy.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -1986,7 +1986,7 @@ VALUES
   ),
   (
     'Retribution',
-    '',
+    'https://wiki.guildwars.com/images/f/f0/Retribution_%28large%29.jpg',
     'Enchantment Spell. Deals 33% of each attack''s damage (maximum {{MaximumDamage}}) back to the source.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2006,7 +2006,7 @@ VALUES
   ),
   (
     'Reversal of Damage',
-    '',
+    'https://wiki.guildwars.com/images/7/77/Reversal_of_Damage_%28large%29.jpg',
     'Enchantment Spell. (8 seconds.) Negates the next damage and hits the source for that same amount (maximum {{MaxDamageReturned}}).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2026,7 +2026,7 @@ VALUES
   ),
   (
     'Reversal of Fortune',
-    '',
+    'https://wiki.guildwars.com/images/5/5c/Reversal_of_Fortune_%28large%29.jpg',
     'Enchantment Spell. (8 seconds.) Converts the next incoming damage or life steal (maximum {{MaximumHealing}}) to healing.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2046,7 +2046,7 @@ VALUES
   ),
   (
     'Reverse Hex',
-    '',
+    'https://wiki.guildwars.com/images/2/27/Reverse_Hex_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Removes one hex from target ally. The next damage this ally takes is reduced by {{DamageReduction}}. No effect unless this ally is hexed.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2066,7 +2066,7 @@ VALUES
   ),
   (
     'Scourge Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/5/55/Scourge_Enchantment_%28large%29.jpg',
     'Hex Spell. (30 seconds.) Deals {{Damage}} damage to anyone casting an enchantment on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2086,7 +2086,7 @@ VALUES
   ),
   (
     'Scourge Healing',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Scourge_Healing_%28large%29.jpg',
     'Hex Spell. (30 seconds.) Whenever target foe is healed, the healer takes {{HolyDamage}} holy damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2106,7 +2106,7 @@ VALUES
   ),
   (
     'Scourge Sacrifice',
-    '',
+    'https://wiki.guildwars.com/images/0/08/Scourge_Sacrifice_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). Doubles Health sacrifice.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2126,7 +2126,7 @@ VALUES
   ),
   (
     'Scribe''s Insight',
-    '',
+    'https://wiki.guildwars.com/images/d/d1/Scribe%27s_Insight_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) You gain 3 Energy whenever you use a signet.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2186,7 +2186,7 @@ VALUES
   ),
   (
     'Shield Guardian',
-    '',
+    'https://wiki.guildwars.com/images/f/ff/Shield_Guardian_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} second[s]). Party members in earshot have a 75% chance to block attacks. Block effect: Allies in earshot are healed for {{Healing}}, and Shield Guardian ends.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2206,7 +2206,7 @@ VALUES
   ),
   (
     'Shield of Absorption',
-    '',
+    'https://wiki.guildwars.com/images/3/3f/Shield_of_Absorption_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Reduces incoming damage by 5 each time target ally takes damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2226,7 +2226,7 @@ VALUES
   ),
   (
     'Shield of Deflection',
-    '',
+    'https://wiki.guildwars.com/images/1/1e/Shield_of_Deflection_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) 75% chance to block. +{{PlusArmorRating}} armor.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2246,7 +2246,7 @@ VALUES
   ),
   (
     'Shield of Judgment',
-    '',
+    'https://wiki.guildwars.com/images/9/93/Shield_of_Judgment_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Deals {{HolyDamage}} holy damage to foes attacking [sic] target ally. Causes knock-down.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2266,7 +2266,7 @@ VALUES
   ),
   (
     'Shield of Regeneration',
-    '',
+    'https://wiki.guildwars.com/images/c/c3/Shield_of_Regeneration_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration and +40 armor.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2286,7 +2286,7 @@ VALUES
   ),
   (
     'Shielding Hands',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Shielding_Hands_%28large%29.jpg',
     'Enchantment Spell. (8 seconds.) Reduces incoming damage and life steal by {{DamageReduction}}. End effect: heals for {{Healing}}',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2306,7 +2306,7 @@ VALUES
   ),
   (
     'Signet of Devotion',
-    '',
+    'https://wiki.guildwars.com/images/c/c0/Signet_of_Devotion_%28large%29.jpg',
     'Signet. Heals for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2326,7 +2326,7 @@ VALUES
   ),
   (
     'Signet of Judgment',
-    '',
+    'https://wiki.guildwars.com/images/f/f4/Signet_of_Judgment_%28large%29.jpg',
     'Elite Signet. Knocks down target. Deals {{HolyDamage}} holy damage to target and adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2346,7 +2346,7 @@ VALUES
   ),
   (
     'Signet of Judgment (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/f/f4/Signet_of_Judgment_%28large%29.jpg',
     'Elite Half Range Signet. Knocks down target. Deals {{HolyDamage}} holy damage to target and adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2366,7 +2366,7 @@ VALUES
   ),
   (
     'Signet of Mystic Wrath',
-    '',
+    'https://wiki.guildwars.com/images/f/fe/Signet_of_Mystic_Wrath_%28large%29.jpg',
     'Signet. Deals {{HolyDamagePerEnchantment}} holy damage for each enchantment on you (maximum 100 holy damage).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2386,7 +2386,7 @@ VALUES
   ),
   (
     'Signet of Rage',
-    '',
+    'https://wiki.guildwars.com/images/1/1a/Signet_of_Rage_%28large%29.jpg',
     'Signet. Deals {{HolyDamage}} holy damage. Deals {{PlusHolyDamage}} more holy damage for each of target foe''s adrenaline skills.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2406,7 +2406,7 @@ VALUES
   ),
   (
     'Signet of Rejuvenation',
-    '',
+    'https://wiki.guildwars.com/images/b/bf/Signet_of_Rejuvenation_%28large%29.jpg',
     'Signet. Heals for {{Healing}}. Heals for {{AdditionalHealing}} more if target ally is casting a spell or attacking.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2426,7 +2426,7 @@ VALUES
   ),
   (
     'Signet of Removal',
-    '',
+    'https://wiki.guildwars.com/images/c/c0/Signet_of_Removal_%28large%29.jpg',
     'Elite Signet. Removes one hex and one condition. No effect unless target ally is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2446,7 +2446,7 @@ VALUES
   ),
   (
     'Smite',
-    '',
+    'https://wiki.guildwars.com/images/1/1d/Smite_%28large%29.jpg',
     'Spell. Deals {{HolyDamage}} holy damage. Deals {{PlusHolyDamage}} more holy damage if target is attacking.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2466,7 +2466,7 @@ VALUES
   ),
   (
     'Smite Condition',
-    '',
+    'https://wiki.guildwars.com/images/3/30/Smite_Condition_%28large%29.jpg',
     'Spell. Removes a condition. Removal effect: deals {{HolyDamage}} holy damage to foes in the area of target ally.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2486,7 +2486,7 @@ VALUES
   ),
   (
     'Smite Hex',
-    '',
+    'https://wiki.guildwars.com/images/8/83/Smite_Hex_%28large%29.jpg',
     'Spell. Removes a hex from target ally. Removal effect: deals {{HolyDamage}} holy damage to foes in the area of target ally.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2506,7 +2506,7 @@ VALUES
   ),
   (
     'Smiter''s Boon',
-    '',
+    'https://wiki.guildwars.com/images/c/c9/Smiter%27s_Boon_%28large%29.jpg',
     'Enchantment Spell. (30 seconds.) Your Smiting Prayers have double Divine Favor healing bonus.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2526,7 +2526,7 @@ VALUES
   ),
   (
     'Smiter''s Boon (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/c9/Smiter%27s_Boon_%28large%29.jpg',
     'Enchantment Spell. (5 seconds.) Your Smiting Prayers have double Divine Favor healing bonus.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2546,7 +2546,7 @@ VALUES
   ),
   (
     'Spear of Light',
-    '',
+    'https://wiki.guildwars.com/images/9/91/Spear_of_Light_%28large%29.jpg',
     'Spell. Projectile: deals {{HolyDamage}} holy damage. Deals {{PlusHolyDamage}} more damage if target foe is attacking.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2566,7 +2566,7 @@ VALUES
   ),
   (
     'Spell Breaker',
-    '',
+    'https://wiki.guildwars.com/images/0/0a/Spell_Breaker_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Target ally cannot be the target of enemy spells.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2586,7 +2586,7 @@ VALUES
   ),
   (
     'Spell Shield',
-    '',
+    'https://wiki.guildwars.com/images/3/39/Spell_Shield_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) While casting spells, you cannot be the target of spells. End effect: your skills are disabled ({{DisabledDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2606,7 +2606,7 @@ VALUES
   ),
   (
     'Spirit Bond',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Spirit_Bond_%28large%29.jpg',
     'Enchantment Spell. (8 seconds.) Heals for {{Healing}} whenever target ally takes more than 50 damage. Ends after this ally takes damage from 10 attacks or spells.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2626,7 +2626,7 @@ VALUES
   ),
   (
     'Spirit Bond (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Spirit_Bond_%28large%29.jpg',
     'Enchantment Spell. (8 seconds.) Heals for {{Healing}} whenever target ally takes more than 50 damage. Ends after this ally takes damage from 10 attacks or spells.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2646,7 +2646,7 @@ VALUES
   ),
   (
     'Spotless Mind',
-    '',
+    'https://wiki.guildwars.com/images/d/d0/Spotless_Mind_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Removes a hex every 5 seconds. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2666,7 +2666,7 @@ VALUES
   ),
   (
     'Spotless Soul',
-    '',
+    'https://wiki.guildwars.com/images/c/c8/Spotless_Soul_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Removes a condition every 3 seconds. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2686,7 +2686,7 @@ VALUES
   ),
   (
     'Stonesoul Strike',
-    '',
+    'https://wiki.guildwars.com/images/0/05/Stonesoul_Strike_%28large%29.jpg',
     'Touch Skill. Deals {{HolyDamage}} holy damage. Deals {{PlusHolyDamage}} more holy damage if target is knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2706,7 +2706,7 @@ VALUES
   ),
   (
     'Strength of Honor',
-    '',
+    'https://wiki.guildwars.com/images/c/c2/Strength_of_Honor_%28large%29.jpg',
     'Enchantment Spell. Target ally deals {{ArmorMinusIgnoringDamage}} more damage in melee.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2726,7 +2726,7 @@ VALUES
   ),
   (
     'Strength of Honor (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/c2/Strength_of_Honor_%28large%29.jpg',
     'Enchantment Spell. Target ally deals {{ArmorMinusIgnoringDamage}} more damage in melee.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2746,7 +2746,7 @@ VALUES
   ),
   (
     'Succor',
-    '',
+    'https://wiki.guildwars.com/images/b/b3/Succor_%28large%29.jpg',
     'Enchantment Spell. +1 Health regeneration and +1 Energy regeneration. Cannot self-target. You lose 1 Energy each time target ally casts a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2766,7 +2766,7 @@ VALUES
   ),
   (
     'Supportive Spirit',
-    '',
+    'https://wiki.guildwars.com/images/b/b1/Supportive_Spirit_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Heals for {{Healing}} whenever target ally takes damage while knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2786,7 +2786,7 @@ VALUES
   ),
   (
     'Symbol of Wrath',
-    '',
+    'https://wiki.guildwars.com/images/2/2b/Symbol_of_Wrath_%28large%29.jpg',
     'Spell. Deals {{HolyDamage}} holy damage each second (5 seconds). Hits foes adjacent to your initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2806,7 +2806,7 @@ VALUES
   ),
   (
     'Unyielding Aura',
-    '',
+    'https://wiki.guildwars.com/images/e/e7/Unyielding_Aura_%28large%29.jpg',
     'Elite Enchantment Spell. Your Monk spells heal for +{{PercentExtraHealing}}%. End effect: a random other party member is resurrected with full Health and Energy and teleported to your location.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2826,7 +2826,7 @@ VALUES
   ),
   (
     'Unyielding Aura (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/e/e7/Unyielding_Aura_%28large%29.jpg',
     'Elite Enchantment Spell. Resurrects target party member (full Health, full Energy). End effect: this ally dies and leaves an exploited corpse. Does not incur a death penalty. 50% failure chance unless Divine Favor 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2846,7 +2846,7 @@ VALUES
   ),
   (
     'Vengeance',
-    '',
+    'https://wiki.guildwars.com/images/c/c1/Vengeance_%28large%29.jpg',
     'Enchantment Spell. (30 seconds.) Resurrects target party member (full Health, full Energy). This ally deals 25% more damage and does not incur death penalty. End effect: this ally dies.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2866,7 +2866,7 @@ VALUES
   ),
   (
     'Vigorous Spirit',
-    '',
+    'https://wiki.guildwars.com/images/1/15/Vigorous_Spirit_%28large%29.jpg',
     'Enchantment Spell. (30 seconds.) Heals for {{Healing}} each time target ally attacks or casts a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2886,7 +2886,7 @@ VALUES
   ),
   (
     'Vital Blessing',
-    '',
+    'https://wiki.guildwars.com/images/d/df/Vital_Blessing_%28large%29.jpg',
     'Enchantment Spell. +{{PlusMaximumHealth}} maximum Health.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2906,7 +2906,7 @@ VALUES
   ),
   (
     'Watchful Healing',
-    '',
+    'https://wiki.guildwars.com/images/3/3b/Watchful_Healing_%28large%29.jpg',
     'Enchantment Spell. (10 seconds.) Target ally has +{{HealthRegeneration}} Health regeneration and gains {{HealthGain}} Health if this enchantment ends early.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2926,7 +2926,7 @@ VALUES
   ),
   (
     'Watchful Spirit',
-    '',
+    'https://wiki.guildwars.com/images/9/99/Watchful_Spirit_%28large%29.jpg',
     'Enchantment Spell. +2 Health regeneration. End effect: heals for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2946,7 +2946,7 @@ VALUES
   ),
   (
     'Withdraw Hexes',
-    '',
+    'https://wiki.guildwars.com/images/f/f1/Withdraw_Hexes_%28large%29.jpg',
     'Elite Spell. Removes all hexes. Also affects adjacent allies. Removal cost: +{{AdditionalRechargeDuration}} seconds recharge for each hex removed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2966,7 +2966,7 @@ VALUES
   ),
   (
     'Word of Censure',
-    '',
+    'https://wiki.guildwars.com/images/7/76/Word_of_Censure_%28large%29.jpg',
     'Elite Spell. Deals {{HolyDamage}} holy damage. +20 recharge time if target foe is below 33% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -2986,7 +2986,7 @@ VALUES
   ),
   (
     'Word of Healing',
-    '',
+    'https://wiki.guildwars.com/images/0/07/Word_of_Healing_%28large%29.jpg',
     'Elite Spell. Heals for {{Healing}}. Heals for {{AdditionalHealing}} more if target ally is below 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -3006,7 +3006,7 @@ VALUES
   ),
   (
     'Words of Comfort',
-    '',
+    'https://wiki.guildwars.com/images/a/ab/Words_of_Comfort_%28large%29.jpg',
     'Spell. Heals for {{Healing}}. Heals for {{PlusHealing}} more if target ally has a condition.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -3026,7 +3026,7 @@ VALUES
   ),
   (
     'Zealot''s Fire',
-    '',
+    'https://wiki.guildwars.com/images/4/4f/Zealot%27s_Fire_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) Whenever you use a skill on an ally, all foes adjacent to that ally are hit for {{FireDamage}} fire damage. Damage cost: you lose 1 Energy.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),
@@ -3046,7 +3046,7 @@ VALUES
   ),
   (
     'Zealous Benediction',
-    '',
+    'https://wiki.guildwars.com/images/8/81/Zealous_Benediction_%28large%29.jpg',
     'Elite Spell. Heals for {{Healing}}. You gain 7 Energy if target ally was below 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monk'),

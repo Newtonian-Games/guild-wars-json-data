@@ -1,6 +1,6 @@
 -- Seed dervish skills
 -- Auto-generated from data/skills/dervish.json
--- Generated: 2025-11-17T05:10:24.799Z
+-- Generated: 2025-11-17T07:36:05.751Z
 -- Total skills: 105
 
 INSERT INTO skills (
@@ -26,7 +26,7 @@ INSERT INTO skills (
 VALUES
   (
     'Arcane Zeal',
-    '',
+    'https://wiki.guildwars.com/images/5/55/Arcane_Zeal_%28large%29.jpg',
     'Elite Enchantment Spell. (10 seconds.) You gain 1 Energy (maximum {{MaximumEnergyGain}}) for each enchantment on you whenever you cast a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -46,7 +46,7 @@ VALUES
   ),
   (
     'Armor of Sanctity',
-    '',
+    'https://wiki.guildwars.com/images/7/74/Armor_of_Sanctity_%28large%29.jpg',
     'Enchantment Spell. Inflicts Weakness condition on all adjacent foes ({{WeaknessDuration}}). You take {{DamageReduction}} less damage from foes with a condition. (15 seconds.)',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -66,7 +66,7 @@ VALUES
   ),
   (
     'Attacker''s Insight',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Attacker%27s_Insight_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) Gives 50% block chance while attacking. End Effect: Causes Weakness {{WeaknessDuration}} seconds to adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -86,7 +86,7 @@ VALUES
   ),
   (
     'Aura Slicer',
-    '',
+    'https://wiki.guildwars.com/images/d/de/Aura_Slicer_%28large%29.jpg',
     'Melee Attack. ({{BleedingDuration}} seconds.)Inflicts [sic] Bleeding condition. Also inflicts Cracked Armor ({{CrackedArmorDuration}} second[s]) if you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -126,7 +126,7 @@ VALUES
   ),
   (
     'Aura of Thorns',
-    '',
+    'https://wiki.guildwars.com/images/c/c4/Aura_of_Thorns_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition ({{BleedingDuration}} seconds) on nearby foes. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds) on nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -146,7 +146,7 @@ VALUES
   ),
   (
     'Aura of Thorns (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/c4/Aura_of_Thorns_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Initial effect: inflicts Bleeding condition ({{BleedingDuration}} seconds) on nearby foes. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds) on nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -166,7 +166,7 @@ VALUES
   ),
   (
     'Avatar of Balthazar',
-    '',
+    'https://wiki.guildwars.com/images/a/af/Avatar_of_Balthazar_%28large%29.jpg',
     'Elite Form. ({{Duration}} seconds.) You gain +20 armor against physical damage, you gain adrenaline 25% faster, your attacks deal holy damage, you inflict Burning ({{BurningDuration}} second[s]) on nearby foes whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -186,7 +186,7 @@ VALUES
   ),
   (
     'Avatar of Dwayna',
-    '',
+    'https://wiki.guildwars.com/images/d/d6/Avatar_of_Dwayna_%28large%29.jpg',
     'Elite Form. ({{Duration}} seconds.) You deal holy damage. Whenever you use a Dervish attack skill, you lose 1 hex. Heal allies in earshot for {{Healing}} Health when you lose a Dervish enchantment. This skill is disabled for 45 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -206,7 +206,7 @@ VALUES
   ),
   (
     'Avatar of Dwayna (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/d/d6/Avatar_of_Dwayna_%28large%29.jpg',
     'Elite Form. ({{Duration}} seconds.) Deal holy damage. You lose 1 hex whenever you use a Dervish attack skill. Heal yourself for {{Healing}} Health whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -226,7 +226,7 @@ VALUES
   ),
   (
     'Avatar of Grenth',
-    '',
+    'https://wiki.guildwars.com/images/c/cf/Avatar_of_Grenth_%28large%29.jpg',
     'Elite Form. ({{Duration}} seconds.) Your scythe attacks deal dark damage and steal {{LifeStealing}} Health. You are immune to Disease. Apply Disease to all adjacent foes (3 seconds) when you lose a Dervish enchantment. This skill is disabled for 45 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -246,7 +246,7 @@ VALUES
   ),
   (
     'Avatar of Lyssa',
-    '',
+    'https://wiki.guildwars.com/images/2/2a/Avatar_of_Lyssa_%28large%29.jpg',
     'Elite Form. ({{Duration}} seconds.) Your Dervish enchantments recharge 50% faster and deal chaos damage with attacks. Steal 1 Energy from nearby foes when you lose a Dervish enchantment. This skill is disabled for 45 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -266,7 +266,7 @@ VALUES
   ),
   (
     'Avatar of Melandru',
-    '',
+    'https://wiki.guildwars.com/images/a/a5/Avatar_of_Melandru_%28large%29.jpg',
     'Elite Form. ({{Duration}} seconds.) You have +150 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 1 condition from all party members in earshot whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -286,7 +286,7 @@ VALUES
   ),
   (
     'Avatar of Melandru (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/a/a5/Avatar_of_Melandru_%28large%29.jpg',
     'Elite Form. ({{Duration}} seconds.) You have +100 maximum Health, +30 elemental armor, and your attacks deal earth damage. Cure 2 conditions from yourself whenever you lose a Dervish enchantment. This skill is disabled for 45 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -306,7 +306,7 @@ VALUES
   ),
   (
     'Balthazar''s Rage',
-    '',
+    'https://wiki.guildwars.com/images/5/5c/Balthazar%27s_Rage_%28large%29.jpg',
     'Flash Enchantment Spell. (20 seconds.) Initial Effect: Inflicts burning ({{BurningDuration}} second[s]) on nearby foes. End effect: gain {{AdrenalineGain}} strike[s] of adrenaline if any foes are within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -326,7 +326,7 @@ VALUES
   ),
   (
     'Banishing Strike',
-    '',
+    'https://wiki.guildwars.com/images/1/1d/Banishing_Strike_%28large%29.jpg',
     'Melee Attack. Deals {{HolyDamage}} holy damage. Deals double damage to summoned creatures.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -346,7 +346,7 @@ VALUES
   ),
   (
     'Banishing Strike (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/1/1d/Banishing_Strike_%28large%29.jpg',
     'Melee Attack. Deals {{HolyDamage}} holy damage. Deals double damage to summoned creatures.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -366,7 +366,7 @@ VALUES
   ),
   (
     'Chilling Victory',
-    '',
+    'https://wiki.guildwars.com/images/1/10/Chilling_Victory_%28large%29.jpg',
     'Scythe Attack. Deals +{{PlusDamage}} damage. Deals {{ColdDamage}} cold damage to each foe hit who has less Health than you and foes adjacent to those targets.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -386,7 +386,7 @@ VALUES
   ),
   (
     'Conviction',
-    '',
+    'https://wiki.guildwars.com/images/1/12/Conviction_%28large%29.jpg',
     'Flash Enchantment Spell. (10 seconds.) Gain +10 armor while conditioned. Gain {{HealthRegeneration}} Health regeneration for each condition you have. End Effect: Remove {{ConditionsRemoved}} condition[s].',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -406,7 +406,7 @@ VALUES
   ),
   (
     'Crippling Sweep',
-    '',
+    'https://wiki.guildwars.com/images/d/d2/Crippling_Sweep_%28large%29.jpg',
     'Scythe Attack. ({{CrippledDuration}} seconds.) Inflicts Cripple [sic] condition. Deals +{{PlusDamage}} damage to moving foes.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -426,7 +426,7 @@ VALUES
   ),
   (
     'Crippling Victory',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Crippling_Victory_%28large%29.jpg',
     'Scythe Attack. ({{CrippledDuration}} seconds) Cripples target foe. If your health is greater than target foe''s, all adjacent foes take {{EarthDamage}} earth damage.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -446,7 +446,7 @@ VALUES
   ),
   (
     'Dust Cloak',
-    '',
+    'https://wiki.guildwars.com/images/0/03/Dust_Cloak_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to adjacent foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -466,7 +466,7 @@ VALUES
   ),
   (
     'Dust Cloak (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/0/03/Dust_Cloak_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to adjacent foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -486,7 +486,7 @@ VALUES
   ),
   (
     'Dwayna''s Touch',
-    '',
+    'https://wiki.guildwars.com/images/5/54/Dwayna%27s_Touch_%28large%29.jpg',
     'Touch Spell. Heals for {{Healing}} (maximum 150) for each enchantment on you.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -506,7 +506,7 @@ VALUES
   ),
   (
     'Ebon Dust Aura',
-    '',
+    'https://wiki.guildwars.com/images/b/b5/Ebon_Dust_Aura_%28large%29.jpg',
     'Elite Flash Enchantment Spell. (30 seconds.) Deal +{{PlusEarthDamage}} earth damage with your melee attacks. Initial Effect: Blinds nearby foes for {{BlindDuration}} second[s]. End Effect: removes Blindness. No effect unless wielding an earth weapon.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -526,7 +526,7 @@ VALUES
   ),
   (
     'Enchanted Haste',
-    '',
+    'https://wiki.guildwars.com/images/0/00/Enchanted_Haste_%28large%29.jpg',
     'Flash Enchantment Spell. (7 seconds). You move 25% faster. Lose 1 condition if this enchantment ends prematurely.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -546,7 +546,7 @@ VALUES
   ),
   (
     'Eremite''s Attack',
-    '',
+    'https://wiki.guildwars.com/images/0/0f/Eremite%27s_Attack_%28large%29.jpg',
     'Scythe Attack. Deals +{{PlusDamage}} damage and removes a Dervish enchantment. Removal Effect: Deals +{{PlusDamage}} damage and strikes all adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -566,7 +566,7 @@ VALUES
   ),
   (
     'Eremite''s Zeal',
-    '',
+    'https://wiki.guildwars.com/images/f/f5/Eremite%27s_Zeal_%28large%29.jpg',
     'Enchantment Spell. (10 seconds.) Initial effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot. End effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -606,7 +606,7 @@ VALUES
   ),
   (
     'Extend Enchantments',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Extend_Enchantments_%28large%29.jpg',
     'Skill. (10 seconds.) Your next Dervish enchantment lasts {{PlusEnchantmentPercentDuration}}% longer.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -626,7 +626,7 @@ VALUES
   ),
   (
     'Faithful Intervention',
-    '',
+    'https://wiki.guildwars.com/images/7/74/Faithful_Intervention_%28large%29.jpg',
     'Enchantment Spell. You gain {{Healing}} Health the next time damage drops your Health below 50%.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -646,7 +646,7 @@ VALUES
   ),
   (
     'Farmer''s Scythe',
-    '',
+    'https://wiki.guildwars.com/images/c/c1/Farmer%27s_Scythe_%28large%29.jpg',
     'Scythe Attack. Deals +{{PlusDamage}} damage. Instant recharge if you hit more than one foe.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -666,7 +666,7 @@ VALUES
   ),
   (
     'Featherfoot Grace',
-    '',
+    'https://wiki.guildwars.com/images/1/15/Featherfoot_Grace_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You move 25% faster, and conditions expire 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -686,7 +686,7 @@ VALUES
   ),
   (
     'Fleeting Stability',
-    '',
+    'https://wiki.guildwars.com/images/b/b9/Fleeting_Stability_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) You cannot be knocked down and move 25% faster. Ends if knockdown prevented.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -706,7 +706,7 @@ VALUES
   ),
   (
     'Grenth''s Aura',
-    '',
+    'https://wiki.guildwars.com/images/f/fb/Grenth%27s_Aura_%28large%29.jpg',
     'Flash Enchantment Spell. (20 seconds.) You deal {{LessDamage}} less damage and steal {{LifeStealing}} Health when you hit with a scythe. Initial effect: steal {{InitialLifeStealing}} Health from all adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -726,7 +726,7 @@ VALUES
   ),
   (
     'Grenth''s Fingers',
-    '',
+    'https://wiki.guildwars.com/images/c/ca/Grenth%27s_Fingers_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Your attacks deal cold damage. Initial effect: hits nearby foes for {{ColdDamage}} cold damage. End effect: transfers {{ConditionsTransferred}} condition[s] to all nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -746,7 +746,7 @@ VALUES
   ),
   (
     'Grenth''s Grasp',
-    '',
+    'https://wiki.guildwars.com/images/3/3e/Grenth%27s_Grasp_%28large%29.jpg',
     'Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled condition ({{CrippledDuration}} second[s]) with your attack skills and transfer 1 condition. No effect unless wielding a cold weapon.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -766,7 +766,7 @@ VALUES
   ),
   (
     'Guiding Hands',
-    '',
+    'https://wiki.guildwars.com/images/6/68/Guiding_Hands_%28large%29.jpg',
     'Enchantment Spell. (20 seconds.) Your next {{Attacks}} attack[s] cannot be blocked. Initial effect: removes Blindness.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -786,7 +786,7 @@ VALUES
   ),
   (
     'Guiding Hands (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/6/68/Guiding_Hands_%28large%29.jpg',
     'Enchantment Spell. (20 seconds.) Your next {{Attacks}} attack[s] cannot be blocked. Initial effect: removes Blindness.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -806,7 +806,7 @@ VALUES
   ),
   (
     'Harrier''s Grasp',
-    '',
+    'https://wiki.guildwars.com/images/5/55/Harrier%27s_Grasp_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) Attacks on moving foes also Cripple them. [sic] Ends after you apply Cripple {{MaximumCrippleApplications}} times. [sic] Initial Effect: you lose Cripple and 1 other condition.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -826,7 +826,7 @@ VALUES
   ),
   (
     'Harrier''s Haste',
-    '',
+    'https://wiki.guildwars.com/images/4/46/Harrier%27s_Haste_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) You move 25% faster and deal +{{PlusDamage}} damage to moving foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -846,7 +846,7 @@ VALUES
   ),
   (
     'Heart of Fury',
-    '',
+    'https://wiki.guildwars.com/images/e/e6/Heart_of_Fury_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You attack 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -866,7 +866,7 @@ VALUES
   ),
   (
     'Heart of Fury (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/e/e6/Heart_of_Fury_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You attack 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -886,7 +886,7 @@ VALUES
   ),
   (
     'Heart of Holy Flame',
-    '',
+    'https://wiki.guildwars.com/images/c/ce/Heart_of_Holy_Flame_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Your attacks deal holy damage. Initial effect: deals {{HolyDamage}} holy damage to nearby foes. End effect: inflicts Burning condition ({{BurningDuration}} seconds) on nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -906,7 +906,7 @@ VALUES
   ),
   (
     'Imbue Health',
-    '',
+    'https://wiki.guildwars.com/images/9/96/Imbue_Health_%28large%29.jpg',
     'Spell. Heals for {{PercentHealing}}% of your current Health (maximum 300). Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -926,7 +926,7 @@ VALUES
   ),
   (
     'Intimidating Aura',
-    '',
+    'https://wiki.guildwars.com/images/9/93/Intimidating_Aura_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) You have +{{PlusMaximumHealth}} max Health and take -{{DamageReduction}} damage from foes with less Health than you.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -946,7 +946,7 @@ VALUES
   ),
   (
     'Irresistible Sweep',
-    '',
+    'https://wiki.guildwars.com/images/8/84/Irresistible_Sweep_%28large%29.jpg',
     'Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +{{PlusDamage}} additional damage.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -966,7 +966,7 @@ VALUES
   ),
   (
     'Irresistible Sweep (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/8/84/Irresistible_Sweep_%28large%29.jpg',
     'Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -986,7 +986,7 @@ VALUES
   ),
   (
     'Lyssa''s Assault',
-    '',
+    'https://wiki.guildwars.com/images/5/53/Lyssa%27s_Assault_%28large%29.jpg',
     'Scythe Attack. Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional {{DisabledDuration}} second[s]. This attack does 50% of normal damage.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1006,7 +1006,7 @@ VALUES
   ),
   (
     'Lyssa''s Haste',
-    '',
+    'https://wiki.guildwars.com/images/f/f3/Lyssa%27s_Haste_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1026,7 +1026,7 @@ VALUES
   ),
   (
     'Lyssa''s Haste (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/f/f3/Lyssa%27s_Haste_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) Your Dervish enchantments recharge 33% faster. Initial Effect: interrupts all adjacent foes. End Effect: interrupts all adjacent foes. 50% failure chance unless Wind Prayers 5 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1046,7 +1046,7 @@ VALUES
   ),
   (
     'Meditation',
-    '',
+    'https://wiki.guildwars.com/images/2/24/Meditation_%28large%29.jpg',
     'Enchantment Spell. (20 seconds.) Lose all adrenaline. Gain {{EnergyGain}} Energy whenever an enchantment on you ends.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1066,7 +1066,7 @@ VALUES
   ),
   (
     'Mirage Cloak',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Mirage_Cloak_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} second[s].) You have {{ChanceToBlock}}% chance to block. Initial Effect: deals {{EarthDamage}} earth damage to nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1086,7 +1086,7 @@ VALUES
   ),
   (
     'Mystic Corruption',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Mystic_Corruption_%28large%29.jpg',
     'Flash Enchantment Spell. (20 seconds.) Initial Effect: all adjacent foes are Diseased ({{DiseaseDuration}} second[s].) Double duration if you are already enchanted. End Effect: party members in earshot lose Disease.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1106,7 +1106,7 @@ VALUES
   ),
   (
     'Mystic Healing',
-    '',
+    'https://wiki.guildwars.com/images/7/71/Mystic_Healing_%28large%29.jpg',
     'Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1126,7 +1126,7 @@ VALUES
   ),
   (
     'Mystic Healing (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/7/71/Mystic_Healing_%28large%29.jpg',
     'Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1146,7 +1146,7 @@ VALUES
   ),
   (
     'Mystic Regeneration',
-    '',
+    'https://wiki.guildwars.com/images/4/43/Mystic_Regeneration_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have +{{HealthRegeneration}} Health regeneration for each enchantment (maximum of 8) on you.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1166,7 +1166,7 @@ VALUES
   ),
   (
     'Mystic Regeneration (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/4/43/Mystic_Regeneration_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have +{{HealthRegeneration}} Health regeneration for each enchantment (maximum of 3) on you.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1186,7 +1186,7 @@ VALUES
   ),
   (
     'Mystic Sandstorm',
-    '',
+    'https://wiki.guildwars.com/images/c/c1/Mystic_Sandstorm_%28large%29.jpg',
     'Spell. (3 seconds.) Deals {{EarthDamage}} earth damage each second. Deals an additional {{EarthDamage}} damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1206,7 +1206,7 @@ VALUES
   ),
   (
     'Mystic Sweep',
-    '',
+    'https://wiki.guildwars.com/images/8/8b/Mystic_Sweep_%28large%29.jpg',
     'Melee Attack. Deals +{{PlusDamage}} damage. Deals an additional +{{PlusDamage}} damage if you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1226,7 +1226,7 @@ VALUES
   ),
   (
     'Mystic Twister',
-    '',
+    'https://wiki.guildwars.com/images/a/ae/Mystic_Twister_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage to all nearby foes. Deals {{ColdDamage}} more cold damage if you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1246,7 +1246,7 @@ VALUES
   ),
   (
     'Mystic Vigor',
-    '',
+    'https://wiki.guildwars.com/images/1/1d/Mystic_Vigor_%28large%29.jpg',
     'Enchantment Spell. (20 seconds.) You gain {{HealthGain}} Health (maximum 25) for each enchantment on you whenever you hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1266,7 +1266,7 @@ VALUES
   ),
   (
     'Natural Healing',
-    '',
+    'https://wiki.guildwars.com/images/4/43/Natural_Healing_%28large%29.jpg',
     'Spell. Heals you for {{Healing}}. This skill activates 50% faster if you are not enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1286,7 +1286,7 @@ VALUES
   ),
   (
     'Onslaught',
-    '',
+    'https://wiki.guildwars.com/images/5/5a/Onslaught_%28large%29.jpg',
     'Elite Flash Enchantment Spell. ({{Duration}} seconds.) You attack, move and gain adrenaline 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1306,7 +1306,7 @@ VALUES
   ),
   (
     'Onslaught (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/5/5a/Onslaught_%28large%29.jpg',
     'Elite Flash Enchantment Spell. ({{Duration}} seconds.) You attack and gain adrenaline 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1326,7 +1326,7 @@ VALUES
   ),
   (
     'Pious Assault',
-    '',
+    'https://wiki.guildwars.com/images/b/b3/Pious_Assault_%28large%29.jpg',
     'Melee Attack. Deals +{{PlusDamage}} damage. Removes 1 of your Dervish enchantments. Removal Effect: this skill recharges 75% faster and adjacent foes take {{AdjacentDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1346,7 +1346,7 @@ VALUES
   ),
   (
     'Pious Assault (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/b/b3/Pious_Assault_%28large%29.jpg',
     'Melee Attack. Removes 1 of your Dervish enchantments. Removal effect: this skill recharges 75% faster and adjacent foes take {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1366,7 +1366,7 @@ VALUES
   ),
   (
     'Pious Concentration',
-    '',
+    'https://wiki.guildwars.com/images/8/85/Pious_Concentration_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Prevents interrupts. Prevention cost: you lose one Dervish enchantment or Pious Concentration ends.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1386,7 +1386,7 @@ VALUES
   ),
   (
     'Pious Fury',
-    '',
+    'https://wiki.guildwars.com/images/7/79/Pious_Fury_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1406,7 +1406,7 @@ VALUES
   ),
   (
     'Pious Fury (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/7/79/Pious_Fury_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].)You [sic] attack 25% faster and remove 1 of your Dervish enchantments. Removal effect: this stance lasts twice as long.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1426,7 +1426,7 @@ VALUES
   ),
   (
     'Pious Haste',
-    '',
+    'https://wiki.guildwars.com/images/a/a8/Pious_Haste_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) Lose 1 Dervish enchantment and move 25% faster. Removal Effect: Run 50% faster instead.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1446,7 +1446,7 @@ VALUES
   ),
   (
     'Pious Renewal',
-    '',
+    'https://wiki.guildwars.com/images/b/ba/Pious_Renewal_%28large%29.jpg',
     'Elite Flash Enchantment Spell. (8 seconds.) End Effect: recharges itself and you gain {{EnergyGain}} Energy and {{HealthGain}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1466,7 +1466,7 @@ VALUES
   ),
   (
     'Pious Restoration',
-    '',
+    'https://wiki.guildwars.com/images/1/13/Pious_Restoration_%28large%29.jpg',
     'Spell. Gain {{HealthGain}} Health and remove 1 Dervish enchantment. Removal effect: lose {{HexesLost}} hex[es].',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1486,7 +1486,7 @@ VALUES
   ),
   (
     'Radiant Scythe',
-    '',
+    'https://wiki.guildwars.com/images/a/a8/Radiant_Scythe_%28large%29.jpg',
     'Scythe Attack. Deals +1 damage (maximum {{MaximumPlusDamage}}) for each point of Energy you have. Gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1506,7 +1506,7 @@ VALUES
   ),
   (
     'Reap Impurities',
-    '',
+    'https://wiki.guildwars.com/images/b/b9/Reap_Impurities_%28large%29.jpg',
     'Melee Attack. Deals +{{PlusDamage}} damage. Struck foes lose 1 condition. Removal Effect: all foes adjacent to those struck take {{HolyDamage}} holy damage.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1526,7 +1526,7 @@ VALUES
   ),
   (
     'Reaper''s Sweep',
-    '',
+    'https://wiki.guildwars.com/images/f/fa/Reaper%27s_Sweep_%28large%29.jpg',
     'Elite Scythe Attack. ({{CrippleDuration}} seconds.) Cause Cripple. Lose 1 Dervish enchantment. Removal Effect: cause knockdown for {{KnockDownDuration}} seconds.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1546,7 +1546,7 @@ VALUES
   ),
   (
     'Rending Aura',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Rending_Aura_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Your attack skills remove enchantments from knocked-down foes. Initial effect: deals {{ColdDamage}} cold damage to all nearby foes. End effect: nearby foes have Cracked Armor for {{CrackedArmorDuration}} second[s].',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1566,7 +1566,7 @@ VALUES
   ),
   (
     'Rending Sweep',
-    '',
+    'https://wiki.guildwars.com/images/7/74/Rending_Sweep_%28large%29.jpg',
     'Scythe Attack. Deals +{{PlusDamage}} damage. You lose 1 Dervish enchantment. Removal effect: struck foes lose an enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1586,7 +1586,7 @@ VALUES
   ),
   (
     'Rending Touch',
-    '',
+    'https://wiki.guildwars.com/images/8/8e/Rending_Touch_%28large%29.jpg',
     'Touch Spell. Deals {{ColdDamage}} cold damage. Lose 1 Dervish enchantment. Removal effect: target foe loses 1 enchantment and you gain 1 strike of adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1606,7 +1606,7 @@ VALUES
   ),
   (
     'Sand Shards',
-    '',
+    'https://wiki.guildwars.com/images/5/5c/Sand_Shards_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Deal {{EarthDamage}} earth damage to all other adjacent foes whenever you hit with your scythe. Ends after {{AttacksAffected}} hit[s].',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1626,7 +1626,7 @@ VALUES
   ),
   (
     'Shield of Force',
-    '',
+    'https://wiki.guildwars.com/images/f/fe/Shield_of_Force_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} second[s].) Blocks the next 1 attack against you. Knocks down and inflicts Weakness ({{WeaknessDuration}} seconds) on all adjacent attacking foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1646,7 +1646,7 @@ VALUES
   ),
   (
     'Signet of Mystic Speed',
-    '',
+    'https://wiki.guildwars.com/images/5/5b/Signet_of_Mystic_Speed_%28large%29.jpg',
     'Signet. (30 seconds.) Your next {{Enchantments}} self-targeted enchantments [sic] cast instantly. Flash enchantments do not consume uses of this skill.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1666,7 +1666,7 @@ VALUES
   ),
   (
     'Signet of Pious Light',
-    '',
+    'https://wiki.guildwars.com/images/7/7f/Signet_of_Pious_Light_%28large%29.jpg',
     'Signet. Heals for {{Healing}}. Removes one of your Dervish enchantments. Removal effect: recharges 75% faster.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1686,7 +1686,7 @@ VALUES
   ),
   (
     'Signet of Pious Restraint',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Signet_of_Pious_Restraint_%28large%29.jpg',
     'Signet. Inflicts Crippled condition ({{CrippledDuration}} seconds). Remove one of your Dervish enchantments. Removal effect: also causes Cripple to foes nearby your target and recharges 75% faster.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1706,7 +1706,7 @@ VALUES
   ),
   (
     'Signet of Pious Restraint (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Signet_of_Pious_Restraint_%28large%29.jpg',
     'Signet. ({{CrippledDuration}} seconds.) Cripples target foe and removes 1 of your Dervish enchantments. Removal effect: recharges 75% faster.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1726,7 +1726,7 @@ VALUES
   ),
   (
     'Staggering Force',
-    '',
+    'https://wiki.guildwars.com/images/e/e7/Staggering_Force_%28large%29.jpg',
     'Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to nearby foes. End effect: inflicts Cracked Armor condition ({{CrackedArmorDuration}} second[s]) on nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1746,7 +1746,7 @@ VALUES
   ),
   (
     'Test of Faith',
-    '',
+    'https://wiki.guildwars.com/images/8/8f/Test_of_Faith_%28large%29.jpg',
     'Touch Spell. Deals {{ColdDamage}} cold damage and removes 1 enchantment. Target foe is Dazed for {{DazedDuration}} second[s] if that foe was not enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1766,7 +1766,7 @@ VALUES
   ),
   (
     'Twin Moon Sweep',
-    '',
+    'https://wiki.guildwars.com/images/2/2a/Twin_Moon_Sweep_%28large%29.jpg',
     'Melee Attack. Remove 1 of your Dervish enchantments. Gain {{HealthGain}} Health. Removal effect: unblockable, attack twice, and gain {{AdditionalHealthGain}} more Health.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1786,7 +1786,7 @@ VALUES
   ),
   (
     'Twin Moon Sweep (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/2/2a/Twin_Moon_Sweep_%28large%29.jpg',
     'Melee Attack. Remove 1 of your Dervish enchantments. Gain {{HealthGain}} Health. Removal effect: Unblockable, attack twice, each strike doing 25% less damage, and gain {{AdditionalHealthGain}} more Health.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1806,7 +1806,7 @@ VALUES
   ),
   (
     'Veil of Thorns',
-    '',
+    'https://wiki.guildwars.com/images/8/8e/Veil_of_Thorns_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) Spell damage is reduced by {{SpellDamageReduction}}%. Initial Effect: nearby foes are struck for {{PiercingDamage}} piercing damage.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1826,7 +1826,7 @@ VALUES
   ),
   (
     'Victorious Sweep',
-    '',
+    'https://wiki.guildwars.com/images/0/09/Victorious_Sweep_%28large%29.jpg',
     'Melee Attack. Deals +{{PlusDamage}} damage. You gain {{HealthGain}} Health for each foe you hit that has less Health than you.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1846,7 +1846,7 @@ VALUES
   ),
   (
     'Vital Boon',
-    '',
+    'https://wiki.guildwars.com/images/5/50/Vital_Boon_%28large%29.jpg',
     'Enchantment Spell. (20 seconds.) You have +{{PlusMaxHealth}} maximum Health. End effect: Heals you for {{HealthGain}}.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1866,7 +1866,7 @@ VALUES
   ),
   (
     'Vow of Piety',
-    '',
+    'https://wiki.guildwars.com/images/2/25/Vow_of_Piety_%28large%29.jpg',
     'Enchantment Spell. (20 seconds) +24 armor and +{{HealthRegeneration}} Health regeneration. Renewal: Whenever an enchantment on you ends.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1906,7 +1906,7 @@ VALUES
   ),
   (
     'Vow of Silence',
-    '',
+    'https://wiki.guildwars.com/images/9/9c/Vow_of_Silence_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Spells cannot target you. You cannot cast spells.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1926,7 +1926,7 @@ VALUES
   ),
   (
     'Vow of Strength',
-    '',
+    'https://wiki.guildwars.com/images/c/c1/Vow_of_Strength_%28large%29.jpg',
     'Elite Enchantment Spell. (15 seconds.) When you attack with a scythe, deals {{SlashingDamage}} slashing damage to adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1946,7 +1946,7 @@ VALUES
   ),
   (
     'Watchful Intervention',
-    '',
+    'https://wiki.guildwars.com/images/4/4e/Watchful_Intervention_%28large%29.jpg',
     'Enchantment Spell. (60 seconds.) Heals for {{Healing}} the next time damage drops target ally''s Health below 25%.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1966,7 +1966,7 @@ VALUES
   ),
   (
     'Wearying Strike',
-    '',
+    'https://wiki.guildwars.com/images/0/01/Wearying_Strike_%28large%29.jpg',
     'Scythe Attack. Remove 1 Dervish Enchantment. Removal Effect: Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). You are Weakened (10 seconds) if an enchantment is not lost.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -1986,7 +1986,7 @@ VALUES
   ),
   (
     'Whirling Charge',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Whirling_Charge_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} second[s].) You move 33% faster. Deal {{ColdDamage}} cold damage to all other nearby foes the next time you hit a foe and this enchantment ends.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -2006,7 +2006,7 @@ VALUES
   ),
   (
     'Winds of Disenchantment',
-    '',
+    'https://wiki.guildwars.com/images/3/3d/Winds_of_Disenchantment_%28large%29.jpg',
     'Spell. Remove one of your Dervish enchantments. Removal effect: all nearby foes lose 1 enchantment and take {{ColdDamage}} cold damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -2026,7 +2026,7 @@ VALUES
   ),
   (
     'Wounding Strike',
-    '',
+    'https://wiki.guildwars.com/images/1/1b/Wounding_Strike_%28large%29.jpg',
     'Elite Scythe Attack. Deals +{{Damage}} damage and inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Remove 1 Dervish enchantment. Removal Effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -2046,7 +2046,7 @@ VALUES
   ),
   (
     'Wounding Strike (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/1/1b/Wounding_Strike_%28large%29.jpg',
     'Elite Scythe Attack. Inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -2066,7 +2066,7 @@ VALUES
   ),
   (
     'Zealous Renewal',
-    '',
+    'https://wiki.guildwars.com/images/a/a0/Zealous_Renewal_%28large%29.jpg',
     'Flash Enchantment Spell. ({{Duration}} seconds.) Initial effect: deals {{HolyDamage}} holy damage to nearby foes. You have -1 Energy regeneration and gain 1 Energy when you hit. Gain {{EnergyGain}} Energy if this enchantment ends early.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -2086,7 +2086,7 @@ VALUES
   ),
   (
     'Zealous Sweep',
-    '',
+    'https://wiki.guildwars.com/images/d/db/Zealous_Sweep_%28large%29.jpg',
     'Scythe Attack. Deals +{{PlusDamage}} damage. You gain 3 Energy and 1 adrenaline for each foe you hit.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Dervish'),
@@ -2106,7 +2106,7 @@ VALUES
   ),
   (
     'Zealous Vow',
-    '',
+    'https://wiki.guildwars.com/images/0/0c/Zealous_Vow_%28large%29.jpg',
     'Elite Enchantment Spell. (20 seconds.) You gain {{EnergyGain}} Energy each time you hit with an attack. You have -3 Energy regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Dervish'),

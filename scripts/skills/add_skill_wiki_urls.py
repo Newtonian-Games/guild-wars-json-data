@@ -116,8 +116,8 @@ def main():
             return 1
         files_to_process.append(file_path)
     elif args.all:
-        # Process all JSON files
-        files_to_process = sorted(data_dir.glob('*.json'))
+        # Process all JSON files (excluding skill-types.json which belongs in data/ not data/skills/)
+        files_to_process = sorted([f for f in data_dir.glob('*.json') if f.name != 'skill-types.json'])
         if not files_to_process:
             print(f"ERROR: No JSON files found in {data_dir}")
             return 1

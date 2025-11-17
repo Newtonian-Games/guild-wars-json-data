@@ -1,6 +1,6 @@
 -- Seed common skills
 -- Auto-generated from data/skills/common.json
--- Generated: 2025-11-17T05:10:24.798Z
+-- Generated: 2025-11-17T07:36:05.749Z
 -- Total skills: 55
 
 INSERT INTO skills (
@@ -27,11 +27,11 @@ VALUES
   (
     'Resurrection Signet',
     '',
-    'Signet. Resurrects target party member ({{HealthPercentage}}% Health, {{EnergyPercentage}}% Energy). This signet only recharges when you gain a morale boost.',
+    'Signet. Resurrects target party member (100% Health, 25% Energy). This signet only recharges when you gain a morale boost.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     NULL,
     NULL,
-    '{"HealthPercentage":{"0":100},"EnergyPercentage":{"0":25}}'::jsonb,
+    '{}'::jsonb,
     NULL,
     NULL,
     NULL,
@@ -87,11 +87,11 @@ VALUES
   (
     'Lightbringer''s Gaze',
     '',
-    'Skill. Target demonic servant of Abaddon takes {{HolyDamage}} holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled ({{DisabledDuration}} seconds).',
+    'Skill. Target demonic servant of Abaddon takes 100 holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled (15 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     NULL,
     (SELECT id FROM attributes WHERE name = 'Lightbringer rank' LIMIT 1),
-    '{"HolyDamage":{"0":100},"DisabledDuration":{"0":15}}'::jsonb,
+    '{}'::jsonb,
     5,
     NULL,
     NULL,

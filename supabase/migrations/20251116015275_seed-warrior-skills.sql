@@ -1,6 +1,6 @@
 -- Seed warrior skills
 -- Auto-generated from data/skills/warrior.json
--- Generated: 2025-11-17T05:10:24.840Z
+-- Generated: 2025-11-17T07:36:05.795Z
 -- Total skills: 150
 
 INSERT INTO skills (
@@ -26,7 +26,7 @@ INSERT INTO skills (
 VALUES
   (
     '"Charge!"',
-    '',
+    'https://wiki.guildwars.com/images/3/3c/%22Charge%21%22_%28large%29.jpg',
     'Elite Shout. ({{Duration}} seconds.) Allies in earshot move 33% faster. Initial effect: these allies lose the Crippled condition.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -46,7 +46,7 @@ VALUES
   ),
   (
     '"Coward!"',
-    '',
+    'https://wiki.guildwars.com/images/9/92/%22Coward%21%22_%28large%29.jpg',
     'Elite Shout. Causes knock-down if target foe is moving.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -66,7 +66,7 @@ VALUES
   ),
   (
     '"Fear Me!"',
-    '',
+    'https://wiki.guildwars.com/images/9/90/Fear_Me%21_%28large%29.jpg',
     'Shout. ({{Duration}} second[s].) You have +{{CriticalPercentChance}}% chance of a critical hit with melee attacks against stationary foes. Initial effect: nearby foes lose {{EnergyLoss}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -86,7 +86,7 @@ VALUES
   ),
   (
     '"For Great Justice!"',
-    '',
+    'https://wiki.guildwars.com/images/b/bc/%22For_Great_Justice%21%22_%28large%29.jpg',
     'Shout. (20 seconds.) You gain 100% more adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -106,7 +106,7 @@ VALUES
   ),
   (
     '"For Great Justice!" (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/b/bc/%22For_Great_Justice%21%22_%28large%29.jpg',
     'Shout. (8 seconds.) You gain 1 extra strike of adrenaline whenever you hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -126,7 +126,7 @@ VALUES
   ),
   (
     '"I Meant to Do That!"',
-    '',
+    'https://wiki.guildwars.com/images/b/bc/%22I_Meant_to_Do_That%21%22_%28large%29.jpg',
     'Shout. You gain {{AdrenalineGain}} strikes of adrenaline if you are knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -146,7 +146,7 @@ VALUES
   ),
   (
     '"I Will Avenge You!"',
-    '',
+    'https://wiki.guildwars.com/images/1/1d/I_Will_Avenge_You%21_%28large%29.jpg',
     'Shout. You have +{{HealthRegeneration}} Health regeneration and attack 25% faster (10 seconds for each dead ally).',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -166,7 +166,7 @@ VALUES
   ),
   (
     '"I Will Survive!"',
-    '',
+    'https://wiki.guildwars.com/images/8/8f/I_Will_Survive%21_%28large%29.jpg',
     'Shout. ({{Duration}} seconds.) You have +3 Health regeneration for each condition on you.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -186,7 +186,7 @@ VALUES
   ),
   (
     '"None Shall Pass!"',
-    '',
+    'https://wiki.guildwars.com/images/3/3c/%22None_Shall_Pass%21%22_%28large%29.jpg',
     'Shout. Knocks down all nearby moving foes. Recharges {{FasterRechargePerFoe}} second[s] faster for each affected foe (maximum 25 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -206,7 +206,7 @@ VALUES
   ),
   (
     '"On Your Knees!"',
-    '',
+    'https://wiki.guildwars.com/images/c/c9/%22On_Your_Knees%21%22_%28large%29.jpg',
     'Shout. Recharges all your stances if you are adjacent to a knocked-down foe. You lose all adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -226,7 +226,7 @@ VALUES
   ),
   (
     '"Retreat!"',
-    '',
+    'https://wiki.guildwars.com/images/6/69/%22Retreat%21%22_%28large%29.jpg',
     'Shout. ({{Duration}} seconds.) Party members in earshot move 33% faster. No effect unless there are dead allies within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -266,7 +266,7 @@ VALUES
   ),
   (
     '"Shields Up!"',
-    '',
+    'https://wiki.guildwars.com/images/1/11/%22Shields_Up%21%22_%28large%29.jpg',
     'Shout. ({{Duration}} seconds.) Party members in earshot have +60 armor against projectile attacks.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -286,7 +286,7 @@ VALUES
   ),
   (
     '"To the Limit!"',
-    '',
+    'https://wiki.guildwars.com/images/d/db/To_the_Limit%21_%28large%29.jpg',
     'Shout. ({{Duration}} seconds.) You have +{{MaxHealth}} maximum Health. Initial effect: you gain one strike of adrenaline for each foe within earshot (maximum {{MaxFoes}}).',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -306,7 +306,7 @@ VALUES
   ),
   (
     '"Victory Is Mine!"',
-    '',
+    'https://wiki.guildwars.com/images/0/09/Victory_is_Mine%21_%28large%29.jpg',
     'Elite Shout. You gain {{HealthGain}} Health and {{EnergyGain}} Energy for each condition on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -326,7 +326,7 @@ VALUES
   ),
   (
     '"Watch Yourself!"',
-    '',
+    'https://wiki.guildwars.com/images/3/31/%22Watch_Yourself%21%22_%28large%29.jpg',
     'Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after 10 incoming attacks.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -346,7 +346,7 @@ VALUES
   ),
   (
     '"Watch Yourself!" (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/3/31/%22Watch_Yourself%21%22_%28large%29.jpg',
     'Shout. (10 seconds.) Party members in earshot have +{{ArmorRating}} armor. Ends after {{Attacks}} incoming attack[s].',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -366,7 +366,7 @@ VALUES
   ),
   (
     '"You Will Die!"',
-    '',
+    'https://wiki.guildwars.com/images/a/a2/%22You_Will_Die%21%22_%28large%29.jpg',
     'Shout. You gain {{AdrenalineGain}} strike[s] of adrenaline. No effect unless target foe is under 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -386,7 +386,7 @@ VALUES
   ),
   (
     '"You''re All Alone!"',
-    '',
+    'https://wiki.guildwars.com/images/a/ad/%22You%27re_All_Alone%21%22_%28large%29.jpg',
     'Elite Shout. Inflicts Cripple and Weakness conditions (8 seconds). No effect if target foe is near one of its allies.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -406,7 +406,7 @@ VALUES
   ),
   (
     'Agonizing Chop',
-    '',
+    'https://wiki.guildwars.com/images/3/3e/Agonizing_Chop_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage. Interrupts an action if target foe has a Deep Wound.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -426,7 +426,7 @@ VALUES
   ),
   (
     'Auspicious Blow',
-    '',
+    'https://wiki.guildwars.com/images/8/84/Auspicious_Blow_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage and you gain {{EnergyGain}} Energy. Unblockable if target foe is Weakened.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -446,7 +446,7 @@ VALUES
   ),
   (
     'Auspicious Parry',
-    '',
+    'https://wiki.guildwars.com/images/6/61/Auspicious_Parry_%28large%29.jpg',
     'Elite Stance. (8 seconds.) Blocks one attack. End effect: you gain {{AdrenalineGain}} strike[s] of adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -466,7 +466,7 @@ VALUES
   ),
   (
     'Axe Rake',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Axe_Rake_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage and inflicts Crippled condition (15 seconds) if target foe has a Deep Wound.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -486,7 +486,7 @@ VALUES
   ),
   (
     'Axe Twist',
-    '',
+    'https://wiki.guildwars.com/images/a/a9/Axe_Twist_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage and inflicts Weakness condition (20 seconds) if target foe has a Deep Wound.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -506,7 +506,7 @@ VALUES
   ),
   (
     'Backbreaker',
-    '',
+    'https://wiki.guildwars.com/images/3/36/Backbreaker_%28large%29.jpg',
     'Elite Hammer Attack. Deals +{{Damage}} damage. Causes knockdown. Knockdown lasts 4 seconds with Strength 8 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -526,7 +526,7 @@ VALUES
   ),
   (
     'Balanced Stance',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Balanced_Stance_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You cannot be knocked-down and do not take extra damage from critical hits.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -546,7 +546,7 @@ VALUES
   ),
   (
     'Barbarous Slice',
-    '',
+    'https://wiki.guildwars.com/images/4/47/Barbarous_Slice_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if you are not in a stance.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -566,7 +566,7 @@ VALUES
   ),
   (
     'Battle Rage',
-    '',
+    'https://wiki.guildwars.com/images/9/92/Battle_Rage_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) You move 33% faster and gain double adrenaline from your attacks. Ends if you use any non-adrenal skills.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -586,7 +586,7 @@ VALUES
   ),
   (
     'Belly Smash',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Belly_Smash_%28large%29.jpg',
     'Hammer Attack. Inflicts Blindness condition to adjacent foes ({{BlindDuration}} seconds) if target foe is knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -606,7 +606,7 @@ VALUES
   ),
   (
     'Berserker Stance',
-    '',
+    'https://wiki.guildwars.com/images/0/0f/Berserker_Stance_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You attack 33% faster and gain 50% more adrenaline. Ends if you use a skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -626,7 +626,7 @@ VALUES
   ),
   (
     'Body Blow',
-    '',
+    'https://wiki.guildwars.com/images/e/e7/Body_Blow_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe has Cracked Armor.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -646,7 +646,7 @@ VALUES
   ),
   (
     'Bonetti''s Defense',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Bonetti%27s_Defense_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You have 75% chance to block. Gain 5 Energy for each melee attack blocked. Ends if you use a skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -666,7 +666,7 @@ VALUES
   ),
   (
     'Bull''s Charge',
-    '',
+    'https://wiki.guildwars.com/images/3/3c/Bull%27s_Charge_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) You move 33% faster. Causes knock-down if you hit a moving foe in melee. Ends if you use a skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -686,7 +686,7 @@ VALUES
   ),
   (
     'Bull''s Strike',
-    '',
+    'https://wiki.guildwars.com/images/a/ad/Bull%27s_Strike_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage and causes knock-down if target foe is moving.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -706,7 +706,7 @@ VALUES
   ),
   (
     'Burst of Aggression',
-    '',
+    'https://wiki.guildwars.com/images/1/10/Burst_of_Aggression_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You attack 33% faster. End effect: lose all adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -726,7 +726,7 @@ VALUES
   ),
   (
     'Charging Strike',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Charging_Strike_%28large%29.jpg',
     'Elite Stance. ({{Duration}} second[s].) You move 33% faster and deal +{{Damage}} damage with your next melee hit. Ends when you hit or if you use a skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -746,7 +746,7 @@ VALUES
   ),
   (
     'Cleave',
-    '',
+    'https://wiki.guildwars.com/images/c/c5/Cleave_%28large%29.jpg',
     'Elite Axe Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -766,7 +766,7 @@ VALUES
   ),
   (
     'Counter Blow',
-    '',
+    'https://wiki.guildwars.com/images/1/16/Counter_Blow_%28large%29.jpg',
     'Hammer Attack. Causes knock-down if target foe is attacking.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -786,7 +786,7 @@ VALUES
   ),
   (
     'Counterattack',
-    '',
+    'https://wiki.guildwars.com/images/3/3d/Counterattack_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if target foe is attacking.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -806,7 +806,7 @@ VALUES
   ),
   (
     'Crippling Slash',
-    '',
+    'https://wiki.guildwars.com/images/7/74/Crippling_Slash_%28large%29.jpg',
     'Elite Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds) and Bleeding condition ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -826,7 +826,7 @@ VALUES
   ),
   (
     'Critical Chop',
-    '',
+    'https://wiki.guildwars.com/images/f/f7/Critical_Chop_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage. Interrupts an action if you land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -846,7 +846,7 @@ VALUES
   ),
   (
     'Crude Swing',
-    '',
+    'https://wiki.guildwars.com/images/4/44/Crude_Swing_%28large%29.jpg',
     'Hammer Attack. Attack all adjacent foes for +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -866,7 +866,7 @@ VALUES
   ),
   (
     'Crushing Blow',
-    '',
+    'https://wiki.guildwars.com/images/a/ab/Crushing_Blow_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition if target foe is knocked-down ({{DeepWoundDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -886,7 +886,7 @@ VALUES
   ),
   (
     'Cyclone Axe',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Cyclone_Axe_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage to all foes adjacent to you.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -906,7 +906,7 @@ VALUES
   ),
   (
     'Deadly Riposte',
-    '',
+    'https://wiki.guildwars.com/images/2/2b/Deadly_Riposte_%28large%29.jpg',
     'Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. Inflicts Bleeding condition. ({{Bleeding}} seconds). No effect unless you have a sword equipped.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -926,7 +926,7 @@ VALUES
   ),
   (
     'Decapitate',
-    '',
+    'https://wiki.guildwars.com/images/e/e3/Decapitate_%28large%29.jpg',
     'Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). Automatic critical hit. You lose all adrenaline and Energy.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -946,7 +946,7 @@ VALUES
   ),
   (
     'Defensive Stance',
-    '',
+    'https://wiki.guildwars.com/images/2/27/Defensive_Stance_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) You have 75% chance to block. End effect: gain one adrenaline for each melee attack skill you have (maximum {{MaximumAdrenalineGain}}).',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -966,7 +966,7 @@ VALUES
   ),
   (
     'Deflect Arrows',
-    '',
+    'https://wiki.guildwars.com/images/8/8d/Deflect_Arrows_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) You have 75% chance to block attacks. Adjacent foes suffer Bleeding ({{BleedingDuration}} seconds) when you block a projectile attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -986,7 +986,7 @@ VALUES
   ),
   (
     'Defy Pain',
-    '',
+    'https://wiki.guildwars.com/images/8/89/Defy_Pain_%28large%29.jpg',
     'Elite Skill. (20 seconds.) You have +{{MaximumHealth}} maximum Health, +20 armor, and take {{DamageReduction}} less damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1006,7 +1006,7 @@ VALUES
   ),
   (
     'Defy Pain (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/8/89/Defy_Pain_%28large%29.jpg',
     'Elite Stance. (20 seconds.) You have +{{MaximumHealth}} maximum Health and +20 armor.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1026,7 +1026,7 @@ VALUES
   ),
   (
     'Desperation Blow',
-    '',
+    'https://wiki.guildwars.com/images/1/1f/Desperation_Blow_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1046,7 +1046,7 @@ VALUES
   ),
   (
     'Devastating Hammer',
-    '',
+    'https://wiki.guildwars.com/images/5/55/Devastating_Hammer_%28large%29.jpg',
     'Elite Hammer Attack. Causes knock-down. Inflicts Weakness condition ({{WeaknessDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1066,7 +1066,7 @@ VALUES
   ),
   (
     'Disarm',
-    '',
+    'https://wiki.guildwars.com/images/0/09/Disarm_%28large%29.jpg',
     'Sword Attack. Interrupts target foe. Interruption effect: disables this foe''s attack skills ({{DisabledDuration}} second[s]) if that action was an attack.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1086,7 +1086,7 @@ VALUES
   ),
   (
     'Disciplined Stance',
-    '',
+    'https://wiki.guildwars.com/images/c/c9/Disciplined_Stance_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) You have 75% chance to block and +10 armor. Ends if you use an adrenal skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1106,7 +1106,7 @@ VALUES
   ),
   (
     'Dismember',
-    '',
+    'https://wiki.guildwars.com/images/b/bd/Dismember_%28large%29.jpg',
     'Axe Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1126,7 +1126,7 @@ VALUES
   ),
   (
     'Disrupting Chop',
-    '',
+    'https://wiki.guildwars.com/images/4/45/Disrupting_Chop_%28large%29.jpg',
     'Axe Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1146,7 +1146,7 @@ VALUES
   ),
   (
     'Distracting Blow',
-    '',
+    'https://wiki.guildwars.com/images/6/66/Distracting_Blow_%28large%29.jpg',
     'Melee Attack. Also attacks foes adjacent to your target. Interrupts an action. Hits for no damage.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1166,7 +1166,7 @@ VALUES
   ),
   (
     'Distracting Strike',
-    '',
+    'https://wiki.guildwars.com/images/a/a7/Distracting_Strike_%28large%29.jpg',
     'Melee Attack. Interrupts an action. Interruption effect: Disables interrupted skill (20 seconds) if target foe has Cracked Armor. Deals no damage.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1186,7 +1186,7 @@ VALUES
   ),
   (
     'Dolyak Signet',
-    '',
+    'https://wiki.guildwars.com/images/b/b1/Dolyak_Signet_%28large%29.jpg',
     'Signet. ({{Duration}} seconds.) You have +{{ArmorRating}} armor and cannot be knocked-down. You move 75% slower.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1206,7 +1206,7 @@ VALUES
   ),
   (
     'Dragon Slash',
-    '',
+    'https://wiki.guildwars.com/images/4/49/Dragon_Slash_%28large%29.jpg',
     'Elite Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} strike[s] of adrenaline if it hits.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1226,7 +1226,7 @@ VALUES
   ),
   (
     'Drunken Blow',
-    '',
+    'https://wiki.guildwars.com/images/1/16/Drunken_Blow_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. Inflicts one of the following random conditions: Deep Wound (20 seconds), Weakness (20 seconds), Bleeding (25 seconds), or Crippled (15 seconds). You are knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1246,7 +1246,7 @@ VALUES
   ),
   (
     'Dwarven Battle Stance',
-    '',
+    'https://wiki.guildwars.com/images/6/6d/Dwarven_Battle_Stance_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) You attack 33% faster, you gain +40 armor, and your attack skills interrupt actions. No effect unless you have a hammer equipped.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1266,7 +1266,7 @@ VALUES
   ),
   (
     'Earth Shaker',
-    '',
+    'https://wiki.guildwars.com/images/b/bf/Earth_Shaker_%28large%29.jpg',
     'Elite Hammer Attack. Knocks down target and adjacent foes. 50% failure chance unless Hammer Mastery is 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1286,7 +1286,7 @@ VALUES
   ),
   (
     'Endure Pain',
-    '',
+    'https://wiki.guildwars.com/images/d/d5/Endure_Pain_%28large%29.jpg',
     'Skill. ({{Duration}} seconds.) You have +{{MaximumHealth}} maximum Health.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1306,7 +1306,7 @@ VALUES
   ),
   (
     'Enraged Smash',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Enraged_Smash_%28large%29.jpg',
     'Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1326,7 +1326,7 @@ VALUES
   ),
   (
     'Enraged Smash (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Enraged_Smash_%28large%29.jpg',
     'Elite Hammer Attack. Gives you {{AdrenalineGain}} strike[s] of adrenaline if you hit. Deals +{{DamageOnMovingFoe}} damage and causes knockdown if target foe was moving.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1346,7 +1346,7 @@ VALUES
   ),
   (
     'Enraging Charge',
-    '',
+    'https://wiki.guildwars.com/images/8/86/Enraging_Charge_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You move 25% faster. Gain +{{AdrenalineGain}} adrenaline on your next melee attack. Ends after your next hit.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1366,7 +1366,7 @@ VALUES
   ),
   (
     'Eviscerate',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Eviscerate_%28large%29.jpg',
     'Elite Axe Attack. Deals +{{Damage}} damage. Inflicts Deep Wound condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1386,7 +1386,7 @@ VALUES
   ),
   (
     'Executioner''s Strike',
-    '',
+    'https://wiki.guildwars.com/images/1/1a/Executioner%27s_Strike_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1406,7 +1406,7 @@ VALUES
   ),
   (
     'Fierce Blow',
-    '',
+    'https://wiki.guildwars.com/images/0/03/Fierce_Blow_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage. Inflicts Deep Wound ({{DeepWoundDuration}} second[s]) if target foe is Weakened.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1426,7 +1426,7 @@ VALUES
   ),
   (
     'Final Thrust',
-    '',
+    'https://wiki.guildwars.com/images/9/96/Final_Thrust_%28large%29.jpg',
     'Sword Attack. Deals +{{BonusDamage}} damage. Deals +{{BonusDamage}} more damage if target foe is below 50% Health. Lose all adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1446,7 +1446,7 @@ VALUES
   ),
   (
     'Flail',
-    '',
+    'https://wiki.guildwars.com/images/f/f2/Flail_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) You attack 33% faster. You move 33% slower.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1466,7 +1466,7 @@ VALUES
   ),
   (
     'Flourish',
-    '',
+    'https://wiki.guildwars.com/images/9/94/Flourish_%28large%29.jpg',
     'Elite Skill. Recharges your attack skills. You gain {{EnergyGain}} Energy for each skill recharged.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1486,7 +1486,7 @@ VALUES
   ),
   (
     'Flurry',
-    '',
+    'https://wiki.guildwars.com/images/3/30/Flurry_%28large%29.jpg',
     'Stance. (5 seconds). You attack 33% faster. You do 25% less damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1506,7 +1506,7 @@ VALUES
   ),
   (
     'Forceful Blow',
-    '',
+    'https://wiki.guildwars.com/images/6/64/Forceful_Blow_%28large%29.jpg',
     'Elite Hammer Attack. Deals +{{Damage}} damage. Remove target foe''s stance. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1526,7 +1526,7 @@ VALUES
   ),
   (
     'Frenzied Defense',
-    '',
+    'https://wiki.guildwars.com/images/0/0a/Frenzied_Defense_%28large%29.jpg',
     'Stance. (8 seconds.) You have 75% chance to block. You take double damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1546,7 +1546,7 @@ VALUES
   ),
   (
     'Frenzy',
-    '',
+    'https://wiki.guildwars.com/images/e/e0/Frenzy_%28large%29.jpg',
     'Stance. (8 seconds.) You attack 33% faster. You take double damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1566,7 +1566,7 @@ VALUES
   ),
   (
     'Furious Axe',
-    '',
+    'https://wiki.guildwars.com/images/d/de/Furious_Axe_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage. Gives you 3 strikes of adrenaline if blocked.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1586,7 +1586,7 @@ VALUES
   ),
   (
     'Galrath Slash',
-    '',
+    'https://wiki.guildwars.com/images/a/aa/Galrath_Slash_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1606,7 +1606,7 @@ VALUES
   ),
   (
     'Gash',
-    '',
+    'https://wiki.guildwars.com/images/6/6c/Gash_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage and inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if your target is Bleeding.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1626,7 +1626,7 @@ VALUES
   ),
   (
     'Gladiator''s Defense',
-    '',
+    'https://wiki.guildwars.com/images/0/0e/Gladiator%27s_Defense_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) You have 75% chance to block. Your attacker takes {{ArmorignoringDamage}} damage whenever you block a melee attack this way.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1646,7 +1646,7 @@ VALUES
   ),
   (
     'Grapple',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Grapple_%28large%29.jpg',
     'Touch Skill. Causes knockdown. You are also knocked down. Your current stance ends.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1666,7 +1666,7 @@ VALUES
   ),
   (
     'Griffon''s Sweep',
-    '',
+    'https://wiki.guildwars.com/images/9/94/Griffon%27s_Sweep_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1686,7 +1686,7 @@ VALUES
   ),
   (
     'Hammer Bash',
-    '',
+    'https://wiki.guildwars.com/images/d/dd/Hammer_Bash_%28large%29.jpg',
     'Hammer Attack. Causes knock-down. Lose all adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1706,7 +1706,7 @@ VALUES
   ),
   (
     'Hamstring',
-    '',
+    'https://wiki.guildwars.com/images/4/42/Hamstring_%28large%29.jpg',
     'Sword Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1726,7 +1726,7 @@ VALUES
   ),
   (
     'Headbutt',
-    '',
+    'https://wiki.guildwars.com/images/3/36/Headbutt_%28large%29.jpg',
     'Elite Touch Skill. Deals {{Damage}} damage. You are Dazed ({{DazedDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1746,7 +1746,7 @@ VALUES
   ),
   (
     'Healing Signet',
-    '',
+    'https://wiki.guildwars.com/images/2/27/Healing_Signet_%28large%29.jpg',
     'Signet. You gain {{Healing}} Health. You have -40 armor while using this skill.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1766,7 +1766,7 @@ VALUES
   ),
   (
     'Heavy Blow',
-    '',
+    'https://wiki.guildwars.com/images/e/ec/Heavy_Blow_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage and causes knock-down if target foe is Weakened. Lose all adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1786,7 +1786,7 @@ VALUES
   ),
   (
     'Hundred Blades',
-    '',
+    'https://wiki.guildwars.com/images/0/0a/Hundred_Blades_%28large%29.jpg',
     'Elite Skill. (15 seconds.) Deals {{SlashingDamage}} slashing damage to all adjacent foes whenever you attack with a sword.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1806,7 +1806,7 @@ VALUES
   ),
   (
     'Irresistible Blow',
-    '',
+    'https://wiki.guildwars.com/images/a/a5/Irresistible_Blow_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and causes knock-down if blocked.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1826,7 +1826,7 @@ VALUES
   ),
   (
     'Jaizhenju Strike',
-    '',
+    'https://wiki.guildwars.com/images/4/4e/Jaizhenju_Strike_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1846,7 +1846,7 @@ VALUES
   ),
   (
     'Keen Chop',
-    '',
+    'https://wiki.guildwars.com/images/1/15/Keen_Chop_%28large%29.jpg',
     'Axe Attack. Always a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1866,7 +1866,7 @@ VALUES
   ),
   (
     'Knee Cutter',
-    '',
+    'https://wiki.guildwars.com/images/c/ca/Knee_Cutter_%28large%29.jpg',
     'Sword Attack. You gain {{EnergyGain}} Energy and {{AdrenalineGain}} adrenaline if target foe is Crippled.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1886,7 +1886,7 @@ VALUES
   ),
   (
     'Lacerating Chop',
-    '',
+    'https://wiki.guildwars.com/images/a/a4/Lacerating_Chop_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{Bleeding}} seconds) if target foe is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1906,7 +1906,7 @@ VALUES
   ),
   (
     'Leviathan''s Sweep',
-    '',
+    'https://wiki.guildwars.com/images/0/0c/Leviathan%27s_Sweep_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. Causes knock-down and deals {{DamageIfBlocked}} damage if blocked.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1926,7 +1926,7 @@ VALUES
   ),
   (
     'Lion''s Comfort',
-    '',
+    'https://wiki.guildwars.com/images/7/7f/Lion%27s_Comfort_%28large%29.jpg',
     'Skill. You are healed for {{Healing}} and gain {{AdrenalineGain}} strike[s] of adrenaline. Disables your signets (12 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1946,7 +1946,7 @@ VALUES
   ),
   (
     'Magehunter Strike',
-    '',
+    'https://wiki.guildwars.com/images/7/74/Magehunter_Strike_%28large%29.jpg',
     'Elite Melee Attack. Deals +{{Damage}} damage. Unblockable if target foe is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1966,7 +1966,7 @@ VALUES
   ),
   (
     'Magehunter''s Smash',
-    '',
+    'https://wiki.guildwars.com/images/e/eb/Magehunter%27s_Smash_%28large%29.jpg',
     'Elite Hammer Attack. Causes knock-down. Unblockable if target foe is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -1986,7 +1986,7 @@ VALUES
   ),
   (
     'Mighty Blow',
-    '',
+    'https://wiki.guildwars.com/images/a/ab/Mighty_Blow_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2006,7 +2006,7 @@ VALUES
   ),
   (
     'Mokele Smash',
-    '',
+    'https://wiki.guildwars.com/images/0/00/Mokele_Smash_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage and you gain 2 strikes of adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2026,7 +2026,7 @@ VALUES
   ),
   (
     'Overbearing Smash',
-    '',
+    'https://wiki.guildwars.com/images/5/5e/Overbearing_Smash_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage. If target foe is knocked down, they are Dazed ({{DazedDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2046,7 +2046,7 @@ VALUES
   ),
   (
     'Penetrating Blow',
-    '',
+    'https://wiki.guildwars.com/images/6/6b/Penetrating_Blow_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2066,7 +2066,7 @@ VALUES
   ),
   (
     'Penetrating Chop',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Penetrating_Chop_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage. 20% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2086,7 +2086,7 @@ VALUES
   ),
   (
     'Power Attack',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Power_Attack_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2106,7 +2106,7 @@ VALUES
   ),
   (
     'Primal Rage',
-    '',
+    'https://wiki.guildwars.com/images/7/7f/Primal_Rage_%28large%29.jpg',
     'Elite Stance. ({{Duration}} second[s].) You attack 33% faster and move 25% faster. You take double damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2126,7 +2126,7 @@ VALUES
   ),
   (
     'Protector''s Defense',
-    '',
+    'https://wiki.guildwars.com/images/8/8d/Protector%27s_Defense_%28large%29.jpg',
     'Skill. ({{Duration}} seconds.) Allies adjacent to you have 75% chance to block. Ends if you move.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2146,7 +2146,7 @@ VALUES
   ),
   (
     'Protector''s Strike',
-    '',
+    'https://wiki.guildwars.com/images/0/0b/Protector%27s_Strike_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage if target is moving.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2166,7 +2166,7 @@ VALUES
   ),
   (
     'Pulverizing Smash',
-    '',
+    'https://wiki.guildwars.com/images/0/04/Pulverizing_Smash_%28large%29.jpg',
     'Hammer Attack. Inflicts Weakness and Deep Wound conditions ({{WeaknessAndDeepWoundDuration}} seconds) if target foe is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2186,7 +2186,7 @@ VALUES
   ),
   (
     'Pure Strike',
-    '',
+    'https://wiki.guildwars.com/images/6/62/Pure_Strike_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage. Unblockable unless you are in a stance.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2206,7 +2206,7 @@ VALUES
   ),
   (
     'Quivering Blade',
-    '',
+    'https://wiki.guildwars.com/images/1/14/Quivering_Blade_%28large%29.jpg',
     'Elite Sword Attack. Deals +{{Damage}} damage. Inflicts Dazed condition (5 seconds) if target foe was moving.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2226,7 +2226,7 @@ VALUES
   ),
   (
     'Rage of the Ntouka',
-    '',
+    'https://wiki.guildwars.com/images/0/08/Rage_of_the_Ntouka_%28large%29.jpg',
     'Elite Skill. You gain {{AdrenalineGain}} adrenaline. For 10 seconds, adrenal skills have a 5 second recharge when used.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2246,7 +2246,7 @@ VALUES
   ),
   (
     'Renewing Smash',
-    '',
+    'https://wiki.guildwars.com/images/6/6a/Renewing_Smash_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage. You gain 3 Energy and this attack recharges instantly if target foe was knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2266,7 +2266,7 @@ VALUES
   ),
   (
     'Renewing Smash (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/6/6a/Renewing_Smash_%28large%29.jpg',
     'Hammer Attack. Deals +{{Damage}} damage. You gain 3 energy and this attack recharges instantly if target foe was knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2286,7 +2286,7 @@ VALUES
   ),
   (
     'Riposte',
-    '',
+    'https://wiki.guildwars.com/images/0/05/Riposte_%28large%29.jpg',
     'Skill. (8 seconds). You block the next melee attack and your attacker takes {{Damage}} damage. No effect unless you have a sword equipped.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2306,7 +2306,7 @@ VALUES
   ),
   (
     'Rush',
-    '',
+    'https://wiki.guildwars.com/images/0/05/Rush_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You move 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2326,7 +2326,7 @@ VALUES
   ),
   (
     'Savage Slash',
-    '',
+    'https://wiki.guildwars.com/images/c/cb/Savage_Slash_%28large%29.jpg',
     'Sword Attack. Interrupts an action. Interruption effect: deals +{{Damage}} damage if action was a spell.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2346,7 +2346,7 @@ VALUES
   ),
   (
     'Seeking Blade',
-    '',
+    'https://wiki.guildwars.com/images/9/9b/Seeking_Blade_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Bleeding condition (25 seconds) if blocked.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2386,7 +2386,7 @@ VALUES
   ),
   (
     'Sever Artery',
-    '',
+    'https://wiki.guildwars.com/images/8/83/Sever_Artery_%28large%29.jpg',
     'Sword Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2406,7 +2406,7 @@ VALUES
   ),
   (
     'Shield Bash',
-    '',
+    'https://wiki.guildwars.com/images/8/8c/Shield_Bash_%28large%29.jpg',
     'Skill. ({{Duration}} seconds.) You block the next attack skill. Causes knock-down and +15 second recharge if it was a melee skill. No effect unless you are wielding a shield.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2426,7 +2426,7 @@ VALUES
   ),
   (
     'Shield Stance',
-    '',
+    'https://wiki.guildwars.com/images/4/41/Shield_Stance_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) You have 75% chance to block. Damage is reduced by 2 for each rank of Strength (maximum 15 damage reduction). No effect unless you have a shield equipped.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2446,7 +2446,7 @@ VALUES
   ),
   (
     'Shove',
-    '',
+    'https://wiki.guildwars.com/images/0/01/Shove_%28large%29.jpg',
     'Elite Touch Skill. Causes knockdown. Initial effect: ends foe''s stance and deals {{Damage}} damage if target foe is moving.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2466,7 +2466,7 @@ VALUES
   ),
   (
     'Signet of Stamina',
-    '',
+    'https://wiki.guildwars.com/images/9/9b/Signet_of_Stamina_%28large%29.jpg',
     'Signet. You have +{{MaxHealth}} maximum Health. Ends if you hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2486,7 +2486,7 @@ VALUES
   ),
   (
     'Signet of Strength',
-    '',
+    'https://wiki.guildwars.com/images/d/d1/Signet_of_Strength_%28large%29.jpg',
     'Signet. Your attacks deal +5 damage. Ends after {{Attacks}} attack[s].',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2506,7 +2506,7 @@ VALUES
   ),
   (
     'Silverwing Slash',
-    '',
+    'https://wiki.guildwars.com/images/f/f9/Silverwing_Slash_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2526,7 +2526,7 @@ VALUES
   ),
   (
     'Skull Crack',
-    '',
+    'https://wiki.guildwars.com/images/b/b5/Skull_Crack_%28large%29.jpg',
     'Elite Melee Attack. Interrupts an action. Inflicts Dazed condition (10 seconds) if target is casting a spell.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2546,7 +2546,7 @@ VALUES
   ),
   (
     'Soldier''s Defense',
-    '',
+    'https://wiki.guildwars.com/images/c/cd/Soldier%27s_Defense_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) You have 75% chance to block while under the effects of a shout or chant. Block effect: gain 1 adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2566,7 +2566,7 @@ VALUES
   ),
   (
     'Soldier''s Speed',
-    '',
+    'https://wiki.guildwars.com/images/e/e6/Soldier%27s_Speed_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You move 15% faster and an additional 15% while affected by a chant or shout.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2586,7 +2586,7 @@ VALUES
   ),
   (
     'Soldier''s Stance',
-    '',
+    'https://wiki.guildwars.com/images/2/2d/Soldier%27s_Stance_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) You have a 75% chance to block. You attack 33% faster while under the effects of a chant or shout.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2606,7 +2606,7 @@ VALUES
   ),
   (
     'Soldier''s Stance (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/2/2d/Soldier%27s_Stance_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) You attack 33% faster while under the effects of a shout or chant.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2626,7 +2626,7 @@ VALUES
   ),
   (
     'Soldier''s Strike',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Soldier%27s_Strike_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. Unblockable if you are under the effects of a chant or shout.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2646,7 +2646,7 @@ VALUES
   ),
   (
     'Sprint',
-    '',
+    'https://wiki.guildwars.com/images/6/64/Sprint_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You move 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2666,7 +2666,7 @@ VALUES
   ),
   (
     'Staggering Blow',
-    '',
+    'https://wiki.guildwars.com/images/b/b9/Staggering_Blow_%28large%29.jpg',
     'Hammer Attack. Inflicts Weakness condition ({{WeaknessDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2686,7 +2686,7 @@ VALUES
   ),
   (
     'Standing Slash',
-    '',
+    'https://wiki.guildwars.com/images/3/3a/Standing_Slash_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage. Deals {{Damage}} more damage if you are in a stance.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2706,7 +2706,7 @@ VALUES
   ),
   (
     'Steady Stance',
-    '',
+    'https://wiki.guildwars.com/images/d/d7/Steady_Stance_%28large%29.jpg',
     'Elite Stance. (10 seconds.) The next time you would be knocked-down, you gain {{AdrenalineGain}} adrenaline and {{EnergyGain}} Energy instead.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2726,7 +2726,7 @@ VALUES
   ),
   (
     'Steelfang Slash',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Steelfang_Slash_%28large%29.jpg',
     'Sword Attack. Deals +{{Damage}} damage. You gain {{AdrenalineGain}} adrenaline if target foe is knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2746,7 +2746,7 @@ VALUES
   ),
   (
     'Sun and Moon Slash',
-    '',
+    'https://wiki.guildwars.com/images/4/4c/Sun_and_Moon_Slash_%28large%29.jpg',
     'Sword Attack. You attack target foe twice. Unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Sword Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2766,7 +2766,7 @@ VALUES
   ),
   (
     'Swift Chop',
-    '',
+    'https://wiki.guildwars.com/images/f/f1/Swift_Chop_%28large%29.jpg',
     'Axe Attack. Deals +{{Damage}} damage. Deals {{DamageIfBlocked}} damage and inflicts Deep Wound condition (20 seconds) if blocked.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2786,7 +2786,7 @@ VALUES
   ),
   (
     'Symbolic Strike',
-    '',
+    'https://wiki.guildwars.com/images/0/09/Symbolic_Strike_%28large%29.jpg',
     'Melee Attack. Deals +12 damage (maximum 70) for each signet you have equipped.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2806,7 +2806,7 @@ VALUES
   ),
   (
     'Thrill of Victory',
-    '',
+    'https://wiki.guildwars.com/images/6/62/Thrill_of_Victory_%28large%29.jpg',
     'Melee Attack. Deals +{{Damage}} damage. If you have more Health than your target, you gain {{AdrenalineGain}} adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2826,7 +2826,7 @@ VALUES
   ),
   (
     'Tiger Stance',
-    '',
+    'https://wiki.guildwars.com/images/1/1c/Tiger_Stance_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You attack 33% faster. Ends if you fail to hit.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2846,7 +2846,7 @@ VALUES
   ),
   (
     'Triple Chop',
-    '',
+    'https://wiki.guildwars.com/images/0/0e/Triple_Chop_%28large%29.jpg',
     'Elite Axe Attack. Deals +{{Damage}} damage. Also hits adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2866,7 +2866,7 @@ VALUES
   ),
   (
     'Warrior''s Cunning',
-    '',
+    'https://wiki.guildwars.com/images/e/e6/Warrior%27s_Cunning_%28large%29.jpg',
     'Skill. ({{Duration}} seconds.) Your melee attacks are unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2886,7 +2886,7 @@ VALUES
   ),
   (
     'Warrior''s Endurance',
-    '',
+    'https://wiki.guildwars.com/images/2/29/Warrior%27s_Endurance_%28large%29.jpg',
     'Elite Skill. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2906,7 +2906,7 @@ VALUES
   ),
   (
     'Warrior''s Endurance (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/2/29/Warrior%27s_Endurance_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) You gain 3 Energy each time you hit with a melee attack. No Energy gain if you have more than {{EnergyCeiling}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2926,7 +2926,7 @@ VALUES
   ),
   (
     'Wary Stance',
-    '',
+    'https://wiki.guildwars.com/images/1/13/Wary_Stance_%28large%29.jpg',
     'Stance. ({{Duration}} second[s]). You block attack skills. Gain adrenaline and 5 Energy for each block. Ends if you use a skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2946,7 +2946,7 @@ VALUES
   ),
   (
     'Whirling Axe',
-    '',
+    'https://wiki.guildwars.com/images/3/3f/Whirling_Axe_%28large%29.jpg',
     'Elite Axe Attack. Deals +{{Damage}} damage and removes a stance. Unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Axe Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -2986,7 +2986,7 @@ VALUES
   ),
   (
     'Wild Blow',
-    '',
+    'https://wiki.guildwars.com/images/d/df/Wild_Blow_%28large%29.jpg',
     'Melee Attack. Always a critical hit. Removes a stance. Unblockable. Lose all adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),
@@ -3006,7 +3006,7 @@ VALUES
   ),
   (
     'Yeti Smash',
-    '',
+    'https://wiki.guildwars.com/images/7/73/Yeti_Smash_%28large%29.jpg',
     'Hammer Attack. Attack all adjacent foes. Knocks down foes suffering from a condition. You lose all adrenaline. 50% failure chance unless Hammer Mastery is 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Hammer Attack'),
     (SELECT id FROM professions WHERE name = 'Warrior'),

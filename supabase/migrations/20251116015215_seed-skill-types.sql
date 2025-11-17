@@ -1,6 +1,6 @@
 -- Seed skill_types
 -- Auto-generated from data/skill-types.json
--- Generated: 2025-11-17T05:10:24.790Z
+-- Generated: 2025-11-17T07:36:05.741Z
 -- Total skill_types: 44
 
 INSERT INTO skill_types (name, parents, description)

@@ -1,6 +1,6 @@
 -- Seed mesmer skills
 -- Auto-generated from data/skills/mesmer.json
--- Generated: 2025-11-17T05:10:24.808Z
+-- Generated: 2025-11-17T07:36:05.761Z
 -- Total skills: 167
 
 INSERT INTO skills (
@@ -26,7 +26,7 @@ INSERT INTO skills (
 VALUES
   (
     'Accumulated Pain',
-    '',
+    'https://wiki.guildwars.com/images/7/72/Accumulated_Pain_%28large%29.jpg',
     'Spell. Deals {{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target foe has 2 or more hexes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -46,7 +46,7 @@ VALUES
   ),
   (
     'Accumulated Pain (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/7/72/Accumulated_Pain_%28large%29.jpg',
     'Spell. Deals {{Damage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target foe has 2 or more hexes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -66,7 +66,7 @@ VALUES
   ),
   (
     'Air of Disenchantment',
-    '',
+    'https://wiki.guildwars.com/images/4/4f/Air_of_Disenchantment_%28large%29.jpg',
     'Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Remove one enchantment from target and nearby foes. Enchantments expire {{EnchantmentExpirationSpeedPercent}}% faster on those foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -86,7 +86,7 @@ VALUES
   ),
   (
     'Ancestor''s Visage',
-    '',
+    'https://wiki.guildwars.com/images/6/63/Ancestor%27s_Visage_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -106,7 +106,7 @@ VALUES
   ),
   (
     'Aneurysm',
-    '',
+    'https://wiki.guildwars.com/images/d/d7/Aneurysm_%28large%29.jpg',
     'Spell. Target foe regains all Energy. For each point of Energy gained, target takes {{DamagePerEnergyGain}} damage and all adjacent foes lose 1 Energy (maximum {{MaximumEnergyLoss}}).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -126,7 +126,7 @@ VALUES
   ),
   (
     'Arcane Conundrum',
-    '',
+    'https://wiki.guildwars.com/images/4/42/Arcane_Conundrum_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). Doubles spell casting time. End effect: you gain {{EnergyGain}} energy. [sic]',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -146,7 +146,7 @@ VALUES
   ),
   (
     'Arcane Echo',
-    '',
+    'https://wiki.guildwars.com/images/7/76/Arcane_Echo_%28large%29.jpg',
     'Enchantment Spell. (20 seconds.) Arcane Echo becomes the next spell you use (20 seconds). This enchantment ends if you use any skill that is not a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -166,7 +166,7 @@ VALUES
   ),
   (
     'Arcane Languor',
-    '',
+    'https://wiki.guildwars.com/images/c/c7/Arcane_Languor_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} second[s].) Target foe''s spells cause 10 Overcast.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -186,7 +186,7 @@ VALUES
   ),
   (
     'Arcane Larceny',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Arcane_Larceny_%28large%29.jpg',
     'Spell. ({{Duration}} seconds.) Disables one random spell. This skill becomes that spell.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -206,7 +206,7 @@ VALUES
   ),
   (
     'Arcane Mimicry',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Arcane_Mimicry_%28large%29.jpg',
     'Spell. This skill becomes target ally''s elite skill (20 seconds). Cannot self-target. No effect if target''s elite skill is a form.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -226,7 +226,7 @@ VALUES
   ),
   (
     'Arcane Thievery',
-    '',
+    'https://wiki.guildwars.com/images/7/7f/Arcane_Thievery_%28large%29.jpg',
     'Spell. ({{Duration}} seconds.) Disables one random spell. This skill becomes that spell.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -246,7 +246,7 @@ VALUES
   ),
   (
     'Auspicious Incantation',
-    '',
+    'https://wiki.guildwars.com/images/3/34/Auspicious_Incantation_%28large%29.jpg',
     'Enchantment Spell. (20 seconds.) Your next spell gives you {{PercentOfEnergyCost}}% of its Energy cost. That spell takes {{DisabledDuration}} seconds longer to recharge.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -266,7 +266,7 @@ VALUES
   ),
   (
     'Backfire',
-    '',
+    'https://wiki.guildwars.com/images/1/15/Backfire_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Target foe takes {{Damage}} damage whenever it casts a spell.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -286,7 +286,7 @@ VALUES
   ),
   (
     'Blackout',
-    '',
+    'https://wiki.guildwars.com/images/6/6d/Blackout_%28large%29.jpg',
     'Touch Skill. ({{Duration}} seconds.) Disables skills. Your skills are disabled (5 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -306,7 +306,7 @@ VALUES
   ),
   (
     'Calculated Risk',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Calculated_Risk_%28large%29.jpg',
     'Hex Spell. Target foe does +10 damage with attacks ({{Duration}} seconds). There is a 50% chance that the damage from each attack (maximum {{MaximumDamage}}) will be done to that foe instead.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -326,7 +326,7 @@ VALUES
   ),
   (
     'Calculated Risk (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Calculated_Risk_%28large%29.jpg',
     'Hex Spell. Target foe does +10 damage with attacks ({{Duration}} seconds). There is a 50% chance that the damage from each attack (maximum {{MaximumDamage}}) will be done to that foe instead.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -346,7 +346,7 @@ VALUES
   ),
   (
     'Channeling',
-    '',
+    'https://wiki.guildwars.com/images/b/b4/Channeling_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You gain 1 Energy for each foe in the area whenever you cast a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -366,7 +366,7 @@ VALUES
   ),
   (
     'Chaos Storm',
-    '',
+    'https://wiki.guildwars.com/images/1/15/Chaos_Storm_%28large%29.jpg',
     'Spell. Deals {{Damage}} damage and causes {{EnergyLoss}} Energy loss each second (10 seconds). Hits foes adjacent to target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -386,7 +386,7 @@ VALUES
   ),
   (
     'Clumsiness',
-    '',
+    'https://wiki.guildwars.com/images/2/2f/Clumsiness_%28large%29.jpg',
     'Hex Spell. (4 seconds.) Also hexes adjacent foes. Interrupts next attack. Interruption effect: deals {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -406,7 +406,7 @@ VALUES
   ),
   (
     'Complicate',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Complicate_%28large%29.jpg',
     'Spell. Interrupt a skill. Interruption effect: disables interrupted skill (+{{Duration}} seconds) for target foe and all foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -426,7 +426,7 @@ VALUES
   ),
   (
     'Confusing Images',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Confusing_Images_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds). Target foe takes twice as long to activate non-attack skills.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -446,7 +446,7 @@ VALUES
   ),
   (
     'Conjure Nightmare',
-    '',
+    'https://wiki.guildwars.com/images/e/e9/Conjure_Nightmare_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes -8 Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -466,7 +466,7 @@ VALUES
   ),
   (
     'Conjure Phantasm',
-    '',
+    'https://wiki.guildwars.com/images/a/ad/Conjure_Phantasm_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes -5 Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -486,7 +486,7 @@ VALUES
   ),
   (
     'Crippling Anguish',
-    '',
+    'https://wiki.guildwars.com/images/1/13/Crippling_Anguish_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Target foe moves and attacks 50% slower and has -{{HealthDegeneration}} Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -506,7 +506,7 @@ VALUES
   ),
   (
     'Crippling Anguish (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/1/13/Crippling_Anguish_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Target foe moves 50% slower and has -{{HealthDegeneration}} Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -526,7 +526,7 @@ VALUES
   ),
   (
     'Cry of Frustration',
-    '',
+    'https://wiki.guildwars.com/images/a/ad/Cry_of_Frustration_%28large%29.jpg',
     'Spell. If target foe is using a skill, that foe and all foes in the area are interrupted and take {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -566,7 +566,7 @@ VALUES
   ),
   (
     'Discharge Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/0/0e/Discharge_Enchantment_%28large%29.jpg',
     'Spell. Removes one enchantment from target foe. {{PercentFasterRecharge}}% faster recharge if that foe was hexed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -586,7 +586,7 @@ VALUES
   ),
   (
     'Distortion',
-    '',
+    'https://wiki.guildwars.com/images/7/78/Distortion_%28large%29.jpg',
     'Stance. ({{Duration}} second[s].) You have 75% chance to block. Block cost: you lose 2 Energy or Distortion ends.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -606,7 +606,7 @@ VALUES
   ),
   (
     'Diversion',
-    '',
+    'https://wiki.guildwars.com/images/1/1e/Diversion_%28large%29.jpg',
     'Hex Spell. (6 seconds.) Target foe''s next skill takes +{{PlusRechargeTime}} seconds to recharge.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -626,7 +626,7 @@ VALUES
   ),
   (
     'Drain Delusions',
-    '',
+    'https://wiki.guildwars.com/images/8/80/Drain_Delusions_%28large%29.jpg',
     'Spell. Removes one Mesmer hex from target foe. Causes {{EnergyLoss}} Energy loss. You gain 4 Energy for each point lost. No effect unless a hex was removed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -646,7 +646,7 @@ VALUES
   ),
   (
     'Drain Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/8/80/Drain_Enchantment_%28large%29.jpg',
     'Spell. Removes an enchantment from target foe. Removal effect: you gain {{EnergyGain}} Energy and {{HealthGain}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -666,7 +666,7 @@ VALUES
   ),
   (
     'Echo',
-    '',
+    'https://wiki.guildwars.com/images/1/12/Echo_%28large%29.jpg',
     'Elite Enchantment Spell. (30 seconds.) Echo becomes the next skill you use (30 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -686,7 +686,7 @@ VALUES
   ),
   (
     'Elemental Resistance',
-    '',
+    'https://wiki.guildwars.com/images/b/b4/Elemental_Resistance_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You have +40 armor against elemental damage. You have -{{MinusArmorAgainstPhysicalDamage}} armor against physical damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -706,7 +706,7 @@ VALUES
   ),
   (
     'Empathy',
-    '',
+    'https://wiki.guildwars.com/images/2/21/Empathy_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe''s attacks deal {{DamageReduction}} less damage, and that foe takes {{Damage}} damage with each attack.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -726,7 +726,7 @@ VALUES
   ),
   (
     'Empathy (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/2/21/Empathy_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe takes {{Damage}} damage whenever it attacks.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -746,7 +746,7 @@ VALUES
   ),
   (
     'Enchanter''s Conundrum',
-    '',
+    'https://wiki.guildwars.com/images/d/d6/Enchanter%27s_Conundrum_%28large%29.jpg',
     'Elite Hex Spell. Causes {{CastTimePercentIncrease}}% slower enchantment casting (10 seconds). Initial effect: deals {{Damage}} damage to target and adjacent foes if target foe is not enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -766,7 +766,7 @@ VALUES
   ),
   (
     'Enchanter''s Conundrum (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/d/d6/Enchanter%27s_Conundrum_%28large%29.jpg',
     'Elite Hex Spell. Causes {{CastTimePercentIncrease}}% slower enchantment casting (10 seconds). Initial effect: deals {{Damage}} damage to target and adjacent foes if target foe is not enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -786,7 +786,7 @@ VALUES
   ),
   (
     'Energy Burn',
-    '',
+    'https://wiki.guildwars.com/images/5/54/Energy_Burn_%28large%29.jpg',
     'Spell. Causes {{EnergyLoss}} Energy loss. Deals 9 damage for each point of Energy lost.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -806,7 +806,7 @@ VALUES
   ),
   (
     'Energy Drain',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Energy_Drain_%28large%29.jpg',
     'Elite Spell. Causes {{EnergyLoss}} Energy loss. You gain 3 Energy for each point of Energy lost.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -826,7 +826,7 @@ VALUES
   ),
   (
     'Energy Surge',
-    '',
+    'https://wiki.guildwars.com/images/b/b9/Energy_Surge_%28large%29.jpg',
     'Elite Spell. Causes {{EnergyLoss}} Energy loss. Deals 9 damage to target and nearby foes for each point of Energy lost.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -846,7 +846,7 @@ VALUES
   ),
   (
     'Energy Tap',
-    '',
+    'https://wiki.guildwars.com/images/9/98/Energy_Tap_%28large%29.jpg',
     'Spell. Causes {{EnergyLoss}} Energy loss. You gain 2 Energy for each point of Energy lost.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -866,7 +866,7 @@ VALUES
   ),
   (
     'Epidemic',
-    '',
+    'https://wiki.guildwars.com/images/f/fc/Epidemic_%28large%29.jpg',
     'Spell. Conditions on target foe transfer to adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -886,7 +886,7 @@ VALUES
   ),
   (
     'Ether Feast',
-    '',
+    'https://wiki.guildwars.com/images/0/01/Ether_Feast_%28large%29.jpg',
     'Spell. Causes 3 Energy loss. You gain {{HealPerEnergyLost}} Health for each point of Energy lost.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -906,7 +906,7 @@ VALUES
   ),
   (
     'Ether Lord',
-    '',
+    'https://wiki.guildwars.com/images/f/fb/Ether_Lord_%28large%29.jpg',
     'Hex Spell. You lose all Energy. Target foe has -{{EnergyDegeneration}} Energy degeneration and you have +{{EnergyRegeneration}} Energy regeneration ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -946,7 +946,7 @@ VALUES
   ),
   (
     'Ether Phantom',
-    '',
+    'https://wiki.guildwars.com/images/c/cd/Ether_Phantom_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Causes -1 Energy degeneration. Causes {{EnergyLoss}} Energy loss if this hex ends early.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -966,7 +966,7 @@ VALUES
   ),
   (
     'Ether Signet',
-    '',
+    'https://wiki.guildwars.com/images/0/08/Ether_Signet_%28large%29.jpg',
     'Signet. You gain {{EnergyGain}} Energy. No effect unless you have less than {{MaxEnergyReq}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -986,7 +986,7 @@ VALUES
   ),
   (
     'Ethereal Burden',
-    '',
+    'https://wiki.guildwars.com/images/c/c9/Ethereal_Burden_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1006,7 +1006,7 @@ VALUES
   ),
   (
     'Expel Hexes',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Expel_Hexes_%28large%29.jpg',
     'Elite Spell. Removes 2 hexes from target ally.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1026,7 +1026,7 @@ VALUES
   ),
   (
     'Extend Conditions',
-    '',
+    'https://wiki.guildwars.com/images/a/a3/Extend_Conditions_%28large%29.jpg',
     'Elite Spell. Spread all conditions from target foe to foes near your target. Those [sic] durations of those conditions are increased by {{LongerDurationOfConditionsPercent}}% (maximum 30 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1046,7 +1046,7 @@ VALUES
   ),
   (
     'Feedback',
-    '',
+    'https://wiki.guildwars.com/images/2/2a/Feedback_%28large%29.jpg',
     'Spell. Removes one enchantment. Removal effect: target foe loses {{EnergyLoss}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1066,7 +1066,7 @@ VALUES
   ),
   (
     'Fevered Dreams',
-    '',
+    'https://wiki.guildwars.com/images/c/c4/Fevered_Dreams_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Foes in the area also have any new conditions that target foe acquires. Inflicts Dazed on target foe ({{DazedDuration}} second[s]) if that foe has two or more conditions.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1086,7 +1086,7 @@ VALUES
   ),
   (
     'Fevered Dreams (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/c4/Fevered_Dreams_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Foes in the area also have any new conditions that target foe acquires.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1106,7 +1106,7 @@ VALUES
   ),
   (
     'Fragility',
-    '',
+    'https://wiki.guildwars.com/images/9/91/Fragility_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). These foes take {{Damage}} damage each time they gain or lose a condition.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1126,7 +1126,7 @@ VALUES
   ),
   (
     'Fragility (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/9/91/Fragility_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe takes {{Damage}} damage each time it gains or loses a condition.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1146,7 +1146,7 @@ VALUES
   ),
   (
     'Frustration',
-    '',
+    'https://wiki.guildwars.com/images/4/48/Frustration_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes 50% slower spell casting. Target foe takes {{Damage}} damage whenever interrupted. Deals double damage on skill interrupt.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1166,7 +1166,7 @@ VALUES
   ),
   (
     'Frustration (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/4/48/Frustration_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes 50% slower spell casting. Target foe takes {{Damage}} damage whenever interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1186,7 +1186,7 @@ VALUES
   ),
   (
     'Guilt',
-    '',
+    'https://wiki.guildwars.com/images/a/aa/Guilt_%28large%29.jpg',
     'Hex Spell. (6 seconds.) Target foe''s next spell fails and you steal {{EnergyStolen}} Energy. No effect unless this foe''s spell targets one of your allies.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1206,7 +1206,7 @@ VALUES
   ),
   (
     'Hex Breaker',
-    '',
+    'https://wiki.guildwars.com/images/2/21/Hex_Breaker_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) The next hex against you fails and the caster takes {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1226,7 +1226,7 @@ VALUES
   ),
   (
     'Hex Eater Signet',
-    '',
+    'https://wiki.guildwars.com/images/9/90/Hex_Eater_Signet_%28large%29.jpg',
     'Touch Signet. Removes a hex from target and {{AdjacentAllies}} adjacent allies. Removal effect: you gain {{EnergyGain}} Energy for each hex removed.',
     (SELECT id FROM skill_types WHERE name = 'Touch Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1246,7 +1246,7 @@ VALUES
   ),
   (
     'Hex Eater Vortex',
-    '',
+    'https://wiki.guildwars.com/images/9/98/Hex_Eater_Vortex_%28large%29.jpg',
     'Elite Spell. Removes one hex from target ally. Removal effect: deals {{Damage}} damage and removes one enchantment from foes near this ally.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1266,7 +1266,7 @@ VALUES
   ),
   (
     'Hypochondria',
-    '',
+    'https://wiki.guildwars.com/images/1/16/Hypochondria_%28large%29.jpg',
     'Spell. Transfer all conditions from foes in the area to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1286,7 +1286,7 @@ VALUES
   ),
   (
     'Ignorance',
-    '',
+    'https://wiki.guildwars.com/images/f/fe/Ignorance_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe cannot use signets.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1306,7 +1306,7 @@ VALUES
   ),
   (
     'Illusion of Haste',
-    '',
+    'https://wiki.guildwars.com/images/c/c9/Illusion_of_Haste_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You move 33% faster. Initial effect: removes Crippled condition. End effect: you are Crippled (3 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1326,7 +1326,7 @@ VALUES
   ),
   (
     'Illusion of Haste (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/c9/Illusion_of_Haste_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You move 33% faster. End effect: you are Crippled (3 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1346,7 +1346,7 @@ VALUES
   ),
   (
     'Illusion of Pain',
-    '',
+    'https://wiki.guildwars.com/images/9/9b/Illusion_of_Pain_%28large%29.jpg',
     'Hex Spell. (8 seconds.) Causes -{{HealthDegeneration}} Health degeneration and target foe takes {{DamageEachSecond}} damage each second. End effect: that foe is healed for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1366,7 +1366,7 @@ VALUES
   ),
   (
     'Illusion of Pain (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/9/9b/Illusion_of_Pain_%28large%29.jpg',
     'Hex Spell. (8 seconds.) Causes -{{HealthDegeneration}} Health degeneration and target foe takes {{DamageEachSecond}} damage each second. End effect: that foe is healed for {{Healing}}. Ends if reapplied.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1386,7 +1386,7 @@ VALUES
   ),
   (
     'Illusion of Weakness',
-    '',
+    'https://wiki.guildwars.com/images/6/6e/Illusion_of_Weakness_%28large%29.jpg',
     'Enchantment Spell. Lose {{HealthLoss}} Health. End effect: you gain {{Healing}} Health. Ends if damage drops your Health below 25% of your maximum.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1406,7 +1406,7 @@ VALUES
   ),
   (
     'Illusionary Weaponry',
-    '',
+    'https://wiki.guildwars.com/images/8/8a/Illusionary_Weaponry_%28large%29.jpg',
     'Elite Enchantment Spell. (30 seconds.) Deals {{ArmorMinusIgnoringDamage}} damage to foes in place of other damage or effects from melee attacks. You have +5 armor for each equipped Illusion Magic skill. Your melee attacks neither hit nor fail to hit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1426,7 +1426,7 @@ VALUES
   ),
   (
     'Illusionary Weaponry (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/8/8a/Illusionary_Weaponry_%28large%29.jpg',
     'Elite Enchantment Spell. (30 seconds.) Deals {{Damage}} damage to foes in place of other damage or effects from melee attacks. Your melee attacks neither hit nor fail to hit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1446,7 +1446,7 @@ VALUES
   ),
   (
     'Images of Remorse',
-    '',
+    'https://wiki.guildwars.com/images/6/65/Images_of_Remorse_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration. Initial effect: {{Damage}} damage if target foe is attacking.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1466,7 +1466,7 @@ VALUES
   ),
   (
     'Imagined Burden',
-    '',
+    'https://wiki.guildwars.com/images/e/eb/Imagined_Burden_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe moves 50% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1486,7 +1486,7 @@ VALUES
   ),
   (
     'Ineptitude',
-    '',
+    'https://wiki.guildwars.com/images/a/af/Ineptitude_%28large%29.jpg',
     'Elite Hex Spell. (4 seconds.) Also hexes foes adjacent to target. Deals {{Damage}} damage. Inflicts Blindness condition (10 seconds). No effect unless hexed foe attacks.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1506,7 +1506,7 @@ VALUES
   ),
   (
     'Inspired Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/5/5b/Inspired_Enchantment_%28large%29.jpg',
     'Spell. Removes an enchantment from target foe. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that enchantment (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1526,7 +1526,7 @@ VALUES
   ),
   (
     'Inspired Hex',
-    '',
+    'https://wiki.guildwars.com/images/1/16/Inspired_Hex_%28large%29.jpg',
     'Spell. Removes a hex from target ally. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that hex (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1546,7 +1546,7 @@ VALUES
   ),
   (
     'Keystone Signet',
-    '',
+    'https://wiki.guildwars.com/images/e/e6/Keystone_Signet_%28large%29.jpg',
     'Elite Signet. (20 seconds.) Your next {{SignetS}} signet[s] interrupt [sic] and deal {{Damage}} damage to other foes adjacent to your target. Initial Effect: [sic] recharges all of your other signets.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1566,7 +1566,7 @@ VALUES
   ),
   (
     'Kitah''s Burden',
-    '',
+    'https://wiki.guildwars.com/images/a/af/Kitah%27s_Burden_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Target foe moves 50% slower. End effect: you gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1586,7 +1586,7 @@ VALUES
   ),
   (
     'Leech Signet',
-    '',
+    'https://wiki.guildwars.com/images/a/af/Leech_Signet_%28large%29.jpg',
     'Signet. Interrupts an action. Interruption effect: you gain {{EnergyGain}} Energy if the action was a spell.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1606,7 +1606,7 @@ VALUES
   ),
   (
     'Lyssa''s Aura',
-    '',
+    'https://wiki.guildwars.com/images/6/60/Lyssa%27s_Aura_%28large%29.jpg',
     'Elite Enchantment Spell. (10 seconds.) You have +{{EnergyRegeneration}} Energy regeneration. Renewal: every time you cast a spell on an enemy.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1626,7 +1626,7 @@ VALUES
   ),
   (
     'Lyssa''s Balance',
-    '',
+    'https://wiki.guildwars.com/images/1/1e/Lyssa%27s_Balance_%28large%29.jpg',
     'Spell. Removes one enchantment from target foe. No effect if you have more enchantments than this foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1646,7 +1646,7 @@ VALUES
   ),
   (
     'Mantra of Concentration',
-    '',
+    'https://wiki.guildwars.com/images/5/5c/Mantra_of_Concentration_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) The next time you would be interrupted, you are not interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1666,7 +1666,7 @@ VALUES
   ),
   (
     'Mantra of Earth',
-    '',
+    'https://wiki.guildwars.com/images/1/13/Mantra_of_Earth_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Reduces earth damage you take by {{EarthDamageReductionPercent}}%. You gain 2 Energy when you take earth damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1686,7 +1686,7 @@ VALUES
   ),
   (
     'Mantra of Flame',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Mantra_of_Flame_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Reduces fire damage you take by {{FireDamageReductionPercent}}%. You gain 2 Energy when you take fire damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1706,7 +1706,7 @@ VALUES
   ),
   (
     'Mantra of Frost',
-    '',
+    'https://wiki.guildwars.com/images/9/93/Mantra_of_Frost_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Reduces cold damage you take by {{ColdDamageReductionPercent}}%. You gain 2 Energy when you take cold damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1726,7 +1726,7 @@ VALUES
   ),
   (
     'Mantra of Inscriptions',
-    '',
+    'https://wiki.guildwars.com/images/c/c4/Mantra_of_Inscriptions_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Signets you successfully activate while in this stance recharge {{FasterRechargePercent}}% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1746,7 +1746,7 @@ VALUES
   ),
   (
     'Mantra of Lightning',
-    '',
+    'https://wiki.guildwars.com/images/1/1d/Mantra_of_Lightning_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Reduces lightning damage you take by {{LightningDamageReductionPercent}}%. You gain 2 Energy when you take lightning damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1766,7 +1766,7 @@ VALUES
   ),
   (
     'Mantra of Persistence',
-    '',
+    'https://wiki.guildwars.com/images/9/90/Mantra_of_Persistence_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Illusion hexes you cast last {{LongerDurationPercent}}% longer.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1786,7 +1786,7 @@ VALUES
   ),
   (
     'Mantra of Recall',
-    '',
+    'https://wiki.guildwars.com/images/1/11/Mantra_of_Recall_%28large%29.jpg',
     'Elite Enchantment Spell. (20 seconds.) End effect: you gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1806,7 +1806,7 @@ VALUES
   ),
   (
     'Mantra of Recovery',
-    '',
+    'https://wiki.guildwars.com/images/b/bb/Mantra_of_Recovery_%28large%29.jpg',
     'Elite Stance. ({{Duration}} seconds.) Your spells recharge 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1826,7 +1826,7 @@ VALUES
   ),
   (
     'Mantra of Resolve',
-    '',
+    'https://wiki.guildwars.com/images/3/38/Mantra_of_Resolve_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Prevents interrupts against you. Prevention cost: lose {{EnergyLoss}} Energy or Mantra of Resolve ends.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1846,7 +1846,7 @@ VALUES
   ),
   (
     'Mantra of Resolve (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/3/38/Mantra_of_Resolve_%28large%29.jpg',
     'Stance. (5 seconds.) Prevents interrupts against you. Prevention cost: lose {{EnergyLoss}} Energy or Mantra of Resolve ends.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1866,7 +1866,7 @@ VALUES
   ),
   (
     'Mantra of Signets',
-    '',
+    'https://wiki.guildwars.com/images/9/9c/Mantra_of_Signets_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You have +3 armor for each signet. You gain {{Healing}} health each time you use a signet.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1886,7 +1886,7 @@ VALUES
   ),
   (
     'Mantra of Signets (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/9/9c/Mantra_of_Signets_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You gain {{Healing}} Health each time you use a signet.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1906,7 +1906,7 @@ VALUES
   ),
   (
     'Migraine',
-    '',
+    'https://wiki.guildwars.com/images/1/1e/Migraine_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and doubles skill activation time.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1926,7 +1926,7 @@ VALUES
   ),
   (
     'Migraine (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/1/1e/Migraine_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and doubles skill activation time.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1946,7 +1946,7 @@ VALUES
   ),
   (
     'Mind Wrack',
-    '',
+    'https://wiki.guildwars.com/images/9/9f/Mind_Wrack_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. Deals {{DamagePerEnergyLost}} damage per point of Energy lost. If target foe''s Energy drops to 0, it takes {{Damage}} damage and Mind Wrack ends.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1966,7 +1966,7 @@ VALUES
   ),
   (
     'Mind Wrack (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/9/9f/Mind_Wrack_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes 1 Energy loss each time foe is the target of your non-hex Mesmer skills. If target foe''s Energy drops to 0, Mind Wrack ends and that foe takes {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -1986,7 +1986,7 @@ VALUES
   ),
   (
     'Mirror of Disenchantment',
-    '',
+    'https://wiki.guildwars.com/images/4/40/Mirror_of_Disenchantment_%28large%29.jpg',
     'Spell. Removes one enchantment from target foe. That foe''s party members also lose this enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2006,7 +2006,7 @@ VALUES
   ),
   (
     'Mirror of Disenchantment (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/4/40/Mirror_of_Disenchantment_%28large%29.jpg',
     'Spell. Removes one enchantment from target foe. That foe''s party members also lose this enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2026,7 +2026,7 @@ VALUES
   ),
   (
     'Mistrust',
-    '',
+    'https://wiki.guildwars.com/images/0/06/Mistrust_%28large%29.jpg',
     'Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals {{Damage}} damage to target and nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2046,7 +2046,7 @@ VALUES
   ),
   (
     'Mistrust (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/0/06/Mistrust_%28large%29.jpg',
     'Hex Spell. (6 seconds.) The next spell that target foe casts on one of your allies fails and deals {{Damage}} damage to target and nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2066,7 +2066,7 @@ VALUES
   ),
   (
     'Overload',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Overload_%28large%29.jpg',
     'Hex Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration. If target foe is using a skill, that foe and all adjacent foes take {{ConditionalDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2086,7 +2086,7 @@ VALUES
   ),
   (
     'Panic',
-    '',
+    'https://wiki.guildwars.com/images/6/65/Panic_%28large%29.jpg',
     'Elite Hex Spell. Also hexes foes near your target ({{Duration}} second[s]). Interrupts all other nearby foes whenever a hexed foe successfully activates a skill.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2106,7 +2106,7 @@ VALUES
   ),
   (
     'Persistence of Memory',
-    '',
+    'https://wiki.guildwars.com/images/d/da/Persistence_of_Memory_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Your interrupted spells recharge instantly.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2126,7 +2126,7 @@ VALUES
   ),
   (
     'Phantom Pain',
-    '',
+    'https://wiki.guildwars.com/images/9/94/Phantom_Pain_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. End effect: inflicts Deep Wound condition ({{DeepWoundDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2146,7 +2146,7 @@ VALUES
   ),
   (
     'Physical Resistance',
-    '',
+    'https://wiki.guildwars.com/images/4/4d/Physical_Resistance_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) You have +40 armor against physical damage. You have -{{MinusArmorAgainstElementalDamage}} armor against elemental damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2166,7 +2166,7 @@ VALUES
   ),
   (
     'Power Block',
-    '',
+    'https://wiki.guildwars.com/images/2/2e/Power_Block_%28large%29.jpg',
     'Elite Spell. If target foe is casting a spell or chant, that skill and all skills of the same attribute are disabled ({{DisabledDuration}} seconds) and that skill is interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2186,7 +2186,7 @@ VALUES
   ),
   (
     'Power Drain',
-    '',
+    'https://wiki.guildwars.com/images/d/d0/Power_Drain_%28large%29.jpg',
     'Spell. Interrupts a spell or chant. Interruption effect: you gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2206,7 +2206,7 @@ VALUES
   ),
   (
     'Power Flux',
-    '',
+    'https://wiki.guildwars.com/images/2/22/Power_Flux_%28large%29.jpg',
     'Elite Hex Spell. Interrupts a spell or chant. Interruption effect: -2 Energy degeneration ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2226,7 +2226,7 @@ VALUES
   ),
   (
     'Power Leak',
-    '',
+    'https://wiki.guildwars.com/images/d/dc/Power_Leak_%28large%29.jpg',
     'Spell. Interrupts a spell or chant. Interruption effect: causes {{EnergyLoss}} Energy loss.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2246,7 +2246,7 @@ VALUES
   ),
   (
     'Power Leech',
-    '',
+    'https://wiki.guildwars.com/images/7/72/Power_Leech_%28large%29.jpg',
     'Elite Hex Spell. Interrupt a spell or a chant. Interruption effect: steal {{EnergyStolen}} Energy whenever target foe casts a spell (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2266,7 +2266,7 @@ VALUES
   ),
   (
     'Power Lock',
-    '',
+    'https://wiki.guildwars.com/images/b/b2/Power_Lock_%28large%29.jpg',
     'Spell. Interrupts a spell or chant. Interruption effect: interrupted spell or chant is disabled for +{{DisableDuration}} seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2286,7 +2286,7 @@ VALUES
   ),
   (
     'Power Return',
-    '',
+    'https://wiki.guildwars.com/images/d/dc/Power_Return_%28large%29.jpg',
     'Spell. Interrupts a spell or chant. Interruption effect: target foe gains {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2306,7 +2306,7 @@ VALUES
   ),
   (
     'Power Spike',
-    '',
+    'https://wiki.guildwars.com/images/9/92/Power_Spike_%28large%29.jpg',
     'Spell. Interrupts a spell or chant. Interruption effect: deals {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2326,7 +2326,7 @@ VALUES
   ),
   (
     'Price of Pride',
-    '',
+    'https://wiki.guildwars.com/images/f/fd/Price_of_Pride_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes {{EnergyLoss}} Energy loss the next time target foe uses an elite skill.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2346,7 +2346,7 @@ VALUES
   ),
   (
     'Psychic Distraction',
-    '',
+    'https://wiki.guildwars.com/images/a/a7/Psychic_Distraction_%28large%29.jpg',
     'Elite Spell. Interrupts a skill. Interruption effect: disables interrupted skill (+{{Duration}} seconds). Your other skills are disabled (8 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2366,7 +2366,7 @@ VALUES
   ),
   (
     'Psychic Instability',
-    '',
+    'https://wiki.guildwars.com/images/f/fe/Psychic_Instability_%28large%29.jpg',
     'Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, cause knockdown for {{Duration}} seconds on target foe and all nearby foes. 50% failure chance unless Fast Casting 5 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2386,7 +2386,7 @@ VALUES
   ),
   (
     'Psychic Instability (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/f/fe/Psychic_Instability_%28large%29.jpg',
     'Elite Spell. Interrupts an action. Interruption effect: if the action is a skill, causes knockdown for {{Duration}} seconds on target foe and all adjacent foes. 50% failure chance unless Fast Casting 5 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2406,7 +2406,7 @@ VALUES
   ),
   (
     'Recurring Insecurity',
-    '',
+    'https://wiki.guildwars.com/images/a/aa/Recurring_Insecurity_%28large%29.jpg',
     'Elite Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2426,7 +2426,7 @@ VALUES
   ),
   (
     'Revealed Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/8/8f/Revealed_Enchantment_%28large%29.jpg',
     'Spell. Removes an enchantment from target foe. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that enchantment (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2446,7 +2446,7 @@ VALUES
   ),
   (
     'Revealed Hex',
-    '',
+    'https://wiki.guildwars.com/images/4/40/Revealed_Hex_%28large%29.jpg',
     'Spell. Removes a hex from target ally. Removal effects: you gain {{EnergyGain}} Energy; this spell is replaced with that hex (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2466,7 +2466,7 @@ VALUES
   ),
   (
     'Shame',
-    '',
+    'https://wiki.guildwars.com/images/a/a6/Shame_%28large%29.jpg',
     'Hex Spell. (6 seconds.) Target foe''s next spell fails and you steal {{EnergyStolen}} Energy. No effect unless this foe''s spell targeted one of its allies.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2486,7 +2486,7 @@ VALUES
   ),
   (
     'Shared Burden',
-    '',
+    'https://wiki.guildwars.com/images/4/48/Shared_Burden_%28large%29.jpg',
     'Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 50% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2506,7 +2506,7 @@ VALUES
   ),
   (
     'Shared Burden (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/4/48/Shared_Burden_%28large%29.jpg',
     'Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 33% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2526,7 +2526,7 @@ VALUES
   ),
   (
     'Shatter Delusions',
-    '',
+    'https://wiki.guildwars.com/images/d/d1/Shatter_Delusions_%28large%29.jpg',
     'Spell. Removes a Mesmer hex from target foe. Removal effect: {{Damage}} damage to target and all adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2546,7 +2546,7 @@ VALUES
   ),
   (
     'Shatter Delusions (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/d/d1/Shatter_Delusions_%28large%29.jpg',
     'Spell. Removes a Mesmer hex from target foe. Removal effect: {{Damage}} damage to target and all adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2566,7 +2566,7 @@ VALUES
   ),
   (
     'Shatter Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/1/19/Shatter_Enchantment_%28large%29.jpg',
     'Spell. Removes an enchantment from target foe. Removal effect: deals {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2586,7 +2586,7 @@ VALUES
   ),
   (
     'Shatter Hex',
-    '',
+    'https://wiki.guildwars.com/images/3/3f/Shatter_Hex_%28large%29.jpg',
     'Spell. Removes a hex from target ally. Removal effect: deals {{Damage}} damage to foes near this ally.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2606,7 +2606,7 @@ VALUES
   ),
   (
     'Shatter Storm',
-    '',
+    'https://wiki.guildwars.com/images/9/93/Shatter_Storm_%28large%29.jpg',
     'Elite Spell. Removes all enchantments. Removal cost: Shatter Storm is disabled for +7 seconds for each enchantment removed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2626,7 +2626,7 @@ VALUES
   ),
   (
     'Shrinking Armor',
-    '',
+    'https://wiki.guildwars.com/images/7/7f/Shrinking_Armor_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. End effect: inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2646,7 +2646,7 @@ VALUES
   ),
   (
     'Signet of Clumsiness',
-    '',
+    'https://wiki.guildwars.com/images/1/14/Signet_of_Clumsiness_%28large%29.jpg',
     'Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals {{Damage}} damage; knocks down foes using attack skills.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2666,7 +2666,7 @@ VALUES
   ),
   (
     'Signet of Clumsiness (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/1/14/Signet_of_Clumsiness_%28large%29.jpg',
     'Signet. Interrupts an attack for target foe and all adjacent foes. Interruption effect: deals {{Damage}} damage; knocks down foes using attack skills.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2686,7 +2686,7 @@ VALUES
   ),
   (
     'Signet of Disenchantment',
-    '',
+    'https://wiki.guildwars.com/images/7/76/Signet_of_Disenchantment_%28large%29.jpg',
     'Signet. Removes one enchantment. You lose all Energy.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2706,7 +2706,7 @@ VALUES
   ),
   (
     'Signet of Disruption',
-    '',
+    'https://wiki.guildwars.com/images/c/c0/Signet_of_Disruption_%28large%29.jpg',
     'Signet. Interrupts a spell. Can interrupt any skill if target foe is hexed. Interruption effect: deals {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2726,7 +2726,7 @@ VALUES
   ),
   (
     'Signet of Distraction',
-    '',
+    'https://wiki.guildwars.com/images/d/d5/Signet_of_Distraction_%28large%29.jpg',
     'Signet. Interrupts a spell. Interruption effect: target foe''s spell is disabled for {{DisabledDuration}} seconds for each signet you have equipped.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2746,7 +2746,7 @@ VALUES
   ),
   (
     'Signet of Humility',
-    '',
+    'https://wiki.guildwars.com/images/5/56/Signet_of_Humility_%28large%29.jpg',
     'Signet. Disables elite skill ({{Duration}} second[s]). Disables your non-Mesmer skills (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2766,7 +2766,7 @@ VALUES
   ),
   (
     'Signet of Illusions',
-    '',
+    'https://wiki.guildwars.com/images/b/bf/Signet_of_Illusions_%28large%29.jpg',
     'Elite Signet. Your next {{Spells}} spell[s] use your Illusion attribute instead of its normal attribute.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2786,7 +2786,7 @@ VALUES
   ),
   (
     'Signet of Midnight',
-    '',
+    'https://wiki.guildwars.com/images/e/e2/Signet_of_Midnight_%28large%29.jpg',
     'Elite Touch Signet. (15 seconds.) Inflicts Blindness condition. You suffer from Blindness (15 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2806,7 +2806,7 @@ VALUES
   ),
   (
     'Signet of Recall',
-    '',
+    'https://wiki.guildwars.com/images/a/a5/Signet_of_Recall_%28large%29.jpg',
     'Signet. (10 seconds.) You have -4 Energy regeneration. End effect: you gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2826,7 +2826,7 @@ VALUES
   ),
   (
     'Signet of Weariness',
-    '',
+    'https://wiki.guildwars.com/images/2/20/Signet_of_Weariness_%28large%29.jpg',
     'Signet. Also affects foes near your target. Causes {{EnergyLoss}} Energy loss and inflicts Weakness ({{WeaknessDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2846,7 +2846,7 @@ VALUES
   ),
   (
     'Simple Thievery',
-    '',
+    'https://wiki.guildwars.com/images/7/7a/Simple_Thievery_%28large%29.jpg',
     'Elite Spell. Interrupts an action. Interruption effect: If a skill was interrupted, that skill is disabled and Simple Thievery becomes that skill ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2866,7 +2866,7 @@ VALUES
   ),
   (
     'Soothing Images',
-    '',
+    'https://wiki.guildwars.com/images/d/d2/Soothing_Images_%28large%29.jpg',
     'Hex Spell. Also hexes foe adjacent to target. ({{Duration}} seconds). These foes cannot gain adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2886,7 +2886,7 @@ VALUES
   ),
   (
     'Spirit Shackles',
-    '',
+    'https://wiki.guildwars.com/images/0/00/Spirit_Shackles_%28large%29.jpg',
     'Hex Spell. ({{Duration}}). Target foe loses 5 Energy whenever it attacks.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2906,7 +2906,7 @@ VALUES
   ),
   (
     'Spirit of Failure',
-    '',
+    'https://wiki.guildwars.com/images/2/22/Spirit_of_Failure_%28large%29.jpg',
     'Hex Spell. (30 seconds.) Target foe has 25% chance to miss. You gain {{EnergyGain}} Energy whenever this foe misses.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2926,7 +2926,7 @@ VALUES
   ),
   (
     'Spiritual Pain',
-    '',
+    'https://wiki.guildwars.com/images/d/d8/Spiritual_Pain_%28large%29.jpg',
     'Spell. Deals {{Damage}} damage. Deals {{DamageToSummonedCreatures}} damage to hostile summoned creatures in the area of your target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2946,7 +2946,7 @@ VALUES
   ),
   (
     'Spiritual Pain (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/d/d8/Spiritual_Pain_%28large%29.jpg',
     'Spell. Deals {{Damage}} damage. Deals {{DamageToSummonedCreatures}} damage to hostile summoned creatures in the area of your target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2966,7 +2966,7 @@ VALUES
   ),
   (
     'Stolen Speed',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Stolen_Speed_%28large%29.jpg',
     'Elite Hex Spell. Also hexes adjacent foes ({{Duration}} seconds). Doubles spell casting time. Spells cast by you or your allies have -50% casting times.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -2986,7 +2986,7 @@ VALUES
   ),
   (
     'Stolen Speed (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Stolen_Speed_%28large%29.jpg',
     'Elite Hex Spell. Also hexes adjacent foes ({{Duration}} second[s]). Doubles spell casting time. Spells you cast on hexed foes have -50% casting time.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3006,7 +3006,7 @@ VALUES
   ),
   (
     'Sum of All Fears',
-    '',
+    'https://wiki.guildwars.com/images/a/af/Sum_of_All_Fears_%28large%29.jpg',
     'Hex Spell. ({{Duration}} second[s].) Target foe moves, attacks, and casts spells 33% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3026,7 +3026,7 @@ VALUES
   ),
   (
     'Symbolic Celerity',
-    '',
+    'https://wiki.guildwars.com/images/c/c5/Symbolic_Celerity_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Your signets use your Fast Casting attribute.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3046,7 +3046,7 @@ VALUES
   ),
   (
     'Symbolic Posture',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Symbolic_Posture_%28large%29.jpg',
     'Stance. ({{Duration}} seconds.) Your next signet recharges {{FasterRechargePercent}}% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3066,7 +3066,7 @@ VALUES
   ),
   (
     'Symbols of Inspiration',
-    '',
+    'https://wiki.guildwars.com/images/a/a7/Symbols_of_Inspiration_%28large%29.jpg',
     'Elite Skill. ({{Duration}} seconds.) This skill becomes the Elite of target foe. Elite spells you cast use your Fast Casting attribute instead of their normal attributes.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3086,7 +3086,7 @@ VALUES
   ),
   (
     'Sympathetic Visage',
-    '',
+    'https://wiki.guildwars.com/images/8/86/Sympathetic_Visage_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) All adjacent foes lose all adrenaline and 3 Energy whenever a melee attack hits target ally.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3106,7 +3106,7 @@ VALUES
   ),
   (
     'Tease',
-    '',
+    'https://wiki.guildwars.com/images/8/82/Tease_%28large%29.jpg',
     'Elite Spell. Interrupts a skill. Interruption effect: also interrupts other foes in the area, and you steal {{EnergyStolen}} Energy from all foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3146,7 +3146,7 @@ VALUES
   ),
   (
     'Unnatural Signet',
-    '',
+    'https://wiki.guildwars.com/images/c/cd/Unnatural_Signet_%28large%29.jpg',
     'Signet. Deals {{Damage}} damage. Deals {{DamageToAdjacent}} damage to other adjacent foes if the target is hexed or enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3166,7 +3166,7 @@ VALUES
   ),
   (
     'Unnatural Signet (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/cd/Unnatural_Signet_%28large%29.jpg',
     'Signet. Deals {{Damage}} damage. Deals {{DamageToAdjacent}} damage to other adjacent foes if the target is hexed or enchanted. Your non-Mesmer skills except signets are disabled (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3186,7 +3186,7 @@ VALUES
   ),
   (
     'Visions of Regret',
-    '',
+    'https://wiki.guildwars.com/images/1/1c/Visions_of_Regret_%28large%29.jpg',
     'Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take {{Damage}} damage whenever they use a skill and {{ConditionalDamage}} additional damage if not under the effects of another Mesmer hex.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3206,7 +3206,7 @@ VALUES
   ),
   (
     'Visions of Regret (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/1/1c/Visions_of_Regret_%28large%29.jpg',
     'Elite Hex Spell. Also hexes foes adjacent to target (10 seconds). These foes take {{Damage}} damage whenever they use a skill and {{ConditionalDamage}} additional damage if not under the effects of another Mesmer hex.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3226,7 +3226,7 @@ VALUES
   ),
   (
     'Wandering Eye',
-    '',
+    'https://wiki.guildwars.com/images/a/a1/Wandering_Eye_%28large%29.jpg',
     'Hex Spell. (4 seconds.) Interrupts target foe''s next attack. Interruption effect: {{Damage}} damage to nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3246,7 +3246,7 @@ VALUES
   ),
   (
     'Wandering Eye (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/a/a1/Wandering_Eye_%28large%29.jpg',
     'Hex Spell. (4 seconds.) Interrupts target foe''s next attack. Interruption effect: {{Damage}} damage to nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3266,7 +3266,7 @@ VALUES
   ),
   (
     'Waste Not, Want Not',
-    '',
+    'https://wiki.guildwars.com/images/e/ec/Waste_Not%2C_Want_Not_%28large%29.jpg',
     'Spell. You gain {{EnergyGain}} Energy if target foe is not attacking or casting a spell.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3286,7 +3286,7 @@ VALUES
   ),
   (
     'Wastrel''s Demise',
-    '',
+    'https://wiki.guildwars.com/images/3/3d/Wastrel%27s_Demise_%28large%29.jpg',
     'Hex Spell. (5 seconds.) Each second while hexed, target foe and all foes adjacent to that foe take {{Damage}} damage. Foes take +{{PlusDamage}} damage each second this hex is in effect. Ends early if target foe uses a skill.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3306,7 +3306,7 @@ VALUES
   ),
   (
     'Wastrel''s Worry',
-    '',
+    'https://wiki.guildwars.com/images/4/4c/Wastrel%27s_Worry_%28large%29.jpg',
     'Hex Spell. (3 seconds). End effect: causes {{Damage}} damage to target and adjacent foes. No effect and ends early if target foe uses a skill.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3326,7 +3326,7 @@ VALUES
   ),
   (
     'Web of Disruption',
-    '',
+    'https://wiki.guildwars.com/images/1/11/Web_of_Disruption_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),
@@ -3346,7 +3346,7 @@ VALUES
   ),
   (
     'Web of Disruption (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/1/11/Web_of_Disruption_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Initial effect: interrupts a skill. End effect: interrupts a skill.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Mesmer'),

@@ -1,6 +1,6 @@
 -- Seed insignias
 -- Auto-generated from data/insignias.json
--- Generated: 2025-11-17T05:10:24.845Z
+-- Generated: 2025-11-17T07:36:05.802Z
 -- Total insignias: 45
 
 INSERT INTO insignias (name, profession_id, requirements, effects, description, wiki_url, icon)

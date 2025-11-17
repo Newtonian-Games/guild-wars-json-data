@@ -1,6 +1,6 @@
 -- Seed releases
 -- Auto-generated from data/releases.json
--- Generated: 2025-11-17T05:10:24.789Z
+-- Generated: 2025-11-17T07:36:05.741Z
 -- Total releases: 8
 
 INSERT INTO releases (name, order_index, description)

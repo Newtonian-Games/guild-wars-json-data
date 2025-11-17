@@ -1,7 +1,7 @@
 [
   {
     "name": "Agony",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/43/Agony_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -122,7 +122,7 @@
   },
   {
     "name": "Agony (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/43/Agony_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -243,7 +243,7 @@
   },
   {
     "name": "Ancestors' Rage",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4e/Ancestors%27_Rage_%28large%29.jpg",
     "concise_description": "Skill. (1 second.) End Effect: deals {{LightningDamage}} lightning damage to foes adjacent to target ally.",
     "type": "Skill",
     "profession": "Ritualist",
@@ -292,7 +292,7 @@
   },
   {
     "name": "Ancestors' Rage (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4e/Ancestors%27_Rage_%28large%29.jpg",
     "concise_description": "Skill. (3 seconds.) Deals {{LightningDamage}} lightning damage to foes adjacent to target ally each second.",
     "type": "Skill",
     "profession": "Ritualist",
@@ -341,7 +341,7 @@
   },
   {
     "name": "Anguish",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/45/Anguish_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -438,7 +438,7 @@
   },
   {
     "name": "Anguish (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/45/Anguish_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -535,7 +535,7 @@
   },
   {
     "name": "Anguished Was Lingwah",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4d/Anguished_Was_Lingwah_%28large%29.jpg",
     "concise_description": "Item Spell. ({{ItemSpellDuration}} seconds.) Your Ritualist hexes cost {{LessEnergy}} less energy and last 33% longer. Drop effect: all your Ritualist hexes are recharged.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -608,7 +608,7 @@
   },
   {
     "name": "Armor of Unfeeling",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/a/a6/Armor_of_Unfeeling_%28large%29.jpg",
     "concise_description": "Skill. ({{Duration}} seconds.) Your spirits within earshot take 50% less damage and are immune to critical attacks.",
     "type": "Skill",
     "profession": "Ritualist",
@@ -657,7 +657,7 @@
   },
   {
     "name": "Armor of Unfeeling (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/a/a6/Armor_of_Unfeeling_%28large%29.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You have 10 base damage reduction while casting binding rituals.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -706,7 +706,7 @@
   },
   {
     "name": "Attuned Was Songkai",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/5/50/Attuned_Was_Songkai_%28large%29.jpg",
     "concise_description": "Elite Item Spell. (45 seconds.) Your spells and binding rituals cost -{{EnergyCostReductionPercent}}% of the base Energy.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -755,7 +755,7 @@
   },
   {
     "name": "Binding Chains",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/26/Binding_Chains_%28large%29.jpg",
     "concise_description": "Hex Spell. Also hexes foes near your target. (3 seconds.) These foes move 90% slower and takes {{DamageWhileMoving}} damage each second while moving.",
     "type": "Hex Spell",
     "profession": "Ritualist",
@@ -804,7 +804,7 @@
   },
   {
     "name": "Blind Was Mingson",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/8a/Blind_Was_Mingson_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) Drop effect: inflicts Blindness condition ({{BlindDuration}} seconds) on all nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -877,7 +877,7 @@
   },
   {
     "name": "Bloodsong",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4a/Bloodsong_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -974,7 +974,7 @@
   },
   {
     "name": "Bloodsong (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4a/Bloodsong_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -1071,7 +1071,7 @@
   },
   {
     "name": "Boon of Creation",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/3/37/Boon_of_Creation_%28large%29.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds.) You gain {{Healing}} Health and {{EnergyGain}} Energy whenever you create a creature.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -1168,7 +1168,7 @@
   },
   {
     "name": "Brutal Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/1f/Brutal_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks deal +{{PlusDamage}} damage. No effect while target ally is enchanted.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -1241,7 +1241,7 @@
   },
   {
     "name": "Caretaker's Charge",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/73/Caretaker%27s_Charge_%28large%29.jpg",
     "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage. You gain 5 Energy and {{HealthGain}} Health if you are holding an item.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -1314,7 +1314,7 @@
   },
   {
     "name": "Channeled Strike",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/da/Channeled_Strike_%28large%29.jpg",
     "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} additional lightning damage if you are holding an item.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -1387,7 +1387,7 @@
   },
   {
     "name": "Clamor of Souls",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/a/ae/Clamor_of_Souls_%28large%29.jpg",
     "concise_description": "Elite Spell. Deals {{LightningDamage}} lightning damage to target and nearby foes. You gain 10 Energy if you are within earshot of a spirit or holding a bundle item.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -1436,7 +1436,7 @@
   },
   {
     "name": "Consume Soul",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/f/fa/Consume_Soul_%28large%29.jpg",
     "concise_description": "Elite Spell. Steals {{LifeStealing}} Health. Deal {{Damage}} damage to hostile summoned creatures in the area of target foe.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -1509,7 +1509,7 @@
   },
   {
     "name": "Cruel Was Daoshen",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/0e/Cruel_Was_Daoshen_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -1582,7 +1582,7 @@
   },
   {
     "name": "Death Pact Signet",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/9f/Death_Pact_Signet_%28large%29.jpg",
     "concise_description": "Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -1631,7 +1631,7 @@
   },
   {
     "name": "Death Pact Signet (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/9f/Death_Pact_Signet_%28large%29.jpg",
     "concise_description": "Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -1680,7 +1680,7 @@
   },
   {
     "name": "Defiant Was Xinrae",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4d/Defiant_Was_Xinrae_%28large%29.jpg",
     "concise_description": "Elite Item Spell. ({{Duration}} seconds.) You cannot lose more than 20% of your max Health from a single hit. Drop effect: steal {{LifeStealing}} Health from nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -1753,7 +1753,7 @@
   },
   {
     "name": "Destruction",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/07/Destruction_%28large%29.jpg",
     "concise_description": "Binding Ritual. Create a level {{Level}} Spirit that dies after 30 seconds. When this Spirit dies, all foes in the area take {{LightningDamage}} damage for each second the Spirit was alive (maximum 150 damage).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -1826,7 +1826,7 @@
   },
   {
     "name": "Destruction (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/07/Destruction_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). On death, it deals {{LightningDamage}} damage for each second it was alive to all foes in the area (maximum 150 damage).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -1899,7 +1899,7 @@
   },
   {
     "name": "Destructive Was Glaive",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e9/Destructive_Was_Glaive_%28large%29.jpg",
     "concise_description": "Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 20% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -1972,7 +1972,7 @@
   },
   {
     "name": "Destructive Was Glaive (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e9/Destructive_Was_Glaive_%28large%29.jpg",
     "concise_description": "Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -2045,7 +2045,7 @@
   },
   {
     "name": "Disenchantment",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/79/Disenchantment_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2142,7 +2142,7 @@
   },
   {
     "name": "Disenchantment (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/79/Disenchantment_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2239,7 +2239,7 @@
   },
   {
     "name": "Displacement",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/7f/Displacement_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2336,7 +2336,7 @@
   },
   {
     "name": "Displacement (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/7f/Displacement_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2433,7 +2433,7 @@
   },
   {
     "name": "Dissonance",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/9e/Dissonance_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2530,7 +2530,7 @@
   },
   {
     "name": "Dissonance (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/9e/Dissonance_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2627,7 +2627,7 @@
   },
   {
     "name": "Doom",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/07/Doom_%28large%29.jpg",
     "concise_description": "Spell. Deals {{LightningDamage}} lightning damage (maximum 135) for each of your recharging binding rituals.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -2676,7 +2676,7 @@
   },
   {
     "name": "Draw Spirit",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/2c/Draw_Spirit_%28large%29.jpg",
     "concise_description": "Spell. Teleports target allied spirit to your location.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -2700,7 +2700,7 @@
   },
   {
     "name": "Dulled Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/b/b1/Dulled_Weapon_%28large%29.jpg",
     "concise_description": "Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). Removes ability to land a critical hit. Reduces damage by {{DamageReduction}}.",
     "type": "Hex Spell",
     "profession": "Ritualist",
@@ -2773,7 +2773,7 @@
   },
   {
     "name": "Earthbind",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e3/Earthbind_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2870,7 +2870,7 @@
   },
   {
     "name": "Earthbind (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e3/Earthbind_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -2967,7 +2967,7 @@
   },
   {
     "name": "Empowerment",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/d1/Empowerment_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -3064,7 +3064,7 @@
   },
   {
     "name": "Empowerment (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/d1/Empowerment_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -3161,7 +3161,7 @@
   },
   {
     "name": "Energetic Was Lee Sa",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/d4/Energetic_Was_Lee_Sa_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) You have +2 Energy regeneration. Drop effect: you gain +{{EnergyGainWhenDropped}} Energy.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -3282,7 +3282,7 @@
   },
   {
     "name": "Essence Strike",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/de/Essence_Strike_%28large%29.jpg",
     "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. You gain {{EnergyGain}} Energy if any spirits are within earshot.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -3355,7 +3355,7 @@
   },
   {
     "name": "Explosive Growth",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e8/Explosive_Growth_%28large%29.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Deals {{LightningDamage}} lightning damage each time you create a creature to 5 foes near that creature.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -3428,7 +3428,7 @@
   },
   {
     "name": "Feast of Souls",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/3/3c/Feast_of_Souls_%28large%29.jpg",
     "concise_description": "Spell. Heals all party members for {{Healing}} for each nearby allied spirit. All nearby allied spirits are destroyed.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -3477,7 +3477,7 @@
   },
   {
     "name": "Flesh of My Flesh",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/28/Flesh_of_My_Flesh_%28large%29.jpg",
     "concise_description": "Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -3526,7 +3526,7 @@
   },
   {
     "name": "Flesh of My Flesh (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/28/Flesh_of_My_Flesh_%28large%29.jpg",
     "concise_description": "Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -3575,7 +3575,7 @@
   },
   {
     "name": "Gaze from Beyond",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/29/Gaze_from_Beyond_%28large%29.jpg",
     "concise_description": "Spell. Deals {{Damage}} lightning damage. Inflicts Blindness condition for {{BlindDuration}} seconds if you are within earshot of a spirit.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -3648,7 +3648,7 @@
   },
   {
     "name": "Gaze of Fury",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/0a/Gaze_of_Fury_%28large%29.jpg",
     "concise_description": "Binding Ritual. Destroys a spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -3745,7 +3745,7 @@
   },
   {
     "name": "Gaze of Fury (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/0a/Gaze_of_Fury_%28large%29.jpg",
     "concise_description": "Binding Ritual. Destroys an allied spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -3842,7 +3842,7 @@
   },
   {
     "name": "Generous Was Tsungrai",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/24/Generous_Was_Tsungrai_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) You have +{{PlusMaxHealth}} maximum Health. Drop effect: you gain {{HealthGain}} Health.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -3939,7 +3939,7 @@
   },
   {
     "name": "Ghostly Haste",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/05/Ghostly_Haste_%28large%29.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Spells you cast recharge 25% faster. No effect unless you are within earshot of a spirit.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -3988,7 +3988,7 @@
   },
   {
     "name": "Ghostly Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/a/a1/Ghostly_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) Target ally's next attack is unblockable. Cannot self-target.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -4037,7 +4037,7 @@
   },
   {
     "name": "Ghostmirror Light",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/0d/Ghostmirror_Light_%28large%29.jpg",
     "concise_description": "Spell. Heals for {{OtherHeal}}. You gain {{SelfHeal}} Health if you are within earshot of a spirit. Cannot self-target.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -4110,7 +4110,7 @@
   },
   {
     "name": "Grasping Was Kuurong",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4a/Grasping_Was_Kuurong_%28large%29.jpg",
     "concise_description": "Elite Item Spell. ({{Duration}} seconds.) Drop effect: deal {{ArmorMinusIgnoringDamage}} damage and knocks-down all nearby foes.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -4183,7 +4183,7 @@
   },
   {
     "name": "Guided Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/a/a7/Guided_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks are unblockable.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -4232,7 +4232,7 @@
   },
   {
     "name": "Lamentation",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e9/Lamentation_%28large%29.jpg",
     "concise_description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Causes -{{HealthDegeneration}} Health degeneration. Initial effect: Deals {{ArmorMinusIgnoringDamage}} damage to these foes if you are within earshot of a spirit or corpse.",
     "type": "Hex Spell",
     "profession": "Ritualist",
@@ -4329,7 +4329,7 @@
   },
   {
     "name": "Life",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/77/Life_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -4402,7 +4402,7 @@
   },
   {
     "name": "Life (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/77/Life_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -4475,7 +4475,7 @@
   },
   {
     "name": "Lively Was Naomei",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/1b/Lively_Was_Naomei_%28large%29.jpg",
     "concise_description": "Item Spell. (45 seconds.) Drop effect: resurrects party members in the area ({{PercentHealth}}% Health and zero Energy).",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -4524,7 +4524,7 @@
   },
   {
     "name": "Mend Body and Soul",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/27/Mend_Body_and_Soul_%28large%29.jpg",
     "concise_description": "Spell. Heals for {{Healing}}. Removes one condition for each spirit within earshot.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -4573,7 +4573,7 @@
   },
   {
     "name": "Mending Grip",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/f/f5/Mending_Grip_%28large%29.jpg",
     "concise_description": "Spell. Heals for {{Healing}}. Removes one condition if target ally is under a Weapon [sic] spell.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -4622,7 +4622,7 @@
   },
   {
     "name": "Mighty Was Vorizun",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e0/Mighty_Was_Vorizun_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) You have +15 armor and +30 maximum Energy.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -4671,7 +4671,7 @@
   },
   {
     "name": "Nightmare Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/0d/Nightmare_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. (12 seconds.) Target ally's attacks steal {{LifeStealing}} Health but deal {{DamageReduction}} less damage. Ends after 3 attacks.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -4744,7 +4744,7 @@
   },
   {
     "name": "Offering of Spirit",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/b/bd/Offering_of_Spirit_%28large%29.jpg",
     "concise_description": "Elite Spell. You gain {{EnergyGain}} Energy. You do not sacrifice Health if any spirits are within earshot.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -4793,7 +4793,7 @@
   },
   {
     "name": "Pain",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/03/Pain_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -4890,7 +4890,7 @@
   },
   {
     "name": "Pain (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/03/Pain_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -4987,7 +4987,7 @@
   },
   {
     "name": "Painful Bond",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/f/fb/Painful_Bond_%28large%29.jpg",
     "concise_description": "Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Spirits do {{Damage}} more damage against these foes.",
     "type": "Hex Spell",
     "profession": "Ritualist",
@@ -5060,7 +5060,7 @@
   },
   {
     "name": "Preservation",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/98/Preservation_%28large%29.jpg",
     "concise_description": "Elite Binding Ritual. Creates a level {{Level}} spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5133,7 +5133,7 @@
   },
   {
     "name": "Preservation (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/98/Preservation_%28large%29.jpg",
     "concise_description": "Elite Binding Ritual. Creates a level {{Level}} Spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5206,7 +5206,7 @@
   },
   {
     "name": "Protective Was Kaolai",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/9a/Protective_Was_Kaolai_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) You have +10 armor. Drop effect: all party members are healed for {{Healing}}.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -5279,7 +5279,7 @@
   },
   {
     "name": "Pure Was Li Ming",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/6/64/Pure_Was_Li_Ming_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) Conditions on you expire {{ConditionDurationReductionPercent}}% faster. Drop effect: removes {{ConditionsRemoved}} condition[s] from allies in earshot.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -5376,7 +5376,7 @@
   },
   {
     "name": "Reclaim Essence",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/d5/Reclaim_Essence_%28large%29.jpg",
     "concise_description": "Elite Spell. All of your Spirits die. If a Spirit dies in this way, you gain {{EnergyGain}} Energy and all of your Binding Rituals are recharged.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -5425,7 +5425,7 @@
   },
   {
     "name": "Recovery",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/02/Recovery_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5522,7 +5522,7 @@
   },
   {
     "name": "Recovery (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/02/Recovery_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5619,7 +5619,7 @@
   },
   {
     "name": "Recuperation",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/f/fc/Recuperation_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5716,7 +5716,7 @@
   },
   {
     "name": "Recuperation (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/f/fc/Recuperation_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5813,7 +5813,7 @@
   },
   {
     "name": "Rejuvenation",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/b/b5/Rejuvenation_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5837,7 +5837,7 @@
   },
   {
     "name": "Rejuvenation (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/b/b5/Rejuvenation_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -5861,7 +5861,7 @@
   },
   {
     "name": "Renewing Memories",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/8f/Renewing_Memories_%28large%29.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your weapon and item spells cost {{EnergyReductionPercent}}% less Energy. No effect unless holding an item.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -5934,7 +5934,7 @@
   },
   {
     "name": "Renewing Surge",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/90/Renewing_Surge_%28large%29.jpg",
     "concise_description": "Hex Spell. (8 seconds.) Deals {{DamagePerSecond}} damage each second. End effect: You gain {{EnergyGain}} energy.",
     "type": "Hex Spell",
     "profession": "Ritualist",
@@ -6007,7 +6007,7 @@
   },
   {
     "name": "Resilient Was Xiko",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4e/Resilient_Was_Xiko_%28large%29.jpg",
     "concise_description": "Item Spell. ({{Duration}} seconds.) You have +3 Health regeneration for each hex or condition on you. Drop effect: you lose {{ConditionsLost}} condition[s].",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -6080,7 +6080,7 @@
   },
   {
     "name": "Resilient Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/a/ae/Resilient_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration and +24 armor. No effect unless target ally is hexed or has a condition.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -6153,7 +6153,7 @@
   },
   {
     "name": "Restoration",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/3/31/Restoration_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -6226,7 +6226,7 @@
   },
   {
     "name": "Restoration (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/3/31/Restoration_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -6299,7 +6299,7 @@
   },
   {
     "name": "Ritual Lord",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/0d/Ritual_Lord_%28large%29.jpg",
     "concise_description": "Elite Skill. ({{Duration}} seconds.) You have +{{AttributeBoost}} to all Ritualist attributes for your next skill. If that skill is a Binding Ritual, it recharges {{PercentFasterRecharge}}% faster and Ritual Lord recharges instantly.",
     "type": "Skill",
     "profession": "Ritualist",
@@ -6396,7 +6396,7 @@
   },
   {
     "name": "Rupture Soul",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/c/c7/Rupture_Soul_%28large%29.jpg",
     "concise_description": "Spell. Destroys target allied spirit. Deals {{LightningDamage}} lightning damage and inflicts Blindness condition ({{BlindDuration}} seconds) to nearby foes.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -6469,7 +6469,7 @@
   },
   {
     "name": "Shadowsong",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/18/Shadowsong_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -6566,7 +6566,7 @@
   },
   {
     "name": "Shadowsong (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/18/Shadowsong_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -6663,7 +6663,7 @@
   },
   {
     "name": "Shelter",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/77/Shelter_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -6760,7 +6760,7 @@
   },
   {
     "name": "Shelter (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/77/Shelter_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -6857,7 +6857,7 @@
   },
   {
     "name": "Sight Beyond Sight",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/a/af/Sight_Beyond_Sight_%28large%29.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds). You are immune to Blindness.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -6906,7 +6906,7 @@
   },
   {
     "name": "Signet of Binding",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/f/fd/Signet_of_Binding_%28large%29.jpg",
     "concise_description": "Signet. You lose {{HealthLoss}} Health. Gain control of target enemy-controlled spirit. 50% failure chance unless Spawning Power 5 or more.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -6955,7 +6955,7 @@
   },
   {
     "name": "Signet of Creation",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/14/Signet_of_Creation_%28large%29.jpg",
     "concise_description": "Signet. Gain 4 Energy (maximum {{MaxEnergyGained}} Energy) for each summoned creature you control within earshot.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -7004,7 +7004,7 @@
   },
   {
     "name": "Signet of Ghostly Might",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/18/Signet_of_Ghostly_Might_%28large%29.jpg",
     "concise_description": "Elite Signet. ({{Duration}} seconds.) All spirits you control within earshot attack 33% faster and deal +{{PlusDamage}} damage.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -7077,7 +7077,7 @@
   },
   {
     "name": "Signet of Ghostly Might (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/18/Signet_of_Ghostly_Might_%28large%29.jpg",
     "concise_description": "Elite Signet. Target allied summoned creature deals +{{PlusDamage}} damage. That creature is destroyed after 10 seconds.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -7126,7 +7126,7 @@
   },
   {
     "name": "Signet of Spirits",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/91/Signet_of_Spirits_%28large%29.jpg",
     "concise_description": "Elite Signet. Creates 3 level {{Level}} spirits (60 second lifespan). These spirits deal {{Damage}} damage with attacks.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -7199,7 +7199,7 @@
   },
   {
     "name": "Signet of Spirits (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/91/Signet_of_Spirits_%28large%29.jpg",
     "concise_description": "Elite Signet. You gain {{EnergyGain}} Energy. No effect unless you are within earshot of a spirit.",
     "type": "Signet",
     "profession": "Ritualist",
@@ -7248,7 +7248,7 @@
   },
   {
     "name": "Soothing",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/6/6b/Soothing_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -7321,7 +7321,7 @@
   },
   {
     "name": "Soothing (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/6/6b/Soothing_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -7394,7 +7394,7 @@
   },
   {
     "name": "Soothing Memories",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/9/9e/Soothing_Memories_%28large%29.jpg",
     "concise_description": "Spell. Heals for {{Healing}}. You gain 3 Energy if you are holding an item.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -7443,7 +7443,7 @@
   },
   {
     "name": "Soul Twisting",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/18/Soul_Twisting_%28large%29.jpg",
     "concise_description": "Elite Skill. ({{Duration}} seconds.) Your Binding Rituals cost 15 less Energy (minimum 10) and recharge instantly. Ends after {{BindingRituals}} Binding Ritual[s].",
     "type": "Skill",
     "profession": "Ritualist",
@@ -7516,7 +7516,7 @@
   },
   {
     "name": "Spirit Boon Strike",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/ef/Spirit_Boon_Strike_%28large%29.jpg",
     "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Spirits you control within earshot gain {{LightningDamage}} Health.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -7589,7 +7589,7 @@
   },
   {
     "name": "Spirit Burn",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/89/Spirit_Burn_%28large%29.jpg",
     "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Inflicts Burning condition ({{BurningDuration}} second[s]) if you are within earshot of a spirit.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -7662,7 +7662,7 @@
   },
   {
     "name": "Spirit Channeling",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/ea/Spirit_Channeling_%28large%29.jpg",
     "concise_description": "Elite Enchantment Spell. (12 seconds.) You have +{{EnergyRegeneration}} Energy regeneration. Initial effect: you gain {{EnergyGain}} Energy if you are within earshot of a spirit.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -7735,7 +7735,7 @@
   },
   {
     "name": "Spirit Light",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/f/fa/Spirit_Light_%28large%29.jpg",
     "concise_description": "Spell. Heals for {{Healing}}. You don't sacrifice Health if you are within earshot of any spirits.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -7784,7 +7784,7 @@
   },
   {
     "name": "Spirit Light Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/8c/Spirit_Light_Weapon_%28large%29.jpg",
     "concise_description": "Elite Weapon Spell. (10 seconds.) Target ally gains {{HealthGainPerSecond}} Health each second. {{AdditionalHealthGainPerSecond}} more healing per second while within earshot of a spirit.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -7857,7 +7857,7 @@
   },
   {
     "name": "Spirit Rift",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/5/55/Spirit_Rift_%28large%29.jpg",
     "concise_description": "Spell. After 3 seconds, affects foes adjacent to target's initial location. Deals {{LightningDamage}} lightning damage and inflicts Cracked Armor ({{CrackedArmorDuration}} second[s]).",
     "type": "Spell",
     "profession": "Ritualist",
@@ -7930,7 +7930,7 @@
   },
   {
     "name": "Spirit Siphon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/d3/Spirit_Siphon_%28large%29.jpg",
     "concise_description": "Spell. The spirit nearest you loses all Energy. You gain {{PercentEnergy}}% of that Energy.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -8003,7 +8003,7 @@
   },
   {
     "name": "Spirit Transfer",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/8f/Spirit_Transfer_%28large%29.jpg",
     "concise_description": "Spell. The spirit nearest you loses {{SpiritHealthLoss}} Health. Heals target ally for 5 for each point of Health lost.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -8076,7 +8076,7 @@
   },
   {
     "name": "Spirit to Flesh",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/12/Spirit_to_Flesh_%28large%29.jpg",
     "concise_description": "Touch Spell. Destroys target touched allied spirit. Heals nearby allies for {{Healing}}.",
     "type": "Touch Spell",
     "profession": "Ritualist",
@@ -8125,7 +8125,7 @@
   },
   {
     "name": "Spirit's Gift",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/ef/Spirit%27s_Gift_%28large%29.jpg",
     "concise_description": "Enchantment Spell. (60 seconds.) Whenever you create a creature, all nearby allies gain {{HealthGain}} Health and lose one condition.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -8174,7 +8174,7 @@
   },
   {
     "name": "Spirit's Strength",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/84/Spirit%27s_Strength_%28large%29.jpg",
     "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Your attacks deal +{{PlusDamage}} damage if you are under a weapon spell.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -8247,7 +8247,7 @@
   },
   {
     "name": "Spiritleech Aura",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/5/58/Spiritleech_Aura_%28large%29.jpg",
     "concise_description": "Skill. ({{Duration}} seconds.) All of your spirits within earshot deal {{DamageConvertedToLifeStealing}} less damage and steal {{DamageConvertedToLifeStealing}} Health when they attack.",
     "type": "Skill",
     "profession": "Ritualist",
@@ -8320,7 +8320,7 @@
   },
   {
     "name": "Splinter Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/3/3d/Splinter_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -8393,7 +8393,7 @@
   },
   {
     "name": "Splinter Weapon (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/3/3d/Splinter_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -8466,7 +8466,7 @@
   },
   {
     "name": "Summon Spirits",
-    "icon": "",
+    "icon": null,
     "concise_description": "Spell. Spirits you control Shadow Step to your location and gain {{HealthGain}} Health.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -8506,7 +8506,7 @@
   },
   {
     "name": "Sundering Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/6/6d/Sundering_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) Target ally's next 3 attacks inflict Cracked Armor condition ({{CrackedArmorDuration}} seconds) and have 10% armor penetration.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -8579,7 +8579,7 @@
   },
   {
     "name": "Tranquil Was Tanasen",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e8/Tranquil_Was_Tanasen_%28large%29.jpg",
     "concise_description": "Elite Item Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor. You cannot be interrupted.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -8652,7 +8652,7 @@
   },
   {
     "name": "Union",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/b/b7/Union_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -8725,7 +8725,7 @@
   },
   {
     "name": "Union (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/b/b7/Union_%28large%29.jpg",
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, that damage is reduced by 15 and the spirit takes 15 damage.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -8798,7 +8798,7 @@
   },
   {
     "name": "Vampirism",
-    "icon": "",
+    "icon": null,
     "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (lifespan {{Duration}} seconds). Its attacks steal {{LifeStealing}} Health, and you are healed for {{Healing}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -8875,7 +8875,7 @@
   },
   {
     "name": "Vengeful Was Khanhei",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/de/Vengeful_Was_Khanhei_%28large%29.jpg",
     "concise_description": "Elite Item Spell. ({{Duration}} seconds.) You steal {{LifeStealing}} Health from every foe that hits you with an attack.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -8948,7 +8948,7 @@
   },
   {
     "name": "Vengeful Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/4/4e/Vengeful_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. (8 seconds.) Steals {{LifeStealing}} Health from the next foe that deals damage or life steal to target ally.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -8997,7 +8997,7 @@
   },
   {
     "name": "Vital Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/c/c0/Vital_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{PlusMaxHealth}} maximum Health.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9070,7 +9070,7 @@
   },
   {
     "name": "Vocal Was Sogolon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/5/55/Vocal_Was_Sogolon_%28large%29.jpg",
     "concise_description": "Item Spell. (60 seconds.) Shouts and chants you use last {{PercentLonger}}% longer.",
     "type": "Item Spell",
     "profession": "Ritualist",
@@ -9119,7 +9119,7 @@
   },
   {
     "name": "Wailing Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/84/Wailing_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks interrupt attacking foes.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9168,7 +9168,7 @@
   },
   {
     "name": "Wanderlust",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/88/Wanderlust_%28large%29.jpg",
     "concise_description": "Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -9265,7 +9265,7 @@
   },
   {
     "name": "Wanderlust (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/88/Wanderlust_%28large%29.jpg",
     "concise_description": "Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.",
     "type": "Binding Ritual",
     "profession": "Ritualist",
@@ -9362,7 +9362,7 @@
   },
   {
     "name": "Warmonger's Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/2/20/Warmonger%27s_Weapon_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) Attacks interrupt an action. Does not interrupt attacking foes.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9411,7 +9411,7 @@
   },
   {
     "name": "Weapon of Aggression",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/c/c3/Weapon_of_Aggression_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) You attack 25% faster.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9460,7 +9460,7 @@
   },
   {
     "name": "Weapon of Fury",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/7/70/Weapon_of_Fury_%28large%29.jpg",
     "concise_description": "Elite Weapon Spell. ({{Duration}} seconds.) {{MoreAdrenalineGainPercent}}% more adrenaline gain and +1 Energy whenever target ally hits with an attack.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9533,7 +9533,7 @@
   },
   {
     "name": "Weapon of Quickening",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/d/d8/Weapon_of_Quickening_%28large%29.jpg",
     "concise_description": "Elite Weapon Spell. ({{Duration}} seconds.) Spells and binding rituals recharge 33% faster.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9582,7 +9582,7 @@
   },
   {
     "name": "Weapon of Remedy",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/c/c2/Weapon_of_Remedy_%28large%29.jpg",
     "concise_description": "Elite Weapon Spell. (8 seconds.) The next time target ally takes damage or life steal from a foe, this ally steals {{LifeStealing}} Health from that foe and loses 1 condition.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9631,7 +9631,7 @@
   },
   {
     "name": "Weapon of Renewal",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/e/e0/Weapon_of_Renewal_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) Target ally gains {{EnergyGain}} Energy the next time this ally hits with an attack skill.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9704,7 +9704,7 @@
   },
   {
     "name": "Weapon of Shadow",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/0/00/Weapon_of_Shadow_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} second[s].) Inflicts Blindness condition (5 seconds) on anyone who attacks target ally. Target ally's next {{Attacks}} attack[s] inflict Blindness (5 seconds) if they hit.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9777,7 +9777,7 @@
   },
   {
     "name": "Weapon of Warding",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/5/58/Weapon_of_Warding_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9850,7 +9850,7 @@
   },
   {
     "name": "Weapon of Warding (PvP)",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/5/58/Weapon_of_Warding_%28large%29.jpg",
     "concise_description": "Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block. Ends if target ally attacks.",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9923,7 +9923,7 @@
   },
   {
     "name": "Weapons of Three Forges",
-    "icon": "",
+    "icon": null,
     "concise_description": "Elite Weapon Spell. ({{Duration}} seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill",
     "type": "Weapon Spell",
     "profession": "Ritualist",
@@ -9972,7 +9972,7 @@
   },
   {
     "name": "Wielder's Boon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/3/3b/Wielder%27s_Boon_%28large%29.jpg",
     "concise_description": "Spell. Heals for {{Healing}}. Heals for {{AdditionalHealing}} more if this ally is under a Weapon [sic] spell.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -10069,7 +10069,7 @@
   },
   {
     "name": "Wielder's Remedy",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/8/8a/Wielder%27s_Remedy_%28large%29.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Whenever you cast a weapon spell, the targeted ally loses one condition.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -10118,7 +10118,7 @@
   },
   {
     "name": "Wielder's Strike",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/b/b9/Wielder%27s_Strike_%28large%29.jpg",
     "concise_description": "Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} more lightning damage if you are under a weapon spell.",
     "type": "Spell",
     "profession": "Ritualist",
@@ -10191,7 +10191,7 @@
   },
   {
     "name": "Wielder's Zeal",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/1/1b/Wielder%27s_Zeal_%28large%29.jpg",
     "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) You gain {{EnergyGain}} Energy whenever you cast a weapon spell.",
     "type": "Enchantment Spell",
     "profession": "Ritualist",
@@ -10264,7 +10264,7 @@
   },
   {
     "name": "Xinrae's Weapon",
-    "icon": "",
+    "icon": "https://wiki.guildwars.com/images/5/51/Xinrae%27s_Weapon_%28large%29.jpg",
     "concise_description": "Elite Weapon Spell. (8 seconds). The next time target ally takes damage from a foe, that damage is limited to 5% of target ally's max Health and that ally steals {{LifeStealing}} Health from that foe.",
     "type": "Weapon Spell",
     "profession": "Ritualist",

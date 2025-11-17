@@ -4,6 +4,7 @@ CREATE TABLE professions (
   name text NOT NULL UNIQUE,
   abbreviation text NOT NULL UNIQUE,
   icon text NOT NULL,
+  armor_bonuses jsonb DEFAULT '{}'::jsonb, -- Stores all possible armor bonuses (UpperCamelCase keys)
   created_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now())),
   updated_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now()))
 );
@@ -14,6 +15,7 @@ CREATE TABLE attributes (
   name text,
   profession_id uuid REFERENCES professions(id) ON DELETE CASCADE,
   is_primary boolean NOT NULL DEFAULT false,
+  inherent_effects jsonb DEFAULT '{}'::jsonb, -- Stores primary attribute effects (e.g., crit chance, UpperCamelCase keys)
   created_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now())),
   updated_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now())),
   UNIQUE(name, profession_id)

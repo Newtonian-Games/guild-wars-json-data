@@ -1,6 +1,6 @@
 -- Seed necromancer skills
 -- Auto-generated from data/skills/necromancer.json
--- Generated: 2025-11-17T05:10:24.823Z
+-- Generated: 2025-11-17T07:36:05.777Z
 -- Total skills: 153
 
 INSERT INTO skills (
@@ -26,7 +26,7 @@ INSERT INTO skills (
 VALUES
   (
     'Angorodon''s Gaze',
-    '',
+    'https://wiki.guildwars.com/images/e/e1/Angorodon%27s_Gaze_%28large%29.jpg',
     'Spell. Steals {{LifeStealing}} Health. You gain {{EnergyGain}} Energy if you have a condition.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -46,7 +46,7 @@ VALUES
   ),
   (
     'Animate Bone Fiend',
-    '',
+    'https://wiki.guildwars.com/images/b/bd/Animate_Bone_Fiend_%28large%29.jpg',
     'Spell. Creates a level {{Level}} bone fiend that can attack at range. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -66,7 +66,7 @@ VALUES
   ),
   (
     'Animate Bone Horror',
-    '',
+    'https://wiki.guildwars.com/images/a/af/Animate_Bone_Horror_%28large%29.jpg',
     'Spell. Creates a level {{Level}} bone horror. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -86,7 +86,7 @@ VALUES
   ),
   (
     'Animate Bone Minions',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Animate_Bone_Minions_%28large%29.jpg',
     'Spell. Creates two level {{Level}} bone minions. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -106,7 +106,7 @@ VALUES
   ),
   (
     'Animate Flesh Golem',
-    '',
+    'https://wiki.guildwars.com/images/f/f2/Animate_Flesh_Golem_%28large%29.jpg',
     'Elite Spell. Creates a level {{Level}} flesh golem which leaves a fresh corpse when it dies. Exploits a fresh corpse. You can have only one flesh golem at a time.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -126,7 +126,7 @@ VALUES
   ),
   (
     'Animate Shambling Horror',
-    '',
+    'https://wiki.guildwars.com/images/a/a0/Animate_Shambling_Horror_%28large%29.jpg',
     'Spell. Creates a level {{ShamblingHorrorLevel}} shambling horror. When the shambling horror dies, it is replaced by a level {{JaggedHorrorLevel}} jagged horror that causes Bleeding with each of its attacks. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -146,7 +146,7 @@ VALUES
   ),
   (
     'Animate Vampiric Horror',
-    '',
+    'https://wiki.guildwars.com/images/3/35/Animate_Vampiric_Horror_%28large%29.jpg',
     'Spell. Creates a level {{Level}} vampiric horror. You gain Health equal to the damage it deals. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -166,7 +166,7 @@ VALUES
   ),
   (
     'Atrophy',
-    '',
+    'https://wiki.guildwars.com/images/6/6c/Atrophy_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Reduces this foe''s primary attribute to 0.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -186,7 +186,7 @@ VALUES
   ),
   (
     'Aura of the Lich',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Aura_of_the_Lich_%28large%29.jpg',
     'Elite Enchantment Spell. Exploit all corpses in earshot. Animates a level {{Level}} bone horror, plus one for each exploited corpse. You have +1 Death Magic ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -206,7 +206,7 @@ VALUES
   ),
   (
     'Awaken the Blood',
-    '',
+    'https://wiki.guildwars.com/images/5/5e/Awaken_the_Blood_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have +2 Blood Magic and Curses. Sacrifice 50% more Health than normal.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -226,7 +226,7 @@ VALUES
   ),
   (
     'Barbed Signet',
-    '',
+    'https://wiki.guildwars.com/images/8/8c/Barbed_Signet_%28large%29.jpg',
     'Signet. Target and adjacent foes suffer from Bleeding ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -246,7 +246,7 @@ VALUES
   ),
   (
     'Barbs',
-    '',
+    'https://wiki.guildwars.com/images/8/85/Barbs_%28large%29.jpg',
     'Hex Spell. (30 seconds.) Target foe takes {{Damage}} damage whenever it takes physical damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -266,7 +266,7 @@ VALUES
   ),
   (
     'Bitter Chill',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Bitter_Chill_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. Recharges instantly if target foe had more Health than you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -286,7 +286,7 @@ VALUES
   ),
   (
     'Blood Bond',
-    '',
+    'https://wiki.guildwars.com/images/1/10/Blood_Bond_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). Allies hitting these foes gain {{HealthGain}} health. If any of these foes dies while hexed, adjacent allies are healed for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -306,7 +306,7 @@ VALUES
   ),
   (
     'Blood Drinker',
-    '',
+    'https://wiki.guildwars.com/images/9/99/Blood_Drinker_%28large%29.jpg',
     'Spell. Steals {{LifeStealing}} Health. You begin Bleeding (10 seconds) if your Health is above 50%.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -326,7 +326,7 @@ VALUES
   ),
   (
     'Blood Renewal',
-    '',
+    'https://wiki.guildwars.com/images/6/64/Blood_Renewal_%28large%29.jpg',
     'Enchantment Spell. (7 seconds.) You have +{{Regeneration}} Health regeneration. End effect: heals you for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -346,7 +346,7 @@ VALUES
   ),
   (
     'Blood Ritual',
-    '',
+    'https://wiki.guildwars.com/images/f/fd/Blood_Ritual_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) +3 Energy regeneration. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -366,7 +366,7 @@ VALUES
   ),
   (
     'Blood is Power',
-    '',
+    'https://wiki.guildwars.com/images/4/4f/Blood_is_Power_%28large%29.jpg',
     'Elite Enchantment Spell. (10 seconds.) +{{EnergyRegeneration}} Energy regeneration. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -386,7 +386,7 @@ VALUES
   ),
   (
     'Blood of the Aggressor',
-    '',
+    'https://wiki.guildwars.com/images/e/e2/Blood_of_the_Aggressor_%28large%29.jpg',
     'Spell. Steal {{LifeStealing}} Health. Inflicts Weakness ({{WeaknessDuration}} seconds) if target foe was attacking.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -406,7 +406,7 @@ VALUES
   ),
   (
     'Blood of the Master',
-    '',
+    'https://wiki.guildwars.com/images/b/b0/Blood_of_the_Master_%28large%29.jpg',
     'Spell. Heals your undead servants for {{Healing}}. Healing cost: +2% Health sacrifice per servant healed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -426,7 +426,7 @@ VALUES
   ),
   (
     'Cacophony',
-    '',
+    'https://wiki.guildwars.com/images/f/f7/Cacophony_%28large%29.jpg',
     'Hex Spell. (10 seconds.) Deals {{Damage}} damage whenever target foe uses a shout or chant.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -446,7 +446,7 @@ VALUES
   ),
   (
     'Chilblains',
-    '',
+    'https://wiki.guildwars.com/images/7/71/Chilblains_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage to foes in the area around your target; removes {{EnchantmentsRemoved}} enchantment[s] from these foes. You are Poisoned (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -466,7 +466,7 @@ VALUES
   ),
   (
     'Consume Corpse',
-    '',
+    'https://wiki.guildwars.com/images/2/28/Consume_Corpse_%28large%29.jpg',
     'Spell. Teleport to a corpse''s location. You gain {{HealthGain}} Health and {{EnergyGain}} Energy. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -486,7 +486,7 @@ VALUES
   ),
   (
     'Contagion',
-    '',
+    'https://wiki.guildwars.com/images/d/d4/Contagion_%28large%29.jpg',
     'Elite Enchantment Spell. (60 seconds.) Whenever you gain a condition, all foes in the area gain that same condition. You sacrifice {{SacrificePercent}}% maximum Health each time this happens.',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -506,7 +506,7 @@ VALUES
   ),
   (
     'Corrupt Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/5/58/Corrupt_Enchantment_%28large%29.jpg',
     'Elite Hex Spell. Removes one enchantment from target foe. Removal effect: -{{HealthDegeneration}} Health degeneration (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -526,7 +526,7 @@ VALUES
   ),
   (
     'Cultist''s Fervor',
-    '',
+    'https://wiki.guildwars.com/images/8/85/Cultist%27s_Fervor_%28large%29.jpg',
     'Elite Enchantment Spell. (5 seconds plus 3 seconds more for every rank of Soul Reaping.) Your Necromancer spells cost {{EnergyReduction}} less Energy. You suffer from Bleeding (10 seconds) each time you cast a Necromancer spell.',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -546,7 +546,7 @@ VALUES
   ),
   (
     'Dark Aura',
-    '',
+    'https://wiki.guildwars.com/images/d/d0/Dark_Aura_%28large%29.jpg',
     'Enchantment Spell. (30 seconds). Deals {{ShadowDamage}} damage to adjacent foes whenever target ally sacrifices Health. Damage cost: you lose {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -566,7 +566,7 @@ VALUES
   ),
   (
     'Dark Bond',
-    '',
+    'https://wiki.guildwars.com/images/8/8d/Dark_Bond_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Transfers 75% of incoming damage from you to your nearest servant.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -586,7 +586,7 @@ VALUES
   ),
   (
     'Dark Fury',
-    '',
+    'https://wiki.guildwars.com/images/7/7d/Dark_Fury_%28large%29.jpg',
     'Enchantment Spell. Enchants party members (5 seconds). These party members gain one strike of adrenaline each time they hit with an attack. 50% failure chance unless Blood Magic 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -606,7 +606,7 @@ VALUES
   ),
   (
     'Dark Pact',
-    '',
+    'https://wiki.guildwars.com/images/0/07/Dark_Pact_%28large%29.jpg',
     'Spell. Deals {{ShadowDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -626,7 +626,7 @@ VALUES
   ),
   (
     'Death Nova',
-    '',
+    'https://wiki.guildwars.com/images/0/05/Death_Nova_%28large%29.jpg',
     'Enchantment Spell. (30 seconds.) Deals {{Damage}} damage and inflicts Poisoned condition (15 seconds) on adjacent foes if target ally dies.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -646,7 +646,7 @@ VALUES
   ),
   (
     'Deathly Chill',
-    '',
+    'https://wiki.guildwars.com/images/7/71/Deathly_Chill_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. Deals {{ShadowDamage}} more damage if target foe was above 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -666,7 +666,7 @@ VALUES
   ),
   (
     'Deathly Swarm',
-    '',
+    'https://wiki.guildwars.com/images/b/b8/Deathly_Swarm_%28large%29.jpg',
     'Spell. Deathly Swarm flies out slowly and deals {{ColdDamage}} cold damage. Hits two additional foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -686,7 +686,7 @@ VALUES
   ),
   (
     'Defile Defenses',
-    '',
+    'https://wiki.guildwars.com/images/f/fb/Defile_Defenses_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Deals {{Damage}} damage the next time target foe blocks.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -706,7 +706,7 @@ VALUES
   ),
   (
     'Defile Enchantments',
-    '',
+    'https://wiki.guildwars.com/images/5/57/Defile_Enchantments_%28large%29.jpg',
     'Spell. Deals {{ShadowDamage}} damage to target and nearby foes. Deals {{DamagePerEnchantment}} more damage for each enchantment on them.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -726,7 +726,7 @@ VALUES
   ),
   (
     'Defile Flesh',
-    '',
+    'https://wiki.guildwars.com/images/1/18/Defile_Flesh_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Reduces healing target foe receives by 33%. Only skills with the word "heal" in the description are affected.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -746,7 +746,7 @@ VALUES
   ),
   (
     'Demonic Flesh',
-    '',
+    'https://wiki.guildwars.com/images/9/98/Demonic_Flesh_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) When using a skill on a foe, deal {{ShadowDamage}} shadow damage to all other foes adjacent to you.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -766,7 +766,7 @@ VALUES
   ),
   (
     'Depravity',
-    '',
+    'https://wiki.guildwars.com/images/4/40/Depravity_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Causes {{EnergyLost}} Energy loss whenever target foe casts a spell. One foe near your target also loses Energy.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -786,7 +786,7 @@ VALUES
   ),
   (
     'Desecrate Enchantments',
-    '',
+    'https://wiki.guildwars.com/images/3/39/Desecrate_Enchantments_%28large%29.jpg',
     'Spell. Deals {{ShadowDamage}} damage to target and nearby foes. Deals {{DamagePerEnchantment}} more damage for each enchantment on them.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -806,7 +806,7 @@ VALUES
   ),
   (
     'Discord',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Discord_%28large%29.jpg',
     'Elite Spell. Deals {{ArmorignoringDamage}} damage. No effect unless target foe has a condition and is either hexed or enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -826,7 +826,7 @@ VALUES
   ),
   (
     'Discord (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Discord_%28large%29.jpg',
     'Elite Spell. Deals {{Damage}} damage. No effect unless target foe has a condition and is either hexed or enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -846,7 +846,7 @@ VALUES
   ),
   (
     'Enfeeble',
-    '',
+    'https://wiki.guildwars.com/images/5/58/Enfeeble_%28large%29.jpg',
     'Spell. Inflicts Weakness condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -866,7 +866,7 @@ VALUES
   ),
   (
     'Enfeeble (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/5/58/Enfeeble_%28large%29.jpg',
     'Spell. Inflicts Weakness condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -886,7 +886,7 @@ VALUES
   ),
   (
     'Enfeebling Blood',
-    '',
+    'https://wiki.guildwars.com/images/f/f9/Enfeebling_Blood_%28large%29.jpg',
     'Spell. Inflicts Weakness condition ({{Duration}} seconds) on this foe and nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -906,7 +906,7 @@ VALUES
   ),
   (
     'Enfeebling Blood (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/f/f9/Enfeebling_Blood_%28large%29.jpg',
     'Spell. Inflicts Weakness condition ({{Duration}} second[s]) on this foe and nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -926,7 +926,7 @@ VALUES
   ),
   (
     'Enfeebling Touch',
-    '',
+    'https://wiki.guildwars.com/images/e/ee/Enfeebling_Touch_%28large%29.jpg',
     'Touch Skill. Causes {{HealthLoss}} Health loss. Inflicts Weakness condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -946,7 +946,7 @@ VALUES
   ),
   (
     'Envenom Enchantments',
-    '',
+    'https://wiki.guildwars.com/images/0/04/Envenom_Enchantments_%28large%29.jpg',
     'Spell. Removes one enchantment from target foe. Inflicts Poisoned condition ({{PoisonDuration}} seconds for each remaining enchantment on that foe).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -966,7 +966,7 @@ VALUES
   ),
   (
     'Faintheartedness',
-    '',
+    'https://wiki.guildwars.com/images/c/c5/Faintheartedness_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe attacks 50% slower and has -{{HealthDegeneration}} Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -986,7 +986,7 @@ VALUES
   ),
   (
     'Feast for the Dead',
-    '',
+    'https://wiki.guildwars.com/images/4/49/Feast_for_the_Dead_%28large%29.jpg',
     'Spell. Destroys one of your undead servants. Heals your servants for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1006,7 +1006,7 @@ VALUES
   ),
   (
     'Feast of Corruption',
-    '',
+    'https://wiki.guildwars.com/images/6/68/Feast_of_Corruption_%28large%29.jpg',
     'Elite Spell. Deals {{ShadowDamage}} damage to target and adjacent foes. Steal {{LifeStealing}} Health from each hexed foe.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1026,7 +1026,7 @@ VALUES
   ),
   (
     'Fetid Ground',
-    '',
+    'https://wiki.guildwars.com/images/0/0c/Fetid_Ground_%28large%29.jpg',
     'Spell. Deals {{ColdDamage}} cold damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds) if target foe is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1046,7 +1046,7 @@ VALUES
   ),
   (
     'Foul Feast',
-    '',
+    'https://wiki.guildwars.com/images/d/dc/Foul_Feast_%28large%29.jpg',
     'Spell. Transfers all conditions from target ally to yourself. You gain {{Healing}} Health and {{EnergyGain}} Energy for each condition transferred. Half recharge if you remove Disease. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1066,7 +1066,7 @@ VALUES
   ),
   (
     'Gaze of Contempt',
-    '',
+    'https://wiki.guildwars.com/images/8/8f/Gaze_of_Contempt_%28large%29.jpg',
     'Spell. Removes target foe''s enchantments. No effect unless this foe has more than 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1086,7 +1086,7 @@ VALUES
   ),
   (
     'Grenth''s Balance',
-    '',
+    'https://wiki.guildwars.com/images/0/03/Grenth%27s_Balance_%28large%29.jpg',
     'Elite Spell. You gain Health equal to half the difference between you and target, and this foe loses an equal amount. If this foe has less Health than you, you lose Health equal to half the difference.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1106,7 +1106,7 @@ VALUES
   ),
   (
     'Hexer''s Vigor',
-    '',
+    'https://wiki.guildwars.com/images/0/04/Hexer%27s_Vigor_%28large%29.jpg',
     'Enchantment Spell. (10 seconds.) You have +{{HealthRegeneration}} Health regeneration. Ends if you use a non-hex skill.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1126,7 +1126,7 @@ VALUES
   ),
   (
     'Icy Veins',
-    '',
+    'https://wiki.guildwars.com/images/3/34/Icy_Veins_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Deals {{ColdDamageUponDeath}} cold damage to nearby foes if target foe dies. Initial effect: deals {{ColdDamage}} cold damage.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1146,7 +1146,7 @@ VALUES
   ),
   (
     'Infuse Condition',
-    '',
+    'https://wiki.guildwars.com/images/6/6f/Infuse_Condition_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Whenever you receive a condition, it transfers from you to your closest undead servant.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1166,7 +1166,7 @@ VALUES
   ),
   (
     'Insidious Parasite',
-    '',
+    'https://wiki.guildwars.com/images/c/cb/Insidious_Parasite_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Steal {{LifeStealing}} Health whenever target foe hits with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1186,7 +1186,7 @@ VALUES
   ),
   (
     'Jagged Bones',
-    '',
+    'https://wiki.guildwars.com/images/b/b3/Jagged_Bones_%28large%29.jpg',
     'Elite Enchantment Spell. (30 seconds.) When target undead servant dies, it is replaced by a level {{Level}} jagged horror that inflicts Bleeding with attacks.',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1206,7 +1206,7 @@ VALUES
   ),
   (
     'Jaundiced Gaze',
-    '',
+    'https://wiki.guildwars.com/images/e/eb/Jaundiced_Gaze_%28large%29.jpg',
     'Enchantment Spell. Removes an enchantment from target foe. Removal effect: your next enchantment casts {{EnchantmentCastReduction}} second[s] faster and costs {{EnchantmentCostReduction}} less Energy. ({{Duration}} second[s])',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1226,7 +1226,7 @@ VALUES
   ),
   (
     'Life Siphon',
-    '',
+    'https://wiki.guildwars.com/images/c/c0/Life_Siphon_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe has -{{HealthDegeneration}} Health degeneration. You have +{{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1246,7 +1246,7 @@ VALUES
   ),
   (
     'Life Transfer',
-    '',
+    'https://wiki.guildwars.com/images/3/33/Life_Transfer_%28large%29.jpg',
     'Elite Hex Spell. Also hexes foes adjacent to target ({{Duration}} second). Causes -{{HealthDegenerationRegeneration}} Health degeneration. You have +{{HealthDegenerationRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1266,7 +1266,7 @@ VALUES
   ),
   (
     'Lifebane Strike',
-    '',
+    'https://wiki.guildwars.com/images/b/b4/Lifebane_Strike_%28large%29.jpg',
     'Spell. Deals {{ShadowDamage}} damage. Steals {{LifeStealing}} Health if target foe''s Health is above 50%.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1286,7 +1286,7 @@ VALUES
   ),
   (
     'Lingering Curse',
-    '',
+    'https://wiki.guildwars.com/images/0/08/Lingering_Curse_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Target and nearby foes have -{{HealthDegeneration}} Health degeneration and receive 20% less benefit from healing.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1306,7 +1306,7 @@ VALUES
   ),
   (
     'Malaise',
-    '',
+    'https://wiki.guildwars.com/images/d/d6/Malaise_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes -1 Energy degeneration. Deals {{Damage}} damage if target foe''s Energy drops to 0. You have -1 Health degeneration. Ends if this foe''s Energy drops to 0.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1326,7 +1326,7 @@ VALUES
   ),
   (
     'Malign Intervention',
-    '',
+    'https://wiki.guildwars.com/images/5/56/Malign_Intervention_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe receives 20% less from healing. If this foe dies while suffering from this hex, a level {{Level}} masterless bone horror is summoned.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1346,7 +1346,7 @@ VALUES
   ),
   (
     'Mark of Fury',
-    '',
+    'https://wiki.guildwars.com/images/8/81/Mark_of_Fury_%28large%29.jpg',
     'Hex Spell. (5 seconds.) Allies hitting target foe gain {{AdrenalineGain}} strike[s] of adrenaline. End effect: inflicts Cracked Armor ({{CrackedArmorDuration}} second[s].)',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1366,7 +1366,7 @@ VALUES
   ),
   (
     'Mark of Pain',
-    '',
+    'https://wiki.guildwars.com/images/3/35/Mark_of_Pain_%28large%29.jpg',
     'Hex Spell. (30 seconds.) Deals {{ShadowDamage}} damage to adjacent foes whenever target foe takes physical damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1386,7 +1386,7 @@ VALUES
   ),
   (
     'Mark of Subversion',
-    '',
+    'https://wiki.guildwars.com/images/6/67/Mark_of_Subversion_%28large%29.jpg',
     'Hex Spell. (6 seconds.) Target foe''s next spell fails and you steal {{LifeStealing}} Health. No effect unless this foe''s spell targeted one of its allies.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1406,7 +1406,7 @@ VALUES
   ),
   (
     'Masochism',
-    '',
+    'https://wiki.guildwars.com/images/c/c5/Masochism_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) You have +2 Death Magic and Soul Reaping. Sacrifice {{SacrificePercent}}% Health when you cast a spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1426,7 +1426,7 @@ VALUES
   ),
   (
     'Masochism (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/c/c5/Masochism_%28large%29.jpg',
     'Enchantment Spell. (30 seconds.) You gain {{EnergyGain}} Energy whenever you sacrifice Health.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1446,7 +1446,7 @@ VALUES
   ),
   (
     'Meekness',
-    '',
+    'https://wiki.guildwars.com/images/4/47/Meekness_%28large%29.jpg',
     'Hex Spell. Also hexes foes in the area of target ({{Duration}} seconds). These foes attack 50% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1486,7 +1486,7 @@ VALUES
   ),
   (
     'Necrotic Traversal',
-    '',
+    'https://wiki.guildwars.com/images/8/8f/Necrotic_Traversal_%28large%29.jpg',
     'Spell. Teleport to a corpse''s location. Inflicts Poisoned condition ({{Duration}} seconds). Affects all nearby foes. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1506,7 +1506,7 @@ VALUES
   ),
   (
     'Offering of Blood',
-    '',
+    'https://wiki.guildwars.com/images/c/c8/Offering_of_Blood_%28large%29.jpg',
     'Elite Spell. You gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1526,7 +1526,7 @@ VALUES
   ),
   (
     'Oppressive Gaze',
-    '',
+    'https://wiki.guildwars.com/images/9/9e/Oppressive_Gaze_%28large%29.jpg',
     'Spell. Deals {{ShadowDamage}} damage to target and adjacent foes. Inflicts Poison and Weakness ({{PoisonAndWeaknessDuration}} second) on foes suffering from a condition.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1546,7 +1546,7 @@ VALUES
   ),
   (
     'Order of Apostasy',
-    '',
+    'https://wiki.guildwars.com/images/c/c2/Order_of_Apostasy_%28large%29.jpg',
     'Elite Enchantment Spell. Enchants all party members (5 seconds). These party members remove one enchantment when they deal physical damage. Removal cost: for each Monk enchantment, you lose {{PercentHealthLoss}}% maximum Health.',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1566,7 +1566,7 @@ VALUES
   ),
   (
     'Order of Pain',
-    '',
+    'https://wiki.guildwars.com/images/e/e0/Order_of_Pain_%28large%29.jpg',
     'Enchantment Spell. Enchants all party members (5 seconds). {{Damage}} more damage whenever these party members hit with physical damage.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1586,7 +1586,7 @@ VALUES
   ),
   (
     'Order of Undeath',
-    '',
+    'https://wiki.guildwars.com/images/a/a9/Order_of_Undeath_%28large%29.jpg',
     'Elite Spell. (5 seconds.) Your undead servants deal +{{Damage}} damage. You lose 2% of your maximum Health whenever your servants hit.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1606,7 +1606,7 @@ VALUES
   ),
   (
     'Order of the Vampire',
-    '',
+    'https://wiki.guildwars.com/images/9/91/Order_of_the_Vampire_%28large%29.jpg',
     'Elite Enchantment Spell. Enchants all party members (5 seconds.) These party members steal {{LifeStealing}} Health with each physical damage attack. Party members under another Necromancer enchantment are not affected.',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1626,7 +1626,7 @@ VALUES
   ),
   (
     'Pain of Disenchantment',
-    '',
+    'https://wiki.guildwars.com/images/b/ba/Pain_of_Disenchantment_%28large%29.jpg',
     'Elite Spell. Target foe loses {{EnchantmentsRemoved}} enchantment[s]. Removal effect: that foe and all adjacent foes lose {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1646,7 +1646,7 @@ VALUES
   ),
   (
     'Parasitic Bond',
-    '',
+    'https://wiki.guildwars.com/images/5/57/Parasitic_Bond_%28large%29.jpg',
     'Hex Spell. (20 seconds.) Causes -1 Health degeneration. End effect: you are healed for {{Healing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1666,7 +1666,7 @@ VALUES
   ),
   (
     'Plague Sending',
-    '',
+    'https://wiki.guildwars.com/images/d/d0/Plague_Sending_%28large%29.jpg',
     'Spell. Transfer {{ConditionsTransferred}} condition[s] and [its/their] remaining duration[s] from yourself to target foe and all adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1686,7 +1686,7 @@ VALUES
   ),
   (
     'Plague Signet',
-    '',
+    'https://wiki.guildwars.com/images/d/dc/Plague_Signet_%28large%29.jpg',
     'Elite Signet. Transfers all conditions with {{DurationPercent}}% of their remaining durations from yourself to target foe. 50% failure chance unless Curses 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Elite Signet'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1706,7 +1706,7 @@ VALUES
   ),
   (
     'Plague Touch',
-    '',
+    'https://wiki.guildwars.com/images/c/cf/Plague_Touch_%28large%29.jpg',
     'Touch Skill. Transfers {{ConditionsTransferred}} condition[s] from yourself to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1726,7 +1726,7 @@ VALUES
   ),
   (
     'Poisoned Heart',
-    '',
+    'https://wiki.guildwars.com/images/a/ab/Poisoned_Heart_%28large%29.jpg',
     'Spell. Inflicts Poisoned condition ({{PoisonDuration}} seconds) to adjacent foes. You are also Poisoned.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1746,7 +1746,7 @@ VALUES
   ),
   (
     'Price of Failure',
-    '',
+    'https://wiki.guildwars.com/images/4/4d/Price_of_Failure_%28large%29.jpg',
     'Hex Spell. (30 seconds.) 25% chance to miss. Target foe takes {{Damage}} damage whenever it fails to hit.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1766,7 +1766,7 @@ VALUES
   ),
   (
     'Putrid Bile',
-    '',
+    'https://wiki.guildwars.com/images/0/0a/Putrid_Bile_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration. Deals {{Damage}} damage to all nearby foes if target foe dies.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1786,7 +1786,7 @@ VALUES
   ),
   (
     'Putrid Explosion',
-    '',
+    'https://wiki.guildwars.com/images/6/60/Putrid_Explosion_%28large%29.jpg',
     'Spell. Explodes a corpse, dealing {{Damage}} damage to foes near it. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1806,7 +1806,7 @@ VALUES
   ),
   (
     'Putrid Flesh',
-    '',
+    'https://wiki.guildwars.com/images/3/36/Putrid_Flesh_%28large%29.jpg',
     'Spell. Destroys one of your undead servants. Inflicts Diseased condition ({{Duration}} seconds) to foes near this servant.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1826,7 +1826,7 @@ VALUES
   ),
   (
     'Ravenous Gaze',
-    '',
+    'https://wiki.guildwars.com/images/4/40/Ravenous_Gaze_%28large%29.jpg',
     'Elite Spell. Deals {{Damage}} damage and steals {{LifeStealing}} Health from target and nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1846,7 +1846,7 @@ VALUES
   ),
   (
     'Reaper''s Mark',
-    '',
+    'https://wiki.guildwars.com/images/e/e2/Reaper%27s_Mark_%28large%29.jpg',
     'Elite Hex Spell. (30 seconds.) Causes -{{HealthDegeneration}} Health degeneration. You gain {{EnergyGain}} Energy if target foe dies while suffering from this hex.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1866,7 +1866,7 @@ VALUES
   ),
   (
     'Reckless Haste',
-    '',
+    'https://wiki.guildwars.com/images/d/d2/Reckless_Haste_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). These foes have 50% chance to miss, but attack 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1886,7 +1886,7 @@ VALUES
   ),
   (
     'Rend Enchantments',
-    '',
+    'https://wiki.guildwars.com/images/a/ac/Rend_Enchantments_%28large%29.jpg',
     'Spell. Removes {{EnchantmentsRemoved}} enchantments from target foe. Removal cost: you lose {{HealthLoss}} Health for each Monk enchantment removed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1906,7 +1906,7 @@ VALUES
   ),
   (
     'Rigor Mortis',
-    '',
+    'https://wiki.guildwars.com/images/2/21/Rigor_Mortis_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Target foe cannot block.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1926,7 +1926,7 @@ VALUES
   ),
   (
     'Rip Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/e/ed/Rip_Enchantment_%28large%29.jpg',
     'Spell. Removes 1 enchantment. Removal effect: inflicts Bleeding ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1946,7 +1946,7 @@ VALUES
   ),
   (
     'Rising Bile',
-    '',
+    'https://wiki.guildwars.com/images/1/11/Rising_Bile_%28large%29.jpg',
     'Hex Spell. (20 seconds.) End effect: deals {{Damage}} damage for each second Rising Bile was in effect. Also damages other foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1966,7 +1966,7 @@ VALUES
   ),
   (
     'Rotting Flesh',
-    '',
+    'https://wiki.guildwars.com/images/0/07/Rotting_Flesh_%28large%29.jpg',
     'Spell. Inflicts Diseased condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -1986,7 +1986,7 @@ VALUES
   ),
   (
     'Shadow Strike',
-    '',
+    'https://wiki.guildwars.com/images/1/1a/Shadow_Strike_%28large%29.jpg',
     'Spell. Deals {{ShadowDamage}} damage. Steal up to {{LifeStealing}} Health if this foe was above 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2006,7 +2006,7 @@ VALUES
   ),
   (
     'Shadow of Fear',
-    '',
+    'https://wiki.guildwars.com/images/5/53/Shadow_of_Fear_%28large%29.jpg',
     'Hex Spell. Also hexes foes adjacent to target ({{Duration}} seconds). They attack 50% slower.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2026,7 +2026,7 @@ VALUES
   ),
   (
     'Shivers of Dread',
-    '',
+    'https://wiki.guildwars.com/images/6/6a/Shivers_of_Dread_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Cold damage interrupts target foe''s skills. Interruption cost: you lose {{EnergyLoss}} Energy or this hex ends.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2046,7 +2046,7 @@ VALUES
   ),
   (
     'Signet of Agony',
-    '',
+    'https://wiki.guildwars.com/images/7/7e/Signet_of_Agony_%28large%29.jpg',
     'Signet. Deals {{Damage}} damage to foes near you. You begin Bleeding (25 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2066,7 +2066,7 @@ VALUES
   ),
   (
     'Signet of Agony (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/7/7e/Signet_of_Agony_%28large%29.jpg',
     'Signet. Deals {{Damage}} damage to foes near you. You begin Bleeding (25 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2106,7 +2106,7 @@ VALUES
   ),
   (
     'Signet of Lost Souls',
-    '',
+    'https://wiki.guildwars.com/images/f/f7/Signet_of_Lost_Souls_%28large%29.jpg',
     'Signet. You gain {{HealthGain}} Health and {{EnergyGain}} Energy if target foe is below 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2126,7 +2126,7 @@ VALUES
   ),
   (
     'Signet of Sorrow',
-    '',
+    'https://wiki.guildwars.com/images/9/98/Signet_of_Sorrow_%28large%29.jpg',
     'Signet. Deals {{Damage}} damage. Recharges instantly if target foe is near a corpse or has a dead pet.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2146,7 +2146,7 @@ VALUES
   ),
   (
     'Signet of Suffering',
-    '',
+    'https://wiki.guildwars.com/images/0/00/Signet_of_Suffering_%28large%29.jpg',
     'Elite Signet. You Bleed for 6 seconds. Applies Bleeding ({{BleedingDuration}} seconds) to the target of your next Necromancer skill.',
     (SELECT id FROM skill_types WHERE name = 'Elite Signet'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2166,7 +2166,7 @@ VALUES
   ),
   (
     'Soul Barbs',
-    '',
+    'https://wiki.guildwars.com/images/5/5c/Soul_Barbs_%28large%29.jpg',
     'Hex Spell. (30 seconds.) Deals {{Damage}} damage when an enchantment or hex is cast on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2186,7 +2186,7 @@ VALUES
   ),
   (
     'Soul Bind',
-    '',
+    'https://wiki.guildwars.com/images/d/de/Soul_Bind_%28large%29.jpg',
     'Elite Hex Spell. (30 seconds.) Every time target foe is healed, the healer takes {{Damage}} damage. Ends if target is suffering from a Smiting Prayers hex.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2206,7 +2206,7 @@ VALUES
   ),
   (
     'Soul Feast',
-    '',
+    'https://wiki.guildwars.com/images/f/f4/Soul_Feast_%28large%29.jpg',
     'Spell. You gain {{HealthGain}} Health. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2226,7 +2226,7 @@ VALUES
   ),
   (
     'Soul Leech',
-    '',
+    'https://wiki.guildwars.com/images/4/4b/Soul_Leech_%28large%29.jpg',
     'Elite Hex Spell. (10 seconds.) Steal {{LifeStealing}} Health whenever target foe casts a spell.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2266,7 +2266,7 @@ VALUES
   ),
   (
     'Spinal Shivers',
-    '',
+    'https://wiki.guildwars.com/images/e/ef/Spinal_Shivers_%28large%29.jpg',
     'Hex Spell. ({{Duration}} seconds.) Cold damage interrupts target foe''s skills. Interruption cost: you lose {{EnergyLoss}} Energy or Spinal Shivers ends.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2286,7 +2286,7 @@ VALUES
   ),
   (
     'Spiteful Spirit',
-    '',
+    'https://wiki.guildwars.com/images/3/37/Spiteful_Spirit_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Deals {{ShadowDamage}} damage to target and adjacent foes whenever this foe attacks or uses a skill.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2306,7 +2306,7 @@ VALUES
   ),
   (
     'Spoil Victor',
-    '',
+    'https://wiki.guildwars.com/images/8/89/Spoil_Victor_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthLoss}} Health loss whenever target foe attacks or casts spells on a creature with less Health.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2326,7 +2326,7 @@ VALUES
   ),
   (
     'Spoil Victor (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/8/89/Spoil_Victor_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthLoss}} Health loss whenever target foe attacks or casts spells on a creature with less Health.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2346,7 +2346,7 @@ VALUES
   ),
   (
     'Strip Enchantment',
-    '',
+    'https://wiki.guildwars.com/images/c/c5/Strip_Enchantment_%28large%29.jpg',
     'Spell. Removes {{EnchantmentsRemoved}} enchantment[s] from target foe. Removal effect: you steal {{LifeStealing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2366,7 +2366,7 @@ VALUES
   ),
   (
     'Suffering',
-    '',
+    'https://wiki.guildwars.com/images/6/6b/Suffering_%28large%29.jpg',
     'Hex Spell. Also hexes foes near target ({{Duration}} seconds). These foes have -{{HealthDegeneration}} Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2406,7 +2406,7 @@ VALUES
   ),
   (
     'Tainted Flesh',
-    '',
+    'https://wiki.guildwars.com/images/6/69/Tainted_Flesh_%28large%29.jpg',
     'Elite Enchantment Spell. ({{Duration}} seconds.) Foes who hit target ally in melee become Diseased ({{DiseaseDuration}} seconds); this ally is immune to Disease.',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2426,7 +2426,7 @@ VALUES
   ),
   (
     'Taste of Death',
-    '',
+    'https://wiki.guildwars.com/images/b/b2/Taste_of_Death_%28large%29.jpg',
     'Spell. Steals {{LifeStealing}} Health from allied undead servant.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2446,7 +2446,7 @@ VALUES
   ),
   (
     'Taste of Pain',
-    '',
+    'https://wiki.guildwars.com/images/4/45/Taste_of_Pain_%28large%29.jpg',
     'Spell. Heals you for {{HealthGain}}. No effect unless target foe is below 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2466,7 +2466,7 @@ VALUES
   ),
   (
     'Touch of Agony',
-    '',
+    'https://wiki.guildwars.com/images/9/9a/Touch_of_Agony_%28large%29.jpg',
     'Touch Skill. Deals {{ShadowDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2486,7 +2486,7 @@ VALUES
   ),
   (
     'Toxic Chill',
-    '',
+    'https://wiki.guildwars.com/images/3/3c/Toxic_Chill_%28large%29.jpg',
     'Elite Spell. Deals {{ColdDamage}} cold damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds) if target foe is hexed or enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2506,7 +2506,7 @@ VALUES
   ),
   (
     'Ulcerous Lungs',
-    '',
+    'https://wiki.guildwars.com/images/f/f7/Ulcerous_Lungs_%28large%29.jpg',
     'Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Causes -4 Health degeneration to any of these foes that are Bleeding. Inflicts Bleeding ({{BleedingDuration}} seconds) whenever these foes use a shout or chant.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2526,7 +2526,7 @@ VALUES
   ),
   (
     'Unholy Feast',
-    '',
+    'https://wiki.guildwars.com/images/e/e1/Unholy_Feast_%28large%29.jpg',
     'Spell. Steals {{LifeStealing}} Health from {{AffectedFoes}} foe[s] in the area around you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2546,7 +2546,7 @@ VALUES
   ),
   (
     'Unholy Feast (PvP)',
-    '',
+    'https://wiki.guildwars.com/images/e/e1/Unholy_Feast_%28large%29.jpg',
     'Spell. Steals {{LifeStealing}} Health from {{AffectedFoes}} foe[s] in the area around you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2566,7 +2566,7 @@ VALUES
   ),
   (
     'Vile Miasma',
-    '',
+    'https://wiki.guildwars.com/images/b/b0/Vile_Miasma_%28large%29.jpg',
     'Hex Spell. Causes -{{HealthDegeneration}} Health degeneration (10 seconds). Initial effect: deals {{ColdDamage}} cold damage. Hex is only applied if target foe has a condition.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2586,7 +2586,7 @@ VALUES
   ),
   (
     'Virulence',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Virulence_%28large%29.jpg',
     'Elite Spell. Inflicts Disease, Poison, and Weakness conditions ({{DiseasePoisonAndWeaknessDuration}} seconds). No effect unless this foe already had a condition.',
     (SELECT id FROM skill_types WHERE name = 'Elite Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2606,7 +2606,7 @@ VALUES
   ),
   (
     'Vampiric Bite',
-    '',
+    'https://wiki.guildwars.com/images/6/68/Vampiric_Bite_%28large%29.jpg',
     'Touch Skill. Steals {{LifeStealing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2626,7 +2626,7 @@ VALUES
   ),
   (
     'Vampiric Gaze',
-    '',
+    'https://wiki.guildwars.com/images/e/e2/Vampiric_Gaze_%28large%29.jpg',
     'Spell. Steals {{LifeStealing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2646,7 +2646,7 @@ VALUES
   ),
   (
     'Vampiric Spirit',
-    '',
+    'https://wiki.guildwars.com/images/7/78/Vampiric_Spirit_%28large%29.jpg',
     'Elite Enchantment Spell. Steal {{LifeStealing}} Health from target foe. You have +{{HealthRegeneration}} Health regeneration (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Elite Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2666,7 +2666,7 @@ VALUES
   ),
   (
     'Vampiric Swarm',
-    '',
+    'https://wiki.guildwars.com/images/0/03/Vampiric_Swarm_%28large%29.jpg',
     'Spell. Steals {{LifeStealing}} Health. Hits 2 additional foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2686,7 +2686,7 @@ VALUES
   ),
   (
     'Vampiric Touch',
-    '',
+    'https://wiki.guildwars.com/images/7/75/Vampiric_Touch_%28large%29.jpg',
     'Touch Skill. Steals {{LifeStealing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2706,7 +2706,7 @@ VALUES
   ),
   (
     'Verata''s Aura',
-    '',
+    'https://wiki.guildwars.com/images/f/fc/Verata%27s_Aura_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Become master of all hostile undead servants in the area. End effect: your undead servants become masterless. 50% failure chance unless Death Magic 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2726,7 +2726,7 @@ VALUES
   ),
   (
     'Verata''s Gaze',
-    '',
+    'https://wiki.guildwars.com/images/2/2c/Verata%27s_Gaze_%28large%29.jpg',
     'Spell. Make target undead servant masterless. If it is already masterless, you become its master. 50% failure chance unless Death Magic 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2746,7 +2746,7 @@ VALUES
   ),
   (
     'Verata''s Sacrifice',
-    '',
+    'https://wiki.guildwars.com/images/7/7d/Verata%27s_Sacrifice_%28large%29.jpg',
     'Spell. ({{Duration}} seconds.) 10 undead allied servants gain +10 Health regeneration. Instantly recharges if you have control of 3 or fewer servants. Transfers all conditions from those servants to you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2766,7 +2766,7 @@ VALUES
   ),
   (
     'Vile Touch',
-    '',
+    'https://wiki.guildwars.com/images/8/81/Vile_Touch_%28large%29.jpg',
     'Touch Skill. Deals {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2786,7 +2786,7 @@ VALUES
   ),
   (
     'Vocal Minority',
-    '',
+    'https://wiki.guildwars.com/images/d/d9/Vocal_Minority_%28large%29.jpg',
     'Hex Spell. Also hexes foes near target ({{Duration}} seconds). These foes cannot use shouts or chants.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2806,7 +2806,7 @@ VALUES
   ),
   (
     'Wail of Doom',
-    '',
+    'https://wiki.guildwars.com/images/b/bc/Wail_of_Doom_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} second[s].) Target foe''s attributes are 0.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2826,7 +2826,7 @@ VALUES
   ),
   (
     'Wallow''s Bite',
-    '',
+    'https://wiki.guildwars.com/images/b/b3/Wallow%27s_Bite_%28large%29.jpg',
     'Touch Skill. Deals {{ShadowDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2846,7 +2846,7 @@ VALUES
   ),
   (
     'Weaken Armor',
-    '',
+    'https://wiki.guildwars.com/images/5/53/Weaken_Armor_%28large%29.jpg',
     'Spell. Also affects adjacent foes. Inflicts Cracked Armor condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2866,7 +2866,7 @@ VALUES
   ),
   (
     'Weaken Knees',
-    '',
+    'https://wiki.guildwars.com/images/0/0e/Weaken_Knees_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} second[s].) Target foe has -{{HealthDegeneration}} Health degeneration and takes {{DamageWhileMoving}} damage while moving.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2886,7 +2886,7 @@ VALUES
   ),
   (
     'Well of Blood',
-    '',
+    'https://wiki.guildwars.com/images/e/e8/Well_of_Blood_%28large%29.jpg',
     'Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2906,7 +2906,7 @@ VALUES
   ),
   (
     'Well of Darkness',
-    '',
+    'https://wiki.guildwars.com/images/4/4b/Well_of_Darkness_%28large%29.jpg',
     'Well Spell. ({{WellDuration}} seconds.) Hexed foes in this well have 50% chance to miss. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2926,7 +2926,7 @@ VALUES
   ),
   (
     'Well of Power',
-    '',
+    'https://wiki.guildwars.com/images/a/a7/Well_of_Power_%28large%29.jpg',
     'Elite Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration and +2 Energy regeneration. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Elite Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2946,7 +2946,7 @@ VALUES
   ),
   (
     'Well of Ruin',
-    '',
+    'https://wiki.guildwars.com/images/9/93/Well_of_Ruin_%28large%29.jpg',
     'Well Spell. ({{WellSpellDuration}} seconds.) Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to any foe in the well that takes physical damage. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2966,7 +2966,7 @@ VALUES
   ),
   (
     'Well of Silence',
-    '',
+    'https://wiki.guildwars.com/images/e/e3/Well_of_Silence_%28large%29.jpg',
     'Well Spell. ({{Duration}} seconds.) Foes in this well cannot use shouts and chants and have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -2986,7 +2986,7 @@ VALUES
   ),
   (
     'Well of Suffering',
-    '',
+    'https://wiki.guildwars.com/images/7/7b/Well_of_Suffering_%28large%29.jpg',
     'Well Spell. ({{Duration}} seconds.) Foes in this well have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -3006,7 +3006,7 @@ VALUES
   ),
   (
     'Well of Weariness',
-    '',
+    'https://wiki.guildwars.com/images/8/8c/Well_of_Weariness_%28large%29.jpg',
     'Well Spell. ({{Duration}} seconds.) Foes in this well have -1 Energy degeneration. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -3026,7 +3026,7 @@ VALUES
   ),
   (
     'Well of the Profane',
-    '',
+    'https://wiki.guildwars.com/images/e/e9/Well_of_the_Profane_%28large%29.jpg',
     'Well Spell. ({{Duration}} seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. Exploits a fresh corpse. 50% failure chance unless Death Magic 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Well Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -3046,7 +3046,7 @@ VALUES
   ),
   (
     'Wither',
-    '',
+    'https://wiki.guildwars.com/images/9/97/Wither_%28large%29.jpg',
     'Elite Hex Spell. ({{Duration}} seconds.) Causes -{{HealthDegeneration}} Health degeneration and -1 Energy degeneration. Deals {{Damage}} damage if target foe''s Energy drops to 0. Ends if this foe''s Energy drops to 0.',
     (SELECT id FROM skill_types WHERE name = 'Elite Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
@@ -3066,7 +3066,7 @@ VALUES
   ),
   (
     'Withering Aura',
-    '',
+    'https://wiki.guildwars.com/images/0/08/Withering_Aura_%28large%29.jpg',
     'Enchantment Spell. ({{Duration}} seconds.) Target ally''s melee attacks cause Weakness condition ({{WeaknessDuration}} seconds.)',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Necromancer'),
