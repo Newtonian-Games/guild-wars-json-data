@@ -70,7 +70,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aftershock"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aftershock",
+    "is_high_res_icon": true
   },
   {
     "name": "Air Attunement",
@@ -119,7 +120,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Air_Attunement"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Air_Attunement",
+    "is_high_res_icon": true
   },
   {
     "name": "Arc Lightning",
@@ -192,7 +194,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arc_Lightning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arc_Lightning",
+    "is_high_res_icon": true
   },
   {
     "name": "Armor of Earth",
@@ -265,7 +268,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Earth"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Earth",
+    "is_high_res_icon": true
   },
   {
     "name": "Armor of Frost",
@@ -314,7 +318,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Frost"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Frost",
+    "is_high_res_icon": true
   },
   {
     "name": "Armor of Mist",
@@ -387,7 +392,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Mist"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Mist",
+    "is_high_res_icon": true
   },
   {
     "name": "Ash Blast",
@@ -460,7 +466,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ash_Blast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ash_Blast",
+    "is_high_res_icon": true
   },
   {
     "name": "Aura of Restoration",
@@ -533,7 +540,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
+    "is_high_res_icon": true
   },
   {
     "name": "Aura of Restoration (PvP)",
@@ -606,7 +614,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Restoration_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Bed of Coals",
@@ -679,7 +688,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bed_of_Coals"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bed_of_Coals",
+    "is_high_res_icon": true
   },
   {
     "name": "Blinding Flash",
@@ -728,7 +738,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Flash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Flash",
+    "is_high_res_icon": true
   },
   {
     "name": "Blinding Surge",
@@ -801,7 +812,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Surge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Surge",
+    "is_high_res_icon": true
   },
   {
     "name": "Blurred Vision",
@@ -850,7 +862,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blurred_Vision"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blurred_Vision",
+    "is_high_res_icon": true
   },
   {
     "name": "Breath of Fire",
@@ -899,7 +912,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Breath_of_Fire"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
+    "is_high_res_icon": true
   },
   {
     "name": "Burning Speed",
@@ -972,7 +986,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Speed"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Speed",
+    "is_high_res_icon": true
   },
   {
     "name": "Chain Lightning",
@@ -1021,7 +1036,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chain_Lightning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chain_Lightning",
+    "is_high_res_icon": true
   },
   {
     "name": "Chilling Winds",
@@ -1094,7 +1110,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chilling_Winds"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chilling_Winds",
+    "is_high_res_icon": true
   },
   {
     "name": "Churning Earth",
@@ -1143,7 +1160,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Churning_Earth"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Churning_Earth",
+    "is_high_res_icon": true
   },
   {
     "name": "Conjure Flame",
@@ -1192,7 +1210,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Flame",
+    "is_high_res_icon": true
   },
   {
     "name": "Conjure Frost",
@@ -1241,7 +1260,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Frost"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Frost",
+    "is_high_res_icon": true
   },
   {
     "name": "Conjure Lightning",
@@ -1290,7 +1310,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Lightning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
+    "is_high_res_icon": true
   },
   {
     "name": "Crystal Wave",
@@ -1363,7 +1384,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Wave"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Wave",
+    "is_high_res_icon": true
   },
   {
     "name": "Deep Freeze",
@@ -1412,7 +1434,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deep_Freeze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deep_Freeze",
+    "is_high_res_icon": true
   },
   {
     "name": "Double Dragon",
@@ -1485,7 +1508,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Double_Dragon"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Double_Dragon",
+    "is_high_res_icon": true
   },
   {
     "name": "Dragon's Stomp",
@@ -1534,7 +1558,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dragon%27s_Stomp"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dragon%27s_Stomp",
+    "is_high_res_icon": true
   },
   {
     "name": "Earth Attunement",
@@ -1583,7 +1608,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Attunement"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Attunement",
+    "is_high_res_icon": true
   },
   {
     "name": "Earthen Shackles",
@@ -1632,7 +1658,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Earthen_Shackles"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earthen_Shackles",
+    "is_high_res_icon": true
   },
   {
     "name": "Earthquake",
@@ -1681,7 +1708,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Earthquake"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earthquake",
+    "is_high_res_icon": true
   },
   {
     "name": "Ebon Hawk",
@@ -1754,7 +1782,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Hawk"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Hawk",
+    "is_high_res_icon": true
   },
   {
     "name": "Elemental Attunement",
@@ -1827,7 +1856,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Attunement"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
+    "is_high_res_icon": true
   },
   {
     "name": "Elemental Flame",
@@ -1900,7 +1930,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Flame",
+    "is_high_res_icon": true
   },
   {
     "name": "Elemental Flame (PvP)",
@@ -1973,11 +2004,12 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Flame_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Flame_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Elemental Lord",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/2/27/Elemental_Lord.jpg",
     "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your elemental attributes are boosted by 1. Each time you cast a spell, you gain 1 energy for every 10 ranks of Energy Storage and are healed for {{HealingPercent}}% of the spell's Energy cost.",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
@@ -2028,7 +2060,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Lord"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Lord",
+    "is_high_res_icon": false
   },
   {
     "name": "Energy Blast",
@@ -2077,7 +2110,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Blast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Blast",
+    "is_high_res_icon": true
   },
   {
     "name": "Energy Boon",
@@ -2174,7 +2208,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Boon"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Boon",
+    "is_high_res_icon": true
   },
   {
     "name": "Enervating Charge",
@@ -2247,7 +2282,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enervating_Charge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enervating_Charge",
+    "is_high_res_icon": true
   },
   {
     "name": "Eruption",
@@ -2296,7 +2332,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Eruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Eruption",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Prism",
@@ -2345,7 +2382,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Prism"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Prism",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Prodigy",
@@ -2442,7 +2480,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Prodigy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Prodigy",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Renewal",
@@ -2539,7 +2578,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Renewal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Renewal",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Renewal (PvP)",
@@ -2612,7 +2652,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Renewal_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Renewal_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Fire Attunement",
@@ -2661,7 +2702,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Attunement"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Attunement",
+    "is_high_res_icon": true
   },
   {
     "name": "Fire Storm",
@@ -2710,7 +2752,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Storm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Storm",
+    "is_high_res_icon": true
   },
   {
     "name": "Fireball",
@@ -2759,7 +2802,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fireball"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fireball",
+    "is_high_res_icon": true
   },
   {
     "name": "Flame Burst",
@@ -2808,7 +2852,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Burst"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Burst",
+    "is_high_res_icon": true
   },
   {
     "name": "Flame Djinn's Haste",
@@ -2881,7 +2926,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Djinn%27s_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Djinn%27s_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Flare",
@@ -2930,7 +2976,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flare"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flare",
+    "is_high_res_icon": true
   },
   {
     "name": "Freezing Gust",
@@ -3003,7 +3050,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Freezing_Gust"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Freezing_Gust",
+    "is_high_res_icon": true
   },
   {
     "name": "Frigid Armor",
@@ -3027,7 +3075,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Frigid_Armor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frigid_Armor",
+    "is_high_res_icon": true
   },
   {
     "name": "Frozen Burst",
@@ -3100,7 +3149,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Frozen_Burst"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frozen_Burst",
+    "is_high_res_icon": true
   },
   {
     "name": "Gale",
@@ -3124,7 +3174,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gale"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gale",
+    "is_high_res_icon": true
   },
   {
     "name": "Glimmering Mark",
@@ -3173,7 +3224,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glimmering_Mark"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glimmering_Mark",
+    "is_high_res_icon": true
   },
   {
     "name": "Glowing Gaze",
@@ -3222,7 +3274,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glowing_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glowing_Gaze",
+    "is_high_res_icon": true
   },
   {
     "name": "Glowing Ice",
@@ -3271,7 +3324,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glowing_Ice"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glowing_Ice",
+    "is_high_res_icon": true
   },
   {
     "name": "Glowstone",
@@ -3320,7 +3374,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glowstone"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glowstone",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Concentration",
@@ -3344,7 +3399,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Concentration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Concentration",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Elemental Power",
@@ -3368,7 +3424,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Elemental_Power"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Elemental_Power",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Energy",
@@ -3465,7 +3522,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Energy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Energy",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Essence",
@@ -3489,7 +3547,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Essence"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Essence",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Immolation",
@@ -3562,7 +3621,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Immolation"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Immolation",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Lesser Energy",
@@ -3611,7 +3671,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Lesser_Energy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Lesser_Energy",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Renewal",
@@ -3635,7 +3696,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Renewal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Renewal",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Restoration",
@@ -3708,7 +3770,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Restoration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Restoration",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Sacrifice",
@@ -3732,7 +3795,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice",
+    "is_high_res_icon": true
   },
   {
     "name": "Glyph of Swiftness",
@@ -3781,7 +3845,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Swiftness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Glyph_of_Swiftness",
+    "is_high_res_icon": true
   },
   {
     "name": "Grasping Earth",
@@ -3830,7 +3895,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Grasping_Earth"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grasping_Earth",
+    "is_high_res_icon": true
   },
   {
     "name": "Gust",
@@ -3903,7 +3969,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gust"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gust",
+    "is_high_res_icon": true
   },
   {
     "name": "Ice Prison",
@@ -3952,7 +4019,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Prison"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Prison",
+    "is_high_res_icon": true
   },
   {
     "name": "Ice Spear",
@@ -4025,7 +4093,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spear"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spear",
+    "is_high_res_icon": true
   },
   {
     "name": "Ice Spikes",
@@ -4098,7 +4167,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spikes"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ice_Spikes",
+    "is_high_res_icon": true
   },
   {
     "name": "Icy Prism",
@@ -4171,7 +4241,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Prism"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Prism",
+    "is_high_res_icon": true
   },
   {
     "name": "Icy Shackles",
@@ -4220,7 +4291,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Shackles"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Shackles",
+    "is_high_res_icon": true
   },
   {
     "name": "Immolate",
@@ -4293,7 +4365,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Immolate"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Immolate",
+    "is_high_res_icon": true
   },
   {
     "name": "Incendiary Bonds",
@@ -4366,7 +4439,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Incendiary_Bonds"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Incendiary_Bonds",
+    "is_high_res_icon": true
   },
   {
     "name": "Inferno",
@@ -4415,11 +4489,12 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Inferno"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inferno",
+    "is_high_res_icon": true
   },
   {
     "name": "Intensity",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/d/dc/Intensity.jpg",
     "concise_description": "Skill. (10 seconds.) The next time you deal elemental damage with a spell, other targets in the area take {{PercentDamage}}% of that damage.",
     "type": "Skill",
     "profession": "Elementalist",
@@ -4453,7 +4528,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Intensity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Intensity",
+    "is_high_res_icon": false
   },
   {
     "name": "Invoke Lightning",
@@ -4502,7 +4578,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Invoke_Lightning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
+    "is_high_res_icon": true
   },
   {
     "name": "Iron Mist",
@@ -4551,7 +4628,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Iron_Mist"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Iron_Mist",
+    "is_high_res_icon": true
   },
   {
     "name": "Kinetic Armor",
@@ -4624,7 +4702,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Kinetic_Armor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Kinetic_Armor",
+    "is_high_res_icon": true
   },
   {
     "name": "Lava Arrows",
@@ -4673,7 +4752,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Arrows"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Arrows",
+    "is_high_res_icon": true
   },
   {
     "name": "Lava Font",
@@ -4722,7 +4802,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Font"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Font",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Bolt",
@@ -4795,7 +4876,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Bolt"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Hammer",
@@ -4868,7 +4950,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Hammer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Hammer",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Hammer (PvP)",
@@ -4917,7 +5000,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Hammer_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Hammer_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Javelin",
@@ -4966,7 +5050,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Javelin"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Javelin",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Orb",
@@ -5015,7 +5100,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Orb"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Orb",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Strike",
@@ -5064,7 +5150,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Surge",
@@ -5137,7 +5224,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Surge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Surge",
+    "is_high_res_icon": true
   },
   {
     "name": "Lightning Touch",
@@ -5234,7 +5322,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightning_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Liquid Flame",
@@ -5283,7 +5372,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Liquid_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Liquid_Flame",
+    "is_high_res_icon": true
   },
   {
     "name": "Maelstrom",
@@ -5332,7 +5422,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Maelstrom"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maelstrom",
+    "is_high_res_icon": true
   },
   {
     "name": "Magnetic Aura",
@@ -5405,7 +5496,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Magnetic_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Magnetic Surge",
@@ -5478,7 +5570,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Magnetic_Surge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Magnetic_Surge",
+    "is_high_res_icon": true
   },
   {
     "name": "Mark of Rodgort",
@@ -5551,7 +5644,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Rodgort"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Rodgort",
+    "is_high_res_icon": true
   },
   {
     "name": "Master of Magic",
@@ -5624,7 +5718,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Master_of_Magic"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Master_of_Magic",
+    "is_high_res_icon": true
   },
   {
     "name": "Meteor",
@@ -5673,7 +5768,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Meteor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Meteor",
+    "is_high_res_icon": true
   },
   {
     "name": "Meteor Shower",
@@ -5722,7 +5818,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Meteor_Shower"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Meteor_Shower",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Blast",
@@ -5795,7 +5892,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Blast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Blast",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Burn",
@@ -5892,7 +5990,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Burn"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Burn",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Freeze",
@@ -5989,7 +6088,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Freeze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Freeze",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Freeze (PvP)",
@@ -6086,7 +6186,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Freeze_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Freeze_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Shock",
@@ -6159,7 +6260,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Shock"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Shock",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Shock (PvP)",
@@ -6232,7 +6334,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Shock_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Shock_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mirror of Ice",
@@ -6305,7 +6408,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Ice"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Ice",
+    "is_high_res_icon": true
   },
   {
     "name": "Mist Form",
@@ -6378,7 +6482,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mist_Form"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mist_Form",
+    "is_high_res_icon": true
   },
   {
     "name": "Mist Form (PvP)",
@@ -6451,7 +6556,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mist_Form_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mist_Form_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Obsidian Flame",
@@ -6500,7 +6606,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
+    "is_high_res_icon": true
   },
   {
     "name": "Obsidian Flame (PvP)",
@@ -6549,7 +6656,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flame_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flame_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Obsidian Flesh",
@@ -6598,11 +6706,12 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flesh"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Obsidian_Flesh",
+    "is_high_res_icon": true
   },
   {
     "name": "Over the Limit",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/5/5a/Over_the_Limit.jpg",
     "concise_description": "Elite Enchantment Spell. Spells cast {{CastingPercent}}% faster and recharge {{RechargePercent}}% faster. Continuously gain Overcast while active. PvE Skill",
     "type": "Enchantment Spell",
     "profession": "Elementalist",
@@ -6671,7 +6780,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Over_the_Limit"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Over_the_Limit",
+    "is_high_res_icon": false
   },
   {
     "name": "Phoenix",
@@ -6744,7 +6854,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Phoenix"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phoenix",
+    "is_high_res_icon": true
   },
   {
     "name": "Ride the Lightning",
@@ -6817,7 +6928,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning",
+    "is_high_res_icon": true
   },
   {
     "name": "Ride the Lightning (PvP)",
@@ -6890,7 +7002,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ride_the_Lightning_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Rodgort's Invocation",
@@ -6963,7 +7076,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rodgort%27s_Invocation"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rodgort%27s_Invocation",
+    "is_high_res_icon": true
   },
   {
     "name": "Rust",
@@ -7060,7 +7174,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rust"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rust",
+    "is_high_res_icon": true
   },
   {
     "name": "Sandstorm",
@@ -7133,7 +7248,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sandstorm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sandstorm",
+    "is_high_res_icon": true
   },
   {
     "name": "Savannah Heat",
@@ -7230,7 +7346,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Savannah_Heat"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Savannah_Heat",
+    "is_high_res_icon": true
   },
   {
     "name": "Savannah Heat (PvP)",
@@ -7327,7 +7444,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Savannah_Heat_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Savannah_Heat_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Searing Flames",
@@ -7400,7 +7518,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Flames"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Flames",
+    "is_high_res_icon": true
   },
   {
     "name": "Searing Heat",
@@ -7449,7 +7568,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Heat"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Heat",
+    "is_high_res_icon": true
   },
   {
     "name": "Second Wind",
@@ -7473,7 +7593,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Second_Wind"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Second_Wind",
+    "is_high_res_icon": true
   },
   {
     "name": "Shard Storm",
@@ -7546,7 +7667,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shard_Storm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shard_Storm",
+    "is_high_res_icon": true
   },
   {
     "name": "Shatterstone",
@@ -7595,7 +7717,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shatterstone"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatterstone",
+    "is_high_res_icon": true
   },
   {
     "name": "Shell Shock",
@@ -7668,7 +7791,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shell_Shock"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shell_Shock",
+    "is_high_res_icon": true
   },
   {
     "name": "Shock",
@@ -7717,7 +7841,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shock"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shock",
+    "is_high_res_icon": true
   },
   {
     "name": "Shock Arrow",
@@ -7766,7 +7891,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shock_Arrow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shock_Arrow",
+    "is_high_res_icon": true
   },
   {
     "name": "Shockwave",
@@ -7839,7 +7965,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shockwave"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shockwave",
+    "is_high_res_icon": true
   },
   {
     "name": "Slippery Ground",
@@ -7863,7 +7990,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Slippery_Ground"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Slippery_Ground",
+    "is_high_res_icon": true
   },
   {
     "name": "Slippery Ground (PvP)",
@@ -7887,7 +8015,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Slippery_Ground_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Slippery_Ground_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Sliver Armor",
@@ -7984,7 +8113,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sliver_Armor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sliver_Armor",
+    "is_high_res_icon": true
   },
   {
     "name": "Smoldering Embers",
@@ -8057,7 +8187,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Smoldering_Embers"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smoldering_Embers",
+    "is_high_res_icon": true
   },
   {
     "name": "Star Burst",
@@ -8130,7 +8261,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Star_Burst"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Star_Burst",
+    "is_high_res_icon": true
   },
   {
     "name": "Steam",
@@ -8203,7 +8335,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Steam"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Steam",
+    "is_high_res_icon": true
   },
   {
     "name": "Stone Daggers",
@@ -8276,7 +8409,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Daggers"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Daggers",
+    "is_high_res_icon": true
   },
   {
     "name": "Stone Sheath",
@@ -8397,7 +8531,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Sheath"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Sheath",
+    "is_high_res_icon": true
   },
   {
     "name": "Stone Striker",
@@ -8446,7 +8581,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Striker"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stone_Striker",
+    "is_high_res_icon": true
   },
   {
     "name": "Stoneflesh Aura",
@@ -8519,7 +8655,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stoneflesh_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stoneflesh_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Stoning",
@@ -8568,7 +8705,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stoning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stoning",
+    "is_high_res_icon": true
   },
   {
     "name": "Storm Djinn's Haste",
@@ -8617,7 +8755,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Storm_Djinn%27s_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Storm_Djinn%27s_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Swirling Aura",
@@ -8666,7 +8805,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Swirling_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swirling_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Teinai's Crystals",
@@ -8763,7 +8903,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Crystals"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Crystals",
+    "is_high_res_icon": true
   },
   {
     "name": "Teinai's Heat",
@@ -8836,7 +8977,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Heat"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Heat",
+    "is_high_res_icon": true
   },
   {
     "name": "Teinai's Prison",
@@ -8909,7 +9051,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Prison"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Prison",
+    "is_high_res_icon": true
   },
   {
     "name": "Teinai's Wind",
@@ -9006,7 +9149,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Wind"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Teinai%27s_Wind",
+    "is_high_res_icon": true
   },
   {
     "name": "Thunderclap",
@@ -9079,7 +9223,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Thunderclap"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thunderclap",
+    "is_high_res_icon": true
   },
   {
     "name": "Unsteady Ground",
@@ -9128,7 +9273,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unsteady_Ground"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unsteady_Ground",
+    "is_high_res_icon": true
   },
   {
     "name": "Vapor Blade",
@@ -9177,7 +9323,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vapor_Blade"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vapor_Blade",
+    "is_high_res_icon": true
   },
   {
     "name": "Ward Against Elements",
@@ -9226,7 +9373,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Elements"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Elements",
+    "is_high_res_icon": true
   },
   {
     "name": "Ward Against Foes",
@@ -9275,7 +9423,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Foes"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Foes",
+    "is_high_res_icon": true
   },
   {
     "name": "Ward Against Harm",
@@ -9396,7 +9545,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Harm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Harm",
+    "is_high_res_icon": true
   },
   {
     "name": "Ward Against Harm (PvP)",
@@ -9517,7 +9667,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Harm_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Harm_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Ward Against Melee",
@@ -9566,7 +9717,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Melee"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
+    "is_high_res_icon": true
   },
   {
     "name": "Ward of Stability",
@@ -9615,7 +9767,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_of_Stability"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_of_Stability",
+    "is_high_res_icon": true
   },
   {
     "name": "Ward of Weakness",
@@ -9688,7 +9841,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_of_Weakness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ward_of_Weakness",
+    "is_high_res_icon": true
   },
   {
     "name": "Water Attunement",
@@ -9737,7 +9891,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Water_Attunement"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Water_Attunement",
+    "is_high_res_icon": true
   },
   {
     "name": "Water Trident",
@@ -9786,7 +9941,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Water_Trident"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Water_Trident",
+    "is_high_res_icon": true
   },
   {
     "name": "Whirlwind",
@@ -9835,7 +9991,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind",
+    "is_high_res_icon": true
   },
   {
     "name": "Windborne Speed",
@@ -9884,7 +10041,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Windborne_Speed"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Windborne_Speed",
+    "is_high_res_icon": true
   },
   {
     "name": "Winter's Embrace",
@@ -9957,6 +10115,7 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Winter%27s_Embrace"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Winter%27s_Embrace",
+    "is_high_res_icon": true
   }
 ]

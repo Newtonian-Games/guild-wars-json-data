@@ -1,11 +1,12 @@
 -- Seed assassin skills
 -- Auto-generated from data/skills/assassin.json
--- Generated: 2025-11-17T07:36:05.743Z
+-- Generated: 2025-11-17T08:01:51.592Z
 -- Total skills: 121
 
 INSERT INTO skills (
   name,
   icon,
+  is_high_res_icon,
   description,
   skill_type_id,
   profession_id,
@@ -27,6 +28,7 @@ VALUES
   (
     'Assassin''s Promise',
     'https://wiki.guildwars.com/images/2/29/Assassin%27s_Promise_%28large%29.jpg',
+    true,
     'Elite Hex Spell. ({{Duration}} seconds.) You gain {{EnergyGain}} Energy and all your skills recharge if target foe dies.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -47,6 +49,7 @@ VALUES
   (
     'Assassin''s Remedy',
     'https://wiki.guildwars.com/images/6/66/Assassin%27s_Remedy_%28large%29.jpg',
+    true,
     'Enchantment Spell. (30 seconds.) Your next {{AttackSkills}} attack skills each remove one condition.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -67,6 +70,7 @@ VALUES
   (
     'Assassin''s Remedy (PvP)',
     'https://wiki.guildwars.com/images/6/66/Assassin%27s_Remedy_%28large%29.jpg',
+    true,
     'Enchantment Spell. (30 seconds.) Your next {{AttackSkills}} attack skills each remove one condition.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -87,6 +91,7 @@ VALUES
   (
     'Assault Enchantments',
     'https://wiki.guildwars.com/images/b/b8/Assault_Enchantments_%28large%29.jpg',
+    true,
     'Elite Skill. Removes all enchantments. Must follow a dual attack.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -107,6 +112,7 @@ VALUES
   (
     'Augury of Death',
     'https://wiki.guildwars.com/images/3/35/Augury_of_Death_%28large%29.jpg',
+    true,
     'Half Range Hex Spell. ({{Duration}} seconds.) Inflict Deep Wound condition ({{DeepWoundDuration}} seconds) and Shadow Step to target foe the next time damage would drop this foe''s Health below 50%.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -127,6 +133,7 @@ VALUES
   (
     'Aura of Displacement',
     'https://wiki.guildwars.com/images/3/33/Aura_of_Displacement_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. Shadow Step to target foe. End effect: return to your original location.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -147,6 +154,7 @@ VALUES
   (
     'Beguiling Haze',
     'https://wiki.guildwars.com/images/c/c5/Beguiling_Haze_%28large%29.jpg',
+    true,
     'Elite Spell. You Shadow Step to this foe. Inflicts Dazed condition ({{DazedDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -167,6 +175,7 @@ VALUES
   (
     'Black Lotus Strike',
     'https://wiki.guildwars.com/images/2/26/Black_Lotus_Strike_%28large%29.jpg',
+    true,
     'Lead Attack. Deals +{{PlusDamage}} damage. You gain {{EnergyGain}} Energy if target foe is hexed.',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -187,6 +196,7 @@ VALUES
   (
     'Black Mantis Thrust',
     'https://wiki.guildwars.com/images/2/26/Black_Mantis_Thrust_%28large%29.jpg',
+    true,
     'Lead Attack. Deals +{{PlusDamage}} damage. Inflicts Crippled condition ({{CrippledDuration}} seconds) if target foe is hexed.',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -207,6 +217,7 @@ VALUES
   (
     'Black Spider Strike',
     'https://wiki.guildwars.com/images/c/c6/Black_Spider_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds). Must strike a hexed foe.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -227,6 +238,7 @@ VALUES
   (
     'Blades of Steel',
     'https://wiki.guildwars.com/images/b/bf/Blades_of_Steel_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{PlusDamage}} damage (maximum 60) for each recharging dagger attack. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -247,6 +259,7 @@ VALUES
   (
     'Blinding Powder',
     'https://wiki.guildwars.com/images/b/ba/Blinding_Powder_%28large%29.jpg',
+    true,
     'Spell. Inflicts Blindness condition ({{BlindDuration}} seconds) on target and adjacent foes. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -267,6 +280,7 @@ VALUES
   (
     'Caltrops',
     'https://wiki.guildwars.com/images/b/b3/Caltrops_%28large%29.jpg',
+    true,
     'Half Range Spell. Inflicts Crippled condition ({{CrippledDuration}} seconds) on target and adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -287,6 +301,7 @@ VALUES
   (
     'Crippling Dagger',
     'https://wiki.guildwars.com/images/e/ee/Crippling_Dagger_%28large%29.jpg',
+    true,
     'Half Range Spell. Projectile: deals {{EarthDamage}} earth damage. Inflicts Crippled condition ({{CrippledDuration}} seconds) if target foe is moving.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -306,7 +321,8 @@ VALUES
   ),
   (
     'Critical Agility',
-    '',
+    'https://wiki.guildwars.com/images/e/e8/Critical_Agility.jpg',
+    false,
     'Enchantment Spell. (4 seconds plus 1 second for each rank of Critical Strikes.) You attack 33% faster and gain +{{PlusArmorRating}} armor. Renewal: every time you land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -327,6 +343,7 @@ VALUES
   (
     'Critical Defenses',
     'https://wiki.guildwars.com/images/0/03/Critical_Defenses_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) You have a 75% chance to block. Renewal: every time you land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -347,6 +364,7 @@ VALUES
   (
     'Critical Eye',
     'https://wiki.guildwars.com/images/b/b1/Critical_Eye_%28large%29.jpg',
+    true,
     'Skill. ({{Duration}} seconds.) You have +{{PercentForCriticalHit}}% chance to land a critical hit. You gain 1 Energy whenever you land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -367,6 +385,7 @@ VALUES
   (
     'Critical Strike',
     'https://wiki.guildwars.com/images/3/38/Critical_Strike_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{Damage}} damage. Automatic critical hit. You gain {{Energy}} Energy. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -387,6 +406,7 @@ VALUES
   (
     'Dancing Daggers',
     'https://wiki.guildwars.com/images/d/df/Dancing_Daggers_%28large%29.jpg',
+    true,
     'Half Range Spell. Three projectiles: each deals {{EarthDamage}} earth damage. Counts as a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -407,6 +427,7 @@ VALUES
   (
     'Dark Apostasy',
     'https://wiki.guildwars.com/images/a/ac/Dark_Apostasy_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) Your critical hits remove an enchantment. Removal cost: lose {{EnergyLoss}} Energy or Dark Apostasy ends.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -427,6 +448,7 @@ VALUES
   (
     'Dark Escape',
     'https://wiki.guildwars.com/images/1/10/Dark_Escape_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You move 25% faster and take half damage. Ends if you hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -447,6 +469,7 @@ VALUES
   (
     'Dark Prison',
     'https://wiki.guildwars.com/images/b/b0/Dark_Prison_%28large%29.jpg',
+    true,
     'Hex Spell. Shadow Step to target foe. This foe moves 33% slower ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -467,6 +490,7 @@ VALUES
   (
     'Dash',
     'https://wiki.guildwars.com/images/9/9b/Dash_%28large%29.jpg',
+    true,
     'Stance. (3 seconds.) You move 50% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -487,6 +511,7 @@ VALUES
   (
     'Deadly Haste',
     'https://wiki.guildwars.com/images/5/57/Deadly_Haste_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) Your half-ranged spells cast {{CastingPercent}}% faster and recharge {{RechargePercent}}% faster.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -507,6 +532,7 @@ VALUES
   (
     'Deadly Paradox',
     'https://wiki.guildwars.com/images/a/a7/Deadly_Paradox_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) Your Assassin skills activate and recharge 33% faster. Disables your attack skills (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -527,6 +553,7 @@ VALUES
   (
     'Death Blossom',
     'https://wiki.guildwars.com/images/a/ae/Death_Blossom_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{PlusDamage}} damage. Also affects foes adjacent to target foe. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -547,6 +574,7 @@ VALUES
   (
     'Death Blossom (PvP)',
     'https://wiki.guildwars.com/images/a/ae/Death_Blossom_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{PlusDamage}} damage. Also affects foes adjacent to target foe. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -567,6 +595,7 @@ VALUES
   (
     'Death''s Charge',
     'https://wiki.guildwars.com/images/e/ea/Death%27s_Charge_%28large%29.jpg',
+    true,
     'Spell. You Shadow Step to target foe. You are healed for {{Healing}} if this foe has more Health than you.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -587,6 +616,7 @@ VALUES
   (
     'Death''s Retreat',
     'https://wiki.guildwars.com/images/d/d6/Death%27s_Retreat_%28large%29.jpg',
+    true,
     'Spell. Gain {{HealthGain}} Health if you have less Health than target ally. Initial effect: Shadow Step to this ally. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -607,6 +637,7 @@ VALUES
   (
     'Desperate Strike',
     'https://wiki.guildwars.com/images/f/f3/Desperate_Strike_%28large%29.jpg',
+    true,
     'Lead Attack. Deals +{{PlusDamage}} damage if you have less than {{PercentHealth}}% Health.',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -627,6 +658,7 @@ VALUES
   (
     'Disrupting Dagger',
     'https://wiki.guildwars.com/images/b/b6/Disrupting_Dagger_%28large%29.jpg',
+    true,
     'Half Range Spell. Projectile: deals {{EarthDamage}} earth damage. Interrupts a skill.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -647,6 +679,7 @@ VALUES
   (
     'Disrupting Stab',
     'https://wiki.guildwars.com/images/5/5c/Disrupting_Stab_%28large%29.jpg',
+    true,
     'Lead Attack. Interrupts an action. If the interrupted action was a spell, it is disabled ({{DisabledDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -667,6 +700,7 @@ VALUES
   (
     'Enduring Toxin',
     'https://wiki.guildwars.com/images/0/03/Enduring_Toxin_%28large%29.jpg',
+    true,
     'Hex Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration. Renewal: if the target foe is moving when this hex ends.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -687,6 +721,7 @@ VALUES
   (
     'Entangling Asp',
     'https://wiki.guildwars.com/images/3/31/Entangling_Asp_%28large%29.jpg',
+    true,
     'Spell. Causes knock-down. Inflicts Poisoned condition ({{PoisonDuration}} seconds). Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -707,6 +742,7 @@ VALUES
   (
     'Exhausting Assault',
     'https://wiki.guildwars.com/images/a/a9/Exhausting_Assault_%28large%29.jpg',
+    true,
     'Dual Attack. Interrupts an action. Inflicts 10 Overcast if the interrupted action was a spell. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -727,6 +763,7 @@ VALUES
   (
     'Expose Defenses',
     'https://wiki.guildwars.com/images/8/85/Expose_Defenses_%28large%29.jpg',
+    true,
     'Hex Spell. ({{Duration}} second[s].) Target foe cannot block your attacks.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -747,6 +784,7 @@ VALUES
   (
     'Expunge Enchantments',
     'https://wiki.guildwars.com/images/1/1b/Expunge_Enchantments_%28large%29.jpg',
+    true,
     'Touch Skill. Removes one enchantment for each non-attack skill you have. All your non-attack skills are disabled ({{DisableDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -767,6 +805,7 @@ VALUES
   (
     'Falling Lotus Strike',
     'https://wiki.guildwars.com/images/2/26/Falling_Lotus_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage; you gain {{EnergyGain}} Energy. No effect unless target foe is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -787,6 +826,7 @@ VALUES
   (
     'Falling Spider',
     'https://wiki.guildwars.com/images/1/1b/Falling_Spider_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds). No effect unless target foe is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -807,6 +847,7 @@ VALUES
   (
     'Feigned Neutrality',
     'https://wiki.guildwars.com/images/f/fc/Feigned_Neutrality_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) You have +7 Health regeneration and +80 armor. Ends if you hit with an attack or use a skill.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -827,6 +868,7 @@ VALUES
   (
     'Flashing Blades',
     'https://wiki.guildwars.com/images/9/9d/Flashing_Blades_%28large%29.jpg',
+    true,
     'Elite Stance. ({{Duration}} seconds.) You have 75% chance to block while attacking. Block effect: {{Damage}} damage to your attacker.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -847,6 +889,7 @@ VALUES
   (
     'Fox Fangs',
     'https://wiki.guildwars.com/images/3/34/Fox_Fangs_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. Unblockable. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -867,6 +910,7 @@ VALUES
   (
     'Fox Fangs (PvP)',
     'https://wiki.guildwars.com/images/3/34/Fox_Fangs_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. Unblockable. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -887,6 +931,7 @@ VALUES
   (
     'Fox''s Promise',
     'https://wiki.guildwars.com/images/d/d7/Fox%27s_Promise_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) Your dagger attacks are unblockable. Ends the next time you fail to hit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -907,6 +952,7 @@ VALUES
   (
     'Golden Fang Strike',
     'https://wiki.guildwars.com/images/d/df/Golden_Fang_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if you are enchanted. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -927,6 +973,7 @@ VALUES
   (
     'Golden Fox Strike',
     'https://wiki.guildwars.com/images/1/1f/Golden_Fox_Strike_%28large%29.jpg',
+    true,
     'Lead Attack. Deals +{{PlusDamage}} damage. Unblockable if you are Enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -947,6 +994,7 @@ VALUES
   (
     'Golden Lotus Strike',
     'https://wiki.guildwars.com/images/c/cd/Golden_Lotus_Strike_%28large%29.jpg',
+    true,
     'Lead Attack. Deals +{{PlusDamage}} damage. You gain {{EnergyGain}} Energy if you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -967,6 +1015,7 @@ VALUES
   (
     'Golden Phoenix Strike',
     'https://wiki.guildwars.com/images/c/c9/Golden_Phoenix_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage to target and deals {{PlusDamage}} damage to adjacent foes. Fails if you are not enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -987,6 +1036,7 @@ VALUES
   (
     'Golden Skull Strike',
     'https://wiki.guildwars.com/images/9/94/Golden_Skull_Strike_%28large%29.jpg',
+    true,
     'Elite Off-Hand Attack. Inflicts Dazed condition ({{DazedDuration}} seconds). No effect unless you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1007,6 +1057,7 @@ VALUES
   (
     'Heart of Shadow',
     'https://wiki.guildwars.com/images/2/2d/Heart_of_Shadow_%28large%29.jpg',
+    true,
     'Spell. You are healed for {{Healing}} and you Shadow Step to a nearby location directly away from your target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1027,6 +1078,7 @@ VALUES
   (
     'Hidden Caltrops',
     'https://wiki.guildwars.com/images/e/e6/Hidden_Caltrops_%28large%29.jpg',
+    true,
     'Elite Hex Spell. ({{Duration}} seconds.) Causes 50% slower movement. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds). Your non-Assassin skills are disabled (10 seconds.)',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1047,6 +1099,7 @@ VALUES
   (
     'Horns of the Ox',
     'https://wiki.guildwars.com/images/a/af/Horns_of_the_Ox_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{PlusDamage}} damage. Causes knock-down if the target foe is not adjacent to any of its allies. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1067,6 +1120,7 @@ VALUES
   (
     'Impale',
     'https://wiki.guildwars.com/images/f/f9/Impale_%28large%29.jpg',
+    true,
     'Skill. Deals {{EarthDamage}} earth damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). Must follow a dual attack.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1087,6 +1141,7 @@ VALUES
   (
     'Iron Palm',
     'https://wiki.guildwars.com/images/7/75/Iron_Palm_%28large%29.jpg',
+    true,
     'Touch Skill. Deals {{Damage}} damage. Causes knock-down if target foe is hexed or has a condition. Counts as a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1107,6 +1162,7 @@ VALUES
   (
     'Jagged Strike',
     'https://wiki.guildwars.com/images/d/d4/Jagged_Strike_%28large%29.jpg',
+    true,
     'Lead Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1127,6 +1183,7 @@ VALUES
   (
     'Jungle Strike',
     'https://wiki.guildwars.com/images/c/cd/Jungle_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. Deals +{{ConditionalDamage}} damage to target and adjacent foes if target foe is Crippled. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1147,6 +1204,7 @@ VALUES
   (
     'Leaping Mantis Sting',
     'https://wiki.guildwars.com/images/f/fe/Leaping_Mantis_Sting_%28large%29.jpg',
+    true,
     'Lead Attack. Deals +{{PlusDamage}} damage. Inflicts Crippled condition ({{CrippledDuration}} seconds) if target foe is moving.',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1167,6 +1225,7 @@ VALUES
   (
     'Lift Enchantment',
     'https://wiki.guildwars.com/images/7/7e/Lift_Enchantment_%28large%29.jpg',
+    true,
     'Touch Skill. Removes one enchantment.No [sic] effect unless target foe is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1187,6 +1246,7 @@ VALUES
   (
     'Locust''s Fury',
     'https://wiki.guildwars.com/images/5/5c/Locust%27s_Fury_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) You have +50% chance to double strike. No effect unless you are wielding daggers.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1207,6 +1267,7 @@ VALUES
   (
     'Lotus Strike',
     'https://wiki.guildwars.com/images/9/9d/Lotus_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage; you gain {{EnergyGain}} Energy. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1227,6 +1288,7 @@ VALUES
   (
     'Malicious Strike',
     'https://wiki.guildwars.com/images/e/e8/Malicious_Strike_%28large%29.jpg',
+    true,
     'Melee Attack. If target foe has a condition, this attack deals +{{PlusDamage}} damage and is a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1247,6 +1309,7 @@ VALUES
   (
     'Mantis Touch',
     'https://wiki.guildwars.com/images/d/dd/Mantis_Touch_%28large%29.jpg',
+    true,
     'Spell. Inflicts Crippled condition ({{CrippledDuration}} seconds). This skill counts as an off-hand attack. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1267,6 +1330,7 @@ VALUES
   (
     'Mark of Death',
     'https://wiki.guildwars.com/images/f/fc/Mark_of_Death_%28large%29.jpg',
+    true,
     'Hex Spell. ({{Duration}} seconds.) Target foe receives 33% less from healing.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1287,6 +1351,7 @@ VALUES
   (
     'Mark of Insecurity',
     'https://wiki.guildwars.com/images/2/2d/Mark_of_Insecurity_%28large%29.jpg',
+    true,
     'Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthDegeneration}} Health degeneration. Enchantments and stances expire {{EnchantmentAndStanceReductionPercent}}% faster on target foe. Disables your non-Assassin skills (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1307,6 +1372,7 @@ VALUES
   (
     'Mark of Instability',
     'https://wiki.guildwars.com/images/f/f3/Mark_of_Instability_%28large%29.jpg',
+    true,
     'Hex Spell. (20 seconds.) Causes knock-down the next time you hit target foe with a dual attack.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1327,6 +1393,7 @@ VALUES
   (
     'Mirrored Stance',
     'https://wiki.guildwars.com/images/3/37/Mirrored_Stance_%28large%29.jpg',
+    true,
     'Hex Spell. ({{Duration}} seconds.) You enter any stance used by target foe.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1347,6 +1414,7 @@ VALUES
   (
     'Moebius Strike',
     'https://wiki.guildwars.com/images/7/73/Moebius_Strike_%28large%29.jpg',
+    true,
     'Elite Off-Hand Attack. Deals +{{PlusDamage}} damage. Recharges all your other attack skills if target foe''s Health is below 50%. Must follow a dual attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1367,6 +1435,7 @@ VALUES
   (
     'Nine Tail Strike',
     'https://wiki.guildwars.com/images/c/c8/Nine_Tail_Strike_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{PlusDamage}} damage. Unblockable. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1387,6 +1456,7 @@ VALUES
   (
     'Palm Strike',
     'https://wiki.guildwars.com/images/7/73/Palm_Strike_%28large%29.jpg',
+    true,
     'Elite Touch Skill. Deals {{Damage}} damage and inflicts Crippled condition ({{CrippledDuration}} second[s]). This skill counts as an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1407,6 +1477,7 @@ VALUES
   (
     'Recall',
     'https://wiki.guildwars.com/images/f/ff/Recall_%28large%29.jpg',
+    true,
     'Enchantment Spell. End effect: Shadow Step to target ally. Cannot self-target and disables all of your skills for 10 seconds when it ends.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1427,6 +1498,7 @@ VALUES
   (
     'Repeating Strike',
     'https://wiki.guildwars.com/images/2/2e/Repeating_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. This skill has +15 second recharge time if it misses. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1447,6 +1519,7 @@ VALUES
   (
     'Return',
     'https://wiki.guildwars.com/images/0/05/Return_%28large%29.jpg',
+    true,
     'Spell. Inflicts Crippled condition ({{CrippledDuration}} seconds) on all foes adjacent to you. You Shadow Step to target ally''s location. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1467,6 +1540,7 @@ VALUES
   (
     'Sadist''s Signet',
     'https://wiki.guildwars.com/images/4/49/Sadist%27s_Signet_%28large%29.jpg',
+    true,
     'Signet. You gain {{HealthGain}} Health for each condition on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1487,6 +1561,7 @@ VALUES
   (
     'Scorpion Wire',
     'https://wiki.guildwars.com/images/f/f1/Scorpion_Wire_%28large%29.jpg',
+    true,
     'Half Range Hex Spell. ({{Duration}} seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 100'' away from you.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1507,6 +1582,7 @@ VALUES
   (
     'Seeping Wound',
     'https://wiki.guildwars.com/images/f/f7/Seeping_Wound_%28large%29.jpg',
+    true,
     'Elite Half Range Hex Spell. ({{Duration}} second[s].) Target foe moves 33% slower. This foe takes {{Damage}} damage each second while suffering from a condition.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1527,6 +1603,7 @@ VALUES
   (
     'Shadow Fang',
     'https://wiki.guildwars.com/images/9/9b/Shadow_Fang_%28large%29.jpg',
+    true,
     'Hex Spell. Shadow Step to target foe. End effect after 10 seconds: inflicts Deep Wound condition ({{DeepWoundDuration}} seconds); you return to your original location.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1547,6 +1624,7 @@ VALUES
   (
     'Shadow Form',
     'https://wiki.guildwars.com/images/d/d8/Shadow_Form_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) Enemy spells cannot target you. Gain 5 damage reduction for each Assassin enchantment on you. You cannot deal more than {{MaximumDamage}} damage with a single skill or attack.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1567,6 +1645,7 @@ VALUES
   (
     'Shadow Form (PvP)',
     'https://wiki.guildwars.com/images/d/d8/Shadow_Form_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) Hostile spells targeting you fail, and attacks against you miss. End effect: lose all but {{HealthAtEnd}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1587,6 +1666,7 @@ VALUES
   (
     'Shadow Meld',
     'https://wiki.guildwars.com/images/0/09/Shadow_Meld_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. Shadow Step to target ally. End effect: return to your original location. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1607,6 +1687,7 @@ VALUES
   (
     'Shadow Prison',
     'https://wiki.guildwars.com/images/c/c2/Shadow_Prison_%28large%29.jpg',
+    true,
     'Elite Hex Spell. Shadow Step to target foe. This foe moves 66% slower ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1627,6 +1708,7 @@ VALUES
   (
     'Shadow Refuge',
     'https://wiki.guildwars.com/images/d/d1/Shadow_Refuge_%28large%29.jpg',
+    true,
     'Enchantment Spell. (6 seconds.) You have +{{HealthRegeneration}} Health regeneration. End effect: heals you for {{Healing}} if you are attacking.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1646,7 +1728,8 @@ VALUES
   ),
   (
     'Shadow Sanctuary',
-    '',
+    'https://wiki.guildwars.com/images/1/17/Shadow_Sanctuary.jpg',
+    false,
     'Enchantment Spell. (10 seconds.) You gain +{{HealthRegeneration}} Health regeneration and +40 armor. You are Blind (5 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1667,6 +1750,7 @@ VALUES
   (
     'Shadow Shroud',
     'https://wiki.guildwars.com/images/7/7d/Shadow_Shroud_%28large%29.jpg',
+    true,
     'Elite Hex Spell. ({{Duration}} seconds.) Target foe cannot be the target of enchantments.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1686,7 +1770,8 @@ VALUES
   ),
   (
     'Shadow Theft',
-    '',
+    'https://wiki.guildwars.com/images/9/91/Shadow_Theft.jpg',
+    false,
     'Elite Skill. Shadow Step to target foe. For {{Duration}} seconds that foe''s attributes are reduced by {{AttributeBonus}} and your attributes are increased by {{AttributeBonus}}. Counts as a Lead Attack. PvE Skill',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1707,6 +1792,7 @@ VALUES
   (
     'Shadow Walk',
     'https://wiki.guildwars.com/images/1/1e/Shadow_Walk_%28large%29.jpg',
+    true,
     'Stance. (15 seconds.) Shadow Step to target foe. End effect: return to your original location. Disables your attack skills for 1 second. Disables your stances and enchantments for 10 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1727,6 +1813,7 @@ VALUES
   (
     'Shadow of Haste',
     'https://wiki.guildwars.com/images/a/a6/Shadow_of_Haste_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You move 15% faster. End effect: return to your original location.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1747,6 +1834,7 @@ VALUES
   (
     'Shadowy Burden',
     'https://wiki.guildwars.com/images/6/6b/Shadowy_Burden_%28large%29.jpg',
+    true,
     'Hex Spell. ({{Duration}} seconds.) Target foe moves 25% slower and has 20 less armor against your attacks. Armor reduction only affects this foe while it has no other hexes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1767,6 +1855,7 @@ VALUES
   (
     'Shameful Fear',
     'https://wiki.guildwars.com/images/8/8c/Shameful_Fear_%28large%29.jpg',
+    true,
     'Hex Spell. (10 seconds.) Target foe takes {{DamageWhileMoving}} damage each second while moving, but moves 10% faster.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1787,6 +1876,7 @@ VALUES
   (
     'Sharpen Daggers',
     'https://wiki.guildwars.com/images/5/56/Sharpen_Daggers_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) Your dagger attacks inflict the Bleeding condition ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1807,6 +1897,7 @@ VALUES
   (
     'Shattering Assault',
     'https://wiki.guildwars.com/images/b/bc/Shattering_Assault_%28large%29.jpg',
+    true,
     'Elite Dual Attack. Deals {{Damage}} damage. Removes one enchantment. Unblockable. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1827,6 +1918,7 @@ VALUES
   (
     'Shroud of Distress',
     'https://wiki.guildwars.com/images/2/20/Shroud_of_Distress_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) You have {{HealthRegeneration}} health regeneration and a 75% chance to block. No effect unless your Health is below 50%.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1847,6 +1939,7 @@ VALUES
   (
     'Shroud of Distress (PvP)',
     'https://wiki.guildwars.com/images/2/20/Shroud_of_Distress_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) You have 75% chance to block. No effect unless your Health is below 50%.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1867,6 +1960,7 @@ VALUES
   (
     'Shroud of Silence',
     'https://wiki.guildwars.com/images/8/87/Shroud_of_Silence_%28large%29.jpg',
+    true,
     'Elite Touch Hex Spell. ({{Duration}} second[s].) Target foe cannot cast spells. Your spells are disabled for 15 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Touch Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1887,6 +1981,7 @@ VALUES
   (
     'Signet of Deadly Corruption',
     'https://wiki.guildwars.com/images/4/49/Signet_of_Deadly_Corruption_%28large%29.jpg',
+    true,
     'Signet. Deals {{ArmorMinusIgnoringDamagePerCondition}} damage (maximum 130) for each condition on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1907,6 +2002,7 @@ VALUES
   (
     'Signet of Deadly Corruption (PvP)',
     'https://wiki.guildwars.com/images/4/49/Signet_of_Deadly_Corruption_%28large%29.jpg',
+    true,
     'Signet. Deals {{ArmorMinusIgnoringDamagePerCondition}} damage (maximum 130) for each condition on target foe. Must follow a dual attack.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1927,6 +2023,7 @@ VALUES
   (
     'Signet of Malice',
     'https://wiki.guildwars.com/images/8/80/Signet_of_Malice_%28large%29.jpg',
+    true,
     'Signet. You lose one condition for each condition on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1947,6 +2044,7 @@ VALUES
   (
     'Signet of Shadows',
     'https://wiki.guildwars.com/images/e/e2/Signet_of_Shadows_%28large%29.jpg',
+    true,
     'Signet. Deals {{Damage}} damage. Deals {{AdditionalDamage}} more damage if target foe is Blinded.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1967,6 +2065,7 @@ VALUES
   (
     'Signet of Toxic Shock',
     'https://wiki.guildwars.com/images/4/4f/Signet_of_Toxic_Shock_%28large%29.jpg',
+    true,
     'Signet. Deals {{Damage}} damage. No effect unless target foe is Poisoned',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -1987,6 +2086,7 @@ VALUES
   (
     'Signet of Twilight',
     'https://wiki.guildwars.com/images/c/cd/Signet_of_Twilight_%28large%29.jpg',
+    true,
     'Signet. Removes one enchantment for each hex on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2007,6 +2107,7 @@ VALUES
   (
     'Siphon Speed',
     'https://wiki.guildwars.com/images/f/f9/Siphon_Speed_%28large%29.jpg',
+    true,
     'Half Range Hex Spell. ({{Duration}} seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2027,6 +2128,7 @@ VALUES
   (
     'Siphon Strength',
     'https://wiki.guildwars.com/images/b/b5/Siphon_Strength_%28large%29.jpg',
+    true,
     'Elite Hex Spell. ({{Duration}} seconds.) Target foe deals -{{DamageReduction}} attack damage. You have +33% chance to land a critical hit on this foe.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2047,6 +2149,7 @@ VALUES
   (
     'Smoke Powder Defense',
     'https://wiki.guildwars.com/images/2/29/Smoke_Powder_Defense_%28large%29.jpg',
+    true,
     'Stance. (8 seconds.) The next time you are struck, you take half damage and inflict Blindness condition ({{BlindDuration}} seconds) on adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2067,6 +2170,7 @@ VALUES
   (
     'Spirit Walk',
     'https://wiki.guildwars.com/images/d/de/Spirit_Walk_%28large%29.jpg',
+    true,
     'Spell. Shadow Step to target Spirit. [sic]',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2087,6 +2191,7 @@ VALUES
   (
     'Swap',
     'https://wiki.guildwars.com/images/c/cb/Swap_%28large%29.jpg',
+    true,
     'Spell. You and target summoned creature Shadow Step to each other''s locations.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2107,6 +2212,7 @@ VALUES
   (
     'Temple Strike',
     'https://wiki.guildwars.com/images/8/8f/Temple_Strike_%28large%29.jpg',
+    true,
     'Elite Off-Hand Attack. Interrupts a spell. Inflicts Dazed and Blindness conditions ({{DazedAndBlindDuration}} seconds). Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2127,6 +2233,7 @@ VALUES
   (
     'Trampling Ox',
     'https://wiki.guildwars.com/images/f/f7/Trampling_Ox_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{PlusDamage}} damage; causes knock-down if target foe is Crippled. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2147,6 +2254,7 @@ VALUES
   (
     'Twisting Fangs',
     'https://wiki.guildwars.com/images/9/9e/Twisting_Fangs_%28large%29.jpg',
+    true,
     'Dual Attack. Deals +{{PlusDamage}} damage. Inflicts Bleeding and Deep Wound conditions ({{BleedingAndDeepWoundDuration}} seconds). Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2167,6 +2275,7 @@ VALUES
   (
     'Unseen Fury',
     'https://wiki.guildwars.com/images/0/0c/Unseen_Fury_%28large%29.jpg',
+    true,
     'Stance. Inflicts Blindness condition on adjacent foes ({{BlindDuration}}). You cannot be blocked by Blinded foes for {{StanceDuration}} seconds.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2187,6 +2296,7 @@ VALUES
   (
     'Unseen Fury (PvP)',
     'https://wiki.guildwars.com/images/0/0c/Unseen_Fury_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You cannot be blocked by Blinded foes.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2207,6 +2317,7 @@ VALUES
   (
     'Unsuspecting Strike',
     'https://wiki.guildwars.com/images/7/71/Unsuspecting_Strike_%28large%29.jpg',
+    true,
     'Lead Attack. Deals +{{PlusDamage}} damage. Deals {{PlusDamageGtPercentHealth}} more damage if target foe''s Health is above 90%.',
     (SELECT id FROM skill_types WHERE name = 'Lead Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2227,6 +2338,7 @@ VALUES
   (
     'Vampiric Assault',
     'https://wiki.guildwars.com/images/d/dc/Vampiric_Assault_%28large%29.jpg',
+    true,
     'Dual Attack. Steals {{LifeStealing}} Health if this attack hits. Must follow an off-hand attack.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2247,6 +2359,7 @@ VALUES
   (
     'Viper''s Defense',
     'https://wiki.guildwars.com/images/c/ce/Viper%27s_Defense_%28large%29.jpg',
+    true,
     'Spell. Inflict Poisoned condition ({{PoisonDuration}} seconds) on all adjacent foes and Shadow Step to a nearby location directly away from your target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2267,6 +2380,7 @@ VALUES
   (
     'Wastrel''s Collapse',
     'https://wiki.guildwars.com/images/e/e7/Wastrel%27s_Collapse_%28large%29.jpg',
+    true,
     'Elite Skill. Shadow Step to target foe. Causes knock-down if target foe is not using a skill. Disables your non-dagger attack skills (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2287,6 +2401,7 @@ VALUES
   (
     'Way of Perfection',
     'https://wiki.guildwars.com/images/9/99/Way_of_Perfection_%28large%29.jpg',
+    true,
     'Enchantment Spell. (60 seconds.) Your critical hits heal you for {{HealthGain}}.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2307,6 +2422,7 @@ VALUES
   (
     'Way of the Assassin',
     'https://wiki.guildwars.com/images/0/02/Way_of_the_Assassin_%28large%29.jpg',
+    true,
     'Elite Stance. (20 seconds.) While wielding daggers, you attack {{AttackSpeedIncrease}}% faster and have +{{PlusCriticalHitChance}}% chance to land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2327,6 +2443,7 @@ VALUES
   (
     'Way of the Empty Palm',
     'https://wiki.guildwars.com/images/2/2b/Way_of_the_Empty_Palm_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) Your off-hand and dual attacks cost no Energy.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2347,6 +2464,7 @@ VALUES
   (
     'Way of the Fox',
     'https://wiki.guildwars.com/images/a/a3/Way_of_the_Fox_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) Your attacks are unblockable. Ends after {{SubsequentAttacks}} attack[s].',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2367,6 +2485,7 @@ VALUES
   (
     'Way of the Lotus',
     'https://wiki.guildwars.com/images/6/61/Way_of_the_Lotus_%28large%29.jpg',
+    true,
     'Enchantment Spell. (20 seconds.) You gain {{EnergyGain}} Energy the next time you hit with a dual attack.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2387,6 +2506,7 @@ VALUES
   (
     'Way of the Master',
     'https://wiki.guildwars.com/images/e/eb/Way_of_the_Master_%28large%29.jpg',
+    true,
     'Enchantment Spell. (60 seconds.) While holding a non-dagger weapon, you have +{{AdditionalCritChancePercent}}% chance to land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2407,6 +2527,7 @@ VALUES
   (
     'Wild Strike',
     'https://wiki.guildwars.com/images/5/5a/Wild_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. Removes target foe''s stance. Unblockable. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2427,6 +2548,7 @@ VALUES
   (
     'Wild Strike (PvP)',
     'https://wiki.guildwars.com/images/5/5a/Wild_Strike_%28large%29.jpg',
+    true,
     'Off-Hand Attack. Deals +{{PlusDamage}} damage. Removes target foe''s stance. Unblockable. Must follow a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Assassin'),
@@ -2446,6 +2568,7 @@ VALUES
   )
 ON CONFLICT (name) DO UPDATE SET
   icon = EXCLUDED.icon,
+  is_high_res_icon = EXCLUDED.is_high_res_icon,
   description = EXCLUDED.description,
   skill_type_id = EXCLUDED.skill_type_id,
   profession_id = EXCLUDED.profession_id,

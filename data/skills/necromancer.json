@@ -70,7 +70,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Angorodon%27s_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Angorodon%27s_Gaze",
+    "is_high_res_icon": true
   },
   {
     "name": "Animate Bone Fiend",
@@ -119,7 +120,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Fiend"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Fiend",
+    "is_high_res_icon": true
   },
   {
     "name": "Animate Bone Horror",
@@ -168,7 +170,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Horror"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Horror",
+    "is_high_res_icon": true
   },
   {
     "name": "Animate Bone Minions",
@@ -217,7 +220,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Minions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Bone_Minions",
+    "is_high_res_icon": true
   },
   {
     "name": "Animate Flesh Golem",
@@ -266,7 +270,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Flesh_Golem"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Flesh_Golem",
+    "is_high_res_icon": true
   },
   {
     "name": "Animate Shambling Horror",
@@ -339,7 +344,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
+    "is_high_res_icon": true
   },
   {
     "name": "Animate Vampiric Horror",
@@ -388,7 +394,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Vampiric_Horror"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Vampiric_Horror",
+    "is_high_res_icon": true
   },
   {
     "name": "Atrophy",
@@ -437,7 +444,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Atrophy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Atrophy",
+    "is_high_res_icon": true
   },
   {
     "name": "Aura of the Lich",
@@ -510,7 +518,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich",
+    "is_high_res_icon": true
   },
   {
     "name": "Awaken the Blood",
@@ -559,7 +568,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Awaken_the_Blood"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Awaken_the_Blood",
+    "is_high_res_icon": true
   },
   {
     "name": "Barbed Signet",
@@ -608,7 +618,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Barbed_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbed_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Barbs",
@@ -657,7 +668,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Barbs"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbs",
+    "is_high_res_icon": true
   },
   {
     "name": "Bitter Chill",
@@ -706,7 +718,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bitter_Chill"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bitter_Chill",
+    "is_high_res_icon": true
   },
   {
     "name": "Blood Bond",
@@ -803,7 +816,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Bond"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Bond",
+    "is_high_res_icon": true
   },
   {
     "name": "Blood Drinker",
@@ -852,7 +866,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Drinker"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Drinker",
+    "is_high_res_icon": true
   },
   {
     "name": "Blood Renewal",
@@ -925,7 +940,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Renewal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Renewal",
+    "is_high_res_icon": true
   },
   {
     "name": "Blood Ritual",
@@ -974,7 +990,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Ritual"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Ritual",
+    "is_high_res_icon": true
   },
   {
     "name": "Blood is Power",
@@ -1023,7 +1040,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_is_Power"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_is_Power",
+    "is_high_res_icon": true
   },
   {
     "name": "Blood of the Aggressor",
@@ -1096,7 +1114,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Aggressor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Aggressor",
+    "is_high_res_icon": true
   },
   {
     "name": "Blood of the Master",
@@ -1145,7 +1164,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Master"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_the_Master",
+    "is_high_res_icon": true
   },
   {
     "name": "Cacophony",
@@ -1194,7 +1214,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Cacophony"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cacophony",
+    "is_high_res_icon": true
   },
   {
     "name": "Chilblains",
@@ -1267,7 +1288,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chilblains"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chilblains",
+    "is_high_res_icon": true
   },
   {
     "name": "Consume Corpse",
@@ -1340,7 +1362,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Corpse"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Corpse",
+    "is_high_res_icon": true
   },
   {
     "name": "Contagion",
@@ -1389,7 +1412,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Contagion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Contagion",
+    "is_high_res_icon": true
   },
   {
     "name": "Corrupt Enchantment",
@@ -1438,7 +1462,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupt_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupt_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Cultist's Fervor",
@@ -1487,7 +1512,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Cultist%27s_Fervor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cultist%27s_Fervor",
+    "is_high_res_icon": true
   },
   {
     "name": "Dark Aura",
@@ -1560,7 +1586,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Dark Bond",
@@ -1609,7 +1636,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Bond"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Bond",
+    "is_high_res_icon": true
   },
   {
     "name": "Dark Fury",
@@ -1633,7 +1661,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Fury",
+    "is_high_res_icon": true
   },
   {
     "name": "Dark Pact",
@@ -1682,7 +1711,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Pact"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Pact",
+    "is_high_res_icon": true
   },
   {
     "name": "Death Nova",
@@ -1731,7 +1761,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Nova"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Nova",
+    "is_high_res_icon": true
   },
   {
     "name": "Deathly Chill",
@@ -1804,7 +1835,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Chill"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Chill",
+    "is_high_res_icon": true
   },
   {
     "name": "Deathly Swarm",
@@ -1853,7 +1885,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Swarm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deathly_Swarm",
+    "is_high_res_icon": true
   },
   {
     "name": "Defile Defenses",
@@ -1926,7 +1959,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Defenses"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Defenses",
+    "is_high_res_icon": true
   },
   {
     "name": "Defile Enchantments",
@@ -1999,7 +2033,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Enchantments"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Enchantments",
+    "is_high_res_icon": true
   },
   {
     "name": "Defile Flesh",
@@ -2048,7 +2083,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Flesh"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defile_Flesh",
+    "is_high_res_icon": true
   },
   {
     "name": "Demonic Flesh",
@@ -2121,7 +2157,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Demonic_Flesh"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
+    "is_high_res_icon": true
   },
   {
     "name": "Depravity",
@@ -2194,7 +2231,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Depravity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Depravity",
+    "is_high_res_icon": true
   },
   {
     "name": "Desecrate Enchantments",
@@ -2267,7 +2305,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
+    "is_high_res_icon": true
   },
   {
     "name": "Discord",
@@ -2316,7 +2355,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Discord"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Discord",
+    "is_high_res_icon": true
   },
   {
     "name": "Discord (PvP)",
@@ -2365,7 +2405,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Discord_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Discord_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Enfeeble",
@@ -2414,7 +2455,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble",
+    "is_high_res_icon": true
   },
   {
     "name": "Enfeeble (PvP)",
@@ -2463,7 +2505,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeeble_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Enfeebling Blood",
@@ -2512,7 +2555,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood",
+    "is_high_res_icon": true
   },
   {
     "name": "Enfeebling Blood (PvP)",
@@ -2561,7 +2605,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Blood_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Enfeebling Touch",
@@ -2634,7 +2679,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enfeebling_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Envenom Enchantments",
@@ -2683,7 +2729,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Envenom_Enchantments"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Envenom_Enchantments",
+    "is_high_res_icon": true
   },
   {
     "name": "Faintheartedness",
@@ -2756,7 +2803,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Faintheartedness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Faintheartedness",
+    "is_high_res_icon": true
   },
   {
     "name": "Feast for the Dead",
@@ -2805,7 +2853,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Feast_for_the_Dead"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feast_for_the_Dead",
+    "is_high_res_icon": true
   },
   {
     "name": "Feast of Corruption",
@@ -2878,7 +2927,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Feast_of_Corruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feast_of_Corruption",
+    "is_high_res_icon": true
   },
   {
     "name": "Fetid Ground",
@@ -2951,7 +3001,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fetid_Ground"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fetid_Ground",
+    "is_high_res_icon": true
   },
   {
     "name": "Foul Feast",
@@ -3024,7 +3075,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Foul_Feast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Foul_Feast",
+    "is_high_res_icon": true
   },
   {
     "name": "Gaze of Contempt",
@@ -3048,7 +3100,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt",
+    "is_high_res_icon": true
   },
   {
     "name": "Grenth's Balance",
@@ -3072,7 +3125,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
+    "is_high_res_icon": true
   },
   {
     "name": "Hexer's Vigor",
@@ -3121,7 +3175,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hexer%27s_Vigor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hexer%27s_Vigor",
+    "is_high_res_icon": true
   },
   {
     "name": "Icy Veins",
@@ -3218,7 +3273,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Veins"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Icy_Veins",
+    "is_high_res_icon": true
   },
   {
     "name": "Infuse Condition",
@@ -3267,7 +3323,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Infuse_Condition"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Infuse_Condition",
+    "is_high_res_icon": true
   },
   {
     "name": "Insidious Parasite",
@@ -3340,7 +3397,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Insidious_Parasite"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
+    "is_high_res_icon": true
   },
   {
     "name": "Jagged Bones",
@@ -3389,7 +3447,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Bones"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Bones",
+    "is_high_res_icon": true
   },
   {
     "name": "Jaundiced Gaze",
@@ -3486,7 +3545,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jaundiced_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jaundiced_Gaze",
+    "is_high_res_icon": true
   },
   {
     "name": "Life Siphon",
@@ -3583,7 +3643,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Siphon"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Siphon",
+    "is_high_res_icon": true
   },
   {
     "name": "Life Transfer",
@@ -3656,7 +3717,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Transfer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Transfer",
+    "is_high_res_icon": true
   },
   {
     "name": "Lifebane Strike",
@@ -3729,7 +3791,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lifebane_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lifebane_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Lingering Curse",
@@ -3802,7 +3865,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lingering_Curse"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lingering_Curse",
+    "is_high_res_icon": true
   },
   {
     "name": "Malaise",
@@ -3875,7 +3939,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Malaise"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Malaise",
+    "is_high_res_icon": true
   },
   {
     "name": "Malign Intervention",
@@ -3948,7 +4013,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Malign_Intervention"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Malign_Intervention",
+    "is_high_res_icon": true
   },
   {
     "name": "Mark of Fury",
@@ -4021,7 +4087,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Fury",
+    "is_high_res_icon": true
   },
   {
     "name": "Mark of Pain",
@@ -4070,7 +4137,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Mark of Subversion",
@@ -4119,7 +4187,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Subversion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Subversion",
+    "is_high_res_icon": true
   },
   {
     "name": "Masochism",
@@ -4192,7 +4261,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Masochism"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Masochism",
+    "is_high_res_icon": true
   },
   {
     "name": "Masochism (PvP)",
@@ -4241,7 +4311,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Masochism_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Masochism_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Meekness",
@@ -4290,11 +4361,12 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Meekness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Meekness",
+    "is_high_res_icon": true
   },
   {
     "name": "Necrosis",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/9/99/Necrosis.jpg",
     "concise_description": "Skill. Deals {{ArmorignoringDamage}} damage if target foe has a condition or hex.",
     "type": "Skill",
     "profession": "Necromancer",
@@ -4328,7 +4400,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Necrosis"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Necrosis",
+    "is_high_res_icon": false
   },
   {
     "name": "Necrotic Traversal",
@@ -4377,7 +4450,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Necrotic_Traversal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Necrotic_Traversal",
+    "is_high_res_icon": true
   },
   {
     "name": "Offering of Blood",
@@ -4426,7 +4500,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Offering_of_Blood"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Offering_of_Blood",
+    "is_high_res_icon": true
   },
   {
     "name": "Oppressive Gaze",
@@ -4499,7 +4574,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Oppressive_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Oppressive_Gaze",
+    "is_high_res_icon": true
   },
   {
     "name": "Order of Apostasy",
@@ -4548,7 +4624,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Apostasy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Apostasy",
+    "is_high_res_icon": true
   },
   {
     "name": "Order of Pain",
@@ -4597,7 +4674,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Order of Undeath",
@@ -4646,7 +4724,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Undeath"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Undeath",
+    "is_high_res_icon": true
   },
   {
     "name": "Order of the Vampire",
@@ -4695,7 +4774,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Vampire"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Vampire",
+    "is_high_res_icon": true
   },
   {
     "name": "Pain of Disenchantment",
@@ -4768,7 +4848,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Parasitic Bond",
@@ -4817,7 +4898,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Parasitic_Bond"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Parasitic_Bond",
+    "is_high_res_icon": true
   },
   {
     "name": "Plague Sending",
@@ -4866,7 +4948,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Sending"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Sending",
+    "is_high_res_icon": true
   },
   {
     "name": "Plague Signet",
@@ -4915,7 +4998,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Plague Touch",
@@ -4964,7 +5048,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Poisoned Heart",
@@ -5013,7 +5098,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Poisoned_Heart"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Poisoned_Heart",
+    "is_high_res_icon": true
   },
   {
     "name": "Price of Failure",
@@ -5062,7 +5148,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Failure"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Failure",
+    "is_high_res_icon": true
   },
   {
     "name": "Putrid Bile",
@@ -5159,7 +5246,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Bile"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Bile",
+    "is_high_res_icon": true
   },
   {
     "name": "Putrid Explosion",
@@ -5208,7 +5296,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Explosion",
+    "is_high_res_icon": true
   },
   {
     "name": "Putrid Flesh",
@@ -5257,7 +5346,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Flesh"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Flesh",
+    "is_high_res_icon": true
   },
   {
     "name": "Ravenous Gaze",
@@ -5330,7 +5420,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ravenous_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ravenous_Gaze",
+    "is_high_res_icon": true
   },
   {
     "name": "Reaper's Mark",
@@ -5403,7 +5494,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reaper%27s_Mark"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reaper%27s_Mark",
+    "is_high_res_icon": true
   },
   {
     "name": "Reckless Haste",
@@ -5452,7 +5544,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reckless_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reckless_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Rend Enchantments",
@@ -5525,7 +5618,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rend_Enchantments"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rend_Enchantments",
+    "is_high_res_icon": true
   },
   {
     "name": "Rigor Mortis",
@@ -5574,7 +5668,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rigor_Mortis"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rigor_Mortis",
+    "is_high_res_icon": true
   },
   {
     "name": "Rip Enchantment",
@@ -5623,7 +5718,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rip_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rip_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Rising Bile",
@@ -5696,7 +5792,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rising_Bile"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rising_Bile",
+    "is_high_res_icon": true
   },
   {
     "name": "Rotting Flesh",
@@ -5745,7 +5842,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rotting_Flesh"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rotting_Flesh",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Strike",
@@ -5818,7 +5916,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow of Fear",
@@ -5867,7 +5966,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_of_Fear"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_of_Fear",
+    "is_high_res_icon": true
   },
   {
     "name": "Shivers of Dread",
@@ -5940,7 +6040,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shivers_of_Dread"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shivers_of_Dread",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Agony",
@@ -5989,7 +6090,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Agony (PvP)",
@@ -6038,11 +6140,12 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Agony_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Corruption",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/1/18/Signet_of_Corruption.jpg",
     "concise_description": "Signet. Deals {{Damage}} damage to target and nearby foes. You gain 2 Energy (maximum {{MaximumEnergyGain}}) for each of these foes with a condition or hex.",
     "type": "Signet",
     "profession": "Necromancer",
@@ -6093,7 +6196,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Corruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Corruption",
+    "is_high_res_icon": false
   },
   {
     "name": "Signet of Lost Souls",
@@ -6166,7 +6270,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Lost_Souls"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Lost_Souls",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Sorrow",
@@ -6215,7 +6320,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Sorrow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Sorrow",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Suffering",
@@ -6264,7 +6370,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Suffering"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Suffering",
+    "is_high_res_icon": true
   },
   {
     "name": "Soul Barbs",
@@ -6313,7 +6420,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Barbs"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Barbs",
+    "is_high_res_icon": true
   },
   {
     "name": "Soul Bind",
@@ -6362,7 +6470,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Bind"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Bind",
+    "is_high_res_icon": true
   },
   {
     "name": "Soul Feast",
@@ -6411,7 +6520,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Feast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Feast",
+    "is_high_res_icon": true
   },
   {
     "name": "Soul Leech",
@@ -6460,11 +6570,12 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Leech"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Leech",
+    "is_high_res_icon": true
   },
   {
     "name": "Soul Taker",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/4/4e/Soul_Taker.jpg",
     "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Attacks deal +{{Damage}} damage and sacrifice {{Sacrifice}} health. PvE Skill",
     "type": "Elite Enchantment Spell",
     "profession": "Necromancer",
@@ -6557,7 +6668,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Taker"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Taker",
+    "is_high_res_icon": false
   },
   {
     "name": "Spinal Shivers",
@@ -6630,7 +6742,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spinal_Shivers"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spinal_Shivers",
+    "is_high_res_icon": true
   },
   {
     "name": "Spiteful Spirit",
@@ -6703,7 +6816,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spiteful_Spirit"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spiteful_Spirit",
+    "is_high_res_icon": true
   },
   {
     "name": "Spoil Victor",
@@ -6776,7 +6890,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor",
+    "is_high_res_icon": true
   },
   {
     "name": "Spoil Victor (PvP)",
@@ -6849,7 +6964,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spoil_Victor_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Strip Enchantment",
@@ -6922,7 +7038,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Strip_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strip_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Suffering",
@@ -6995,47 +7112,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Suffering"
-  },
-  {
-    "name": "Summon Spirits",
-    "icon": null,
-    "concise_description": "Spell. Spirits you control Shadow Step to your location and gain {{HealthGain}} Health.",
-    "type": "Spell",
-    "profession": "Ritualist",
-    "attribute": {
-      "name": "Allegiance rank",
-      "progression": {
-        "HealthGain": {
-          "0": 60,
-          "1": 65,
-          "2": 73,
-          "3": 79,
-          "4": 87,
-          "5": 92,
-          "6": 100,
-          "7": 100,
-          "8": 100,
-          "9": 100,
-          "10": 100,
-          "11": 100,
-          "12": 100
-        }
-      }
-    },
-    "costs": {
-      "energy": 5,
-      "adrenaline": null,
-      "upkeep": null,
-      "sacrifice": null,
-      "overcast": null
-    },
-    "activation": 0.25,
-    "recharge": 5,
-    "is_elite": false,
-    "campaign": "Factions",
-    "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Spirits"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Suffering",
+    "is_high_res_icon": true
   },
   {
     "name": "Tainted Flesh",
@@ -7108,7 +7186,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tainted_Flesh"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
+    "is_high_res_icon": true
   },
   {
     "name": "Taste of Death",
@@ -7157,7 +7236,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Death"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Death",
+    "is_high_res_icon": true
   },
   {
     "name": "Taste of Pain",
@@ -7206,7 +7286,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Touch of Agony",
@@ -7255,7 +7336,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Agony"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Agony",
+    "is_high_res_icon": true
   },
   {
     "name": "Toxic Chill",
@@ -7328,7 +7410,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Toxic_Chill"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Toxic_Chill",
+    "is_high_res_icon": true
   },
   {
     "name": "Ulcerous Lungs",
@@ -7401,7 +7484,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ulcerous_Lungs"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ulcerous_Lungs",
+    "is_high_res_icon": true
   },
   {
     "name": "Unholy Feast",
@@ -7474,7 +7558,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast",
+    "is_high_res_icon": true
   },
   {
     "name": "Unholy Feast (PvP)",
@@ -7547,7 +7632,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unholy_Feast_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Vile Miasma",
@@ -7620,7 +7706,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Miasma"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Miasma",
+    "is_high_res_icon": true
   },
   {
     "name": "Virulence",
@@ -7669,7 +7756,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Virulence"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Virulence",
+    "is_high_res_icon": true
   },
   {
     "name": "Vampiric Bite",
@@ -7718,7 +7806,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Bite"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Bite",
+    "is_high_res_icon": true
   },
   {
     "name": "Vampiric Gaze",
@@ -7767,7 +7856,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Gaze",
+    "is_high_res_icon": true
   },
   {
     "name": "Vampiric Spirit",
@@ -7840,7 +7930,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Spirit"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Spirit",
+    "is_high_res_icon": true
   },
   {
     "name": "Vampiric Swarm",
@@ -7889,7 +7980,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Swarm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
+    "is_high_res_icon": true
   },
   {
     "name": "Vampiric Touch",
@@ -7938,7 +8030,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Verata's Aura",
@@ -7987,7 +8080,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Verata's Gaze",
@@ -8011,7 +8105,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
+    "is_high_res_icon": true
   },
   {
     "name": "Verata's Sacrifice",
@@ -8060,7 +8155,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Sacrifice"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Sacrifice",
+    "is_high_res_icon": true
   },
   {
     "name": "Vile Touch",
@@ -8109,7 +8205,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vile_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Vocal Minority",
@@ -8158,7 +8255,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vocal_Minority"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vocal_Minority",
+    "is_high_res_icon": true
   },
   {
     "name": "Wail of Doom",
@@ -8207,7 +8305,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wail_of_Doom"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wail_of_Doom",
+    "is_high_res_icon": true
   },
   {
     "name": "Wallow's Bite",
@@ -8256,7 +8355,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wallow%27s_Bite"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wallow%27s_Bite",
+    "is_high_res_icon": true
   },
   {
     "name": "Weaken Armor",
@@ -8305,7 +8405,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Armor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Armor",
+    "is_high_res_icon": true
   },
   {
     "name": "Weaken Knees",
@@ -8402,7 +8503,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Knees"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weaken_Knees",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of Blood",
@@ -8475,7 +8577,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Blood"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Blood",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of Darkness",
@@ -8524,7 +8627,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Darkness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Darkness",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of Power",
@@ -8597,7 +8701,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Power"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Power",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of Ruin",
@@ -8670,7 +8775,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Ruin"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Ruin",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of Silence",
@@ -8743,7 +8849,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Silence"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Silence",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of Suffering",
@@ -8816,7 +8923,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Suffering"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Suffering",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of Weariness",
@@ -8865,7 +8973,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Weariness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_Weariness",
+    "is_high_res_icon": true
   },
   {
     "name": "Well of the Profane",
@@ -8914,7 +9023,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_the_Profane"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
+    "is_high_res_icon": true
   },
   {
     "name": "Wither",
@@ -9011,7 +9121,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wither"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wither",
+    "is_high_res_icon": true
   },
   {
     "name": "Withering Aura",
@@ -9084,6 +9195,7 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Withering_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Withering_Aura",
+    "is_high_res_icon": true
   }
 ]

@@ -46,7 +46,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Zeal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Zeal",
+    "is_high_res_icon": true
   },
   {
     "name": "Armor of Sanctity",
@@ -117,7 +118,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Sanctity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Armor_of_Sanctity",
+    "is_high_res_icon": true
   },
   {
     "name": "Attacker's Insight",
@@ -188,7 +190,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Attacker%27s_Insight"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Attacker%27s_Insight",
+    "is_high_res_icon": true
   },
   {
     "name": "Aura Slicer",
@@ -261,11 +264,12 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_Slicer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_Slicer",
+    "is_high_res_icon": true
   },
   {
     "name": "Aura of Holy Might",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/5/5c/Aura_of_Holy_Might.jpg",
     "concise_description": "Enchantment Spell. (45 seconds.) Whenever you lose a Dervish enchantment, adjacent foes take {{HolyDamage}} holy damage.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
@@ -301,7 +305,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Holy_Might"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Holy_Might",
+    "is_high_res_icon": false
   },
   {
     "name": "Aura of Thorns",
@@ -372,7 +377,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Thorns"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Thorns",
+    "is_high_res_icon": true
   },
   {
     "name": "Aura of Thorns (PvP)",
@@ -443,7 +449,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Thorns_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Thorns_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Avatar of Balthazar",
@@ -516,7 +523,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Balthazar"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Balthazar",
+    "is_high_res_icon": true
   },
   {
     "name": "Avatar of Dwayna",
@@ -589,7 +597,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna",
+    "is_high_res_icon": true
   },
   {
     "name": "Avatar of Dwayna (PvP)",
@@ -662,7 +671,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Avatar of Grenth",
@@ -735,7 +745,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth",
+    "is_high_res_icon": true
   },
   {
     "name": "Avatar of Lyssa",
@@ -784,7 +795,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Lyssa"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Lyssa",
+    "is_high_res_icon": true
   },
   {
     "name": "Avatar of Melandru",
@@ -833,7 +845,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru",
+    "is_high_res_icon": true
   },
   {
     "name": "Avatar of Melandru (PvP)",
@@ -882,7 +895,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Balthazar's Rage",
@@ -955,7 +969,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Rage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Balthazar%27s_Rage",
+    "is_high_res_icon": true
   },
   {
     "name": "Banishing Strike",
@@ -1004,7 +1019,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Banishing_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Banishing_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Banishing Strike (PvP)",
@@ -1053,7 +1069,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Banishing_Strike_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Banishing_Strike_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Chilling Victory",
@@ -1126,7 +1143,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chilling_Victory"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chilling_Victory",
+    "is_high_res_icon": true
   },
   {
     "name": "Conviction",
@@ -1197,7 +1215,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Conviction"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conviction",
+    "is_high_res_icon": true
   },
   {
     "name": "Crippling Sweep",
@@ -1270,7 +1289,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Crippling Victory",
@@ -1343,7 +1363,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Victory"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Victory",
+    "is_high_res_icon": true
   },
   {
     "name": "Dust Cloak",
@@ -1414,7 +1435,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dust_Cloak"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dust_Cloak",
+    "is_high_res_icon": true
   },
   {
     "name": "Dust Cloak (PvP)",
@@ -1485,7 +1507,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dust_Cloak_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dust_Cloak_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Dwayna's Touch",
@@ -1533,7 +1556,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dwayna%27s_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Ebon Dust Aura",
@@ -1604,7 +1628,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Enchanted Haste",
@@ -1628,7 +1653,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanted_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanted_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Eremite's Attack",
@@ -1677,7 +1703,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack",
+    "is_high_res_icon": true
   },
   {
     "name": "Eremite's Zeal",
@@ -1726,11 +1753,12 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Eremite%27s_Zeal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Eremite%27s_Zeal",
+    "is_high_res_icon": true
   },
   {
     "name": "Eternal Aura",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/a/ab/Eternal_Aura.jpg",
     "concise_description": "Enchantment Spell. You have +100 max Health. End effect: all party members in the area are resurrected with {{PercentHealth}}% Health and {{PercentEnergy}}% Energy.",
     "type": "Enchantment Spell",
     "profession": "Dervish",
@@ -1777,7 +1805,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Eternal_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Eternal_Aura",
+    "is_high_res_icon": false
   },
   {
     "name": "Extend Enchantments",
@@ -1826,7 +1855,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Extend_Enchantments"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Extend_Enchantments",
+    "is_high_res_icon": true
   },
   {
     "name": "Faithful Intervention",
@@ -1875,7 +1905,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Faithful_Intervention"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Faithful_Intervention",
+    "is_high_res_icon": true
   },
   {
     "name": "Farmer's Scythe",
@@ -1924,7 +1955,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Farmer%27s_Scythe"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Farmer%27s_Scythe",
+    "is_high_res_icon": true
   },
   {
     "name": "Featherfoot Grace",
@@ -1972,7 +2004,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Featherfoot_Grace"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Featherfoot_Grace",
+    "is_high_res_icon": true
   },
   {
     "name": "Fleeting Stability",
@@ -2020,7 +2053,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fleeting_Stability"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fleeting_Stability",
+    "is_high_res_icon": true
   },
   {
     "name": "Grenth's Aura",
@@ -2068,7 +2102,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Grenth's Fingers",
@@ -2139,7 +2174,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Fingers"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Fingers",
+    "is_high_res_icon": true
   },
   {
     "name": "Grenth's Grasp",
@@ -2187,7 +2223,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Grasp"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grenth%27s_Grasp",
+    "is_high_res_icon": true
   },
   {
     "name": "Guiding Hands",
@@ -2235,7 +2272,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Guiding_Hands"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guiding_Hands",
+    "is_high_res_icon": true
   },
   {
     "name": "Guiding Hands (PvP)",
@@ -2283,7 +2321,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Guiding_Hands_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guiding_Hands_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Harrier's Grasp",
@@ -2377,7 +2416,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp",
+    "is_high_res_icon": true
   },
   {
     "name": "Harrier's Haste",
@@ -2448,7 +2488,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Harrier%27s_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Heart of Fury",
@@ -2497,7 +2538,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
+    "is_high_res_icon": true
   },
   {
     "name": "Heart of Fury (PvP)",
@@ -2546,7 +2588,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Fury_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Fury_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Heart of Holy Flame",
@@ -2619,7 +2662,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Holy_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Holy_Flame",
+    "is_high_res_icon": true
   },
   {
     "name": "Imbue Health",
@@ -2668,7 +2712,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Imbue_Health"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Imbue_Health",
+    "is_high_res_icon": true
   },
   {
     "name": "Intimidating Aura",
@@ -2741,7 +2786,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Intimidating_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Intimidating_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Irresistible Sweep",
@@ -2790,7 +2836,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Irresistible Sweep (PvP)",
@@ -2839,7 +2886,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Lyssa's Assault",
@@ -2888,7 +2936,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Assault"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Assault",
+    "is_high_res_icon": true
   },
   {
     "name": "Lyssa's Haste",
@@ -2936,7 +2985,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Lyssa's Haste (PvP)",
@@ -2984,7 +3034,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Meditation",
@@ -3033,7 +3084,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Meditation"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Meditation",
+    "is_high_res_icon": true
   },
   {
     "name": "Mirage Cloak",
@@ -3127,7 +3179,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mirage_Cloak"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirage_Cloak",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Corruption",
@@ -3176,7 +3229,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Corruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Healing",
@@ -3224,7 +3278,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Healing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Healing",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Healing (PvP)",
@@ -3272,7 +3327,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Healing_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Healing_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Regeneration",
@@ -3343,7 +3399,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Regeneration (PvP)",
@@ -3414,7 +3471,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Sandstorm",
@@ -3462,7 +3520,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Sweep",
@@ -3511,7 +3570,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Twister",
@@ -3582,7 +3642,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Twister"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Twister",
+    "is_high_res_icon": true
   },
   {
     "name": "Mystic Vigor",
@@ -3631,7 +3692,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Vigor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic_Vigor",
+    "is_high_res_icon": true
   },
   {
     "name": "Natural Healing",
@@ -3679,7 +3741,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Natural_Healing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Natural_Healing",
+    "is_high_res_icon": true
   },
   {
     "name": "Onslaught",
@@ -3727,7 +3790,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Onslaught"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Onslaught",
+    "is_high_res_icon": true
   },
   {
     "name": "Onslaught (PvP)",
@@ -3775,7 +3839,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Onslaught_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Onslaught_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Assault",
@@ -3848,7 +3913,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Assault"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Assault",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Assault (PvP)",
@@ -3897,7 +3963,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Assault_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Assault_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Concentration",
@@ -3945,7 +4012,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Concentration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Concentration",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Fury",
@@ -3994,7 +4062,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Fury",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Fury (PvP)",
@@ -4043,7 +4112,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Fury_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Fury_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Haste",
@@ -4092,7 +4162,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Renewal",
@@ -4165,7 +4236,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Renewal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Renewal",
+    "is_high_res_icon": true
   },
   {
     "name": "Pious Restoration",
@@ -4236,7 +4308,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Restoration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pious_Restoration",
+    "is_high_res_icon": true
   },
   {
     "name": "Radiant Scythe",
@@ -4309,7 +4382,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Radiant_Scythe"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Radiant_Scythe",
+    "is_high_res_icon": true
   },
   {
     "name": "Reap Impurities",
@@ -4382,7 +4456,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reap_Impurities"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reap_Impurities",
+    "is_high_res_icon": true
   },
   {
     "name": "Reaper's Sweep",
@@ -4455,7 +4530,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reaper%27s_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reaper%27s_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Rending Aura",
@@ -4526,7 +4602,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Rending Sweep",
@@ -4575,7 +4652,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Rending Touch",
@@ -4624,7 +4702,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rending_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Sand Shards",
@@ -4695,7 +4774,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sand_Shards"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sand_Shards",
+    "is_high_res_icon": true
   },
   {
     "name": "Shield of Force",
@@ -4766,7 +4846,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Force"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Force",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Mystic Speed",
@@ -4814,7 +4895,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Speed"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Speed",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Pious Light",
@@ -4862,7 +4944,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Light"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Light",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Pious Restraint",
@@ -4910,7 +4993,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Pious Restraint (PvP)",
@@ -4958,7 +5042,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Staggering Force",
@@ -5029,7 +5114,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Force"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Force",
+    "is_high_res_icon": true
   },
   {
     "name": "Test of Faith",
@@ -5100,7 +5186,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Test_of_Faith"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Test_of_Faith",
+    "is_high_res_icon": true
   },
   {
     "name": "Twin Moon Sweep",
@@ -5173,7 +5260,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Twin Moon Sweep (PvP)",
@@ -5246,7 +5334,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Veil of Thorns",
@@ -5340,7 +5429,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Veil_of_Thorns"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Veil_of_Thorns",
+    "is_high_res_icon": true
   },
   {
     "name": "Victorious Sweep",
@@ -5413,7 +5503,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Victorious_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Victorious_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Vital Boon",
@@ -5484,7 +5575,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vital_Boon"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vital_Boon",
+    "is_high_res_icon": true
   },
   {
     "name": "Vow of Piety",
@@ -5532,11 +5624,12 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Piety"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Piety",
+    "is_high_res_icon": true
   },
   {
     "name": "Vow of Revolution",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/4/48/Vow_of_Revolution.jpg",
     "concise_description": "Elite Enchantment Spell. ({{Duration}} seconds.) Gain +{{EnergyRegeneration}} energy regeneration. Renewal: whenever you use a non-Dervish skill. PvE Skill",
     "type": "Enchantment Spell",
     "profession": "Dervish",
@@ -5605,7 +5698,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Revolution"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Revolution",
+    "is_high_res_icon": false
   },
   {
     "name": "Vow of Silence",
@@ -5654,7 +5748,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Silence"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Silence",
+    "is_high_res_icon": true
   },
   {
     "name": "Vow of Strength",
@@ -5702,7 +5797,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Strength"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vow_of_Strength",
+    "is_high_res_icon": true
   },
   {
     "name": "Watchful Intervention",
@@ -5751,7 +5847,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Watchful_Intervention"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Watchful_Intervention",
+    "is_high_res_icon": true
   },
   {
     "name": "Wearying Strike",
@@ -5800,7 +5897,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wearying_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wearying_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Whirling Charge",
@@ -5871,7 +5969,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Charge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Charge",
+    "is_high_res_icon": true
   },
   {
     "name": "Winds of Disenchantment",
@@ -5919,7 +6018,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Winds_of_Disenchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Winds_of_Disenchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Wounding Strike",
@@ -5992,7 +6092,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wounding_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wounding_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Wounding Strike (PvP)",
@@ -6041,7 +6142,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wounding_Strike_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wounding_Strike_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Zealous Renewal",
@@ -6138,7 +6240,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Renewal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Renewal",
+    "is_high_res_icon": true
   },
   {
     "name": "Zealous Sweep",
@@ -6187,7 +6290,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Zealous Vow",
@@ -6235,6 +6339,7 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Vow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous_Vow",
+    "is_high_res_icon": true
   }
 ]

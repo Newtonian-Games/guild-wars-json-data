@@ -68,7 +68,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Promise"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Promise",
+    "is_high_res_icon": true
   },
   {
     "name": "Assassin's Remedy",
@@ -116,7 +117,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy",
+    "is_high_res_icon": true
   },
   {
     "name": "Assassin's Remedy (PvP)",
@@ -164,7 +166,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Assault Enchantments",
@@ -188,7 +191,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Assault_Enchantments"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assault_Enchantments",
+    "is_high_res_icon": true
   },
   {
     "name": "Augury of Death",
@@ -259,7 +263,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Augury_of_Death"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Augury_of_Death",
+    "is_high_res_icon": true
   },
   {
     "name": "Aura of Displacement",
@@ -283,7 +288,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Displacement"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Displacement",
+    "is_high_res_icon": true
   },
   {
     "name": "Beguiling Haze",
@@ -331,7 +337,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Beguiling_Haze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Beguiling_Haze",
+    "is_high_res_icon": true
   },
   {
     "name": "Black Lotus Strike",
@@ -402,7 +409,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Lotus_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Lotus_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Black Mantis Thrust",
@@ -475,7 +483,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Mantis_Thrust"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Mantis_Thrust",
+    "is_high_res_icon": true
   },
   {
     "name": "Black Spider Strike",
@@ -548,7 +557,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Spider_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Black_Spider_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Blades of Steel",
@@ -597,7 +607,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blades_of_Steel"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blades_of_Steel",
+    "is_high_res_icon": true
   },
   {
     "name": "Blinding Powder",
@@ -645,7 +656,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Powder"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blinding_Powder",
+    "is_high_res_icon": true
   },
   {
     "name": "Caltrops",
@@ -693,7 +705,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Caltrops"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Caltrops",
+    "is_high_res_icon": true
   },
   {
     "name": "Crippling Dagger",
@@ -764,11 +777,12 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Dagger"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Dagger",
+    "is_high_res_icon": true
   },
   {
     "name": "Critical Agility",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/e/e8/Critical_Agility.jpg",
     "concise_description": "Enchantment Spell. (4 seconds plus 1 second for each rank of Critical Strikes.) You attack 33% faster and gain +{{PlusArmorRating}} armor. Renewal: every time you land a critical hit.",
     "type": "Enchantment Spell",
     "profession": "Assassin",
@@ -802,7 +816,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Agility"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Agility",
+    "is_high_res_icon": false
   },
   {
     "name": "Critical Defenses",
@@ -850,7 +865,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Defenses"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Defenses",
+    "is_high_res_icon": true
   },
   {
     "name": "Critical Eye",
@@ -921,7 +937,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Eye"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Eye",
+    "is_high_res_icon": true
   },
   {
     "name": "Critical Strike",
@@ -992,7 +1009,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Dancing Daggers",
@@ -1040,7 +1058,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dancing_Daggers"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dancing_Daggers",
+    "is_high_res_icon": true
   },
   {
     "name": "Dark Apostasy",
@@ -1111,7 +1130,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Apostasy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Apostasy",
+    "is_high_res_icon": true
   },
   {
     "name": "Dark Escape",
@@ -1159,7 +1179,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Escape"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Escape",
+    "is_high_res_icon": true
   },
   {
     "name": "Dark Prison",
@@ -1207,7 +1228,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Prison"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Prison",
+    "is_high_res_icon": true
   },
   {
     "name": "Dash",
@@ -1231,7 +1253,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dash",
+    "is_high_res_icon": true
   },
   {
     "name": "Deadly Haste",
@@ -1325,7 +1348,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Deadly Paradox",
@@ -1373,7 +1397,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Paradox"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Paradox",
+    "is_high_res_icon": true
   },
   {
     "name": "Death Blossom",
@@ -1446,7 +1471,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Blossom"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Blossom",
+    "is_high_res_icon": true
   },
   {
     "name": "Death Blossom (PvP)",
@@ -1519,7 +1545,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Blossom_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Blossom_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Death's Charge",
@@ -1567,7 +1594,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Charge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Charge",
+    "is_high_res_icon": true
   },
   {
     "name": "Death's Retreat",
@@ -1615,7 +1643,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Retreat"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Retreat",
+    "is_high_res_icon": true
   },
   {
     "name": "Desperate Strike",
@@ -1688,7 +1717,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Desperate_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Desperate_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Disrupting Dagger",
@@ -1736,7 +1766,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Dagger"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Dagger",
+    "is_high_res_icon": true
   },
   {
     "name": "Disrupting Stab",
@@ -1785,7 +1816,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Stab"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Stab",
+    "is_high_res_icon": true
   },
   {
     "name": "Enduring Toxin",
@@ -1833,7 +1865,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enduring_Toxin"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enduring_Toxin",
+    "is_high_res_icon": true
   },
   {
     "name": "Entangling Asp",
@@ -1881,7 +1914,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Entangling_Asp"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Entangling_Asp",
+    "is_high_res_icon": true
   },
   {
     "name": "Exhausting Assault",
@@ -1905,7 +1939,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Exhausting_Assault"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Exhausting_Assault",
+    "is_high_res_icon": true
   },
   {
     "name": "Expose Defenses",
@@ -1953,7 +1988,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Expose_Defenses"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Expose_Defenses",
+    "is_high_res_icon": true
   },
   {
     "name": "Expunge Enchantments",
@@ -2001,7 +2037,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Expunge_Enchantments"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Expunge_Enchantments",
+    "is_high_res_icon": true
   },
   {
     "name": "Falling Lotus Strike",
@@ -2074,7 +2111,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Falling Spider",
@@ -2147,7 +2185,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Falling_Spider"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Falling_Spider",
+    "is_high_res_icon": true
   },
   {
     "name": "Feigned Neutrality",
@@ -2195,7 +2234,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Feigned_Neutrality"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feigned_Neutrality",
+    "is_high_res_icon": true
   },
   {
     "name": "Flashing Blades",
@@ -2268,7 +2308,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flashing_Blades"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flashing_Blades",
+    "is_high_res_icon": true
   },
   {
     "name": "Fox Fangs",
@@ -2317,7 +2358,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fox_Fangs"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fox_Fangs",
+    "is_high_res_icon": true
   },
   {
     "name": "Fox Fangs (PvP)",
@@ -2366,7 +2408,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fox_Fangs_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fox_Fangs_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Fox's Promise",
@@ -2415,7 +2458,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fox%27s_Promise"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fox%27s_Promise",
+    "is_high_res_icon": true
   },
   {
     "name": "Golden Fang Strike",
@@ -2464,7 +2508,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Fang_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Fang_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Golden Fox Strike",
@@ -2513,7 +2558,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Fox_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Fox_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Golden Lotus Strike",
@@ -2586,7 +2632,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Lotus_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Lotus_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Golden Phoenix Strike",
@@ -2635,7 +2682,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Phoenix_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Phoenix_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Golden Skull Strike",
@@ -2684,7 +2732,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Skull_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golden_Skull_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Heart of Shadow",
@@ -2732,7 +2781,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Shadow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heart_of_Shadow",
+    "is_high_res_icon": true
   },
   {
     "name": "Hidden Caltrops",
@@ -2803,7 +2853,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hidden_Caltrops"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hidden_Caltrops",
+    "is_high_res_icon": true
   },
   {
     "name": "Horns of the Ox",
@@ -2852,7 +2903,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox",
+    "is_high_res_icon": true
   },
   {
     "name": "Impale",
@@ -2923,7 +2975,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Impale"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Impale",
+    "is_high_res_icon": true
   },
   {
     "name": "Iron Palm",
@@ -2971,7 +3024,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Iron_Palm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Iron_Palm",
+    "is_high_res_icon": true
   },
   {
     "name": "Jagged Strike",
@@ -3020,7 +3074,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Jungle Strike",
@@ -3093,7 +3148,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jungle_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jungle_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Leaping Mantis Sting",
@@ -3166,7 +3222,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Leaping_Mantis_Sting"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leaping_Mantis_Sting",
+    "is_high_res_icon": true
   },
   {
     "name": "Lift Enchantment",
@@ -3190,7 +3247,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lift_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lift_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Locust's Fury",
@@ -3238,7 +3296,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Locust%27s_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Locust%27s_Fury",
+    "is_high_res_icon": true
   },
   {
     "name": "Lotus Strike",
@@ -3311,7 +3370,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lotus_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lotus_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Malicious Strike",
@@ -3359,7 +3419,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Malicious_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Malicious_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantis Touch",
@@ -3407,7 +3468,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantis_Touch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantis_Touch",
+    "is_high_res_icon": true
   },
   {
     "name": "Mark of Death",
@@ -3455,7 +3517,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Death"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Death",
+    "is_high_res_icon": true
   },
   {
     "name": "Mark of Insecurity",
@@ -3549,7 +3612,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Insecurity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Insecurity",
+    "is_high_res_icon": true
   },
   {
     "name": "Mark of Instability",
@@ -3573,7 +3637,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Instability"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mark_of_Instability",
+    "is_high_res_icon": true
   },
   {
     "name": "Mirrored Stance",
@@ -3621,7 +3686,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mirrored_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirrored_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Moebius Strike",
@@ -3670,7 +3736,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Moebius_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Moebius_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Nine Tail Strike",
@@ -3719,7 +3786,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Nine_Tail_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nine_Tail_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Palm Strike",
@@ -3790,7 +3858,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Palm_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Palm_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Recall",
@@ -3814,7 +3883,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Recall"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recall",
+    "is_high_res_icon": true
   },
   {
     "name": "Repeating Strike",
@@ -3863,7 +3933,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Repeating_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Repeating_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Return",
@@ -3911,7 +3982,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Return"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Return",
+    "is_high_res_icon": true
   },
   {
     "name": "Sadist's Signet",
@@ -3959,7 +4031,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sadist%27s_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sadist%27s_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Scorpion Wire",
@@ -4007,7 +4080,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Scorpion_Wire"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scorpion_Wire",
+    "is_high_res_icon": true
   },
   {
     "name": "Seeping Wound",
@@ -4078,7 +4152,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Seeping_Wound"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seeping_Wound",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Fang",
@@ -4126,7 +4201,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Fang"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Fang",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Form",
@@ -4197,7 +4273,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Form"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Form",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Form (PvP)",
@@ -4268,7 +4345,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Form_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Form_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Meld",
@@ -4292,7 +4370,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Meld"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Meld",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Prison",
@@ -4340,7 +4419,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Prison"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Prison",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Refuge",
@@ -4411,11 +4491,12 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Refuge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Refuge",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Sanctuary",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/1/17/Shadow_Sanctuary.jpg",
     "concise_description": "Enchantment Spell. (10 seconds.) You gain +{{HealthRegeneration}} Health regeneration and +40 armor. You are Blind (5 seconds).",
     "type": "Enchantment Spell",
     "profession": "Assassin",
@@ -4451,7 +4532,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Sanctuary",
+    "is_high_res_icon": false
   },
   {
     "name": "Shadow Shroud",
@@ -4499,11 +4581,12 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Shroud"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Shroud",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow Theft",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/9/91/Shadow_Theft.jpg",
     "concise_description": "Elite Skill. Shadow Step to target foe. For {{Duration}} seconds that foe's attributes are reduced by {{AttributeBonus}} and your attributes are increased by {{AttributeBonus}}. Counts as a Lead Attack. PvE Skill",
     "type": "Skill",
     "profession": "Assassin",
@@ -4570,7 +4653,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Theft"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Theft",
+    "is_high_res_icon": false
   },
   {
     "name": "Shadow Walk",
@@ -4594,7 +4678,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Walk"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Walk",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadow of Haste",
@@ -4642,7 +4727,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_of_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_of_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Shadowy Burden",
@@ -4690,7 +4776,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowy_Burden"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowy_Burden",
+    "is_high_res_icon": true
   },
   {
     "name": "Shameful Fear",
@@ -4738,7 +4825,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shameful_Fear"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shameful_Fear",
+    "is_high_res_icon": true
   },
   {
     "name": "Sharpen Daggers",
@@ -4809,7 +4897,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sharpen_Daggers"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sharpen_Daggers",
+    "is_high_res_icon": true
   },
   {
     "name": "Shattering Assault",
@@ -4857,7 +4946,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shattering_Assault"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shattering_Assault",
+    "is_high_res_icon": true
   },
   {
     "name": "Shroud of Distress",
@@ -4928,7 +5018,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress",
+    "is_high_res_icon": true
   },
   {
     "name": "Shroud of Distress (PvP)",
@@ -4976,7 +5067,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Shroud of Silence",
@@ -5024,7 +5116,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Silence"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shroud_of_Silence",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Deadly Corruption",
@@ -5072,7 +5165,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Deadly Corruption (PvP)",
@@ -5120,7 +5214,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Malice",
@@ -5144,7 +5239,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Malice"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Malice",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Shadows",
@@ -5215,7 +5311,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Shadows"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Shadows",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Toxic Shock",
@@ -5263,7 +5360,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Toxic_Shock"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Toxic_Shock",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Twilight",
@@ -5287,7 +5385,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Twilight"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Twilight",
+    "is_high_res_icon": true
   },
   {
     "name": "Siphon Speed",
@@ -5335,7 +5434,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siphon_Speed"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siphon_Speed",
+    "is_high_res_icon": true
   },
   {
     "name": "Siphon Strength",
@@ -5406,7 +5506,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siphon_Strength"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siphon_Strength",
+    "is_high_res_icon": true
   },
   {
     "name": "Smoke Powder Defense",
@@ -5454,7 +5555,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Smoke_Powder_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smoke_Powder_Defense",
+    "is_high_res_icon": true
   },
   {
     "name": "Spirit Walk",
@@ -5478,7 +5580,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Walk"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Walk",
+    "is_high_res_icon": true
   },
   {
     "name": "Swap",
@@ -5502,7 +5605,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Swap"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swap",
+    "is_high_res_icon": true
   },
   {
     "name": "Temple Strike",
@@ -5551,7 +5655,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Temple_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Temple_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Trampling Ox",
@@ -5600,7 +5705,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Trampling_Ox"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Trampling_Ox",
+    "is_high_res_icon": true
   },
   {
     "name": "Twisting Fangs",
@@ -5671,7 +5777,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Twisting_Fangs"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Twisting_Fangs",
+    "is_high_res_icon": true
   },
   {
     "name": "Unseen Fury",
@@ -5742,7 +5849,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Fury",
+    "is_high_res_icon": true
   },
   {
     "name": "Unseen Fury (PvP)",
@@ -5790,7 +5898,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Fury_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Fury_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Unsuspecting Strike",
@@ -5861,7 +5970,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unsuspecting_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unsuspecting_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Vampiric Assault",
@@ -5909,7 +6019,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Assault"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric_Assault",
+    "is_high_res_icon": true
   },
   {
     "name": "Viper's Defense",
@@ -5957,7 +6068,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Viper%27s_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Viper%27s_Defense",
+    "is_high_res_icon": true
   },
   {
     "name": "Wastrel's Collapse",
@@ -5981,7 +6093,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Collapse"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Collapse",
+    "is_high_res_icon": true
   },
   {
     "name": "Way of Perfection",
@@ -6029,7 +6142,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_Perfection"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_Perfection",
+    "is_high_res_icon": true
   },
   {
     "name": "Way of the Assassin",
@@ -6100,7 +6214,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Assassin"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Assassin",
+    "is_high_res_icon": true
   },
   {
     "name": "Way of the Empty Palm",
@@ -6148,7 +6263,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm",
+    "is_high_res_icon": true
   },
   {
     "name": "Way of the Fox",
@@ -6219,7 +6335,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Fox"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Fox",
+    "is_high_res_icon": true
   },
   {
     "name": "Way of the Lotus",
@@ -6267,7 +6384,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Lotus"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Lotus",
+    "is_high_res_icon": true
   },
   {
     "name": "Way of the Master",
@@ -6315,7 +6433,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Master"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Master",
+    "is_high_res_icon": true
   },
   {
     "name": "Wild Strike",
@@ -6364,7 +6483,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Wild Strike (PvP)",
@@ -6413,6 +6533,7 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Strike_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Strike_(PvP)",
+    "is_high_res_icon": true
   }
 ]

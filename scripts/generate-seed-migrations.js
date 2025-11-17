@@ -86,6 +86,7 @@ function skillToSqlValues(skill) {
   return `  (
     ${escapeSqlString(skill.name)},
     ${escapeSqlString(skill.icon || '')},
+    ${toSqlBoolean(skill.is_high_res_icon)},
     ${escapeSqlString(skill.concise_description || skill.description)},
     ${skillTypeId},
     ${professionId},
@@ -221,6 +222,7 @@ function generateSkillsSql(skills, profession) {
 INSERT INTO skills (
   name,
   icon,
+  is_high_res_icon,
   description,
   skill_type_id,
   profession_id,
@@ -245,6 +247,7 @@ VALUES`
   const footer = `
 ON CONFLICT (name) DO UPDATE SET
   icon = EXCLUDED.icon,
+  is_high_res_icon = EXCLUDED.is_high_res_icon,
   description = EXCLUDED.description,
   skill_type_id = EXCLUDED.skill_type_id,
   profession_id = EXCLUDED.profession_id,

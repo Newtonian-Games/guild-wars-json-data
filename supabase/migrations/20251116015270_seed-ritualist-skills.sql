@@ -1,11 +1,12 @@
 -- Seed ritualist skills
 -- Auto-generated from data/skills/ritualist.json
--- Generated: 2025-11-17T07:36:05.790Z
+-- Generated: 2025-11-17T08:01:51.643Z
 -- Total skills: 144
 
 INSERT INTO skills (
   name,
   icon,
+  is_high_res_icon,
   description,
   skill_type_id,
   profession_id,
@@ -27,6 +28,7 @@ VALUES
   (
     'Agony',
     'https://wiki.guildwars.com/images/4/43/Agony_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -47,6 +49,7 @@ VALUES
   (
     'Agony (PvP)',
     'https://wiki.guildwars.com/images/4/43/Agony_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Causes {{HealthLossToFoesPerSecond}} Health loss each second to foes in earshot. This spirit loses {{HealthLossPerFoeAffected}} Health for each foe that loses Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -67,6 +70,7 @@ VALUES
   (
     'Ancestors'' Rage',
     'https://wiki.guildwars.com/images/4/4e/Ancestors%27_Rage_%28large%29.jpg',
+    true,
     'Skill. (1 second.) End Effect: deals {{LightningDamage}} lightning damage to foes adjacent to target ally.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -87,6 +91,7 @@ VALUES
   (
     'Ancestors'' Rage (PvP)',
     'https://wiki.guildwars.com/images/4/4e/Ancestors%27_Rage_%28large%29.jpg',
+    true,
     'Skill. (3 seconds.) Deals {{LightningDamage}} lightning damage to foes adjacent to target ally each second.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -107,6 +112,7 @@ VALUES
   (
     'Anguish',
     'https://wiki.guildwars.com/images/4/45/Anguish_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -127,6 +133,7 @@ VALUES
   (
     'Anguish (PvP)',
     'https://wiki.guildwars.com/images/4/45/Anguish_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -147,6 +154,7 @@ VALUES
   (
     'Anguished Was Lingwah',
     'https://wiki.guildwars.com/images/4/4d/Anguished_Was_Lingwah_%28large%29.jpg',
+    true,
     'Item Spell. ({{ItemSpellDuration}} seconds.) Your Ritualist hexes cost {{LessEnergy}} less energy and last 33% longer. Drop effect: all your Ritualist hexes are recharged.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -167,6 +175,7 @@ VALUES
   (
     'Armor of Unfeeling',
     'https://wiki.guildwars.com/images/a/a6/Armor_of_Unfeeling_%28large%29.jpg',
+    true,
     'Skill. ({{Duration}} seconds.) Your spirits within earshot take 50% less damage and are immune to critical attacks.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -187,6 +196,7 @@ VALUES
   (
     'Armor of Unfeeling (PvP)',
     'https://wiki.guildwars.com/images/a/a6/Armor_of_Unfeeling_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) You have 10 base damage reduction while casting binding rituals.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -207,6 +217,7 @@ VALUES
   (
     'Attuned Was Songkai',
     'https://wiki.guildwars.com/images/5/50/Attuned_Was_Songkai_%28large%29.jpg',
+    true,
     'Elite Item Spell. (45 seconds.) Your spells and binding rituals cost -{{EnergyCostReductionPercent}}% of the base Energy.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -227,6 +238,7 @@ VALUES
   (
     'Binding Chains',
     'https://wiki.guildwars.com/images/2/26/Binding_Chains_%28large%29.jpg',
+    true,
     'Hex Spell. Also hexes foes near your target. (3 seconds.) These foes move 90% slower and takes {{DamageWhileMoving}} damage each second while moving.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -247,6 +259,7 @@ VALUES
   (
     'Blind Was Mingson',
     'https://wiki.guildwars.com/images/8/8a/Blind_Was_Mingson_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) Drop effect: inflicts Blindness condition ({{BlindDuration}} seconds) on all nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -267,6 +280,7 @@ VALUES
   (
     'Bloodsong',
     'https://wiki.guildwars.com/images/4/4a/Bloodsong_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -287,6 +301,7 @@ VALUES
   (
     'Bloodsong (PvP)',
     'https://wiki.guildwars.com/images/4/4a/Bloodsong_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -307,6 +322,7 @@ VALUES
   (
     'Boon of Creation',
     'https://wiki.guildwars.com/images/3/37/Boon_of_Creation_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) You gain {{Healing}} Health and {{EnergyGain}} Energy whenever you create a creature.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -327,6 +343,7 @@ VALUES
   (
     'Brutal Weapon',
     'https://wiki.guildwars.com/images/1/1f/Brutal_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) Attacks deal +{{PlusDamage}} damage. No effect while target ally is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -347,6 +364,7 @@ VALUES
   (
     'Caretaker''s Charge',
     'https://wiki.guildwars.com/images/7/73/Caretaker%27s_Charge_%28large%29.jpg',
+    true,
     'Elite Spell. Deals {{LightningDamage}} lightning damage. You gain 5 Energy and {{HealthGain}} Health if you are holding an item.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -367,6 +385,7 @@ VALUES
   (
     'Channeled Strike',
     'https://wiki.guildwars.com/images/d/da/Channeled_Strike_%28large%29.jpg',
+    true,
     'Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} additional lightning damage if you are holding an item.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -387,6 +406,7 @@ VALUES
   (
     'Clamor of Souls',
     'https://wiki.guildwars.com/images/a/ae/Clamor_of_Souls_%28large%29.jpg',
+    true,
     'Elite Spell. Deals {{LightningDamage}} lightning damage to target and nearby foes. You gain 10 Energy if you are within earshot of a spirit or holding a bundle item.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -407,6 +427,7 @@ VALUES
   (
     'Consume Soul',
     'https://wiki.guildwars.com/images/f/fa/Consume_Soul_%28large%29.jpg',
+    true,
     'Elite Spell. Steals {{LifeStealing}} Health. Deal {{Damage}} damage to hostile summoned creatures in the area of target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -427,6 +448,7 @@ VALUES
   (
     'Cruel Was Daoshen',
     'https://wiki.guildwars.com/images/0/0e/Cruel_Was_Daoshen_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -447,6 +469,7 @@ VALUES
   (
     'Death Pact Signet',
     'https://wiki.guildwars.com/images/9/9f/Death_Pact_Signet_%28large%29.jpg',
+    true,
     'Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -467,6 +490,7 @@ VALUES
   (
     'Death Pact Signet (PvP)',
     'https://wiki.guildwars.com/images/9/9f/Death_Pact_Signet_%28large%29.jpg',
+    true,
     'Signet. Resurrects target party member with your current Health and {{PercentEnergy}}% maximum Energy. For 120 seconds, you die the next time this party member dies.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -487,6 +511,7 @@ VALUES
   (
     'Defiant Was Xinrae',
     'https://wiki.guildwars.com/images/4/4d/Defiant_Was_Xinrae_%28large%29.jpg',
+    true,
     'Elite Item Spell. ({{Duration}} seconds.) You cannot lose more than 20% of your max Health from a single hit. Drop effect: steal {{LifeStealing}} Health from nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -507,6 +532,7 @@ VALUES
   (
     'Destruction',
     'https://wiki.guildwars.com/images/0/07/Destruction_%28large%29.jpg',
+    true,
     'Binding Ritual. Create a level {{Level}} Spirit that dies after 30 seconds. When this Spirit dies, all foes in the area take {{LightningDamage}} damage for each second the Spirit was alive (maximum 150 damage).',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -527,6 +553,7 @@ VALUES
   (
     'Destruction (PvP)',
     'https://wiki.guildwars.com/images/0/07/Destruction_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). On death, it deals {{LightningDamage}} damage for each second it was alive to all foes in the area (maximum 150 damage).',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -547,6 +574,7 @@ VALUES
   (
     'Destructive Was Glaive',
     'https://wiki.guildwars.com/images/e/e9/Destructive_Was_Glaive_%28large%29.jpg',
+    true,
     'Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 20% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -567,6 +595,7 @@ VALUES
   (
     'Destructive Was Glaive (PvP)',
     'https://wiki.guildwars.com/images/e/e9/Destructive_Was_Glaive_%28large%29.jpg',
+    true,
     'Elite Item Spell. ({{Duration}} seconds.) Your Ritualist skills have 10% armor penetration. Drop effect: deals {{LightningDamage}} lightning damage to all foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -587,6 +616,7 @@ VALUES
   (
     'Disenchantment',
     'https://wiki.guildwars.com/images/7/79/Disenchantment_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -607,6 +637,7 @@ VALUES
   (
     'Disenchantment (PvP)',
     'https://wiki.guildwars.com/images/7/79/Disenchantment_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -627,6 +658,7 @@ VALUES
   (
     'Displacement',
     'https://wiki.guildwars.com/images/7/7f/Displacement_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -647,6 +679,7 @@ VALUES
   (
     'Displacement (PvP)',
     'https://wiki.guildwars.com/images/7/7f/Displacement_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have 75% chance to block. Block effect: this spirit takes 60 damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -667,6 +700,7 @@ VALUES
   (
     'Dissonance',
     'https://wiki.guildwars.com/images/9/9e/Dissonance_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -687,6 +721,7 @@ VALUES
   (
     'Dissonance (PvP)',
     'https://wiki.guildwars.com/images/9/9e/Dissonance_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and interrupt actions.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -707,6 +742,7 @@ VALUES
   (
     'Doom',
     'https://wiki.guildwars.com/images/0/07/Doom_%28large%29.jpg',
+    true,
     'Spell. Deals {{LightningDamage}} lightning damage (maximum 135) for each of your recharging binding rituals.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -727,6 +763,7 @@ VALUES
   (
     'Draw Spirit',
     'https://wiki.guildwars.com/images/2/2c/Draw_Spirit_%28large%29.jpg',
+    true,
     'Spell. Teleports target allied spirit to your location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -747,6 +784,7 @@ VALUES
   (
     'Dulled Weapon',
     'https://wiki.guildwars.com/images/b/b1/Dulled_Weapon_%28large%29.jpg',
+    true,
     'Hex Spell. Also hexes foes adjacent to your target ({{Duration}} seconds). Removes ability to land a critical hit. Reduces damage by {{DamageReduction}}.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -767,6 +805,7 @@ VALUES
   (
     'Earthbind',
     'https://wiki.guildwars.com/images/e/e3/Earthbind_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -787,6 +826,7 @@ VALUES
   (
     'Earthbind (PvP)',
     'https://wiki.guildwars.com/images/e/e3/Earthbind_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Any time non-spirit foes within range are knocked down, they are knocked down for at least 3 seconds. Knock-down cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -807,6 +847,7 @@ VALUES
   (
     'Empowerment',
     'https://wiki.guildwars.com/images/d/d1/Empowerment_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -827,6 +868,7 @@ VALUES
   (
     'Empowerment (PvP)',
     'https://wiki.guildwars.com/images/d/d1/Empowerment_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Allies in range holding an item gain {{PlusMaxHealth}} maximum Health and 10 maximum Energy.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -847,6 +889,7 @@ VALUES
   (
     'Energetic Was Lee Sa',
     'https://wiki.guildwars.com/images/d/d4/Energetic_Was_Lee_Sa_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) You have +2 Energy regeneration. Drop effect: you gain +{{EnergyGainWhenDropped}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -867,6 +910,7 @@ VALUES
   (
     'Essence Strike',
     'https://wiki.guildwars.com/images/d/de/Essence_Strike_%28large%29.jpg',
+    true,
     'Spell. Deals {{LightningDamage}} lightning damage. You gain {{EnergyGain}} Energy if any spirits are within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -887,6 +931,7 @@ VALUES
   (
     'Explosive Growth',
     'https://wiki.guildwars.com/images/e/e8/Explosive_Growth_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) Deals {{LightningDamage}} lightning damage each time you create a creature to 5 foes near that creature.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -907,6 +952,7 @@ VALUES
   (
     'Feast of Souls',
     'https://wiki.guildwars.com/images/3/3c/Feast_of_Souls_%28large%29.jpg',
+    true,
     'Spell. Heals all party members for {{Healing}} for each nearby allied spirit. All nearby allied spirits are destroyed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -927,6 +973,7 @@ VALUES
   (
     'Flesh of My Flesh',
     'https://wiki.guildwars.com/images/2/28/Flesh_of_My_Flesh_%28large%29.jpg',
+    true,
     'Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -947,6 +994,7 @@ VALUES
   (
     'Flesh of My Flesh (PvP)',
     'https://wiki.guildwars.com/images/2/28/Flesh_of_My_Flesh_%28large%29.jpg',
+    true,
     'Spell. Resurrect target party member (half your current Health and {{PercentEnergy}}% Energy). Lose half your Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -967,6 +1015,7 @@ VALUES
   (
     'Gaze from Beyond',
     'https://wiki.guildwars.com/images/2/29/Gaze_from_Beyond_%28large%29.jpg',
+    true,
     'Spell. Deals {{Damage}} lightning damage. Inflicts Blindness condition for {{BlindDuration}} seconds if you are within earshot of a spirit.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -987,6 +1036,7 @@ VALUES
   (
     'Gaze of Fury',
     'https://wiki.guildwars.com/images/0/0a/Gaze_of_Fury_%28large%29.jpg',
+    true,
     'Binding Ritual. Destroys a spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1007,6 +1057,7 @@ VALUES
   (
     'Gaze of Fury (PvP)',
     'https://wiki.guildwars.com/images/0/0a/Gaze_of_Fury_%28large%29.jpg',
+    true,
     'Binding Ritual. Destroys an allied spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1027,6 +1078,7 @@ VALUES
   (
     'Generous Was Tsungrai',
     'https://wiki.guildwars.com/images/2/24/Generous_Was_Tsungrai_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) You have +{{PlusMaxHealth}} maximum Health. Drop effect: you gain {{HealthGain}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1047,6 +1099,7 @@ VALUES
   (
     'Ghostly Haste',
     'https://wiki.guildwars.com/images/0/05/Ghostly_Haste_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) Spells you cast recharge 25% faster. No effect unless you are within earshot of a spirit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1067,6 +1120,7 @@ VALUES
   (
     'Ghostly Weapon',
     'https://wiki.guildwars.com/images/a/a1/Ghostly_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) Target ally''s next attack is unblockable. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1087,6 +1141,7 @@ VALUES
   (
     'Ghostmirror Light',
     'https://wiki.guildwars.com/images/0/0d/Ghostmirror_Light_%28large%29.jpg',
+    true,
     'Spell. Heals for {{OtherHeal}}. You gain {{SelfHeal}} Health if you are within earshot of a spirit. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1107,6 +1162,7 @@ VALUES
   (
     'Grasping Was Kuurong',
     'https://wiki.guildwars.com/images/4/4a/Grasping_Was_Kuurong_%28large%29.jpg',
+    true,
     'Elite Item Spell. ({{Duration}} seconds.) Drop effect: deal {{ArmorMinusIgnoringDamage}} damage and knocks-down all nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1127,6 +1183,7 @@ VALUES
   (
     'Guided Weapon',
     'https://wiki.guildwars.com/images/a/a7/Guided_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) Attacks are unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1147,6 +1204,7 @@ VALUES
   (
     'Lamentation',
     'https://wiki.guildwars.com/images/e/e9/Lamentation_%28large%29.jpg',
+    true,
     'Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Causes -{{HealthDegeneration}} Health degeneration. Initial effect: Deals {{ArmorMinusIgnoringDamage}} damage to these foes if you are within earshot of a spirit or corpse.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1167,6 +1225,7 @@ VALUES
   (
     'Life',
     'https://wiki.guildwars.com/images/7/77/Life_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1187,6 +1246,7 @@ VALUES
   (
     'Life (PvP)',
     'https://wiki.guildwars.com/images/7/77/Life_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit (20 second lifespan). Affects non-spirit allies within range. End effect: heals for {{Healing}} for each second this spirit was alive.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1207,6 +1267,7 @@ VALUES
   (
     'Lively Was Naomei',
     'https://wiki.guildwars.com/images/1/1b/Lively_Was_Naomei_%28large%29.jpg',
+    true,
     'Item Spell. (45 seconds.) Drop effect: resurrects party members in the area ({{PercentHealth}}% Health and zero Energy).',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1227,6 +1288,7 @@ VALUES
   (
     'Mend Body and Soul',
     'https://wiki.guildwars.com/images/2/27/Mend_Body_and_Soul_%28large%29.jpg',
+    true,
     'Spell. Heals for {{Healing}}. Removes one condition for each spirit within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1247,6 +1309,7 @@ VALUES
   (
     'Mending Grip',
     'https://wiki.guildwars.com/images/f/f5/Mending_Grip_%28large%29.jpg',
+    true,
     'Spell. Heals for {{Healing}}. Removes one condition if target ally is under a Weapon [sic] spell.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1267,6 +1330,7 @@ VALUES
   (
     'Mighty Was Vorizun',
     'https://wiki.guildwars.com/images/e/e0/Mighty_Was_Vorizun_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) You have +15 armor and +30 maximum Energy.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1287,6 +1351,7 @@ VALUES
   (
     'Nightmare Weapon',
     'https://wiki.guildwars.com/images/0/0d/Nightmare_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. (12 seconds.) Target ally''s attacks steal {{LifeStealing}} Health but deal {{DamageReduction}} less damage. Ends after 3 attacks.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1307,6 +1372,7 @@ VALUES
   (
     'Offering of Spirit',
     'https://wiki.guildwars.com/images/b/bd/Offering_of_Spirit_%28large%29.jpg',
+    true,
     'Elite Spell. You gain {{EnergyGain}} Energy. You do not sacrifice Health if any spirits are within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1327,6 +1393,7 @@ VALUES
   (
     'Pain',
     'https://wiki.guildwars.com/images/0/03/Pain_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1347,6 +1414,7 @@ VALUES
   (
     'Pain (PvP)',
     'https://wiki.guildwars.com/images/0/03/Pain_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1367,6 +1435,7 @@ VALUES
   (
     'Painful Bond',
     'https://wiki.guildwars.com/images/f/fb/Painful_Bond_%28large%29.jpg',
+    true,
     'Hex Spell. Also hexes foes near your target ({{Duration}} seconds). Spirits do {{Damage}} more damage against these foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1387,6 +1456,7 @@ VALUES
   (
     'Preservation',
     'https://wiki.guildwars.com/images/9/98/Preservation_%28large%29.jpg',
+    true,
     'Elite Binding Ritual. Creates a level {{Level}} spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1407,6 +1477,7 @@ VALUES
   (
     'Preservation (PvP)',
     'https://wiki.guildwars.com/images/9/98/Preservation_%28large%29.jpg',
+    true,
     'Elite Binding Ritual. Creates a level {{Level}} Spirit (90 second lifespan). Every 4 seconds this spirit heals one non-spirit ally for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1427,6 +1498,7 @@ VALUES
   (
     'Protective Was Kaolai',
     'https://wiki.guildwars.com/images/9/9a/Protective_Was_Kaolai_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) You have +10 armor. Drop effect: all party members are healed for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1447,6 +1519,7 @@ VALUES
   (
     'Pure Was Li Ming',
     'https://wiki.guildwars.com/images/6/64/Pure_Was_Li_Ming_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) Conditions on you expire {{ConditionDurationReductionPercent}}% faster. Drop effect: removes {{ConditionsRemoved}} condition[s] from allies in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1467,6 +1540,7 @@ VALUES
   (
     'Reclaim Essence',
     'https://wiki.guildwars.com/images/d/d5/Reclaim_Essence_%28large%29.jpg',
+    true,
     'Elite Spell. All of your Spirits die. If a Spirit dies in this way, you gain {{EnergyGain}} Energy and all of your Binding Rituals are recharged.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1487,6 +1561,7 @@ VALUES
   (
     'Recovery',
     'https://wiki.guildwars.com/images/0/02/Recovery_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1507,6 +1582,7 @@ VALUES
   (
     'Recovery (PvP)',
     'https://wiki.guildwars.com/images/0/02/Recovery_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Conditions on allies in range expire {{FasterConditionExpirationPercent}}% faster.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1527,6 +1603,7 @@ VALUES
   (
     'Recuperation',
     'https://wiki.guildwars.com/images/f/fc/Recuperation_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1547,6 +1624,7 @@ VALUES
   (
     'Recuperation (PvP)',
     'https://wiki.guildwars.com/images/f/fc/Recuperation_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range have +{{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1567,6 +1645,7 @@ VALUES
   (
     'Rejuvenation',
     'https://wiki.guildwars.com/images/b/b5/Rejuvenation_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1587,6 +1666,7 @@ VALUES
   (
     'Rejuvenation (PvP)',
     'https://wiki.guildwars.com/images/b/b5/Rejuvenation_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Heals party members in earshot for {{HealingPerSecond}} each second. Healing cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1607,6 +1687,7 @@ VALUES
   (
     'Renewing Memories',
     'https://wiki.guildwars.com/images/8/8f/Renewing_Memories_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) Your weapon and item spells cost {{EnergyReductionPercent}}% less Energy. No effect unless holding an item.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1627,6 +1708,7 @@ VALUES
   (
     'Renewing Surge',
     'https://wiki.guildwars.com/images/9/90/Renewing_Surge_%28large%29.jpg',
+    true,
     'Hex Spell. (8 seconds.) Deals {{DamagePerSecond}} damage each second. End effect: You gain {{EnergyGain}} energy.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1647,6 +1729,7 @@ VALUES
   (
     'Resilient Was Xiko',
     'https://wiki.guildwars.com/images/4/4e/Resilient_Was_Xiko_%28large%29.jpg',
+    true,
     'Item Spell. ({{Duration}} seconds.) You have +3 Health regeneration for each hex or condition on you. Drop effect: you lose {{ConditionsLost}} condition[s].',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1667,6 +1750,7 @@ VALUES
   (
     'Resilient Weapon',
     'https://wiki.guildwars.com/images/a/ae/Resilient_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration and +24 armor. No effect unless target ally is hexed or has a condition.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1687,6 +1771,7 @@ VALUES
   (
     'Restoration',
     'https://wiki.guildwars.com/images/3/31/Restoration_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1707,6 +1792,7 @@ VALUES
   (
     'Restoration (PvP)',
     'https://wiki.guildwars.com/images/3/31/Restoration_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). End effect: resurrects party members in the area with {{PercentHealth}}% Health and zero Energy.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1727,6 +1813,7 @@ VALUES
   (
     'Ritual Lord',
     'https://wiki.guildwars.com/images/0/0d/Ritual_Lord_%28large%29.jpg',
+    true,
     'Elite Skill. ({{Duration}} seconds.) You have +{{AttributeBoost}} to all Ritualist attributes for your next skill. If that skill is a Binding Ritual, it recharges {{PercentFasterRecharge}}% faster and Ritual Lord recharges instantly.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1747,6 +1834,7 @@ VALUES
   (
     'Rupture Soul',
     'https://wiki.guildwars.com/images/c/c7/Rupture_Soul_%28large%29.jpg',
+    true,
     'Spell. Destroys target allied spirit. Deals {{LightningDamage}} lightning damage and inflicts Blindness condition ({{BlindDuration}} seconds) to nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1767,6 +1855,7 @@ VALUES
   (
     'Shadowsong',
     'https://wiki.guildwars.com/images/1/18/Shadowsong_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1787,6 +1876,7 @@ VALUES
   (
     'Shadowsong (PvP)',
     'https://wiki.guildwars.com/images/1/18/Shadowsong_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1807,6 +1897,7 @@ VALUES
   (
     'Shelter',
     'https://wiki.guildwars.com/images/7/77/Shelter_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1827,6 +1918,7 @@ VALUES
   (
     'Shelter (PvP)',
     'https://wiki.guildwars.com/images/7/77/Shelter_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Non-spirit allies within range cannot lose more than 10% maximum Health from a single attack. Damage prevention cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1847,6 +1939,7 @@ VALUES
   (
     'Sight Beyond Sight',
     'https://wiki.guildwars.com/images/a/af/Sight_Beyond_Sight_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds). You are immune to Blindness.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1867,6 +1960,7 @@ VALUES
   (
     'Signet of Binding',
     'https://wiki.guildwars.com/images/f/fd/Signet_of_Binding_%28large%29.jpg',
+    true,
     'Signet. You lose {{HealthLoss}} Health. Gain control of target enemy-controlled spirit. 50% failure chance unless Spawning Power 5 or more.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1887,6 +1981,7 @@ VALUES
   (
     'Signet of Creation',
     'https://wiki.guildwars.com/images/1/14/Signet_of_Creation_%28large%29.jpg',
+    true,
     'Signet. Gain 4 Energy (maximum {{MaxEnergyGained}} Energy) for each summoned creature you control within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1907,6 +2002,7 @@ VALUES
   (
     'Signet of Ghostly Might',
     'https://wiki.guildwars.com/images/1/18/Signet_of_Ghostly_Might_%28large%29.jpg',
+    true,
     'Elite Signet. ({{Duration}} seconds.) All spirits you control within earshot attack 33% faster and deal +{{PlusDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1927,6 +2023,7 @@ VALUES
   (
     'Signet of Ghostly Might (PvP)',
     'https://wiki.guildwars.com/images/1/18/Signet_of_Ghostly_Might_%28large%29.jpg',
+    true,
     'Elite Signet. Target allied summoned creature deals +{{PlusDamage}} damage. That creature is destroyed after 10 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1947,6 +2044,7 @@ VALUES
   (
     'Signet of Spirits',
     'https://wiki.guildwars.com/images/9/91/Signet_of_Spirits_%28large%29.jpg',
+    true,
     'Elite Signet. Creates 3 level {{Level}} spirits (60 second lifespan). These spirits deal {{Damage}} damage with attacks.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1967,6 +2065,7 @@ VALUES
   (
     'Signet of Spirits (PvP)',
     'https://wiki.guildwars.com/images/9/91/Signet_of_Spirits_%28large%29.jpg',
+    true,
     'Elite Signet. You gain {{EnergyGain}} Energy. No effect unless you are within earshot of a spirit.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -1987,6 +2086,7 @@ VALUES
   (
     'Soothing',
     'https://wiki.guildwars.com/images/6/6b/Soothing_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2007,6 +2107,7 @@ VALUES
   (
     'Soothing (PvP)',
     'https://wiki.guildwars.com/images/6/6b/Soothing_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Building adrenaline takes twice as long for foes within range.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2027,6 +2128,7 @@ VALUES
   (
     'Soothing Memories',
     'https://wiki.guildwars.com/images/9/9e/Soothing_Memories_%28large%29.jpg',
+    true,
     'Spell. Heals for {{Healing}}. You gain 3 Energy if you are holding an item.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2047,6 +2149,7 @@ VALUES
   (
     'Soul Twisting',
     'https://wiki.guildwars.com/images/1/18/Soul_Twisting_%28large%29.jpg',
+    true,
     'Elite Skill. ({{Duration}} seconds.) Your Binding Rituals cost 15 less Energy (minimum 10) and recharge instantly. Ends after {{BindingRituals}} Binding Ritual[s].',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2067,6 +2170,7 @@ VALUES
   (
     'Spirit Boon Strike',
     'https://wiki.guildwars.com/images/e/ef/Spirit_Boon_Strike_%28large%29.jpg',
+    true,
     'Spell. Deals {{LightningDamage}} lightning damage. Spirits you control within earshot gain {{LightningDamage}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2087,6 +2191,7 @@ VALUES
   (
     'Spirit Burn',
     'https://wiki.guildwars.com/images/8/89/Spirit_Burn_%28large%29.jpg',
+    true,
     'Spell. Deals {{LightningDamage}} lightning damage. Inflicts Burning condition ({{BurningDuration}} second[s]) if you are within earshot of a spirit.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2107,6 +2212,7 @@ VALUES
   (
     'Spirit Channeling',
     'https://wiki.guildwars.com/images/e/ea/Spirit_Channeling_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. (12 seconds.) You have +{{EnergyRegeneration}} Energy regeneration. Initial effect: you gain {{EnergyGain}} Energy if you are within earshot of a spirit.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2127,6 +2233,7 @@ VALUES
   (
     'Spirit Light',
     'https://wiki.guildwars.com/images/f/fa/Spirit_Light_%28large%29.jpg',
+    true,
     'Spell. Heals for {{Healing}}. You don''t sacrifice Health if you are within earshot of any spirits.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2147,6 +2254,7 @@ VALUES
   (
     'Spirit Light Weapon',
     'https://wiki.guildwars.com/images/8/8c/Spirit_Light_Weapon_%28large%29.jpg',
+    true,
     'Elite Weapon Spell. (10 seconds.) Target ally gains {{HealthGainPerSecond}} Health each second. {{AdditionalHealthGainPerSecond}} more healing per second while within earshot of a spirit.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2167,6 +2275,7 @@ VALUES
   (
     'Spirit Rift',
     'https://wiki.guildwars.com/images/5/55/Spirit_Rift_%28large%29.jpg',
+    true,
     'Spell. After 3 seconds, affects foes adjacent to target''s initial location. Deals {{LightningDamage}} lightning damage and inflicts Cracked Armor ({{CrackedArmorDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2187,6 +2296,7 @@ VALUES
   (
     'Spirit Siphon',
     'https://wiki.guildwars.com/images/d/d3/Spirit_Siphon_%28large%29.jpg',
+    true,
     'Spell. The spirit nearest you loses all Energy. You gain {{PercentEnergy}}% of that Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2207,6 +2317,7 @@ VALUES
   (
     'Spirit Transfer',
     'https://wiki.guildwars.com/images/8/8f/Spirit_Transfer_%28large%29.jpg',
+    true,
     'Spell. The spirit nearest you loses {{SpiritHealthLoss}} Health. Heals target ally for 5 for each point of Health lost.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2227,6 +2338,7 @@ VALUES
   (
     'Spirit to Flesh',
     'https://wiki.guildwars.com/images/1/12/Spirit_to_Flesh_%28large%29.jpg',
+    true,
     'Touch Spell. Destroys target touched allied spirit. Heals nearby allies for {{Healing}}.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2247,6 +2359,7 @@ VALUES
   (
     'Spirit''s Gift',
     'https://wiki.guildwars.com/images/e/ef/Spirit%27s_Gift_%28large%29.jpg',
+    true,
     'Enchantment Spell. (60 seconds.) Whenever you create a creature, all nearby allies gain {{HealthGain}} Health and lose one condition.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2267,6 +2380,7 @@ VALUES
   (
     'Spirit''s Strength',
     'https://wiki.guildwars.com/images/8/84/Spirit%27s_Strength_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) Your attacks deal +{{PlusDamage}} damage if you are under a weapon spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2287,6 +2401,7 @@ VALUES
   (
     'Spiritleech Aura',
     'https://wiki.guildwars.com/images/5/58/Spiritleech_Aura_%28large%29.jpg',
+    true,
     'Skill. ({{Duration}} seconds.) All of your spirits within earshot deal {{DamageConvertedToLifeStealing}} less damage and steal {{DamageConvertedToLifeStealing}} Health when they attack.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2307,6 +2422,7 @@ VALUES
   (
     'Splinter Weapon',
     'https://wiki.guildwars.com/images/3/3d/Splinter_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2327,6 +2443,7 @@ VALUES
   (
     'Splinter Weapon (PvP)',
     'https://wiki.guildwars.com/images/3/3d/Splinter_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. (20 seconds.) Attacks deal {{Damage}} damage to 3 [sic] adjacent foes. Ends after {{Attacks}} attack[s].',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2346,7 +2463,8 @@ VALUES
   ),
   (
     'Summon Spirits',
-    '',
+    'https://wiki.guildwars.com/images/9/9c/Summon_Spirits.jpg',
+    false,
     'Spell. Spirits you control Shadow Step to your location and gain {{HealthGain}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2367,6 +2485,7 @@ VALUES
   (
     'Sundering Weapon',
     'https://wiki.guildwars.com/images/6/6d/Sundering_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) Target ally''s next 3 attacks inflict Cracked Armor condition ({{CrackedArmorDuration}} seconds) and have 10% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2387,6 +2506,7 @@ VALUES
   (
     'Tranquil Was Tanasen',
     'https://wiki.guildwars.com/images/e/e8/Tranquil_Was_Tanasen_%28large%29.jpg',
+    true,
     'Elite Item Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor. You cannot be interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2407,6 +2527,7 @@ VALUES
   (
     'Union',
     'https://wiki.guildwars.com/images/b/b7/Union_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, it is reduced by 15 and the spirit takes 15 damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2427,6 +2548,7 @@ VALUES
   (
     'Union (PvP)',
     'https://wiki.guildwars.com/images/b/b7/Union_%28large%29.jpg',
+    true,
     'Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Whenever a non-spirit ally within range takes damage or life steal, that damage is reduced by 15 and the spirit takes 15 damage.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2446,7 +2568,8 @@ VALUES
   ),
   (
     'Vampirism',
-    '',
+    'https://wiki.guildwars.com/images/5/59/Vampirism.jpg',
+    false,
     'Binding Ritual. Creates a level {{Level}} spirit (lifespan {{Duration}} seconds). Its attacks steal {{LifeStealing}} Health, and you are healed for {{Healing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2467,6 +2590,7 @@ VALUES
   (
     'Vengeful Was Khanhei',
     'https://wiki.guildwars.com/images/d/de/Vengeful_Was_Khanhei_%28large%29.jpg',
+    true,
     'Elite Item Spell. ({{Duration}} seconds.) You steal {{LifeStealing}} Health from every foe that hits you with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2487,6 +2611,7 @@ VALUES
   (
     'Vengeful Weapon',
     'https://wiki.guildwars.com/images/4/4e/Vengeful_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. (8 seconds.) Steals {{LifeStealing}} Health from the next foe that deals damage or life steal to target ally.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2507,6 +2632,7 @@ VALUES
   (
     'Vital Weapon',
     'https://wiki.guildwars.com/images/c/c0/Vital_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) +{{PlusMaxHealth}} maximum Health.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2527,6 +2653,7 @@ VALUES
   (
     'Vocal Was Sogolon',
     'https://wiki.guildwars.com/images/5/55/Vocal_Was_Sogolon_%28large%29.jpg',
+    true,
     'Item Spell. (60 seconds.) Shouts and chants you use last {{PercentLonger}}% longer.',
     (SELECT id FROM skill_types WHERE name = 'Item Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2547,6 +2674,7 @@ VALUES
   (
     'Wailing Weapon',
     'https://wiki.guildwars.com/images/8/84/Wailing_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) Attacks interrupt attacking foes.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2567,6 +2695,7 @@ VALUES
   (
     'Wanderlust',
     'https://wiki.guildwars.com/images/8/88/Wanderlust_%28large%29.jpg',
+    true,
     'Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2587,6 +2716,7 @@ VALUES
   (
     'Wanderlust (PvP)',
     'https://wiki.guildwars.com/images/8/88/Wanderlust_%28large%29.jpg',
+    true,
     'Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2607,6 +2737,7 @@ VALUES
   (
     'Warmonger''s Weapon',
     'https://wiki.guildwars.com/images/2/20/Warmonger%27s_Weapon_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) Attacks interrupt an action. Does not interrupt attacking foes.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2627,6 +2758,7 @@ VALUES
   (
     'Weapon of Aggression',
     'https://wiki.guildwars.com/images/c/c3/Weapon_of_Aggression_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) You attack 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2647,6 +2779,7 @@ VALUES
   (
     'Weapon of Fury',
     'https://wiki.guildwars.com/images/7/70/Weapon_of_Fury_%28large%29.jpg',
+    true,
     'Elite Weapon Spell. ({{Duration}} seconds.) {{MoreAdrenalineGainPercent}}% more adrenaline gain and +1 Energy whenever target ally hits with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2667,6 +2800,7 @@ VALUES
   (
     'Weapon of Quickening',
     'https://wiki.guildwars.com/images/d/d8/Weapon_of_Quickening_%28large%29.jpg',
+    true,
     'Elite Weapon Spell. ({{Duration}} seconds.) Spells and binding rituals recharge 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2687,6 +2821,7 @@ VALUES
   (
     'Weapon of Remedy',
     'https://wiki.guildwars.com/images/c/c2/Weapon_of_Remedy_%28large%29.jpg',
+    true,
     'Elite Weapon Spell. (8 seconds.) The next time target ally takes damage or life steal from a foe, this ally steals {{LifeStealing}} Health from that foe and loses 1 condition.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2707,6 +2842,7 @@ VALUES
   (
     'Weapon of Renewal',
     'https://wiki.guildwars.com/images/e/e0/Weapon_of_Renewal_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) Target ally gains {{EnergyGain}} Energy the next time this ally hits with an attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2727,6 +2863,7 @@ VALUES
   (
     'Weapon of Shadow',
     'https://wiki.guildwars.com/images/0/00/Weapon_of_Shadow_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} second[s].) Inflicts Blindness condition (5 seconds) on anyone who attacks target ally. Target ally''s next {{Attacks}} attack[s] inflict Blindness (5 seconds) if they hit.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2747,6 +2884,7 @@ VALUES
   (
     'Weapon of Warding',
     'https://wiki.guildwars.com/images/5/58/Weapon_of_Warding_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2767,6 +2905,7 @@ VALUES
   (
     'Weapon of Warding (PvP)',
     'https://wiki.guildwars.com/images/5/58/Weapon_of_Warding_%28large%29.jpg',
+    true,
     'Weapon Spell. ({{Duration}} seconds.) +{{HealthRegeneration}} Health regeneration. 50% chance to block. Ends if target ally attacks.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2786,7 +2925,8 @@ VALUES
   ),
   (
     'Weapons of Three Forges',
-    '',
+    'https://wiki.guildwars.com/images/0/08/Weapons_of_Three_Forges.jpg',
+    false,
     'Elite Weapon Spell. ({{Duration}} seconds.) Allies in earshot gain the effect of a random Weapon Spell. Allied spirits are not affected. PvE Skill',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2807,6 +2947,7 @@ VALUES
   (
     'Wielder''s Boon',
     'https://wiki.guildwars.com/images/3/3b/Wielder%27s_Boon_%28large%29.jpg',
+    true,
     'Spell. Heals for {{Healing}}. Heals for {{AdditionalHealing}} more if this ally is under a Weapon [sic] spell.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2827,6 +2968,7 @@ VALUES
   (
     'Wielder''s Remedy',
     'https://wiki.guildwars.com/images/8/8a/Wielder%27s_Remedy_%28large%29.jpg',
+    true,
     'Enchantment Spell. ({{Duration}} seconds.) Whenever you cast a weapon spell, the targeted ally loses one condition.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2847,6 +2989,7 @@ VALUES
   (
     'Wielder''s Strike',
     'https://wiki.guildwars.com/images/b/b9/Wielder%27s_Strike_%28large%29.jpg',
+    true,
     'Spell. Deals {{LightningDamage}} lightning damage. Deals {{AdditionalDamage}} more lightning damage if you are under a weapon spell.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2867,6 +3010,7 @@ VALUES
   (
     'Wielder''s Zeal',
     'https://wiki.guildwars.com/images/1/1b/Wielder%27s_Zeal_%28large%29.jpg',
+    true,
     'Elite Enchantment Spell. ({{Duration}} seconds.) You gain {{EnergyGain}} Energy whenever you cast a weapon spell.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2887,6 +3031,7 @@ VALUES
   (
     'Xinrae''s Weapon',
     'https://wiki.guildwars.com/images/5/51/Xinrae%27s_Weapon_%28large%29.jpg',
+    true,
     'Elite Weapon Spell. (8 seconds). The next time target ally takes damage from a foe, that damage is limited to 5% of target ally''s max Health and that ally steals {{LifeStealing}} Health from that foe.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     (SELECT id FROM professions WHERE name = 'Ritualist'),
@@ -2906,6 +3051,7 @@ VALUES
   )
 ON CONFLICT (name) DO UPDATE SET
   icon = EXCLUDED.icon,
+  is_high_res_icon = EXCLUDED.is_high_res_icon,
   description = EXCLUDED.description,
   skill_type_id = EXCLUDED.skill_type_id,
   profession_id = EXCLUDED.profession_id,

@@ -46,7 +46,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Charge!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Charge!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"Coward!\"",
@@ -70,7 +71,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Coward!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Coward!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"Fear Me!\"",
@@ -167,7 +169,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Fear_Me!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Fear_Me!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"For Great Justice!\"",
@@ -191,7 +194,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"For Great Justice!\" (PvP)",
@@ -215,7 +219,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "\"I Meant to Do That!\"",
@@ -264,7 +269,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Meant_to_Do_That!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Meant_to_Do_That!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"I Will Avenge You!\"",
@@ -313,7 +319,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Avenge_You!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Avenge_You!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"I Will Survive!\"",
@@ -362,7 +369,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Survive!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I_Will_Survive!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"None Shall Pass!\"",
@@ -411,7 +419,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"On Your Knees!\"",
@@ -435,7 +444,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22On_Your_Knees!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22On_Your_Knees!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"Retreat!\"",
@@ -484,11 +494,12 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Retreat!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Retreat!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"Save Yourselves!\"",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/1/1c/%22Save_Yourselves%21%22.jpg",
     "concise_description": "Shout. ({{Duration}} seconds.) All other party members gain +100 armor.",
     "type": "Shout",
     "profession": "Warrior",
@@ -524,7 +535,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Save_Yourselves!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Save_Yourselves!%22",
+    "is_high_res_icon": false
   },
   {
     "name": "\"Shields Up!\"",
@@ -573,7 +585,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Shields_Up!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Shields_Up!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"To the Limit!\"",
@@ -670,7 +683,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22To_the_Limit!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22To_the_Limit!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"Victory Is Mine!\"",
@@ -743,7 +757,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"Watch Yourself!\"",
@@ -792,7 +807,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"Watch Yourself!\" (PvP)",
@@ -865,7 +881,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "\"You Will Die!\"",
@@ -914,7 +931,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Will_Die!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22You_Will_Die!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "\"You're All Alone!\"",
@@ -938,7 +956,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22You%27re_All_Alone!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22You%27re_All_Alone!%22",
+    "is_high_res_icon": true
   },
   {
     "name": "Agonizing Chop",
@@ -987,7 +1006,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Agonizing_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Auspicious Blow",
@@ -1060,7 +1080,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Auspicious Parry",
@@ -1109,7 +1130,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Parry"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Parry",
+    "is_high_res_icon": true
   },
   {
     "name": "Axe Rake",
@@ -1158,7 +1180,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Rake"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Rake",
+    "is_high_res_icon": true
   },
   {
     "name": "Axe Twist",
@@ -1207,7 +1230,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Twist"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Twist",
+    "is_high_res_icon": true
   },
   {
     "name": "Backbreaker",
@@ -1256,7 +1280,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Backbreaker"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Backbreaker",
+    "is_high_res_icon": true
   },
   {
     "name": "Balanced Stance",
@@ -1305,7 +1330,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Balanced_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Balanced_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Barbarous Slice",
@@ -1378,7 +1404,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Barbarous_Slice"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbarous_Slice",
+    "is_high_res_icon": true
   },
   {
     "name": "Battle Rage",
@@ -1427,7 +1454,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Battle_Rage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Battle_Rage",
+    "is_high_res_icon": true
   },
   {
     "name": "Belly Smash",
@@ -1476,7 +1504,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Belly_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Belly_Smash",
+    "is_high_res_icon": true
   },
   {
     "name": "Berserker Stance",
@@ -1525,7 +1554,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Berserker_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Berserker_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Body Blow",
@@ -1598,7 +1628,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Body_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Body_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Bonetti's Defense",
@@ -1647,7 +1678,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense",
+    "is_high_res_icon": true
   },
   {
     "name": "Bull's Charge",
@@ -1696,7 +1728,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Charge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Charge",
+    "is_high_res_icon": true
   },
   {
     "name": "Bull's Strike",
@@ -1745,7 +1778,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Burst of Aggression",
@@ -1794,7 +1828,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Burst_of_Aggression"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burst_of_Aggression",
+    "is_high_res_icon": true
   },
   {
     "name": "Charging Strike",
@@ -1867,7 +1902,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charging_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charging_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Cleave",
@@ -1916,7 +1952,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Cleave"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cleave",
+    "is_high_res_icon": true
   },
   {
     "name": "Counter Blow",
@@ -1940,7 +1977,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Counter_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Counter_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Counterattack",
@@ -2013,7 +2051,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Counterattack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Counterattack",
+    "is_high_res_icon": true
   },
   {
     "name": "Crippling Slash",
@@ -2086,7 +2125,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Critical Chop",
@@ -2135,7 +2175,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Crude Swing",
@@ -2184,7 +2225,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crude_Swing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crude_Swing",
+    "is_high_res_icon": true
   },
   {
     "name": "Crushing Blow",
@@ -2257,7 +2299,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crushing_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crushing_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Cyclone Axe",
@@ -2306,7 +2349,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Cyclone_Axe"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cyclone_Axe",
+    "is_high_res_icon": true
   },
   {
     "name": "Deadly Riposte",
@@ -2379,7 +2423,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Riposte"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Riposte",
+    "is_high_res_icon": true
   },
   {
     "name": "Decapitate",
@@ -2452,7 +2497,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Decapitate"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Decapitate",
+    "is_high_res_icon": true
   },
   {
     "name": "Defensive Stance",
@@ -2525,7 +2571,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Defensive_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defensive_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Deflect Arrows",
@@ -2598,7 +2645,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deflect_Arrows"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deflect_Arrows",
+    "is_high_res_icon": true
   },
   {
     "name": "Defy Pain",
@@ -2671,7 +2719,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Defy Pain (PvP)",
@@ -2720,7 +2769,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defy_Pain_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Desperation Blow",
@@ -2769,7 +2819,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Desperation_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Desperation_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Devastating Hammer",
@@ -2818,7 +2869,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Devastating_Hammer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
+    "is_high_res_icon": true
   },
   {
     "name": "Disarm",
@@ -2867,7 +2919,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Disarm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disarm",
+    "is_high_res_icon": true
   },
   {
     "name": "Disciplined Stance",
@@ -2916,7 +2969,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Disciplined_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disciplined_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Dismember",
@@ -2965,7 +3019,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dismember"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dismember",
+    "is_high_res_icon": true
   },
   {
     "name": "Disrupting Chop",
@@ -2989,7 +3044,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disrupting_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Distracting Blow",
@@ -3013,7 +3069,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Distracting Strike",
@@ -3037,7 +3094,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Distracting_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Dolyak Signet",
@@ -3110,7 +3168,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dolyak_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dolyak_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Dragon Slash",
@@ -3183,7 +3242,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dragon_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dragon_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Drunken Blow",
@@ -3232,7 +3292,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Dwarven Battle Stance",
@@ -3281,7 +3342,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dwarven_Battle_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dwarven_Battle_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Earth Shaker",
@@ -3305,7 +3367,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Shaker"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Shaker",
+    "is_high_res_icon": true
   },
   {
     "name": "Endure Pain",
@@ -3378,7 +3441,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Endure_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Endure_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Enraged Smash",
@@ -3451,7 +3515,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash",
+    "is_high_res_icon": true
   },
   {
     "name": "Enraged Smash (PvP)",
@@ -3524,7 +3589,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Smash_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Enraging Charge",
@@ -3597,7 +3663,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enraging_Charge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraging_Charge",
+    "is_high_res_icon": true
   },
   {
     "name": "Eviscerate",
@@ -3670,7 +3737,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Eviscerate"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Eviscerate",
+    "is_high_res_icon": true
   },
   {
     "name": "Executioner's Strike",
@@ -3719,7 +3787,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Fierce Blow",
@@ -3792,7 +3861,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fierce_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fierce_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Final Thrust",
@@ -3865,7 +3935,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Final_Thrust"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Final_Thrust",
+    "is_high_res_icon": true
   },
   {
     "name": "Flail",
@@ -3914,7 +3985,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flail"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flail",
+    "is_high_res_icon": true
   },
   {
     "name": "Flourish",
@@ -3963,7 +4035,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flourish"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flourish",
+    "is_high_res_icon": true
   },
   {
     "name": "Flurry",
@@ -3987,7 +4060,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flurry"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flurry",
+    "is_high_res_icon": true
   },
   {
     "name": "Forceful Blow",
@@ -4060,7 +4134,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Forceful_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forceful_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Frenzied Defense",
@@ -4084,7 +4159,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Frenzied_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frenzied_Defense",
+    "is_high_res_icon": true
   },
   {
     "name": "Frenzy",
@@ -4108,7 +4184,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Frenzy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frenzy",
+    "is_high_res_icon": true
   },
   {
     "name": "Furious Axe",
@@ -4157,7 +4234,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Furious_Axe"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Furious_Axe",
+    "is_high_res_icon": true
   },
   {
     "name": "Galrath Slash",
@@ -4206,7 +4284,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Galrath_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Galrath_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Gash",
@@ -4279,7 +4358,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gash",
+    "is_high_res_icon": true
   },
   {
     "name": "Gladiator's Defense",
@@ -4352,7 +4432,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gladiator%27s_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gladiator%27s_Defense",
+    "is_high_res_icon": true
   },
   {
     "name": "Grapple",
@@ -4376,7 +4457,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Grapple"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grapple",
+    "is_high_res_icon": true
   },
   {
     "name": "Griffon's Sweep",
@@ -4400,7 +4482,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Hammer Bash",
@@ -4424,7 +4507,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hammer_Bash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hammer_Bash",
+    "is_high_res_icon": true
   },
   {
     "name": "Hamstring",
@@ -4473,7 +4557,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hamstring"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hamstring",
+    "is_high_res_icon": true
   },
   {
     "name": "Headbutt",
@@ -4546,7 +4631,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Headbutt"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Headbutt",
+    "is_high_res_icon": true
   },
   {
     "name": "Healing Signet",
@@ -4595,7 +4681,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Heavy Blow",
@@ -4644,7 +4731,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Heavy_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heavy_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Hundred Blades",
@@ -4693,7 +4781,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hundred_Blades"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hundred_Blades",
+    "is_high_res_icon": true
   },
   {
     "name": "Irresistible Blow",
@@ -4766,7 +4855,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Jaizhenju Strike",
@@ -4815,7 +4905,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jaizhenju_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jaizhenju_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Keen Chop",
@@ -4839,7 +4930,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Keen_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Keen_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Knee Cutter",
@@ -4912,7 +5004,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Knee_Cutter"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Knee_Cutter",
+    "is_high_res_icon": true
   },
   {
     "name": "Lacerating Chop",
@@ -4985,7 +5078,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lacerating_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lacerating_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Leviathan's Sweep",
@@ -5058,7 +5152,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Leviathan%27s_Sweep"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leviathan%27s_Sweep",
+    "is_high_res_icon": true
   },
   {
     "name": "Lion's Comfort",
@@ -5131,7 +5226,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lion%27s_Comfort"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lion%27s_Comfort",
+    "is_high_res_icon": true
   },
   {
     "name": "Magehunter Strike",
@@ -5180,7 +5276,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Magehunter's Smash",
@@ -5204,7 +5301,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter%27s_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Magehunter%27s_Smash",
+    "is_high_res_icon": true
   },
   {
     "name": "Mighty Blow",
@@ -5253,7 +5351,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mighty_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Mokele Smash",
@@ -5302,7 +5401,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mokele_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mokele_Smash",
+    "is_high_res_icon": true
   },
   {
     "name": "Overbearing Smash",
@@ -5375,7 +5475,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Overbearing_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
+    "is_high_res_icon": true
   },
   {
     "name": "Penetrating Blow",
@@ -5424,7 +5525,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Penetrating Chop",
@@ -5473,7 +5575,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Penetrating_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Attack",
@@ -5522,7 +5625,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Attack",
+    "is_high_res_icon": true
   },
   {
     "name": "Primal Rage",
@@ -5571,7 +5675,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Primal_Rage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Primal_Rage",
+    "is_high_res_icon": true
   },
   {
     "name": "Protector's Defense",
@@ -5620,7 +5725,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Defense",
+    "is_high_res_icon": true
   },
   {
     "name": "Protector's Strike",
@@ -5669,7 +5775,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protector%27s_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Pulverizing Smash",
@@ -5718,7 +5825,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pulverizing_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pulverizing_Smash",
+    "is_high_res_icon": true
   },
   {
     "name": "Pure Strike",
@@ -5767,7 +5875,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pure_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pure_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Quivering Blade",
@@ -5816,7 +5925,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Quivering_Blade"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Quivering_Blade",
+    "is_high_res_icon": true
   },
   {
     "name": "Rage of the Ntouka",
@@ -5865,7 +5975,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rage_of_the_Ntouka"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rage_of_the_Ntouka",
+    "is_high_res_icon": true
   },
   {
     "name": "Renewing Smash",
@@ -5914,7 +6025,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash",
+    "is_high_res_icon": true
   },
   {
     "name": "Renewing Smash (PvP)",
@@ -5963,7 +6075,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Smash_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Riposte",
@@ -6012,7 +6125,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Riposte"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Riposte",
+    "is_high_res_icon": true
   },
   {
     "name": "Rush",
@@ -6061,7 +6175,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rush"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rush",
+    "is_high_res_icon": true
   },
   {
     "name": "Savage Slash",
@@ -6110,7 +6225,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Savage_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Savage_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Seeking Blade",
@@ -6183,11 +6299,12 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Seeking_Blade"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seeking_Blade",
+    "is_high_res_icon": true
   },
   {
     "name": "Seven Weapons Stance",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/d/d7/Seven_Weapons_Stance.jpg",
     "concise_description": "Elite Stance. ({{Duration}} seconds.) Weapon attributes are increased by +{{Attributes}}. You attack 33% faster. PvE Skill",
     "type": "Stance",
     "profession": "Warrior",
@@ -6256,7 +6373,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Seven_Weapons_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seven_Weapons_Stance",
+    "is_high_res_icon": false
   },
   {
     "name": "Sever Artery",
@@ -6305,7 +6423,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sever_Artery"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sever_Artery",
+    "is_high_res_icon": true
   },
   {
     "name": "Shield Bash",
@@ -6354,7 +6473,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Bash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Bash",
+    "is_high_res_icon": true
   },
   {
     "name": "Shield Stance",
@@ -6403,7 +6523,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Shove",
@@ -6452,7 +6573,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shove"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shove",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Stamina",
@@ -6501,7 +6623,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Stamina"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Stamina",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Strength",
@@ -6525,7 +6648,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Strength"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Strength",
+    "is_high_res_icon": true
   },
   {
     "name": "Silverwing Slash",
@@ -6549,7 +6673,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Silverwing_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Silverwing_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Skull Crack",
@@ -6573,7 +6698,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Skull_Crack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Skull_Crack",
+    "is_high_res_icon": true
   },
   {
     "name": "Soldier's Defense",
@@ -6622,7 +6748,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense",
+    "is_high_res_icon": true
   },
   {
     "name": "Soldier's Speed",
@@ -6671,7 +6798,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Speed"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Speed",
+    "is_high_res_icon": true
   },
   {
     "name": "Soldier's Stance",
@@ -6720,7 +6848,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Soldier's Stance (PvP)",
@@ -6769,7 +6898,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Soldier's Strike",
@@ -6818,7 +6948,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soldier%27s_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Sprint",
@@ -6867,7 +6998,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sprint"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sprint",
+    "is_high_res_icon": true
   },
   {
     "name": "Staggering Blow",
@@ -6916,7 +7048,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Staggering_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Standing Slash",
@@ -6965,7 +7098,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Standing_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Standing_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Steady Stance",
@@ -7038,7 +7172,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Steady_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Steady_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Steelfang Slash",
@@ -7111,7 +7246,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Steelfang_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Steelfang_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Sun and Moon Slash",
@@ -7135,7 +7271,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash",
+    "is_high_res_icon": true
   },
   {
     "name": "Swift Chop",
@@ -7208,7 +7345,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Swift_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swift_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Symbolic Strike",
@@ -7232,7 +7370,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Strike",
+    "is_high_res_icon": true
   },
   {
     "name": "Thrill of Victory",
@@ -7305,7 +7444,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Thrill_of_Victory"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thrill_of_Victory",
+    "is_high_res_icon": true
   },
   {
     "name": "Tiger Stance",
@@ -7354,7 +7494,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tiger_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tiger_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Triple Chop",
@@ -7403,7 +7544,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Triple_Chop"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Triple_Chop",
+    "is_high_res_icon": true
   },
   {
     "name": "Warrior's Cunning",
@@ -7452,7 +7594,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Cunning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Cunning",
+    "is_high_res_icon": true
   },
   {
     "name": "Warrior's Endurance",
@@ -7525,7 +7668,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance",
+    "is_high_res_icon": true
   },
   {
     "name": "Warrior's Endurance (PvP)",
@@ -7598,7 +7742,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Wary Stance",
@@ -7647,7 +7792,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wary_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wary_Stance",
+    "is_high_res_icon": true
   },
   {
     "name": "Whirling Axe",
@@ -7696,11 +7842,12 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Axe"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Axe",
+    "is_high_res_icon": true
   },
   {
     "name": "Whirlwind Attack",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/2/2c/Whirlwind_Attack.jpg",
     "concise_description": "Melee Attack. Deals +{{Damage}} damage to target and adjacent foes.",
     "type": "Melee Attack",
     "profession": "Warrior",
@@ -7734,7 +7881,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirlwind_Attack",
+    "is_high_res_icon": false
   },
   {
     "name": "Wild Blow",
@@ -7758,7 +7906,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Blow",
+    "is_high_res_icon": true
   },
   {
     "name": "Yeti Smash",
@@ -7782,6 +7931,7 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Yeti_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Yeti_Smash",
+    "is_high_res_icon": true
   }
 ]

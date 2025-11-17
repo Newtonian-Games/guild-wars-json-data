@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-Fetch high-res skill icon URLs from Guild Wars Wiki gallery page.
+Fetch skill icon URLs from Guild Wars Wiki.
 
-This script reads the gallery page, extracts skill icon URLs, and updates
-all skill JSON files with matching icons (except monster.json).
+This script:
+1. Fetches high-res icons from the gallery page
+2. Adds is_high_res_icon boolean field for all skills
+3. Handles special variants (e.g., skills with parentheses)
+4. Fetches standard-res icons from wiki pages for remaining skills
 
 Usage:
     cd /srv/www/build-wars
@@ -14,6 +17,7 @@ import re
 import os
 import sys
 import subprocess
+import time
 
 # Ensure we're working from the project root
 if os.path.basename(os.getcwd()) in ['skills', 'scripts']:
@@ -43,12 +47,7 @@ def fetch_gallery_page():
 
 def parse_skill_icons(html):
     """Parse skill icon URLs from the gallery HTML."""
-    # Pattern: class="image" title="Skill Name"><img alt="..." src="/images/thumb/.../File_(large).jpg/100px-..."
-
     skill_icons = {}
-
-    # Find all image links with titles
-    # Match: class="image" title="Skill Name"><img ... src="/images/thumb/.../filename.jpg/100px-..."
     # Note: parentheses in URLs are encoded as %28 and %29
     pattern = r'title="([^"]+)"><img[^>]+src="(/images/thumb/[^"]+%28large%29\.jpg)/\d+px-'
 
@@ -61,20 +60,61 @@ def parse_skill_icons(html):
         skill_name = skill_name.replace('&amp;', '&')
 
         # Convert thumbnail path to full image path
-        # /images/thumb/a/b/File_(large).jpg -> /images/a/b/File_(large).jpg
-        # Extract the filename parts after /images/thumb/
         match = re.match(r'/images/thumb(/[^/]+/[^/]+/[^/]+)$', thumb_path)
         if match:
             full_path = f'/images{match.group(1)}'
         else:
-            # Fallback: just remove /thumb/
             full_path = thumb_path.replace('/thumb/', '/')
 
         full_url = f'https://wiki.guildwars.com{full_path}'
-
         skill_icons[skill_name] = full_url
 
     return skill_icons
+
+def encode_skill_name_for_url(skill_name):
+    """Encode skill name for wiki URL."""
+    # Remove (PvP) suffix if present
+    name = skill_name.replace(' (PvP)', '')
+
+    # Replace spaces with underscores
+    encoded = name.replace(' ', '_')
+    # Replace quotes
+    encoded = encoded.replace('"', '%22')
+    # Replace apostrophes
+    encoded = encoded.replace("'", '%27')
+    return encoded
+
+def fetch_standard_icon_from_wiki(skill_name):
+    """Fetch standard-resolution icon from skill's wiki page."""
+    encoded_name = encode_skill_name_for_url(skill_name)
+    url = f"https://wiki.guildwars.com/wiki/{encoded_name}"
+
+    try:
+        result = subprocess.run(
+            ['curl', '-s', '-L', url],
+            capture_output=True,
+            text=True,
+            timeout=10
+        )
+        if result.returncode != 0:
+            return None
+
+        html = result.stdout
+
+        # Look for skill icon in the skill-image div
+        # Pattern: <div class="skill-image">...<img src="/images/...jpg"
+        pattern = r'<div class="skill-image">.*?src="(/images/[^"]+\.jpg)"'
+        match = re.search(pattern, html, re.DOTALL)
+
+        if match:
+            icon_path = match.group(1)
+            # Skip if it's a thumb or large version
+            if '/thumb/' not in icon_path and '(large)' not in icon_path.lower():
+                return f"https://wiki.guildwars.com{icon_path}"
+
+        return None
+    except Exception:
+        return None
 
 def load_skill_files():
     """Load all skill JSON files except skill-types.json."""
@@ -90,13 +130,15 @@ def load_skill_files():
     return skill_files
 
 def update_skill_icons(skill_files, skill_icons):
-    """Update skill JSON files with icon URLs."""
+    """Update skill JSON files with icon URLs and is_high_res_icon field."""
     stats = {
         'total_skills': 0,
-        'matched': 0,
         'already_had_icon': 0,
-        'updated': 0,
-        'not_found': 0
+        'high_res_matched': 0,
+        'monster_generic': 0,
+        'special_variant': 0,
+        'standard_res_fetched': 0,
+        'still_null': 0
     }
 
     # Track which icons from the gallery matched any skill name
@@ -104,6 +146,12 @@ def update_skill_icons(skill_files, skill_icons):
 
     # Create a case-insensitive lookup for skill_icons
     skill_icons_lower = {k.lower(): k for k in skill_icons.keys()}
+
+    # First pass: build a map of all skills for variant matching
+    all_skills_by_name = {}
+    for filename, skills in skill_files.items():
+        for skill in skills:
+            all_skills_by_name[skill['name']] = skill
 
     for filename, skills in skill_files.items():
         # Special handling for monster.json - all use generic monster icon
@@ -117,8 +165,8 @@ def update_skill_icons(skill_files, skill_icons):
                 else:
                     # Set to generic monster icon
                     skill['icon'] = monster_icon_url
-                    stats['updated'] += 1
-                stats['matched'] += 1
+                    stats['monster_generic'] += 1
+                skill['is_high_res_icon'] = False
             continue
 
         # Regular handling for non-monster skills
@@ -126,14 +174,39 @@ def update_skill_icons(skill_files, skill_icons):
             stats['total_skills'] += 1
             skill_name = skill['name']
 
+            # Check if already has icon
+            if skill.get('icon') and skill['icon'] != '':
+                # Add is_high_res_icon field based on current icon
+                # If it's from gallery (has (large)), it's high-res
+                skill['is_high_res_icon'] = '%28large%29' in skill.get('icon', '') or '(large)' in skill.get('icon', '')
+                stats['already_had_icon'] += 1
+                continue
+
             # Try to find matching icon
             icon_url = None
+            is_high_res = False
             matched_key = None
 
-            # Try exact match (case-sensitive)
+            # Check if this is a special variant (has parentheses)
+            variant_match = re.match(r'^(.+?)\s+\([^)]+\)$', skill_name)
+            if variant_match:
+                base_name = variant_match.group(1)
+                # Try to find the base skill's icon
+                if base_name in all_skills_by_name:
+                    base_skill = all_skills_by_name[base_name]
+                    if base_skill.get('icon'):
+                        icon_url = base_skill['icon']
+                        is_high_res = base_skill.get('is_high_res_icon', False)
+                        stats['special_variant'] += 1
+                        skill['icon'] = icon_url
+                        skill['is_high_res_icon'] = is_high_res
+                        continue
+
+            # Try exact match (case-sensitive) in gallery
             if skill_name in skill_icons:
                 icon_url = skill_icons[skill_name]
                 matched_key = skill_name
+                is_high_res = True
             else:
                 # Build list of variations to try
                 variations = []
@@ -164,28 +237,34 @@ def update_skill_icons(skill_files, skill_icons):
                         actual_key = skill_icons_lower[variant_lower]
                         icon_url = skill_icons[actual_key]
                         matched_key = actual_key
+                        is_high_res = True
                         break
 
-            # Check if we found a match
-            if icon_url:
+            # If we found a gallery match
+            if icon_url and is_high_res:
                 matched_icon_names.add(matched_key)
-
-                # Check if icon is already populated (not empty string or null)
-                if skill.get('icon') and skill['icon'] != '':
-                    stats['already_had_icon'] += 1
-                else:
-                    # Update the icon
-                    skill['icon'] = icon_url
-                    stats['updated'] += 1
-
-                stats['matched'] += 1
+                skill['icon'] = icon_url
+                skill['is_high_res_icon'] = True
+                stats['high_res_matched'] += 1
             else:
-                # Leave as null if not found (don't use empty string)
-                if 'icon' in skill and skill['icon'] == '':
-                    skill['icon'] = None
-                stats['not_found'] += 1
+                # Try to fetch standard-res icon from wiki
+                print(f"  Fetching standard icon for: {skill_name}")
+                standard_icon = fetch_standard_icon_from_wiki(skill_name)
 
-    # Calculate unused icons (icons on gallery that didn't match any skill)
+                if standard_icon:
+                    skill['icon'] = standard_icon
+                    skill['is_high_res_icon'] = False
+                    stats['standard_res_fetched'] += 1
+                else:
+                    # Leave as null
+                    skill['icon'] = None
+                    skill['is_high_res_icon'] = False
+                    stats['still_null'] += 1
+
+                # Small delay to be respectful to wiki server
+                time.sleep(0.3)
+
+    # Calculate unused icons
     stats['unused_icons'] = set(skill_icons.keys()) - matched_icon_names
     stats['matched_icon_names'] = matched_icon_names
 
@@ -197,6 +276,7 @@ def save_skill_files(skill_files):
         filepath = os.path.join(SKILLS_DIR, filename)
         with open(filepath, 'w') as f:
             json.dump(skills, f, indent=2)
+            f.write('\n')
 
 def write_log_file(stats, skill_icons):
     """Write matched and unused icons to a log file."""
@@ -233,7 +313,7 @@ def write_log_file(stats, skill_icons):
     return log_path
 
 def main():
-    print("Fetching skill icons from wiki gallery...")
+    print("Fetching skill icons from wiki...")
     print()
 
     # Fetch and parse gallery
@@ -283,11 +363,11 @@ def main():
     print("=" * 80)
     print(f"Total skills processed:     {stats['total_skills']}")
     print(f"Already had icons:          {stats['already_had_icon']}")
-    print(f"Matched and updated:        {stats['updated']}")
-    print(f"Not found in gallery:       {stats['not_found']}")
-    print()
-    print(f"✓ Successfully matched {stats['matched']} skills")
-    print(f"⚠️  {stats['not_found']} skills still need icons")
+    print(f"High-res matched:           {stats['high_res_matched']}")
+    print(f"Monster generic icons:      {stats['monster_generic']}")
+    print(f"Special variants:           {stats['special_variant']}")
+    print(f"Standard-res fetched:       {stats['standard_res_fetched']}")
+    print(f"Still null:                 {stats['still_null']}")
     print()
     print(f"📋 Gallery icons matched: {len(stats.get('matched_icon_names', set()))}")
     print(f"📋 Gallery icons unused: {len(stats.get('unused_icons', set()))}")

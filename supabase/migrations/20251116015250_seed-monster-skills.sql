@@ -1,11 +1,12 @@
 -- Seed monster skills
 -- Auto-generated from data/skills/monster.json
--- Generated: 2025-11-17T07:36:05.772Z
+-- Generated: 2025-11-17T08:01:51.624Z
 -- Total skills: 391
 
 INSERT INTO skills (
   name,
   icon,
+  is_high_res_icon,
   description,
   skill_type_id,
   profession_id,
@@ -27,6 +28,7 @@ VALUES
   (
     '"It''s Good to Be King!"',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Elite Shout. You steal 50 Health from allies within earshot. These allies move 50% faster for 20 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -47,6 +49,7 @@ VALUES
   (
     'Mad King Pony Support',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Elite Spell. Summon a level 20 Invisible Pony. This summoned pony prances to target foe. This pony lasts 60 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -67,6 +70,7 @@ VALUES
   (
     'Maddening Laughter',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Elite Shout. Let out a maniacal cackle. Foes within earshot are struck for 100 damage, and suffer from Dazed for 5 seconds',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -87,6 +91,7 @@ VALUES
   (
     'Motivating Insults',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Elite Shout. Scream insults at your army. For 10 seconds they have 8 Health regeneration, and move and attack 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -107,6 +112,7 @@ VALUES
   (
     'Scourge of Candy',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Elite Spell. Target foe and nearby foes are struck for 200 damage and suffer from Dazed for 5 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -127,6 +133,7 @@ VALUES
   (
     'Taste of Undeath',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Elite Spell. Steal up to 500 health from target ally.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -147,6 +154,7 @@ VALUES
   (
     'A pool of water.',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -167,6 +175,7 @@ VALUES
   (
     'Afflicted Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Deals damage to nearby foes when Afflicted creature dies.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -187,6 +196,7 @@ VALUES
   (
     'Amulet of Protection',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -207,6 +217,7 @@ VALUES
   (
     'Blood Splattering',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -227,6 +238,7 @@ VALUES
   (
     'Burning Immunity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Caster is immune to Burning.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -247,6 +259,7 @@ VALUES
   (
     'Chains of Enslavement',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'As long as this spell remains in effect, magical shackles bind you as a slave to the Stone Summit.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -267,6 +280,7 @@ VALUES
   (
     'Chaotic Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Mesmer dies, all foes in the area lose 2 enchantments. Foes takes 25...57...65 damage and loses 1...3...4 Energy for each enchantment lost.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -287,6 +301,7 @@ VALUES
   (
     'Create Spore',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'This creature creates fungal spore every 10 seconds while turtled.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -307,6 +322,7 @@ VALUES
   (
     'Critical Hit Probability',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -327,6 +343,7 @@ VALUES
   (
     'Dark Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Necromancer dies, all foes in the area are struck for 25...57...65 dark damage, lose 1...3...4 enchantments, and suffer from Disease and Weakness (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -347,6 +364,7 @@ VALUES
   (
     'Dhuum',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Dhuum does cool stuff.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -367,6 +385,7 @@ VALUES
   (
     'Duncan''s Defense',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Whenever Duncan the Black takes damage, Duncan''s Defense deals 100% of the damage back to the source.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -387,6 +406,7 @@ VALUES
   (
     'Elite Regeneration',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -407,6 +427,7 @@ VALUES
   (
     'Emperor Degen',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'The emperor suffers Health degeneration for 30 minutes.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -427,6 +448,7 @@ VALUES
   (
     'Energy Boost',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -447,6 +469,7 @@ VALUES
   (
     'Ethereal Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Ritualist dies, all foes within spirit range take 50...66...70 damage. Summoned creatures take double damage and begin burning (4...6...7 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -467,6 +490,7 @@ VALUES
   (
     'Exploding Spores',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -487,6 +511,7 @@ VALUES
   (
     'Exposed Underbelly',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'While on your side, you take +X damage when you take damage, where X is twice your level.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -507,6 +532,7 @@ VALUES
   (
     'False Death',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Insects have a 25% chance of resurrecting when killed. Insects are resurrected with 25% Health and Energy.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -527,6 +553,7 @@ VALUES
   (
     'Fiery Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Elementalist dies, all foes in the area take 50...82...90 damage and begin burning (4...6...7 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -547,6 +574,7 @@ VALUES
   (
     'Fire Flower',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (monster only)',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -567,6 +595,7 @@ VALUES
   (
     'Fix Monster Attributes',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'This creature gains +16 to all attributes tied to a skill that the creature possesses.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -587,6 +616,7 @@ VALUES
   (
     'Forgewight''s Blessing',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. You gain +1 Energy regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -607,6 +637,7 @@ VALUES
   (
     'Golem Fire Shield',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. You are immune to damage and effects from fire darts while in the area of the worker golem.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -627,6 +658,7 @@ VALUES
   (
     'Greater Hard Mode NPC Buff',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -647,6 +679,7 @@ VALUES
   (
     'Ground Cover',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Creature has 50% chance to block attack [sic] while moving.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -667,6 +700,7 @@ VALUES
   (
     'Guild Lord Aura',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -687,6 +721,7 @@ VALUES
   (
     'Hard Mode Dungeon Boss',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -707,6 +742,7 @@ VALUES
   (
     'Hard Mode NPC Buff',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -727,6 +763,7 @@ VALUES
   (
     'Health Drain',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -747,6 +784,7 @@ VALUES
   (
     'Immunity to Critical Hits',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -767,6 +805,7 @@ VALUES
   (
     'Impending Dhuum',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. No resurrection spell can save you now. Your account has been banned.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -787,6 +826,7 @@ VALUES
   (
     'Inanimate Object',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -807,6 +847,7 @@ VALUES
   (
     'Inscribed Ettin Aura',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'This aura is a passive buff that loops consistently on an Inscribed Ettin, signifying that this creature is inscribed.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -827,6 +868,7 @@ VALUES
   (
     'Internal Power Engaged',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. P.O.X uses internal powering devices to gain 2 Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -847,6 +889,7 @@ VALUES
   (
     'Invulnerability',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Monster cannot be attacked.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -867,6 +910,7 @@ VALUES
   (
     'Last Rites of Torment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (12 seconds.) After the Blasphemy dies, its foes move 25% faster and take 50 damage when they are the target of a skill or attack.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -887,6 +931,7 @@ VALUES
   (
     'Lesser Flame Sentinel Resistance',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -907,6 +952,7 @@ VALUES
   (
     'Lesser Hard Mode NPC Buff',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -927,6 +973,7 @@ VALUES
   (
     'Long Claws',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'This creature''s critical hits cause Deep Wound and Bleeding.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -947,6 +994,7 @@ VALUES
   (
     'Mad King''s Fan',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. Mad King Thorn is pleased by your undying support. Survive his celebration for bonus treats!',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -967,6 +1015,7 @@ VALUES
   (
     'Marked For Death',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'You are preferred target of your enemies.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -987,6 +1036,7 @@ VALUES
   (
     'Monster doesn''t get death penalty',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1007,6 +1057,7 @@ VALUES
   (
     'N.O.X. Driver',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Controls N.O.X.''s functions.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1027,6 +1078,7 @@ VALUES
   (
     'Natural Resistance',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1047,6 +1099,7 @@ VALUES
   (
     'Nightmarish Aura',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (null)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1067,6 +1120,7 @@ VALUES
   (
     'Plague Spring',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Ranger dies, it creates a Plague Spring at its location (10 seconds). Every 2 seconds, nearby Afflicted are healed for 35...64...71, and foes in the area take 35...64...71 damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1087,6 +1141,7 @@ VALUES
   (
     'Rejuvenating Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Monk dies, all foes in the area are struck for 25...57...65 damage. Afflicted in the area are healed for 50...114...130 and lose 1 hex and 1 condition.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1107,6 +1162,7 @@ VALUES
   (
     'Respawn',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1127,6 +1183,7 @@ VALUES
   (
     'Seal Regen',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1147,6 +1204,7 @@ VALUES
   (
     'Selvetarm''s Attack',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Whenever any of Selvetarm''s allies are nearby, Selvetarm takes no damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1167,6 +1225,7 @@ VALUES
   (
     'Selvetarm''s Blessing',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Damage you take from spirits is reduced by 50%.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1187,6 +1246,7 @@ VALUES
   (
     'Shadow Smash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'If this creature''s attack hits, target foe takes an additional 150 damage and Shadow Steps in a random direction.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1207,6 +1267,7 @@ VALUES
   (
     'Shadowy Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Assassin dies, all enemies in the area are struck for 25...57...65 damage, and all Afflicted in the area move and attack 25% faster (10...13...14 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1227,6 +1288,7 @@ VALUES
   (
     'Skin of Stone',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Caster can only be harmed by wurm siege.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1247,6 +1309,7 @@ VALUES
   (
     'Spectral Infusion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     NULL,
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1267,6 +1330,7 @@ VALUES
   (
     'Strong Natural Resistance',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1287,6 +1351,7 @@ VALUES
   (
     'Stun Immunity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Monster cannot be stunned.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1307,6 +1372,7 @@ VALUES
   (
     'Stun on Critical Hit',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1327,6 +1393,7 @@ VALUES
   (
     'Sweeping Strikes',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attacks hit 2 additional adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1347,6 +1414,7 @@ VALUES
   (
     'Temporal Sheen',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Monster is immune to damage from all sources except Flux Energy.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1367,6 +1435,7 @@ VALUES
   (
     'Tengu''s Gaze',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. A Tengu is watching you intently.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1387,6 +1456,7 @@ VALUES
   (
     'The Chalice of Corruption',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. -2 Health degeneration. This effect lasts until Brother Tosai removes it.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1407,6 +1477,7 @@ VALUES
   (
     'Thommis''s Attack',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'All of Thommis''s attacks cause Burning for 5 seconds. Whenever Thommis strikes a Burning foe, he gains 100 Health.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1427,6 +1498,7 @@ VALUES
   (
     'Thommis''s Blessing',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Conditions and hexes on you expire 50% faster.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1447,6 +1519,7 @@ VALUES
   (
     'Titans get plus Health regen and set enemies on fire each time he is hit.',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1467,6 +1540,7 @@ VALUES
   (
     'Turtle Shell',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. Reduces damage from non-critical hits.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1487,6 +1561,7 @@ VALUES
   (
     'Unbalancing Soul Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'When an Afflicted Warrior dies, all nearby foes are struck for 50...82...90 blunt damage. They are knocked down and lose their current stance.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1507,6 +1582,7 @@ VALUES
   (
     'Undead sensitivity to Light',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1527,6 +1603,7 @@ VALUES
   (
     'Undying',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1547,6 +1624,7 @@ VALUES
   (
     'Vengeance is Ours',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. No resurrection spell can save you now. Your account has been banned.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1567,6 +1645,7 @@ VALUES
   (
     'Wandering Mind',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     '(monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1587,6 +1666,7 @@ VALUES
   (
     'Agnar''s Rage',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. (monster only) (5 seconds.) +10 Health regeneration. Deals 25 damage to foes in earshot and causes knock-down.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1607,6 +1687,7 @@ VALUES
   (
     'Brutal Mauling',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Brutal Mauling',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1627,6 +1708,7 @@ VALUES
   (
     'Crippling Attack',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. (monster only)',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1647,6 +1729,7 @@ VALUES
   (
     'Dark Chain Lightning',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Deals 300 lightning damage and causes knock-down. Dark Chain Lightning then hits each nearest foe in succession, knocking-down each foe and doing 10% less damage each time.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1667,6 +1750,7 @@ VALUES
   (
     'Earth Shattering Blow',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Deals 100 blunt damage and causes knock-down to foes in the area of target. 80 earth damage to surrounding foes.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1687,6 +1771,7 @@ VALUES
   (
     'Earth Vortex',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. (30 seconds.) Deals 15 earth damage every second to all foes in the area. Any foe using a skill when struck is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1707,6 +1792,7 @@ VALUES
   (
     'Frost Vortex',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. (30 seconds.) Deals 50 cold damage every 3 seconds to all foes in the area. Any foe moving when struck moves 90% slower (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1727,6 +1813,7 @@ VALUES
   (
     'Giant Stomp',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Causes knock-down and deals 25 damage to foes in range.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1747,6 +1834,7 @@ VALUES
   (
     'Hunger of the Lich',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. (monster only) Removes one enchantment. Removal effect: you gain 100 Health and 5 Energy.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1767,6 +1855,7 @@ VALUES
   (
     'Hunger''s Bite',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Steal 30 Health for each condition on target foe. This foe randomly gains two of the following conditions (15 seconds): Poisoned, Bleeding, Diseased, Deep Wound, Crippled, Weakness, or Dazed. This skill cannot be disabled.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1787,6 +1876,7 @@ VALUES
   (
     'Quake Of Ahdashim',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Deals 100 damage and knocks-down players in the area (4 seconds). If a player is carrying a bundle item, that bundle item is destroyed. This skill cannot be disabled.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1807,6 +1897,7 @@ VALUES
   (
     'Rolling Shift',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Shift forms to attack.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1827,6 +1918,7 @@ VALUES
   (
     'Siege Attack',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Damages creatures at the impact site.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1847,6 +1939,7 @@ VALUES
   (
     'Suicide Energy',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. The next time you land a physical attack, you sacrifice all of your Health and target foe loses all Energy.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1867,6 +1960,7 @@ VALUES
   (
     'Suicide Health',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. The next time you land a physical attack, you sacrifice all of your Health and target foe loses all Health.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1887,6 +1981,7 @@ VALUES
   (
     'Wild Smash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Attack. Causes knock-down. Ends a stance and disables it (5 seconds). Unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1907,6 +2002,7 @@ VALUES
   (
     'Annihilator Bash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Deals +50 damage. Knocks down foe. Initial Effect: Removes blind condition and ends target foe''s stance.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1927,6 +2023,7 @@ VALUES
   (
     'Bloodstone Slash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Steal 75 Health.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1947,6 +2044,7 @@ VALUES
   (
     'Consuming Flames',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Remove one enchantment. Deals 400 fire damage split evenly among target and adjacent foes; you gain life equal to damage done to one target.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1967,6 +2065,7 @@ VALUES
   (
     'Falken Punch',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Target foe takes +100 damage, is knocked down, and on fire for 5 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -1987,6 +2086,7 @@ VALUES
   (
     'Feeding Frenzy',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Toma instantly kills any enemy that is at 20% Health. This lowers Toma''s hunger level meter.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2007,6 +2107,7 @@ VALUES
   (
     'Golem Strike',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Deals 180 damage and inflicts Dazed condition (3 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2027,6 +2128,7 @@ VALUES
   (
     'Parasitic Bite',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. (5 seconds.) This attack inflicts -1 Health degeneration and you gain + 1 Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2047,6 +2149,7 @@ VALUES
   (
     'Reaping of Dhuum',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Scythe Attack. Dhuum deals 200 damage to a new target with each strike. Dhuum only strikes a foe once in this way and will stop this attack after the fourth strike or when no eligible targets are within the area of his last strike. Dhuum is untargetable during this attack.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2067,6 +2170,7 @@ VALUES
   (
     'Shattered Spirit',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. This attack removes 2 hexes on target boss. Removal effect: +50 damage for each hex removed.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2087,6 +2191,7 @@ VALUES
   (
     'Thunderfist Strike',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Deals 100 damage.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2107,6 +2212,7 @@ VALUES
   (
     'Unseen Aggression',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Melee Attack. Deals 225 damage and causes knock-down.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2127,6 +2233,7 @@ VALUES
   (
     'Venom Fang',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Dual Attack. Target is Poisoned (20 seconds). Deals +80 damage if target foe has a Deep Wound.',
     (SELECT id FROM skill_types WHERE name = 'Dual Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2147,6 +2254,7 @@ VALUES
   (
     'Weight of Dhuum',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Scythe Attack. (5 seconds.) Target foe moves and attacks 90% slower, has tripled casting times, benefits 75% less from healing, and has -10 Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Scythe Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2167,6 +2275,7 @@ VALUES
   (
     'Withering Blade',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Off-Hand Attack. Deals +50 damage. Inflicts Weakness (20 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Off-Hand Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2187,6 +2296,7 @@ VALUES
   (
     'Anguish',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 5...15...17 damage. Double damage to hexed foes.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2207,6 +2317,7 @@ VALUES
   (
     'Bloodsong',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Steals 5...21...25 Health.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2227,6 +2338,7 @@ VALUES
   (
     'Bone Spike',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Bow Attack. A Bone Spike shoots out, dealing 100 damage to target foe. The Bone Spike seems to penetrate all defenses.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2247,6 +2359,7 @@ VALUES
   (
     'Disenchantment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 5...17...20 damage. Removes one enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2267,6 +2380,7 @@ VALUES
   (
     'Dissonance',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 5...17...20 damage. Interrupts actions.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2287,6 +2401,7 @@ VALUES
   (
     'Flurry of Splinters',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Bow Attack. A flurry of Bone Splinters shoots out, hitting target foe and up to 5 foes in longbow range for 35 damage per hit over 3 seconds. The Bone Splinters seem to penetrate all defenses.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2307,6 +2422,7 @@ VALUES
   (
     'Gaze of Fury',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 5...17...20 damage.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2327,6 +2443,7 @@ VALUES
   (
     'Jadoth''s Storm of Judgment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spear Attack. Deals 60 holy damage and interrupts target and 3 foes within the area.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2347,6 +2464,7 @@ VALUES
   (
     'Keiran''s Sniper Shot',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Bow Attack. Deals +50 damage to target foe. Inflicts Bleeding (25 seconds). 25% chance of dealing +900 damage.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2367,6 +2485,7 @@ VALUES
   (
     'Pain',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 5...25...30 damage.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2387,6 +2506,7 @@ VALUES
   (
     'Pain (Signet of Spirits)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 5...17...20 damage.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2407,6 +2527,7 @@ VALUES
   (
     'Pain (Togo)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 28...30...32 damage.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2427,6 +2548,7 @@ VALUES
   (
     'Shadowsong',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Deals 5...17...20 damage. Inflict Blindness condition (1...5...6 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2447,6 +2569,7 @@ VALUES
   (
     'Splinter Shot',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Bow Attack. Deals +1...11 damage. Hits two foes near your target.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2467,6 +2590,7 @@ VALUES
   (
     'The Sniper''s Spear',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. If target foe is under the effect of The Master''s Mark, this attack deals +120 damage, causes knock-down and inflicts a Deep Wound (20 seconds). This attack is unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2487,6 +2611,7 @@ VALUES
   (
     'Vampirism',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Steals 10...20 Health.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2507,6 +2632,7 @@ VALUES
   (
     'Wanderlust',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ranged Attack. Causes knock-down to stationary foes. Knock-down cost: this spirit loses 70...54...50 Health.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2527,6 +2653,7 @@ VALUES
   (
     'Adoration',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Heals for 75. Grants a 1% morale boost.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2547,6 +2674,7 @@ VALUES
   (
     'Animate Undead',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. All Minions of Zoldark are resurrected with 100% Health and 50% Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2567,6 +2695,7 @@ VALUES
   (
     'Animate Undead (Palawa Joko)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. All Palawa Joko''s minions are resurrected with 100% Health and 50% Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2587,6 +2716,7 @@ VALUES
   (
     'Argo''s Cry',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (9 seconds.) Hits foes adjacent to target''s location. Deals 120 fire damage each second. Causes knock-down every 3 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2607,6 +2737,7 @@ VALUES
   (
     'Banish Enchantment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. All enchantments are removed from target foe. For each enchantment removed in this way, one skill is disabled on all foes (6 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2627,6 +2758,7 @@ VALUES
   (
     'Bit Golem Breaker',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Projectile: 30 damage and inflicts a random condition (15 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2647,6 +2779,7 @@ VALUES
   (
     'Bit Golem Crash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 250 damage to all foes near the impact area and causes knockdown.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2667,6 +2800,7 @@ VALUES
   (
     'Bit Golem Force',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 150 damage to all adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2687,6 +2821,7 @@ VALUES
   (
     'Blast Furnace',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Blast Furnace',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2707,6 +2842,7 @@ VALUES
   (
     'Blizzard',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Creates a blizzard. Deals 50 cold damage each second. Applies Cripple and Blind (5 seconds). Hits foes adjacent to target''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2727,6 +2863,7 @@ VALUES
   (
     'Blood Flower',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (monster only)',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2747,6 +2884,7 @@ VALUES
   (
     'Blood of zu Heltzer',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Magical barriers put in place by a zu Heltzer family member are opened.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2767,6 +2905,7 @@ VALUES
   (
     'Ceiling Collapse',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Creature causes debris to fall from the ceiling, dealing 50 damage and interrupting all foes within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2787,6 +2926,7 @@ VALUES
   (
     'Chomper',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Chomper',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2807,6 +2947,7 @@ VALUES
   (
     'Consume Flames',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Decreases the flame progress bar by 15 points.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2827,6 +2968,7 @@ VALUES
   (
     'Corrupted Dragon Scales',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (30 seconds.) Create 6 corrupted scale creatures around target foe. Foes within their range attack 50% slower and have -10 Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2847,6 +2989,7 @@ VALUES
   (
     'Corrupted Dragon Spores',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (30 seconds.) Create 6 corrupted spore creatures around target foe. Foes within their range take twice as long to cast spells and have -2 Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2867,6 +3010,7 @@ VALUES
   (
     'Corrupted Healing',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Heal one corrupted root for 300. Caster is also fully healed.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2887,6 +3031,7 @@ VALUES
   (
     'Death''s Embrace',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Shadow Step to target foe. Heals you for 250.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2907,6 +3052,7 @@ VALUES
   (
     'Dhuum''s Rest',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Channel energy into putting Dhuum to Rest. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2927,6 +3073,7 @@ VALUES
   (
     'Diamondshard Grave',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Frozen condensation coalesces into spikes of ice, deals 140 damage, and inflicts the Bleeding condition (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2947,6 +3094,7 @@ VALUES
   (
     'Diamondshard Mist',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Condensation in the air freezes into glittering shards. While in this area, you move 33% slower.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2967,6 +3115,7 @@ VALUES
   (
     'Drain Minion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Sacrifice target undead servant to gain 300 Health.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -2987,6 +3136,7 @@ VALUES
   (
     'Dryder''s Feast',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Steal 30 Health for each hex on target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3007,6 +3157,7 @@ VALUES
   (
     'Ebon Vanguard Assassin Support',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Summons a level 20 assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. The assassin lives for 20 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3027,6 +3178,7 @@ VALUES
   (
     'Fleshreaver''s Escape',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Inflicts Poison, Disease, and Weakness conditions (10 seconds); you teleport to a random nearby location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3047,6 +3199,7 @@ VALUES
   (
     'Ghostly Fury',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 125 damage. Disables Dhuum''s Rest for 10 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3067,6 +3220,7 @@ VALUES
   (
     'Grand Illusion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Surrounds the caster with a vortex of phantoms.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3087,6 +3241,7 @@ VALUES
   (
     'Jade Brotherhood Bomb',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Self destruct, dealing 750 damage to adjacent foes, 500 damage to nearby foes and 250 damage to foes in the area',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3107,6 +3262,7 @@ VALUES
   (
     'Jade Fury',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 50 damage, causes knock-down, and then deals an additional 150 damage. Affects foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3127,6 +3283,7 @@ VALUES
   (
     'Judgment of Dhuum',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. For 4 seconds, Dhuum deals 75 damage each second to foes in spirit range.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3147,6 +3304,7 @@ VALUES
   (
     'Koro''s Gaze',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Heals target other ally for 150 health and removes a hex. Removal effect: 80 damage to adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3167,6 +3325,7 @@ VALUES
   (
     'Master of Necromancy',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (12 seconds.) Zoldark gains +10 armor and +5% maximum Health for each Minion of Zoldark that is alive.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3187,6 +3346,7 @@ VALUES
   (
     'Mirror of Darkness',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Create an illusory copy of target foe to fight on your behalf.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3207,6 +3367,7 @@ VALUES
   (
     'Murakai''s Calamity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 90 damage to all foes and inflicts Poison, Disease, Bleeding, Crippled, and Weakness conditions (10 seconds). 1 Servants of Murakai come to her aid.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3227,6 +3388,7 @@ VALUES
   (
     'Murakai''s Call',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Murakai''s Call summons 3 undead servants.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3247,6 +3409,7 @@ VALUES
   (
     'Murakai''s Censure',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 80 damage to all foes and inflicts Poison and Disease (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3267,6 +3430,7 @@ VALUES
   (
     'Murakai''s Consumption',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Murakai steals 60 Health from all foes in the target''s location. Murakai''s Power meter rises by 20 for each foe struck.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3287,6 +3451,7 @@ VALUES
   (
     'Murakai''s Storm of Souls',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deal 100 damage to all foes, causes knock-down, and inflicts Poison, Disease, Bleeding, Burning, Crippled, Weakness, Blindness, Dazed, Deep Wound, and Cracked Armor conditions (10 seconds). 1 Servants of Murakai [sic] come to her aid.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3307,6 +3472,7 @@ VALUES
   (
     'N.O.X. Beam',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 200 damage to all targets in a line.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3327,6 +3493,7 @@ VALUES
   (
     'N.O.X. Divider Drive',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 900 damage, divided among target and all nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3347,6 +3514,7 @@ VALUES
   (
     'N.O.X. Fire',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 150 damage to all adjacent foes, plus 150 additional damage for each active Fire Bit.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3367,6 +3535,7 @@ VALUES
   (
     'N.O.X. Knuckle',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals +150 damage to target and adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3387,6 +3556,7 @@ VALUES
   (
     'N.O.X. Thunder',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. 2 projectiles strike target foe for 100 damage. This skill hits one additional foe for each Thunder Bit.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3407,6 +3577,7 @@ VALUES
   (
     'N.O.X.ion Buster',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 350 damage to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3427,6 +3598,7 @@ VALUES
   (
     'Oath of Healing',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (monster only) Heal Guild Lord for 200.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3447,6 +3619,7 @@ VALUES
   (
     'Of Royal Blood',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Only those of royal blood can pass through the defenses of the emperor''s palace.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3467,6 +3640,7 @@ VALUES
   (
     'Order of Unholy Vigor',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (15 seconds.) All Minions of Zoldark attack 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3487,6 +3661,7 @@ VALUES
   (
     'Order of Unholy Vigor (Palawa Joko)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (15 seconds.) Palawa Joko''s minions attack 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3507,6 +3682,7 @@ VALUES
   (
     'Order of the Lich',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (15 seconds.) All Minions of Zoldark have +3 Health regeneration and steal 15 Health each time they hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3527,6 +3703,7 @@ VALUES
   (
     'Order of the Lich (Palawa Joko)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (15 seconds.) Palawa Joko''s minions have +3 Health regeneration and steal 15 Health each time they hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3547,6 +3724,7 @@ VALUES
   (
     'Passage to Tahnnakai',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. The magical protections sealing Tahnnakai Temple temporarily lift, allowing passage into the interior.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3567,6 +3745,7 @@ VALUES
   (
     'Phased Plasma Burst',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Projectile. Target foe takes 100 damage. Nearby foes takes 50 damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3587,6 +3766,7 @@ VALUES
   (
     'Plasma Shot',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Projectile. Target foe takes 75 damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3607,6 +3787,7 @@ VALUES
   (
     'Poison Arrow',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Send out flares that strike any foes in the area for 0 fire damage if they hit. Target is then poisoned for 15 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3627,6 +3808,7 @@ VALUES
   (
     'Purify Energy',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Remove an enchantment from all nearby foes. Steal 1 energy from foes who lose an enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3647,6 +3829,7 @@ VALUES
   (
     'Purify Soul',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. All friendly spirits within earshot gain +1 health regeneration for 3 seconds. All enemy spirits within earshot burn for 3 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3667,6 +3850,7 @@ VALUES
   (
     'Purifying Flame',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Create a Purifying Flame at your location. Deals 10...10...10 damage to foes in the area (5 seconds). When Purifying Flame ends, foes in the area lose 1 enchantment, and allies in the area lose 1 hex.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3687,6 +3871,7 @@ VALUES
   (
     'Purifying Prayer',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Removes 2...4...4 hexes and 2...4...4 conditions from target ally. For each hex removed, 1 foe near target ally loses an enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3707,6 +3892,7 @@ VALUES
   (
     'Putrid Flames',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 100 fire damage; inflicts Poisoned and Diseased conditions (10 seconds); affects adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3727,6 +3913,7 @@ VALUES
   (
     'Reactor Blast',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. P.O.X sets off explosion in the area which deals 200 damage, causes knock down, and inflicts Burning (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3747,6 +3934,7 @@ VALUES
   (
     'Redemption of Purity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Target minion is destroyed and replaced with a level 12 Spirit of Pain. This spirit deals 30 damage and dies after 150 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3767,6 +3955,7 @@ VALUES
   (
     'Resurrect (Gargoyle)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Resurrect target (25% Health and zero Energy.)',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3787,6 +3976,7 @@ VALUES
   (
     'Resurrect',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Resurrect target (25% Health and zero Energy.) [sic]',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3807,6 +3997,7 @@ VALUES
   (
     'Reverse Polarity Fire Shield',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Living creatures in the shield have -50 armor against fire damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3827,6 +4018,7 @@ VALUES
   (
     'Rise From Your Grave!',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Infantryman Hareh compels the dead to rise and do his bidding.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3847,6 +4039,7 @@ VALUES
   (
     'Snowball (NPC)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Slow projectile: deals 0 damage.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3867,6 +4060,7 @@ VALUES
   (
     'Sorrow''s Fist',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Damages creatures in range.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3887,6 +4081,7 @@ VALUES
   (
     'Sorrow''s Flame',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Damages creatures in range.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3907,6 +4102,7 @@ VALUES
   (
     'Soul Vortex',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (monster only)',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3927,6 +4123,7 @@ VALUES
   (
     'Spike Trap (spell)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 25 damage and inflicts Crippled condition (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3947,6 +4144,7 @@ VALUES
   (
     'Spirit Siphon (Master Riyo)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Target spirit loses all Energy. You gain 15...27...30% of that Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3967,6 +4165,7 @@ VALUES
   (
     'Statue''s Blessing',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Target character is restored to full Health and full Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -3987,6 +4186,7 @@ VALUES
   (
     'Stormcaller',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. All Charr max Health reduced by 100.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4007,6 +4207,7 @@ VALUES
   (
     'Summon Champion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Summon a Champion of Dhuum.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4027,6 +4228,7 @@ VALUES
   (
     'Summon Minions',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Summon Minions of Dhuum.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4047,6 +4249,7 @@ VALUES
   (
     'Summon Torment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Any nearby rifts or altars become much more Tormented.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4067,6 +4270,7 @@ VALUES
   (
     'Turret Arrow',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Shoot arrows at up to 6 foes adjacent to target. These arrows strike for +15 and cause Cripple if they hit.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4087,6 +4291,7 @@ VALUES
   (
     'Ultra Snowball',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Slow projectile: deals 100 damage. You gain 1 strike of adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4107,6 +4312,7 @@ VALUES
   (
     'Unyielding Anguish',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Caster resurrects the nearest Anguished Soul.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4127,6 +4333,7 @@ VALUES
   (
     'Wave of Torment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Deals 150 damage to all foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4147,6 +4354,7 @@ VALUES
   (
     'Wurm Siege (Core)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. (monster only)',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4167,6 +4375,7 @@ VALUES
   (
     'Wurm Siege (Dunes of Despair)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Damages creatures at the impact site.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4187,6 +4396,7 @@ VALUES
   (
     'Wurm Siege (Eye of the North)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Spell. Projectile: damages foes in range.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4207,6 +4417,7 @@ VALUES
   (
     'Abaddon''s Chosen',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. (10 seconds.) Target cannot lose Health.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4227,6 +4438,7 @@ VALUES
   (
     'Abaddon''s Conspiracy',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. (3 seconds.) Target ally gains 100 Health each second. End effect: you are healed for 300 if skill ends normally. This skill cannot be disabled. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4247,6 +4459,7 @@ VALUES
   (
     'Bit Golem Rectifier',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. Heals N.O.X. for 10 every second.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4267,6 +4480,7 @@ VALUES
   (
     'Blessing of the Kirin',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. (30 seconds.) When a nearby ally uses a skill, that ally is cured of Miasma or one condition.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4287,6 +4501,7 @@ VALUES
   (
     'Chimera of Intensity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. Your skills recharge 50% faster, spells you cast cost 50% less Energy, and your movement speed is increased by 50%.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4307,6 +4522,7 @@ VALUES
   (
     'Crystal Shield',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. The ettin conjures a shield that absorbs 250 damage. The ettin can cast spells but not attack.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4327,6 +4543,7 @@ VALUES
   (
     'Demonic Agility',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. (30 seconds.) This demon creature has 100% chance to double strike when attacking in melee.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4347,6 +4564,7 @@ VALUES
   (
     'Healing Breeze',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. (monster only) (5 seconds.) +10 Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4367,6 +4585,7 @@ VALUES
   (
     'Nightmare Refuge',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. (10 seconds.) 50% chance to block and spells targeting this creature have 50% chance to fail. If Nightmare Refuge lasts its full duration, it heals Kanaxai for 1,000.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4387,6 +4606,7 @@ VALUES
   (
     'Spirit Form (Remains of Sahlahja)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. Powerful spiritual energy consumes your wurm''s body and enables you to battle with maddened spirits and reduces the effectiveness of the maddened spirits'' attacks by 75%.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4407,6 +4627,7 @@ VALUES
   (
     'Verata''s Promise',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Enchantment Spell. (10...50...60 seconds.) Your undead servants have +10 Health regeneration. End effect: all of your servants die.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4427,6 +4648,7 @@ VALUES
   (
     'Bonds of Torment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. Any time the caster takes damage, all foes hexed with Bonds of Torment take equal cold damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4447,6 +4669,7 @@ VALUES
   (
     'Call of Sacrifice',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (20 seconds.) Target loses 20 Health each second. Ends sooner if target is at less than 20% Health.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4467,6 +4690,7 @@ VALUES
   (
     'Corsair''s Net',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. Quarter speed projectile: target and foes in the area move slower (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4487,6 +4711,7 @@ VALUES
   (
     'Crystal Bonds',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (monster only) Remove 1 enchantment. Target foe has reduced movement (15 seconds) and may not be the target of enchantments.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4507,6 +4732,7 @@ VALUES
   (
     'Crystal Haze',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (monster only) (30 seconds.) Also affects foes near target. Causes -1 Energy degeneration. Causes 10 Overcast whenever foes use an Energy skill.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4527,6 +4753,7 @@ VALUES
   (
     'Crystal Snare',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (10 seconds.) You move 50% slower. You take 100 damage if this hex ends before it is removed.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4547,6 +4774,7 @@ VALUES
   (
     'Enchantment Collapse',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. Target foe loses all enchantments each time this foe loses an enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4567,6 +4795,7 @@ VALUES
   (
     'Isaiah''s Balance',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (20 seconds.) Also hexes nearby foes. The next skill used by target foes cost 25 Energy and recharges in 90 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4587,6 +4816,7 @@ VALUES
   (
     'N.O.X. Phantom',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. N.O.X. Phantom hexes target foe, plus one additional foe for each Phantom Bit. Any targets already hexed with this skill take 200 damage and lose the hex.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4607,6 +4837,7 @@ VALUES
   (
     'Paranoid Indignation',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (20 seconds.) -2 from your non-zero Attributes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4627,6 +4858,7 @@ VALUES
   (
     'Promise of Death',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. Target foe is Marked and can no longer evade attacks.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4647,6 +4879,7 @@ VALUES
   (
     'Sky Net',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. Launches a net. If it hits, your target is knocked down, and their movement speed is -66% for 10 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4667,6 +4900,7 @@ VALUES
   (
     'Snaring Web',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. Projectile: target and nearby foes are Crippled and activate skills 100% slower (15 seconds.)',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4687,6 +4921,7 @@ VALUES
   (
     'Spirit World Retreat',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (3 seconds.) Hide in the Spirit World and hex all foes with -2 Energy degeneration. For each foe hexed, gain 75 Health.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4707,6 +4942,7 @@ VALUES
   (
     'Target Acquisition',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (5 seconds) P.O.X. attempting [sic] to acquire target. End effect: inflicts Dazed, Weakness, and Burning (15 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4727,6 +4963,7 @@ VALUES
   (
     'The Master''s Mark',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (24 seconds.) Causes -1 Health degeneration. This hex ends if target foe is hit with The Sniper''s Spear.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4747,6 +4984,7 @@ VALUES
   (
     'Tongue Lash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Hex Spell. (4 seconds.) Causes -12 Health degeneration; 25% chance to miss.',
     (SELECT id FROM skill_types WHERE name = 'Touch Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4767,6 +5005,7 @@ VALUES
   (
     'Tongue Whip',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Half Range Hex Spell. Causes knock-down (3 seconds); inflicts a Deep Wound (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Half Range Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4787,6 +5026,7 @@ VALUES
   (
     'Weight of Dhuum (hex)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. For 5 seconds, target foe moves and attacks 90% slower, has tripled casting times, benefits 75% less from healing, and has -10 Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4807,6 +5047,7 @@ VALUES
   (
     'Words of Madness (Qwytzylkak)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (15 seconds.) Foes within earshot each have a random skill disabled (30 seconds) and take 20 damage for each of their skills currently recharging. End effect: their skills are recharged.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4827,6 +5068,7 @@ VALUES
   (
     'Wurm Bile',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Hex Spell. (20 seconds.) Deals 40 damage each second to nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4847,6 +5089,7 @@ VALUES
   (
     'Aura of Purity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Flash Enchantment Spell. Your attacks deal +1...10...12 holy damage (10 seconds). Initial effect: all adjacent foes lose 1 enchantment. End effect: all adjacent foes lose one enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Flash Enchantment Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4867,6 +5110,7 @@ VALUES
   (
     'Ebon Vanguard Battle Standard of Power',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Ward Spell. (20 seconds.) Allies in this ward deal +15 damage and have +24 more armor. Spirits are unaffected.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4887,6 +5131,7 @@ VALUES
   (
     'Mandragor''s Charge',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Half Range Spell. Deals 60 damage and causes knock-down. Initial effect: Shadow Step to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4907,6 +5152,7 @@ VALUES
   (
     'Nibble',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Spell. Touch target corpse to gain 20 Health.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4927,6 +5173,7 @@ VALUES
   (
     'Restore Life',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Spell. Touch a body of a fallen party member. Target party member is returned to life with 26...45% Health and 42...80% Energy.',
     (SELECT id FROM skill_types WHERE name = 'Touch Spell'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4947,6 +5194,7 @@ VALUES
   (
     'Chomp',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Gain 500 Health. Destroy target smaller creature.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4967,6 +5215,7 @@ VALUES
   (
     'Ehzah from Above',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Causes knock-down (3 seconds). Inflicts Deep Wound condition (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -4987,6 +5236,7 @@ VALUES
   (
     'Juggernaut Toss',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. 50 damage. Causes knock-down (5 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5007,6 +5257,7 @@ VALUES
   (
     'Maddened Strike',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. The maddened spirit drains away 700 Health.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5027,6 +5278,7 @@ VALUES
   (
     'Ooze Combination',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Combine with another Ooze.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5047,6 +5299,7 @@ VALUES
   (
     'Queen Bite',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Deals 80 piercing damage.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5067,6 +5320,7 @@ VALUES
   (
     'Smash of the Titans',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Target foe loses all Enchantments. All Adjacent Foes are Knocked Down and struck for 150 damage. [sic]',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5087,6 +5341,7 @@ VALUES
   (
     'Touch of Dhuum',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Steal 100 Health from target foe. That foe receives 15% Death Penalty. If Touch of Dhuum steals health from a foe with 60% Death Penalty, that foe dies.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5107,6 +5362,7 @@ VALUES
   (
     'Trample',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Deals 80 damage; causes knock-down. Also hits adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5127,6 +5383,7 @@ VALUES
   (
     'Twisting Jaws',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Steals 120 Health; inflicts a Deep Wound and Bleeding (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5147,6 +5404,7 @@ VALUES
   (
     'Unstable Ooze Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Touch Skill. Deals 133 damage to nearby foes when unstable ooze explodes.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5167,6 +5425,7 @@ VALUES
   (
     'Battle Scars',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (7 seconds.) Shiro''s attacks gain life stealing equal to the highest damage he takes while in this stance.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5187,6 +5446,7 @@ VALUES
   (
     'Charging Spirit',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (5 seconds.) You move 25% faster. Your next attack deals +50 damage and causes knock-down to all adjacent foes. Ends when you hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5207,6 +5467,7 @@ VALUES
   (
     'Corrupted Strength',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (10 seconds.) All corrupted plants in the area are invulnerable to physical and elemental damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5227,6 +5488,7 @@ VALUES
   (
     'Drunken Stumbling',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (10 seconds.) You attack 33% faster and cannot be knocked down. If hit with a knockdown, you gain 1 adrenaline and adjacent foes take 50 damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5247,6 +5509,7 @@ VALUES
   (
     'Fingers of Chaos',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (monster only) (5 seconds.) Your attacks cannot miss Rangers, remove enchantments from Monks, cause conditions on Warriors, interrupt Elementalists, and remove a hex when attacking Necromancers.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5267,6 +5530,7 @@ VALUES
   (
     'Golem Boosters',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (8 seconds.) You move 100% faster. Your next attack causes knock-down and this skill ends.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5287,6 +5551,7 @@ VALUES
   (
     'Infernal Rage',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (45 seconds.) Your melee attacks hit nearby foes. You gain +1,000 maximum Health and attack 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5307,6 +5572,7 @@ VALUES
   (
     'Jagged Crystal Skin',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (monster only) (10 seconds.) 100 damage to foes near you whenever you take physical damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5327,6 +5593,7 @@ VALUES
   (
     'Junundu Tunnel',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (30 seconds.) You move 33% faster. End effect: knocks-down adjacent foes (2 seconds). Ends if you use a skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5347,6 +5614,7 @@ VALUES
   (
     'Mirror Echo',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. Creates illusory images of the caster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5367,6 +5635,7 @@ VALUES
   (
     'N.O.X. Field Dash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (10 seconds.) Move faster, knock aside foes, and deal 50 damage to them.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5387,6 +5656,7 @@ VALUES
   (
     'Renewing Corruption',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (20 seconds.) If Kuunavang is in casting range when this creature dies, Kuunavang is healed for 500 Health.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5407,6 +5677,7 @@ VALUES
   (
     'Riposting Shadows',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (20 seconds.) Shiro Shadow Steps to the next foe who attacks target and attempts a return attack. If this attack hits, Riposting Shadows is renewed.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5427,6 +5698,7 @@ VALUES
   (
     'Spirit Senses',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (15 seconds.) You cannot be Blinded or Weakened; attacks are unblockable and steal 75 Health.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5447,6 +5719,7 @@ VALUES
   (
     'Strength of Purity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. Your next 1...3...4 attacks strike for +1...10...12 damage and deal holy damage. If these attacks are blocked or miss, your target loses one 1 enchantment and you lose 1 hex.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5467,6 +5740,7 @@ VALUES
   (
     'Survivor''s Will',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (10 seconds.) 90% chance to block. No effect unless your Health is below 50%.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5487,6 +5761,7 @@ VALUES
   (
     'Toriimo''s Burning Fury',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. (20 seconds.) Gain 33% more adrenaline with attacks. When you use a skill, nearby foes are dealt 75 fire damage and set on fire for 5 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5507,6 +5782,7 @@ VALUES
   (
     'Way of the Pure',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Stance. Attack and move 25% faster (5...11...13 seconds). Your critical hits remove an enchantment from target foe.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5527,6 +5803,7 @@ VALUES
   (
     'Bear Form',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Form. (60 seconds.) Assume the form of a bear. While in this form, you have +250 Health and deal 25% more damage with attacks.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5547,6 +5824,7 @@ VALUES
   (
     'Elemental Shift',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Form. Creature becomes attuned to a different element.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5567,6 +5845,7 @@ VALUES
   (
     'Quest skill for Coastal Exam.',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Signet. Artifact plays a glowy effect on all "chosen" and players, that''s it.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5587,6 +5866,7 @@ VALUES
   (
     'Shadowsong (Master Riyo)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Binding Ritual. Creates a level 1...5...6 spirit (30 second lifespan). Its attacks inflict Blindness condition (1...5...6 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Binding Ritual'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5607,6 +5887,7 @@ VALUES
   (
     'Shapeshift',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Form. Change forms.',
     (SELECT id FROM skill_types WHERE name = 'Form'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5627,6 +5908,7 @@ VALUES
   (
     'Splinter Mine (Flame Geyser)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Signet. Surrounding foes are Bleeding and Crippled.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5647,6 +5929,7 @@ VALUES
   (
     'Spring of Purity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Trap. Every two seconds, Spring of Purity removes 1 hex from adjacent allies, and removes 1 enchantment from adjacent foes (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5667,6 +5950,7 @@ VALUES
   (
     '"I''ll Be Back!"',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. (15 seconds.) Negates the next fatal damage you take. Negation effect: you gain 500 Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5687,6 +5971,7 @@ VALUES
   (
     '"Kilroy Stonekin"',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. Initial effect: removes all hexes from allies in the area. Your skills recharge 50% faster, your spells cost 50% less Energy, and you move 50% faster.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5707,6 +5992,7 @@ VALUES
   (
     '"There''s not enough time!!"',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. (20 seconds.) Creatures in earshot attack, move, and activate skills 100% faster.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5727,6 +6013,7 @@ VALUES
   (
     'Anthem of Purity',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Chant. Removes 1 hex and 1 condition from all allies within earshot. For each hex removed, enemies within earshot lose 1 enchantment.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5747,6 +6034,7 @@ VALUES
   (
     'Echoing Banishment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. Target foe is banished to the mists and his spirit bound to Shiro. If the Spirit Binder is destroyed, the spirit is freed.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5767,6 +6055,7 @@ VALUES
   (
     'Enemies Must Die!',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. (10 seconds.) All of Varesh''s allies gain target enemy as a priority target.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5787,6 +6076,7 @@ VALUES
   (
     'Presence of the Skale Lord',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Chant. (60 seconds.) All skale in earshot have +50 maximum Health.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5807,6 +6097,7 @@ VALUES
   (
     'Song of the Mists',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. (10 seconds.) +6 Energy regeneration to nearby allies. If an ally successfully uses a skill, Song of The Mists ends and steals 20 Health from the nearest foe.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5827,6 +6118,7 @@ VALUES
   (
     'Spirit Roar',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. Deals 50 holy damage to nearby foes, and 25 more holy damage for each enchantment on them.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5847,6 +6139,7 @@ VALUES
   (
     'Tengu''s Mimicry',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. This Tengu repeats any shout it hears.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5867,6 +6160,7 @@ VALUES
   (
     'Tremor',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Shout. Causes knock-down (4 seconds) to foes in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5887,6 +6181,7 @@ VALUES
   (
     'Abaddon''s Favor',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. If target ally is enchanted with Abaddon''s Chosen, all foes in the area lose 70 Health and this ally gains 70 Health.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5907,6 +6202,7 @@ VALUES
   (
     'Aspect of Oak',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Prevents the next 300 damage you would take.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5927,6 +6223,7 @@ VALUES
   (
     'Aura of the Juggernaut',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Allies have +1 Energy regeneration when in range of the Kurzick Juggernaut''s aura.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5947,6 +6244,7 @@ VALUES
   (
     'Base Defense',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Causes 999 Health loss and knocks down (5 seconds). Hits all foes in range.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5967,6 +6265,7 @@ VALUES
   (
     'Berserk',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (10 seconds.) All skills do double damage and inflict one of the following random conditions (10 seconds): Cripple, Bleeding, Deep Wound, Weakness, or Dazed.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -5987,6 +6286,7 @@ VALUES
   (
     'Blood Rage',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (15 seconds.) Attack 25% faster and deal 25% more damage with attacks. Disables non-attack skills.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6007,6 +6307,7 @@ VALUES
   (
     'Breaking Charm',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Allows any non-pet animal to break a charm attempt',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6027,6 +6328,7 @@ VALUES
   (
     'Call of Destruction',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Summons a group of Destroyers.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6047,6 +6349,7 @@ VALUES
   (
     'Call to the Torment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (5 seconds.) Creature kneels and takes double damage. End effect: a duplicate of the creature is summoned to this location.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6067,6 +6370,7 @@ VALUES
   (
     'Carrier Defense',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 100 damage to nearby foes and teleports them away.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6087,6 +6391,7 @@ VALUES
   (
     'Chaotic Energy',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. 5 chaotic energy sources strike up to 5 foes and deal 125 damage per strike.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6107,6 +6412,7 @@ VALUES
   (
     'Charm Animal (Ashlyn Spiderfriend)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6127,6 +6433,7 @@ VALUES
   (
     'Charm Animal (Charr Demolisher)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6147,6 +6454,7 @@ VALUES
   (
     'Charm Animal (White Mantle)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6167,6 +6475,7 @@ VALUES
   (
     'Charm Animal',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6187,6 +6496,7 @@ VALUES
   (
     'Charm Animal (monster)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6207,6 +6517,7 @@ VALUES
   (
     'Charm Drake',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Bandit Charms Drake.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6227,6 +6538,7 @@ VALUES
   (
     'Charr Siege Attack (Against the Charr)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Projectile: targets two foes. Each projectile hits target and nearby foes for 100 damage and inflicts Bleeding and Burning conditions (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6247,6 +6559,7 @@ VALUES
   (
     'Charr Siege Attack (Assault on the Stronghold)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Projectile: targets two foes. Each projectile hits target and nearby foes for 100 damage and inflicts Bleeding and Burning conditions (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6267,6 +6580,7 @@ VALUES
   (
     'Charr Siege Attack (What Must Be Done)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Projectile: targets two foes. Each projectile hits target and nearby foes for 300 damage and inflicts Bleeding and Burning conditions (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6287,6 +6601,7 @@ VALUES
   (
     'Claim Resource',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Opens doors and locks.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6307,6 +6622,7 @@ VALUES
   (
     'Claim Resource (Heroes'' Ascent)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (monster only)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6327,6 +6643,7 @@ VALUES
   (
     'Consume Torment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. All conditions and hexes are removed from caster. For each condition or hex removed in this way, caster gains 300 Health.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6347,6 +6664,7 @@ VALUES
   (
     'Corrupt Power',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. All foes take 30 damage 5 times over the next 3 seconds. Each strike also removes one stance or enchantment from each foe.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6367,6 +6685,7 @@ VALUES
   (
     'Countdown',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Starts charging sequence for the N.O.X.ion Buster',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6387,6 +6706,7 @@ VALUES
   (
     'Create Light of Seborhin',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Ancient energies are called forth to create the Light of Seborhin. This skill cannot be disabled.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6407,6 +6727,7 @@ VALUES
   (
     'Crystal Hibernation',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (monster only) (20 seconds.) You gain +7 Health regeneration. Converts incoming non-physical damage to healing.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6427,6 +6748,7 @@ VALUES
   (
     'Damage Assessment',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. You lose all conditions. Shadowstep directly away from target enemy.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6447,6 +6769,7 @@ VALUES
   (
     'Deafening Roar',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Inflicts Dazed condition (20 seconds) to nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6467,6 +6790,7 @@ VALUES
   (
     'Decipher Inscriptions',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deciphers Ancient Inscriptions.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6487,6 +6811,7 @@ VALUES
   (
     'Dormant Husk',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. This plant gains 40 damage reduction and +20 Health regeneration while dormant but cannot attack or use other skills.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6507,6 +6832,7 @@ VALUES
   (
     'Energy Blast (golem)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Projectile: deals 100 damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6527,6 +6853,7 @@ VALUES
   (
     'Enraged',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. This creature''s attacks and skills do +50% damage if its Health is below 70%, and an additional +50% damage if its Health is below 30%.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6547,6 +6874,7 @@ VALUES
   (
     'Enraged Blast',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. When interrupted, the Great Destroyer becomes enraged and emits a blast that knocks down all foes within earshot and deals 115 damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6567,6 +6895,7 @@ VALUES
   (
     'Entourage',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (15 second[sic].) The Guild Lord takes no more than 30 damage from each attack or skill and takes 30 less damage each second. Cannot be used unless defending NPCs outnumber attackers.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6587,6 +6916,7 @@ VALUES
   (
     'Extract Inscription',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Extracts an inscription from an Inscribed Ettin.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6607,6 +6937,7 @@ VALUES
   (
     'Firebomb',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Launch a slow-moving firebomb at this foe. This skill cannot recharge slower than normal.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6627,6 +6958,7 @@ VALUES
   (
     'Flame Call',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Sounds a signal horn, warning that intruders have entered the temple.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6647,6 +6979,7 @@ VALUES
   (
     'Flame Jet',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 600 damage. Half that damage if target is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6667,6 +7000,7 @@ VALUES
   (
     'Forest''s Binding',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Projectile: Target foe is hexed with "Binding Chains."',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6687,6 +7021,7 @@ VALUES
   (
     'Fungal Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. The spore explodes, inflicts Poison and Disease conditions to nearby foes, and spreads seeds for new fungus.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6707,6 +7042,7 @@ VALUES
   (
     'Gelatinous Absorption',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (0 [sic] seconds.) Converts all damage this creatures takes to healing.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6727,6 +7063,7 @@ VALUES
   (
     'Gelatinous Corpse Consumption',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Creates 3 unstable oozes. Exploits a fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6747,6 +7084,7 @@ VALUES
   (
     'Gelatinous Mutation',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Mutating ooze creates an unstable ooze. This skill always recharges in 4 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6767,6 +7105,7 @@ VALUES
   (
     'Gloat',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. After killing an enemy, all Charr within earshot gain 10 Energy and 5 adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6787,6 +7126,7 @@ VALUES
   (
     'Gunther''s Gaze',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Gunther''s Gaze destroys all masterless minions within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6807,6 +7147,7 @@ VALUES
   (
     'Impossible Odds',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (10 seconds.) All Shiro''s attacks are double strikes and hit nearby foes. Shiro transfers conditions from himself to foes he hits. Initial effect: removes all hexes from Shiro.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6827,6 +7168,7 @@ VALUES
   (
     'Inner Fire',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (10 seconds.) You gain 30 Health every second.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6847,6 +7189,7 @@ VALUES
   (
     'Knock',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Rurik''s wait to open the exit door.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6867,6 +7210,7 @@ VALUES
   (
     'Kournan Siege',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (12 seconds.) A signal flare is fired into the air to summon siege fire from any nearby garrisons. Every 3 seconds, targets hit by the siege fire take 40 damage and are interrupted. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6887,6 +7231,7 @@ VALUES
   (
     'Lava Blast',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Lava surges upward, knocking down all foes standing in lava and dealing 75 damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6907,6 +7252,7 @@ VALUES
   (
     'Lava Ground',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Creates a giant blast that melts earth into lava.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6927,6 +7273,7 @@ VALUES
   (
     'Lava Wave',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 100 fire damage to all Burning foes. The Great Destroyer is submerged in lava, gains +10 Health regeneration, and is immune to all damage. Lava Wave ends after 12 seconds or if all other Destroyers are destroyed.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6947,6 +7294,7 @@ VALUES
   (
     'Life Vortex',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (monster only) Steal up to 200 Health from each foe within 30 feet.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6967,6 +7315,7 @@ VALUES
   (
     'Maddened Stance',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'The maddened spirit has no physical form and your wurm''s attacks cannot harm it.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -6987,6 +7336,7 @@ VALUES
   (
     'Meditation of the Reaper',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (30 seconds.) Shiro meditates and absorbs the next 500 damage. When this skill ends, Shiro steals 20 Health from all foes for each second this skill was active.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7007,6 +7357,7 @@ VALUES
   (
     'Metamorphosis',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Creature changes into an adult krait.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7027,6 +7378,7 @@ VALUES
   (
     'Monkey See, Monkey Do',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (20 seconds.) This skill becomes a random skill currently in use by friend or foe within earshot. The new skill activates with attribute level equal to the caster''s ranks in that attribute.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7047,6 +7399,7 @@ VALUES
   (
     'Mount',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Mount the siege devourer. You can command it to move and use skills.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7067,6 +7420,7 @@ VALUES
   (
     'N.O.X. Lock On',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. N.O.X. is targeting you!',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7087,6 +7441,7 @@ VALUES
   (
     'Ooze Division',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Ooze loses half of its current Health and creates a duplicate.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7107,6 +7462,7 @@ VALUES
   (
     'Phase Shield (effect)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. You are protected from damage by a golem''s Phase Shield.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7127,6 +7483,7 @@ VALUES
   (
     'Phase Shield',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. A shield around the golem prevents up to 750 damage to nearby allies.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7147,6 +7504,7 @@ VALUES
   (
     'Powder Keg Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Powder keg explodes in target''s hand, knocking down that target and dealing 50 damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7167,6 +7525,7 @@ VALUES
   (
     'Pyroclastic Shot',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Projectile: deals 80 damage and inflicts Burning and Crippled conditions (7 seconds) on target and adjacent foes. Causes any powder keg in target''s hands to explode.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7187,6 +7546,7 @@ VALUES
   (
     'Queen Heal',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (30 seconds.) Junundu Feast [sic] is replaced with Choking Breath, Blinding Breath or Burning Breath. Must exploit an adjacent fresh corpse.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7207,6 +7567,7 @@ VALUES
   (
     'Queen Siege',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Projectile: deals 100 earth damage and causes knock-down. Cannot be used on nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7227,6 +7588,7 @@ VALUES
   (
     'Queen Thump',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 80 damage and knocks-down foes adjacent to you (4 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7247,6 +7609,7 @@ VALUES
   (
     'Rage of the Sea',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (2 minutes.) You have +4 Health regeneration, +1 Energy regeneration, and move 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7267,6 +7630,7 @@ VALUES
   (
     'Rand''s Attack',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. For 10 seconds, all nearby allies gain +5 Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7287,6 +7651,7 @@ VALUES
   (
     'Reactor Blast Timer',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. P.O.X counts down from 5 before setting off a reactor blast.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7307,6 +7672,7 @@ VALUES
   (
     'Reform Carvings',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Graven Monolith reforms itself to release new powers.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7327,6 +7693,7 @@ VALUES
   (
     'Sacrifice Pawn',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Kills target ally. Caster gains Health equal to that ally''s current Health.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7347,6 +7714,7 @@ VALUES
   (
     'Searing Breath',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. A cone of fire deals 80 fire damage and 40 more fire damage for each enchantment on struck foes. All Destroyers in the cone''s area are healed for 80.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7367,6 +7735,7 @@ VALUES
   (
     'Shield of Fire',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (20 seconds.) Damage dealt to this creature is also inflicted upon the attacker. This skill cannot recharge slower than normal.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7387,6 +7756,7 @@ VALUES
   (
     'Siege Strike',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 200 damage and causes knockdown.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7407,6 +7777,7 @@ VALUES
   (
     'Siege Turtle Attack (Fort Aspenwood)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 80 damage to foes in the blast area. 250 damage to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7427,6 +7798,7 @@ VALUES
   (
     'Siege Turtle Attack (Gyala Hatchery)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 80 damage to foes in the blast area. 250 damage to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7447,6 +7819,7 @@ VALUES
   (
     'Siege Turtle Attack (The Eternal Grove)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 80 damage to foes in the blast area.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7467,6 +7840,7 @@ VALUES
   (
     'Siege Turtle Attack',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 80 damage to foes in the blast area.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7487,6 +7861,7 @@ VALUES
   (
     'Soul Torture',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Caster consumes a soul, ripping it from this world and sending it to Dhuum.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7507,6 +7882,7 @@ VALUES
   (
     'Soulrending Shriek',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. 40 damage. Removes one enchantment and inflicts Dazed condition (8 seconds) if target foe is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7527,6 +7903,7 @@ VALUES
   (
     'Spawn Hatchling',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Creates a Destroyer hatchling from a pod.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7547,6 +7924,7 @@ VALUES
   (
     'Spawn Pods',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Summons 2 Destroyer Spawns in the area.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7567,6 +7945,7 @@ VALUES
   (
     'Spectral Agony',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (5 seconds.) Target foe has -1...30 Health degeneration; moves, attacks, and uses skills 80% slower; and loses 3...81 Health each second.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7587,6 +7966,7 @@ VALUES
   (
     'Spirit Shield',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. For the next 30 seconds, if any friendly spirit is in the area, you take 50% less damage from attacks.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7607,6 +7987,7 @@ VALUES
   (
     'Spore Explosion',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. This plant spore explodes, inflicting Poison and Disease conditions on nearby foes; also spreads seeds for new plants.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7627,6 +8008,7 @@ VALUES
   (
     'Summoning Lord',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. For the next 30 seconds, all of your summoning spells take 1 second to cast instead of their normal casting time.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7647,6 +8029,7 @@ VALUES
   (
     'Summoning Shadows',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (3 seconds.) End effect: all of caster''s foes Shadow Step to positions adjacent to the caster.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7667,6 +8050,7 @@ VALUES
   (
     'The Apocrypha is changing to another form!',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. The Apocrypha is preparing to change to another form! It cannot be harmed while in tablet form.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7687,6 +8071,7 @@ VALUES
   (
     'Torment Slash',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. 150 damage to all foes in front of you. Hits twice.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7707,6 +8092,7 @@ VALUES
   (
     'Torment Slash (Smothering Tendrils)',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 200 damage twice to all foes directly in front of the torment claw. [sic]',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7727,6 +8113,7 @@ VALUES
   (
     'Touch of Aaaaarrrrrrggghhh',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (20 seconds.) Target foe''s attributes are set to 0. This foe and another random foe swap positions.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7747,6 +8134,7 @@ VALUES
   (
     'Unstable Aura',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (30 seconds.) If the golem takes elemental damage, its attacks are converted to that damage type.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7767,6 +8155,7 @@ VALUES
   (
     'Unstable Pulse',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. (10 seconds.) If the golem takes elemental damge, its attacks are converted to that damage type. End effect: adjacent foes take 175 damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7787,6 +8176,7 @@ VALUES
   (
     'Vitality Transfer',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Heals target ally for 100; the nearest foe takes 100 damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7807,6 +8197,7 @@ VALUES
   (
     'Whirling Fires',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 120 fire damage to foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7827,6 +8218,7 @@ VALUES
   (
     'Words of Madness',
     'https://wiki.guildwars.com/images/9/92/Monster_skill.jpg',
+    false,
     'Skill. Deals 120 damage and causes knock-down. Inflicts Dazed condition (10 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Monster'),
@@ -7846,6 +8238,7 @@ VALUES
   )
 ON CONFLICT (name) DO UPDATE SET
   icon = EXCLUDED.icon,
+  is_high_res_icon = EXCLUDED.is_high_res_icon,
   description = EXCLUDED.description,
   skill_type_id = EXCLUDED.skill_type_id,
   profession_id = EXCLUDED.profession_id,

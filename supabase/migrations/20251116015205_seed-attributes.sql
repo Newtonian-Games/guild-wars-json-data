@@ -1,6 +1,6 @@
 -- Seed attributes
 -- Auto-generated from data/attributes.json
--- Generated: 2025-11-17T07:36:05.740Z
+-- Generated: 2025-11-17T08:01:51.586Z
 -- Total attributes: 51 (42 profession attributes + 9 rank attributes)
 
 -- Insert profession-specific attributes

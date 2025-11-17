@@ -1,11 +1,12 @@
 -- Seed common skills
 -- Auto-generated from data/skills/common.json
--- Generated: 2025-11-17T07:36:05.749Z
+-- Generated: 2025-11-17T08:01:51.599Z
 -- Total skills: 55
 
 INSERT INTO skills (
   name,
   icon,
+  is_high_res_icon,
   description,
   skill_type_id,
   profession_id,
@@ -26,7 +27,8 @@ INSERT INTO skills (
 VALUES
   (
     'Resurrection Signet',
-    '',
+    'https://wiki.guildwars.com/images/e/e0/Resurrection_Signet.jpg',
+    false,
     'Signet. Resurrects target party member (100% Health, 25% Energy). This signet only recharges when you gain a morale boost.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     NULL,
@@ -46,7 +48,8 @@ VALUES
   ),
   (
     'Signet of Capture',
-    '',
+    'https://wiki.guildwars.com/images/8/8d/Signet_of_Capture.jpg',
+    false,
     'Signet. Choose one skill from a nearby dead Boss of your profession. Signet of Capture is permanently replaced by that skill. If that skill was elite, gain 250 XP for every level you have earned.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     NULL,
@@ -66,7 +69,8 @@ VALUES
   ),
   (
     'Lightbringer Signet',
-    '',
+    'https://wiki.guildwars.com/images/4/43/Lightbringer_Signet.jpg',
+    false,
     'Signet. You gain {{AdrenalineGain}} strikes of adrenaline and {{EnergyGain}} Energy if you are within the area of a demonic servant of Abaddon.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     NULL,
@@ -86,7 +90,8 @@ VALUES
   ),
   (
     'Lightbringer''s Gaze',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Lightbringer%27s_Gaze.jpg',
+    false,
     'Skill. Target demonic servant of Abaddon takes 100 holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled (15 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     NULL,
@@ -106,7 +111,8 @@ VALUES
   ),
   (
     'Sunspear Rebirth Signet',
-    '',
+    'https://wiki.guildwars.com/images/e/e0/Sunspear_Rebirth_Signet.jpg',
+    false,
     'Signet. Resurrect target dead ally at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     NULL,
@@ -126,7 +132,8 @@ VALUES
   ),
   (
     'Air of Superiority',
-    '',
+    'https://wiki.guildwars.com/images/9/9f/Air_of_Superiority.jpg',
+    false,
     'Skill. ({{Duration}} seconds). Gain a random Asura benefit every time you earn experience from killing an enemy.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     NULL,
@@ -146,7 +153,8 @@ VALUES
   ),
   (
     'Asuran Scan',
-    '',
+    'https://wiki.guildwars.com/images/a/a0/Asuran_Scan.jpg',
+    false,
     'Hex Spell. ({{Duration}} seconds.) You cannot miss target foe. If you kill this foe, you lose 5% Death Penalty.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     NULL,
@@ -166,7 +174,8 @@ VALUES
   ),
   (
     'Mental Block',
-    '',
+    'https://wiki.guildwars.com/images/e/ed/Mental_Block.jpg',
+    false,
     'Enchantment Spell. ({{Duration}} seconds.) You have a 50% chance to block. Renewal: every time an enemy hits you.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     NULL,
@@ -186,7 +195,8 @@ VALUES
   ),
   (
     'Mindbender',
-    '',
+    'https://wiki.guildwars.com/images/c/c0/Mindbender.jpg',
+    false,
     'Enchantment Spell. ({{Duration}} seconds.) You move {{SpeedBoostPercent}}% faster and cast Spells 20% faster.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     NULL,
@@ -206,7 +216,8 @@ VALUES
   ),
   (
     'Pain Inverter',
-    '',
+    'https://wiki.guildwars.com/images/9/91/Pain_Inverter.jpg',
+    false,
     'Hex Spell. ({{Duration}} seconds.) Deals {{PercentOfDamage}}% of the damage (maximum 80) back to target foe every time it does damage.',
     (SELECT id FROM skill_types WHERE name = 'Hex Spell'),
     NULL,
@@ -226,7 +237,8 @@ VALUES
   ),
   (
     'Radiation Field',
-    '',
+    'https://wiki.guildwars.com/images/3/31/Radiation_Field.jpg',
+    false,
     'Ward Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration to foes in the area. End effect: inflicts Disease condition ({{DiseaseDuration}} seconds) to foes in the area.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     NULL,
@@ -246,7 +258,8 @@ VALUES
   ),
   (
     'Smooth Criminal',
-    '',
+    'https://wiki.guildwars.com/images/3/33/Smooth_Criminal.jpg',
+    false,
     'Spell. ({{Duration}} seconds.) Disables one Spell. This skill becomes that Spell. You gain {{EnergyGain}} Energy.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -266,7 +279,8 @@ VALUES
   ),
   (
     'Summon Ice Imp',
-    '',
+    'https://wiki.guildwars.com/images/2/2a/Summon_Ice_Imp.jpg',
+    false,
     'Spell. Summon a level {{IceImpLevel}} Ice Imp ({{Duration}} lifespan) that has Ice Spikes. Only 1 Asura Summon can be active a time.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -286,7 +300,8 @@ VALUES
   ),
   (
     'Summon Mursaat',
-    '',
+    'https://wiki.guildwars.com/images/6/61/Summon_Mursaat.jpg',
+    false,
     'Spell. Summon a level {{MursaatLevel}} Mursaat ({{Duration}} lifespan) that has Enervating Charge. Only 1 Asura Summon can be active a time.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -306,7 +321,8 @@ VALUES
   ),
   (
     'Summon Naga Shaman',
-    '',
+    'https://wiki.guildwars.com/images/f/f0/Summon_Naga_Shaman.jpg',
+    false,
     'Spell. Summon a level {{NagaShamanLevel}} Naga Shaman ({{Duration}} lifespan) that has Stoning. Only 1 Asura Summon can be active a time.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -326,7 +342,8 @@ VALUES
   ),
   (
     'Summon Ruby Djinn',
-    '',
+    'https://wiki.guildwars.com/images/a/a0/Summon_Ruby_Djinn.jpg',
+    false,
     'Spell. Summon a level {{RubyDjinnLevel}} Ruby Djinn ({{Duration}} lifespan) that has Immolate. Only 1 Asura Summon can be active a time.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -346,7 +363,8 @@ VALUES
   ),
   (
     'Technobabble',
-    '',
+    'https://wiki.guildwars.com/images/0/0a/Technobabble.jpg',
+    false,
     'Spell. Deals {{Damage}} damage to target and adjacent foes. Inflicts Dazed condition ({{DazedDuration}} seconds) on these foes if target was not a boss.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -366,7 +384,8 @@ VALUES
   ),
   (
     '"By Ural''s Hammer!"',
-    '',
+    'https://wiki.guildwars.com/images/d/df/%22By_Ural%27s_Hammer%21%22.jpg',
+    false,
     'Shout. (30 seconds.) Resurrect all dead party members in earshot with full Health and Energy. Affected party members deal {{IncreasedDamagePercent}}% more damage. Affected party members die when it ends, but do not receive a death penalty.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -386,7 +405,8 @@ VALUES
   ),
   (
     '"Don''t Trip!"',
-    '',
+    'https://wiki.guildwars.com/images/c/c1/%22Don%27t_Trip%21%22.jpg',
+    false,
     'Shout. ({{Duration}} seconds.) Prevents knock-down; affects party members within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -406,7 +426,8 @@ VALUES
   ),
   (
     'Alkar''s Alchemical Acid',
-    '',
+    'https://wiki.guildwars.com/images/4/43/Alkar%27s_Alchemical_Acid.jpg',
+    false,
     'Spell. Projectile: deals {{Damage}} damage to target and adjacent foes. Deals {{AdditionalDamage}} more damage and inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to Destroyers.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -426,7 +447,8 @@ VALUES
   ),
   (
     'Black Powder Mine',
-    '',
+    'https://wiki.guildwars.com/images/5/50/Black_Powder_Mine.jpg',
+    false,
     'Trap. (90 seconds.) Affects nearby foes. Deals {{FireDamage}} damage. Inflicts Blindness and Bleeding conditions ({{BlindAndBleedingDuration}} seconds). Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     NULL,
@@ -446,7 +468,8 @@ VALUES
   ),
   (
     'Brawling Headbutt',
-    '',
+    'https://wiki.guildwars.com/images/b/be/Brawling_Headbutt.jpg',
+    false,
     'Touch Skill. Deals {{Damage}} damage; causes knock-down.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     NULL,
@@ -466,7 +489,8 @@ VALUES
   ),
   (
     'Breath of the Great Dwarf',
-    '',
+    'https://wiki.guildwars.com/images/0/0e/Breath_of_the_Great_Dwarf.jpg',
+    false,
     'Spell. Removes burning and heals for {{Healing}} Health. Affects party members.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -486,7 +510,8 @@ VALUES
   ),
   (
     'Drunken Master',
-    '',
+    'https://wiki.guildwars.com/images/b/b3/Drunken_Master.jpg',
+    false,
     'Stance. ({{Duration}} seconds.) You move and attack {{SpeedIncreasePercentIfSober}}% faster if you are not drunk. You move and attack {{SpeedIncreasePercentIfDrunk}}% faster if you are drunk.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     NULL,
@@ -506,7 +531,8 @@ VALUES
   ),
   (
     'Dwarven Stability',
-    '',
+    'https://wiki.guildwars.com/images/4/4c/Dwarven_Stability.jpg',
+    false,
     'Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     NULL,
@@ -526,7 +552,8 @@ VALUES
   ),
   (
     'Ear Bite',
-    '',
+    'https://wiki.guildwars.com/images/c/c6/Ear_Bite.jpg',
+    false,
     'Touch Skill. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     NULL,
@@ -546,7 +573,8 @@ VALUES
   ),
   (
     'Great Dwarf Armor',
-    '',
+    'https://wiki.guildwars.com/images/e/e5/Great_Dwarf_Armor.jpg',
+    false,
     'Enchantment Spell. ({{Duration}} seconds.) +24 armor and +60 maximum Health. Additional +24 armor against Destroyers.',
     (SELECT id FROM skill_types WHERE name = 'Enchantment Spell'),
     NULL,
@@ -566,7 +594,8 @@ VALUES
   ),
   (
     'Great Dwarf Weapon',
-    '',
+    'https://wiki.guildwars.com/images/a/ab/Great_Dwarf_Weapon.jpg',
+    false,
     'Weapon Spell. (20 seconds.) +{{Damage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Weapon Spell'),
     NULL,
@@ -586,7 +615,8 @@ VALUES
   ),
   (
     'Light of Deldrimor',
-    '',
+    'https://wiki.guildwars.com/images/1/11/Light_of_Deldrimor.jpg',
+    false,
     'Spell. Deals {{HolyDamage}} holy damage to foes in the area. Pings hidden objects within the area on the compass.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -606,7 +636,8 @@ VALUES
   ),
   (
     'Low Blow',
-    '',
+    'https://wiki.guildwars.com/images/8/86/Low_Blow.jpg',
+    false,
     'Touch Skill. Deals {{Damage}} damage. Inflicts {{ConditionalDamage}} damage and Cracked Armor ({{CrackedArmorDuration}} seconds) if target foe is knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     NULL,
@@ -626,7 +657,8 @@ VALUES
   ),
   (
     'Snow Storm',
-    '',
+    'https://wiki.guildwars.com/images/a/a0/Snow_Storm.jpg',
+    false,
     'Spell. Deals {{ColdDamage}} cold damage each second (5 seconds). Hits foes adjacent to target foe''s initial location.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -646,7 +678,8 @@ VALUES
   ),
   (
     'Deft Strike',
-    '',
+    'https://wiki.guildwars.com/images/6/62/Deft_Strike.jpg',
+    false,
     'Ranged Attack. Deals {{ArmorignoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor.',
     (SELECT id FROM skill_types WHERE name = 'Ranged Attack'),
     NULL,
@@ -666,7 +699,8 @@ VALUES
   ),
   (
     'Ebon Battle Standard of Courage',
-    '',
+    'https://wiki.guildwars.com/images/5/53/Ebon_Battle_Standard_of_Courage.jpg',
+    false,
     'Ward Spell. ({{Duration}} seconds.) Allies in this ward have +24 armor and +24 more armor against Charr. Spirits are unaffected.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     NULL,
@@ -686,7 +720,8 @@ VALUES
   ),
   (
     'Ebon Battle Standard of Honor',
-    '',
+    'https://wiki.guildwars.com/images/5/51/Ebon_Battle_Standard_of_Honor.jpg',
+    false,
     'Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{Damage}} damage and +{{DamageVsCharr}} more damage against Charr. Spirits are unaffected.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     NULL,
@@ -706,7 +741,8 @@ VALUES
   ),
   (
     'Ebon Battle Standard of Wisdom',
-    '',
+    'https://wiki.guildwars.com/images/e/eb/Ebon_Battle_Standard_of_Wisdom.jpg',
+    false,
     'Ward Spell. ({{Duration}} seconds.) Spells that allies in this ward cast have a {{HsrChancePercent}}% chance to recharge 50% faster. Spirits are unaffected.',
     (SELECT id FROM skill_types WHERE name = 'Ward Spell'),
     NULL,
@@ -726,7 +762,8 @@ VALUES
   ),
   (
     'Ebon Escape',
-    '',
+    'https://wiki.guildwars.com/images/b/bb/Ebon_Escape.jpg',
+    false,
     'Spell. Heals you and target ally for {{Healing}}. Initial effect: Shadow Step to this ally. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -746,7 +783,8 @@ VALUES
   ),
   (
     'Ebon Vanguard Assassin Support',
-    '',
+    'https://wiki.guildwars.com/images/0/03/Ebon_Vanguard_Assassin_Support.jpg',
+    false,
     'Spell. Summon a level {{AssassinLevel}} assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. If this foe is a Charr, the assassin lives for {{DurationVsCharr}} seconds. If target foe is not a Charr, the Assassin lives for {{DurationVsOtherFoes}} seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -766,7 +804,8 @@ VALUES
   ),
   (
     'Ebon Vanguard Sniper Support',
-    '',
+    'https://wiki.guildwars.com/images/1/16/Ebon_Vanguard_Sniper_Support.jpg',
+    false,
     'Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +{{AdditionalPiercingDamage}} piercing damage if target foe is a Charr.',
     (SELECT id FROM skill_types WHERE name = 'Spell'),
     NULL,
@@ -786,7 +825,8 @@ VALUES
   ),
   (
     'Signet of Infection',
-    '',
+    'https://wiki.guildwars.com/images/6/66/Signet_of_Infection.jpg',
+    false,
     'Signet. Inflicts Diseased condition {{DiseaseDuration}} seconds if target foe is Bleeding.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     NULL,
@@ -806,7 +846,8 @@ VALUES
   ),
   (
     'Sneak Attack',
-    '',
+    'https://wiki.guildwars.com/images/8/87/Sneak_Attack.jpg',
+    false,
     'Melee Attack. Inflicts Blindness ({{BlindDuration}} seconds). Counts as a lead attack.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     NULL,
@@ -826,7 +867,8 @@ VALUES
   ),
   (
     'Tryptophan Signet',
-    '',
+    'https://wiki.guildwars.com/images/7/70/Tryptophan_Signet.jpg',
+    false,
     'Signet. ({{Duration}} seconds.) Target and adjacent foes move and attack {{SpeedReductionPercent}}% slower.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     NULL,
@@ -846,7 +888,8 @@ VALUES
   ),
   (
     'Weakness Trap',
-    '',
+    'https://wiki.guildwars.com/images/0/0d/Weakness_Trap.jpg',
+    false,
     'Trap. (90 seconds.) Affects nearby foes. Deals {{LightningDamage}} lightning damage. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Knocks-down Charr. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     NULL,
@@ -866,7 +909,8 @@ VALUES
   ),
   (
     'Winds',
-    '',
+    'https://wiki.guildwars.com/images/0/0e/Winds.jpg',
+    false,
     'Ebon Vanguard Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan.) Affects foes within range. 15% chance to miss with ranged attacks.',
     (SELECT id FROM skill_types WHERE name = 'Ebon Vanguard Ritual'),
     NULL,
@@ -886,7 +930,8 @@ VALUES
   ),
   (
     '"Dodge This!"',
-    '',
+    'https://wiki.guildwars.com/images/4/4b/%22Dodge_This%21%22.jpg',
+    false,
     'Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -906,7 +951,8 @@ VALUES
   ),
   (
     '"Finish Him!"',
-    '',
+    'https://wiki.guildwars.com/images/6/61/%22Finish_Him%21%22.jpg',
+    false,
     'Shout. Deals {{Damage}} damage and inflicts Cracked Armor and Deep Wound conditions ({{CrackedArmorAndDeepWoundDuration}} seconds). No effect unless target foe has less than 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -926,7 +972,8 @@ VALUES
   ),
   (
     '"I Am Unstoppable!"',
-    '',
+    'https://wiki.guildwars.com/images/e/ed/%22I_Am_Unstoppable%21%22.jpg',
+    false,
     'Shout. ({{Duration}} seconds.) You have +24 armor and cannot be knocked-down or Crippled.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -946,7 +993,8 @@ VALUES
   ),
   (
     '"I Am the Strongest!"',
-    '',
+    'https://wiki.guildwars.com/images/e/ec/%22I_Am_the_Strongest%21%22.jpg',
+    false,
     'Shout. Your next {{OfAttacks}} attacks deal +{{AdditionalDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -966,7 +1014,8 @@ VALUES
   ),
   (
     '"You Are All Weaklings!"',
-    '',
+    'https://wiki.guildwars.com/images/a/a4/%22You_Are_All_Weaklings%21%22.jpg',
+    false,
     'Shout. Inflicts Weakness condition ({{WeaknessDuration}} seconds). Also affects adjacent foes.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -986,7 +1035,8 @@ VALUES
   ),
   (
     '"You Move Like a Dwarf!"',
-    '',
+    'https://wiki.guildwars.com/images/6/6a/%22You_Move_Like_a_Dwarf%21%22.jpg',
+    false,
     'Shout. Deals {{Damage}} damage, causes knock-down, and inflicts Crippled condition ({{CrippledDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     NULL,
@@ -1006,7 +1056,8 @@ VALUES
   ),
   (
     'A Touch of Guile',
-    '',
+    'https://wiki.guildwars.com/images/2/2d/A_Touch_of_Guile.jpg',
+    false,
     'Touch Hex Spell. Deals {{ArmorignoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Touch Hex Spell'),
     NULL,
@@ -1026,7 +1077,8 @@ VALUES
   ),
   (
     'Club of a Thousand Bears',
-    '',
+    'https://wiki.guildwars.com/images/d/dc/Club_of_a_Thousand_Bears.jpg',
+    false,
     'Melee Attack. Deals +{{DamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human.',
     (SELECT id FROM skill_types WHERE name = 'Melee Attack'),
     NULL,
@@ -1046,7 +1098,8 @@ VALUES
   ),
   (
     'Feel No Pain',
-    '',
+    'https://wiki.guildwars.com/images/f/fe/Feel_No_Pain.jpg',
+    false,
     'Skill. (30 seconds.) You have +{{HealthRegeneration}} Health regeneration. You have +{{ConditionalMaximumHealth}} maximum Health if you are drunk when activating this skill.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     NULL,
@@ -1066,7 +1119,8 @@ VALUES
   ),
   (
     'Raven Blessing',
-    '',
+    'https://wiki.guildwars.com/images/0/0a/Raven_Blessing.jpg',
+    false,
     'Elite Form. You lose all effects and take on the aspect of the Raven (60 seconds). All your attributes are set to 0 and raven attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health, and a {{BlockChancePercent}}% block chance.',
     (SELECT id FROM skill_types WHERE name = 'Elite Form'),
     NULL,
@@ -1086,7 +1140,8 @@ VALUES
   ),
   (
     'Ursan Blessing',
-    '',
+    'https://wiki.guildwars.com/images/7/7b/Ursan_Blessing.jpg',
+    false,
     'Elite Form. You lose all effects and take on the aspect of the bear (60 seconds). All your attributes are set to 0 and bear attacks replace your skills, and you have 100 armor and {{MaximumHealth}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Elite Form'),
     NULL,
@@ -1106,7 +1161,8 @@ VALUES
   ),
   (
     'Volfen Blessing',
-    '',
+    'https://wiki.guildwars.com/images/b/b2/Volfen_Blessing.jpg',
+    false,
     'Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Elite Form'),
     NULL,
@@ -1126,6 +1182,7 @@ VALUES
   )
 ON CONFLICT (name) DO UPDATE SET
   icon = EXCLUDED.icon,
+  is_high_res_icon = EXCLUDED.is_high_res_icon,
   description = EXCLUDED.description,
   skill_type_id = EXCLUDED.skill_type_id,
   profession_id = EXCLUDED.profession_id,

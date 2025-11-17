@@ -1,6 +1,6 @@
 -- Seed professions
 -- Auto-generated from data/professions.json
--- Generated: 2025-11-17T07:36:05.739Z
+-- Generated: 2025-11-17T08:01:51.579Z
 -- Total professions: 10
 
 INSERT INTO professions (name, abbreviation, icon)

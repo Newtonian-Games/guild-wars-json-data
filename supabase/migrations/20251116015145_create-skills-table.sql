@@ -3,6 +3,7 @@ CREATE TABLE skills (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   name text NOT NULL,
   icon text,
+  is_high_res_icon boolean NOT NULL DEFAULT false,
   description text,
   skill_type_id uuid REFERENCES skill_types(id) ON DELETE SET NULL,
   profession_id uuid REFERENCES professions(id) ON DELETE SET NULL,

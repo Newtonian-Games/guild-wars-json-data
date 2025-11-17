@@ -1,11 +1,12 @@
 -- Seed paragon skills
 -- Auto-generated from data/skills/paragon.json
--- Generated: 2025-11-17T07:36:05.782Z
+-- Generated: 2025-11-17T08:01:51.634Z
 -- Total skills: 110
 
 INSERT INTO skills (
   name,
   icon,
+  is_high_res_icon,
   description,
   skill_type_id,
   profession_id,
@@ -27,6 +28,7 @@ VALUES
   (
     '"Brace Yourself!"',
     'https://wiki.guildwars.com/images/4/47/%22Brace_Yourself%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Prevents the next knock-down and deals {{Damage}} damage to all foes near target ally. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -47,6 +49,7 @@ VALUES
   (
     '"Brace Yourself!" (PvP)',
     'https://wiki.guildwars.com/images/4/47/%22Brace_Yourself%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Prevents the next knock-down and deals {{Damage}} damage to one foe near target ally. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -67,6 +70,7 @@ VALUES
   (
     '"Can''t Touch This!"',
     'https://wiki.guildwars.com/images/6/6a/%22Can%27t_Touch_This%21%22_%28large%29.jpg',
+    true,
     'Shout. (20 seconds.) The next {{Failures}} touch-range skill[s] used against allies [sic] within earshot fail[s].',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -87,6 +91,7 @@ VALUES
   (
     '"Can''t Touch This!" (PvP)',
     'https://wiki.guildwars.com/images/6/6a/%22Can%27t_Touch_This%21%22_%28large%29.jpg',
+    true,
     'Shout. (20 seconds.) The next {{Failures}} touch-range skill[s] used against you fail[s].',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -107,6 +112,7 @@ VALUES
   (
     '"Fall Back!"',
     'https://wiki.guildwars.com/images/9/9f/%22Fall_Back%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Allies in earshot gain {{HealthGain}} Health per second while moving and move 33% faster. Ends for an ally if that ally hits with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -127,6 +133,7 @@ VALUES
   (
     '"Fall Back!" (PvP)',
     'https://wiki.guildwars.com/images/9/9f/%22Fall_Back%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Allies in earshot gain {{HealthGain}} Health per second while moving and move 33% faster. Ends for an ally if that ally hits with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -147,6 +154,7 @@ VALUES
   (
     '"Find Their Weakness!"',
     'https://wiki.guildwars.com/images/e/e7/%22Find_Their_Weakness%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Target ally deals +{{PlusDamage}} damage and inflicts Deep Wound condition ({{DeepWound}} seconds) with the next attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -167,6 +175,7 @@ VALUES
   (
     '"Find Their Weakness!" (PvP)',
     'https://wiki.guildwars.com/images/e/e7/%22Find_Their_Weakness%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Target ally inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) with the next critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -187,6 +196,7 @@ VALUES
   (
     '"Go for the Eyes!"',
     'https://wiki.guildwars.com/images/c/c4/%22Go_for_the_Eyes%21%22_%28large%29.jpg',
+    true,
     'Shout. (10 seconds.) Allies in earshot have +{{CriticalChance}}% to land a critical hit with their next attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -207,6 +217,7 @@ VALUES
   (
     '"Go for the Eyes!" (PvP)',
     'https://wiki.guildwars.com/images/c/c4/%22Go_for_the_Eyes%21%22_%28large%29.jpg',
+    true,
     'Shout. (10 seconds.) Allies in earshot have +{{CriticalChance}}% to land a critical hit with their next attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -227,6 +238,7 @@ VALUES
   (
     '"Help Me!"',
     'https://wiki.guildwars.com/images/8/8b/%22Help_Me%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Other allies'' spells targeting you cast 50% faster. You gain {{HealthGain}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -247,6 +259,7 @@ VALUES
   (
     '"Help Me!" (PvP)',
     'https://wiki.guildwars.com/images/8/8b/%22Help_Me%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Other allies'' spells targeting you cast 50% faster. You gain {{HealthGain}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -267,6 +280,7 @@ VALUES
   (
     '"Incoming!"',
     'https://wiki.guildwars.com/images/5/50/%22Incoming%21%22_%28large%29.jpg',
+    true,
     'Elite Shout. ({{Duration}} seconds) Allies in earshot move 33% faster and gain {{HealthGain}} Health while moving.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -287,6 +301,7 @@ VALUES
   (
     '"Incoming!" (PvP)',
     'https://wiki.guildwars.com/images/5/50/%22Incoming%21%22_%28large%29.jpg',
+    true,
     'Elite Shout. ({{Duration}} seconds) Allies in earshot move 33% faster and gain {{HealthGain}} Health while moving.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -307,6 +322,7 @@ VALUES
   (
     '"It''s Just a Flesh Wound."',
     'https://wiki.guildwars.com/images/f/f3/%22It%27s_just_a_flesh_wound.%22_%28large%29.jpg',
+    true,
     'Elite Shout. Remove all conditions from target ally. That ally moves 25% faster ({{Duration}} second[s]) if a condition was removed. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -327,6 +343,7 @@ VALUES
   (
     '"Lead the Way!"',
     'https://wiki.guildwars.com/images/4/4c/%22Lead_the_Way%21%22_%28large%29.jpg',
+    true,
     'Shout. Target ally moves 25% faster for {{Duration}} seconds (maximum of 20 seconds) for each ally in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -347,6 +364,7 @@ VALUES
   (
     '"Make Haste!"',
     'https://wiki.guildwars.com/images/9/91/%22Make_Haste%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Target ally moves 33% faster. Ends if target ally hits with an attack. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -367,6 +385,7 @@ VALUES
   (
     '"Make Your Time!"',
     'https://wiki.guildwars.com/images/4/41/%22Make_Your_Time%21%22_%28large%29.jpg',
+    true,
     'Shout. You gain one adrenaline (maximum {{MaximumStrikes}}) for each party member in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -387,6 +406,7 @@ VALUES
   (
     '"Never Give Up!"',
     'https://wiki.guildwars.com/images/0/02/%22Never_Give_Up%21%22_%28large%29.jpg',
+    true,
     'Shout. Allies in earshot gain {{EnergyGain}} Energy. Only affects allies below 75% Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -407,6 +427,7 @@ VALUES
   (
     '"Never Give Up!" (PvP)',
     'https://wiki.guildwars.com/images/0/02/%22Never_Give_Up%21%22_%28large%29.jpg',
+    true,
     'Shout. Allies in earshot gain {{EnergyGain}} Energy. Only affects allies below 75% Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -427,6 +448,7 @@ VALUES
   (
     '"Never Surrender!"',
     'https://wiki.guildwars.com/images/1/1d/%22Never_Surrender%21%22_%28large%29.jpg',
+    true,
     'Shout. (15 seconds.) Party members in earshot gain +{{HealthRegeneration}} Health regeneration. Only affects party members below 75% Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -447,6 +469,7 @@ VALUES
   (
     '"Never Surrender!" (PvP)',
     'https://wiki.guildwars.com/images/1/1d/%22Never_Surrender%21%22_%28large%29.jpg',
+    true,
     'Shout. (10 seconds.) Party members in earshot gain +{{HealthRegeneration}} Health regeneration. Only affects party members below 75% Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -467,6 +490,7 @@ VALUES
   (
     '"Stand Your Ground!"',
     'https://wiki.guildwars.com/images/b/b5/%22Stand_Your_Ground%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Party members in earshot gain +24 armor when not moving.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -487,6 +511,7 @@ VALUES
   (
     '"Stand Your Ground!" (PvP)',
     'https://wiki.guildwars.com/images/b/b5/%22Stand_Your_Ground%21%22_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Party members in earshot gain +24 armor when not moving. Ends for an ally if that ally attacks.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -507,6 +532,7 @@ VALUES
   (
     '"The Power Is Yours!"',
     'https://wiki.guildwars.com/images/c/c5/%22The_Power_Is_Yours%21%22_%28large%29.jpg',
+    true,
     'Elite Shout. (3 seconds.) Allies within earshot gain {{EnergyRegeneration}} Energy regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -526,7 +552,8 @@ VALUES
   ),
   (
     '"There''s Nothing to Fear!"',
-    '',
+    'https://wiki.guildwars.com/images/e/e6/%22There%27s_Nothing_to_Fear%21%22.jpg',
+    false,
     'Shout. (4 seconds plus 1 second for every 2 ranks in Leadership.) Reduces damage by {{PercentDamageReduction}}% for party members in earshot. End effect: heals for {{Healing}} Health.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -547,6 +574,7 @@ VALUES
   (
     '"They''re on Fire!"',
     'https://wiki.guildwars.com/images/8/81/%22They%27re_on_Fire%21%22_%28large%29.jpg',
+    true,
     'Shout. (10 seconds.) Party members in earshot take {{PercentDamageReduction}}% less damage from Burning foes.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -567,6 +595,7 @@ VALUES
   (
     '"We Shall Return!"',
     'https://wiki.guildwars.com/images/a/a1/%22We_Shall_Return%21%22_%28large%29.jpg',
+    true,
     'Shout. All party members in earshot are resurrected ({{PercentHealth}}% Health and {{PercentEnergy}}% Energy).',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -587,6 +616,7 @@ VALUES
   (
     '"We Shall Return!" (PvP)',
     'https://wiki.guildwars.com/images/a/a1/%22We_Shall_Return%21%22_%28large%29.jpg',
+    true,
     'Shout. (10 seconds.) Whenever party members in earshot use a resurrection skill, their fallen allies return with {{PercentHealth}}% more Health and {{PercentEnergy}}% more Energy.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -607,6 +637,7 @@ VALUES
   (
     'Aggressive Refrain',
     'https://wiki.guildwars.com/images/a/a7/Aggressive_Refrain_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) You attack 25% faster. Renewal: whenever a chant or shout ends on you. You have -20 armor.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -627,6 +658,7 @@ VALUES
   (
     'Angelic Bond',
     'https://wiki.guildwars.com/images/b/b2/Angelic_Bond_%28large%29.jpg',
+    true,
     'Elite Skill. (10 seconds.) The next time an ally within earshot would take fatal damage, that damage is negated and that ally is healed for {{Healing}}. Ends on other allies.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -647,6 +679,7 @@ VALUES
   (
     'Angelic Protection',
     'https://wiki.guildwars.com/images/d/d6/Angelic_Protection_%28large%29.jpg',
+    true,
     'Skill. (10 seconds.) Each second that target ally takes damage over {{DamageThreshold}}, that ally is healed for any damage over that amount. Cannot self target.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -667,6 +700,7 @@ VALUES
   (
     'Anthem of Disruption',
     'https://wiki.guildwars.com/images/6/6f/Anthem_of_Disruption_%28large%29.jpg',
+    true,
     'Chant. ({{Duration}} seconds.) Allies in earshot interrupt an action with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -687,6 +721,7 @@ VALUES
   (
     'Anthem of Disruption (PvP)',
     'https://wiki.guildwars.com/images/6/6f/Anthem_of_Disruption_%28large%29.jpg',
+    true,
     'Chant. ({{Duration}} seconds.) Allies in earshot interrupt an action with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -707,6 +742,7 @@ VALUES
   (
     'Anthem of Envy',
     'https://wiki.guildwars.com/images/4/46/Anthem_of_Envy_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot do +{{PlusDamage}} damage with their next attack skill. Damage bonus only applies to foes with more than 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -727,6 +763,7 @@ VALUES
   (
     'Anthem of Envy (PvP)',
     'https://wiki.guildwars.com/images/4/46/Anthem_of_Envy_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot do +{{PlusDamage}} damage with their next attack skill. Damage bonus only applies to foes with more than 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -747,6 +784,7 @@ VALUES
   (
     'Anthem of Flame',
     'https://wiki.guildwars.com/images/3/37/Anthem_of_Flame_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Party members in earshot inflict Burning condition ({{BurningDuration}} second[s]) with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -767,6 +805,7 @@ VALUES
   (
     'Anthem of Fury',
     'https://wiki.guildwars.com/images/e/e7/Anthem_of_Fury_%28large%29.jpg',
+    true,
     'Elite Chant. (10 seconds.) Party members in earshot gain {{AdrenalineGain}} adrenaline with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -787,6 +826,7 @@ VALUES
   (
     'Anthem of Guidance',
     'https://wiki.guildwars.com/images/3/35/Anthem_of_Guidance_%28large%29.jpg',
+    true,
     'Elite Chant. (10 seconds.) Party members in earshot are unblockable with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -807,6 +847,7 @@ VALUES
   (
     'Anthem of Weariness',
     'https://wiki.guildwars.com/images/b/bd/Anthem_of_Weariness_%28large%29.jpg',
+    true,
     'Chant. (8 seconds.) Allies in earshot inflict Weakness ({{WeaknessDuration}} second[s]) with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -827,6 +868,7 @@ VALUES
   (
     'Aria of Restoration',
     'https://wiki.guildwars.com/images/2/26/Aria_of_Restoration_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Party members in earshot gain {{HealthGain}} Health with their next spell.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -847,6 +889,7 @@ VALUES
   (
     'Aria of Zeal',
     'https://wiki.guildwars.com/images/2/20/Aria_of_Zeal_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot gain {{EnergyGain}} Energy with their next spell.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -867,6 +910,7 @@ VALUES
   (
     'Awe',
     'https://wiki.guildwars.com/images/5/5c/Awe_%28large%29.jpg',
+    true,
     'Half Range Skill. Inflicts Dazed condition ({{Duration}} seconds). No effect unless target is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -887,6 +931,7 @@ VALUES
   (
     'Ballad of Restoration',
     'https://wiki.guildwars.com/images/e/e5/Ballad_of_Restoration_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Party members in earshot gain {{HealthGain}} Health the next time they take damage.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -907,6 +952,7 @@ VALUES
   (
     'Ballad of Restoration (PvP)',
     'https://wiki.guildwars.com/images/e/e5/Ballad_of_Restoration_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Party members in earshot gain {{HealthGain}} Health the next time they take damage.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -927,6 +973,7 @@ VALUES
   (
     'Barbed Spear',
     'https://wiki.guildwars.com/images/5/50/Barbed_Spear_%28large%29.jpg',
+    true,
     'Spear Attack. Inflicts Bleeding condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -947,6 +994,7 @@ VALUES
   (
     'Bladeturn Refrain',
     'https://wiki.guildwars.com/images/3/33/Bladeturn_Refrain_%28large%29.jpg',
+    true,
     'Echo. (20 seconds.) Target ally has {{PercentChanceToBlock}}% chance to block. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -967,6 +1015,7 @@ VALUES
   (
     'Bladeturn Refrain (PvP)',
     'https://wiki.guildwars.com/images/3/33/Bladeturn_Refrain_%28large%29.jpg',
+    true,
     'Echo. (20 seconds.) Target ally has +{{PlusArmor}} armor against slashing damage. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -987,6 +1036,7 @@ VALUES
   (
     'Blazing Finale',
     'https://wiki.guildwars.com/images/f/fd/Blazing_Finale_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1007,6 +1057,7 @@ VALUES
   (
     'Blazing Finale (PvP)',
     'https://wiki.guildwars.com/images/f/fd/Blazing_Finale_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) to adjacent foes whenever a chant or shout ends on target ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1027,6 +1078,7 @@ VALUES
   (
     'Blazing Spear',
     'https://wiki.guildwars.com/images/5/59/Blazing_Spear_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Inflicts Burning condition ({{BurningDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1047,6 +1099,7 @@ VALUES
   (
     'Burning Refrain',
     'https://wiki.guildwars.com/images/3/31/Burning_Refrain_%28large%29.jpg',
+    true,
     'Echo. (20 seconds.) Inflicts Burning condition ({{BurningDuration}} second[s]) if target ally hits a foe with more Health. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1067,6 +1120,7 @@ VALUES
   (
     'Burning Shield',
     'https://wiki.guildwars.com/images/2/2e/Burning_Shield_%28large%29.jpg',
+    true,
     'Skill. ({{Duration}} seconds.) Blocks the next attack skill against you. Inflicts Burning condition ({{BurningDuration}} second[s]) if it was a melee attack. No effect unless you are wielding a shield.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1087,6 +1141,7 @@ VALUES
   (
     'Cautery Signet',
     'https://wiki.guildwars.com/images/e/e9/Cautery_Signet_%28large%29.jpg',
+    true,
     'Elite Signet. All party members lose all conditions. You begin Burning (one second for each condition removed).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1107,6 +1162,7 @@ VALUES
   (
     'Chest Thumper',
     'https://wiki.guildwars.com/images/5/58/Chest_Thumper_%28large%29.jpg',
+    true,
     'Spear Attack. Inflicts Deep Wound condition ({{Duration}} seconds) if target foe has Cracked Armor.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1127,6 +1183,7 @@ VALUES
   (
     'Chorus of Restoration',
     'https://wiki.guildwars.com/images/3/32/Chorus_of_Restoration_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot are healed for {{Healing}} with their next shout or chant.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1147,6 +1204,7 @@ VALUES
   (
     'Crippling Anthem',
     'https://wiki.guildwars.com/images/4/48/Crippling_Anthem_%28large%29.jpg',
+    true,
     'Elite Chant. (10 seconds.) Allies in earshot inflict Crippled condition ({{CrippledDuration}} seconds) with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1167,6 +1225,7 @@ VALUES
   (
     'Cruel Spear',
     'https://wiki.guildwars.com/images/e/e7/Cruel_Spear_%28large%29.jpg',
+    true,
     'Elite Spear Attack. Deals +{{PlusDamage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target is not moving.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1187,6 +1246,7 @@ VALUES
   (
     'Defensive Anthem',
     'https://wiki.guildwars.com/images/f/f9/Defensive_Anthem_%28large%29.jpg',
+    true,
     'Elite Chant. ({{Duration}} seconds.) Party members in earshot have 50% chance to block. Ends when hitting with an attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1207,6 +1267,7 @@ VALUES
   (
     'Defensive Anthem (PvP)',
     'https://wiki.guildwars.com/images/f/f9/Defensive_Anthem_%28large%29.jpg',
+    true,
     'Elite Chant. ({{Duration}} seconds.) Party members in earshot have 50% chance to block. Ends when hitting with an attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1227,6 +1288,7 @@ VALUES
   (
     'Disrupting Throw',
     'https://wiki.guildwars.com/images/9/90/Disrupting_Throw_%28large%29.jpg',
+    true,
     'Spear Attack. Interrupts actions. No effect unless target has a condition.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1247,6 +1309,7 @@ VALUES
   (
     'Enduring Harmony',
     'https://wiki.guildwars.com/images/b/bf/Enduring_Harmony_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Chants and shouts last 50% longer on target ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1267,6 +1330,7 @@ VALUES
   (
     'Energizing Chorus',
     'https://wiki.guildwars.com/images/3/35/Energizing_Chorus_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) The next shout or chant costs {{EnergyReduction}} less Energy for allies within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1287,6 +1351,7 @@ VALUES
   (
     'Energizing Finale',
     'https://wiki.guildwars.com/images/b/bb/Energizing_Finale_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Target ally gains 1 Energy whenever a shout or chant ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1307,6 +1372,7 @@ VALUES
   (
     'Finale of Restoration',
     'https://wiki.guildwars.com/images/0/0b/Finale_of_Restoration_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Target ally gains [sic] {{HealthGain}} Health whenever a shout or chant ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1327,6 +1393,7 @@ VALUES
   (
     'Finale of Restoration (PvP)',
     'https://wiki.guildwars.com/images/0/0b/Finale_of_Restoration_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Target ally gains [sic] {{HealthGain}} Health the next 5 times a shout or chant ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1347,6 +1414,7 @@ VALUES
   (
     'Focused Anger',
     'https://wiki.guildwars.com/images/a/a0/Focused_Anger_%28large%29.jpg',
+    true,
     'Elite Skill. (45 seconds.) You gain {{PercentAdrenalineBonus}}% more adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1367,6 +1435,7 @@ VALUES
   (
     'Glowing Signet',
     'https://wiki.guildwars.com/images/e/e1/Glowing_Signet_%28large%29.jpg',
+    true,
     'Signet. You gain {{EnergyGain}} Energy if target foe is Burning.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1387,6 +1456,7 @@ VALUES
   (
     'Godspeed',
     'https://wiki.guildwars.com/images/5/57/Godspeed_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Allies in earshot move 25% faster while enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1407,6 +1477,7 @@ VALUES
   (
     'Harrier''s Toss',
     'https://wiki.guildwars.com/images/e/ec/Harrier%27s_Toss_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Deals {{BonusDamage}} more damage if target is moving.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1427,6 +1498,7 @@ VALUES
   (
     'Harrier''s Toss (PvP)',
     'https://wiki.guildwars.com/images/e/ec/Harrier%27s_Toss_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Deals {{BonusDamage}} more damage if target is moving.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1447,6 +1519,7 @@ VALUES
   (
     'Hasty Refrain',
     'https://wiki.guildwars.com/images/5/58/Hasty_Refrain_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Target ally moves 25% faster. Renewal: every time a chant or shout ends on this ally.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1466,7 +1539,8 @@ VALUES
   ),
   (
     'Heroic Refrain',
-    '',
+    'https://wiki.guildwars.com/images/6/6e/Heroic_Refrain.jpg',
+    false,
     'Elite Echo. ({{Duration}} seconds.) Target ally gains +{{AttributeBoost}} to all attributes. Renewal: every time a chant or shout ends on this ally. Cannot target spirits. PvE Skill',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1487,6 +1561,7 @@ VALUES
   (
     'Hexbreaker Aria',
     'https://wiki.guildwars.com/images/a/a8/Hexbreaker_Aria_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot lose one hex with their next spell.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1507,6 +1582,7 @@ VALUES
   (
     'Holy Spear',
     'https://wiki.guildwars.com/images/7/7b/Holy_Spear_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Deals {{HolyDamage}} holy damage and inflicts Burning condition (3 seconds) to nearby foes if you hit a summoned creature.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1527,6 +1603,7 @@ VALUES
   (
     'Inspirational Speech',
     'https://wiki.guildwars.com/images/c/c3/Inspirational_Speech_%28large%29.jpg',
+    true,
     'Skill. Target ally gains {{AdrenalineGain}} strike[s] of adrenaline. Cannot self-target. You lose all adrenaline.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1547,6 +1624,7 @@ VALUES
   (
     'Leader''s Comfort',
     'https://wiki.guildwars.com/images/b/b4/Leader%27s_Comfort_%28large%29.jpg',
+    true,
     'Skill. You gain {{HealthGain}} Health. You also gain {{BonusHealthPerAlly}} Health (maximum 140) for each ally in earshot.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1567,6 +1645,7 @@ VALUES
   (
     'Leader''s Zeal',
     'https://wiki.guildwars.com/images/f/f4/Leader%27s_Zeal_%28large%29.jpg',
+    true,
     'Skill. You gain 2 Energy (maximum {{MaximumEnergy}} Energy) for each nearby ally.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1587,6 +1666,7 @@ VALUES
   (
     'Lyric of Purification',
     'https://wiki.guildwars.com/images/1/18/Lyric_of_Purification_%28large%29.jpg',
+    true,
     'Chant. ({{Duration}} seconds.) Allies in earshot lose one condition with their next signet.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1607,6 +1687,7 @@ VALUES
   (
     'Lyric of Zeal',
     'https://wiki.guildwars.com/images/9/91/Lyric_of_Zeal_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot gain {{EnergyGain}} Energy with their next signet.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1627,6 +1708,7 @@ VALUES
   (
     'Maiming Spear',
     'https://wiki.guildwars.com/images/3/3a/Maiming_Spear_%28large%29.jpg',
+    true,
     'Spear Attack. Inflicts Crippled condition ({{Duration}} seconds) if target foe is Bleeding.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1647,6 +1729,7 @@ VALUES
   (
     'Mending Refrain',
     'https://wiki.guildwars.com/images/b/b9/Mending_Refrain_%28large%29.jpg',
+    true,
     'Echo. (15 seconds.) Target ally has +{{HealthRegeneration}} Health regeneration. Renewal: whenever a chant or shout ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1667,6 +1750,7 @@ VALUES
   (
     'Mending Refrain (PvP)',
     'https://wiki.guildwars.com/images/b/b9/Mending_Refrain_%28large%29.jpg',
+    true,
     'Echo. (15 seconds.) You have +{{HealthRegeneration}} Health regeneration. Renewal: whenever a chant or shout ends on you.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1687,6 +1771,7 @@ VALUES
   (
     'Merciless Spear',
     'https://wiki.guildwars.com/images/5/5e/Merciless_Spear_%28large%29.jpg',
+    true,
     'Spear Attack. Inflicts Deep Wound condition ({{Duration}} seconds). No effect unless target has less than 50% Health.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1707,6 +1792,7 @@ VALUES
   (
     'Mighty Throw',
     'https://wiki.guildwars.com/images/5/51/Mighty_Throw_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. This spear moves three times faster.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1727,6 +1813,7 @@ VALUES
   (
     'Natural Temper',
     'https://wiki.guildwars.com/images/7/70/Natural_Temper_%28large%29.jpg',
+    true,
     'Skill. ({{Duration}} seconds.) You gain 33% more adrenaline. No effect if you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1747,6 +1834,7 @@ VALUES
   (
     'Purifying Finale',
     'https://wiki.guildwars.com/images/1/1a/Purifying_Finale_%28large%29.jpg',
+    true,
     'Echo. ({{Duration}} seconds.) Target ally loses one condition whenever a chant or shout ends on that ally. Cannot target spirits.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1767,6 +1855,7 @@ VALUES
   (
     'Remedy Signet',
     'https://wiki.guildwars.com/images/5/5e/Remedy_Signet_%28large%29.jpg',
+    true,
     'Signet. You lose one condition.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1787,6 +1876,7 @@ VALUES
   (
     'Signet of Aggression',
     'https://wiki.guildwars.com/images/a/a6/Signet_of_Aggression_%28large%29.jpg',
+    true,
     'Signet. You gain 2 adrenaline if you are under the effects of a shout or chant.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1807,6 +1897,7 @@ VALUES
   (
     'Signet of Return',
     'https://wiki.guildwars.com/images/f/f9/Signet_of_Return_%28large%29.jpg',
+    true,
     'Signet. Resurrects target party member ({{PercentHealth}}% Health and {{PercentEnergy}}% Energy for each party member in earshot).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1827,6 +1918,7 @@ VALUES
   (
     'Signet of Return (PvP)',
     'https://wiki.guildwars.com/images/f/f9/Signet_of_Return_%28large%29.jpg',
+    true,
     'Signet. Resurrects target party member ({{PercentHealth}}% Health and {{PercentEnergy}}% Energy for each party member in earshot).',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1847,6 +1939,7 @@ VALUES
   (
     'Signet of Synergy',
     'https://wiki.guildwars.com/images/d/dc/Signet_of_Synergy_%28large%29.jpg',
+    true,
     'Signet. Heal target ally for {{Healing}}. You are also healed for {{Healing}} if you are not enchanted. Cannot self-target.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1867,6 +1960,7 @@ VALUES
   (
     'Slayer''s Spear',
     'https://wiki.guildwars.com/images/7/74/Slayer%27s_Spear_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target has more Health than you.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1887,6 +1981,7 @@ VALUES
   (
     'Soldier''s Fury',
     'https://wiki.guildwars.com/images/6/68/Soldier%27s_Fury_%28large%29.jpg',
+    true,
     'Elite Echo. ({{Duration}} seconds.) You attack 33% faster and gain 33% more adrenaline if under the effects of a shout or chant. You have -20 armor.',
     (SELECT id FROM skill_types WHERE name = 'Echo'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1907,6 +2002,7 @@ VALUES
   (
     'Song of Concentration',
     'https://wiki.guildwars.com/images/8/85/Song_of_Concentration_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot are uninterruptible with their next skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1927,6 +2023,7 @@ VALUES
   (
     'Song of Power',
     'https://wiki.guildwars.com/images/3/36/Song_of_Power_%28large%29.jpg',
+    true,
     'Chant. ({{Duration}} seconds.) Allies in earshot gain +4 Energy regeneration. Ends when using a skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1947,6 +2044,7 @@ VALUES
   (
     'Song of Purification',
     'https://wiki.guildwars.com/images/5/5f/Song_of_Purification_%28large%29.jpg',
+    true,
     'Elite Chant. (20 seconds.) Allies in earshot lose one condition with their next {{SkillsAffected}} skill[s].',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1967,6 +2065,7 @@ VALUES
   (
     'Song of Restoration',
     'https://wiki.guildwars.com/images/e/e2/Song_of_Restoration_%28large%29.jpg',
+    true,
     'Elite Chant. (10 seconds.) Party members in earshot gain {{HealthGain}} Health with their next skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -1987,6 +2086,7 @@ VALUES
   (
     'Song of Restoration (PvP)',
     'https://wiki.guildwars.com/images/e/e2/Song_of_Restoration_%28large%29.jpg',
+    true,
     'Elite Chant. (10 seconds.) Party members in earshot gain {{HealthGain}} Health with their next skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2007,6 +2107,7 @@ VALUES
   (
     'Spear Swipe',
     'https://wiki.guildwars.com/images/c/c9/Spear_Swipe_%28large%29.jpg',
+    true,
     'Spear Melee Attack. Deals +{{PlusDamage}} damage and inflicts Dazed condition ({{Duration}} seconds). This attack has melee range.',
     (SELECT id FROM skill_types WHERE name = 'Spear Melee Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2026,7 +2127,8 @@ VALUES
   ),
   (
     'Spear of Fury',
-    '',
+    'https://wiki.guildwars.com/images/b/be/Spear_of_Fury.jpg',
+    false,
     'Spear Attack. Deals +{{Damage}} damage. Gain {{AdrenalineGain}} strikes of adrenaline if you hit a foe with a condition.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2047,6 +2149,7 @@ VALUES
   (
     'Spear of Lightning',
     'https://wiki.guildwars.com/images/c/c9/Spear_of_Lightning_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{LightningDamage}} lightning damage. 25% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2067,6 +2170,7 @@ VALUES
   (
     'Spear of Redemption',
     'https://wiki.guildwars.com/images/d/d4/Spear_of_Redemption_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. If it fails to hit, you lose one condition.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2087,6 +2191,7 @@ VALUES
   (
     'Stunning Strike',
     'https://wiki.guildwars.com/images/1/1f/Stunning_Strike_%28large%29.jpg',
+    true,
     'Elite Spear Attack. Deals +{{PlusDamage}} damage. Inflicts Dazed condition ({{Duration}} seconds) if target has a condition.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2107,6 +2212,7 @@ VALUES
   (
     'Swift Javelin',
     'https://wiki.guildwars.com/images/8/82/Swift_Javelin_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. This spear moves twice as fast and is unblockable if you are enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2127,6 +2233,7 @@ VALUES
   (
     'Unblockable Throw',
     'https://wiki.guildwars.com/images/5/55/Unblockable_Throw_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2147,6 +2254,7 @@ VALUES
   (
     'Vicious Attack',
     'https://wiki.guildwars.com/images/1/1e/Vicious_Attack_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) with a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2167,6 +2275,7 @@ VALUES
   (
     'Wearying Spear',
     'https://wiki.guildwars.com/images/8/85/Wearying_Spear_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. You are Weakened (5 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2187,6 +2296,7 @@ VALUES
   (
     'Wild Throw',
     'https://wiki.guildwars.com/images/1/1f/Wild_Throw_%28large%29.jpg',
+    true,
     'Spear Attack. Deals +{{PlusDamage}} damage. Unblockable. Ends target''s stance.Disables [sic] your non-spear attack skills for 3 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Spear Attack'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2207,6 +2317,7 @@ VALUES
   (
     'Zealous Anthem',
     'https://wiki.guildwars.com/images/6/6e/Zealous_Anthem_%28large%29.jpg',
+    true,
     'Chant. (10 seconds.) Allies in earshot gain {{EnergyGain}} Energy with their next attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Chant'),
     (SELECT id FROM professions WHERE name = 'Paragon'),
@@ -2226,6 +2337,7 @@ VALUES
   )
 ON CONFLICT (name) DO UPDATE SET
   icon = EXCLUDED.icon,
+  is_high_res_icon = EXCLUDED.is_high_res_icon,
   description = EXCLUDED.description,
   skill_type_id = EXCLUDED.skill_type_id,
   profession_id = EXCLUDED.profession_id,

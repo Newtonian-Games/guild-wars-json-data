@@ -1,11 +1,12 @@
 -- Seed ranger skills
 -- Auto-generated from data/skills/ranger.json
--- Generated: 2025-11-17T07:36:05.786Z
+-- Generated: 2025-11-17T08:01:51.638Z
 -- Total skills: 159
 
 INSERT INTO skills (
   name,
   icon,
+  is_high_res_icon,
   description,
   skill_type_id,
   profession_id,
@@ -26,7 +27,8 @@ INSERT INTO skills (
 VALUES
   (
     '"Together as One!"',
-    '',
+    'https://wiki.guildwars.com/images/f/ff/%22Together_as_One%21%22.jpg',
+    false,
     'Elite Shout. ({{Duration}} seconds.) All party members near you or your pet deal +{{Damage}} damage [sic] and gain +{{Regeneration}} Health regeneration. PvE Skill',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -47,6 +49,7 @@ VALUES
   (
     'Antidote Signet',
     'https://wiki.guildwars.com/images/4/47/Antidote_Signet_%28large%29.jpg',
+    true,
     'Signet. Remove Poison, Disease, and Blindness from yourself, and one additional condition.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -67,6 +70,7 @@ VALUES
   (
     'Apply Poison',
     'https://wiki.guildwars.com/images/9/9f/Apply_Poison_%28large%29.jpg',
+    true,
     'Preparation. (24 seconds.) Your physical attacks inflict Poisoned condition ({{Duration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -87,6 +91,7 @@ VALUES
   (
     'Archer''s Signet',
     'https://wiki.guildwars.com/images/f/fb/Archer%27s_Signet_%28large%29.jpg',
+    true,
     'Elite Signet. ({{Duration}} second[s].) Conditions you apply while wielding a bow last 100% longer.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -107,6 +112,7 @@ VALUES
   (
     'Arcing Shot',
     'https://wiki.guildwars.com/images/7/77/Arcing_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Unblockable. This arrow moves 50% slower.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -127,6 +133,7 @@ VALUES
   (
     'Barbed Arrows',
     'https://wiki.guildwars.com/images/9/94/Barbed_Arrows_%28large%29.jpg',
+    true,
     'Preparation. (24 seconds.) Your arrows inflict Bleeding condition ({{BleedingDuration}} seconds). You have -40 armor while activating this skill.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -147,6 +154,7 @@ VALUES
   (
     'Barbed Trap',
     'https://wiki.guildwars.com/images/9/92/Barbed_Trap_%28large%29.jpg',
+    true,
     'Trap. (90 seconds.) Affects nearby foes. Deals {{PiercingDamage}} piercing damage. Inflicts Crippled and Bleeding conditions ({{CrippledAndBleedingDuration}} seconds). Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -167,6 +175,7 @@ VALUES
   (
     'Barrage',
     'https://wiki.guildwars.com/images/1/13/Barrage_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Deals +{{Damage}} damage. Hits 5 foes adjacent to your target. All your preparations are removed.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -187,6 +196,7 @@ VALUES
   (
     'Bestial Fury',
     'https://wiki.guildwars.com/images/5/5a/Bestial_Fury_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You attack 25% faster. Your non-attack skills are disabled (5 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -207,6 +217,7 @@ VALUES
   (
     'Bestial Mauling',
     'https://wiki.guildwars.com/images/e/e5/Bestial_Mauling_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Inflicts Dazed condition ({{DazedDuration}} seconds) if target foe is knocked-down.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -227,6 +238,7 @@ VALUES
   (
     'Bestial Pounce',
     'https://wiki.guildwars.com/images/b/b1/Bestial_Pounce_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Causes knock-down if target foe is casting a spell.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -247,6 +259,7 @@ VALUES
   (
     'Body Shot',
     'https://wiki.guildwars.com/images/b/b8/Body_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if target foe has Cracked Armor.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -267,6 +280,7 @@ VALUES
   (
     'Brambles',
     'https://wiki.guildwars.com/images/d/d3/Brambles_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Knocked-down creatures take 5 damage and begin Bleeding ({{BleedingDuration}} seconds). Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -287,6 +301,7 @@ VALUES
   (
     'Broad Head Arrow',
     'https://wiki.guildwars.com/images/3/35/Broad_Head_Arrow_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Slow moving arrow. Interrupts a spell. Inflicts Dazed condition ({{DazedDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -307,6 +322,7 @@ VALUES
   (
     'Brutal Strike',
     'https://wiki.guildwars.com/images/5/5e/Brutal_Strike_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Deals +{{Damage}} more damage if target foe is under 50% health.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -327,6 +343,7 @@ VALUES
   (
     'Burning Arrow',
     'https://wiki.guildwars.com/images/7/7e/Burning_Arrow_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Deals +{{Damage}} damage. Inflicts Burning condition ({{BurningDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -347,6 +364,7 @@ VALUES
   (
     'Call of Haste',
     'https://wiki.guildwars.com/images/c/c1/Call_of_Haste_%28large%29.jpg',
+    true,
     'Shout. (30 seconds.) Your pet moves and attacks 33% faster.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -367,6 +385,7 @@ VALUES
   (
     'Call of Haste (PvP)',
     'https://wiki.guildwars.com/images/c/c1/Call_of_Haste_%28large%29.jpg',
+    true,
     'Shout. (30 seconds.) Your pet moves and attacks 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -387,6 +406,7 @@ VALUES
   (
     'Call of Protection',
     'https://wiki.guildwars.com/images/a/af/Call_of_Protection_%28large%29.jpg',
+    true,
     'Shout. (120 seconds.) Your pet has {{DamageReduction}} damage reduction.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -407,6 +427,7 @@ VALUES
   (
     'Called Shot',
     'https://wiki.guildwars.com/images/7/79/Called_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. You shoot an arrow that moves 3 times faster. Unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -427,6 +448,7 @@ VALUES
   (
     'Charm Animal',
     'https://wiki.guildwars.com/images/1/12/Charm_Animal_%28large%29.jpg',
+    true,
     'Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -446,7 +468,8 @@ VALUES
   ),
   (
     'Charm Animal (Codex)',
-    '',
+    'https://wiki.guildwars.com/images/1/12/Charm_Animal_%28large%29.jpg',
+    true,
     'Skill. Your animal companion will travel with you whenever you have Charm Animal equipped. Failure unless Beast Mastery 8 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -467,6 +490,7 @@ VALUES
   (
     'Choking Gas',
     'https://wiki.guildwars.com/images/6/67/Choking_Gas_%28large%29.jpg',
+    true,
     'Preparation. ({{Duration}} seconds.) +{{Damage}} damage. Spreads Choking Gas to foes adjacent to target. Choking Gas interrupts spells.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -487,6 +511,7 @@ VALUES
   (
     'Comfort Animal',
     'https://wiki.guildwars.com/images/6/61/Comfort_Animal_%28large%29.jpg',
+    true,
     'Skill. Your pet gains {{Healing}} Health. Resurrects your pet ({{HealthPercent}}% Health.) If you have Comfort Animal equipped, your animal companion will travel with you.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -507,6 +532,7 @@ VALUES
   (
     'Comfort Animal (PvP)',
     'https://wiki.guildwars.com/images/6/61/Comfort_Animal_%28large%29.jpg',
+    true,
     'Skill. Your pet gains {{Healing}} Health. Resurrects your pet ({{HealthPercent}}% Health.)',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -527,6 +553,7 @@ VALUES
   (
     'Companionship',
     'https://wiki.guildwars.com/images/b/b7/Companionship_%28large%29.jpg',
+    true,
     'Skill. Heals you for {{Healing}} if you have less Health than your pet. Heals your pet for {{Healing}} if it has less Health than you.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -547,6 +574,7 @@ VALUES
   (
     'Concussion Shot',
     'https://wiki.guildwars.com/images/3/3f/Concussion_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Interrupts a spell. Interruption effect: inflicts Dazed condition ({{DazedDuration}} seconds). Hits for only {{ArmorignoringDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -567,6 +595,7 @@ VALUES
   (
     'Conflagration',
     'https://wiki.guildwars.com/images/8/80/Conflagration_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). All arrows deal fire damage for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -587,6 +616,7 @@ VALUES
   (
     'Crippling Shot',
     'https://wiki.guildwars.com/images/7/72/Crippling_Shot_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Unblockable. Inflicts Crippled condition ({{CrippleDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -607,6 +637,7 @@ VALUES
   (
     'Crossfire',
     'https://wiki.guildwars.com/images/f/f0/Crossfire_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Unblockable if target foe is near any of your allies.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -627,6 +658,7 @@ VALUES
   (
     'Debilitating Shot',
     'https://wiki.guildwars.com/images/9/9f/Debilitating_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Causes {{EnergyLoss}} Energy loss.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -647,6 +679,7 @@ VALUES
   (
     'Determined Shot',
     'https://wiki.guildwars.com/images/3/31/Determined_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Recharges your attack skills if it fails to hit.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -667,6 +700,7 @@ VALUES
   (
     'Disrupting Accuracy',
     'https://wiki.guildwars.com/images/4/4c/Disrupting_Accuracy_%28large%29.jpg',
+    true,
     'Preparation. (36 seconds.) Interrupts an action whenever your arrows critical.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -687,6 +721,7 @@ VALUES
   (
     'Disrupting Lunge',
     'https://wiki.guildwars.com/images/b/b2/Disrupting_Lunge_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Interrupts a skill. Interruption effect: interrupted skill is disabled for +20 seconds.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -707,6 +742,7 @@ VALUES
   (
     'Disrupting Shot',
     'https://wiki.guildwars.com/images/7/7d/Disrupting_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Interrupts an action. Interruption effect: +{{Damage}} damage if you interrupt a skill.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -727,6 +763,7 @@ VALUES
   (
     'Distracting Shot',
     'https://wiki.guildwars.com/images/5/57/Distracting_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Interrupts an action. Interruption effect: interrupted skill is disabled for +20 seconds. Hits for only {{ArmorignoringDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -747,6 +784,7 @@ VALUES
   (
     'Dodge',
     'https://wiki.guildwars.com/images/b/be/Dodge_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You move 33% faster and have {{BlockChancePercent}}% chance to block projectile attacks. Ends if you attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -767,6 +805,7 @@ VALUES
   (
     'Dryder''s Defenses',
     'https://wiki.guildwars.com/images/7/70/Dryder%27s_Defenses_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You have 75% chance to block and +{{Armor}} armor against elemental damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -787,6 +826,7 @@ VALUES
   (
     'Dual Shot',
     'https://wiki.guildwars.com/images/7/7f/Dual_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. You shoot two arrows simultaneously at target foe. These arrows deal 25% less damage',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -807,6 +847,7 @@ VALUES
   (
     'Dust Trap',
     'https://wiki.guildwars.com/images/0/0a/Dust_Trap_%28large%29.jpg',
+    true,
     'Trap. (90 seconds.) Affects nearby foes. Deals {{ArmorignoringDamage}} damage every second (5 seconds). Inflicts Blindness condition ({{BlindDuration}} seconds) every second (5 seconds). Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -827,6 +868,7 @@ VALUES
   (
     'Edge of Extinction',
     'https://wiki.guildwars.com/images/f/f9/Edge_of_Extinction_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{Duration}} second lifespan). Deals {{Damage}} damage to creatures in its range whenever a creature of the same type dies. Does not affect spirits. No damage to creatures above 90% Health.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -847,6 +889,7 @@ VALUES
   (
     'Energizing Wind',
     'https://wiki.guildwars.com/images/9/98/Energizing_Wind_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second[s] lifespan). Skills cost 15 less energy (minimum cost 10 energy) and recharge 25% slower for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -867,6 +910,7 @@ VALUES
   (
     'Enraged Lunge',
     'https://wiki.guildwars.com/images/a/ab/Enraged_Lunge_%28large%29.jpg',
+    true,
     'Elite Pet Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) and deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -887,6 +931,7 @@ VALUES
   (
     'Enraged Lunge (PvP)',
     'https://wiki.guildwars.com/images/a/ab/Enraged_Lunge_%28large%29.jpg',
+    true,
     'Elite Pet Attack. Deals +{{Damage}} damage (maximum 80) for each of your recharging Beast Mastery skills.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -907,6 +952,7 @@ VALUES
   (
     'Equinox',
     'https://wiki.guildwars.com/images/5/54/Equinox_%28large%29.jpg',
+    true,
     'Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Overcast-causing spells cast within range cause an additional 10 Overcast.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -927,6 +973,7 @@ VALUES
   (
     'Escape',
     'https://wiki.guildwars.com/images/d/db/Escape_%28large%29.jpg',
+    true,
     'Elite Stance. ({{Duration}} second[s].) You move 33% faster and have 75% chance to block.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -947,6 +994,7 @@ VALUES
   (
     'Escape (PvP)',
     'https://wiki.guildwars.com/images/d/db/Escape_%28large%29.jpg',
+    true,
     'Elite Stance. ({{Duration}} second[s].) You move 33% faster and have 75% chance to block. Ends if you make a melee attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -967,6 +1015,7 @@ VALUES
   (
     'Expert Focus',
     'https://wiki.guildwars.com/images/8/84/Expert_Focus_%28large%29.jpg',
+    true,
     'Preparation. (24 seconds.) Your bow attack skills cost {{LessEnergyCost}} less Energy and do +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -987,6 +1036,7 @@ VALUES
   (
     'Expert''s Dexterity',
     'https://wiki.guildwars.com/images/1/19/Expert%27s_Dexterity_%28large%29.jpg',
+    true,
     'Elite Stance. ({{Duration}} second[s].) You attack 33% faster and you gain +2 to your Marksmanship attribute.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1007,6 +1057,7 @@ VALUES
   (
     'Expert''s Dexterity (PvP)',
     'https://wiki.guildwars.com/images/1/19/Expert%27s_Dexterity_%28large%29.jpg',
+    true,
     'Elite Stance. ({{Duration}} second[s].) You attack 15% faster and you gain +1 to your Marksmanship attribute.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1027,6 +1078,7 @@ VALUES
   (
     'Famine',
     'https://wiki.guildwars.com/images/0/0b/Famine_%28large%29.jpg',
+    true,
     'Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} lifespan). Deals {{Damage}} damage to creatures in range that reach 0 energy. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1047,6 +1099,7 @@ VALUES
   (
     'Favorable Winds',
     'https://wiki.guildwars.com/images/f/f7/Favorable_Winds_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Arrows move twice as fast and hit for +6 damage for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1067,6 +1120,7 @@ VALUES
   (
     'Feral Aggression',
     'https://wiki.guildwars.com/images/7/74/Feral_Aggression_%28large%29.jpg',
+    true,
     'Skill. ({{Duration}} seconds.) Your pet attacks 33% faster and deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1087,6 +1141,7 @@ VALUES
   (
     'Feral Lunge',
     'https://wiki.guildwars.com/images/f/fd/Feral_Lunge_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition if target foe is attacking ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1107,6 +1162,7 @@ VALUES
   (
     'Ferocious Strike',
     'https://wiki.guildwars.com/images/7/74/Ferocious_Strike_%28large%29.jpg',
+    true,
     'Elite Pet Attack. Deals +{{Damage}} damage. You gain adrenaline and {{EnergyGain}} energy.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1127,6 +1183,7 @@ VALUES
   (
     'Fertile Season',
     'https://wiki.guildwars.com/images/6/68/Fertile_Season_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures in range have +{{MaxHealth}} maximum health and +8 armor. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1147,6 +1204,7 @@ VALUES
   (
     'Flame Trap',
     'https://wiki.guildwars.com/images/4/49/Flame_Trap_%28large%29.jpg',
+    true,
     'Trap. (90 seconds.) Affects nearby foes. Deals {{FireDamage}} fire damage every second (3 seconds). Inflicts Burning condition ({{BurningDuration}} second[s]). Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1167,6 +1225,7 @@ VALUES
   (
     'Focused Shot',
     'https://wiki.guildwars.com/images/8/8b/Focused_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Your other attack skills are disabled ({{Duration}} seconds) if this attack hits.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1187,6 +1246,7 @@ VALUES
   (
     'Forked Arrow',
     'https://wiki.guildwars.com/images/e/eb/Forked_Arrow_%28large%29.jpg',
+    true,
     'Bow Attack. You shoot two arrows simultaneously. Shoot only one arrow if you are enchanted or hexed.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1207,6 +1267,7 @@ VALUES
   (
     'Frozen Soil',
     'https://wiki.guildwars.com/images/1/1b/Frozen_Soil_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit. ({{Duration}} second lifespan). Creatures in range cannot activate resurrection skills. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1227,6 +1288,7 @@ VALUES
   (
     'Glass Arrows',
     'https://wiki.guildwars.com/images/8/81/Glass_Arrows_%28large%29.jpg',
+    true,
     'Elite Preparation. ({{Duration}} seconds.) Your arrows deal +{{Damage}} damage. Inflicts Bleeding condition if blocked ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1247,6 +1309,7 @@ VALUES
   (
     'Glass Arrows (PvP)',
     'https://wiki.guildwars.com/images/8/81/Glass_Arrows_%28large%29.jpg',
+    true,
     'Elite Preparation. ({{Duration}} seconds.) Your arrows deal +{{Damage}} damage. Inflicts Bleeding condition if blocked ({{BleedingDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1267,6 +1330,7 @@ VALUES
   (
     'Greater Conflagration',
     'https://wiki.guildwars.com/images/3/3a/Greater_Conflagration_%28large%29.jpg',
+    true,
     'Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Converts physical damage to fire damage for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1287,6 +1351,7 @@ VALUES
   (
     'Heal as One',
     'https://wiki.guildwars.com/images/5/50/Heal_as_One_%28large%29.jpg',
+    true,
     'Elite Skill. (15 seconds.) Your pet''s attacks steal {{LifeStealing}} Health. Initial effect: heals you and your pet for {{Healing}}; resurrects your pet (50% Health) if dead. If you have this equipped, your pet will travel with you.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1307,6 +1372,7 @@ VALUES
   (
     'Heal as One (PvP)',
     'https://wiki.guildwars.com/images/5/50/Heal_as_One_%28large%29.jpg',
+    true,
     'Elite Skill. Heals you and your pet for {{Healing}}. If your pet is dead, it is resurrected with 50% Health. No effect if neither you nor your pet are below 75% Health.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1327,6 +1393,7 @@ VALUES
   (
     'Healing Spring',
     'https://wiki.guildwars.com/images/5/5b/Healing_Spring_%28large%29.jpg',
+    true,
     'Trap. (10 seconds.) Affects adjacent allies. Heals for {{Healing}} every 2 seconds. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1347,6 +1414,7 @@ VALUES
   (
     'Heket''s Rampage',
     'https://wiki.guildwars.com/images/c/c8/Heket%27s_Rampage_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds). You attack 33% faster. Ends if you use an attack skill.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1367,6 +1435,7 @@ VALUES
   (
     'Hunter''s Shot',
     'https://wiki.guildwars.com/images/3/33/Hunter%27s_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if your target is hit.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1387,6 +1456,7 @@ VALUES
   (
     'Ignite Arrows',
     'https://wiki.guildwars.com/images/5/52/Ignite_Arrows_%28large%29.jpg',
+    true,
     'Preparation. (24 seconds.) Your arrows deal {{FireDamage}} fire damage to target and foes adjacent to target.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1407,6 +1477,7 @@ VALUES
   (
     'Incendiary Arrows',
     'https://wiki.guildwars.com/images/3/37/Incendiary_Arrows_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Hits 2 foes near your target and inflicts burning ({{BurningDuration}} second[s]).',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1427,6 +1498,7 @@ VALUES
   (
     'Infuriating Heat',
     'https://wiki.guildwars.com/images/a/ab/Infuriating_Heat_%28large%29.jpg',
+    true,
     'Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Doubles adrenaline gain for creatures in range.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1447,6 +1519,7 @@ VALUES
   (
     'Keen Arrow',
     'https://wiki.guildwars.com/images/e/e4/Keen_Arrow_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Deals +{{DamageWhenCritical}} more damage if you land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1467,6 +1540,7 @@ VALUES
   (
     'Keen Arrow (PvP)',
     'https://wiki.guildwars.com/images/e/e4/Keen_Arrow_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Deals +{{DamageWhenCritical}} more damage if you land a critical hit.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1487,6 +1561,7 @@ VALUES
   (
     'Kindle Arrows',
     'https://wiki.guildwars.com/images/7/7b/Kindle_Arrows_%28large%29.jpg',
+    true,
     'Preparation. (24 seconds.) +{{FireDamage}} fire damage. Your arrows deal fire damage.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1507,6 +1582,7 @@ VALUES
   (
     'Lacerate',
     'https://wiki.guildwars.com/images/6/63/Lacerate_%28large%29.jpg',
+    true,
     'Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Bleeding creatures in range have -2 Health degeneration. End effect: Inflicts Bleeding condition ({{BleedingDuration}} seconds) on creatures in range that have less than 90% health. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1527,6 +1603,7 @@ VALUES
   (
     'Lightning Reflexes',
     'https://wiki.guildwars.com/images/c/c5/Lightning_Reflexes_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You attack 33% faster and have 75% chance to block.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1547,6 +1624,7 @@ VALUES
   (
     'Lightning Reflexes (PvP)',
     'https://wiki.guildwars.com/images/c/c5/Lightning_Reflexes_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You attack 33% faster and have 75% chance to block.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1567,6 +1645,7 @@ VALUES
   (
     'Magebane Shot',
     'https://wiki.guildwars.com/images/5/54/Magebane_Shot_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Interrupts an action. Interruption effect: an interrupted spell is disabled for +10 seconds. Unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1587,6 +1666,7 @@ VALUES
   (
     'Maiming Strike',
     'https://wiki.guildwars.com/images/f/fa/Maiming_Strike_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Inflicts Crippled condition ({{CrippledDuration}} seconds) if target foe is moving.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1607,6 +1687,7 @@ VALUES
   (
     'Marauder''s Shot',
     'https://wiki.guildwars.com/images/5/5d/Marauder%27s_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Your non-attack skills are disabled (10 seconds) if this attack hits.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1627,6 +1708,7 @@ VALUES
   (
     'Marksman''s Wager',
     'https://wiki.guildwars.com/images/f/f4/Marksman%27s_Wager_%28large%29.jpg',
+    true,
     'Elite Preparation. (18 seconds.) Gain {{EnergyGain}} Energy whenever your arrows hit. Lose 10 Energy whenever your arrows fail to hit.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1647,6 +1729,7 @@ VALUES
   (
     'Melandru''s Arrows',
     'https://wiki.guildwars.com/images/5/5b/Melandru%27s_Arrows_%28large%29.jpg',
+    true,
     'Elite Preparation. (18 seconds.) Your arrows inflict Bleeding condition ({{BleedingDuration}} seconds) and deal +{{Damage}} damage to enchanted foes.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1667,6 +1750,7 @@ VALUES
   (
     'Melandru''s Assault',
     'https://wiki.guildwars.com/images/1/11/Melandru%27s_Assault_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{ArmorignoringDamage}} damage to nearby foes.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1687,6 +1771,7 @@ VALUES
   (
     'Melandru''s Assault (PvP)',
     'https://wiki.guildwars.com/images/1/11/Melandru%27s_Assault_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Deals +{{DamageEnchantedFoe}} more damage to target and foes adjacent to target if this foe is enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1707,6 +1792,7 @@ VALUES
   (
     'Melandru''s Resilience',
     'https://wiki.guildwars.com/images/6/6d/Melandru%27s_Resilience_%28large%29.jpg',
+    true,
     'Elite Stance. ({{Duration}} seconds.) You have +4 Health regeneration and +1 Energy regeneration for each condition and hex on you.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1727,6 +1813,7 @@ VALUES
   (
     'Melandru''s Shot',
     'https://wiki.guildwars.com/images/5/53/Melandru%27s_Shot_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Inflicts Bleeding ({{BleedingDuration}} seconds). Deals +{{Damage}} damage and inflicts Crippled ({{CrippledDuration}} seconds) if target foe was moving or knocked down.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1747,6 +1834,7 @@ VALUES
   (
     'Muddy Terrain',
     'https://wiki.guildwars.com/images/a/a0/Muddy_Terrain_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures in range have 10% slower movement: also negates speed boosts. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1767,6 +1855,7 @@ VALUES
   (
     'Natural Stride',
     'https://wiki.guildwars.com/images/5/59/Natural_Stride_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} second[s].) You move 33% faster and have 50% chance to block. Ends if you become hexed or enchanted.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1787,6 +1876,7 @@ VALUES
   (
     'Nature''s Renewal',
     'https://wiki.guildwars.com/images/1/12/Nature%27s_Renewal_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). For creatures in range, enchantments and Hexes [sic] take twice as long to cast and it costs twice as much Energy to maintain enchantments. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1807,6 +1897,7 @@ VALUES
   (
     'Needling Shot',
     'https://wiki.guildwars.com/images/d/d4/Needling_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Fast-moving arrow. Deals {{ArmorignoringDamage}} damage. Recharges instantly if target foe is below 50% Health. Your other attack skills are disabled (2 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1826,7 +1917,8 @@ VALUES
   ),
   (
     'Never Rampage Alone',
-    '',
+    'https://wiki.guildwars.com/images/d/d1/Never_Rampage_Alone.jpg',
+    false,
     'Skill. ({{Duration}} seconds.) You and your pet attack 25% faster and have +{{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1847,6 +1939,7 @@ VALUES
   (
     'Oath Shot',
     'https://wiki.guildwars.com/images/5/55/Oath_Shot_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Recharges all skills except Oath Shot if it hits. Disables all skills if it misses ({{DisableDuration}} seconds). 50% miss chance unless Expertise 8 or higher.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1867,6 +1960,7 @@ VALUES
   (
     'Otyugh''s Cry',
     'https://wiki.guildwars.com/images/2/2e/Otyugh%27s_Cry_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Your pet has +24 armor and is unblockable.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1887,6 +1981,7 @@ VALUES
   (
     'Penetrating Attack',
     'https://wiki.guildwars.com/images/3/31/Penetrating_Attack_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1907,6 +2002,7 @@ VALUES
   (
     'Penetrating Attack (PvP)',
     'https://wiki.guildwars.com/images/3/31/Penetrating_Attack_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1927,6 +2023,7 @@ VALUES
   (
     'Pestilence',
     'https://wiki.guildwars.com/images/e/e2/Pestilence_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). When any creature in range dies, conditions on this creature spread to any creature in the area with a condition. Spirits are not affected.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1947,6 +2044,7 @@ VALUES
   (
     'Piercing Trap',
     'https://wiki.guildwars.com/images/9/91/Piercing_Trap_%28large%29.jpg',
+    true,
     'Trap. (90 seconds.) Affects nearby foes. Deals {{PiercingDamage}} piercing damage. Deals {{AdditionalDamage}} more damage to any foes with Cracked Armor. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1967,6 +2065,7 @@ VALUES
   (
     'Pin Down',
     'https://wiki.guildwars.com/images/c/c8/Pin_Down_%28large%29.jpg',
+    true,
     'Bow Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -1987,6 +2086,7 @@ VALUES
   (
     'Point Blank Shot',
     'https://wiki.guildwars.com/images/a/a2/Point_Blank_Shot_%28large%29.jpg',
+    true,
     'Half Range Bow Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2007,6 +2107,7 @@ VALUES
   (
     'Poison Arrow',
     'https://wiki.guildwars.com/images/4/40/Poison_Arrow_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Inflicts Poisoned condition. ({{PoisonDuration}})',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2027,6 +2128,7 @@ VALUES
   (
     'Poison Tip Signet',
     'https://wiki.guildwars.com/images/f/fe/Poison_Tip_Signet_%28large%29.jpg',
+    true,
     'Signet. (60 seconds.) Inflicts Poisoned condition ({{PoisonDuration}} seconds) with your next attack.',
     (SELECT id FROM skill_types WHERE name = 'Signet'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2047,6 +2149,7 @@ VALUES
   (
     'Poisonous Bite',
     'https://wiki.guildwars.com/images/9/9a/Poisonous_Bite_%28large%29.jpg',
+    true,
     'Pet Attack. Inflicts Poisoned condition ({{PoisonDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2067,6 +2170,7 @@ VALUES
   (
     'Pounce',
     'https://wiki.guildwars.com/images/f/fe/Pounce_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Causes knock-down if target foe is moving.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2087,6 +2191,7 @@ VALUES
   (
     'Power Shot',
     'https://wiki.guildwars.com/images/e/e4/Power_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Target foe takes {{ArmorignoringDamage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2107,6 +2212,7 @@ VALUES
   (
     'Practiced Stance',
     'https://wiki.guildwars.com/images/d/d6/Practiced_Stance_%28large%29.jpg',
+    true,
     'Elite Stance. ({{Duration}} seconds.) Your preparations recharge 50% faster and last {{LongerPreparationsPercent}}% longer.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2127,6 +2233,7 @@ VALUES
   (
     'Precision Shot',
     'https://wiki.guildwars.com/images/a/a8/Precision_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Unblockable. Easily Interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2147,6 +2254,7 @@ VALUES
   (
     'Predator''s Pounce',
     'https://wiki.guildwars.com/images/c/c0/Predator%27s_Pounce_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Your pet gains {{HealthGain}} Health if this attack hits.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2167,6 +2275,7 @@ VALUES
   (
     'Predatory Bond',
     'https://wiki.guildwars.com/images/2/2f/Predatory_Bond_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Your pet attacks 25% faster and you gain {{Healing}} Health whenever your pet makes a successful attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2187,6 +2296,7 @@ VALUES
   (
     'Predatory Bond (PvP)',
     'https://wiki.guildwars.com/images/2/2f/Predatory_Bond_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) You gain {{Healing}} Health whenever your pet makes a successful attack.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2207,6 +2317,7 @@ VALUES
   (
     'Predatory Season',
     'https://wiki.guildwars.com/images/3/38/Predatory_Season_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures in range receive 20% less from healing. Creatures gain 5 health each time they hit with an attack. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2227,6 +2338,7 @@ VALUES
   (
     'Prepared Shot',
     'https://wiki.guildwars.com/images/d/d5/Prepared_Shot_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Deals +{{Damage}} damage. You gain {{EnergyGain}} Energy if you have a preparation active.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2247,6 +2359,7 @@ VALUES
   (
     'Primal Echoes',
     'https://wiki.guildwars.com/images/1/16/Primal_Echoes_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Signets cost 10 energy for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2267,6 +2380,7 @@ VALUES
   (
     'Punishing Shot',
     'https://wiki.guildwars.com/images/d/d0/Punishing_Shot_%28large%29.jpg',
+    true,
     'Elite Bow Attack. Deals +{{Damage}} damage. Interrupts an action.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2287,6 +2401,7 @@ VALUES
   (
     'Quick Shot',
     'https://wiki.guildwars.com/images/a/af/Quick_Shot_%28large%29.jpg',
+    true,
     'Elite Bow Attack. You shoot an arrow that moves twice as fast.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2307,6 +2422,7 @@ VALUES
   (
     'Quickening Zephyr',
     'https://wiki.guildwars.com/images/0/02/Quickening_Zephyr_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{Duration}} second lifespan). Skills cost 30% more Energy and recharge twice as fast for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2327,6 +2443,7 @@ VALUES
   (
     'Quicksand',
     'https://wiki.guildwars.com/images/8/8b/Quicksand_%28large%29.jpg',
+    true,
     'Elite Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Creatures lose 1 Energy each time they attack or use a skill. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2347,6 +2464,7 @@ VALUES
   (
     'Rampage as One',
     'https://wiki.guildwars.com/images/5/5a/Rampage_as_One_%28large%29.jpg',
+    true,
     'Elite Skill. ({{Duration}} seconds.) You and your pet attack 33% faster and move 25% faster. No effect unless your pet is alive.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2367,6 +2485,7 @@ VALUES
   (
     'Rapid Fire',
     'https://wiki.guildwars.com/images/b/b5/Rapid_Fire_%28large%29.jpg',
+    true,
     'Preparation. ({{Duration}} seconds.) You attack 33% faster while wielding a bow.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2387,6 +2506,7 @@ VALUES
   (
     'Read the Wind',
     'https://wiki.guildwars.com/images/8/8b/Read_the_Wind_%28large%29.jpg',
+    true,
     'Preparation. (24 seconds). +{{Damage}} damage. Your arrows move twice as fast.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2407,6 +2527,7 @@ VALUES
   (
     'Read the Wind (PvP)',
     'https://wiki.guildwars.com/images/8/8b/Read_the_Wind_%28large%29.jpg',
+    true,
     'Preparation. (24 seconds). Your arrows move twice as fast.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2427,6 +2548,7 @@ VALUES
   (
     'Revive Animal',
     'https://wiki.guildwars.com/images/0/07/Revive_Animal_%28large%29.jpg',
+    true,
     'Skill. Resurrects all nearby allied pets ({{PercentHealth}}% Health).',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2447,6 +2569,7 @@ VALUES
   (
     'Roaring Winds',
     'https://wiki.guildwars.com/images/d/da/Roaring_Winds_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Chants and shouts cost {{IncreasedEnergyCost}} more Energy for creatures in range.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2467,6 +2590,7 @@ VALUES
   (
     'Run as One',
     'https://wiki.guildwars.com/images/8/83/Run_as_One_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You and your pet move 25% faster.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2487,6 +2611,7 @@ VALUES
   (
     'Savage Pounce',
     'https://wiki.guildwars.com/images/d/d6/Savage_Pounce_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. Causes knock-down if target foe is casting a spell.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2507,6 +2632,7 @@ VALUES
   (
     'Savage Shot',
     'https://wiki.guildwars.com/images/2/28/Savage_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Interrupts an action. Interruption effect: deals +{{Damage}} damage if action was a spell.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2527,6 +2653,7 @@ VALUES
   (
     'Scavenger Strike',
     'https://wiki.guildwars.com/images/f/ff/Scavenger_Strike_%28large%29.jpg',
+    true,
     'Pet Attack. Deals +{{Damage}} damage. You gain {{EnergyGained}} Energy if target foe has a condition.',
     (SELECT id FROM skill_types WHERE name = 'Pet Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2547,6 +2674,7 @@ VALUES
   (
     'Scavenger''s Focus',
     'https://wiki.guildwars.com/images/7/7f/Scavenger%27s_Focus_%28large%29.jpg',
+    true,
     'Elite Skill. (10 seconds). You gain {{EnergyGain}} Energy if you strike a foe who has a condition.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2567,6 +2695,7 @@ VALUES
   (
     'Screaming Shot',
     'https://wiki.guildwars.com/images/b/bf/Screaming_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe is within earshot.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2587,6 +2716,7 @@ VALUES
   (
     'Seeking Arrows',
     'https://wiki.guildwars.com/images/8/83/Seeking_Arrows_%28large%29.jpg',
+    true,
     'Preparation. ({{Duration}} seconds.) Your arrows are unblockable. Ends if you fail to hit.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2607,6 +2737,7 @@ VALUES
   (
     'Serpent''s Quickness',
     'https://wiki.guildwars.com/images/8/8d/Serpent%27s_Quickness_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) Your skills recharge 33% faster. Ends if your Health drops below 50%.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2627,6 +2758,7 @@ VALUES
   (
     'Sloth Hunter''s Shot',
     'https://wiki.guildwars.com/images/f/f7/Sloth_Hunter%27s_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Deals +{{BonusDamage}} more damage if target foe is not using a skill.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2647,6 +2779,7 @@ VALUES
   (
     'Sloth Hunter''s Shot (PvP)',
     'https://wiki.guildwars.com/images/f/f7/Sloth_Hunter%27s_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Deals +{{BonusDamage}} more damage if target foe is not using a skill.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2667,6 +2800,7 @@ VALUES
   (
     'Smoke Trap',
     'https://wiki.guildwars.com/images/1/18/Smoke_Trap_%28large%29.jpg',
+    true,
     'Elite Trap. (90 seconds.) Inflicts Blinded and Dazed conditions ({{BlindAndDazedDuration}} seconds) to nearby foes. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2687,6 +2821,7 @@ VALUES
   (
     'Snare',
     'https://wiki.guildwars.com/images/6/67/Snare_%28large%29.jpg',
+    true,
     'Trap. (90 seconds.) Affects nearby foes. Inflicts Crippled condition ({{CrippledDuration}} seconds). Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2707,6 +2842,7 @@ VALUES
   (
     'Spike Trap',
     'https://wiki.guildwars.com/images/5/5c/Spike_Trap_%28large%29.jpg',
+    true,
     'Elite Trap. (90 seconds.) Affects nearby foes. Every second, (for 2 seconds), this trap deals {{Damage}} piercing damage, causes knockdown, and inflicts Crippled condition ({{CrippledDuration}} seconds). Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2727,6 +2863,7 @@ VALUES
   (
     'Splinter Shot',
     'https://wiki.guildwars.com/images/d/dc/Splinter_Shot_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Deals {{AdjacentDamage}} damage to adjacent foes if blocked.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2747,6 +2884,7 @@ VALUES
   (
     'Storm Chaser',
     'https://wiki.guildwars.com/images/1/15/Storm_Chaser_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You move 25% faster and gain {{EnergyGain}} Energy whenever you take elemental damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2767,6 +2905,7 @@ VALUES
   (
     'Storm''s Embrace',
     'https://wiki.guildwars.com/images/0/04/Storm%27s_Embrace_%28large%29.jpg',
+    true,
     'Stance. (10 seconds.) You move 25% faster. Renewal: whenever you take elemental damage.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2787,6 +2926,7 @@ VALUES
   (
     'Strike as One',
     'https://wiki.guildwars.com/images/7/73/Strike_as_One_%28large%29.jpg',
+    true,
     'Elite Shout. Your animal companion instantly moves to your target and inflicts Bleeding ({{BleedingDuration}} seconds) with its next attack. The next time you hit with an attack, you inflict Crippled condition ({{CrippledDuration}} seconds).',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2807,6 +2947,7 @@ VALUES
   (
     'Sundering Attack',
     'https://wiki.guildwars.com/images/1/12/Sundering_Attack_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2827,6 +2968,7 @@ VALUES
   (
     'Sundering Attack (PvP)',
     'https://wiki.guildwars.com/images/1/12/Sundering_Attack_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. 10% armor penetration.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2847,6 +2989,7 @@ VALUES
   (
     'Symbiosis',
     'https://wiki.guildwars.com/images/5/5b/Symbiosis_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{Duration}} second lifespan). Creatures in range have +{{MaxHealth}} maximum health for each enchantment on them. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2867,6 +3010,7 @@ VALUES
   (
     'Symbiotic Bond',
     'https://wiki.guildwars.com/images/8/8c/Symbiotic_Bond_%28large%29.jpg',
+    true,
     'Shout. ({{Duration}} seconds.) Your pet has +{{HealthRegeneration}} Health regeneration. Half of all damage dealt to your pet is redirected to you.',
     (SELECT id FROM skill_types WHERE name = 'Shout'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2887,6 +3031,7 @@ VALUES
   (
     'Throw Dirt',
     'https://wiki.guildwars.com/images/d/da/Throw_Dirt_%28large%29.jpg',
+    true,
     'Touch Skill. Inflicts Blindness condition ({{BlindDuration}} seconds). Also affects foes adjacent to target foe.',
     (SELECT id FROM skill_types WHERE name = 'Touch Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2907,6 +3052,7 @@ VALUES
   (
     'Tiger''s Fury',
     'https://wiki.guildwars.com/images/5/5a/Bestial_Fury_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You attack 25% faster. Disables your non-attack skills (5 seconds).',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2927,6 +3073,7 @@ VALUES
   (
     'Toxicity',
     'https://wiki.guildwars.com/images/c/c3/Toxicity_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan.) Poisoned or Diseased creatures within range have -2 Health degeneration.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2947,6 +3094,7 @@ VALUES
   (
     'Tranquility',
     'https://wiki.guildwars.com/images/5/55/Tranquility_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Enchantments expire {{EnchantmentExpirationPercent}}% faster on creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2967,6 +3115,7 @@ VALUES
   (
     'Trapper''s Focus',
     'https://wiki.guildwars.com/images/3/3d/Trapper%27s_Focus_%28large%29.jpg',
+    true,
     'Elite Preparation. ({{Duration}} seconds.) Your trap skills are no longer easy to interrupt. You gain +{{AttributeBonus}} to your Wilderness Survival attribute.',
     (SELECT id FROM skill_types WHERE name = 'Preparation'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -2987,6 +3136,7 @@ VALUES
   (
     'Trapper''s Speed',
     'https://wiki.guildwars.com/images/1/1c/Trapper%27s_Speed_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) Your traps recharge 25% faster and activate 25% faster. Ends if you hit with an attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3006,7 +3156,8 @@ VALUES
   ),
   (
     'Triple Shot',
-    '',
+    'https://wiki.guildwars.com/images/f/f0/Triple_Shot.jpg',
+    false,
     'Bow Attack. Shoot 3 arrows simultaneously at target foe. These arrows deal {{PercentDamageReduction}}% less damage',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3027,6 +3178,7 @@ VALUES
   (
     'Tripwire',
     'https://wiki.guildwars.com/images/d/d2/Tripwire_%28large%29.jpg',
+    true,
     'Trap. (90 seconds.) Deals {{PiercingDamage}} piercing damage to nearby foes. Causes knock-down to Crippled foes. Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3047,6 +3199,7 @@ VALUES
   (
     'Troll Unguent',
     'https://wiki.guildwars.com/images/d/d3/Troll_Unguent_%28large%29.jpg',
+    true,
     'Skill. (13 seconds.) You have +{{HealthRegeneration}} Health regeneration.',
     (SELECT id FROM skill_types WHERE name = 'Skill'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3067,6 +3220,7 @@ VALUES
   (
     'Viper''s Nest',
     'https://wiki.guildwars.com/images/c/c5/Viper%27s_Nest_%28large%29.jpg',
+    true,
     'Trap. (90 seconds.) Affects nearby foes. Deals {{PiercingDamage}} piercing damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds). Easily interrupted.',
     (SELECT id FROM skill_types WHERE name = 'Trap'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3087,6 +3241,7 @@ VALUES
   (
     'Volley',
     'https://wiki.guildwars.com/images/8/8e/Volley_%28large%29.jpg',
+    true,
     'Bow Attack. Deals +{{Damage}} damage. Hits up to 3 foes adjacent to your target. All your preparations are removed.',
     (SELECT id FROM skill_types WHERE name = 'Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3107,6 +3262,7 @@ VALUES
   (
     'Whirling Defense',
     'https://wiki.guildwars.com/images/d/d4/Whirling_Defense_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You have 75% chance to block. Deals {{Damage}} damage to adjacent foes whenever you block a projectile attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3127,6 +3283,7 @@ VALUES
   (
     'Winnowing',
     'https://wiki.guildwars.com/images/5/5a/Winnowing_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Increases physical damage by +4 for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3147,6 +3304,7 @@ VALUES
   (
     'Winter',
     'https://wiki.guildwars.com/images/e/e1/Winter_%28large%29.jpg',
+    true,
     'Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Converts elemental damage to cold damage for creatures in range. Does not affect spirits.',
     (SELECT id FROM skill_types WHERE name = 'Nature Ritual'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3167,6 +3325,7 @@ VALUES
   (
     'Zojun''s Haste',
     'https://wiki.guildwars.com/images/b/bd/Zojun%27s_Haste_%28large%29.jpg',
+    true,
     'Stance. ({{Duration}} seconds.) You move 33% faster and have {{BlockChancePercent}}% chance to block projectiles. Ends if you attack.',
     (SELECT id FROM skill_types WHERE name = 'Stance'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3187,6 +3346,7 @@ VALUES
   (
     'Zojun''s Shot',
     'https://wiki.guildwars.com/images/a/a4/Zojun%27s_Shot_%28large%29.jpg',
+    true,
     'Half Range Bow Attack. Deals +{{Damage}} damage.',
     (SELECT id FROM skill_types WHERE name = 'Half Range Bow Attack'),
     (SELECT id FROM professions WHERE name = 'Ranger'),
@@ -3206,6 +3366,7 @@ VALUES
   )
 ON CONFLICT (name) DO UPDATE SET
   icon = EXCLUDED.icon,
+  is_high_res_icon = EXCLUDED.is_high_res_icon,
   description = EXCLUDED.description,
   skill_type_id = EXCLUDED.skill_type_id,
   profession_id = EXCLUDED.profession_id,

@@ -18,7 +18,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22It%27s_Good_to_Be_King!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22It%27s_Good_to_Be_King!%22",
+    "is_high_res_icon": false
   },
   {
     "name": "Mad King Pony Support",
@@ -39,7 +40,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mad_King_Pony_Support"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mad_King_Pony_Support",
+    "is_high_res_icon": false
   },
   {
     "name": "Maddening Laughter",
@@ -60,7 +62,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Maddening_Laughter"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maddening_Laughter",
+    "is_high_res_icon": false
   },
   {
     "name": "Motivating Insults",
@@ -81,7 +84,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Motivating_Insults"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Motivating_Insults",
+    "is_high_res_icon": false
   },
   {
     "name": "Scourge of Candy",
@@ -102,7 +106,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Scourge_of_Candy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scourge_of_Candy",
+    "is_high_res_icon": false
   },
   {
     "name": "Taste of Undeath",
@@ -123,7 +128,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Undeath"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Taste_of_Undeath",
+    "is_high_res_icon": false
   },
   {
     "name": "A pool of water.",
@@ -144,7 +150,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/A_pool_of_water."
+    "wiki_url": "https://wiki.guildwars.com/wiki/A_pool_of_water.",
+    "is_high_res_icon": false
   },
   {
     "name": "Afflicted Soul Explosion",
@@ -165,7 +172,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Afflicted_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Afflicted_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Amulet of Protection",
@@ -186,7 +194,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Amulet_of_Protection"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Amulet_of_Protection",
+    "is_high_res_icon": false
   },
   {
     "name": "Blood Splattering",
@@ -207,7 +216,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Splattering"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Splattering",
+    "is_high_res_icon": false
   },
   {
     "name": "Burning Immunity",
@@ -228,7 +238,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Immunity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burning_Immunity",
+    "is_high_res_icon": false
   },
   {
     "name": "Chains of Enslavement",
@@ -249,7 +260,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chains_of_Enslavement"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chains_of_Enslavement",
+    "is_high_res_icon": false
   },
   {
     "name": "Chaotic Soul Explosion",
@@ -270,7 +282,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chaotic_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chaotic_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Create Spore",
@@ -291,7 +304,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Create_Spore"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Create_Spore",
+    "is_high_res_icon": false
   },
   {
     "name": "Critical Hit Probability",
@@ -312,7 +326,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Hit_Probability"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Hit_Probability",
+    "is_high_res_icon": false
   },
   {
     "name": "Dark Soul Explosion",
@@ -333,7 +348,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Dhuum",
@@ -354,7 +370,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dhuum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dhuum",
+    "is_high_res_icon": false
   },
   {
     "name": "Duncan's Defense",
@@ -375,7 +392,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Duncan%27s_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Duncan%27s_Defense",
+    "is_high_res_icon": false
   },
   {
     "name": "Elite Regeneration",
@@ -396,7 +414,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Elite_Regeneration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elite_Regeneration",
+    "is_high_res_icon": false
   },
   {
     "name": "Emperor Degen",
@@ -417,7 +436,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Emperor_Degen"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Emperor_Degen",
+    "is_high_res_icon": false
   },
   {
     "name": "Energy Boost",
@@ -438,7 +458,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Boost"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Boost",
+    "is_high_res_icon": false
   },
   {
     "name": "Ethereal Soul Explosion",
@@ -459,7 +480,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Exploding Spores",
@@ -480,7 +502,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Exploding_Spores"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Exploding_Spores",
+    "is_high_res_icon": false
   },
   {
     "name": "Exposed Underbelly",
@@ -501,7 +524,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Exposed_Underbelly"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Exposed_Underbelly",
+    "is_high_res_icon": false
   },
   {
     "name": "False Death",
@@ -522,7 +546,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/False_Death"
+    "wiki_url": "https://wiki.guildwars.com/wiki/False_Death",
+    "is_high_res_icon": false
   },
   {
     "name": "Fiery Soul Explosion",
@@ -543,7 +568,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fiery_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fiery_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Fire Flower",
@@ -564,7 +590,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Flower"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Flower",
+    "is_high_res_icon": false
   },
   {
     "name": "Fix Monster Attributes",
@@ -585,7 +612,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fix_Monster_Attributes"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fix_Monster_Attributes",
+    "is_high_res_icon": false
   },
   {
     "name": "Forgewight's Blessing",
@@ -606,7 +634,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Forgewight%27s_Blessing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forgewight%27s_Blessing",
+    "is_high_res_icon": false
   },
   {
     "name": "Golem Fire Shield",
@@ -627,7 +656,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Fire_Shield"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Fire_Shield",
+    "is_high_res_icon": false
   },
   {
     "name": "Greater Hard Mode NPC Buff",
@@ -648,7 +678,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Greater_Hard_Mode_NPC_Buff"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Greater_Hard_Mode_NPC_Buff",
+    "is_high_res_icon": false
   },
   {
     "name": "Ground Cover",
@@ -669,7 +700,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ground_Cover"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ground_Cover",
+    "is_high_res_icon": false
   },
   {
     "name": "Guild Lord Aura",
@@ -690,7 +722,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Guild_Lord_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guild_Lord_Aura",
+    "is_high_res_icon": false
   },
   {
     "name": "Hard Mode Dungeon Boss",
@@ -711,7 +744,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hard_Mode_Dungeon_Boss"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hard_Mode_Dungeon_Boss",
+    "is_high_res_icon": false
   },
   {
     "name": "Hard Mode NPC Buff",
@@ -732,7 +766,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hard_Mode_NPC_Buff"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hard_Mode_NPC_Buff",
+    "is_high_res_icon": false
   },
   {
     "name": "Health Drain",
@@ -753,7 +788,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Health_Drain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Health_Drain",
+    "is_high_res_icon": false
   },
   {
     "name": "Immunity to Critical Hits",
@@ -774,7 +810,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Immunity_to_Critical_Hits"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Immunity_to_Critical_Hits",
+    "is_high_res_icon": false
   },
   {
     "name": "Impending Dhuum",
@@ -795,7 +832,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Impending_Dhuum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Impending_Dhuum",
+    "is_high_res_icon": false
   },
   {
     "name": "Inanimate Object",
@@ -816,7 +854,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Inanimate_Object"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inanimate_Object",
+    "is_high_res_icon": false
   },
   {
     "name": "Inscribed Ettin Aura",
@@ -837,7 +876,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inscribed_Ettin_Aura",
+    "is_high_res_icon": false
   },
   {
     "name": "Internal Power Engaged",
@@ -858,7 +898,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Internal_Power_Engaged"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Internal_Power_Engaged",
+    "is_high_res_icon": false
   },
   {
     "name": "Invulnerability",
@@ -879,7 +920,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Invulnerability"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Invulnerability",
+    "is_high_res_icon": false
   },
   {
     "name": "Last Rites of Torment",
@@ -900,7 +942,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Last_Rites_of_Torment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Last_Rites_of_Torment",
+    "is_high_res_icon": false
   },
   {
     "name": "Lesser Flame Sentinel Resistance",
@@ -921,7 +964,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lesser_Flame_Sentinel_Resistance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lesser_Flame_Sentinel_Resistance",
+    "is_high_res_icon": false
   },
   {
     "name": "Lesser Hard Mode NPC Buff",
@@ -942,7 +986,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lesser_Hard_Mode_NPC_Buff"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lesser_Hard_Mode_NPC_Buff",
+    "is_high_res_icon": false
   },
   {
     "name": "Long Claws",
@@ -963,7 +1008,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Long_Claws"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Long_Claws",
+    "is_high_res_icon": false
   },
   {
     "name": "Mad King's Fan",
@@ -984,7 +1030,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mad_King%27s_Fan"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mad_King%27s_Fan",
+    "is_high_res_icon": false
   },
   {
     "name": "Marked For Death",
@@ -1005,7 +1052,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Marked_For_Death"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Marked_For_Death",
+    "is_high_res_icon": false
   },
   {
     "name": "Monster doesn't get death penalty",
@@ -1026,7 +1074,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Monster_doesn%27t_get_death_penalty"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Monster_doesn%27t_get_death_penalty",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Driver",
@@ -1047,7 +1096,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Driver"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Driver",
+    "is_high_res_icon": false
   },
   {
     "name": "Natural Resistance",
@@ -1068,7 +1118,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Natural_Resistance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Natural_Resistance",
+    "is_high_res_icon": false
   },
   {
     "name": "Nightmarish Aura",
@@ -1089,7 +1140,8 @@
     "is_elite": false,
     "campaign": "Bonus Mission Pack",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Nightmarish_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nightmarish_Aura",
+    "is_high_res_icon": false
   },
   {
     "name": "Plague Spring",
@@ -1110,7 +1162,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Spring"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plague_Spring",
+    "is_high_res_icon": false
   },
   {
     "name": "Rejuvenating Soul Explosion",
@@ -1131,7 +1184,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rejuvenating_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rejuvenating_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Respawn",
@@ -1152,7 +1206,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Respawn"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Respawn",
+    "is_high_res_icon": false
   },
   {
     "name": "Seal Regen",
@@ -1173,7 +1228,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Seal_Regen"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seal_Regen",
+    "is_high_res_icon": false
   },
   {
     "name": "Selvetarm's Attack",
@@ -1194,7 +1250,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Selvetarm%27s_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Selvetarm%27s_Attack",
+    "is_high_res_icon": false
   },
   {
     "name": "Selvetarm's Blessing",
@@ -1215,7 +1272,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Selvetarm%27s_Blessing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Selvetarm%27s_Blessing",
+    "is_high_res_icon": false
   },
   {
     "name": "Shadow Smash",
@@ -1236,7 +1294,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Smash",
+    "is_high_res_icon": false
   },
   {
     "name": "Shadowy Soul Explosion",
@@ -1257,7 +1316,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowy_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowy_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Skin of Stone",
@@ -1278,7 +1338,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Skin_of_Stone"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Skin_of_Stone",
+    "is_high_res_icon": false
   },
   {
     "name": "Spectral Infusion",
@@ -1299,7 +1360,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spectral_Infusion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spectral_Infusion",
+    "is_high_res_icon": false
   },
   {
     "name": "Strong Natural Resistance",
@@ -1320,7 +1382,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Strong_Natural_Resistance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strong_Natural_Resistance",
+    "is_high_res_icon": false
   },
   {
     "name": "Stun Immunity",
@@ -1341,7 +1404,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stun_Immunity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stun_Immunity",
+    "is_high_res_icon": false
   },
   {
     "name": "Stun on Critical Hit",
@@ -1362,7 +1426,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stun_on_Critical_Hit"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stun_on_Critical_Hit",
+    "is_high_res_icon": false
   },
   {
     "name": "Sweeping Strikes",
@@ -1383,7 +1448,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sweeping_Strikes"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sweeping_Strikes",
+    "is_high_res_icon": false
   },
   {
     "name": "Temporal Sheen",
@@ -1404,7 +1470,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Temporal_Sheen"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Temporal_Sheen",
+    "is_high_res_icon": false
   },
   {
     "name": "Tengu's Gaze",
@@ -1425,7 +1492,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tengu%27s_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tengu%27s_Gaze",
+    "is_high_res_icon": false
   },
   {
     "name": "The Chalice of Corruption",
@@ -1446,7 +1514,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/The_Chalice_of_Corruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Chalice_of_Corruption",
+    "is_high_res_icon": false
   },
   {
     "name": "Thommis's Attack",
@@ -1467,7 +1536,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Thommis%27s_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thommis%27s_Attack",
+    "is_high_res_icon": false
   },
   {
     "name": "Thommis's Blessing",
@@ -1488,7 +1558,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Thommis%27s_Blessing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thommis%27s_Blessing",
+    "is_high_res_icon": false
   },
   {
     "name": "Titans get plus Health regen and set enemies on fire each time he is hit.",
@@ -1509,7 +1580,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Titans_get_plus_Health_regen_and_set_enemies_on_fire_each_time_he_is_hit."
+    "wiki_url": "https://wiki.guildwars.com/wiki/Titans_get_plus_Health_regen_and_set_enemies_on_fire_each_time_he_is_hit.",
+    "is_high_res_icon": false
   },
   {
     "name": "Turtle Shell",
@@ -1530,7 +1602,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Turtle_Shell"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Turtle_Shell",
+    "is_high_res_icon": false
   },
   {
     "name": "Unbalancing Soul Explosion",
@@ -1551,7 +1624,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unbalancing_Soul_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unbalancing_Soul_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Undead sensitivity to Light",
@@ -1572,7 +1646,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Undead_sensitivity_to_Light"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Undead_sensitivity_to_Light",
+    "is_high_res_icon": false
   },
   {
     "name": "Undying",
@@ -1593,7 +1668,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Undying"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Undying",
+    "is_high_res_icon": false
   },
   {
     "name": "Vengeance is Ours",
@@ -1614,7 +1690,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vengeance_is_Ours"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vengeance_is_Ours",
+    "is_high_res_icon": false
   },
   {
     "name": "Wandering Mind",
@@ -1635,7 +1712,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Mind"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Mind",
+    "is_high_res_icon": false
   },
   {
     "name": "Agnar's Rage",
@@ -1656,7 +1734,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Agnar%27s_Rage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Agnar%27s_Rage",
+    "is_high_res_icon": false
   },
   {
     "name": "Brutal Mauling",
@@ -1677,7 +1756,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Brutal_Mauling"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Brutal_Mauling",
+    "is_high_res_icon": false
   },
   {
     "name": "Crippling Attack",
@@ -1698,7 +1778,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Attack",
+    "is_high_res_icon": false
   },
   {
     "name": "Dark Chain Lightning",
@@ -1719,7 +1800,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Chain_Lightning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dark_Chain_Lightning",
+    "is_high_res_icon": false
   },
   {
     "name": "Earth Shattering Blow",
@@ -1740,7 +1822,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Shattering_Blow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Shattering_Blow",
+    "is_high_res_icon": false
   },
   {
     "name": "Earth Vortex",
@@ -1761,7 +1844,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Vortex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Vortex",
+    "is_high_res_icon": false
   },
   {
     "name": "Frost Vortex",
@@ -1782,7 +1866,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Frost_Vortex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frost_Vortex",
+    "is_high_res_icon": false
   },
   {
     "name": "Giant Stomp",
@@ -1803,7 +1888,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Giant_Stomp"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Giant_Stomp",
+    "is_high_res_icon": false
   },
   {
     "name": "Hunger of the Lich",
@@ -1824,7 +1910,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hunger_of_the_Lich"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hunger_of_the_Lich",
+    "is_high_res_icon": false
   },
   {
     "name": "Hunger's Bite",
@@ -1845,7 +1932,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hunger%27s_Bite"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hunger%27s_Bite",
+    "is_high_res_icon": false
   },
   {
     "name": "Quake Of Ahdashim",
@@ -1866,7 +1954,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Quake_Of_Ahdashim"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Quake_Of_Ahdashim",
+    "is_high_res_icon": false
   },
   {
     "name": "Rolling Shift",
@@ -1887,7 +1976,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rolling_Shift"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rolling_Shift",
+    "is_high_res_icon": false
   },
   {
     "name": "Siege Attack",
@@ -1908,7 +1998,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Attack",
+    "is_high_res_icon": false
   },
   {
     "name": "Suicide Energy",
@@ -1929,7 +2020,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Suicide_Energy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Suicide_Energy",
+    "is_high_res_icon": false
   },
   {
     "name": "Suicide Health",
@@ -1950,7 +2042,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Suicide_Health"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Suicide_Health",
+    "is_high_res_icon": false
   },
   {
     "name": "Wild Smash",
@@ -1971,7 +2064,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Smash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wild_Smash",
+    "is_high_res_icon": false
   },
   {
     "name": "Annihilator Bash",
@@ -1992,7 +2086,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Annihilator_Bash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Annihilator_Bash",
+    "is_high_res_icon": false
   },
   {
     "name": "Bloodstone Slash",
@@ -2013,7 +2108,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodstone_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodstone_Slash",
+    "is_high_res_icon": false
   },
   {
     "name": "Consuming Flames",
@@ -2034,7 +2130,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Consuming_Flames"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consuming_Flames",
+    "is_high_res_icon": false
   },
   {
     "name": "Falken Punch",
@@ -2055,7 +2152,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Falken_Punch"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Falken_Punch",
+    "is_high_res_icon": false
   },
   {
     "name": "Feeding Frenzy",
@@ -2076,7 +2174,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Feeding_Frenzy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feeding_Frenzy",
+    "is_high_res_icon": false
   },
   {
     "name": "Golem Strike",
@@ -2097,7 +2196,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Strike",
+    "is_high_res_icon": false
   },
   {
     "name": "Parasitic Bite",
@@ -2118,7 +2218,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Parasitic_Bite"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Parasitic_Bite",
+    "is_high_res_icon": false
   },
   {
     "name": "Reaping of Dhuum",
@@ -2139,7 +2240,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reaping_of_Dhuum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reaping_of_Dhuum",
+    "is_high_res_icon": false
   },
   {
     "name": "Shattered Spirit",
@@ -2160,7 +2262,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shattered_Spirit"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shattered_Spirit",
+    "is_high_res_icon": false
   },
   {
     "name": "Thunderfist Strike",
@@ -2181,7 +2284,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Thunderfist_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Thunderfist_Strike",
+    "is_high_res_icon": false
   },
   {
     "name": "Unseen Aggression",
@@ -2202,7 +2306,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Aggression"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unseen_Aggression",
+    "is_high_res_icon": false
   },
   {
     "name": "Venom Fang",
@@ -2223,7 +2328,8 @@
     "is_elite": false,
     "campaign": "Hearts of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Venom_Fang"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Venom_Fang",
+    "is_high_res_icon": false
   },
   {
     "name": "Weight of Dhuum",
@@ -2244,7 +2350,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Weight_of_Dhuum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weight_of_Dhuum",
+    "is_high_res_icon": false
   },
   {
     "name": "Withering Blade",
@@ -2265,7 +2372,8 @@
     "is_elite": false,
     "campaign": "Hearts of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Withering_Blade"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Withering_Blade",
+    "is_high_res_icon": false
   },
   {
     "name": "Anguish",
@@ -2286,7 +2394,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Anguish"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anguish",
+    "is_high_res_icon": false
   },
   {
     "name": "Bloodsong",
@@ -2307,7 +2416,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodsong"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodsong",
+    "is_high_res_icon": false
   },
   {
     "name": "Bone Spike",
@@ -2328,7 +2438,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bone_Spike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bone_Spike",
+    "is_high_res_icon": false
   },
   {
     "name": "Disenchantment",
@@ -2349,7 +2460,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Disenchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disenchantment",
+    "is_high_res_icon": false
   },
   {
     "name": "Dissonance",
@@ -2370,7 +2482,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dissonance",
+    "is_high_res_icon": false
   },
   {
     "name": "Flurry of Splinters",
@@ -2391,7 +2504,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flurry_of_Splinters"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flurry_of_Splinters",
+    "is_high_res_icon": false
   },
   {
     "name": "Gaze of Fury",
@@ -2412,7 +2526,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gaze_of_Fury",
+    "is_high_res_icon": false
   },
   {
     "name": "Jadoth's Storm of Judgment",
@@ -2433,7 +2548,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jadoth%27s_Storm_of_Judgment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jadoth%27s_Storm_of_Judgment",
+    "is_high_res_icon": false
   },
   {
     "name": "Keiran's Sniper Shot",
@@ -2454,7 +2570,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Keiran%27s_Sniper_Shot"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Keiran%27s_Sniper_Shot",
+    "is_high_res_icon": false
   },
   {
     "name": "Pain",
@@ -2475,7 +2592,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain",
+    "is_high_res_icon": false
   },
   {
     "name": "Pain (Signet of Spirits)",
@@ -2496,7 +2614,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(Signet_of_Spirits)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(Signet_of_Spirits)",
+    "is_high_res_icon": false
   },
   {
     "name": "Pain (Togo)",
@@ -2517,7 +2636,8 @@
     "is_elite": false,
     "campaign": "Bonus Mission Pack",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(Togo)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pain_(Togo)",
+    "is_high_res_icon": false
   },
   {
     "name": "Shadowsong",
@@ -2538,7 +2658,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong",
+    "is_high_res_icon": false
   },
   {
     "name": "Splinter Shot",
@@ -2559,7 +2680,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Shot"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Shot",
+    "is_high_res_icon": false
   },
   {
     "name": "The Sniper's Spear",
@@ -2580,7 +2702,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/The_Sniper%27s_Spear"
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Sniper%27s_Spear",
+    "is_high_res_icon": false
   },
   {
     "name": "Vampirism",
@@ -2601,7 +2724,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vampirism"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampirism",
+    "is_high_res_icon": false
   },
   {
     "name": "Wanderlust",
@@ -2622,7 +2746,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wanderlust"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wanderlust",
+    "is_high_res_icon": false
   },
   {
     "name": "Adoration",
@@ -2643,7 +2768,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Adoration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Adoration",
+    "is_high_res_icon": false
   },
   {
     "name": "Animate Undead",
@@ -2664,7 +2790,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Undead"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Undead",
+    "is_high_res_icon": false
   },
   {
     "name": "Animate Undead (Palawa Joko)",
@@ -2685,7 +2812,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Undead_(Palawa_Joko)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Animate_Undead_(Palawa_Joko)",
+    "is_high_res_icon": false
   },
   {
     "name": "Argo's Cry",
@@ -2706,7 +2834,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Argo%27s_Cry"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Argo%27s_Cry",
+    "is_high_res_icon": false
   },
   {
     "name": "Banish Enchantment",
@@ -2727,7 +2856,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Banish_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Banish_Enchantment",
+    "is_high_res_icon": false
   },
   {
     "name": "Bit Golem Breaker",
@@ -2748,7 +2878,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Breaker"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Breaker",
+    "is_high_res_icon": false
   },
   {
     "name": "Bit Golem Crash",
@@ -2769,7 +2900,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Crash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Crash",
+    "is_high_res_icon": false
   },
   {
     "name": "Bit Golem Force",
@@ -2790,7 +2922,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Force"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Force",
+    "is_high_res_icon": false
   },
   {
     "name": "Blast Furnace",
@@ -2811,7 +2944,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blast_Furnace"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blast_Furnace",
+    "is_high_res_icon": false
   },
   {
     "name": "Blizzard",
@@ -2832,7 +2966,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blizzard"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blizzard",
+    "is_high_res_icon": false
   },
   {
     "name": "Blood Flower",
@@ -2853,7 +2988,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Flower"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Flower",
+    "is_high_res_icon": false
   },
   {
     "name": "Blood of zu Heltzer",
@@ -2874,7 +3010,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_zu_Heltzer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_of_zu_Heltzer",
+    "is_high_res_icon": false
   },
   {
     "name": "Ceiling Collapse",
@@ -2895,7 +3032,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ceiling_Collapse"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ceiling_Collapse",
+    "is_high_res_icon": false
   },
   {
     "name": "Chomper",
@@ -2916,7 +3054,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chomper"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chomper",
+    "is_high_res_icon": false
   },
   {
     "name": "Consume Flames",
@@ -2937,7 +3076,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Flames"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Flames",
+    "is_high_res_icon": false
   },
   {
     "name": "Corrupted Dragon Scales",
@@ -2958,7 +3098,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Dragon_Scales"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Dragon_Scales",
+    "is_high_res_icon": false
   },
   {
     "name": "Corrupted Dragon Spores",
@@ -2979,7 +3120,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Dragon_Spores"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Dragon_Spores",
+    "is_high_res_icon": false
   },
   {
     "name": "Corrupted Healing",
@@ -3000,7 +3142,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Healing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Healing",
+    "is_high_res_icon": false
   },
   {
     "name": "Death's Embrace",
@@ -3021,7 +3164,8 @@
     "is_elite": false,
     "campaign": "Hearts of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Embrace"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death%27s_Embrace",
+    "is_high_res_icon": false
   },
   {
     "name": "Dhuum's Rest",
@@ -3042,7 +3186,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dhuum%27s_Rest"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dhuum%27s_Rest",
+    "is_high_res_icon": false
   },
   {
     "name": "Diamondshard Grave",
@@ -3063,7 +3208,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Diamondshard_Grave"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Diamondshard_Grave",
+    "is_high_res_icon": false
   },
   {
     "name": "Diamondshard Mist",
@@ -3084,7 +3230,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Diamondshard_Mist"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Diamondshard_Mist",
+    "is_high_res_icon": false
   },
   {
     "name": "Drain Minion",
@@ -3105,7 +3252,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Minion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Minion",
+    "is_high_res_icon": false
   },
   {
     "name": "Dryder's Feast",
@@ -3126,7 +3274,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dryder%27s_Feast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dryder%27s_Feast",
+    "is_high_res_icon": false
   },
   {
     "name": "Ebon Vanguard Assassin Support",
@@ -3147,7 +3296,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support",
+    "is_high_res_icon": false
   },
   {
     "name": "Fleshreaver's Escape",
@@ -3168,7 +3318,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fleshreaver%27s_Escape"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fleshreaver%27s_Escape",
+    "is_high_res_icon": false
   },
   {
     "name": "Ghostly Fury",
@@ -3189,7 +3340,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ghostly_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ghostly_Fury",
+    "is_high_res_icon": false
   },
   {
     "name": "Grand Illusion",
@@ -3210,7 +3362,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Grand_Illusion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Grand_Illusion",
+    "is_high_res_icon": false
   },
   {
     "name": "Jade Brotherhood Bomb",
@@ -3231,7 +3384,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jade_Brotherhood_Bomb"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jade_Brotherhood_Bomb",
+    "is_high_res_icon": false
   },
   {
     "name": "Jade Fury",
@@ -3252,7 +3406,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jade_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jade_Fury",
+    "is_high_res_icon": false
   },
   {
     "name": "Judgment of Dhuum",
@@ -3273,7 +3428,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Judgment_of_Dhuum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Judgment_of_Dhuum",
+    "is_high_res_icon": false
   },
   {
     "name": "Koro's Gaze",
@@ -3294,7 +3450,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Koro%27s_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Koro%27s_Gaze",
+    "is_high_res_icon": false
   },
   {
     "name": "Master of Necromancy",
@@ -3315,7 +3472,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Master_of_Necromancy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Master_of_Necromancy",
+    "is_high_res_icon": false
   },
   {
     "name": "Mirror of Darkness",
@@ -3336,7 +3494,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Darkness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Darkness",
+    "is_high_res_icon": false
   },
   {
     "name": "Murakai's Calamity",
@@ -3357,7 +3516,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Calamity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Calamity",
+    "is_high_res_icon": false
   },
   {
     "name": "Murakai's Call",
@@ -3378,7 +3538,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Call"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Call",
+    "is_high_res_icon": false
   },
   {
     "name": "Murakai's Censure",
@@ -3399,7 +3560,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Censure"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Censure",
+    "is_high_res_icon": false
   },
   {
     "name": "Murakai's Consumption",
@@ -3420,7 +3582,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Consumption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Consumption",
+    "is_high_res_icon": false
   },
   {
     "name": "Murakai's Storm of Souls",
@@ -3441,7 +3604,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Storm_of_Souls"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Murakai%27s_Storm_of_Souls",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Beam",
@@ -3462,7 +3626,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Beam"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Beam",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Divider Drive",
@@ -3483,7 +3648,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Divider_Drive"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Divider_Drive",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Fire",
@@ -3504,7 +3670,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Fire"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Fire",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Knuckle",
@@ -3525,7 +3692,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Knuckle"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Knuckle",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Thunder",
@@ -3546,7 +3714,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Thunder"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Thunder",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X.ion Buster",
@@ -3567,7 +3736,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X.ion_Buster"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X.ion_Buster",
+    "is_high_res_icon": false
   },
   {
     "name": "Oath of Healing",
@@ -3588,7 +3758,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Oath_of_Healing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Oath_of_Healing",
+    "is_high_res_icon": false
   },
   {
     "name": "Of Royal Blood",
@@ -3609,7 +3780,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Royal_Blood"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Royal_Blood",
+    "is_high_res_icon": false
   },
   {
     "name": "Order of Unholy Vigor",
@@ -3630,7 +3802,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Unholy_Vigor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Unholy_Vigor",
+    "is_high_res_icon": false
   },
   {
     "name": "Order of Unholy Vigor (Palawa Joko)",
@@ -3651,7 +3824,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Unholy_Vigor_(Palawa_Joko)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_Unholy_Vigor_(Palawa_Joko)",
+    "is_high_res_icon": false
   },
   {
     "name": "Order of the Lich",
@@ -3672,7 +3846,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Lich"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Lich",
+    "is_high_res_icon": false
   },
   {
     "name": "Order of the Lich (Palawa Joko)",
@@ -3693,7 +3868,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Lich_(Palawa_Joko)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Order_of_the_Lich_(Palawa_Joko)",
+    "is_high_res_icon": false
   },
   {
     "name": "Passage to Tahnnakai",
@@ -3714,7 +3890,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Passage_to_Tahnnakai"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Passage_to_Tahnnakai",
+    "is_high_res_icon": false
   },
   {
     "name": "Phased Plasma Burst",
@@ -3735,7 +3912,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Phased_Plasma_Burst"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phased_Plasma_Burst",
+    "is_high_res_icon": false
   },
   {
     "name": "Plasma Shot",
@@ -3756,7 +3934,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Plasma_Shot"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Plasma_Shot",
+    "is_high_res_icon": false
   },
   {
     "name": "Poison Arrow",
@@ -3777,7 +3956,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Poison_Arrow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Poison_Arrow",
+    "is_high_res_icon": false
   },
   {
     "name": "Purify Energy",
@@ -3798,7 +3978,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Purify_Energy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purify_Energy",
+    "is_high_res_icon": false
   },
   {
     "name": "Purify Soul",
@@ -3819,7 +4000,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Purify_Soul"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purify_Soul",
+    "is_high_res_icon": false
   },
   {
     "name": "Purifying Flame",
@@ -3840,7 +4022,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Flame",
+    "is_high_res_icon": false
   },
   {
     "name": "Purifying Prayer",
@@ -3861,7 +4044,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Prayer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Purifying_Prayer",
+    "is_high_res_icon": false
   },
   {
     "name": "Putrid Flames",
@@ -3882,7 +4066,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Flames"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Putrid_Flames",
+    "is_high_res_icon": false
   },
   {
     "name": "Reactor Blast",
@@ -3903,7 +4088,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reactor_Blast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reactor_Blast",
+    "is_high_res_icon": false
   },
   {
     "name": "Redemption of Purity",
@@ -3924,7 +4110,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Redemption_of_Purity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Redemption_of_Purity",
+    "is_high_res_icon": false
   },
   {
     "name": "Resurrect (Gargoyle)",
@@ -3945,7 +4132,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect_(Gargoyle)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect_(Gargoyle)",
+    "is_high_res_icon": false
   },
   {
     "name": "Resurrect",
@@ -3966,7 +4154,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Resurrect",
+    "is_high_res_icon": false
   },
   {
     "name": "Reverse Polarity Fire Shield",
@@ -3987,7 +4176,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reverse_Polarity_Fire_Shield"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reverse_Polarity_Fire_Shield",
+    "is_high_res_icon": false
   },
   {
     "name": "Rise From Your Grave!",
@@ -4008,7 +4198,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rise_From_Your_Grave!"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rise_From_Your_Grave!",
+    "is_high_res_icon": false
   },
   {
     "name": "Snowball (NPC)",
@@ -4029,7 +4220,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Snowball_(NPC)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Snowball_(NPC)",
+    "is_high_res_icon": false
   },
   {
     "name": "Sorrow's Fist",
@@ -4050,7 +4242,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Fist"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Fist",
+    "is_high_res_icon": false
   },
   {
     "name": "Sorrow's Flame",
@@ -4071,7 +4264,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sorrow%27s_Flame",
+    "is_high_res_icon": false
   },
   {
     "name": "Soul Vortex",
@@ -4092,7 +4286,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Vortex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Vortex",
+    "is_high_res_icon": false
   },
   {
     "name": "Spike Trap (spell)",
@@ -4113,7 +4308,8 @@
     "is_elite": false,
     "campaign": "Bonus Mission Pack",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spike_Trap_(spell)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spike_Trap_(spell)",
+    "is_high_res_icon": false
   },
   {
     "name": "Spirit Siphon (Master Riyo)",
@@ -4134,7 +4330,8 @@
     "is_elite": false,
     "campaign": "Bonus Mission Pack",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Siphon_(Master_Riyo)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Siphon_(Master_Riyo)",
+    "is_high_res_icon": false
   },
   {
     "name": "Statue's Blessing",
@@ -4155,7 +4352,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Statue%27s_Blessing"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Statue%27s_Blessing",
+    "is_high_res_icon": false
   },
   {
     "name": "Stormcaller",
@@ -4176,7 +4374,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stormcaller"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stormcaller",
+    "is_high_res_icon": false
   },
   {
     "name": "Summon Champion",
@@ -4197,7 +4396,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Champion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Champion",
+    "is_high_res_icon": false
   },
   {
     "name": "Summon Minions",
@@ -4218,7 +4418,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Minions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Minions",
+    "is_high_res_icon": false
   },
   {
     "name": "Summon Torment",
@@ -4239,7 +4440,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Torment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summon_Torment",
+    "is_high_res_icon": false
   },
   {
     "name": "Turret Arrow",
@@ -4260,7 +4462,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Turret_Arrow"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Turret_Arrow",
+    "is_high_res_icon": false
   },
   {
     "name": "Ultra Snowball",
@@ -4281,7 +4484,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ultra_Snowball"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ultra_Snowball",
+    "is_high_res_icon": false
   },
   {
     "name": "Unyielding Anguish",
@@ -4302,7 +4506,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unyielding_Anguish"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unyielding_Anguish",
+    "is_high_res_icon": false
   },
   {
     "name": "Wave of Torment",
@@ -4323,7 +4528,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wave_of_Torment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wave_of_Torment",
+    "is_high_res_icon": false
   },
   {
     "name": "Wurm Siege (Core)",
@@ -4344,7 +4550,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Core)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Core)",
+    "is_high_res_icon": false
   },
   {
     "name": "Wurm Siege (Dunes of Despair)",
@@ -4365,7 +4572,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Dunes_of_Despair)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Dunes_of_Despair)",
+    "is_high_res_icon": false
   },
   {
     "name": "Wurm Siege (Eye of the North)",
@@ -4386,7 +4594,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Eye_of_the_North)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Siege_(Eye_of_the_North)",
+    "is_high_res_icon": false
   },
   {
     "name": "Abaddon's Chosen",
@@ -4407,7 +4616,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Chosen"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Chosen",
+    "is_high_res_icon": false
   },
   {
     "name": "Abaddon's Conspiracy",
@@ -4428,7 +4638,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Conspiracy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Conspiracy",
+    "is_high_res_icon": false
   },
   {
     "name": "Bit Golem Rectifier",
@@ -4449,7 +4660,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Rectifier"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bit_Golem_Rectifier",
+    "is_high_res_icon": false
   },
   {
     "name": "Blessing of the Kirin",
@@ -4470,7 +4682,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blessing_of_the_Kirin"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blessing_of_the_Kirin",
+    "is_high_res_icon": false
   },
   {
     "name": "Chimera of Intensity",
@@ -4491,7 +4704,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chimera_of_Intensity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chimera_of_Intensity",
+    "is_high_res_icon": false
   },
   {
     "name": "Crystal Shield",
@@ -4512,7 +4726,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Shield"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Shield",
+    "is_high_res_icon": false
   },
   {
     "name": "Demonic Agility",
@@ -4533,7 +4748,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Demonic_Agility"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Demonic_Agility",
+    "is_high_res_icon": false
   },
   {
     "name": "Healing Breeze",
@@ -4554,7 +4770,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Breeze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Breeze",
+    "is_high_res_icon": false
   },
   {
     "name": "Nightmare Refuge",
@@ -4575,7 +4792,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Nightmare_Refuge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nightmare_Refuge",
+    "is_high_res_icon": false
   },
   {
     "name": "Spirit Form (Remains of Sahlahja)",
@@ -4596,7 +4814,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Form_(Remains_of_Sahlahja)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Form_(Remains_of_Sahlahja)",
+    "is_high_res_icon": false
   },
   {
     "name": "Verata's Promise",
@@ -4617,7 +4836,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Promise"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Verata%27s_Promise",
+    "is_high_res_icon": false
   },
   {
     "name": "Bonds of Torment",
@@ -4638,7 +4858,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bonds_of_Torment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bonds_of_Torment",
+    "is_high_res_icon": false
   },
   {
     "name": "Call of Sacrifice",
@@ -4659,7 +4880,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Sacrifice"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Sacrifice",
+    "is_high_res_icon": false
   },
   {
     "name": "Corsair's Net",
@@ -4680,7 +4902,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Corsair%27s_Net"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corsair%27s_Net",
+    "is_high_res_icon": false
   },
   {
     "name": "Crystal Bonds",
@@ -4701,7 +4924,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Bonds"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Bonds",
+    "is_high_res_icon": false
   },
   {
     "name": "Crystal Haze",
@@ -4722,7 +4946,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Haze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Haze",
+    "is_high_res_icon": false
   },
   {
     "name": "Crystal Snare",
@@ -4743,7 +4968,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Snare"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Snare",
+    "is_high_res_icon": false
   },
   {
     "name": "Enchantment Collapse",
@@ -4764,7 +4990,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enchantment_Collapse"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enchantment_Collapse",
+    "is_high_res_icon": false
   },
   {
     "name": "Isaiah's Balance",
@@ -4785,7 +5012,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Isaiah%27s_Balance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Isaiah%27s_Balance",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Phantom",
@@ -4806,7 +5034,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Phantom"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Phantom",
+    "is_high_res_icon": false
   },
   {
     "name": "Paranoid Indignation",
@@ -4827,7 +5056,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Paranoid_Indignation"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Paranoid_Indignation",
+    "is_high_res_icon": false
   },
   {
     "name": "Promise of Death",
@@ -4848,7 +5078,8 @@
     "is_elite": false,
     "campaign": "Hearts of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Promise_of_Death"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Promise_of_Death",
+    "is_high_res_icon": false
   },
   {
     "name": "Sky Net",
@@ -4869,7 +5100,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sky_Net"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sky_Net",
+    "is_high_res_icon": false
   },
   {
     "name": "Snaring Web",
@@ -4890,7 +5122,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Snaring_Web"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Snaring_Web",
+    "is_high_res_icon": false
   },
   {
     "name": "Spirit World Retreat",
@@ -4911,7 +5144,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_World_Retreat"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_World_Retreat",
+    "is_high_res_icon": false
   },
   {
     "name": "Target Acquisition",
@@ -4932,7 +5166,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Target_Acquisition"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Target_Acquisition",
+    "is_high_res_icon": false
   },
   {
     "name": "The Master's Mark",
@@ -4953,7 +5188,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/The_Master%27s_Mark"
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Master%27s_Mark",
+    "is_high_res_icon": false
   },
   {
     "name": "Tongue Lash",
@@ -4974,7 +5210,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tongue_Lash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tongue_Lash",
+    "is_high_res_icon": false
   },
   {
     "name": "Tongue Whip",
@@ -4995,7 +5232,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tongue_Whip"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tongue_Whip",
+    "is_high_res_icon": false
   },
   {
     "name": "Weight of Dhuum (hex)",
@@ -5016,7 +5254,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Weight_of_Dhuum_(hex)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weight_of_Dhuum_(hex)",
+    "is_high_res_icon": false
   },
   {
     "name": "Words of Madness (Qwytzylkak)",
@@ -5037,7 +5276,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness_(Qwytzylkak)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness_(Qwytzylkak)",
+    "is_high_res_icon": false
   },
   {
     "name": "Wurm Bile",
@@ -5058,7 +5298,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Bile"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wurm_Bile",
+    "is_high_res_icon": false
   },
   {
     "name": "Aura of Purity",
@@ -5079,7 +5320,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Purity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_Purity",
+    "is_high_res_icon": false
   },
   {
     "name": "Ebon Vanguard Battle Standard of Power",
@@ -5100,7 +5342,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Battle_Standard_of_Power"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Battle_Standard_of_Power",
+    "is_high_res_icon": false
   },
   {
     "name": "Mandragor's Charge",
@@ -5121,7 +5364,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mandragor%27s_Charge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mandragor%27s_Charge",
+    "is_high_res_icon": false
   },
   {
     "name": "Nibble",
@@ -5142,7 +5386,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Nibble"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nibble",
+    "is_high_res_icon": false
   },
   {
     "name": "Restore Life",
@@ -5163,7 +5408,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Restore_Life"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restore_Life",
+    "is_high_res_icon": false
   },
   {
     "name": "Chomp",
@@ -5184,7 +5430,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chomp"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chomp",
+    "is_high_res_icon": false
   },
   {
     "name": "Ehzah from Above",
@@ -5205,7 +5452,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ehzah_from_Above"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ehzah_from_Above",
+    "is_high_res_icon": false
   },
   {
     "name": "Juggernaut Toss",
@@ -5226,7 +5474,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Juggernaut_Toss"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Juggernaut_Toss",
+    "is_high_res_icon": false
   },
   {
     "name": "Maddened Strike",
@@ -5247,7 +5496,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Maddened_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maddened_Strike",
+    "is_high_res_icon": false
   },
   {
     "name": "Ooze Combination",
@@ -5268,7 +5518,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ooze_Combination"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ooze_Combination",
+    "is_high_res_icon": false
   },
   {
     "name": "Queen Bite",
@@ -5289,7 +5540,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Bite"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Bite",
+    "is_high_res_icon": false
   },
   {
     "name": "Smash of the Titans",
@@ -5310,7 +5562,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Smash_of_the_Titans"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smash_of_the_Titans",
+    "is_high_res_icon": false
   },
   {
     "name": "Touch of Dhuum",
@@ -5331,7 +5584,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Dhuum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Dhuum",
+    "is_high_res_icon": false
   },
   {
     "name": "Trample",
@@ -5352,7 +5606,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Trample"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Trample",
+    "is_high_res_icon": false
   },
   {
     "name": "Twisting Jaws",
@@ -5373,7 +5628,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Twisting_Jaws"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Twisting_Jaws",
+    "is_high_res_icon": false
   },
   {
     "name": "Unstable Ooze Explosion",
@@ -5394,7 +5650,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Ooze_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Ooze_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Battle Scars",
@@ -5415,7 +5672,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Battle_Scars"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Battle_Scars",
+    "is_high_res_icon": false
   },
   {
     "name": "Charging Spirit",
@@ -5436,7 +5694,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charging_Spirit"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charging_Spirit",
+    "is_high_res_icon": false
   },
   {
     "name": "Corrupted Strength",
@@ -5457,7 +5716,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Strength"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupted_Strength",
+    "is_high_res_icon": false
   },
   {
     "name": "Drunken Stumbling",
@@ -5478,7 +5738,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Stumbling"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drunken_Stumbling",
+    "is_high_res_icon": false
   },
   {
     "name": "Fingers of Chaos",
@@ -5499,7 +5760,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fingers_of_Chaos"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fingers_of_Chaos",
+    "is_high_res_icon": false
   },
   {
     "name": "Golem Boosters",
@@ -5520,7 +5782,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Boosters"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Golem_Boosters",
+    "is_high_res_icon": false
   },
   {
     "name": "Infernal Rage",
@@ -5541,7 +5804,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Infernal_Rage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Infernal_Rage",
+    "is_high_res_icon": false
   },
   {
     "name": "Jagged Crystal Skin",
@@ -5562,7 +5826,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Crystal_Skin"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Jagged_Crystal_Skin",
+    "is_high_res_icon": false
   },
   {
     "name": "Junundu Tunnel",
@@ -5583,7 +5848,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Junundu_Tunnel"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Junundu_Tunnel",
+    "is_high_res_icon": false
   },
   {
     "name": "Mirror Echo",
@@ -5604,7 +5870,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_Echo"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_Echo",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Field Dash",
@@ -5625,7 +5892,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Field_Dash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Field_Dash",
+    "is_high_res_icon": false
   },
   {
     "name": "Renewing Corruption",
@@ -5646,7 +5914,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Corruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Renewing_Corruption",
+    "is_high_res_icon": false
   },
   {
     "name": "Riposting Shadows",
@@ -5667,7 +5936,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Riposting_Shadows"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Riposting_Shadows",
+    "is_high_res_icon": false
   },
   {
     "name": "Spirit Senses",
@@ -5688,7 +5958,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Senses"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Senses",
+    "is_high_res_icon": false
   },
   {
     "name": "Strength of Purity",
@@ -5709,7 +5980,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Strength_of_Purity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strength_of_Purity",
+    "is_high_res_icon": false
   },
   {
     "name": "Survivor's Will",
@@ -5730,7 +6002,8 @@
     "is_elite": false,
     "campaign": "Hearts of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Survivor%27s_Will"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Survivor%27s_Will",
+    "is_high_res_icon": false
   },
   {
     "name": "Toriimo's Burning Fury",
@@ -5751,7 +6024,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Toriimo%27s_Burning_Fury"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Toriimo%27s_Burning_Fury",
+    "is_high_res_icon": false
   },
   {
     "name": "Way of the Pure",
@@ -5772,7 +6046,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Pure"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Way_of_the_Pure",
+    "is_high_res_icon": false
   },
   {
     "name": "Bear Form",
@@ -5793,7 +6068,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Bear_Form"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bear_Form",
+    "is_high_res_icon": false
   },
   {
     "name": "Elemental Shift",
@@ -5814,7 +6090,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Shift"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Shift",
+    "is_high_res_icon": false
   },
   {
     "name": "Quest skill for Coastal Exam.",
@@ -5835,7 +6112,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Quest_skill_for_Coastal_Exam."
+    "wiki_url": "https://wiki.guildwars.com/wiki/Quest_skill_for_Coastal_Exam.",
+    "is_high_res_icon": false
   },
   {
     "name": "Shadowsong (Master Riyo)",
@@ -5856,7 +6134,8 @@
     "is_elite": false,
     "campaign": "Bonus Mission Pack",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong_(Master_Riyo)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadowsong_(Master_Riyo)",
+    "is_high_res_icon": false
   },
   {
     "name": "Shapeshift",
@@ -5877,7 +6156,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shapeshift"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shapeshift",
+    "is_high_res_icon": false
   },
   {
     "name": "Splinter Mine (Flame Geyser)",
@@ -5898,7 +6178,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Mine_(Flame_Geyser)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Splinter_Mine_(Flame_Geyser)",
+    "is_high_res_icon": false
   },
   {
     "name": "Spring of Purity",
@@ -5919,7 +6200,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spring_of_Purity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spring_of_Purity",
+    "is_high_res_icon": false
   },
   {
     "name": "\"I'll Be Back!\"",
@@ -5940,7 +6222,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22I%27ll_Be_Back!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22I%27ll_Be_Back!%22",
+    "is_high_res_icon": false
   },
   {
     "name": "\"Kilroy Stonekin\"",
@@ -5961,7 +6244,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22Kilroy_Stonekin%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22Kilroy_Stonekin%22",
+    "is_high_res_icon": false
   },
   {
     "name": "\"There's not enough time!!\"",
@@ -5982,7 +6266,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/%22There%27s_not_enough_time!!%22"
+    "wiki_url": "https://wiki.guildwars.com/wiki/%22There%27s_not_enough_time!!%22",
+    "is_high_res_icon": false
   },
   {
     "name": "Anthem of Purity",
@@ -6003,7 +6288,8 @@
     "is_elite": false,
     "campaign": "Winds of Change",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Purity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anthem_of_Purity",
+    "is_high_res_icon": false
   },
   {
     "name": "Echoing Banishment",
@@ -6024,7 +6310,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Echoing_Banishment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Echoing_Banishment",
+    "is_high_res_icon": false
   },
   {
     "name": "Enemies Must Die!",
@@ -6045,7 +6332,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enemies_Must_Die!"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enemies_Must_Die!",
+    "is_high_res_icon": false
   },
   {
     "name": "Presence of the Skale Lord",
@@ -6066,7 +6354,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Presence_of_the_Skale_Lord"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Presence_of_the_Skale_Lord",
+    "is_high_res_icon": false
   },
   {
     "name": "Song of the Mists",
@@ -6087,7 +6376,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_the_Mists"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Song_of_the_Mists",
+    "is_high_res_icon": false
   },
   {
     "name": "Spirit Roar",
@@ -6108,7 +6398,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Roar"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Roar",
+    "is_high_res_icon": false
   },
   {
     "name": "Tengu's Mimicry",
@@ -6129,7 +6420,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tengu%27s_Mimicry"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tengu%27s_Mimicry",
+    "is_high_res_icon": false
   },
   {
     "name": "Tremor",
@@ -6150,7 +6442,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tremor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tremor",
+    "is_high_res_icon": false
   },
   {
     "name": "Abaddon's Favor",
@@ -6171,7 +6464,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Favor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Abaddon%27s_Favor",
+    "is_high_res_icon": false
   },
   {
     "name": "Aspect of Oak",
@@ -6192,7 +6486,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aspect_of_Oak"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aspect_of_Oak",
+    "is_high_res_icon": false
   },
   {
     "name": "Aura of the Juggernaut",
@@ -6213,7 +6508,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_the_Juggernaut"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aura_of_the_Juggernaut",
+    "is_high_res_icon": false
   },
   {
     "name": "Base Defense",
@@ -6234,7 +6530,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Base_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Base_Defense",
+    "is_high_res_icon": false
   },
   {
     "name": "Berserk",
@@ -6255,7 +6552,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Berserk"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Berserk",
+    "is_high_res_icon": false
   },
   {
     "name": "Blood Rage",
@@ -6276,7 +6574,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Rage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Rage",
+    "is_high_res_icon": false
   },
   {
     "name": "Breaking Charm",
@@ -6297,7 +6596,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Breaking_Charm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Breaking_Charm",
+    "is_high_res_icon": false
   },
   {
     "name": "Call of Destruction",
@@ -6318,7 +6618,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Destruction"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Call_of_Destruction",
+    "is_high_res_icon": false
   },
   {
     "name": "Call to the Torment",
@@ -6339,7 +6640,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Call_to_the_Torment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Call_to_the_Torment",
+    "is_high_res_icon": false
   },
   {
     "name": "Carrier Defense",
@@ -6360,7 +6662,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Carrier_Defense"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Carrier_Defense",
+    "is_high_res_icon": false
   },
   {
     "name": "Chaotic Energy",
@@ -6381,7 +6684,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chaotic_Energy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chaotic_Energy",
+    "is_high_res_icon": false
   },
   {
     "name": "Charm Animal (Ashlyn Spiderfriend)",
@@ -6402,7 +6706,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(Ashlyn_Spiderfriend)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(Ashlyn_Spiderfriend)",
+    "is_high_res_icon": false
   },
   {
     "name": "Charm Animal (Charr Demolisher)",
@@ -6423,7 +6728,8 @@
     "is_elite": false,
     "campaign": "Bonus Mission Pack",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(Charr_Demolisher)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(Charr_Demolisher)",
+    "is_high_res_icon": false
   },
   {
     "name": "Charm Animal (White Mantle)",
@@ -6444,7 +6750,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(White_Mantle)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(White_Mantle)",
+    "is_high_res_icon": false
   },
   {
     "name": "Charm Animal",
@@ -6465,7 +6772,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal",
+    "is_high_res_icon": false
   },
   {
     "name": "Charm Animal (monster)",
@@ -6486,7 +6794,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(monster)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Animal_(monster)",
+    "is_high_res_icon": false
   },
   {
     "name": "Charm Drake",
@@ -6507,7 +6816,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Drake"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charm_Drake",
+    "is_high_res_icon": false
   },
   {
     "name": "Charr Siege Attack (Against the Charr)",
@@ -6528,7 +6838,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(Against_the_Charr)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(Against_the_Charr)",
+    "is_high_res_icon": false
   },
   {
     "name": "Charr Siege Attack (Assault on the Stronghold)",
@@ -6549,7 +6860,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(Assault_on_the_Stronghold)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(Assault_on_the_Stronghold)",
+    "is_high_res_icon": false
   },
   {
     "name": "Charr Siege Attack (What Must Be Done)",
@@ -6570,7 +6882,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(What_Must_Be_Done)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Charr_Siege_Attack_(What_Must_Be_Done)",
+    "is_high_res_icon": false
   },
   {
     "name": "Claim Resource",
@@ -6591,7 +6904,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Claim_Resource"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Claim_Resource",
+    "is_high_res_icon": false
   },
   {
     "name": "Claim Resource (Heroes' Ascent)",
@@ -6612,7 +6926,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Claim_Resource_(Heroes%27_Ascent)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Claim_Resource_(Heroes%27_Ascent)",
+    "is_high_res_icon": false
   },
   {
     "name": "Consume Torment",
@@ -6633,7 +6948,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Torment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Consume_Torment",
+    "is_high_res_icon": false
   },
   {
     "name": "Corrupt Power",
@@ -6654,7 +6970,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupt_Power"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Corrupt_Power",
+    "is_high_res_icon": false
   },
   {
     "name": "Countdown",
@@ -6675,7 +6992,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Countdown"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Countdown",
+    "is_high_res_icon": false
   },
   {
     "name": "Create Light of Seborhin",
@@ -6696,7 +7014,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Create_Light_of_Seborhin"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Create_Light_of_Seborhin",
+    "is_high_res_icon": false
   },
   {
     "name": "Crystal Hibernation",
@@ -6717,7 +7036,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Hibernation"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crystal_Hibernation",
+    "is_high_res_icon": false
   },
   {
     "name": "Damage Assessment",
@@ -6738,7 +7058,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Damage_Assessment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Damage_Assessment",
+    "is_high_res_icon": false
   },
   {
     "name": "Deafening Roar",
@@ -6759,7 +7080,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Deafening_Roar"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deafening_Roar",
+    "is_high_res_icon": false
   },
   {
     "name": "Decipher Inscriptions",
@@ -6780,7 +7102,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Decipher_Inscriptions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Decipher_Inscriptions",
+    "is_high_res_icon": false
   },
   {
     "name": "Dormant Husk",
@@ -6801,7 +7124,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Dormant_Husk"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dormant_Husk",
+    "is_high_res_icon": false
   },
   {
     "name": "Energy Blast (golem)",
@@ -6822,7 +7146,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Blast_(golem)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Blast_(golem)",
+    "is_high_res_icon": false
   },
   {
     "name": "Enraged",
@@ -6843,7 +7168,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged",
+    "is_high_res_icon": false
   },
   {
     "name": "Enraged Blast",
@@ -6864,7 +7190,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Blast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enraged_Blast",
+    "is_high_res_icon": false
   },
   {
     "name": "Entourage",
@@ -6885,7 +7212,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Entourage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Entourage",
+    "is_high_res_icon": false
   },
   {
     "name": "Extract Inscription",
@@ -6906,7 +7234,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Extract_Inscription"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Extract_Inscription",
+    "is_high_res_icon": false
   },
   {
     "name": "Firebomb",
@@ -6927,7 +7256,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Firebomb"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Firebomb",
+    "is_high_res_icon": false
   },
   {
     "name": "Flame Call",
@@ -6948,7 +7278,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Call"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Call",
+    "is_high_res_icon": false
   },
   {
     "name": "Flame Jet",
@@ -6969,7 +7300,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Jet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Flame_Jet",
+    "is_high_res_icon": false
   },
   {
     "name": "Forest's Binding",
@@ -6990,7 +7322,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Forest%27s_Binding"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forest%27s_Binding",
+    "is_high_res_icon": false
   },
   {
     "name": "Fungal Explosion",
@@ -7011,7 +7344,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fungal_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fungal_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Gelatinous Absorption",
@@ -7032,7 +7366,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Absorption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Absorption",
+    "is_high_res_icon": false
   },
   {
     "name": "Gelatinous Corpse Consumption",
@@ -7053,7 +7388,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Corpse_Consumption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Corpse_Consumption",
+    "is_high_res_icon": false
   },
   {
     "name": "Gelatinous Mutation",
@@ -7074,7 +7410,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Mutation"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gelatinous_Mutation",
+    "is_high_res_icon": false
   },
   {
     "name": "Gloat",
@@ -7095,7 +7432,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gloat"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gloat",
+    "is_high_res_icon": false
   },
   {
     "name": "Gunther's Gaze",
@@ -7116,7 +7454,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Gunther%27s_Gaze"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Gunther%27s_Gaze",
+    "is_high_res_icon": false
   },
   {
     "name": "Impossible Odds",
@@ -7137,7 +7476,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Impossible_Odds"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Impossible_Odds",
+    "is_high_res_icon": false
   },
   {
     "name": "Inner Fire",
@@ -7158,7 +7498,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Inner_Fire"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inner_Fire",
+    "is_high_res_icon": false
   },
   {
     "name": "Knock",
@@ -7179,7 +7520,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Knock"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Knock",
+    "is_high_res_icon": false
   },
   {
     "name": "Kournan Siege",
@@ -7200,7 +7542,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Kournan_Siege"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Kournan_Siege",
+    "is_high_res_icon": false
   },
   {
     "name": "Lava Blast",
@@ -7221,7 +7564,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Blast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Blast",
+    "is_high_res_icon": false
   },
   {
     "name": "Lava Ground",
@@ -7242,7 +7586,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Ground"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Ground",
+    "is_high_res_icon": false
   },
   {
     "name": "Lava Wave",
@@ -7263,7 +7608,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Wave"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lava_Wave",
+    "is_high_res_icon": false
   },
   {
     "name": "Life Vortex",
@@ -7284,7 +7630,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Vortex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_Vortex",
+    "is_high_res_icon": false
   },
   {
     "name": "Maddened Stance",
@@ -7305,7 +7652,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Maddened_Stance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Maddened_Stance",
+    "is_high_res_icon": false
   },
   {
     "name": "Meditation of the Reaper",
@@ -7326,7 +7674,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Meditation_of_the_Reaper"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Meditation_of_the_Reaper",
+    "is_high_res_icon": false
   },
   {
     "name": "Metamorphosis",
@@ -7347,7 +7696,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Metamorphosis"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Metamorphosis",
+    "is_high_res_icon": false
   },
   {
     "name": "Monkey See, Monkey Do",
@@ -7368,7 +7718,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Monkey_See,_Monkey_Do"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Monkey_See,_Monkey_Do",
+    "is_high_res_icon": false
   },
   {
     "name": "Mount",
@@ -7389,7 +7740,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mount"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mount",
+    "is_high_res_icon": false
   },
   {
     "name": "N.O.X. Lock On",
@@ -7410,7 +7762,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Lock_On"
+    "wiki_url": "https://wiki.guildwars.com/wiki/N.O.X._Lock_On",
+    "is_high_res_icon": false
   },
   {
     "name": "Ooze Division",
@@ -7431,7 +7784,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ooze_Division"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ooze_Division",
+    "is_high_res_icon": false
   },
   {
     "name": "Phase Shield (effect)",
@@ -7452,7 +7806,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Phase_Shield_(effect)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phase_Shield_(effect)",
+    "is_high_res_icon": false
   },
   {
     "name": "Phase Shield",
@@ -7473,7 +7828,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Phase_Shield"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phase_Shield",
+    "is_high_res_icon": false
   },
   {
     "name": "Powder Keg Explosion",
@@ -7494,7 +7850,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Powder_Keg_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Powder_Keg_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Pyroclastic Shot",
@@ -7515,7 +7872,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Pyroclastic_Shot"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pyroclastic_Shot",
+    "is_high_res_icon": false
   },
   {
     "name": "Queen Heal",
@@ -7536,7 +7894,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Heal"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Heal",
+    "is_high_res_icon": false
   },
   {
     "name": "Queen Siege",
@@ -7557,7 +7916,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Siege"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Siege",
+    "is_high_res_icon": false
   },
   {
     "name": "Queen Thump",
@@ -7578,7 +7938,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Thump"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Queen_Thump",
+    "is_high_res_icon": false
   },
   {
     "name": "Rage of the Sea",
@@ -7599,7 +7960,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rage_of_the_Sea"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rage_of_the_Sea",
+    "is_high_res_icon": false
   },
   {
     "name": "Rand's Attack",
@@ -7620,7 +7982,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Rand%27s_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Rand%27s_Attack",
+    "is_high_res_icon": false
   },
   {
     "name": "Reactor Blast Timer",
@@ -7641,7 +8004,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reactor_Blast_Timer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reactor_Blast_Timer",
+    "is_high_res_icon": false
   },
   {
     "name": "Reform Carvings",
@@ -7662,7 +8026,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Reform_Carvings"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Reform_Carvings",
+    "is_high_res_icon": false
   },
   {
     "name": "Sacrifice Pawn",
@@ -7683,7 +8048,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sacrifice_Pawn"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sacrifice_Pawn",
+    "is_high_res_icon": false
   },
   {
     "name": "Searing Breath",
@@ -7704,7 +8070,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Breath"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Searing_Breath",
+    "is_high_res_icon": false
   },
   {
     "name": "Shield of Fire",
@@ -7725,7 +8092,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Fire"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shield_of_Fire",
+    "is_high_res_icon": false
   },
   {
     "name": "Siege Strike",
@@ -7746,7 +8114,8 @@
     "is_elite": false,
     "campaign": "Bonus Mission Pack",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Strike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Strike",
+    "is_high_res_icon": false
   },
   {
     "name": "Siege Turtle Attack (Fort Aspenwood)",
@@ -7767,7 +8136,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(Fort_Aspenwood)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(Fort_Aspenwood)",
+    "is_high_res_icon": false
   },
   {
     "name": "Siege Turtle Attack (Gyala Hatchery)",
@@ -7788,7 +8158,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(Gyala_Hatchery)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(Gyala_Hatchery)",
+    "is_high_res_icon": false
   },
   {
     "name": "Siege Turtle Attack (The Eternal Grove)",
@@ -7809,7 +8180,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(The_Eternal_Grove)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack_(The_Eternal_Grove)",
+    "is_high_res_icon": false
   },
   {
     "name": "Siege Turtle Attack",
@@ -7830,7 +8202,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Siege_Turtle_Attack",
+    "is_high_res_icon": false
   },
   {
     "name": "Soul Torture",
@@ -7851,7 +8224,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Torture"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Torture",
+    "is_high_res_icon": false
   },
   {
     "name": "Soulrending Shriek",
@@ -7872,7 +8246,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soulrending_Shriek"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soulrending_Shriek",
+    "is_high_res_icon": false
   },
   {
     "name": "Spawn Hatchling",
@@ -7893,7 +8268,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spawn_Hatchling"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spawn_Hatchling",
+    "is_high_res_icon": false
   },
   {
     "name": "Spawn Pods",
@@ -7914,7 +8290,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spawn_Pods"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spawn_Pods",
+    "is_high_res_icon": false
   },
   {
     "name": "Spectral Agony",
@@ -7935,7 +8312,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spectral_Agony"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spectral_Agony",
+    "is_high_res_icon": false
   },
   {
     "name": "Spirit Shield",
@@ -7956,7 +8334,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Shield"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Shield",
+    "is_high_res_icon": false
   },
   {
     "name": "Spore Explosion",
@@ -7977,7 +8356,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spore_Explosion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spore_Explosion",
+    "is_high_res_icon": false
   },
   {
     "name": "Summoning Lord",
@@ -7998,7 +8378,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Summoning_Lord"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summoning_Lord",
+    "is_high_res_icon": false
   },
   {
     "name": "Summoning Shadows",
@@ -8019,7 +8400,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Summoning_Shadows"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Summoning_Shadows",
+    "is_high_res_icon": false
   },
   {
     "name": "The Apocrypha is changing to another form!",
@@ -8040,7 +8422,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/The_Apocrypha_is_changing_to_another_form!"
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Apocrypha_is_changing_to_another_form!",
+    "is_high_res_icon": false
   },
   {
     "name": "Torment Slash",
@@ -8061,7 +8444,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Torment_Slash"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Torment_Slash",
+    "is_high_res_icon": false
   },
   {
     "name": "Torment Slash (Smothering Tendrils)",
@@ -8082,7 +8466,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Torment_Slash_(Smothering_Tendrils)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Torment_Slash_(Smothering_Tendrils)",
+    "is_high_res_icon": false
   },
   {
     "name": "Touch of Aaaaarrrrrrggghhh",
@@ -8103,7 +8488,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Aaaaarrrrrrggghhh"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Touch_of_Aaaaarrrrrrggghhh",
+    "is_high_res_icon": false
   },
   {
     "name": "Unstable Aura",
@@ -8124,7 +8510,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Aura",
+    "is_high_res_icon": false
   },
   {
     "name": "Unstable Pulse",
@@ -8145,7 +8532,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Pulse"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unstable_Pulse",
+    "is_high_res_icon": false
   },
   {
     "name": "Vitality Transfer",
@@ -8166,7 +8554,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Vitality_Transfer"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vitality_Transfer",
+    "is_high_res_icon": false
   },
   {
     "name": "Whirling Fires",
@@ -8187,7 +8576,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Fires"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Whirling_Fires",
+    "is_high_res_icon": false
   },
   {
     "name": "Words of Madness",
@@ -8208,6 +8598,7 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "monster-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Words_of_Madness",
+    "is_high_res_icon": false
   }
 ]

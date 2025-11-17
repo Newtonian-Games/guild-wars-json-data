@@ -70,7 +70,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Accumulated Pain (PvP)",
@@ -143,7 +144,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Accumulated_Pain_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Air of Disenchantment",
@@ -216,7 +218,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Ancestor's Visage",
@@ -265,7 +268,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ancestor%27s_Visage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ancestor%27s_Visage",
+    "is_high_res_icon": true
   },
   {
     "name": "Aneurysm",
@@ -338,7 +342,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Aneurysm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aneurysm",
+    "is_high_res_icon": true
   },
   {
     "name": "Arcane Conundrum",
@@ -411,7 +416,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Conundrum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Conundrum",
+    "is_high_res_icon": true
   },
   {
     "name": "Arcane Echo",
@@ -435,7 +441,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Echo"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Echo",
+    "is_high_res_icon": true
   },
   {
     "name": "Arcane Languor",
@@ -484,7 +491,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Languor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Languor",
+    "is_high_res_icon": true
   },
   {
     "name": "Arcane Larceny",
@@ -533,7 +541,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Larceny"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Larceny",
+    "is_high_res_icon": true
   },
   {
     "name": "Arcane Mimicry",
@@ -557,7 +566,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Mimicry"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Mimicry",
+    "is_high_res_icon": true
   },
   {
     "name": "Arcane Thievery",
@@ -606,7 +616,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Thievery"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Arcane_Thievery",
+    "is_high_res_icon": true
   },
   {
     "name": "Auspicious Incantation",
@@ -679,7 +690,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Incantation"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Auspicious_Incantation",
+    "is_high_res_icon": true
   },
   {
     "name": "Backfire",
@@ -728,7 +740,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Backfire"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Backfire",
+    "is_high_res_icon": true
   },
   {
     "name": "Blackout",
@@ -777,7 +790,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Blackout"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blackout",
+    "is_high_res_icon": true
   },
   {
     "name": "Calculated Risk",
@@ -850,7 +864,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk",
+    "is_high_res_icon": true
   },
   {
     "name": "Calculated Risk (PvP)",
@@ -923,7 +938,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Calculated_Risk_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Channeling",
@@ -972,7 +988,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Channeling"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Channeling",
+    "is_high_res_icon": true
   },
   {
     "name": "Chaos Storm",
@@ -1045,7 +1062,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Chaos_Storm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Chaos_Storm",
+    "is_high_res_icon": true
   },
   {
     "name": "Clumsiness",
@@ -1094,7 +1112,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Clumsiness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Clumsiness",
+    "is_high_res_icon": true
   },
   {
     "name": "Complicate",
@@ -1143,7 +1162,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Complicate"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Complicate",
+    "is_high_res_icon": true
   },
   {
     "name": "Confusing Images",
@@ -1192,7 +1212,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Confusing_Images"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Confusing_Images",
+    "is_high_res_icon": true
   },
   {
     "name": "Conjure Nightmare",
@@ -1241,7 +1262,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Nightmare"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Nightmare",
+    "is_high_res_icon": true
   },
   {
     "name": "Conjure Phantasm",
@@ -1290,7 +1312,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Phantasm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Conjure_Phantasm",
+    "is_high_res_icon": true
   },
   {
     "name": "Crippling Anguish",
@@ -1363,7 +1386,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
+    "is_high_res_icon": true
   },
   {
     "name": "Crippling Anguish (PvP)",
@@ -1436,7 +1460,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling_Anguish_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Cry of Frustration",
@@ -1485,11 +1510,12 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Frustration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Frustration",
+    "is_high_res_icon": true
   },
   {
     "name": "Cry of Pain",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/9/93/Cry_of_Pain.jpg",
     "concise_description": "Spell. Interrupts a skill. If target foe had a Mesmer hex, deals {{ArmorMinusIgnoringDamage}} damage to target and foes in the area and causes {{HealthDegeneration}} Health degeneration (10 seconds).",
     "type": "Spell",
     "profession": "Mesmer",
@@ -1536,7 +1562,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cry_of_Pain",
+    "is_high_res_icon": false
   },
   {
     "name": "Discharge Enchantment",
@@ -1585,7 +1612,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Discharge_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Discharge_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Distortion",
@@ -1634,7 +1662,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Distortion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Distortion",
+    "is_high_res_icon": true
   },
   {
     "name": "Diversion",
@@ -1683,7 +1712,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Diversion"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Diversion",
+    "is_high_res_icon": true
   },
   {
     "name": "Drain Delusions",
@@ -1754,7 +1784,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Delusions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Delusions",
+    "is_high_res_icon": true
   },
   {
     "name": "Drain Enchantment",
@@ -1827,7 +1858,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Drain_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Echo",
@@ -1851,7 +1883,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Echo"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Echo",
+    "is_high_res_icon": true
   },
   {
     "name": "Elemental Resistance",
@@ -1924,7 +1957,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Resistance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elemental_Resistance",
+    "is_high_res_icon": true
   },
   {
     "name": "Empathy",
@@ -2021,7 +2055,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Empathy"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Empathy",
+    "is_high_res_icon": true
   },
   {
     "name": "Empathy (PvP)",
@@ -2094,7 +2129,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Empathy_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Empathy_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Enchanter's Conundrum",
@@ -2167,7 +2203,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum",
+    "is_high_res_icon": true
   },
   {
     "name": "Enchanter's Conundrum (PvP)",
@@ -2240,7 +2277,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Energy Burn",
@@ -2313,7 +2351,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Burn"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Burn",
+    "is_high_res_icon": true
   },
   {
     "name": "Energy Drain",
@@ -2386,7 +2425,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Drain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Drain",
+    "is_high_res_icon": true
   },
   {
     "name": "Energy Surge",
@@ -2459,7 +2499,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Surge"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Surge",
+    "is_high_res_icon": true
   },
   {
     "name": "Energy Tap",
@@ -2532,7 +2573,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Tap"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Tap",
+    "is_high_res_icon": true
   },
   {
     "name": "Epidemic",
@@ -2556,7 +2598,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Epidemic"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Epidemic",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Feast",
@@ -2629,7 +2672,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Feast"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Feast",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Lord",
@@ -2726,11 +2770,12 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Lord"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Lord",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Nightmare",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/6/68/Ether_Nightmare.jpg",
     "concise_description": "Hex spell. Causes {{EnergyLoss}} Energy loss. Target and foes in the area have -1 Health degeneration for each point of Energy lost (10 seconds).",
     "type": "Hex Spell",
     "profession": "Mesmer",
@@ -2766,7 +2811,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Nightmare"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Nightmare",
+    "is_high_res_icon": false
   },
   {
     "name": "Ether Phantom",
@@ -2815,7 +2861,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Phantom"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Phantom",
+    "is_high_res_icon": true
   },
   {
     "name": "Ether Signet",
@@ -2888,7 +2935,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ether_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Ethereal Burden",
@@ -2937,7 +2985,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Burden"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ethereal_Burden",
+    "is_high_res_icon": true
   },
   {
     "name": "Expel Hexes",
@@ -2961,7 +3010,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Expel_Hexes"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Expel_Hexes",
+    "is_high_res_icon": true
   },
   {
     "name": "Extend Conditions",
@@ -3010,7 +3060,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Extend_Conditions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Extend_Conditions",
+    "is_high_res_icon": true
   },
   {
     "name": "Feedback",
@@ -3059,7 +3110,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Feedback"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Feedback",
+    "is_high_res_icon": true
   },
   {
     "name": "Fevered Dreams",
@@ -3132,7 +3184,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams",
+    "is_high_res_icon": true
   },
   {
     "name": "Fevered Dreams (PvP)",
@@ -3181,7 +3234,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fevered_Dreams_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Fragility",
@@ -3254,7 +3308,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fragility"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fragility",
+    "is_high_res_icon": true
   },
   {
     "name": "Fragility (PvP)",
@@ -3327,7 +3382,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Fragility_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fragility_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Frustration",
@@ -3400,7 +3456,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Frustration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frustration",
+    "is_high_res_icon": true
   },
   {
     "name": "Frustration (PvP)",
@@ -3473,7 +3530,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Frustration_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frustration_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Guilt",
@@ -3522,7 +3580,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Guilt"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guilt",
+    "is_high_res_icon": true
   },
   {
     "name": "Hex Breaker",
@@ -3595,7 +3654,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Breaker"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Breaker",
+    "is_high_res_icon": true
   },
   {
     "name": "Hex Eater Signet",
@@ -3668,7 +3728,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Hex Eater Vortex",
@@ -3717,7 +3778,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex",
+    "is_high_res_icon": true
   },
   {
     "name": "Hypochondria",
@@ -3741,7 +3803,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Hypochondria"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hypochondria",
+    "is_high_res_icon": true
   },
   {
     "name": "Ignorance",
@@ -3790,7 +3853,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ignorance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ignorance",
+    "is_high_res_icon": true
   },
   {
     "name": "Illusion of Haste",
@@ -3839,7 +3903,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
+    "is_high_res_icon": true
   },
   {
     "name": "Illusion of Haste (PvP)",
@@ -3888,7 +3953,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Illusion of Pain",
@@ -3985,7 +4051,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Illusion of Pain (PvP)",
@@ -4082,7 +4149,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Illusion of Weakness",
@@ -4155,7 +4223,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Weakness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_of_Weakness",
+    "is_high_res_icon": true
   },
   {
     "name": "Illusionary Weaponry",
@@ -4204,7 +4273,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry",
+    "is_high_res_icon": true
   },
   {
     "name": "Illusionary Weaponry (PvP)",
@@ -4253,7 +4323,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Images of Remorse",
@@ -4350,7 +4421,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Images_of_Remorse"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Images_of_Remorse",
+    "is_high_res_icon": true
   },
   {
     "name": "Imagined Burden",
@@ -4399,7 +4471,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Imagined_Burden"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Imagined_Burden",
+    "is_high_res_icon": true
   },
   {
     "name": "Ineptitude",
@@ -4448,7 +4521,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Ineptitude"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ineptitude",
+    "is_high_res_icon": true
   },
   {
     "name": "Inspired Enchantment",
@@ -4497,7 +4571,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Inspired Hex",
@@ -4546,7 +4621,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Hex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inspired_Hex",
+    "is_high_res_icon": true
   },
   {
     "name": "Keystone Signet",
@@ -4619,7 +4695,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Keystone_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Keystone_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Kitah's Burden",
@@ -4668,7 +4745,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Kitah%27s_Burden"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Kitah%27s_Burden",
+    "is_high_res_icon": true
   },
   {
     "name": "Leech Signet",
@@ -4717,7 +4795,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Leech_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leech_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Lyssa's Aura",
@@ -4766,7 +4845,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura",
+    "is_high_res_icon": true
   },
   {
     "name": "Lyssa's Balance",
@@ -4790,7 +4870,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Balance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lyssa%27s_Balance",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Concentration",
@@ -4839,7 +4920,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Concentration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Concentration",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Earth",
@@ -4912,7 +4994,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Earth"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Earth",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Flame",
@@ -4985,7 +5068,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Flame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Flame",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Frost",
@@ -5058,7 +5142,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Frost"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Frost",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Inscriptions",
@@ -5131,7 +5216,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Lightning",
@@ -5204,7 +5290,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Lightning"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Lightning",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Persistence",
@@ -5277,7 +5364,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Persistence"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Persistence",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Recall",
@@ -5326,7 +5414,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recall"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recall",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Recovery",
@@ -5399,7 +5488,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recovery"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Recovery",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Resolve",
@@ -5472,7 +5562,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Resolve (PvP)",
@@ -5521,7 +5612,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Signets",
@@ -5594,7 +5686,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets",
+    "is_high_res_icon": true
   },
   {
     "name": "Mantra of Signets (PvP)",
@@ -5667,7 +5760,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mantra_of_Signets_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Migraine",
@@ -5740,7 +5834,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Migraine"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Migraine",
+    "is_high_res_icon": true
   },
   {
     "name": "Migraine (PvP)",
@@ -5813,7 +5908,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Migraine_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Migraine_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Wrack",
@@ -5910,7 +6006,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack",
+    "is_high_res_icon": true
   },
   {
     "name": "Mind Wrack (PvP)",
@@ -5983,7 +6080,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mind_Wrack_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mirror of Disenchantment",
@@ -6007,7 +6105,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Mirror of Disenchantment (PvP)",
@@ -6031,7 +6130,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Mistrust",
@@ -6080,7 +6180,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust",
+    "is_high_res_icon": true
   },
   {
     "name": "Mistrust (PvP)",
@@ -6129,7 +6230,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mistrust_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Overload",
@@ -6202,7 +6304,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Overload"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Overload",
+    "is_high_res_icon": true
   },
   {
     "name": "Panic",
@@ -6251,7 +6354,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Panic"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Panic",
+    "is_high_res_icon": true
   },
   {
     "name": "Persistence of Memory",
@@ -6300,7 +6404,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Persistence_of_Memory"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
+    "is_high_res_icon": true
   },
   {
     "name": "Phantom Pain",
@@ -6373,7 +6478,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Phantom_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Phantom_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Physical Resistance",
@@ -6446,7 +6552,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Physical_Resistance"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Physical_Resistance",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Block",
@@ -6495,7 +6602,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Block"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Block",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Drain",
@@ -6544,7 +6652,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Drain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Drain",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Flux",
@@ -6593,7 +6702,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Flux"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Flux",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Leak",
@@ -6642,7 +6752,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leak"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leak",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Leech",
@@ -6691,7 +6802,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leech"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Leech",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Lock",
@@ -6740,7 +6852,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Lock"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Lock",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Return",
@@ -6789,7 +6902,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Return"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Return",
+    "is_high_res_icon": true
   },
   {
     "name": "Power Spike",
@@ -6838,7 +6952,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Spike"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Power_Spike",
+    "is_high_res_icon": true
   },
   {
     "name": "Price of Pride",
@@ -6911,7 +7026,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Pride"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Price_of_Pride",
+    "is_high_res_icon": true
   },
   {
     "name": "Psychic Distraction",
@@ -6960,7 +7076,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Distraction"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Distraction",
+    "is_high_res_icon": true
   },
   {
     "name": "Psychic Instability",
@@ -7009,7 +7126,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability",
+    "is_high_res_icon": true
   },
   {
     "name": "Psychic Instability (PvP)",
@@ -7058,7 +7176,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Psychic_Instability_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Recurring Insecurity",
@@ -7107,7 +7226,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Recurring_Insecurity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Recurring_Insecurity",
+    "is_high_res_icon": true
   },
   {
     "name": "Revealed Enchantment",
@@ -7156,7 +7276,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Revealed Hex",
@@ -7205,7 +7326,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Hex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Revealed_Hex",
+    "is_high_res_icon": true
   },
   {
     "name": "Shame",
@@ -7254,7 +7376,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shame"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shame",
+    "is_high_res_icon": true
   },
   {
     "name": "Shared Burden",
@@ -7303,7 +7426,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden",
+    "is_high_res_icon": true
   },
   {
     "name": "Shared Burden (PvP)",
@@ -7352,7 +7476,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shared_Burden_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Shatter Delusions",
@@ -7401,7 +7526,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions",
+    "is_high_res_icon": true
   },
   {
     "name": "Shatter Delusions (PvP)",
@@ -7450,7 +7576,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Delusions_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Shatter Enchantment",
@@ -7499,7 +7626,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Enchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Shatter Hex",
@@ -7548,7 +7676,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Hex"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Hex",
+    "is_high_res_icon": true
   },
   {
     "name": "Shatter Storm",
@@ -7572,7 +7701,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Storm"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shatter_Storm",
+    "is_high_res_icon": true
   },
   {
     "name": "Shrinking Armor",
@@ -7645,7 +7775,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Shrinking_Armor"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shrinking_Armor",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Clumsiness",
@@ -7694,7 +7825,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Clumsiness (PvP)",
@@ -7743,7 +7875,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Disenchantment",
@@ -7767,7 +7900,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disenchantment"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disenchantment",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Disruption",
@@ -7816,7 +7950,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Disruption",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Distraction",
@@ -7865,7 +8000,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Distraction"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Distraction",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Humility",
@@ -7914,7 +8050,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Humility"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Humility",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Illusions",
@@ -7963,7 +8100,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Illusions"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Illusions",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Midnight",
@@ -7987,7 +8125,8 @@
     "is_elite": true,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Midnight"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Midnight",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Recall",
@@ -8036,7 +8175,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Recall"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Recall",
+    "is_high_res_icon": true
   },
   {
     "name": "Signet of Weariness",
@@ -8109,7 +8249,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Weariness"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Signet_of_Weariness",
+    "is_high_res_icon": true
   },
   {
     "name": "Simple Thievery",
@@ -8158,7 +8299,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Simple_Thievery"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Simple_Thievery",
+    "is_high_res_icon": true
   },
   {
     "name": "Soothing Images",
@@ -8207,7 +8349,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_Images"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soothing_Images",
+    "is_high_res_icon": true
   },
   {
     "name": "Spirit Shackles",
@@ -8256,7 +8399,8 @@
     "is_elite": false,
     "campaign": "Core",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Shackles"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_Shackles",
+    "is_high_res_icon": true
   },
   {
     "name": "Spirit of Failure",
@@ -8305,7 +8449,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_of_Failure"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spirit_of_Failure",
+    "is_high_res_icon": true
   },
   {
     "name": "Spiritual Pain",
@@ -8378,7 +8523,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
+    "is_high_res_icon": true
   },
   {
     "name": "Spiritual Pain (PvP)",
@@ -8451,7 +8597,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spiritual_Pain_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Stolen Speed",
@@ -8500,7 +8647,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed",
+    "is_high_res_icon": true
   },
   {
     "name": "Stolen Speed (PvP)",
@@ -8549,7 +8697,8 @@
     "is_elite": true,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stolen_Speed_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Sum of All Fears",
@@ -8598,7 +8747,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sum_of_All_Fears"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sum_of_All_Fears",
+    "is_high_res_icon": true
   },
   {
     "name": "Symbolic Celerity",
@@ -8647,7 +8797,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Celerity"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Celerity",
+    "is_high_res_icon": true
   },
   {
     "name": "Symbolic Posture",
@@ -8720,7 +8871,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Posture"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbolic_Posture",
+    "is_high_res_icon": true
   },
   {
     "name": "Symbols of Inspiration",
@@ -8769,7 +8921,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration",
+    "is_high_res_icon": true
   },
   {
     "name": "Sympathetic Visage",
@@ -8818,7 +8971,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Sympathetic_Visage"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sympathetic_Visage",
+    "is_high_res_icon": true
   },
   {
     "name": "Tease",
@@ -8867,11 +9021,12 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Tease"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tease",
+    "is_high_res_icon": true
   },
   {
     "name": "Time Ward",
-    "icon": null,
+    "icon": "https://wiki.guildwars.com/images/9/90/Time_Ward.jpg",
     "concise_description": "Elite Ward Spell. ({{Duration}} seconds.) Allies in this ward cast spells {{FasterCastPercent}}% faster and recharge skills {{FasterRechargePercent}}% faster. Allied spirits are not affected. PvE Skill",
     "type": "Ward Spell",
     "profession": "Mesmer",
@@ -8964,7 +9119,8 @@
     "is_elite": true,
     "campaign": "Core",
     "limitation": "PvE-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Time_Ward"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Time_Ward",
+    "is_high_res_icon": false
   },
   {
     "name": "Unnatural Signet",
@@ -9037,7 +9193,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet",
+    "is_high_res_icon": true
   },
   {
     "name": "Unnatural Signet (PvP)",
@@ -9110,7 +9267,8 @@
     "is_elite": false,
     "campaign": "Factions",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Visions of Regret",
@@ -9207,7 +9365,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret",
+    "is_high_res_icon": true
   },
   {
     "name": "Visions of Regret (PvP)",
@@ -9280,7 +9439,8 @@
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Visions_of_Regret_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Wandering Eye",
@@ -9329,7 +9489,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye",
+    "is_high_res_icon": true
   },
   {
     "name": "Wandering Eye (PvP)",
@@ -9378,7 +9539,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wandering_Eye_(PvP)",
+    "is_high_res_icon": true
   },
   {
     "name": "Waste Not, Want Not",
@@ -9427,7 +9589,8 @@
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Waste_Not,_Want_Not"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Waste_Not,_Want_Not",
+    "is_high_res_icon": true
   },
   {
     "name": "Wastrel's Demise",
@@ -9524,7 +9687,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Demise"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Demise",
+    "is_high_res_icon": true
   },
   {
     "name": "Wastrel's Worry",
@@ -9573,7 +9737,8 @@
     "is_elite": false,
     "campaign": "Prophecies",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
+    "is_high_res_icon": true
   },
   {
     "name": "Web of Disruption",
@@ -9597,7 +9762,8 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": null,
-    "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption",
+    "is_high_res_icon": true
   },
   {
     "name": "Web of Disruption (PvP)",
@@ -9621,6 +9787,7 @@
     "is_elite": false,
     "campaign": "Nightfall",
     "limitation": "PvP-only",
-    "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption_(PvP)"
+    "wiki_url": "https://wiki.guildwars.com/wiki/Web_of_Disruption_(PvP)",
+    "is_high_res_icon": true
   }
 ]
