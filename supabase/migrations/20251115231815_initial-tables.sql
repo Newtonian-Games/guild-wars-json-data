@@ -1,11 +1,15 @@
 -- Function to update updated_at timestamp
 CREATE OR REPLACE FUNCTION update_updated_at()
-RETURNS TRIGGER AS $$
+RETURNS TRIGGER
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path = public
+AS $$
 BEGIN
   NEW.updated_at = EXTRACT(EPOCH FROM now());
   RETURN NEW;
 END;
-$$ LANGUAGE plpgsql;
+$$;
 
 -- Team Builds Table
 CREATE TABLE team_builds (
@@ -13,6 +17,7 @@ CREATE TABLE team_builds (
   author_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
   name text NOT NULL,
   description text,
+  notes text,
   created_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now())),
   updated_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now()))
 );
@@ -22,6 +27,7 @@ CREATE TABLE builds (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   team_build_id uuid NOT NULL REFERENCES team_builds(id) ON DELETE CASCADE,
   author_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
+  notes text,
   created_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now())),
   updated_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now()))
 );
@@ -36,10 +42,15 @@ CREATE TRIGGER trg_update_updated_at
 BEFORE UPDATE ON builds
 FOR EACH ROW EXECUTE FUNCTION update_updated_at();
 
--- Indexes for foreign keys
+-- Indexes for team_builds
 CREATE INDEX idx_team_builds_author_id ON team_builds(author_id);
+CREATE INDEX idx_team_builds_created_at ON team_builds(created_at DESC);
+CREATE INDEX idx_team_builds_author_created ON team_builds(author_id, created_at DESC);
+
+-- Indexes for builds
 CREATE INDEX idx_builds_team_build_id ON builds(team_build_id);
 CREATE INDEX idx_builds_author_id ON builds(author_id);
+CREATE INDEX idx_builds_created_at ON builds(created_at DESC);
 
 -- Enable Realtime
 ALTER PUBLICATION supabase_realtime ADD TABLE team_builds;

@@ -1,0 +1,141 @@
+[
+  {
+    "name": "axe",
+    "weapons": [
+      "Axe"
+    ]
+  },
+  {
+    "name": "bow",
+    "weapons": [
+      "Bow"
+    ]
+  },
+  {
+    "name": "daggers",
+    "weapons": [
+      "Daggers"
+    ]
+  },
+  {
+    "name": "hammer",
+    "weapons": [
+      "Hammer"
+    ]
+  },
+  {
+    "name": "scythe",
+    "weapons": [
+      "Scythe"
+    ]
+  },
+  {
+    "name": "spear",
+    "weapons": [
+      "Spear"
+    ]
+  },
+  {
+    "name": "staff",
+    "weapons": [
+      "Staff"
+    ]
+  },
+  {
+    "name": "sword",
+    "weapons": [
+      "Sword"
+    ]
+  },
+  {
+    "name": "wand",
+    "weapons": [
+      "Wand"
+    ]
+  },
+  {
+    "name": "focus items",
+    "weapons": [
+      "Focus"
+    ]
+  },
+  {
+    "name": "martial weapons",
+    "weapons": [
+      "Axe",
+      "Bow",
+      "Daggers",
+      "Hammer",
+      "Scythe",
+      "Spear",
+      "Sword"
+    ]
+  },
+  {
+    "name": "martial weapons and staves",
+    "weapons": [
+      "Axe",
+      "Bow",
+      "Daggers",
+      "Hammer",
+      "Scythe",
+      "Spear",
+      "Staff",
+      "Sword"
+    ]
+  },
+  {
+    "name": "spellcasting weapons",
+    "weapons": [
+      "Staff",
+      "Wand"
+    ]
+  },
+  {
+    "name": "focus shield staff",
+    "weapons": [
+      "Focus",
+      "Shield",
+      "Staff"
+    ]
+  },
+  {
+    "name": "martial weapons staves wands",
+    "weapons": [
+      "Axe",
+      "Bow",
+      "Daggers",
+      "Hammer",
+      "Scythe",
+      "Spear",
+      "Staff",
+      "Sword",
+      "Wand"
+    ]
+  },
+  {
+    "name": "axe bow hammer sword",
+    "weapons": [
+      "Axe",
+      "Bow",
+      "Hammer",
+      "Sword"
+    ]
+  },
+  {
+    "name": "equippable items",
+    "weapons": [
+      "Axe",
+      "Bow",
+      "Daggers",
+      "Hammer",
+      "Scythe",
+      "Spear",
+      "Staff",
+      "Sword",
+      "Wand",
+      "Focus",
+      "Shield"
+    ]
+  }
+]

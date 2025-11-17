@@ -19,7 +19,11 @@ CREATE TABLE attributes (
   UNIQUE(name, profession_id)
 );
 
--- Indexes
+-- Indexes for professions
+CREATE INDEX idx_professions_name ON professions(name);
+
+-- Indexes for attributes
+CREATE INDEX idx_attributes_name ON attributes(name);
 CREATE INDEX idx_attributes_profession_id ON attributes(profession_id);
 CREATE INDEX idx_attributes_is_primary ON attributes(is_primary);
 
@@ -33,10 +37,20 @@ CREATE TRIGGER trg_update_updated_at_attributes
 BEFORE UPDATE ON attributes
 FOR EACH ROW EXECUTE FUNCTION update_updated_at();
 
--- Note: Seeding data has been moved to seed files
--- Run: npm run seed (from supabase directory)
--- Or: npx supabase db seed
-
 -- Enable Realtime
 ALTER PUBLICATION supabase_realtime ADD TABLE professions;
 ALTER PUBLICATION supabase_realtime ADD TABLE attributes;
+
+-- Enable Row Level Security (allow read for all authenticated users)
+ALTER TABLE professions ENABLE ROW LEVEL SECURITY;
+ALTER TABLE attributes ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "Anyone can view professions"
+  ON professions FOR SELECT
+  TO authenticated
+  USING (true);
+
+CREATE POLICY "Anyone can view attributes"
+  ON attributes FOR SELECT
+  TO authenticated
+  USING (true);
