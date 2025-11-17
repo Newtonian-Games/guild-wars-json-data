@@ -1,0 +1,675 @@
+[
+  {
+    "name": "Aeromancer Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      },
+      "ArmorBonusVsElemental": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. elemental damage){{br}}Armor +10 (vs. Lightning damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aeromancer_Insignia",
+    "icon": "https://wiki.guildwars.com/images/f/f3/Aeromancer_Insignia.png"
+  },
+  {
+    "name": "Anchorite's Insignia",
+    "profession": "Monk",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 5,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +5 (while recharging 1 or more skills){{br}}Armor +5 (while recharging 3 or more skills){{br}}Armor +5 (while recharging 5 or more skills)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Anchorite%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/2/2c/Anchorite%27s_Insignia.png"
+  },
+  {
+    "name": "Artificer's Insignia",
+    "profession": "Mesmer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 3,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +3 (for each equipped Signet)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Artificer%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/f/fd/Artificer%27s_Insignia.png"
+  },
+  {
+    "name": "Beastmaster's Insignia",
+    "profession": "Ranger",
+    "requirements": null,
+    "effects": {
+      "ArmorBonusWhilePetAlive": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while your pet is alive)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Beastmaster%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/d/d3/Beastmaster%27s_Insignia.png"
+  },
+  {
+    "name": "Blessed Insignia",
+    "profession": null,
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while affected by an Enchantment Spell)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blessed_Insignia",
+    "icon": "https://wiki.guildwars.com/images/f/ff/Blessed_Insignia.png"
+  },
+  {
+    "name": "Blighter's Insignia",
+    "profession": "Necromancer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 20,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +20 (while affected by a Hex Spell)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blighter%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/d/d7/Blighter%27s_Insignia.png"
+  },
+  {
+    "name": "Bloodstained Insignia",
+    "profession": "Necromancer",
+    "requirements": null,
+    "effects": {
+      "CastingTimeReductionCorpseSpells": {
+        "value": 0.25,
+        "cumulative": false
+      }
+    },
+    "description": "Reduces casting time of spells {{br}}that exploit corpses by 25% (Non-stacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bloodstained_Insignia",
+    "icon": "https://wiki.guildwars.com/images/8/88/Bloodstained_Insignia.png"
+  },
+  {
+    "name": "Bonelace Insignia",
+    "profession": "Necromancer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (vs. Piercing damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bonelace_Insignia",
+    "icon": "https://wiki.guildwars.com/images/c/c5/Bonelace_Insignia.png"
+  },
+  {
+    "name": "Brawler's Insignia",
+    "profession": null,
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while attacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Brawler%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/a/a2/Brawler%27s_Insignia.png"
+  },
+  {
+    "name": "Centurion's Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonusWhileShoutEchoChant": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while affected by a Shout, Echo, or Chant)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Centurion%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/9/91/Centurion%27s_Insignia.png"
+  },
+  {
+    "name": "Disciple's Insignia",
+    "profession": "Monk",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (while affected by a Condition)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disciple%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/d/df/Disciple%27s_Insignia.png"
+  },
+  {
+    "name": "Dreadnought Insignia",
+    "profession": "Warrior",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. elemental damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dreadnought_Insignia",
+    "icon": "https://wiki.guildwars.com/images/c/ce/Dreadnought_Insignia.png"
+  },
+  {
+    "name": "Earthbound Insignia",
+    "profession": "Ranger",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (vs. Earth damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earthbound_Insignia",
+    "icon": "https://wiki.guildwars.com/images/a/a3/Earthbound_Insignia.png"
+  },
+  {
+    "name": "Forsaken Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonusWhileNotEnchanted": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while not affected by an Enchantment Spell)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forsaken_Insignia",
+    "icon": "https://wiki.guildwars.com/images/1/13/Forsaken_Insignia.png"
+  },
+  {
+    "name": "Frostbound Insignia",
+    "profession": "Ranger",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (vs. Cold damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Frostbound_Insignia",
+    "icon": "https://wiki.guildwars.com/images/9/91/Frostbound_Insignia.png"
+  },
+  {
+    "name": "Geomancer Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      },
+      "ArmorBonusVsElemental": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. elemental damage){{br}}Armor +10 (vs. Earth damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Geomancer_Insignia",
+    "icon": "https://wiki.guildwars.com/images/3/35/Geomancer_Insignia.png"
+  },
+  {
+    "name": "Ghost Forge Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (while affected by a Weapon Spell)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ghost_Forge_Insignia",
+    "icon": "https://wiki.guildwars.com/images/2/2b/Ghost_Forge_Insignia.png"
+  },
+  {
+    "name": "Herald's Insignia",
+    "profession": null,
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while holding an item)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Herald%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/9/96/Herald%27s_Insignia.png"
+  },
+  {
+    "name": "Hydromancer Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      },
+      "ArmorBonusVsElemental": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. elemental damage){{br}}Armor +10 (vs. Cold damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hydromancer_Insignia",
+    "icon": "https://wiki.guildwars.com/images/b/be/Hydromancer_Insignia.png"
+  },
+  {
+    "name": "Infiltrator's Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      },
+      "ArmorBonusVsPhysical": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. physical damage){{br}}Armor +10 (vs. Piercing damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Infiltrator%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/9/9a/Infiltrator%27s_Insignia.png"
+  },
+  {
+    "name": "Knight's Insignia",
+    "profession": "Warrior",
+    "requirements": null,
+    "effects": {
+      "PhysicalDamageReduction": {
+        "value": 3,
+        "cumulative": false
+      }
+    },
+    "description": "Received physical damage -3",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Knight%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/7/79/Knight%27s_Insignia.png"
+  },
+  {
+    "name": "Lieutenant's Insignia",
+    "profession": "Warrior",
+    "requirements": null,
+    "effects": {
+      "ArmorPenalty": {
+        "value": -20,
+        "cumulative": false
+      },
+      "HexDurationReduction": {
+        "value": 0.2,
+        "cumulative": false
+      },
+      "DamagePenalty": {
+        "value": 0.05,
+        "cumulative": false
+      }
+    },
+    "description": "Reduces Hex durations on you by 20% {{br}}and damage dealt by you by 5% (Non-stacking){{br}}Armor -20",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lieutenant%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/5/57/Lieutenant%27s_Insignia.png"
+  },
+  {
+    "name": "Minion Master's Insignia",
+    "profession": "Necromancer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 5,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +5 (while you control 1 or more minions){{br}}Armor +5 (while you control 3 or more minions){{br}}Armor +5 (while you control 5 or more minions)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Minion_Master%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/8/81/Minion_Master%27s_Insignia.png"
+  },
+  {
+    "name": "Mystic's Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (while activating skills)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mystic%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/1/10/Mystic%27s_Insignia.png"
+  },
+  {
+    "name": "Nightstalker's Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonusWhileAttacking": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (while attacking)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nightstalker%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/a/a1/Nightstalker%27s_Insignia.png"
+  },
+  {
+    "name": "Prismatic Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 5,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +5 (requires 9 Air Magic){{br}}Armor +5 (requires 9 Earth Magic){{br}}Armor +5 (requires 9 Fire Magic){{br}}Armor +5 (requires 9 Water Magic)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Prismatic_Insignia",
+    "icon": "https://wiki.guildwars.com/images/f/f8/Prismatic_Insignia.png"
+  },
+  {
+    "name": "Prodigy's Insignia",
+    "profession": "Mesmer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 5,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +5 (while recharging 1 or more skills){{br}}Armor +5 (while recharging 3 or more skills){{br}}Armor +5 (while recharging 5 or more skills)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Prodigy%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/7/72/Prodigy%27s_Insignia.png"
+  },
+  {
+    "name": "Pyrebound Insignia",
+    "profession": "Ranger",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (vs. Fire damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pyrebound_Insignia",
+    "icon": "https://wiki.guildwars.com/images/7/7c/Pyrebound_Insignia.png"
+  },
+  {
+    "name": "Pyromancer Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      },
+      "ArmorBonusVsElemental": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. elemental damage){{br}}Armor +10 (vs. Fire damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pyromancer_Insignia",
+    "icon": "https://wiki.guildwars.com/images/4/4f/Pyromancer_Insignia.png"
+  },
+  {
+    "name": "Radiant Insignia",
+    "profession": null,
+    "requirements": null,
+    "effects": {
+      "EnergyBonus": {
+        "value": {
+          "chest": 3,
+          "leg": 2,
+          "other": 1
+        },
+        "cumulative": true
+      }
+    },
+    "description": "Energy +3 (on chest armor){{br}}Energy +2 (on leg armor){{br}}Energy +1 (on other armor)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Radiant_Insignia",
+    "icon": "https://wiki.guildwars.com/images/0/00/Radiant_Insignia.png"
+  },
+  {
+    "name": "Saboteur's Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      },
+      "ArmorBonusVsPhysical": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. physical damage){{br}}Armor +10 (vs. Slashing damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Saboteur%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/6/6c/Saboteur%27s_Insignia.png"
+  },
+  {
+    "name": "Scout's Insignia",
+    "profession": "Ranger",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while using a Preparation)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scout%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/1/15/Scout%27s_Insignia.png"
+  },
+  {
+    "name": "Sentinel's Insignia",
+    "profession": "Warrior",
+    "requirements": {
+      "attribute": "Strength",
+      "value": 13
+    },
+    "effects": {
+      "ArmorBonus": {
+        "value": 20,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +20 (Requires 13 Strength, vs. elemental damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sentinel%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/1/1e/Sentinel%27s_Insignia.png"
+  },
+  {
+    "name": "Sentry's Insignia",
+    "profession": null,
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (while in a stance)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sentry%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/a/a3/Sentry%27s_Insignia.png"
+  },
+  {
+    "name": "Shaman's Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 5,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +5 (while you control 1 or more Spirits){{br}}Armor +5 (while you control 2 or more Spirits){{br}}Armor +5 (while you control 3 or more Spirits)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shaman%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/d/dc/Shaman%27s_Insignia.png"
+  },
+  {
+    "name": "Stalwart Insignia",
+    "profession": null,
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. physical damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stalwart_Insignia",
+    "icon": "https://wiki.guildwars.com/images/8/83/Stalwart_Insignia.png"
+  },
+  {
+    "name": "Stonefist Insignia",
+    "profession": "Warrior",
+    "requirements": null,
+    "effects": {
+      "KnockdownBonus": {
+        "value": 1,
+        "cumulative": false
+      }
+    },
+    "description": "Increases knockdown time on foes by 1 second. {{br}}(Maximum: 3 seconds)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stonefist_Insignia",
+    "icon": "https://wiki.guildwars.com/images/1/1f/Stonefist_Insignia.png"
+  },
+  {
+    "name": "Stormbound Insignia",
+    "profession": "Ranger",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (vs. Lightning damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Stormbound_Insignia",
+    "icon": "https://wiki.guildwars.com/images/6/6a/Stormbound_Insignia.png"
+  },
+  {
+    "name": "Survivor Insignia",
+    "profession": null,
+    "requirements": null,
+    "effects": {
+      "HealthBonus": {
+        "value": {
+          "chest": 15,
+          "leg": 10,
+          "other": 5
+        },
+        "cumulative": true
+      }
+    },
+    "description": "Health +15 (on chest armor){{br}}Health +10 (on leg armor){{br}}Health +5 (on other armor)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Survivor_Insignia",
+    "icon": "https://wiki.guildwars.com/images/b/b7/Survivor_Insignia.png"
+  },
+  {
+    "name": "Tormentor's Insignia",
+    "profession": "Necromancer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Holy damage you receive increased by 6 (on chest armor){{br}}Holy damage you receive increased by 4 (on leg armor){{br}}Holy damage you receive increased by 2 (on other armor){{br}}Armor +10",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tormentor%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/8/8e/Tormentor%27s_Insignia.png"
+  },
+  {
+    "name": "Undertaker's Insignia",
+    "profession": "Necromancer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 5,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +5 (while health is below 80%){{br}}Armor +5 (while health is below 60%){{br}}Armor +5 (while health is below 40%){{br}}Armor +5 (while health is below 20%)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Undertaker%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/f/fc/Undertaker%27s_Insignia.png"
+  },
+  {
+    "name": "Vanguard's Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonusVsPhysical": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. physical damage){{br}}Armor +10 (vs. Blunt damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vanguard%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/0/03/Vanguard%27s_Insignia.png"
+  },
+  {
+    "name": "Virtuoso's Insignia",
+    "profession": "Mesmer",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 15,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +15 (while activating skills)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Virtuoso%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/c/cf/Virtuoso%27s_Insignia.png"
+  },
+  {
+    "name": "Wanderer's Insignia",
+    "profession": "Monk",
+    "requirements": null,
+    "effects": {
+      "ArmorBonusVsElemental": {
+        "value": 10,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +10 (vs. elemental damage)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wanderer%27s_Insignia",
+    "icon": "https://wiki.guildwars.com/images/c/c1/Wanderer%27s_Insignia.png"
+  },
+  {
+    "name": "Windwalker Insignia",
+    "profession": "Elementalist",
+    "requirements": null,
+    "effects": {
+      "ArmorBonus": {
+        "value": 5,
+        "cumulative": false
+      }
+    },
+    "description": "Armor +5 (while affected by 1 or more Enchantment Spells){{br}}Armor +5 (while affected by 2 or more Enchantment Spells){{br}}Armor +5 (while affected by 3 or more Enchantment Spells){{br}}Armor +5 (while affected by 4 or more Enchantment Spells)",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Windwalker_Insignia",
+    "icon": "https://wiki.guildwars.com/images/9/97/Windwalker_Insignia.png"
+  }
+]

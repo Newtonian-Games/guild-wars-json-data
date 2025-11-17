@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Core",
+    "order": 0,
+    "description": "Core skills available across all campaigns"
+  },
+  {
+    "name": "Prophecies",
+    "order": 1,
+    "description": "Guild Wars Prophecies campaign"
+  },
+  {
+    "name": "Factions",
+    "order": 2,
+    "description": "Guild Wars Factions campaign"
+  },
+  {
+    "name": "Nightfall",
+    "order": 3,
+    "description": "Guild Wars Nightfall campaign"
+  },
+  {
+    "name": "Eye of the North",
+    "order": 4,
+    "description": "Guild Wars: Eye of the North expansion"
+  },
+  {
+    "name": "Bonus Mission Pack",
+    "order": 5,
+    "description": "Bonus Mission Pack DLC"
+  },
+  {
+    "name": "Hearts of the North",
+    "order": 6,
+    "description": "Hearts of the North quest pack"
+  },
+  {
+    "name": "Winds of Change",
+    "order": 7,
+    "description": "Winds of Change quest series"
+  }
+]

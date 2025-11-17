@@ -1,0 +1,1831 @@
+[
+  {
+    "name": "Aptitude not Attitude",
+    "type": "inscription",
+    "attaches_to": "spellcasting weapons",
+    "description": "Halves casting time of spells of item's attribute (Chance: {{PlusAttribute}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Aptitude_not_Attitude",
+    "icon": "https://wiki.guildwars.com/images/f/f0/Inscription_spellcasting_weapons.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Be Just and Fear Not",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (while hexed)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Be_Just_and_Fear_Not",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Brawn over Brains",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}%Energy -5",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Brawn_over_Brains",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 14,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Cast Out the Unclean",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Disease duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cast_Out_the_Unclean",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "Dance with Death",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}% (while in a Stance)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dance_with_Death",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Don't Fear the Reaper",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}% (while Hexed)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Don't_Fear_the_Reaper",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Don't Think Twice",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Halves casting time of spells (Chance: {{ChancePercent}}%)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Don't_Think_Twice",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Don't call it a comeback!",
+    "type": "inscription",
+    "attaches_to": "spellcasting weapons",
+    "description": "Energy +{{PlusEnergy}} (while Health is below 50%)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Don't_call_it_a_comeback!",
+    "icon": "https://wiki.guildwars.com/images/f/f0/Inscription_spellcasting_weapons.png",
+    "variables": {
+      "PlusEnergy": {
+        "min": 5,
+        "max": 7
+      }
+    }
+  },
+  {
+    "name": "Down But Not Out",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (while Health is below 50%)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Down_But_Not_Out",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Faith is My Shield",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (while Enchanted)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Faith_is_My_Shield",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Fear Cuts Deeper",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Bleeding duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fear_Cuts_Deeper",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "Forget Me Not",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Halves skill recharge of spells of item's attribute (Chance: {{PlusAttribute}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Forget_Me_Not",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 15,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Guided by Fate",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}% (while Enchanted)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Guided_by_Fate",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Hail to the King",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (while Health is above 50%)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hail_to_the_King",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Hale and Hearty",
+    "type": "inscription",
+    "attaches_to": "spellcasting weapons",
+    "description": "Energy +{{PlusEnergy}} (while Health is above 50%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hale_and_Hearty",
+    "icon": "https://wiki.guildwars.com/images/f/f0/Inscription_spellcasting_weapons.png",
+    "variables": {
+      "PlusEnergy": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Have Faith",
+    "type": "inscription",
+    "attaches_to": "spellcasting weapons",
+    "description": "Energy +{{PlusEnergy}} (while Enchanted)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Have_Faith",
+    "icon": "https://wiki.guildwars.com/images/f/f0/Inscription_spellcasting_weapons.png",
+    "variables": {
+      "PlusEnergy": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "I Can See Clearly Now",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Blind duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/I_Can_See_Clearly_Now",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "I am Sorrow.",
+    "type": "inscription",
+    "attaches_to": "spellcasting weapons",
+    "description": "Energy +{{PlusEnergy}} (while Hexed)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/I_am_Sorrow.",
+    "icon": "https://wiki.guildwars.com/images/f/f0/Inscription_spellcasting_weapons.png",
+    "variables": {
+      "PlusEnergy": {
+        "min": 5,
+        "max": 7
+      }
+    }
+  },
+  {
+    "name": "I have the power!",
+    "type": "inscription",
+    "attaches_to": "martial weapons",
+    "description": "Energy +5",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/I_have_the_power!",
+    "icon": "https://wiki.guildwars.com/images/d/dc/Inscription_martial_weapons.png"
+  },
+  {
+    "name": "Ignorance is Bliss",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}}Energy -5",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ignorance_is_Bliss",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Knowing is Half the Battle",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +5 (while casting)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Knowing_is_Half_the_Battle",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "Leaf on the Wind",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Cold damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leaf_on_the_Wind",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Let the Memory Live Again",
+    "type": "inscription",
+    "attaches_to": "martial weapons",
+    "description": "Halves skill recharge of spells (Chance: {{ChancePercent}}%)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Let_the_Memory_Live_Again",
+    "icon": "https://wiki.guildwars.com/images/d/dc/Inscription_martial_weapons.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Life is Pain",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}}Health -20",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Life_is_Pain",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Like a Rolling Stone",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Earth damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Like_a_Rolling_Stone",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Live for Today",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Energy +{{PlusEnergy}}Energy regeneration -1",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Live_for_Today",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusEnergy": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Luck of the Draw",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Received physical damage -5 (Chance: {{PlusDamagePercent}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Luck_of_the_Draw",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 11,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Man for All Seasons",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Elemental damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Man_for_All_Seasons",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Master of My Domain!",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Item's attribute +1 (Chance: {{PlusAttribute}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Master_of_My_Domain!",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 11,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Measure for Measure",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Highly salvageable",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Measure_for_Measure",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png"
+  },
+  {
+    "name": "Might Makes Right",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (while attacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Might_Makes_Right",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Not the Face!",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Blunt damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Not_the_Face!",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Nothing to Fear",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Received physical damage -{{ChancePercent}} (while Hexed)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Nothing_to_Fear",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 1,
+        "max": 3
+      }
+    }
+  },
+  {
+    "name": "Only the Strong Survive",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Weakness duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Only_the_Strong_Survive",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "Pure of Heart",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Poison duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Pure_of_Heart",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "Riders on the Storm",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Lightning damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Riders_on_the_Storm",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Run For Your Life!",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Received physical damage -{{ChancePercent}} (while in a Stance)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Run_For_Your_Life!",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 1,
+        "max": 2
+      }
+    }
+  },
+  {
+    "name": "Seize the Day",
+    "type": "inscription",
+    "attaches_to": "spellcasting weapons",
+    "description": "Energy +{{PlusEnergy}}Energy regeneration -1",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Seize_the_Day",
+    "icon": "https://wiki.guildwars.com/images/f/f0/Inscription_spellcasting_weapons.png",
+    "variables": {
+      "PlusEnergy": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Serenity Now",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Halves skill recharge of spells (Chance: {{ChancePercent}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Serenity_Now",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 7,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Sheltered by Faith",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Received physical damage -{{ChancePercent}} (while Enchanted)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sheltered_by_Faith",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 1,
+        "max": 2
+      }
+    }
+  },
+  {
+    "name": "Show me the money!",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Improved sale value",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Show_me_the_money!",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png"
+  },
+  {
+    "name": "Sleep Now in the Fire",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Fire damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sleep_Now_in_the_Fire",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Soundness of Mind",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Dazed duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soundness_of_Mind",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "Strength and Honor",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}% (while Health is above 50%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strength_and_Honor",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Strength of Body",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Deep Wound duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strength_of_Body",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "Survival of the Fittest",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Physical damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Survival_of_the_Fittest",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Swift as the Wind",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Reduces Crippled duration on you by 20% (Stacking)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swift_as_the_Wind",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png"
+  },
+  {
+    "name": "The Riddle of Steel",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Slashing damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/The_Riddle_of_Steel",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Through Thick and Thin",
+    "type": "inscription",
+    "attaches_to": "focus items",
+    "description": "Armor +{{PlusArmor}} (vs. Piercing damage)",
+    "campaign": "Nightfall",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Through_Thick_and_Thin",
+    "icon": "https://wiki.guildwars.com/images/5/59/Inscription_focus_items.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "To the Pain!",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}%Armor -10 (while attacking)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/To_the_Pain!",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 14,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Too Much Information",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Hexed foes)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Too_Much_Information",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 15
+      }
+    }
+  },
+  {
+    "name": "Vengeance is Mine",
+    "type": "inscription",
+    "attaches_to": "equippable items",
+    "description": "Damage +{{PlusDamagePercent}}% (while Health is below 50%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vengeance_is_Mine",
+    "icon": "https://wiki.guildwars.com/images/2/2e/Inscription_equippable_items.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Adept",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Halves casting time of spells of item's attribute (Chance: {{PlusAttribute}}%)",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Adept",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Barbed",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Lengthens Bleeding duration on foes by 33%",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Barbed",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Crippling",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Lengthens Crippled duration on foes by 33%",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippling",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Cruel",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Lengthens Deep Wound duration on foes by 33%",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cruel",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Defensive",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Armor +{{PlusArmor}}",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Defensive",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Ebon",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Earth damage",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Fiery",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Fire damage",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fiery",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Furious",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Double Adrenaline on hit (Chance: {{ChancePercent}}%)",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Furious",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 2,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Hale",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Health +{{PlusHealth}}",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hale",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "PlusHealth": {
+        "min": 10,
+        "max": 30
+      }
+    }
+  },
+  {
+    "name": "Heavy",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Lengthens Weakness duration on foes by 33%",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Heavy",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Icy",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Cold damage",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Icy",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Insightful",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Energy +{{PlusEnergy}}",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Insightful",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "PlusEnergy": {
+        "min": 1,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "Poisonous",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Lengthens Poison duration on foes by 33%",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Poisonous",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Shocking",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Lightning damage",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shocking",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Silencing",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Lengthens Dazed duration on foes by 33%",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Silencing",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "Sundering",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Armor penetration +20% (Chance: {{PlusArmor}}%)",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sundering",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "Swift",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Halves casting time of spells (Chance: {{ChancePercent}}%)",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swift",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 2,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "Vampiric",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Life Draining: {{LifeDrain}}Health regeneration: -1",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Vampiric",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png",
+    "variables": {
+      "LifeDrain": {
+        "low": {
+          "min": 1,
+          "max": 3,
+          "applies_to": [
+            "Axe",
+            "Daggers",
+            "Spear",
+            "Sword"
+          ]
+        },
+        "high": {
+          "min": 1,
+          "max": 5,
+          "applies_to": [
+            "Bow",
+            "Hammer",
+            "Scythe"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "Zealous",
+    "type": "prefix",
+    "attaches_to": "martial weapons",
+    "description": "Energy gain on hit: 1Energy regeneration: -1",
+    "campaign": "",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Zealous",
+    "icon": "https://wiki.guildwars.com/images/Prefix_axe.png"
+  },
+  {
+    "name": "of Air Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Air Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Aptitude",
+    "type": "suffix",
+    "attaches_to": "focus items",
+    "description": "Halves casting time of item's attribute spells (Chance: {{PlusAttribute}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Aptitude",
+    "icon": "https://wiki.guildwars.com/images/Suffix_wand.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Axe Mastery",
+    "type": "suffix",
+    "attaches_to": "axe",
+    "description": "Axe Mastery +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Blood Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Blood Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Channeling Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Channeling Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Charrslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Charr)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Communing",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Communing +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Curses",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Curses +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Dagger Mastery",
+    "type": "suffix",
+    "attaches_to": "daggers",
+    "description": "Dagger Mastery +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Death Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Death Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Deathbane",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Undead)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Defense",
+    "type": "suffix",
+    "attaches_to": "martial weapons and staves",
+    "description": "Armor +{{PlusArmor}}",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Defense",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of Demonslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Demons)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Devotion",
+    "type": "suffix",
+    "attaches_to": "focus shield staff",
+    "description": "Health +{{PlusHealth}} (while Enchanted)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Devotion",
+    "icon": "https://wiki.guildwars.com/images/Suffix_sword.png",
+    "variables": {
+      "PlusHealth": {
+        "min": 30,
+        "max": 45
+      }
+    }
+  },
+  {
+    "name": "of Divine Favor",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Divine Favor +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Domination Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Domination Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Dragonslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Dragons)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Dwarfslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Dwarves)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Earth Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Earth Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Enchanting",
+    "type": "suffix",
+    "attaches_to": "martial weapons and staves",
+    "description": "Enchantments last {{DurationPercent}}% longer",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Enchanting",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "DurationPercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Endurance",
+    "type": "suffix",
+    "attaches_to": "focus shield staff",
+    "description": "Health +{{PlusHealth}} (while in a Stance)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Endurance",
+    "icon": "https://wiki.guildwars.com/images/Suffix_sword.png",
+    "variables": {
+      "PlusHealth": {
+        "min": 30,
+        "max": 45
+      }
+    }
+  },
+  {
+    "name": "of Fire Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Fire Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Fortitude",
+    "type": "suffix",
+    "attaches_to": "equippable items",
+    "description": "Health +{{PlusHealth}}",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Fortitude",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusHealth": {
+        "min": 10,
+        "max": 30
+      }
+    }
+  },
+  {
+    "name": "of Giantslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Giants)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Hammer Mastery",
+    "type": "suffix",
+    "attaches_to": "hammer",
+    "description": "Hammer Mastery +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Healing Prayers",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Healing Prayers +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Illusion Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Illusion Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Inspiration Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Inspiration Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Marksmanship",
+    "type": "suffix",
+    "attaches_to": "bow",
+    "description": "Marksmanship +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Mastery",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Item's attribute +1 ({{PlusAttribute}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Mastery",
+    "icon": "https://wiki.guildwars.com/images/Suffix_sword.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Memory",
+    "type": "suffix",
+    "attaches_to": "wand",
+    "description": "Halves skill recharge of item's attribute spells (Chance: {{PlusAttribute}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Memory",
+    "icon": "https://wiki.guildwars.com/images/Suffix_hammer.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Ogreslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Ogres)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Protection Prayers",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Protection Prayers +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Pruning",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Plants)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Quickening",
+    "type": "suffix",
+    "attaches_to": "wand",
+    "description": "Halves skill recharge of spells (Chance: {{ChancePercent}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Quickening",
+    "icon": "https://wiki.guildwars.com/images/Suffix_hammer.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "of Restoration Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Restoration Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Scythe Mastery",
+    "type": "suffix",
+    "attaches_to": "scythe",
+    "description": "Scythe Mastery +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Shelter",
+    "type": "suffix",
+    "attaches_to": "martial weapons and staves",
+    "description": "Armor +{{PlusArmor}} (vs. physical damage)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Shelter",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 7
+      }
+    }
+  },
+  {
+    "name": "of Skeletonslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Skeletons)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Smiting Prayers",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Smiting Prayers +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Soul Reaping",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Soul Reaping +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Spear Mastery",
+    "type": "suffix",
+    "attaches_to": "spear",
+    "description": "Spear Mastery +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Swiftness",
+    "type": "suffix",
+    "attaches_to": "focus items",
+    "description": "Halves casting time of spells (Chance: {{ChancePercent}}%)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Swiftness",
+    "icon": "https://wiki.guildwars.com/images/Suffix_wand.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 5,
+        "max": 10
+      }
+    }
+  },
+  {
+    "name": "of Swordsmanship",
+    "type": "suffix",
+    "attaches_to": "sword",
+    "description": "Swordsmanship +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Tenguslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Tengu)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Trollslaying",
+    "type": "suffix",
+    "attaches_to": "axe bow hammer sword",
+    "description": "Damage +{{PlusDamagePercent}}% (vs. Trolls)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_slaying",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusDamagePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of Valor",
+    "type": "suffix",
+    "attaches_to": "focus shield staff",
+    "description": "Health +{{PlusHealth}} (while Hexed)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Valor",
+    "icon": "https://wiki.guildwars.com/images/Suffix_sword.png",
+    "variables": {
+      "PlusHealth": {
+        "min": 45,
+        "max": 60
+      }
+    }
+  },
+  {
+    "name": "of Warding",
+    "type": "suffix",
+    "attaches_to": "martial weapons and staves",
+    "description": "Armor +{{PlusArmor}} (vs. elemental damage)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/of_Warding",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusArmor": {
+        "min": 4,
+        "max": 7
+      }
+    }
+  },
+  {
+    "name": "of Water Magic",
+    "type": "suffix",
+    "attaches_to": "staff",
+    "description": "Water Magic +1 ({{ChancePercent}}% chance while using skills)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_Attribute",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "ChancePercent": {
+        "min": 10,
+        "max": 20
+      }
+    }
+  },
+  {
+    "name": "of the Assassin",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Dervish",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Elementalist",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Mesmer",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Monk",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Necromancer",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Paragon",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Ranger",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Ritualist",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  },
+  {
+    "name": "of the Warrior",
+    "type": "suffix",
+    "attaches_to": "martial weapons staves wands",
+    "description": "Attribute {{PlusAttribute}} (non-stacking, PvE only)",
+    "campaign": "Core",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Of_the_(Profession)",
+    "icon": "https://wiki.guildwars.com/images/Suffix_axe.png",
+    "variables": {
+      "PlusAttribute": {
+        "min": 4,
+        "max": 5
+      }
+    }
+  }
+]
