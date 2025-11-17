@@ -113,17 +113,19 @@ function generateProfessionsSql(professions) {
 -- Generated: ${new Date().toISOString()}
 -- Total professions: ${professions.length}
 
-INSERT INTO professions (name, abbreviation, icon)
+INSERT INTO professions (name, abbreviation, icon, wiki_url, armor_bonuses)
 VALUES`
 
   const values = professions.map(prof => {
-    return `  (${escapeSqlString(prof.name)}, ${escapeSqlString(prof.abbreviation)}, ${escapeSqlString(prof.icon)})`
+    return `  (${escapeSqlString(prof.name)}, ${escapeSqlString(prof.abbreviation)}, ${escapeSqlString(prof.icon)}, ${escapeSqlString(prof.wiki_url)}, ${toSqlJsonb(prof.armor_bonuses)})`
   }).join(',\n')
 
   const footer = `
 ON CONFLICT (name) DO UPDATE SET
   abbreviation = EXCLUDED.abbreviation,
-  icon = EXCLUDED.icon;
+  icon = EXCLUDED.icon,
+  wiki_url = EXCLUDED.wiki_url,
+  armor_bonuses = EXCLUDED.armor_bonuses;
 `
 
   return header + '\n' + values + footer
@@ -140,27 +142,33 @@ function generateAttributesSql(attributes) {
 -- Total attributes: ${attributes.length} (${professionAttrs.length} profession attributes + ${rankAttrs.length} rank attributes)
 
 -- Insert profession-specific attributes
-INSERT INTO attributes (name, profession_id, is_primary)
+INSERT INTO attributes (name, profession_id, is_primary, wiki_url, description, inherent_effects)
 VALUES`
 
   const professionValues = professionAttrs.map(attr => {
-    return `  (${escapeSqlString(attr.name)}, (SELECT id FROM professions WHERE name = ${escapeSqlString(attr.profession)}), ${toSqlBoolean(attr.isPrimary)})`
+    return `  (${escapeSqlString(attr.name)}, (SELECT id FROM professions WHERE name = ${escapeSqlString(attr.profession)}), ${toSqlBoolean(attr.isPrimary)}, ${escapeSqlString(attr.wiki_url)}, ${escapeSqlString(attr.description)}, ${toSqlJsonb(attr.inherent_effects)})`
   }).join(',\n')
 
   const professionFooter = `
 ON CONFLICT (name, profession_id) DO UPDATE SET
-  is_primary = EXCLUDED.is_primary;
+  is_primary = EXCLUDED.is_primary,
+  wiki_url = EXCLUDED.wiki_url,
+  description = EXCLUDED.description,
+  inherent_effects = EXCLUDED.inherent_effects;
 
 -- Insert rank attributes (no profession association)
-INSERT INTO attributes (name, profession_id, is_primary)
+INSERT INTO attributes (name, profession_id, is_primary, wiki_url, description, inherent_effects)
 VALUES`
 
   const rankValues = rankAttrs.map(attr => {
-    return `  (${attr.name === null ? 'NULL' : escapeSqlString(attr.name)}, NULL, false)`
+    return `  (${attr.name === null ? 'NULL' : escapeSqlString(attr.name)}, NULL, false, ${escapeSqlString(attr.wiki_url)}, ${escapeSqlString(attr.description)}, ${toSqlJsonb(attr.inherent_effects)})`
   }).join(',\n')
 
   const rankFooter = `
-ON CONFLICT (name, profession_id) DO NOTHING;
+ON CONFLICT (name, profession_id) DO UPDATE SET
+  wiki_url = EXCLUDED.wiki_url,
+  description = EXCLUDED.description,
+  inherent_effects = EXCLUDED.inherent_effects;
 `
 
   return header + '\n' + professionValues + professionFooter + '\n' + rankValues + rankFooter

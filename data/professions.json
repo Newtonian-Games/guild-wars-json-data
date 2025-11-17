@@ -2,51 +2,110 @@
   {
     "name": "Assassin",
     "abbreviation": "A",
-    "icon": "https://wiki.guildwars.com/images/thumb/3/34/Assassin-tango-icon-200.png/180px-Assassin-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/3/34/Assassin-tango-icon-200.png/180px-Assassin-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Assassin",
+    "armor_bonuses": {
+      "BaseArmor": "70",
+      "ExtraEnergy": "5",
+      "ExtraEnergyRecovery": "2"
+    }
   },
   {
     "name": "Dervish",
     "abbreviation": "D",
-    "icon": "https://wiki.guildwars.com/images/thumb/b/bf/Dervish-tango-icon-200.png/180px-Dervish-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/b/bf/Dervish-tango-icon-200.png/180px-Dervish-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dervish",
+    "armor_bonuses": {
+      "BaseArmor": "70",
+      "ExtraEnergy": "5",
+      "ExtraHealth": "25",
+      "ExtraEnergyRecovery": "2"
+    }
   },
   {
     "name": "Elementalist",
     "abbreviation": "E",
-    "icon": "https://wiki.guildwars.com/images/thumb/3/3c/Elementalist-tango-icon-200.png/180px-Elementalist-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/3/3c/Elementalist-tango-icon-200.png/180px-Elementalist-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Elementalist",
+    "armor_bonuses": {
+      "BaseArmor": "60",
+      "ExtraEnergy": "10",
+      "ExtraEnergyRecovery": "2"
+    }
   },
   {
     "name": "Mesmer",
     "abbreviation": "Me",
-    "icon": "https://wiki.guildwars.com/images/thumb/c/cc/Mesmer-tango-icon-200.png/180px-Mesmer-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/c/cc/Mesmer-tango-icon-200.png/180px-Mesmer-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mesmer",
+    "armor_bonuses": {
+      "BaseArmor": "60",
+      "ExtraEnergy": "10",
+      "ExtraEnergyRecovery": "2"
+    }
   },
   {
     "name": "Monk",
     "abbreviation": "Mo",
-    "icon": "https://wiki.guildwars.com/images/thumb/8/86/Monk-tango-icon-200.png/180px-Monk-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/8/86/Monk-tango-icon-200.png/180px-Monk-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Monk",
+    "armor_bonuses": {
+      "BaseArmor": "60",
+      "ExtraEnergy": "10",
+      "ExtraEnergyRecovery": "2"
+    }
   },
   {
     "name": "Necromancer",
     "abbreviation": "N",
-    "icon": "https://wiki.guildwars.com/images/thumb/a/a8/Necromancer-tango-icon-200.png/180px-Necromancer-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/a/a8/Necromancer-tango-icon-200.png/180px-Necromancer-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Necromancer",
+    "armor_bonuses": {
+      "BaseArmor": "60",
+      "ExtraEnergy": "10",
+      "ExtraEnergyRecovery": "2"
+    }
   },
   {
     "name": "Paragon",
     "abbreviation": "P",
-    "icon": "https://wiki.guildwars.com/images/thumb/2/21/Paragon-tango-icon-200.png/180px-Paragon-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/2/21/Paragon-tango-icon-200.png/180px-Paragon-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Paragon",
+    "armor_bonuses": {
+      "BaseArmor": "80",
+      "ExtraEnergy": "10"
+    }
   },
   {
     "name": "Ranger",
     "abbreviation": "R",
-    "icon": "https://wiki.guildwars.com/images/thumb/4/43/Ranger-tango-icon-200.png/180px-Ranger-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/4/43/Ranger-tango-icon-200.png/180px-Ranger-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ranger",
+    "armor_bonuses": {
+      "BaseArmor": "70",
+      "ElementalArmor": "+30 armor vs. elemental damage",
+      "ExtraEnergyRecovery": "1"
+    }
   },
   {
     "name": "Ritualist",
     "abbreviation": "Rt",
-    "icon": "https://wiki.guildwars.com/images/thumb/1/15/Ritualist-tango-icon-200.png/180px-Ritualist-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/1/15/Ritualist-tango-icon-200.png/180px-Ritualist-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ritualist",
+    "armor_bonuses": {
+      "BaseArmor": "60",
+      "ExtraEnergy": "10",
+      "ExtraEnergyRecovery": "2"
+    }
   },
   {
     "name": "Warrior",
     "abbreviation": "W",
-    "icon": "https://wiki.guildwars.com/images/thumb/8/88/Warrior-tango-icon-200.png/180px-Warrior-tango-icon-200.png"
+    "icon": "https://wiki.guildwars.com/images/thumb/8/88/Warrior-tango-icon-200.png/180px-Warrior-tango-icon-200.png",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Warrior",
+    "armor_bonuses": {
+      "BaseArmor": "80",
+      "PhysicalArmor": "+20 armor vs. physical damage"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 -- Seed runes
 -- Auto-generated from data/runes.json
--- Generated: 2025-11-17T08:01:51.652Z
+-- Generated: 2025-11-17T08:55:35.813Z
 -- Total runes: 141
 
 INSERT INTO runes (name, type, rarity, profession_id, attribute_id, icon, effects, description, wiki_url)

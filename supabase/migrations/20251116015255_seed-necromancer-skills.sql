@@ -1,6 +1,6 @@
 -- Seed necromancer skills
 -- Auto-generated from data/skills/necromancer.json
--- Generated: 2025-11-17T08:01:51.630Z
+-- Generated: 2025-11-17T08:55:35.791Z
 -- Total skills: 152
 
 INSERT INTO skills (

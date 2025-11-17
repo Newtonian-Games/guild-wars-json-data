@@ -2,256 +2,469 @@
   {
     "name": "Critical Strikes",
     "profession": "Assassin",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Critical_Strikes",
+    "description": "For each rank of Critical Strikes you have, you gain an additional 1% chance to critical hit. Whenever you critical hit, you gain 1 energy at ranks 3 and above, 2 energy at ranks 8 and above, and 3 energy at 13 ranks above.",
+    "inherent_effects": {
+      "CriticalHitChance": "For each rank of Critical Strikes you have, you gain an additional 1% chance to critical hit.",
+      "EnergyGain": "Whenever you critical hit, you gain 1 energy at ranks 3 and above, 2 energy at ranks 8 and above, and 3 energy at 13 ranks and above."
+    }
   },
   {
     "name": "Dagger Mastery",
     "profession": "Assassin",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dagger_Mastery",
+    "description": "Dagger Mastery increases the damage you do with daggers and your chance to inflict a critical hit when using a dagger. There is a 2% chance per rank of Dagger Mastery that attacks from your daggers will double strike. Many skills, especially dagger attack skills, become more effective with higher Dagger Mastery.",
+    "inherent_effects": {
+      "CriticalHitChance": "Increases your chance to inflict a critical hit when using a dagger.",
+      "DoubleStrikeChance": "There is a 2% chance per rank of Dagger Mastery that attacks from your daggers will double strike."
+    }
   },
   {
     "name": "Deadly Arts",
     "profession": "Assassin",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deadly_Arts",
+    "description": "No Inherent effect. Many Assassins skills, especially those related to harming enemies, become more effective with higher Deadly Arts.",
+    "inherent_effects": {}
   },
   {
     "name": "Shadow Arts",
     "profession": "Assassin",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Shadow_Arts",
+    "description": "No inherent effect. Many Assassin skills, especially those related to defense and moving as a shadow, become more effective with higher Shadow Arts.",
+    "inherent_effects": {}
   },
   {
     "name": "Mysticism",
     "profession": "Dervish",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Mysticism",
+    "description": "Each rank in Mysticism reduces the cost of your Dervish enchantments by 4%. In PvE, you have +1 armor per rank of Mysticism while you are enchanted.",
+    "inherent_effects": {
+      "EnchantmentCostReduction": "Each rank in Mysticism reduces the cost of your Dervish enchantments by 4%.",
+      "ArmorBonus": "In PvE, you have +1 armor per rank of Mysticism while you are enchanted."
+    }
   },
   {
     "name": "Earth Prayers",
     "profession": "Dervish",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Prayers",
+    "description": "No inherent effect. Many Dervish Spells, especially those dealing with defense or Earth damage, become more effective with higher Earth Prayers.",
+    "inherent_effects": {}
   },
   {
     "name": "Scythe Mastery",
     "profession": "Dervish",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Scythe_Mastery",
+    "description": "Scythe Mastery increases the damage you do with scythes and your chance to inflict a critical hit when using a scythe. Many skills, especially scythe attack skills, become more effective with higher Scythe Mastery.",
+    "inherent_effects": {
+      "CriticalHitChance": "Increases your chance to inflict a critical hit when using a scythe."
+    }
   },
   {
     "name": "Wind Prayers",
     "profession": "Dervish",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wind_Prayers",
+    "description": "No inherent effect. Many Dervish Spells, especially those dealing with movement or cold damage, become more effective with higher Wind Prayers.",
+    "inherent_effects": {}
   },
   {
     "name": "Energy Storage",
     "profession": "Elementalist",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Energy_Storage",
+    "description": "For each rank of Energy Storage, your maximum Energy raises by 3. Several skills related to gaining Health or Energy become more effective with higher Energy Storage.",
+    "inherent_effects": {
+      "MaxEnergy": "For each rank of Energy Storage, your maximum Energy raises by 3."
+    }
   },
   {
     "name": "Air Magic",
     "profession": "Elementalist",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Air_Magic",
+    "description": "No inherent effect. Many Elementalist skills, especially spells that deal lightning damage to and debilitate a single enemy, become more effective with higher Air Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Earth Magic",
     "profession": "Elementalist",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Earth_Magic",
+    "description": "No inherent effect. Many Elementalist skills, especially spells that protect you and your allies or deal earth damage, become more effective with higher Earth Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Fire Magic",
     "profession": "Elementalist",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Magic",
+    "description": "No inherent effect. Many Elementalist skills, especially spells that burn your foes or deal fire damage in large areas, become more effective with higher Fire Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Water Magic",
     "profession": "Elementalist",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Water_Magic",
+    "description": "No inherent effect. Many Elementalist skills, especially spells that deal cold damage and slow or hinder your foes, become more effective with higher Water Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Fast Casting",
     "profession": "Mesmer",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Fast_Casting",
+    "description": "Fast Casting decreases the activation time of your Spells and Signets. (No effect for non-Mesmer skills with an activation time less than 2 seconds.) In PvE, each rank of Fast Casting decreases the recharge time for your Mesmer Spells by 3%.",
+    "inherent_effects": {
+      "ActivationTime": "Fast Casting decreases the activation time of your Spells and Signets. (No effect for non-Mesmer skills with an activation time less than 2 seconds.)",
+      "RechargeTime": "In PvE, each rank of Fast Casting decreases the recharge time for your Mesmer Spells by 3%."
+    }
   },
   {
     "name": "Domination Magic",
     "profession": "Mesmer",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Domination_Magic",
+    "description": "No inherent effect. Many Mesmer skills, especially spells that disrupt spell-casting and deal direct damage, become more effective with higher Domination Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Illusion Magic",
     "profession": "Mesmer",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Illusion_Magic",
+    "description": "No inherent effect. Many Mesmer skills, especially spells that deceive your foes and hinder their movement and attacks, become more effective with higher Illusion Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Inspiration Magic",
     "profession": "Mesmer",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Inspiration_Magic",
+    "description": "No inherent effect. Many Mesmer skills, especially spells that generate energy and reduce damage, become more effective with higher Inspiration Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Divine Favor",
     "profession": "Monk",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Divine_Favor",
+    "description": "For each rank of Divine Favor, allies are healed for 3.2 whenever you cast Monk spells on them. Several Monk skills, especially spells related to Energy gain and healing, become more effective with higher Divine Favor.",
+    "inherent_effects": {
+      "HealingBonus": "For each rank of Divine Favor, allies are healed for 3.2 whenever you cast Monk spells on them."
+    }
   },
   {
     "name": "Healing Prayers",
     "profession": "Monk",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Healing_Prayers",
+    "description": "No inherent effect. Many Monk skills, especially spells related to healing, become more effective with higher Healing Prayers.",
+    "inherent_effects": {}
   },
   {
     "name": "Protection Prayers",
     "profession": "Monk",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Protection_Prayers",
+    "description": "No inherent effect. Many monk skills, especially Enchantments that prevent damage or provide healing, become more effective with higher Protection Prayers.",
+    "inherent_effects": {}
   },
   {
     "name": "Smiting Prayers",
     "profession": "Monk",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Smiting_Prayers",
+    "description": "No inherent effect. Many Monk skills, especially those related to dealing holy damage, become more effective with higher Smiting Prayers. Holy damage is especially powerful against the undead.",
+    "inherent_effects": {}
   },
   {
     "name": "Soul Reaping",
     "profession": "Necromancer",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Soul_Reaping",
+    "description": "For each point of Soul Reaping, you gain 1 Energy whenever a non-Spirit creature near you dies. You may only gain Energy in this way 3 times every 15 seconds.",
+    "inherent_effects": {
+      "EnergyGain": "For each point of Soul Reaping, you gain 1 Energy whenever a non-Spirit creature near you dies. You may only gain Energy in this way 3 times every 15 seconds."
+    }
   },
   {
     "name": "Blood Magic",
     "profession": "Necromancer",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Magic",
+    "description": "No inherent effect. Many Necromancer skills, especially spells that damage and steal health from your foes, become more effective with higher Blood Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Curses",
     "profession": "Necromancer",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Curses",
+    "description": "No inherent effect. Many Necromancer skills, especially Hex spells which reduce your foes' effectiveness in battle, become more effective with higher Curses.",
+    "inherent_effects": {}
   },
   {
     "name": "Death Magic",
     "profession": "Necromancer",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Death_Magic",
+    "description": "Without Death Magic, you can control no more than two undead servants. For every two ranks of Death Magic, you can control one additional undead servant. Many Necromancer skills, especially those that animate undead servants, manipulate corpses, and deal cold damage, become more effective with higher Death Magic.",
+    "inherent_effects": {
+      "MinionLimit": "Without Death Magic, you can control no more than two undead servants. For every two ranks of Death Magic, you can control one additional undead servant."
+    }
   },
   {
     "name": "Leadership",
     "profession": "Paragon",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Leadership",
+    "description": "You gain 2 Energy for each ally affected by one of your Shouts or Chants (maximum 1 Energy for every 2 ranks).",
+    "inherent_effects": {
+      "EnergyGain": "You gain 2 Energy for each ally affected by one of your Shouts or Chants (maximum 1 Energy for every 2 ranks)."
+    }
   },
   {
     "name": "Command",
     "profession": "Paragon",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Command",
+    "description": "No inherent effect. Many Paragon skills, especially those that protect your allies or increase your tactical position on the battlefield, become more effective with higher Command.",
+    "inherent_effects": {}
   },
   {
     "name": "Motivation",
     "profession": "Paragon",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Motivation",
+    "description": "No inherent effect. Many Paragon skills, especially those related to Energy management or that inspire your allies, become more effective with higher Motivation.",
+    "inherent_effects": {}
   },
   {
     "name": "Spear Mastery",
     "profession": "Paragon",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spear_Mastery",
+    "description": "Spear Mastery increases the damage you do with spears and your chance to inflict a critical hit when using a spear. Many skills, especially spear attack skills, become more effective with higher Spear Mastery.",
+    "inherent_effects": {
+      "CriticalHitChance": "Increases your chance to inflict a critical hit when using a spear."
+    }
   },
   {
     "name": "Expertise",
     "profession": "Ranger",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Expertise",
+    "description": "For each rank of Expertise, the Energy cost of all of your attacks, Rituals, touch skills and Rangers skills are decreased by 4%. Several skills, especially those related to Energy costs and skill recharge times, become more effective with higher Expertise.",
+    "inherent_effects": {
+      "SkillCostReduction": "For each rank of Expertise, the Energy cost of all of your attacks, Rituals, touch skills and Rangers skills are decreased by 4%."
+    }
   },
   {
     "name": "Beast Mastery",
     "profession": "Ranger",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Beast_Mastery",
+    "description": "Beast Mastery increases the damage dealt by your animal companion and its chance to inflict a critical hit. Many Ranger skills, especially those related to making your animal companion stronger, become more effective with higher Beast Mastery.",
+    "inherent_effects": {
+      "PetDamage": "Beast Mastery increases the damage dealt by your animal companion and its chance to inflict a critical hit."
+    }
   },
   {
     "name": "Marksmanship",
     "profession": "Ranger",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Marksmanship",
+    "description": "Marksmanship increases the damage you do with bows and your chance to inflict a critical hit when using a bow. Many Ranger skills, especially bow attack skills, become more effective with higher Marksmanship.",
+    "inherent_effects": {
+      "CriticalHitChance": "Increases your chance to inflict a critical hit when using a bow."
+    }
   },
   {
     "name": "Wilderness Survival",
     "profession": "Ranger",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Wilderness_Survival",
+    "description": "No inherent effect. Many Ranger skills, especially Rituals, Preparations, and Traps, become more effective with higher Wilderness Survival.",
+    "inherent_effects": {}
   },
   {
     "name": "Spawning Power",
     "profession": "Ritualist",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Spawning_Power",
+    "description": "For each rank of Spawning Power you have, creatures you create (or animate) have 4% more Health, and weapon Spells you cast last 4% longer. Some Ritualist skills, especially those related to Spirit creatures, become more effective with higher Spawning Power.",
+    "inherent_effects": {
+      "CreatureHealth": "For each rank of Spawning Power you have, creatures you create (or animate) have 4% more Health.",
+      "WeaponSpellDuration": "Weapon Spells you cast last 4% longer."
+    }
   },
   {
     "name": "Channeling Magic",
     "profession": "Ritualist",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Channeling_Magic",
+    "description": "No inherent effect. Many Ritualist skills, especially those related to lightning damage and Energy, become more effective with higher Channeling Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Communing",
     "profession": "Ritualist",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Communing",
+    "description": "No inherent effect. Many Ritualist skills, especially those related to summoning Spirits, become more effective with higher Communing.",
+    "inherent_effects": {}
   },
   {
     "name": "Restoration Magic",
     "profession": "Ritualist",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Restoration_Magic",
+    "description": "No inherent effect. Many Ritualist skills, especially those related to healing, life-stealing, and defense, become more effective with higher Restoration Magic.",
+    "inherent_effects": {}
   },
   {
     "name": "Strength",
     "profession": "Warrior",
-    "isPrimary": true
+    "isPrimary": true,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Strength",
+    "description": "When you use attack skills, each point of Strength gives you 1% armor penetration. Many skills, especially those related to surviving and inflicting damage, become more effective with higher Strength.",
+    "inherent_effects": {
+      "ArmorPenetration": "When you use attack skills, each point of Strength gives you 1% armor penetration."
+    }
   },
   {
     "name": "Axe Mastery",
     "profession": "Warrior",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Axe_Mastery",
+    "description": "Axe Mastery increases the damage you do with axes and your chance to inflict a critical hit when using an axe. Many skills, especially axe attack skills become more effective with higher Axe Mastery.",
+    "inherent_effects": {
+      "CriticalHitChance": "Increases your chance to inflict a critical hit when using an axe."
+    }
   },
   {
     "name": "Hammer Mastery",
     "profession": "Warrior",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Hammer_Mastery",
+    "description": "Hammer Mastery increases the damage you do with hammers and your chance to inflict a critical hit when using a hammer. Many skills, especially hammer attack skills become more effective with higher Hammer Mastery.",
+    "inherent_effects": {
+      "CriticalHitChance": "Increases your chance to inflict a critical hit when using a hammer."
+    }
   },
   {
     "name": "Swordsmanship",
     "profession": "Warrior",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Swordsmanship",
+    "description": "Swordsmanship increases the damage you do with Swords and your chance to inflict a critical hit when using a sword. Many skills, especially sword attack skills become more effective with higher Swordsmanship.",
+    "inherent_effects": {
+      "CriticalHitChance": "Increases your chance to inflict a critical hit when using a sword."
+    }
   },
   {
     "name": "Tactics",
     "profession": "Warrior",
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Tactics",
+    "description": "No inherent effect. Many skills, especially defensive skills and skills that aid your allies, become more effective with higher Tactics.",
+    "inherent_effects": {}
   },
   {
     "name": null,
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": null,
+    "description": "No attribute selected.",
+    "inherent_effects": {}
   },
   {
     "name": "Lightbringer rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Lightbringer_rank",
+    "description": "Lightbringer rank increases your effectiveness against demons and creatures of darkness.",
+    "inherent_effects": {
+      "DamageBonus": "Increases damage against demons by 5% per rank.",
+      "DamageReduction": "Reduces damage from demons by 1% per rank."
+    }
   },
   {
     "name": "Sunspear rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Sunspear_rank",
+    "description": "Sunspear rank improves the effectiveness of Sunspear skills.",
+    "inherent_effects": {
+      "SkillBonus": "Improves the effectiveness of Sunspear PvE skills."
+    }
   },
   {
     "name": "Asura rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Asura_rank",
+    "description": "Asura rank improves the effectiveness of Asura skills.",
+    "inherent_effects": {
+      "SkillBonus": "Improves the effectiveness of Asura PvE skills."
+    }
   },
   {
     "name": "Deldrimor rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deldrimor_rank",
+    "description": "Deldrimor rank improves the effectiveness of Deldrimor skills.",
+    "inherent_effects": {
+      "SkillBonus": "Improves the effectiveness of Deldrimor PvE skills."
+    }
   },
   {
     "name": "Ebon Vanguard rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_rank",
+    "description": "Ebon Vanguard rank improves the effectiveness of Ebon Vanguard skills.",
+    "inherent_effects": {
+      "SkillBonus": "Improves the effectiveness of Ebon Vanguard PvE skills."
+    }
   },
   {
     "name": "Norn rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Norn_rank",
+    "description": "Norn rank improves the effectiveness of Norn skills.",
+    "inherent_effects": {
+      "SkillBonus": "Improves the effectiveness of Norn PvE skills."
+    }
   },
   {
     "name": "Kurzick rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Kurzick_rank",
+    "description": "Kurzick rank improves the effectiveness of Kurzick skills.",
+    "inherent_effects": {
+      "SkillBonus": "Improves the effectiveness of Kurzick PvE skills."
+    }
   },
   {
     "name": "Luxon rank",
     "profession": null,
-    "isPrimary": false
+    "isPrimary": false,
+    "wiki_url": "https://wiki.guildwars.com/wiki/Luxon_rank",
+    "description": "Luxon rank improves the effectiveness of Luxon skills.",
+    "inherent_effects": {
+      "SkillBonus": "Improves the effectiveness of Luxon PvE skills."
+    }
   }
 ]

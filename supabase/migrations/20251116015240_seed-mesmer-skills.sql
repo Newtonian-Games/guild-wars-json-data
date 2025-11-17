@@ -1,6 +1,6 @@
 -- Seed mesmer skills
 -- Auto-generated from data/skills/mesmer.json
--- Generated: 2025-11-17T08:01:51.612Z
+-- Generated: 2025-11-17T08:55:35.769Z
 -- Total skills: 167
 
 INSERT INTO skills (

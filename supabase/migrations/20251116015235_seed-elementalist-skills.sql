@@ -1,6 +1,6 @@
 -- Seed elementalist skills
 -- Auto-generated from data/skills/elementalist.json
--- Generated: 2025-11-17T08:01:51.606Z
+-- Generated: 2025-11-17T08:55:35.763Z
 -- Total skills: 159
 
 INSERT INTO skills (

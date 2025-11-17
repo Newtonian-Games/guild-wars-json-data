@@ -1,6 +1,6 @@
 -- Seed paragon skills
 -- Auto-generated from data/skills/paragon.json
--- Generated: 2025-11-17T08:01:51.634Z
+-- Generated: 2025-11-17T08:55:35.796Z
 -- Total skills: 110
 
 INSERT INTO skills (

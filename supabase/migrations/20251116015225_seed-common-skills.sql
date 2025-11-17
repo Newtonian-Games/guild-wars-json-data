@@ -1,6 +1,6 @@
 -- Seed common skills
 -- Auto-generated from data/skills/common.json
--- Generated: 2025-11-17T08:01:51.599Z
+-- Generated: 2025-11-17T08:55:35.754Z
 -- Total skills: 55
 
 INSERT INTO skills (

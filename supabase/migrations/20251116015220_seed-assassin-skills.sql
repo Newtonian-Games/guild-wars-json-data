@@ -1,6 +1,6 @@
 -- Seed assassin skills
 -- Auto-generated from data/skills/assassin.json
--- Generated: 2025-11-17T08:01:51.592Z
+-- Generated: 2025-11-17T08:55:35.745Z
 -- Total skills: 121
 
 INSERT INTO skills (

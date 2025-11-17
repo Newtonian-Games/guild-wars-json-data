@@ -1,66 +1,72 @@
 -- Seed attributes
 -- Auto-generated from data/attributes.json
--- Generated: 2025-11-17T08:01:51.586Z
+-- Generated: 2025-11-17T08:55:35.741Z
 -- Total attributes: 51 (42 profession attributes + 9 rank attributes)
 
 -- Insert profession-specific attributes
-INSERT INTO attributes (name, profession_id, is_primary)
+INSERT INTO attributes (name, profession_id, is_primary, wiki_url, description, inherent_effects)
 VALUES
-  ('Critical Strikes', (SELECT id FROM professions WHERE name = 'Assassin'), true),
-  ('Dagger Mastery', (SELECT id FROM professions WHERE name = 'Assassin'), false),
-  ('Deadly Arts', (SELECT id FROM professions WHERE name = 'Assassin'), false),
-  ('Shadow Arts', (SELECT id FROM professions WHERE name = 'Assassin'), false),
-  ('Mysticism', (SELECT id FROM professions WHERE name = 'Dervish'), true),
-  ('Earth Prayers', (SELECT id FROM professions WHERE name = 'Dervish'), false),
-  ('Scythe Mastery', (SELECT id FROM professions WHERE name = 'Dervish'), false),
-  ('Wind Prayers', (SELECT id FROM professions WHERE name = 'Dervish'), false),
-  ('Energy Storage', (SELECT id FROM professions WHERE name = 'Elementalist'), true),
-  ('Air Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false),
-  ('Earth Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false),
-  ('Fire Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false),
-  ('Water Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false),
-  ('Fast Casting', (SELECT id FROM professions WHERE name = 'Mesmer'), true),
-  ('Domination Magic', (SELECT id FROM professions WHERE name = 'Mesmer'), false),
-  ('Illusion Magic', (SELECT id FROM professions WHERE name = 'Mesmer'), false),
-  ('Inspiration Magic', (SELECT id FROM professions WHERE name = 'Mesmer'), false),
-  ('Divine Favor', (SELECT id FROM professions WHERE name = 'Monk'), true),
-  ('Healing Prayers', (SELECT id FROM professions WHERE name = 'Monk'), false),
-  ('Protection Prayers', (SELECT id FROM professions WHERE name = 'Monk'), false),
-  ('Smiting Prayers', (SELECT id FROM professions WHERE name = 'Monk'), false),
-  ('Soul Reaping', (SELECT id FROM professions WHERE name = 'Necromancer'), true),
-  ('Blood Magic', (SELECT id FROM professions WHERE name = 'Necromancer'), false),
-  ('Curses', (SELECT id FROM professions WHERE name = 'Necromancer'), false),
-  ('Death Magic', (SELECT id FROM professions WHERE name = 'Necromancer'), false),
-  ('Leadership', (SELECT id FROM professions WHERE name = 'Paragon'), true),
-  ('Command', (SELECT id FROM professions WHERE name = 'Paragon'), false),
-  ('Motivation', (SELECT id FROM professions WHERE name = 'Paragon'), false),
-  ('Spear Mastery', (SELECT id FROM professions WHERE name = 'Paragon'), false),
-  ('Expertise', (SELECT id FROM professions WHERE name = 'Ranger'), true),
-  ('Beast Mastery', (SELECT id FROM professions WHERE name = 'Ranger'), false),
-  ('Marksmanship', (SELECT id FROM professions WHERE name = 'Ranger'), false),
-  ('Wilderness Survival', (SELECT id FROM professions WHERE name = 'Ranger'), false),
-  ('Spawning Power', (SELECT id FROM professions WHERE name = 'Ritualist'), true),
-  ('Channeling Magic', (SELECT id FROM professions WHERE name = 'Ritualist'), false),
-  ('Communing', (SELECT id FROM professions WHERE name = 'Ritualist'), false),
-  ('Restoration Magic', (SELECT id FROM professions WHERE name = 'Ritualist'), false),
-  ('Strength', (SELECT id FROM professions WHERE name = 'Warrior'), true),
-  ('Axe Mastery', (SELECT id FROM professions WHERE name = 'Warrior'), false),
-  ('Hammer Mastery', (SELECT id FROM professions WHERE name = 'Warrior'), false),
-  ('Swordsmanship', (SELECT id FROM professions WHERE name = 'Warrior'), false),
-  ('Tactics', (SELECT id FROM professions WHERE name = 'Warrior'), false)
+  ('Critical Strikes', (SELECT id FROM professions WHERE name = 'Assassin'), true, 'https://wiki.guildwars.com/wiki/Critical_Strikes', 'For each rank of Critical Strikes you have, you gain an additional 1% chance to critical hit. Whenever you critical hit, you gain 1 energy at ranks 3 and above, 2 energy at ranks 8 and above, and 3 energy at 13 ranks above.', '{"CriticalHitChance":"For each rank of Critical Strikes you have, you gain an additional 1% chance to critical hit.","EnergyGain":"Whenever you critical hit, you gain 1 energy at ranks 3 and above, 2 energy at ranks 8 and above, and 3 energy at 13 ranks and above."}'::jsonb),
+  ('Dagger Mastery', (SELECT id FROM professions WHERE name = 'Assassin'), false, 'https://wiki.guildwars.com/wiki/Dagger_Mastery', 'Dagger Mastery increases the damage you do with daggers and your chance to inflict a critical hit when using a dagger. There is a 2% chance per rank of Dagger Mastery that attacks from your daggers will double strike. Many skills, especially dagger attack skills, become more effective with higher Dagger Mastery.', '{"CriticalHitChance":"Increases your chance to inflict a critical hit when using a dagger.","DoubleStrikeChance":"There is a 2% chance per rank of Dagger Mastery that attacks from your daggers will double strike."}'::jsonb),
+  ('Deadly Arts', (SELECT id FROM professions WHERE name = 'Assassin'), false, 'https://wiki.guildwars.com/wiki/Deadly_Arts', 'No Inherent effect. Many Assassins skills, especially those related to harming enemies, become more effective with higher Deadly Arts.', '{}'::jsonb),
+  ('Shadow Arts', (SELECT id FROM professions WHERE name = 'Assassin'), false, 'https://wiki.guildwars.com/wiki/Shadow_Arts', 'No inherent effect. Many Assassin skills, especially those related to defense and moving as a shadow, become more effective with higher Shadow Arts.', '{}'::jsonb),
+  ('Mysticism', (SELECT id FROM professions WHERE name = 'Dervish'), true, 'https://wiki.guildwars.com/wiki/Mysticism', 'Each rank in Mysticism reduces the cost of your Dervish enchantments by 4%. In PvE, you have +1 armor per rank of Mysticism while you are enchanted.', '{"EnchantmentCostReduction":"Each rank in Mysticism reduces the cost of your Dervish enchantments by 4%.","ArmorBonus":"In PvE, you have +1 armor per rank of Mysticism while you are enchanted."}'::jsonb),
+  ('Earth Prayers', (SELECT id FROM professions WHERE name = 'Dervish'), false, 'https://wiki.guildwars.com/wiki/Earth_Prayers', 'No inherent effect. Many Dervish Spells, especially those dealing with defense or Earth damage, become more effective with higher Earth Prayers.', '{}'::jsonb),
+  ('Scythe Mastery', (SELECT id FROM professions WHERE name = 'Dervish'), false, 'https://wiki.guildwars.com/wiki/Scythe_Mastery', 'Scythe Mastery increases the damage you do with scythes and your chance to inflict a critical hit when using a scythe. Many skills, especially scythe attack skills, become more effective with higher Scythe Mastery.', '{"CriticalHitChance":"Increases your chance to inflict a critical hit when using a scythe."}'::jsonb),
+  ('Wind Prayers', (SELECT id FROM professions WHERE name = 'Dervish'), false, 'https://wiki.guildwars.com/wiki/Wind_Prayers', 'No inherent effect. Many Dervish Spells, especially those dealing with movement or cold damage, become more effective with higher Wind Prayers.', '{}'::jsonb),
+  ('Energy Storage', (SELECT id FROM professions WHERE name = 'Elementalist'), true, 'https://wiki.guildwars.com/wiki/Energy_Storage', 'For each rank of Energy Storage, your maximum Energy raises by 3. Several skills related to gaining Health or Energy become more effective with higher Energy Storage.', '{"MaxEnergy":"For each rank of Energy Storage, your maximum Energy raises by 3."}'::jsonb),
+  ('Air Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false, 'https://wiki.guildwars.com/wiki/Air_Magic', 'No inherent effect. Many Elementalist skills, especially spells that deal lightning damage to and debilitate a single enemy, become more effective with higher Air Magic.', '{}'::jsonb),
+  ('Earth Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false, 'https://wiki.guildwars.com/wiki/Earth_Magic', 'No inherent effect. Many Elementalist skills, especially spells that protect you and your allies or deal earth damage, become more effective with higher Earth Magic.', '{}'::jsonb),
+  ('Fire Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false, 'https://wiki.guildwars.com/wiki/Fire_Magic', 'No inherent effect. Many Elementalist skills, especially spells that burn your foes or deal fire damage in large areas, become more effective with higher Fire Magic.', '{}'::jsonb),
+  ('Water Magic', (SELECT id FROM professions WHERE name = 'Elementalist'), false, 'https://wiki.guildwars.com/wiki/Water_Magic', 'No inherent effect. Many Elementalist skills, especially spells that deal cold damage and slow or hinder your foes, become more effective with higher Water Magic.', '{}'::jsonb),
+  ('Fast Casting', (SELECT id FROM professions WHERE name = 'Mesmer'), true, 'https://wiki.guildwars.com/wiki/Fast_Casting', 'Fast Casting decreases the activation time of your Spells and Signets. (No effect for non-Mesmer skills with an activation time less than 2 seconds.) In PvE, each rank of Fast Casting decreases the recharge time for your Mesmer Spells by 3%.', '{"ActivationTime":"Fast Casting decreases the activation time of your Spells and Signets. (No effect for non-Mesmer skills with an activation time less than 2 seconds.)","RechargeTime":"In PvE, each rank of Fast Casting decreases the recharge time for your Mesmer Spells by 3%."}'::jsonb),
+  ('Domination Magic', (SELECT id FROM professions WHERE name = 'Mesmer'), false, 'https://wiki.guildwars.com/wiki/Domination_Magic', 'No inherent effect. Many Mesmer skills, especially spells that disrupt spell-casting and deal direct damage, become more effective with higher Domination Magic.', '{}'::jsonb),
+  ('Illusion Magic', (SELECT id FROM professions WHERE name = 'Mesmer'), false, 'https://wiki.guildwars.com/wiki/Illusion_Magic', 'No inherent effect. Many Mesmer skills, especially spells that deceive your foes and hinder their movement and attacks, become more effective with higher Illusion Magic.', '{}'::jsonb),
+  ('Inspiration Magic', (SELECT id FROM professions WHERE name = 'Mesmer'), false, 'https://wiki.guildwars.com/wiki/Inspiration_Magic', 'No inherent effect. Many Mesmer skills, especially spells that generate energy and reduce damage, become more effective with higher Inspiration Magic.', '{}'::jsonb),
+  ('Divine Favor', (SELECT id FROM professions WHERE name = 'Monk'), true, 'https://wiki.guildwars.com/wiki/Divine_Favor', 'For each rank of Divine Favor, allies are healed for 3.2 whenever you cast Monk spells on them. Several Monk skills, especially spells related to Energy gain and healing, become more effective with higher Divine Favor.', '{"HealingBonus":"For each rank of Divine Favor, allies are healed for 3.2 whenever you cast Monk spells on them."}'::jsonb),
+  ('Healing Prayers', (SELECT id FROM professions WHERE name = 'Monk'), false, 'https://wiki.guildwars.com/wiki/Healing_Prayers', 'No inherent effect. Many Monk skills, especially spells related to healing, become more effective with higher Healing Prayers.', '{}'::jsonb),
+  ('Protection Prayers', (SELECT id FROM professions WHERE name = 'Monk'), false, 'https://wiki.guildwars.com/wiki/Protection_Prayers', 'No inherent effect. Many monk skills, especially Enchantments that prevent damage or provide healing, become more effective with higher Protection Prayers.', '{}'::jsonb),
+  ('Smiting Prayers', (SELECT id FROM professions WHERE name = 'Monk'), false, 'https://wiki.guildwars.com/wiki/Smiting_Prayers', 'No inherent effect. Many Monk skills, especially those related to dealing holy damage, become more effective with higher Smiting Prayers. Holy damage is especially powerful against the undead.', '{}'::jsonb),
+  ('Soul Reaping', (SELECT id FROM professions WHERE name = 'Necromancer'), true, 'https://wiki.guildwars.com/wiki/Soul_Reaping', 'For each point of Soul Reaping, you gain 1 Energy whenever a non-Spirit creature near you dies. You may only gain Energy in this way 3 times every 15 seconds.', '{"EnergyGain":"For each point of Soul Reaping, you gain 1 Energy whenever a non-Spirit creature near you dies. You may only gain Energy in this way 3 times every 15 seconds."}'::jsonb),
+  ('Blood Magic', (SELECT id FROM professions WHERE name = 'Necromancer'), false, 'https://wiki.guildwars.com/wiki/Blood_Magic', 'No inherent effect. Many Necromancer skills, especially spells that damage and steal health from your foes, become more effective with higher Blood Magic.', '{}'::jsonb),
+  ('Curses', (SELECT id FROM professions WHERE name = 'Necromancer'), false, 'https://wiki.guildwars.com/wiki/Curses', 'No inherent effect. Many Necromancer skills, especially Hex spells which reduce your foes'' effectiveness in battle, become more effective with higher Curses.', '{}'::jsonb),
+  ('Death Magic', (SELECT id FROM professions WHERE name = 'Necromancer'), false, 'https://wiki.guildwars.com/wiki/Death_Magic', 'Without Death Magic, you can control no more than two undead servants. For every two ranks of Death Magic, you can control one additional undead servant. Many Necromancer skills, especially those that animate undead servants, manipulate corpses, and deal cold damage, become more effective with higher Death Magic.', '{"MinionLimit":"Without Death Magic, you can control no more than two undead servants. For every two ranks of Death Magic, you can control one additional undead servant."}'::jsonb),
+  ('Leadership', (SELECT id FROM professions WHERE name = 'Paragon'), true, 'https://wiki.guildwars.com/wiki/Leadership', 'You gain 2 Energy for each ally affected by one of your Shouts or Chants (maximum 1 Energy for every 2 ranks).', '{"EnergyGain":"You gain 2 Energy for each ally affected by one of your Shouts or Chants (maximum 1 Energy for every 2 ranks)."}'::jsonb),
+  ('Command', (SELECT id FROM professions WHERE name = 'Paragon'), false, 'https://wiki.guildwars.com/wiki/Command', 'No inherent effect. Many Paragon skills, especially those that protect your allies or increase your tactical position on the battlefield, become more effective with higher Command.', '{}'::jsonb),
+  ('Motivation', (SELECT id FROM professions WHERE name = 'Paragon'), false, 'https://wiki.guildwars.com/wiki/Motivation', 'No inherent effect. Many Paragon skills, especially those related to Energy management or that inspire your allies, become more effective with higher Motivation.', '{}'::jsonb),
+  ('Spear Mastery', (SELECT id FROM professions WHERE name = 'Paragon'), false, 'https://wiki.guildwars.com/wiki/Spear_Mastery', 'Spear Mastery increases the damage you do with spears and your chance to inflict a critical hit when using a spear. Many skills, especially spear attack skills, become more effective with higher Spear Mastery.', '{"CriticalHitChance":"Increases your chance to inflict a critical hit when using a spear."}'::jsonb),
+  ('Expertise', (SELECT id FROM professions WHERE name = 'Ranger'), true, 'https://wiki.guildwars.com/wiki/Expertise', 'For each rank of Expertise, the Energy cost of all of your attacks, Rituals, touch skills and Rangers skills are decreased by 4%. Several skills, especially those related to Energy costs and skill recharge times, become more effective with higher Expertise.', '{"SkillCostReduction":"For each rank of Expertise, the Energy cost of all of your attacks, Rituals, touch skills and Rangers skills are decreased by 4%."}'::jsonb),
+  ('Beast Mastery', (SELECT id FROM professions WHERE name = 'Ranger'), false, 'https://wiki.guildwars.com/wiki/Beast_Mastery', 'Beast Mastery increases the damage dealt by your animal companion and its chance to inflict a critical hit. Many Ranger skills, especially those related to making your animal companion stronger, become more effective with higher Beast Mastery.', '{"PetDamage":"Beast Mastery increases the damage dealt by your animal companion and its chance to inflict a critical hit."}'::jsonb),
+  ('Marksmanship', (SELECT id FROM professions WHERE name = 'Ranger'), false, 'https://wiki.guildwars.com/wiki/Marksmanship', 'Marksmanship increases the damage you do with bows and your chance to inflict a critical hit when using a bow. Many Ranger skills, especially bow attack skills, become more effective with higher Marksmanship.', '{"CriticalHitChance":"Increases your chance to inflict a critical hit when using a bow."}'::jsonb),
+  ('Wilderness Survival', (SELECT id FROM professions WHERE name = 'Ranger'), false, 'https://wiki.guildwars.com/wiki/Wilderness_Survival', 'No inherent effect. Many Ranger skills, especially Rituals, Preparations, and Traps, become more effective with higher Wilderness Survival.', '{}'::jsonb),
+  ('Spawning Power', (SELECT id FROM professions WHERE name = 'Ritualist'), true, 'https://wiki.guildwars.com/wiki/Spawning_Power', 'For each rank of Spawning Power you have, creatures you create (or animate) have 4% more Health, and weapon Spells you cast last 4% longer. Some Ritualist skills, especially those related to Spirit creatures, become more effective with higher Spawning Power.', '{"CreatureHealth":"For each rank of Spawning Power you have, creatures you create (or animate) have 4% more Health.","WeaponSpellDuration":"Weapon Spells you cast last 4% longer."}'::jsonb),
+  ('Channeling Magic', (SELECT id FROM professions WHERE name = 'Ritualist'), false, 'https://wiki.guildwars.com/wiki/Channeling_Magic', 'No inherent effect. Many Ritualist skills, especially those related to lightning damage and Energy, become more effective with higher Channeling Magic.', '{}'::jsonb),
+  ('Communing', (SELECT id FROM professions WHERE name = 'Ritualist'), false, 'https://wiki.guildwars.com/wiki/Communing', 'No inherent effect. Many Ritualist skills, especially those related to summoning Spirits, become more effective with higher Communing.', '{}'::jsonb),
+  ('Restoration Magic', (SELECT id FROM professions WHERE name = 'Ritualist'), false, 'https://wiki.guildwars.com/wiki/Restoration_Magic', 'No inherent effect. Many Ritualist skills, especially those related to healing, life-stealing, and defense, become more effective with higher Restoration Magic.', '{}'::jsonb),
+  ('Strength', (SELECT id FROM professions WHERE name = 'Warrior'), true, 'https://wiki.guildwars.com/wiki/Strength', 'When you use attack skills, each point of Strength gives you 1% armor penetration. Many skills, especially those related to surviving and inflicting damage, become more effective with higher Strength.', '{"ArmorPenetration":"When you use attack skills, each point of Strength gives you 1% armor penetration."}'::jsonb),
+  ('Axe Mastery', (SELECT id FROM professions WHERE name = 'Warrior'), false, 'https://wiki.guildwars.com/wiki/Axe_Mastery', 'Axe Mastery increases the damage you do with axes and your chance to inflict a critical hit when using an axe. Many skills, especially axe attack skills become more effective with higher Axe Mastery.', '{"CriticalHitChance":"Increases your chance to inflict a critical hit when using an axe."}'::jsonb),
+  ('Hammer Mastery', (SELECT id FROM professions WHERE name = 'Warrior'), false, 'https://wiki.guildwars.com/wiki/Hammer_Mastery', 'Hammer Mastery increases the damage you do with hammers and your chance to inflict a critical hit when using a hammer. Many skills, especially hammer attack skills become more effective with higher Hammer Mastery.', '{"CriticalHitChance":"Increases your chance to inflict a critical hit when using a hammer."}'::jsonb),
+  ('Swordsmanship', (SELECT id FROM professions WHERE name = 'Warrior'), false, 'https://wiki.guildwars.com/wiki/Swordsmanship', 'Swordsmanship increases the damage you do with Swords and your chance to inflict a critical hit when using a sword. Many skills, especially sword attack skills become more effective with higher Swordsmanship.', '{"CriticalHitChance":"Increases your chance to inflict a critical hit when using a sword."}'::jsonb),
+  ('Tactics', (SELECT id FROM professions WHERE name = 'Warrior'), false, 'https://wiki.guildwars.com/wiki/Tactics', 'No inherent effect. Many skills, especially defensive skills and skills that aid your allies, become more effective with higher Tactics.', '{}'::jsonb)
 ON CONFLICT (name, profession_id) DO UPDATE SET
-  is_primary = EXCLUDED.is_primary;
+  is_primary = EXCLUDED.is_primary,
+  wiki_url = EXCLUDED.wiki_url,
+  description = EXCLUDED.description,
+  inherent_effects = EXCLUDED.inherent_effects;
 
 -- Insert rank attributes (no profession association)
-INSERT INTO attributes (name, profession_id, is_primary)
+INSERT INTO attributes (name, profession_id, is_primary, wiki_url, description, inherent_effects)
 VALUES
-  (NULL, NULL, false),
-  ('Lightbringer rank', NULL, false),
-  ('Sunspear rank', NULL, false),
-  ('Asura rank', NULL, false),
-  ('Deldrimor rank', NULL, false),
-  ('Ebon Vanguard rank', NULL, false),
-  ('Norn rank', NULL, false),
-  ('Kurzick rank', NULL, false),
-  ('Luxon rank', NULL, false)
-ON CONFLICT (name, profession_id) DO NOTHING;
+  (NULL, NULL, false, NULL, 'No attribute selected.', '{}'::jsonb),
+  ('Lightbringer rank', NULL, false, 'https://wiki.guildwars.com/wiki/Lightbringer_rank', 'Lightbringer rank increases your effectiveness against demons and creatures of darkness.', '{"DamageBonus":"Increases damage against demons by 5% per rank.","DamageReduction":"Reduces damage from demons by 1% per rank."}'::jsonb),
+  ('Sunspear rank', NULL, false, 'https://wiki.guildwars.com/wiki/Sunspear_rank', 'Sunspear rank improves the effectiveness of Sunspear skills.', '{"SkillBonus":"Improves the effectiveness of Sunspear PvE skills."}'::jsonb),
+  ('Asura rank', NULL, false, 'https://wiki.guildwars.com/wiki/Asura_rank', 'Asura rank improves the effectiveness of Asura skills.', '{"SkillBonus":"Improves the effectiveness of Asura PvE skills."}'::jsonb),
+  ('Deldrimor rank', NULL, false, 'https://wiki.guildwars.com/wiki/Deldrimor_rank', 'Deldrimor rank improves the effectiveness of Deldrimor skills.', '{"SkillBonus":"Improves the effectiveness of Deldrimor PvE skills."}'::jsonb),
+  ('Ebon Vanguard rank', NULL, false, 'https://wiki.guildwars.com/wiki/Ebon_Vanguard_rank', 'Ebon Vanguard rank improves the effectiveness of Ebon Vanguard skills.', '{"SkillBonus":"Improves the effectiveness of Ebon Vanguard PvE skills."}'::jsonb),
+  ('Norn rank', NULL, false, 'https://wiki.guildwars.com/wiki/Norn_rank', 'Norn rank improves the effectiveness of Norn skills.', '{"SkillBonus":"Improves the effectiveness of Norn PvE skills."}'::jsonb),
+  ('Kurzick rank', NULL, false, 'https://wiki.guildwars.com/wiki/Kurzick_rank', 'Kurzick rank improves the effectiveness of Kurzick skills.', '{"SkillBonus":"Improves the effectiveness of Kurzick PvE skills."}'::jsonb),
+  ('Luxon rank', NULL, false, 'https://wiki.guildwars.com/wiki/Luxon_rank', 'Luxon rank improves the effectiveness of Luxon skills.', '{"SkillBonus":"Improves the effectiveness of Luxon PvE skills."}'::jsonb)
+ON CONFLICT (name, profession_id) DO UPDATE SET
+  wiki_url = EXCLUDED.wiki_url,
+  description = EXCLUDED.description,
+  inherent_effects = EXCLUDED.inherent_effects;

@@ -1,6 +1,6 @@
 -- Seed warrior skills
 -- Auto-generated from data/skills/warrior.json
--- Generated: 2025-11-17T08:01:51.648Z
+-- Generated: 2025-11-17T08:55:35.809Z
 -- Total skills: 150
 
 INSERT INTO skills (

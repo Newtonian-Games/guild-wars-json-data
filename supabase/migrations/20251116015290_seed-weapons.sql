@@ -1,6 +1,6 @@
 -- Seed weapons
 -- Auto-generated from data/weapons.json
--- Generated: 2025-11-17T08:01:51.662Z
+-- Generated: 2025-11-17T08:55:35.819Z
 -- Total weapons: 9
 
 INSERT INTO weapons (name, category, subcategory, hands, attribute_id, attribute_profession_id, damage, variants, wiki_url)

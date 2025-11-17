@@ -1,0 +1,126 @@
+=== Fire_Magic ===
+
+
+=== Energy_Storage ===
+
+
+=== Spear_Mastery ===
+
+
+=== Restoration_Magic ===
+
+
+=== Tactics ===
+
+
+=== Earth_Prayers ===
+
+
+=== Healing_Prayers ===
+
+
+=== Marksmanship ===
+
+
+=== Motivation ===
+
+
+=== Swordsmanship ===
+
+
+=== Leadership ===
+
+
+=== Expertise ===
+
+
+=== Curses ===
+
+
+=== Mysticism ===
+
+
+=== Spawning_Power ===
+
+
+=== Protection_Prayers ===
+
+
+=== Axe_Mastery ===
+
+
+=== Communing ===
+
+
+=== Command ===
+
+
+=== Critical_Strikes ===
+
+
+=== Smiting_Prayers ===
+
+
+=== Domination_Magic ===
+
+
+=== Shadow_Arts ===
+
+
+=== Deadly_Arts ===
+
+
+=== Beast_Mastery ===
+
+
+=== Strength ===
+
+
+=== Earth_Magic ===
+
+
+=== Inspiration_Magic ===
+
+
+=== Scythe_Mastery ===
+
+
+=== Blood_Magic ===
+
+
+=== Hammer_Mastery ===
+
+
+=== Dagger_Mastery ===
+
+
+=== Illusion_Magic ===
+
+
+=== Death_Magic ===
+
+
+=== Soul_Reaping ===
+
+
+=== Fast_Casting ===
+
+
+=== Wind_Prayers ===
+
+
+=== Wilderness_Survival ===
+
+
+=== Water_Magic ===
+
+
+=== Air_Magic ===
+
+
+=== Divine_Favor ===
+
+
+=== Channeling_Magic ===
+
+

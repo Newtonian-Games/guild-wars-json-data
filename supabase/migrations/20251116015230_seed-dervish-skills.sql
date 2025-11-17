@@ -1,6 +1,6 @@
 -- Seed dervish skills
 -- Auto-generated from data/skills/dervish.json
--- Generated: 2025-11-17T08:01:51.601Z
+-- Generated: 2025-11-17T08:55:35.757Z
 -- Total skills: 105
 
 INSERT INTO skills (

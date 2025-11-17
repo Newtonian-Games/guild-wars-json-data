@@ -1,6 +1,6 @@
 -- Seed monk skills
 -- Auto-generated from data/skills/monk.json
--- Generated: 2025-11-17T08:01:51.618Z
+-- Generated: 2025-11-17T08:55:35.775Z
 -- Total skills: 152
 
 INSERT INTO skills (
