@@ -2,19 +2,12 @@
   {
     "name": "Resurrection Signet",
     "icon": "",
-    "concise_description": "Signet. Resurrects target party member ({{HealthPercentage}}% Health, {{EnergyPercentage}}% Energy). This signet only recharges when you gain a morale boost.",
+    "concise_description": "Signet. Resurrects target party member (100% Health, 25% Energy). This signet only recharges when you gain a morale boost.",
     "type": "Signet",
     "profession": null,
     "attribute": {
       "name": null,
-      "progression": {
-        "HealthPercentage": {
-          "0": 100
-        },
-        "EnergyPercentage": {
-          "0": 25
-        }
-      }
+      "progression": {}
     },
     "costs": {
       "energy": null,
@@ -98,19 +91,12 @@
   {
     "name": "Lightbringer's Gaze",
     "icon": "",
-    "concise_description": "Skill. Target demonic servant of Abaddon takes {{HolyDamage}} holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled ({{DisabledDuration}} seconds).",
+    "concise_description": "Skill. Target demonic servant of Abaddon takes 100 holy damage and is interrupted. Hits one additional foe in the area for each rank of Lightbringer you have attained. This skill is disabled (15 seconds).",
     "type": "Skill",
     "profession": null,
     "attribute": {
       "name": "Lightbringer rank",
-      "progression": {
-        "HolyDamage": {
-          "0": 100
-        },
-        "DisabledDuration": {
-          "0": 15
-        }
-      }
+      "progression": {}
     },
     "costs": {
       "energy": 5,
