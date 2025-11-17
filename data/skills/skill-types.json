@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Skill",
+    "parents": [],
+    "description": "Base skill type - all skills fall under this category"
+  },
+  {
+    "name": "Attack Skill",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that are attacks"
+  },
+  {
+    "name": "Melee Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill"
+    ],
+    "description": "Close-range attack skills"
+  },
+  {
+    "name": "Pet Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack"
+    ],
+    "description": "Attack skills used by pets"
+  },
+  {
+    "name": "Axe Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack"
+    ],
+    "description": "Attack skills that require an axe"
+  },
+  {
+    "name": "Dagger Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack"
+    ],
+    "description": "Attack skills that require daggers"
+  },
+  {
+    "name": "Lead Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack",
+      "Dagger Attack"
+    ],
+    "description": "Dagger attacks that must be used first in a chain"
+  },
+  {
+    "name": "Off-Hand Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack",
+      "Dagger Attack"
+    ],
+    "description": "Dagger attacks that must follow a lead attack"
+  },
+  {
+    "name": "Dual Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack",
+      "Dagger Attack"
+    ],
+    "description": "Dagger attacks that can be used after off-hand attacks"
+  },
+  {
+    "name": "Hammer Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack"
+    ],
+    "description": "Attack skills that require a hammer"
+  },
+  {
+    "name": "Scythe Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack"
+    ],
+    "description": "Attack skills that require a scythe"
+  },
+  {
+    "name": "Sword Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Melee Attack"
+    ],
+    "description": "Attack skills that require a sword"
+  },
+  {
+    "name": "Ranged Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill"
+    ],
+    "description": "Long-range attack skills"
+  },
+  {
+    "name": "Bow Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Ranged Attack"
+    ],
+    "description": "Attack skills that require a bow"
+  },
+  {
+    "name": "Spear Attack",
+    "parents": [
+      "Skill",
+      "Attack Skill",
+      "Ranged Attack"
+    ],
+    "description": "Attack skills that require a spear"
+  },
+  {
+    "name": "Blessing",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Powerful beneficial effects granted by avatars"
+  },
+  {
+    "name": "Chant",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Songs or chants that affect allies"
+  },
+  {
+    "name": "Condition",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Negative status effects"
+  },
+  {
+    "name": "Disguise",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that change the appearance of the character"
+  },
+  {
+    "name": "Echo",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that copy other skills"
+  },
+  {
+    "name": "Elite Skill",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Powerful skills - only one can be equipped at a time"
+  },
+  {
+    "name": "Environment Effect",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Effects caused by the environment"
+  },
+  {
+    "name": "Form",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that transform the character"
+  },
+  {
+    "name": "Glyph",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that modify the next spell cast"
+  },
+  {
+    "name": "Party Bonus",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Bonuses that affect the entire party"
+  },
+  {
+    "name": "Preparation",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that modify arrows or attacks"
+  },
+  {
+    "name": "Ritual",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that create spirits or ritual effects"
+  },
+  {
+    "name": "Binding Ritual",
+    "parents": [
+      "Skill",
+      "Ritual"
+    ],
+    "description": "Rituals that create spirits bound to a location"
+  },
+  {
+    "name": "Nature Ritual",
+    "parents": [
+      "Skill",
+      "Ritual"
+    ],
+    "description": "Rituals that create nature spirits"
+  },
+  {
+    "name": "Ebon Vanguard Ritual",
+    "parents": [
+      "Skill",
+      "Ritual"
+    ],
+    "description": "Special rituals associated with the Ebon Vanguard"
+  },
+  {
+    "name": "Shout",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Vocal skills that affect allies or foes"
+  },
+  {
+    "name": "Signet",
+    "parents": [
+      "Skill"
+    ],
+    "description": "No-cost skills that can be used without energy"
+  },
+  {
+    "name": "Spell",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Magic-based skills that can be cast"
+  },
+  {
+    "name": "Enchantment Spell",
+    "parents": [
+      "Skill",
+      "Spell"
+    ],
+    "description": "Spells that provide beneficial effects over time"
+  },
+  {
+    "name": "Flash Enchantment Spell",
+    "parents": [
+      "Skill",
+      "Spell",
+      "Enchantment Spell"
+    ],
+    "description": "Enchantments that trigger immediately when ending"
+  },
+  {
+    "name": "Hex Spell",
+    "parents": [
+      "Skill",
+      "Spell"
+    ],
+    "description": "Spells that inflict negative effects over time"
+  },
+  {
+    "name": "Item Spell",
+    "parents": [
+      "Skill",
+      "Spell"
+    ],
+    "description": "Spells that create items"
+  },
+  {
+    "name": "Ward Spell",
+    "parents": [
+      "Skill",
+      "Spell"
+    ],
+    "description": "Spells that create protective areas"
+  },
+  {
+    "name": "Weapon Spell",
+    "parents": [
+      "Skill",
+      "Spell"
+    ],
+    "description": "Spells that affect weapons"
+  },
+  {
+    "name": "Well Spell",
+    "parents": [
+      "Skill",
+      "Spell"
+    ],
+    "description": "Spells that create wells at corpse locations"
+  },
+  {
+    "name": "Stance",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Combat postures that provide benefits"
+  },
+  {
+    "name": "Title",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills granted by titles"
+  },
+  {
+    "name": "Touch Skill",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that require touching the target"
+  },
+  {
+    "name": "Trap",
+    "parents": [
+      "Skill"
+    ],
+    "description": "Skills that create traps on the ground"
+  }
+]
