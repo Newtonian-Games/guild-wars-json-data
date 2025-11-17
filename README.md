@@ -6,7 +6,7 @@ Use however you like
 
 ## Creating a Postgres Database (optional)
 
-> Follow these instructions to turn the JSON files into a normalized Postgres DB! You don't need to keep using Supabase afterwards if you don't want since it creates a regular Postgres DB you can connect to!
+> Follow these instructions to turn the JSON files into a normalized Postgres DB! You don't need to keep using Supabase afterwards if you don't want since it creates a regular Postgres DB you can connect to.
 
 To run migrations for this project, use the Supabase CLI:
 
@@ -31,25 +31,15 @@ npx supabase link --project-ref <project-id>
 
 ### 3. Run migrations
 
-> **Note for maintainers:** If you've updated JSON data files, regenerate migrations first with `node scripts/generate-seed-migrations.js`
+> This creates all tables AND seeds them with relational data!
 
 ```bash
 npx supabase migration up --linked
 ```
 
-### 4. Seed the database
+> **Note for maintainers:** If you've updated JSON data files, regenerate migrations first with `node scripts/generate-seed-migrations.js`
 
-After running migrations, populate the database with data:
 
-```bash
-cd supabase
-npm install
-npm run seed
-```
+## Self-Host Supabase (Optional)
 
-This will:
-- Load all 10 Guild Wars professions
-- Load all profession attributes and rank titles
-- Import all skills from the JSON data files
-
-See `supabase/README.md` for more details on the database setup and seeding process.
+> If you prefer to self-host supabase, follow the guide: [Supabase Local DB](https://supabase.com/docs/guides/local-development)
