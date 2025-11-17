@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Bleeding",
+    "concise_description": "You have -3 Health degeneration.",
+    "description": "While suffering from this injury, you lose Health over time.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Bleeding",
+    "icon": "https://wiki.guildwars.com/images/8/82/Bleeding.jpg"
+  },
+  {
+    "name": "Blind",
+    "concise_description": "Your melee and missile attacks have a 90% chance to miss. Your projectile spells also have a greater chance to stray from their intended target.",
+    "description": "While suffering from this ailment, your melee and missile attacks have 90% chance to \"miss.\" Your projectiles also have a greater chance to stray from their intended target.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Blind",
+    "icon": "https://wiki.guildwars.com/images/7/7b/Blind.jpg"
+  },
+  {
+    "name": "Burning",
+    "concise_description": "You have -7 Health degeneration.",
+    "description": "While suffering from this Condition, you lose Health over time.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Burning",
+    "icon": "https://wiki.guildwars.com/images/9/97/Burning.jpg"
+  },
+  {
+    "name": "Cracked Armor",
+    "concise_description": "You have -20 armor (minimum 60).",
+    "description": "While suffering from this Condition, you have -20 armor (minimum 60).",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Cracked_Armor",
+    "icon": "https://wiki.guildwars.com/images/8/8d/Cracked_Armor.jpg"
+  },
+  {
+    "name": "Crippled",
+    "concise_description": "You move 50% slower.",
+    "description": "While suffering from this injury, you move 50% slower.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Crippled",
+    "icon": "https://wiki.guildwars.com/images/7/71/Crippled.jpg"
+  },
+  {
+    "name": "Dazed",
+    "concise_description": "You take twice as long to cast spells, and your spells are easily interrupted.",
+    "description": "While Dazed, you take twice as long to cast spells, and all your spells are easily interrupted",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Dazed",
+    "icon": "https://wiki.guildwars.com/images/2/22/Dazed.jpg"
+  },
+  {
+    "name": "Deep Wound",
+    "concise_description": "Your maximum Health is reduced by 20% and you receive 20% less benefit from healing.",
+    "description": "While suffering from this injury, your maximum Health is reduced by 20% and you receive less benefit from healing.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Deep_Wound",
+    "icon": "https://wiki.guildwars.com/images/2/28/Deep_Wound.jpg"
+  },
+  {
+    "name": "Disease",
+    "concise_description": "You have -4 Health degeneration. Disease is contagious between creatures of the same kind",
+    "description": "While suffering from this ailment, you lose Health over time. Disease is contagious between creatures of the same kind.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Disease",
+    "icon": "https://wiki.guildwars.com/images/e/ec/Disease.jpg"
+  },
+  {
+    "name": "Poison",
+    "concise_description": "You have -4 Health degeneration.",
+    "description": "While suffering from this injury, you lose Health over time.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Poison",
+    "icon": "https://wiki.guildwars.com/images/8/87/Poison.jpg"
+  },
+  {
+    "name": "Weakness",
+    "concise_description": "You deal 66% less damage with attacks and your attributes are reduced by 1.",
+    "description": "While suffering from this Condition, you deal less damage (66%) with attacks and all of your attributes are reduced by 1.",
+    "wiki_url": "https://wiki.guildwars.com/wiki/Weakness",
+    "icon": "https://wiki.guildwars.com/images/6/64/Weakness.jpg"
+  }
+]
