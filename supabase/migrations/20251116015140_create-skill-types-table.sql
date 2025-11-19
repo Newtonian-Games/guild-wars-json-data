@@ -27,5 +27,5 @@ ALTER TABLE skill_types ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Anyone can view skill_types"
   ON skill_types FOR SELECT
-  TO authenticated
+  TO authenticated, anon
   USING (true);

@@ -38,5 +38,5 @@ ALTER TABLE runes ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Anyone can view runes"
   ON runes FOR SELECT
-  TO authenticated
+  TO authenticated, anon
   USING (true);

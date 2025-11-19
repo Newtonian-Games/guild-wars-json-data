@@ -25,5 +25,5 @@ ALTER TABLE releases ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Anyone can view releases"
   ON releases FOR SELECT
-  TO authenticated
+  TO authenticated, anon
   USING (true);

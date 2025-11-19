@@ -38,5 +38,5 @@ ALTER TABLE weapons ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Anyone can view weapons"
   ON weapons FOR SELECT
-  TO authenticated
+  TO authenticated, anon
   USING (true);

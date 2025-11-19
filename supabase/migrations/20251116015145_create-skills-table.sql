@@ -52,5 +52,5 @@ ALTER TABLE skills ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Anyone can view skills"
   ON skills FOR SELECT
-  TO authenticated
+  TO authenticated, anon
   USING (true);

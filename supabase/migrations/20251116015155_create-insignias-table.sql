@@ -32,5 +32,5 @@ ALTER TABLE insignias ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Anyone can view insignias"
   ON insignias FOR SELECT
-  TO authenticated
+  TO authenticated, anon
   USING (true);
