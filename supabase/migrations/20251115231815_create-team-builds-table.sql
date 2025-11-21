@@ -1,10 +1,13 @@
 -- Team Builds Table
+CREATE TYPE team_build_visibility AS ENUM ('public', 'private');
+
 CREATE TABLE team_builds (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   author_id uuid NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
   name text NOT NULL,
   description text,
   notes text,
+  visibility team_build_visibility NOT NULL DEFAULT 'public',
   created_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now())),
   updated_at bigint NOT NULL DEFAULT (EXTRACT(EPOCH FROM now()))
 );
