@@ -3021,7 +3021,7 @@
   {
     "name": "Feral Lunge",
     "icon": "https://wiki.guildwars.com/images/f/fd/Feral_Lunge_%28large%29.jpg",
-    "concise_description": "Pet Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition if target foe is attacking ({{BleedingDuration}} seconds).",
+    "concise_description": "Pet Attack. Deals +{{Damage}} damage. Inflicts Bleeding condition if target foe is attacking ({{Bleeding}} seconds).",
     "type": "Pet Attack",
     "profession": "Ranger",
     "attribute": {
@@ -6455,7 +6455,54 @@
     "profession": "Ranger",
     "attribute": {
       "name": "Beast Mastery",
-      "progression": {}
+      "progression": {
+        "Level": {
+          "0": 1,
+          "1": 2,
+          "2": 2,
+          "3": 3,
+          "4": 3,
+          "5": 4,
+          "6": 5,
+          "7": 5,
+          "8": 6,
+          "9": 6,
+          "10": 7,
+          "11": 8,
+          "12": 8,
+          "13": 9,
+          "14": 9,
+          "15": 10,
+          "16": 11,
+          "17": 11,
+          "18": 12,
+          "19": 12,
+          "20": 13
+        },
+        "Duration": {
+          "0": 30,
+          "1": 44,
+          "2": 58,
+          "3": 72,
+          "4": 86,
+          "5": 100,
+          "6": 114,
+          "7": 128,
+          "8": 142,
+          "9": 156,
+          "10": 170,
+          "11": 184,
+          "12": 198,
+          "13": 212,
+          "14": 226,
+          "15": 240,
+          "16": 254,
+          "17": 268,
+          "18": 282,
+          "19": 296,
+          "20": 310
+        }
+      }
     },
     "costs": {
       "energy": 5,
@@ -7600,7 +7647,7 @@
   {
     "name": "Sloth Hunter's Shot",
     "icon": "https://wiki.guildwars.com/images/f/f7/Sloth_Hunter%27s_Shot_%28large%29.jpg",
-    "concise_description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{BonusDamage}} more damage if target foe is not using a skill.",
+    "concise_description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{AdditionalDamage}} more damage if target foe is not using a skill.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7674,7 +7721,7 @@
   {
     "name": "Sloth Hunter's Shot (PvP)",
     "icon": "https://wiki.guildwars.com/images/f/f7/Sloth_Hunter%27s_Shot_%28large%29.jpg",
-    "concise_description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{BonusDamage}} more damage if target foe is not using a skill.",
+    "concise_description": "Bow Attack. Deals +{{Damage}} damage. Deals +{{AdditionalDamage}} more damage if target foe is not using a skill.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -7918,7 +7965,7 @@
   {
     "name": "Splinter Shot",
     "icon": "https://wiki.guildwars.com/images/d/dc/Splinter_Shot_%28large%29.jpg",
-    "concise_description": "Bow Attack. Deals +{{Damage}} damage. Deals {{AdjacentDamage}} damage to adjacent foes if blocked.",
+    "concise_description": "Bow Attack. Deals +{{Damage}} damage. Deals {{DamageToAdjacentFoes}} damage to adjacent foes if blocked.",
     "type": "Bow Attack",
     "profession": "Ranger",
     "attribute": {
@@ -8261,7 +8308,7 @@
   {
     "name": "Symbiosis",
     "icon": "https://wiki.guildwars.com/images/5/5b/Symbiosis_%28large%29.jpg",
-    "concise_description": "Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{Duration}} second lifespan). Creatures in range have +{{MaxHealth}} maximum health for each enchantment on them. Does not affect spirits.",
+    "concise_description": "Nature Ritual. Creates a level {{SpiritLevel}} spirit ({{SpiritDuration}} second lifespan). Creatures in range have +{{MaxHealth}} maximum health for each enchantment on them. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -8598,7 +8645,7 @@
   {
     "name": "Tranquility",
     "icon": "https://wiki.guildwars.com/images/5/55/Tranquility_%28large%29.jpg",
-    "concise_description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Enchantments expire {{EnchantmentExpirationPercent}}% faster on creatures in range. Does not affect spirits.",
+    "concise_description": "Nature Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Enchantments expire {{ExpirationRatePercent}}% faster on creatures in range. Does not affect spirits.",
     "type": "Nature Ritual",
     "profession": "Ranger",
     "attribute": {
@@ -8693,7 +8740,7 @@
   {
     "name": "Trapper's Focus",
     "icon": "https://wiki.guildwars.com/images/3/3d/Trapper%27s_Focus_%28large%29.jpg",
-    "concise_description": "Elite Preparation. ({{Duration}} seconds.) Your trap skills are no longer easy to interrupt. You gain +{{AttributeBonus}} to your Wilderness Survival attribute.",
+    "concise_description": "Elite Preparation. ({{Duration}} seconds.) Your trap skills are no longer easy to interrupt. You gain +{{WildernessSurvival}} to your Wilderness Survival attribute.",
     "type": "Preparation",
     "profession": "Ranger",
     "attribute": {
@@ -9075,7 +9122,7 @@
   {
     "name": "Whirling Defense",
     "icon": "https://wiki.guildwars.com/images/d/d4/Whirling_Defense_%28large%29.jpg",
-    "concise_description": "Stance. ({{Duration}} seconds.) You have 75% chance to block. Deals {{Damage}} damage to adjacent foes whenever you block a projectile attack.",
+    "concise_description": "Stance. ({{Duration}} seconds.) You have 75% chance to block. Deals {{ArmorignoringDamage}} damage to adjacent foes whenever you block a projectile attack.",
     "type": "Stance",
     "profession": "Ranger",
     "attribute": {

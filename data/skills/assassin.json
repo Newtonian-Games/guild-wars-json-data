@@ -1100,21 +1100,21 @@
           "3": 9,
           "4": 8,
           "5": 8,
-          "6": 8,
+          "6": 7,
           "7": 7,
-          "8": 7,
+          "8": 6,
           "9": 6,
-          "10": 6,
-          "11": 6,
-          "12": 5,
-          "13": 5,
-          "14": 4,
-          "15": 4,
-          "16": 4,
-          "17": 3,
-          "18": 3,
-          "19": 2,
-          "20": 2
+          "10": 5,
+          "11": 5,
+          "12": 4,
+          "13": 4,
+          "14": 3,
+          "15": 3,
+          "16": 3,
+          "17": 2,
+          "18": 2,
+          "19": 1,
+          "20": 1
         }
       }
     },
@@ -1313,31 +1313,31 @@
         },
         "RechargePercent": {
           "0": 5,
-          "1": 8,
-          "2": 11,
-          "3": 14,
-          "4": 17,
-          "5": 20,
-          "6": 23,
-          "7": 26,
-          "8": 29,
-          "9": 32,
-          "10": 35,
-          "11": 38,
-          "12": 41,
-          "13": 44,
-          "14": 47,
-          "15": 50,
-          "16": 53,
-          "17": 56,
-          "18": 59,
-          "19": 62,
-          "20": 65
+          "1": 9,
+          "2": 12,
+          "3": 16,
+          "4": 20,
+          "5": 23,
+          "6": 27,
+          "7": 31,
+          "8": 34,
+          "9": 38,
+          "10": 42,
+          "11": 45,
+          "12": 49,
+          "13": 53,
+          "14": 56,
+          "15": 60,
+          "16": 64,
+          "17": 67,
+          "18": 71,
+          "19": 75,
+          "20": 78
         }
       }
     },
     "costs": {
-      "energy": 10,
+      "energy": 5,
       "adrenaline": null,
       "upkeep": null,
       "sacrifice": null,
@@ -1977,7 +1977,7 @@
       }
     },
     "costs": {
-      "energy": 10,
+      "energy": 5,
       "adrenaline": null,
       "upkeep": null,
       "sacrifice": null,
@@ -2117,7 +2117,7 @@
   {
     "name": "Falling Spider",
     "icon": "https://wiki.guildwars.com/images/1/1b/Falling_Spider_%28large%29.jpg",
-    "concise_description": "Off-Hand Attack. Deals +{{PlusDamage}} damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds). No effect unless target foe is knocked-down.",
+    "concise_description": "Off-Hand Attack. Deals +{{PlusDamage}} damage. Inflicts Poisoned condition ({{PoisonedDuration}} seconds). No effect unless target foe is knocked-down.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -2638,7 +2638,7 @@
   {
     "name": "Golden Phoenix Strike",
     "icon": "https://wiki.guildwars.com/images/c/c9/Golden_Phoenix_Strike_%28large%29.jpg",
-    "concise_description": "Off-Hand Attack. Deals +{{PlusDamage}} damage to target and deals {{PlusDamage}} damage to adjacent foes. Fails if you are not enchanted.",
+    "concise_description": "Off-Hand Attack. Deals +{{PlusDamage}} damage to target and deals 10...26...30 damage to adjacent foes. Fails if you are not enchanted.",
     "type": "Off-Hand Attack",
     "profession": "Assassin",
     "attribute": {
@@ -2696,27 +2696,27 @@
       "progression": {
         "DazedDuration": {
           "0": 1,
-          "1": 1,
+          "1": 2,
           "2": 2,
-          "3": 2,
-          "4": 2,
-          "5": 2,
-          "6": 3,
-          "7": 3,
-          "8": 3,
-          "9": 3,
-          "10": 4,
-          "11": 4,
-          "12": 4,
-          "13": 4,
-          "14": 5,
-          "15": 5,
-          "16": 5,
-          "17": 6,
-          "18": 6,
-          "19": 6,
-          "20": 6,
-          "21": 7
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 5,
+          "7": 6,
+          "8": 7,
+          "9": 8,
+          "10": 8,
+          "11": 9,
+          "12": 10,
+          "13": 11,
+          "14": 11,
+          "15": 12,
+          "16": 13,
+          "17": 13,
+          "18": 14,
+          "19": 15,
+          "20": 16,
+          "21": 16
         }
       }
     },
@@ -2787,7 +2787,7 @@
   {
     "name": "Hidden Caltrops",
     "icon": "https://wiki.guildwars.com/images/e/e6/Hidden_Caltrops_%28large%29.jpg",
-    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes 50% slower movement. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds). Your non-Assassin skills are disabled (10 seconds.)",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes 50% slower movement. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds). Your non-Assassin skills are disabled (3 seconds.)",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3070,7 +3070,7 @@
       "overcast": null
     },
     "activation": 0.5,
-    "recharge": 1,
+    "recharge": 2,
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
@@ -3425,8 +3425,8 @@
   {
     "name": "Mantis Touch",
     "icon": "https://wiki.guildwars.com/images/d/dd/Mantis_Touch_%28large%29.jpg",
-    "concise_description": "Spell. Inflicts Crippled condition ({{CrippledDuration}} seconds). This skill counts as an off-hand attack. Must follow a lead attack.",
-    "type": "Spell",
+    "concise_description": "Skill. Inflicts Crippled condition ({{CrippledDuration}} seconds). This skill counts as an off-hand attack.",
+    "type": "Skill (skill type)",
     "profession": "Assassin",
     "attribute": {
       "name": "Deadly Arts",
@@ -3464,7 +3464,7 @@
       "overcast": null
     },
     "activation": 0.75,
-    "recharge": 15,
+    "recharge": 20,
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
@@ -3474,7 +3474,7 @@
   {
     "name": "Mark of Death",
     "icon": "https://wiki.guildwars.com/images/f/fc/Mark_of_Death_%28large%29.jpg",
-    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe receives 33% less from healing.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe receives 50% less from healing.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3523,7 +3523,7 @@
   {
     "name": "Mark of Insecurity",
     "icon": "https://wiki.guildwars.com/images/2/2d/Mark_of_Insecurity_%28large%29.jpg",
-    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthDegeneration}} Health degeneration. Enchantments and stances expire {{EnchantmentAndStanceReductionPercent}}% faster on target foe. Disables your non-Assassin skills (10 seconds).",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthDegeneration}} Health degeneration. Enchantments and stances expire {{EnchantmentAndStanceReductionPercent}}% faster on target foe. Disables your non-Assassin skills (5 seconds).",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -3555,25 +3555,25 @@
         "HealthDegeneration": {
           "0": 1,
           "1": 1,
-          "2": 1,
-          "3": 1,
+          "2": 2,
+          "3": 2,
           "4": 2,
           "5": 2,
-          "6": 2,
-          "7": 2,
-          "8": 2,
-          "9": 2,
-          "10": 2,
-          "11": 2,
-          "12": 3,
-          "13": 3,
-          "14": 3,
-          "15": 3,
-          "16": 3,
-          "17": 3,
-          "18": 3,
-          "19": 4,
-          "20": 4
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 4,
+          "14": 5,
+          "15": 5,
+          "16": 5,
+          "17": 6,
+          "18": 6,
+          "19": 6,
+          "20": 6
         },
         "EnchantmentAndStanceReductionPercent": {
           "0": 30,
@@ -3997,25 +3997,25 @@
         "HealthGain": {
           "0": 10,
           "1": 12,
-          "2": 14,
-          "3": 16,
-          "4": 18,
-          "5": 20,
-          "6": 22,
-          "7": 24,
-          "8": 26,
-          "9": 28,
-          "10": 30,
-          "11": 32,
-          "12": 34,
-          "13": 36,
-          "14": 38,
-          "15": 40,
-          "16": 42,
-          "17": 44,
-          "18": 46,
-          "19": 48,
-          "20": 50
+          "2": 15,
+          "3": 17,
+          "4": 19,
+          "5": 22,
+          "6": 24,
+          "7": 26,
+          "8": 29,
+          "9": 31,
+          "10": 33,
+          "11": 36,
+          "12": 38,
+          "13": 40,
+          "14": 43,
+          "15": 45,
+          "16": 47,
+          "17": 50,
+          "18": 52,
+          "19": 54,
+          "20": 57
         }
       }
     },
@@ -4037,7 +4037,7 @@
   {
     "name": "Scorpion Wire",
     "icon": "https://wiki.guildwars.com/images/f/f1/Scorpion_Wire_%28large%29.jpg",
-    "concise_description": "Half Range Hex Spell. ({{Duration}} seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 100' away from you.",
+    "concise_description": "Half Range Hex Spell. ({{Duration}} seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 75' away from you.",
     "type": "Half Range Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4197,7 +4197,7 @@
       "overcast": null
     },
     "activation": 0.25,
-    "recharge": 45,
+    "recharge": 20,
     "is_elite": false,
     "campaign": "Eye of the North",
     "limitation": null,
@@ -4359,7 +4359,7 @@
       "progression": {}
     },
     "costs": {
-      "energy": 10,
+      "energy": 5,
       "adrenaline": null,
       "upkeep": -1,
       "sacrifice": null,
@@ -4415,7 +4415,7 @@
       "overcast": null
     },
     "activation": 0.25,
-    "recharge": 25,
+    "recharge": 15,
     "is_elite": true,
     "campaign": "Nightfall",
     "limitation": null,
@@ -4570,13 +4570,13 @@
       }
     },
     "costs": {
-      "energy": 10,
+      "energy": 5,
       "adrenaline": null,
       "upkeep": null,
       "sacrifice": null,
       "overcast": null
     },
-    "activation": 1,
+    "activation": 0.25,
     "recharge": 20,
     "is_elite": true,
     "campaign": "Factions",
@@ -4587,7 +4587,7 @@
   {
     "name": "Shadow Theft",
     "icon": "https://wiki.guildwars.com/images/9/91/Shadow_Theft.jpg",
-    "concise_description": "Elite Skill. Shadow Step to target foe. For {{Duration}} seconds that foe's attributes are reduced by {{AttributeBonus}} and your attributes are increased by {{AttributeBonus}}. Counts as a Lead Attack. PvE Skill",
+    "concise_description": "Elite Skill. Shadow Step to target foe. For {{Duration}} seconds that foe's attributes are reduced by {{AttributeBonus}} and your attributes are increased by 1...4...5. Counts as a Lead Attack. PvE Skill",
     "type": "Skill",
     "profession": "Assassin",
     "attribute": {
@@ -4733,7 +4733,7 @@
   {
     "name": "Shadowy Burden",
     "icon": "https://wiki.guildwars.com/images/6/6b/Shadowy_Burden_%28large%29.jpg",
-    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 25% slower and has 20 less armor against your attacks. Armor reduction only affects this foe while it has no other hexes.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 25% slower and has {{ArmorReduction}} less armor against your attacks. Armor reduction only affects this foe while it has no other hexes.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -4761,6 +4761,29 @@
           "18": 17,
           "19": 18,
           "20": 19
+        },
+        "ArmorReduction": {
+          "0": 20,
+          "1": 21,
+          "2": 21,
+          "3": 22,
+          "4": 23,
+          "5": 23,
+          "6": 24,
+          "7": 25,
+          "8": 25,
+          "9": 26,
+          "10": 27,
+          "11": 27,
+          "12": 28,
+          "13": 29,
+          "14": 29,
+          "15": 30,
+          "16": 31,
+          "17": 31,
+          "18": 32,
+          "19": 33,
+          "20": 33
         }
       }
     },
@@ -4820,7 +4843,7 @@
       "sacrifice": null,
       "overcast": null
     },
-    "activation": 2,
+    "activation": 1,
     "recharge": 10,
     "is_elite": false,
     "campaign": "Factions",
@@ -5082,25 +5105,25 @@
         "Duration": {
           "0": 1,
           "1": 1,
-          "2": 1,
-          "3": 1,
+          "2": 2,
+          "3": 2,
           "4": 2,
-          "5": 2,
-          "6": 2,
-          "7": 2,
-          "8": 2,
-          "9": 2,
-          "10": 2,
-          "11": 2,
-          "12": 3,
-          "13": 3,
-          "14": 3,
-          "15": 3,
-          "16": 3,
-          "17": 3,
-          "18": 3,
-          "19": 4,
-          "20": 4
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 4,
+          "9": 4,
+          "10": 4,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 6,
+          "15": 6,
+          "16": 6,
+          "17": 7,
+          "18": 7,
+          "19": 7,
+          "20": 8
         }
       }
     },
@@ -5307,7 +5330,7 @@
       "overcast": null
     },
     "activation": 1,
-    "recharge": 30,
+    "recharge": 15,
     "is_elite": false,
     "campaign": "Factions",
     "limitation": null,
@@ -5380,7 +5403,7 @@
       "sacrifice": null,
       "overcast": null
     },
-    "activation": 2,
+    "activation": 1,
     "recharge": 20,
     "is_elite": false,
     "campaign": "Nightfall",
@@ -5391,7 +5414,7 @@
   {
     "name": "Siphon Speed",
     "icon": "https://wiki.guildwars.com/images/f/f9/Siphon_Speed_%28large%29.jpg",
-    "concise_description": "Half Range Hex Spell. ({{Duration}} seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe.",
+    "concise_description": "Hex Spell. ({{Duration}} seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe.",
     "type": "Half Range Hex Spell",
     "profession": "Assassin",
     "attribute": {
@@ -5440,7 +5463,7 @@
   {
     "name": "Siphon Strength",
     "icon": "https://wiki.guildwars.com/images/b/b5/Siphon_Strength_%28large%29.jpg",
-    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe deals -{{DamageReduction}} attack damage. You have +33% chance to land a critical hit on this foe.",
+    "concise_description": "Elite Hex Spell. ({{Duration}} seconds.) Target foe deals -{{DamageReduction}} attack damage. You have +50% chance to land a critical hit on this foe.",
     "type": "Hex Spell",
     "profession": "Assassin",
     "attribute": {

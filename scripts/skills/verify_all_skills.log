@@ -1,0 +1,3258 @@
+Progress and report cleared.
+
+=== Processing assassin.json ===
+[assassin.json] Assassin's Promise
+  OK
+[assassin.json] Assassin's Remedy
+  OK
+[assassin.json] Assassin's Remedy (PvP)
+  OK
+[assassin.json] Assault Enchantments
+  OK
+[assassin.json] Augury of Death
+  OK
+[assassin.json] Aura of Displacement
+  OK
+[assassin.json] Beguiling Haze
+  OK
+[assassin.json] Black Lotus Strike
+  OK
+[assassin.json] Black Mantis Thrust
+  OK
+[assassin.json] Black Spider Strike
+  OK
+[assassin.json] Blades of Steel
+  OK
+[assassin.json] Blinding Powder
+  OK
+[assassin.json] Caltrops
+  OK
+[assassin.json] Crippling Dagger
+  OK
+[assassin.json] Critical Agility
+  OK
+[assassin.json] Critical Defenses
+  OK
+[assassin.json] Critical Eye
+  OK
+[assassin.json] Critical Strike
+  OK
+[assassin.json] Dancing Daggers
+  OK
+[assassin.json] Dark Apostasy
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[assassin.json] Dark Escape
+  OK
+[assassin.json] Dark Prison
+  OK
+[assassin.json] Dash
+  OK
+[assassin.json] Deadly Haste
+  FIXED (2 issues):
+    - costs.energy: JSON=10 wiki=5
+    - attribute.progression mismatch
+[assassin.json] Deadly Paradox
+  OK
+[assassin.json] Death Blossom
+  OK
+[assassin.json] Death Blossom (PvP)
+  OK
+[assassin.json] Death's Charge
+  OK
+[assassin.json] Death's Retreat
+  OK
+[assassin.json] Desperate Strike
+  OK
+[assassin.json] Disrupting Dagger
+  OK
+[assassin.json] Disrupting Stab
+  OK
+[assassin.json] Enduring Toxin
+  OK
+[assassin.json] Entangling Asp
+  OK
+[assassin.json] Exhausting Assault
+  OK
+[assassin.json] Expose Defenses
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[assassin.json] Expunge Enchantments
+  OK
+[assassin.json] Falling Lotus Strike
+  OK
+[assassin.json] Falling Spider
+  FIXED (1 issues):
+    - concise_description: JSON=Off-Hand Attack. Deals +{{PlusDamage}} damage. Inflicts Poisoned condition ({{PoisonDuration}} seconds). No effect unless target foe is knocked-down. wiki=Off-Hand Attack. Deals +{{PlusDamage}} damage. Inflicts Poisoned condition ({{PoisonedDuration}} seconds). No effect unless target foe is knocked-down.
+[assassin.json] Feigned Neutrality
+  OK
+[assassin.json] Flashing Blades
+  OK
+[assassin.json] Fox Fangs
+  OK
+[assassin.json] Fox Fangs (PvP)
+  OK
+[assassin.json] Fox's Promise
+  OK
+[assassin.json] Golden Fang Strike
+  OK
+[assassin.json] Golden Fox Strike
+  OK
+[assassin.json] Golden Lotus Strike
+  OK
+[assassin.json] Golden Phoenix Strike
+  FIXED (1 issues):
+    - concise_description: JSON=Off-Hand Attack. Deals +{{PlusDamage}} damage to target and deals {{PlusDamage}} damage to adjacent foes. Fails if you are not enchanted. wiki=Off-Hand Attack. Deals +{{PlusDamage}} damage to target and deals 10...26...30 damage to adjacent foes. Fails if you are not enchanted.
+[assassin.json] Golden Skull Strike
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[assassin.json] Heart of Shadow
+  OK
+[assassin.json] Hidden Caltrops
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Hex Spell. ({{Duration}} seconds.) Causes 50% slower movement. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds). Your non-Assassin skills are disabled (10 seconds.) wiki=Elite Hex Spell. ({{Duration}} seconds.) Causes 50% slower movement. End effect: inflicts Crippled condition ({{CrippledDuration}} seconds). Your non-Assassin skills are disabled (3 seconds.)
+[assassin.json] Horns of the Ox
+  OK
+[assassin.json] Impale
+  OK
+[assassin.json] Iron Palm
+  OK
+[assassin.json] Jagged Strike
+  FIXED (1 issues):
+    - recharge: JSON=1 wiki=2
+[assassin.json] Jungle Strike
+  OK
+[assassin.json] Leaping Mantis Sting
+  OK
+[assassin.json] Lift Enchantment
+  OK
+[assassin.json] Locust's Fury
+  OK
+[assassin.json] Lotus Strike
+  OK
+[assassin.json] Malicious Strike
+  OK
+[assassin.json] Mantis Touch
+  FIXED (3 issues):
+    - type: JSON=Spell wiki=Skill (skill type)
+    - recharge: JSON=15 wiki=20
+    - concise_description: JSON=Spell. Inflicts Crippled condition ({{CrippledDuration}} seconds). This skill counts as an off-hand attack. Must follow a lead attack. wiki=Skill. Inflicts Crippled condition ({{CrippledDuration}} seconds). This skill counts as an off-hand attack.
+[assassin.json] Mark of Death
+  FIXED (1 issues):
+    - concise_description: JSON=Hex Spell. ({{Duration}} seconds.) Target foe receives 33% less from healing. wiki=Hex Spell. ({{Duration}} seconds.) Target foe receives 50% less from healing.
+[assassin.json] Mark of Insecurity
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthDegeneration}} Health degeneration. Enchantments and stances expire {{EnchantmentAndStanceReductionPercent}}% faster on target foe. Disables your non-Assassin skills (10 seconds). wiki=Elite Hex Spell. ({{Duration}} seconds.) Causes {{HealthDegeneration}} Health degeneration. Enchantments and stances expire {{EnchantmentAndStanceReductionPercent}}% faster on target foe. Disables your non-Assassin skills (5 seconds).
+[assassin.json] Mark of Instability
+  OK
+[assassin.json] Mirrored Stance
+  OK
+[assassin.json] Moebius Strike
+  OK
+[assassin.json] Nine Tail Strike
+  OK
+[assassin.json] Palm Strike
+  OK
+[assassin.json] Recall
+  OK
+[assassin.json] Repeating Strike
+  OK
+[assassin.json] Return
+  OK
+[assassin.json] Sadist's Signet
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[assassin.json] Scorpion Wire
+  FIXED (1 issues):
+    - concise_description: JSON=Half Range Hex Spell. ({{Duration}} seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 100' away from you. wiki=Half Range Hex Spell. ({{Duration}} seconds.) Shadow Step to target foe and cause knock-down the next time this foe is more than 75' away from you.
+[assassin.json] Seeping Wound
+  OK
+[assassin.json] Shadow Fang
+  FIXED (1 issues):
+    - recharge: JSON=45 wiki=20
+[assassin.json] Shadow Form
+  OK
+[assassin.json] Shadow Form (PvP)
+  OK
+[assassin.json] Shadow Meld
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[assassin.json] Shadow Prison
+  FIXED (1 issues):
+    - recharge: JSON=25 wiki=15
+[assassin.json] Shadow Refuge
+  OK
+[assassin.json] Shadow Sanctuary
+  OK
+[assassin.json] Shadow Shroud
+  FIXED (2 issues):
+    - activation: JSON=1 wiki=0.25
+    - costs.energy: JSON=10 wiki=5
+[assassin.json] Shadow Theft
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Skill. Shadow Step to target foe. For {{Duration}} seconds that foe's attributes are reduced by {{AttributeBonus}} and your attributes are increased by {{AttributeBonus}}. Counts as a Lead Attack. PvE Skill wiki=Elite Skill. Shadow Step to target foe. For {{Duration}} seconds that foe's attributes are reduced by {{AttributeBonus}} and your attributes are increased by 1...4...5. Counts as a Lead Attack. PvE Skill
+[assassin.json] Shadow Walk
+  OK
+[assassin.json] Shadow of Haste
+  OK
+[assassin.json] Shadowy Burden
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Hex Spell. ({{Duration}} seconds.) Target foe moves 25% slower and has 20 less armor against your attacks. Armor reduction only affects this foe while it has no other hexes. wiki=Hex Spell. ({{Duration}} seconds.) Target foe moves 25% slower and has {{ArmorReduction}} less armor against your attacks. Armor reduction only affects this foe while it has no other hexes.
+[assassin.json] Shameful Fear
+  FIXED (1 issues):
+    - activation: JSON=2 wiki=1
+[assassin.json] Sharpen Daggers
+  OK
+[assassin.json] Shattering Assault
+  OK
+[assassin.json] Shroud of Distress
+  OK
+[assassin.json] Shroud of Distress (PvP)
+  OK
+[assassin.json] Shroud of Silence
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[assassin.json] Signet of Deadly Corruption
+  OK
+[assassin.json] Signet of Deadly Corruption (PvP)
+  OK
+[assassin.json] Signet of Malice
+  OK
+[assassin.json] Signet of Shadows
+  FIXED (1 issues):
+    - recharge: JSON=30 wiki=15
+[assassin.json] Signet of Toxic Shock
+  OK
+[assassin.json] Signet of Twilight
+  FIXED (1 issues):
+    - activation: JSON=2 wiki=1
+[assassin.json] Siphon Speed
+  FIXED (1 issues):
+    - concise_description: JSON=Half Range Hex Spell. ({{Duration}} seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe. wiki=Hex Spell. ({{Duration}} seconds.) Target foe moves 33% slower and you move 33% faster. Recharges 50% faster if cast on a moving foe.
+[assassin.json] Siphon Strength
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Hex Spell. ({{Duration}} seconds.) Target foe deals -{{DamageReduction}} attack damage. You have +33% chance to land a critical hit on this foe. wiki=Elite Hex Spell. ({{Duration}} seconds.) Target foe deals -{{DamageReduction}} attack damage. You have +50% chance to land a critical hit on this foe.
+[assassin.json] Smoke Powder Defense
+  OK
+[assassin.json] Spirit Walk
+  OK
+[assassin.json] Swap
+  OK
+[assassin.json] Temple Strike
+  OK
+[assassin.json] Trampling Ox
+  OK
+[assassin.json] Twisting Fangs
+  OK
+[assassin.json] Unseen Fury
+  OK
+[assassin.json] Unseen Fury (PvP)
+  OK
+[assassin.json] Unsuspecting Strike
+  OK
+[assassin.json] Vampiric Assault
+  OK
+[assassin.json] Viper's Defense
+  OK
+[assassin.json] Wastrel's Collapse
+  OK
+[assassin.json] Way of Perfection
+  OK
+[assassin.json] Way of the Assassin
+  OK
+[assassin.json] Way of the Empty Palm
+  OK
+[assassin.json] Way of the Fox
+  OK
+[assassin.json] Way of the Lotus
+  OK
+[assassin.json] Way of the Master
+  OK
+[assassin.json] Wild Strike
+  OK
+[assassin.json] Wild Strike (PvP)
+  OK
+
+=== Processing common.json ===
+[common.json] Resurrection Signet
+  OK
+[common.json] Signet of Capture
+  OK
+[common.json] Lightbringer Signet
+  OK
+[common.json] Lightbringer's Gaze
+  OK
+[common.json] Sunspear Rebirth Signet
+  FIXED (1 issues):
+    - concise_description: JSON=Signet. Resurrect target dead ally at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost. wiki=Signet. Resurrect target dead ally [sic] at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost.
+[common.json] Air of Superiority
+  OK
+[common.json] Asuran Scan
+  OK
+[common.json] Mental Block
+  OK
+[common.json] Mindbender
+  OK
+[common.json] Pain Inverter
+  OK
+[common.json] Radiation Field
+  OK
+[common.json] Smooth Criminal
+  OK
+[common.json] Summon Ice Imp
+  OK
+[common.json] Summon Mursaat
+  OK
+[common.json] Summon Naga Shaman
+  OK
+[common.json] Summon Ruby Djinn
+  OK
+[common.json] Technobabble
+  OK
+[common.json] "By Ural's Hammer!"
+  OK
+[common.json] "Don't Trip!"
+  OK
+[common.json] Alkar's Alchemical Acid
+  OK
+[common.json] Black Powder Mine
+  OK
+[common.json] Brawling Headbutt
+  OK
+[common.json] Breath of the Great Dwarf
+  OK
+[common.json] Drunken Master
+  OK
+[common.json] Dwarven Stability
+  FIXED (1 issues):
+    - concise_description: JSON=Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk. wiki=Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk . [sic]
+[common.json] Ear Bite
+  OK
+[common.json] Great Dwarf Armor
+  OK
+[common.json] Great Dwarf Weapon
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Weapon Spell. (20 seconds.) +{{Damage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target. wiki=Weapon Spell. (20 seconds.) +{{PlusDamage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target.
+[common.json] Light of Deldrimor
+  OK
+[common.json] Low Blow
+  OK
+[common.json] Snow Storm
+  OK
+[common.json] Deft Strike
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Deals {{ArmorignoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor. wiki=Ranged Attack. Deals {{ArmorMinusIgnoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor.
+[common.json] Ebon Battle Standard of Courage
+  OK
+[common.json] Ebon Battle Standard of Honor
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{Damage}} damage and +{{DamageVsCharr}} more damage against Charr. Spirits are unaffected. wiki=Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{PlusDamage}} damage and +{{PlusDamageVsCharr}} more damage against Charr. Spirits are unaffected.
+[common.json] Ebon Battle Standard of Wisdom
+  OK
+[common.json] Ebon Escape
+  OK
+[common.json] Ebon Vanguard Assassin Support
+  OK
+[common.json] Ebon Vanguard Sniper Support
+  FIXED (1 issues):
+    - concise_description: JSON=Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +{{AdditionalPiercingDamage}} piercing damage if target foe is a Charr. wiki=Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +540...900 piercing damage if target foe is a Charr.
+[common.json] Signet of Infection
+  OK
+[common.json] Sneak Attack
+  OK
+[common.json] Tryptophan Signet
+  OK
+[common.json] Weakness Trap
+  OK
+[common.json] Winds
+  OK
+[common.json] "Dodge This!"
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{Damage}} damage. wiki=Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{PlusDamage}} damage.
+[common.json] "Finish Him!"
+  OK
+[common.json] "I Am Unstoppable!"
+  OK
+[common.json] "I Am the Strongest!"
+  OK
+[common.json] "You Are All Weaklings!"
+  OK
+[common.json] "You Move Like a Dwarf!"
+  OK
+[common.json] A Touch of Guile
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Touch Hex Spell. Deals {{ArmorignoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down. wiki=Touch Hex Spell. Deals {{ArmorMinusIgnoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down.
+[common.json] Club of a Thousand Bears
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Melee Attack. Deals +{{DamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human. wiki=Melee Attack. Deals +{{PlusDamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human.
+[common.json] Feel No Pain
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Skill. (30 seconds.) You have +{{HealthRegeneration}} Health regeneration. You have +{{ConditionalMaximumHealth}} maximum Health if you are drunk when activating this skill. wiki=Skill. (30 seconds.) You have +{{PlusHealthRegeneration}} Health regeneration. You have +{{ConditionalPlusMaximumHealth}} maximum Health if you are drunk when activating this skill.
+[common.json] Raven Blessing
+  OK
+[common.json] Ursan Blessing
+  OK
+[common.json] Volfen Blessing
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{HealthRegeneration}} Health regeneration. wiki=Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{PlusHealthRegeneration}} Health regeneration.
+
+=== Processing dervish.json ===
+[dervish.json] Arcane Zeal
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Enchantment Spell. (10 seconds.) You gain 1 Energy (maximum {{MaximumEnergyGain}}) for each enchantment on you whenever you cast a spell. wiki=Elite Enchantment Spell. (10 seconds.) You gain 2 Energy (maximum {{MaximumEnergyGain}}) for each enchantment on you whenever you cast a spell.
+[dervish.json] Armor of Sanctity
+  OK
+[dervish.json] Attacker's Insight
+  OK
+[dervish.json] Aura Slicer
+  OK
+[dervish.json] Aura of Holy Might
+  OK
+[dervish.json] Aura of Thorns
+  OK
+[dervish.json] Aura of Thorns (PvP)
+  OK
+[dervish.json] Avatar of Balthazar
+  OK
+[dervish.json] Avatar of Dwayna
+  OK
+[dervish.json] Avatar of Dwayna (PvP)
+  OK
+[dervish.json] Avatar of Grenth
+  OK
+[dervish.json] Avatar of Lyssa
+  OK
+[dervish.json] Avatar of Melandru
+  OK
+[dervish.json] Avatar of Melandru (PvP)
+  OK
+[dervish.json] Balthazar's Rage
+  OK
+[dervish.json] Banishing Strike
+  OK
+[dervish.json] Banishing Strike (PvP)
+  OK
+[dervish.json] Chilling Victory
+  OK
+[dervish.json] Conviction
+  OK
+[dervish.json] Crippling Sweep
+  OK
+[dervish.json] Crippling Victory
+  OK
+[dervish.json] Dust Cloak
+  FIXED (1 issues):
+    - concise_description: JSON=Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to adjacent foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on adjacent foes. wiki=Flash Enchantment Spell. (30 seconds.) Your attacks deal earth damage. Initial effect: deals {{EarthDamage}} earth damage to nearby foes. End effect: inflicts Blindness condition ({{BlindDuration}} second[s]) on nearby foes.
+[dervish.json] Dust Cloak (PvP)
+  OK
+[dervish.json] Dwayna's Touch
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Touch Spell. Heals for {{Healing}} (maximum 150) for each enchantment on you. wiki=Touch Spell. Heals for 60 (maximum {{MaximumHealing}}) for each enchantment on you.
+[dervish.json] Ebon Dust Aura
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[dervish.json] Enchanted Haste
+  OK
+[dervish.json] Eremite's Attack
+  FIXED (1 issues):
+    - concise_description: JSON=Scythe Attack. Deals +{{PlusDamage}} damage and removes a Dervish enchantment. Removal Effect: Deals +{{PlusDamage}} damage and strikes all adjacent foes. wiki=Scythe Attack. Deals +{{PlusDamage}} damage and removes a Dervish enchantment. Removal Effect: Deals +1...8...10 damage and strikes all adjacent foes.
+[dervish.json] Eremite's Zeal
+  FIXED (1 issues):
+    - concise_description: JSON=Enchantment Spell. (10 seconds.) Initial effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot. End effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot. wiki=Enchantment Spell. (10 seconds.) Initial effect: you gain {{EnergyGain}} Energy (maximum 8) for each foe in earshot. End effect: you gain 1...3...3 Energy (maximum 8) for each foe in earshot.
+[dervish.json] Eternal Aura
+  OK
+[dervish.json] Extend Enchantments
+  OK
+[dervish.json] Faithful Intervention
+  OK
+[dervish.json] Farmer's Scythe
+  OK
+[dervish.json] Featherfoot Grace
+  FIXED (1 issues):
+    - concise_description: JSON=Enchantment Spell. ({{Duration}} seconds.) You move 25% faster, and conditions expire 25% faster. wiki=Enchantment Spell. ({{Duration}} seconds.) You move 25% faster, and conditions expire 50% faster.
+[dervish.json] Fleeting Stability
+  OK
+[dervish.json] Grenth's Aura
+  FIXED (1 issues):
+    - concise_description: JSON=Flash Enchantment Spell. (20 seconds.) You deal {{LessDamage}} less damage and steal {{LifeStealing}} Health when you hit with a scythe. Initial effect: steal {{InitialLifeStealing}} Health from all adjacent foes. wiki=Flash Enchantment Spell. (20 seconds.) You deal {{LifeStealingAndDamageReduction}} less damage and steal 5...21...25 Health when you hit with a scythe. Initial effect: steal 5...21...25 Health from all adjacent foes.
+[dervish.json] Grenth's Fingers
+  OK
+[dervish.json] Grenth's Grasp
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled condition ({{CrippledDuration}} second[s]) with your attack skills and transfer 1 condition. No effect unless wielding a cold weapon. wiki=Elite Flash Enchantment Spell. (20 seconds.) Inflicts Crippled ({{CrippledDuration}} second[s]) with your attack skills and transfer 1...3...3 condition. No effect unless wielding a cold weapon.
+[dervish.json] Guiding Hands
+  OK
+[dervish.json] Guiding Hands (PvP)
+  FIXED (1 issues):
+    - recharge: JSON=30 wiki=15
+[dervish.json] Harrier's Grasp
+  OK
+[dervish.json] Harrier's Haste
+  OK
+[dervish.json] Heart of Fury
+  OK
+[dervish.json] Heart of Fury (PvP)
+  OK
+[dervish.json] Heart of Holy Flame
+  OK
+[dervish.json] Imbue Health
+  OK
+[dervish.json] Intimidating Aura
+  OK
+[dervish.json] Irresistible Sweep
+  FIXED (1 issues):
+    - concise_description: JSON=Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +{{PlusDamage}} additional damage. wiki=Scythe Attack. Deals +{{PlusDamage}} damage. Remove 1 of your Dervish enchantments. Removal effect: unblockable, removes a stance, deals +3...13...15 additional damage.
+[dervish.json] Irresistible Sweep (PvP)
+  OK
+[dervish.json] Lyssa's Assault
+  FIXED (1 issues):
+    - concise_description: JSON=Scythe Attack. Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional {{DisabledDuration}} second[s]. This attack does 50% of normal damage. wiki=Scythe Attack. Interrupts an action. If you are enchanted, the interrupted skill is disabled for an additional {{DisableDuration}} second[s]. This attack does 50% of normal damage.
+[dervish.json] Lyssa's Haste
+  OK
+[dervish.json] Lyssa's Haste (PvP)
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[dervish.json] Meditation
+  FIXED (1 issues):
+    - recharge: JSON=20 wiki=15
+[dervish.json] Mirage Cloak
+  OK
+[dervish.json] Mystic Corruption
+  FIXED (2 issues):
+    - costs.energy: JSON=10 wiki=5
+    - attribute.progression mismatch
+[dervish.json] Mystic Healing
+  FIXED (1 issues):
+    - concise_description: JSON=Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health. wiki=Spell. Heals you for {{Healing}}. Heals all enchanted party members for 5...53...65 Health.
+[dervish.json] Mystic Healing (PvP)
+  FIXED (2 issues):
+    - recharge: JSON=20 wiki=10
+    - concise_description: JSON=Spell. Heals you for {{Healing}}. Heals all enchanted party members for {{Healing}} Health. wiki=Spell. Heals you for {{Healing}}. Heals all enchanted party members for 5...53...65 Health.
+[dervish.json] Mystic Regeneration
+  OK
+[dervish.json] Mystic Regeneration (PvP)
+  OK
+[dervish.json] Mystic Sandstorm
+  FIXED (1 issues):
+    - concise_description: JSON=Spell. (3 seconds.) Deals {{EarthDamage}} earth damage each second. Deals an additional {{EarthDamage}} damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted. wiki=Spell. (3 seconds.) Deals {{EarthDamage}} earth damage each second. Deals an additional 10...18...20 damage to attacking foes. Hits foes nearby your initial location. Lasts twice as long if you are enchanted.
+[dervish.json] Mystic Sweep
+  FIXED (1 issues):
+    - concise_description: JSON=Melee Attack. Deals +{{PlusDamage}} damage. Deals an additional +{{PlusDamage}} damage if you are enchanted. wiki=Melee Attack. Deals +{{PlusDamage}} damage. Deals an additional +3...10...12 damage if you are enchanted.
+[dervish.json] Mystic Twister
+  FIXED (3 issues):
+    - activation: JSON=1.0 wiki=0.5
+    - recharge: JSON=8 wiki=4
+    - concise_description: JSON=Spell. Deals {{ColdDamage}} cold damage to all nearby foes. Deals {{ColdDamage}} more cold damage if you are enchanted. wiki=Spell. Deals {{ColdDamage}} cold damage to all nearby foes. Deals {{AdditionalColdDamage}} more cold damage if you are enchanted.
+[dervish.json] Mystic Vigor
+  OK
+[dervish.json] Natural Healing
+  FIXED (1 issues):
+    - activation: JSON=2.0 wiki=1
+[dervish.json] Onslaught
+  OK
+[dervish.json] Onslaught (PvP)
+  OK
+[dervish.json] Pious Assault
+  OK
+[dervish.json] Pious Assault (PvP)
+  OK
+[dervish.json] Pious Concentration
+  OK
+[dervish.json] Pious Fury
+  OK
+[dervish.json] Pious Fury (PvP)
+  OK
+[dervish.json] Pious Haste
+  OK
+[dervish.json] Pious Renewal
+  OK
+[dervish.json] Pious Restoration
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[dervish.json] Radiant Scythe
+  OK
+[dervish.json] Reap Impurities
+  OK
+[dervish.json] Reaper's Sweep
+  FIXED (1 issues):
+    - costs.adrenaline: JSON=8 wiki=7
+[dervish.json] Rending Aura
+  OK
+[dervish.json] Rending Sweep
+  OK
+[dervish.json] Rending Touch
+  FIXED (1 issues):
+    - concise_description: JSON=Touch Spell. Deals {{ColdDamage}} cold damage. Lose 1 Dervish enchantment. Removal effect: target foe loses 1 enchantment and you gain 1 strike of adrenaline. wiki=Touch Spell. Deals {{ColdDamage}} cold damage. Lose 1 Dervish enchantment. Removal effect: target foe loses 1 enchantment and you gain 2 strikes of adrenaline.
+[dervish.json] Sand Shards
+  OK
+[dervish.json] Shield of Force
+  OK
+[dervish.json] Signet of Mystic Speed
+  OK
+[dervish.json] Signet of Pious Light
+  OK
+[dervish.json] Signet of Pious Restraint
+  FIXED (2 issues):
+    - recharge: JSON=20 wiki=10
+    - concise_description: JSON=Signet. Inflicts Crippled condition ({{CrippledDuration}} seconds). Remove one of your Dervish enchantments. Removal effect: also causes Cripple to foes nearby your target and recharges 75% faster. wiki=Signet. Inflicts Crippled condition ({{CrippledDuration}} seconds). Remove one of your Dervish enchantments. Removal effect: also causes Cripple to foes in the area of your target and recharges 75% faster.
+[dervish.json] Signet of Pious Restraint (PvP)
+  FIXED (1 issues):
+    - recharge: JSON=20 wiki=10
+[dervish.json] Staggering Force
+  OK
+[dervish.json] Test of Faith
+  FIXED (2 issues):
+    - costs.adrenaline: JSON=7 wiki=5
+    - attribute.progression mismatch
+[dervish.json] Twin Moon Sweep
+  OK
+[dervish.json] Twin Moon Sweep (PvP)
+  OK
+[dervish.json] Veil of Thorns
+  FIXED (1 issues):
+    - concise_description: JSON=Flash Enchantment Spell. ({{Duration}} seconds.) Spell damage is reduced by {{SpellDamageReduction}}%. Initial Effect: nearby foes are struck for {{PiercingDamage}} piercing damage. wiki=Flash Enchantment Spell. ({{Duration}} seconds.) Spell damage is reduced by {{PiercingDamage}}%. Initial Effect: nearby foes are struck for 5...41...50 piercing damage.
+[dervish.json] Victorious Sweep
+  OK
+[dervish.json] Vital Boon
+  OK
+[dervish.json] Vow of Piety
+  OK
+[dervish.json] Vow of Revolution
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[dervish.json] Vow of Silence
+  OK
+[dervish.json] Vow of Strength
+  OK
+[dervish.json] Watchful Intervention
+  OK
+[dervish.json] Wearying Strike
+  OK
+[dervish.json] Whirling Charge
+  OK
+[dervish.json] Winds of Disenchantment
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[dervish.json] Wounding Strike
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Scythe Attack. Deals +{{Damage}} damage and inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Remove 1 Dervish enchantment. Removal Effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds). wiki=Elite Scythe Attack. Deals +{{Damage}} damage and inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Remove 1 Dervish enchantment. Removal Effect: inflicts Deep Wound condition (5...17...20 seconds).
+[dervish.json] Wounding Strike (PvP)
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Scythe Attack. Inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition ({{BleedingAndDeepWoundDuration}} seconds). wiki=Elite Scythe Attack. Inflicts Bleeding condition ({{BleedingAndDeepWoundDuration}} seconds). Removes 1 Dervish enchantment. Removal effect: inflicts Deep Wound condition (5...17...20 seconds).
+[dervish.json] Zealous Renewal
+  OK
+[dervish.json] Zealous Sweep
+  OK
+[dervish.json] Zealous Vow
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Enchantment Spell. (20 seconds.) You gain {{EnergyGain}} Energy each time you hit with an attack. You have -3 Energy regeneration. wiki=Elite Enchantment Spell. (20 seconds.) You gain {{EnergyGain}} Energy each time you hit with an attack. You have -2 Energy regeneration.
+
+=== Processing elementalist.json ===
+[elementalist.json] Aftershock
+  OK
+[elementalist.json] Air Attunement
+  OK
+[elementalist.json] Arc Lightning
+  OK
+[elementalist.json] Armor of Earth
+  FIXED (1 issues):
+    - concise_description: JSON=Enchantment Spell. (30 seconds.) You have +{{PlusArmor}} armor. You move {{MovementPenalty}}% slower. wiki=Enchantment Spell. (30 seconds.) You have +{{PlusArmorRating}} armor. You move {{PercentSlower}}% slower.
+[elementalist.json] Armor of Frost
+  OK
+[elementalist.json] Armor of Mist
+  OK
+[elementalist.json] Ash Blast
+  OK
+[elementalist.json] Aura of Restoration
+  FIXED (1 issues):
+    - concise_description: JSON=Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{HealingPercent}}% of the Energy cost each time you cast a spell. wiki=Enchantment Spell. (60 seconds.) You gain {{EnergyGain}} Energy and are healed for {{PercentOfEnergyCost}}% of the Energy cost each time you cast a spell.
+[elementalist.json] Aura of Restoration (PvP)
+  OK
+[elementalist.json] Bed of Coals
+  OK
+[elementalist.json] Blinding Flash
+  OK
+[elementalist.json] Blinding Surge
+  OK
+[elementalist.json] Blurred Vision
+  OK
+[elementalist.json] Breath of Fire
+  OK
+[elementalist.json] Burning Speed
+  FIXED (1 issues):
+    - concise_description: JSON=Enchantment Spell. (7 seconds.) You move {{MovementSpeedIncrease}}% faster. You suffer from Burning (7 seconds). End effect: inflicts Burning condition ({{BurningDuration}} seconds) on adjacent foes. wiki=Enchantment Spell. (7 seconds.) You move {{SpeedBoostPercent}}% faster. You suffer from Burning (7 seconds). End effect: inflicts Burning condition ({{BurningDuration}} seconds) on adjacent foes.
+[elementalist.json] Chain Lightning
+  OK
+[elementalist.json] Chilling Winds
+  OK
+[elementalist.json] Churning Earth
+  OK
+[elementalist.json] Conjure Flame
+  OK
+[elementalist.json] Conjure Frost
+  OK
+[elementalist.json] Conjure Lightning
+  OK
+[elementalist.json] Crystal Wave
+  OK
+[elementalist.json] Deep Freeze
+  OK
+[elementalist.json] Double Dragon
+  FIXED (2 issues):
+    - recharge: JSON=20 wiki=15
+    - attribute.progression mismatch
+[elementalist.json] Dragon's Stomp
+  OK
+[elementalist.json] Earth Attunement
+  OK
+[elementalist.json] Earthen Shackles
+  OK
+[elementalist.json] Earthquake
+  OK
+[elementalist.json] Ebon Hawk
+  OK
+[elementalist.json] Elemental Attunement
+  OK
+[elementalist.json] Elemental Flame
+  OK
+[elementalist.json] Elemental Flame (PvP)
+  OK
+[elementalist.json] Elemental Lord
+  OK
+[elementalist.json] Energy Blast
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[elementalist.json] Energy Boon
+  FIXED (1 issues):
+    - recharge: JSON=20 wiki=12
+[elementalist.json] Enervating Charge
+  OK
+[elementalist.json] Eruption
+  OK
+[elementalist.json] Ether Prism
+  FIXED (1 issues):
+    - recharge: JSON=25 wiki=20
+[elementalist.json] Ether Prodigy
+  OK
+[elementalist.json] Ether Renewal
+  OK
+[elementalist.json] Ether Renewal (PvP)
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Enchantment Spell. (7 seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you. wiki=Elite Enchantment Spell. (10 seconds.) Each time you cast a spell, you gain {{EnergyGain}} Energy and {{Healing}} Health for each enchantment on you.
+[elementalist.json] Fire Attunement
+  OK
+[elementalist.json] Fire Storm
+  OK
+[elementalist.json] Fireball
+  OK
+[elementalist.json] Flame Burst
+  OK
+[elementalist.json] Flame Djinn's Haste
+  OK
+[elementalist.json] Flare
+  OK
+[elementalist.json] Freezing Gust
+  OK
+[elementalist.json] Frigid Armor
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmor}} armor against physical damage and immunity to Burning. wiki=Enchantment Spell. ({{Duration}} seconds.) You have +{{PlusArmorRating}} armor against physical damage and immunity to Burning.
+[elementalist.json] Frozen Burst
+  OK
+[elementalist.json] Gale
+  OK
+[elementalist.json] Glimmering Mark
+  OK
+[elementalist.json] Glowing Gaze
+  OK
+[elementalist.json] Glowing Ice
+  OK
+[elementalist.json] Glowstone
+  OK
+[elementalist.json] Glyph of Concentration
+  OK
+[elementalist.json] Glyph of Elemental Power
+  OK
+[elementalist.json] Glyph of Energy
+  OK
+[elementalist.json] Glyph of Essence
+  OK
+[elementalist.json] Glyph of Immolation
+  OK
+[elementalist.json] Glyph of Lesser Energy
+  OK
+[elementalist.json] Glyph of Renewal
+  OK
+[elementalist.json] Glyph of Restoration
+  OK
+[elementalist.json] Glyph of Sacrifice
+  OK
+[elementalist.json] Glyph of Swiftness
+  OK
+[elementalist.json] Grasping Earth
+  OK
+[elementalist.json] Gust
+  OK
+[elementalist.json] Ice Prison
+  OK
+[elementalist.json] Ice Spear
+  OK
+[elementalist.json] Ice Spikes
+  OK
+[elementalist.json] Icy Prism
+  OK
+[elementalist.json] Icy Shackles
+  OK
+[elementalist.json] Immolate
+  OK
+[elementalist.json] Incendiary Bonds
+  OK
+[elementalist.json] Inferno
+  OK
+[elementalist.json] Intensity
+  OK
+[elementalist.json] Invoke Lightning
+  OK
+[elementalist.json] Iron Mist
+  FIXED (1 issues):
+    - concise_description: JSON=Enchantment Spell. ({{Duration}} seconds.) Gain +15 armor. Air Magic spells that target a foe activate and recharge 25% faster, but you are Overcast by 3 points. wiki=Enchantment Spell. ({{Duration}} seconds.) Gain +15 armor. Air Magic spells that target a foe activate and recharge 33% faster, but you are Overcast by 2 points.
+[elementalist.json] Kinetic Armor
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[elementalist.json] Lava Arrows
+  OK
+[elementalist.json] Lava Font
+  OK
+[elementalist.json] Lightning Bolt
+  OK
+[elementalist.json] Lightning Hammer
+  OK
+[elementalist.json] Lightning Hammer (PvP)
+  OK
+[elementalist.json] Lightning Javelin
+  OK
+[elementalist.json] Lightning Orb
+  OK
+[elementalist.json] Lightning Strike
+  FIXED (1 issues):
+    - concise_description: JSON=Hex Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals {{LightningDamage}} lightning damage. wiki=Hex Spell. Deals {{LightningDamage}} lightning damage. 25% armor penetration. Hex for 3 seconds if Overcast. End effect: deals 5...41...50 lightning damage.
+[elementalist.json] Lightning Surge
+  OK
+[elementalist.json] Lightning Touch
+  OK
+[elementalist.json] Liquid Flame
+  FIXED (1 issues):
+    - concise_description: JSON=Spell. Deals {{FireDamage}} fire damage. Deals {{FireDamage}} fire damage to nearby foes if target was attacking or casting. wiki=Spell. Deals {{FireDamage}} fire damage. Deals 7...91...112 fire damage to nearby foes if target was attacking or casting.
+[elementalist.json] Maelstrom
+  OK
+[elementalist.json] Magnetic Aura
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[elementalist.json] Magnetic Surge
+  FIXED (1 issues):
+    - activation: JSON=1.5 wiki=1
+[elementalist.json] Mark of Rodgort
+  OK
+[elementalist.json] Master of Magic
+  OK
+[elementalist.json] Meteor
+  OK
+[elementalist.json] Meteor Shower
+  OK
+[elementalist.json] Mind Blast
+  OK
+[elementalist.json] Mind Burn
+  OK
+[elementalist.json] Mind Freeze
+  OK
+[elementalist.json] Mind Freeze (PvP)
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[elementalist.json] Mind Shock
+  OK
+[elementalist.json] Mind Shock (PvP)
+  OK
+[elementalist.json] Mirror of Ice
+  OK
+[elementalist.json] Mist Form
+  OK
+[elementalist.json] Mist Form (PvP)
+  OK
+[elementalist.json] Obsidian Flame
+  OK
+[elementalist.json] Obsidian Flame (PvP)
+  OK
+[elementalist.json] Obsidian Flesh
+  OK
+[elementalist.json] Over the Limit
+  OK
+[elementalist.json] Phoenix
+  OK
+[elementalist.json] Ride the Lightning
+  OK
+[elementalist.json] Ride the Lightning (PvP)
+  OK
+[elementalist.json] Rodgort's Invocation
+  OK
+[elementalist.json] Rust
+  OK
+[elementalist.json] Sandstorm
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Spell. Deals {{EarthDamage}} earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for {{EarthDamage}} more earth damage each second. wiki=Elite Spell. Deals {{EarthDamage}} earth damage each second (10 seconds). Hits foes near target foe's initial location. Hits attacking foes for {{PlusEarthDamage}} more earth damage each second.
+[elementalist.json] Savannah Heat
+  OK
+[elementalist.json] Savannah Heat (PvP)
+  OK
+[elementalist.json] Searing Flames
+  OK
+[elementalist.json] Searing Heat
+  OK
+[elementalist.json] Second Wind
+  OK
+[elementalist.json] Shard Storm
+  OK
+[elementalist.json] Shatterstone
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Hex Spell. (3 seconds.) Initial effect: deals {{ColdDamage}} cold damage. End effect: deals {{ColdDamage}} cold damage to target and all nearby foes. wiki=Elite Hex Spell. (3 seconds.) Initial effect: deals {{ColdDamage}} cold damage. End effect: deals 25...85...100 cold damage to target and all nearby foes.
+[elementalist.json] Shell Shock
+  OK
+[elementalist.json] Shock
+  OK
+[elementalist.json] Shock Arrow
+  OK
+[elementalist.json] Shockwave
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Spell. Foes in the area take {{EachEarthDamagePacket}} earth damage and are Weakened ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Nearby foes also take +{{EachEarthDamagePacket}} earth damage and have Cracked Armor ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Adjacent foes also take +{{EachEarthDamagePacket}} earth damage and are Blinded ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). wiki=Elite Spell. Foes in the area take {{EachEarthDamagePacket}} earth damage and are Weakened ({{WeaknessCrackedArmorAndBlindDuration}} second[s]). Nearby foes also take +15...51...60 earth damage and have Cracked Armor (1...8...10 second[s]). Adjacent foes also take +15...51...60 earth damage and are Blinded (1...8...10 second[s]).
+[elementalist.json] Slippery Ground
+  OK
+[elementalist.json] Slippery Ground (PvP)
+  FIXED (1 issues):
+    - recharge: JSON=20 wiki=15
+[elementalist.json] Sliver Armor
+  OK
+[elementalist.json] Smoldering Embers
+  OK
+[elementalist.json] Star Burst
+  OK
+[elementalist.json] Steam
+  OK
+[elementalist.json] Stone Daggers
+  OK
+[elementalist.json] Stone Sheath
+  OK
+[elementalist.json] Stone Striker
+  OK
+[elementalist.json] Stoneflesh Aura
+  OK
+[elementalist.json] Stoning
+  OK
+[elementalist.json] Storm Djinn's Haste
+  OK
+[elementalist.json] Swirling Aura
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Enchantment Spell. (5 seconds.) Gives {{HealthRegeneration}} Health regeneration and a 50% chance to block projectiles. If Overcast, also enchants party members in earshot. wiki=Enchantment Spell. ({{Duration}} second[s].) Gives {{HealthRegeneration}} Health regeneration and a 50% chance to block projectiles. If Overcast, also enchants party members in earshot.
+[elementalist.json] Teinai's Crystals
+  OK
+[elementalist.json] Teinai's Heat
+  OK
+[elementalist.json] Teinai's Prison
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[elementalist.json] Teinai's Wind
+  FIXED (1 issues):
+    - costs.energy: JSON=5 wiki=10
+[elementalist.json] Thunderclap
+  OK
+[elementalist.json] Unsteady Ground
+  OK
+[elementalist.json] Vapor Blade
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[elementalist.json] Ward Against Elements
+  FIXED (1 issues):
+    - costs.energy: JSON=15 wiki=10
+[elementalist.json] Ward Against Foes
+  OK
+[elementalist.json] Ward Against Harm
+  OK
+[elementalist.json] Ward Against Harm (PvP)
+  OK
+[elementalist.json] Ward Against Melee
+  OK
+[elementalist.json] Ward of Stability
+  OK
+[elementalist.json] Ward of Weakness
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[elementalist.json] Water Attunement
+  OK
+[elementalist.json] Water Trident
+  OK
+[elementalist.json] Whirlwind
+  OK
+[elementalist.json] Windborne Speed
+  OK
+[elementalist.json] Winter's Embrace
+  OK
+
+=== Processing mesmer.json ===
+[mesmer.json] Accumulated Pain
+  OK
+[mesmer.json] Accumulated Pain (PvP)
+  OK
+[mesmer.json] Air of Disenchantment
+  OK
+[mesmer.json] Ancestor's Visage
+  OK
+[mesmer.json] Aneurysm
+  OK
+[mesmer.json] Arcane Conundrum
+  OK
+[mesmer.json] Arcane Echo
+  OK
+[mesmer.json] Arcane Languor
+  OK
+[mesmer.json] Arcane Larceny
+  OK
+[mesmer.json] Arcane Mimicry
+  OK
+[mesmer.json] Arcane Thievery
+  OK
+[mesmer.json] Auspicious Incantation
+  OK
+[mesmer.json] Backfire
+  OK
+[mesmer.json] Blackout
+  OK
+[mesmer.json] Calculated Risk
+  OK
+[mesmer.json] Calculated Risk (PvP)
+  OK
+[mesmer.json] Channeling
+  OK
+[mesmer.json] Chaos Storm
+  OK
+[mesmer.json] Clumsiness
+  OK
+[mesmer.json] Complicate
+  OK
+[mesmer.json] Confusing Images
+  FIXED (1 issues):
+    - activation: JSON=2 wiki=1
+[mesmer.json] Conjure Nightmare
+  OK
+[mesmer.json] Conjure Phantasm
+  OK
+[mesmer.json] Crippling Anguish
+  OK
+[mesmer.json] Crippling Anguish (PvP)
+  OK
+[mesmer.json] Cry of Frustration
+  OK
+[mesmer.json] Cry of Pain
+  OK
+[mesmer.json] Discharge Enchantment
+  OK
+[mesmer.json] Distortion
+  OK
+[mesmer.json] Diversion
+  OK
+[mesmer.json] Drain Delusions
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[mesmer.json] Drain Enchantment
+  OK
+[mesmer.json] Echo
+  OK
+[mesmer.json] Elemental Resistance
+  OK
+[mesmer.json] Empathy
+  OK
+[mesmer.json] Empathy (PvP)
+  OK
+[mesmer.json] Enchanter's Conundrum
+  OK
+[mesmer.json] Enchanter's Conundrum (PvP)
+  OK
+[mesmer.json] Energy Burn
+  OK
+[mesmer.json] Energy Drain
+  OK
+[mesmer.json] Energy Surge
+  OK
+[mesmer.json] Energy Tap
+  OK
+[mesmer.json] Epidemic
+  OK
+[mesmer.json] Ether Feast
+  OK
+[mesmer.json] Ether Lord
+  OK
+[mesmer.json] Ether Nightmare
+  OK
+[mesmer.json] Ether Phantom
+  OK
+[mesmer.json] Ether Signet
+  OK
+[mesmer.json] Ethereal Burden
+  OK
+[mesmer.json] Expel Hexes
+  OK
+[mesmer.json] Extend Conditions
+  OK
+[mesmer.json] Feedback
+  FIXED (1 issues):
+    - activation: JSON=2 wiki=1
+[mesmer.json] Fevered Dreams
+  FIXED (2 issues):
+    - activation: JSON=2 wiki=1
+    - costs.energy: JSON=10 wiki=5
+[mesmer.json] Fevered Dreams (PvP)
+  FIXED (2 issues):
+    - activation: JSON=2 wiki=1
+    - costs.energy: JSON=10 wiki=5
+[mesmer.json] Fragility
+  OK
+[mesmer.json] Fragility (PvP)
+  OK
+[mesmer.json] Frustration
+  OK
+[mesmer.json] Frustration (PvP)
+  OK
+[mesmer.json] Guilt
+  OK
+[mesmer.json] Hex Breaker
+  OK
+[mesmer.json] Hex Eater Signet
+  FIXED (1 issues):
+    - recharge: JSON=25 wiki=15
+[mesmer.json] Hex Eater Vortex
+  FIXED (3 issues):
+    - activation: JSON=1 wiki=0.25
+    - costs.energy: JSON=10 wiki=5
+    - concise_description: JSON=Elite Spell. Removes one hex from target ally. Removal effect: deals {{Damage}} damage and removes one enchantment from foes near this ally. wiki=Elite Spell. Removes one hex from target ally. Removal effect: deals {{Damage}} damage and removes one enchantment from foes in the area of this ally.
+[mesmer.json] Hypochondria
+  FIXED (1 issues):
+    - activation: JSON=1 wiki=0.25
+[mesmer.json] Ignorance
+  FIXED (1 issues):
+    - costs.energy: JSON=15 wiki=10
+[mesmer.json] Illusion of Haste
+  OK
+[mesmer.json] Illusion of Haste (PvP)
+  OK
+[mesmer.json] Illusion of Pain
+  OK
+[mesmer.json] Illusion of Pain (PvP)
+  OK
+[mesmer.json] Illusion of Weakness
+  OK
+[mesmer.json] Illusionary Weaponry
+  OK
+[mesmer.json] Illusionary Weaponry (PvP)
+  OK
+[mesmer.json] Images of Remorse
+  OK
+[mesmer.json] Imagined Burden
+  OK
+[mesmer.json] Ineptitude
+  OK
+[mesmer.json] Inspired Enchantment
+  OK
+[mesmer.json] Inspired Hex
+  OK
+[mesmer.json] Keystone Signet
+  OK
+[mesmer.json] Kitah's Burden
+  OK
+[mesmer.json] Leech Signet
+  OK
+[mesmer.json] Lyssa's Aura
+  OK
+[mesmer.json] Lyssa's Balance
+  OK
+[mesmer.json] Mantra of Concentration
+  OK
+[mesmer.json] Mantra of Earth
+  OK
+[mesmer.json] Mantra of Flame
+  OK
+[mesmer.json] Mantra of Frost
+  OK
+[mesmer.json] Mantra of Inscriptions
+  OK
+[mesmer.json] Mantra of Lightning
+  OK
+[mesmer.json] Mantra of Persistence
+  OK
+[mesmer.json] Mantra of Recall
+  OK
+[mesmer.json] Mantra of Recovery
+  OK
+[mesmer.json] Mantra of Resolve
+  OK
+[mesmer.json] Mantra of Resolve (PvP)
+  OK
+[mesmer.json] Mantra of Signets
+  OK
+[mesmer.json] Mantra of Signets (PvP)
+  FIXED (1 issues):
+    - concise_description: JSON=Stance. ({{Duration}} seconds.) You gain {{Healing}} Health each time you use a signet. wiki=Stance. ({{Duration}} seconds.) You have +3 armor for each signet you have equipped. You gain {{Healing}} Health each time you use a signet.
+[mesmer.json] Migraine
+  OK
+[mesmer.json] Migraine (PvP)
+  OK
+[mesmer.json] Mind Wrack
+  OK
+[mesmer.json] Mind Wrack (PvP)
+  OK
+[mesmer.json] Mirror of Disenchantment
+  OK
+[mesmer.json] Mirror of Disenchantment (PvP)
+  OK
+[mesmer.json] Mistrust
+  OK
+[mesmer.json] Mistrust (PvP)
+  OK
+[mesmer.json] Overload
+  OK
+[mesmer.json] Panic
+  OK
+[mesmer.json] Persistence of Memory
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[mesmer.json] Phantom Pain
+  OK
+[mesmer.json] Physical Resistance
+  OK
+[mesmer.json] Power Block
+  OK
+[mesmer.json] Power Drain
+  OK
+[mesmer.json] Power Flux
+  OK
+[mesmer.json] Power Leak
+  OK
+[mesmer.json] Power Leech
+  OK
+[mesmer.json] Power Lock
+  OK
+[mesmer.json] Power Return
+  OK
+[mesmer.json] Power Spike
+  OK
+[mesmer.json] Price of Pride
+  FIXED (3 issues):
+    - activation: JSON=2 wiki=1
+    - attribute.progression mismatch
+    - concise_description: JSON=Hex Spell. ({{Duration}} seconds.) Causes {{EnergyLoss}} Energy loss the next time target foe uses an elite skill. wiki=Hex Spell. (5 seconds.) Causes {{EnergyLoss}} Energy loss the next time target foe uses an elite skill.
+[mesmer.json] Psychic Distraction
+  OK
+[mesmer.json] Psychic Instability
+  OK
+[mesmer.json] Psychic Instability (PvP)
+  OK
+[mesmer.json] Recurring Insecurity
+  FIXED (3 issues):
+    - recharge: JSON=10 wiki=3
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Hex Spell. (10 seconds.) Causes -{{HealthDegeneration}} Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end. wiki=Elite Hex Spell. (5 seconds.) Causes -{{HealthDegeneration}} Health degeneration. Renewal: if target foe has another hex when Recurring Insecurity would end.
+[mesmer.json] Revealed Enchantment
+  OK
+[mesmer.json] Revealed Hex
+  OK
+[mesmer.json] Shame
+  OK
+[mesmer.json] Shared Burden
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 50% slower. wiki=Elite Hex Spell. Also hexes foes in the area of your target ({{Duration}} seconds). These foes attack, cast spells, and move 50% slower.
+[mesmer.json] Shared Burden (PvP)
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Hex Spell. Also hexes foes near your target ({{Duration}} seconds). These foes attack, cast spells, and move 33% slower. wiki=Elite Hex Spell. Also hexes foes in the area of your target ({{Duration}} seconds). These foes attack, cast spells, and move 33% slower.
+[mesmer.json] Shatter Delusions
+  OK
+[mesmer.json] Shatter Delusions (PvP)
+  OK
+[mesmer.json] Shatter Enchantment
+  OK
+[mesmer.json] Shatter Hex
+  OK
+[mesmer.json] Shatter Storm
+  OK
+[mesmer.json] Shrinking Armor
+  OK
+[mesmer.json] Signet of Clumsiness
+  OK
+[mesmer.json] Signet of Clumsiness (PvP)
+  OK
+[mesmer.json] Signet of Disenchantment
+  OK
+[mesmer.json] Signet of Disruption
+  OK
+[mesmer.json] Signet of Distraction
+  OK
+[mesmer.json] Signet of Humility
+  OK
+[mesmer.json] Signet of Illusions
+  OK
+[mesmer.json] Signet of Midnight
+  OK
+[mesmer.json] Signet of Recall
+  FIXED (2 issues):
+    - activation: JSON=1 wiki=0.25
+    - concise_description: JSON=Signet. (10 seconds.) You have -4 Energy regeneration. End effect: you gain {{EnergyGain}} Energy. wiki=Signet. (6 seconds.) You have -4 Energy regeneration. End effect: you gain {{EnergyGain}} Energy.
+[mesmer.json] Signet of Weariness
+  OK
+[mesmer.json] Simple Thievery
+  OK
+[mesmer.json] Soothing Images
+  OK
+[mesmer.json] Spirit Shackles
+  OK
+[mesmer.json] Spirit of Failure
+  OK
+[mesmer.json] Spiritual Pain
+  OK
+[mesmer.json] Spiritual Pain (PvP)
+  OK
+[mesmer.json] Stolen Speed
+  OK
+[mesmer.json] Stolen Speed (PvP)
+  OK
+[mesmer.json] Sum of All Fears
+  FIXED (1 issues):
+    - activation: JSON=2 wiki=1.5
+[mesmer.json] Symbolic Celerity
+  OK
+[mesmer.json] Symbolic Posture
+  OK
+[mesmer.json] Symbols of Inspiration
+  OK
+[mesmer.json] Sympathetic Visage
+  OK
+[mesmer.json] Tease
+  OK
+[mesmer.json] Time Ward
+  OK
+[mesmer.json] Unnatural Signet
+  OK
+[mesmer.json] Unnatural Signet (PvP)
+  OK
+[mesmer.json] Visions of Regret
+  OK
+[mesmer.json] Visions of Regret (PvP)
+  OK
+[mesmer.json] Wandering Eye
+  OK
+[mesmer.json] Wandering Eye (PvP)
+  OK
+[mesmer.json] Waste Not, Want Not
+  OK
+[mesmer.json] Wastrel's Demise
+  OK
+[mesmer.json] Wastrel's Worry
+  OK
+[mesmer.json] Web of Disruption
+  OK
+[mesmer.json] Web of Disruption (PvP)
+  OK
+
+=== Processing monk.json ===
+[monk.json] Aegis
+  OK
+[monk.json] Aegis (PvP)
+  OK
+[monk.json] Air of Enchantment
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Enchantment Spell. ({{Duration}} seconds.) Enchantments cast on target ally cost 5 less Energy (minimum 1 Energy). Cannot self-target. wiki=Elite Enchantment Spell. ({{Duration}} seconds.) Enchantments cast on target ally cost 10 less Energy (minimum 1 Energy). Cannot self-target.
+[monk.json] Amity
+  FIXED (2 issues):
+    - recharge: JSON=45 wiki=20
+    - attribute.progression mismatch
+[monk.json] Aura of Faith
+  OK
+[monk.json] Aura of Stability
+  OK
+[monk.json] Balthazar's Aura
+  OK
+[monk.json] Balthazar's Pendulum
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Enchantment Spell. ({{Duration}} seconds.) Causes knock-down to the next foe attempting to knock-down target ally. wiki=Elite Enchantment Spell. (5...21...25 seconds.) Causes knock-down to the next foe attempting to knock-down target ally.
+[monk.json] Balthazar's Spirit
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[monk.json] Bane Signet
+  OK
+[monk.json] Banish
+  OK
+[monk.json] Blessed Aura
+  OK
+[monk.json] Blessed Light
+  OK
+[monk.json] Blessed Signet
+  OK
+[monk.json] Boon Signet
+  FIXED (2 issues):
+    - recharge: JSON=8 wiki=6
+    - attribute.progression mismatch
+[monk.json] Castigation Signet
+  OK
+[monk.json] Contemplation of Purity
+  OK
+[monk.json] Convert Hexes
+  OK
+[monk.json] Cure Hex
+  OK
+[monk.json] Defender's Zeal
+  OK
+[monk.json] Deny Hexes
+  OK
+[monk.json] Dismiss Condition
+  OK
+[monk.json] Divert Hexes
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[monk.json] Divine Boon
+  OK
+[monk.json] Divine Healing
+  OK
+[monk.json] Divine Intervention
+  OK
+[monk.json] Divine Spirit
+  OK
+[monk.json] Draw Conditions
+  OK
+[monk.json] Dwayna's Kiss
+  OK
+[monk.json] Dwayna's Sorrow
+  OK
+[monk.json] Empathic Removal
+  OK
+[monk.json] Essence Bond
+  OK
+[monk.json] Ethereal Light
+  OK
+[monk.json] Extinguish
+  OK
+[monk.json] Gift of Health
+  OK
+[monk.json] Glimmer of Light
+  OK
+[monk.json] Guardian
+  OK
+[monk.json] Heal Area
+  OK
+[monk.json] Heal Other
+  OK
+[monk.json] Heal Party
+  OK
+[monk.json] Heal Party (PvP)
+  OK
+[monk.json] Healer's Boon
+  OK
+[monk.json] Healer's Covenant
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Enchantment Spell. Your Healing Prayers spells cost {{EnergyReduction}} less Energy. These spells heal for 25% less. wiki=Elite Enchantment Spell. Your Healing Prayers spells cost {{EnergyReduction}} less Energy. These spells heal for 20% less.
+[monk.json] Healing Breeze
+  OK
+[monk.json] Healing Burst
+  OK
+[monk.json] Healing Hands
+  OK
+[monk.json] Healing Light
+  OK
+[monk.json] Healing Ribbon
+  OK
+[monk.json] Healing Ring
+  OK
+[monk.json] Healing Seed
+  OK
+[monk.json] Healing Touch
+  OK
+[monk.json] Healing Whisper
+  OK
+[monk.json] Heaven's Delight
+  OK
+[monk.json] Holy Haste
+  OK
+[monk.json] Holy Strike
+  OK
+[monk.json] Holy Veil
+  OK
+[monk.json] Holy Wrath
+  OK
+[monk.json] Infuse Health
+  OK
+[monk.json] Jamei's Gaze
+  OK
+[monk.json] Judge's Insight
+  OK
+[monk.json] Judge's Intervention
+  OK
+[monk.json] Judgment Strike
+  OK
+[monk.json] Karei's Healing Circle
+  OK
+[monk.json] Kirin's Wrath
+  OK
+[monk.json] Life Attunement
+  OK
+[monk.json] Life Barrier
+  OK
+[monk.json] Life Bond
+  OK
+[monk.json] Life Sheath
+  OK
+[monk.json] Light of Deliverance
+  OK
+[monk.json] Light of Deliverance (PvP)
+  OK
+[monk.json] Light of Dwayna
+  OK
+[monk.json] Live Vicariously
+  OK
+[monk.json] Mark of Protection
+  FIXED (2 issues):
+    - activation: JSON=1 wiki=0.25
+    - recharge: JSON=45 wiki=15
+[monk.json] Martyr
+  FIXED (1 issues):
+    - activation: JSON=1 wiki=0.25
+[monk.json] Mend Ailment
+  OK
+[monk.json] Mend Condition
+  OK
+[monk.json] Mending
+  OK
+[monk.json] Mending Touch
+  OK
+[monk.json] Orison of Healing
+  OK
+[monk.json] Pacifism
+  FIXED (3 issues):
+    - recharge: JSON=30 wiki=15
+    - attribute.progression mismatch
+    - concise_description: JSON=Hex Spell. ({{Duration}} seconds.) Target foe cannot attack. Ends if this foe takes damage. wiki=Hex Spell. (4...7...8 seconds.) Target foe cannot attack. Ends if this foe takes damage.
+[monk.json] Patient Spirit
+  OK
+[monk.json] Peace and Harmony
+  OK
+[monk.json] Pensive Guardian
+  OK
+[monk.json] Protective Bond
+  OK
+[monk.json] Protective Spirit
+  OK
+[monk.json] Purge Conditions
+  OK
+[monk.json] Purge Signet
+  OK
+[monk.json] Purifying Veil
+  OK
+[monk.json] Ray of Judgment
+  OK
+[monk.json] Rebirth
+  OK
+[monk.json] Release Enchantments
+  FIXED (1 issues):
+    - activation: JSON=1 wiki=0.25
+[monk.json] Remove Hex
+  OK
+[monk.json] Renew Life
+  OK
+[monk.json] Restful Breeze
+  OK
+[monk.json] Restore Condition
+  OK
+[monk.json] Restore Life
+  OK
+[monk.json] Resurrect
+  OK
+[monk.json] Resurrection Chant
+  OK
+[monk.json] Retribution
+  OK
+[monk.json] Reversal of Damage
+  OK
+[monk.json] Reversal of Fortune
+  OK
+[monk.json] Reverse Hex
+  OK
+[monk.json] Scourge Enchantment
+  FIXED (1 issues):
+    - activation: JSON=2 wiki=0.5
+[monk.json] Scourge Healing
+  OK
+[monk.json] Scourge Sacrifice
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[monk.json] Scribe's Insight
+  OK
+[monk.json] Seed of Life
+  OK
+[monk.json] Selfless Spirit
+  OK
+[monk.json] Shield Guardian
+  FIXED (1 issues):
+    - activation: JSON=0.5 wiki=1.5
+[monk.json] Shield of Absorption
+  OK
+[monk.json] Shield of Deflection
+  OK
+[monk.json] Shield of Judgment
+  OK
+[monk.json] Shield of Regeneration
+  OK
+[monk.json] Shielding Hands
+  OK
+[monk.json] Signet of Devotion
+  OK
+[monk.json] Signet of Judgment
+  OK
+[monk.json] Signet of Judgment (PvP)
+  OK
+[monk.json] Signet of Mystic Wrath
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Signet. Deals {{HolyDamagePerEnchantment}} holy damage for each enchantment on you (maximum 100 holy damage). wiki=Signet. Deals 25 holy damage for each enchantment on you (maximum {{MaximumHolyDamage}} holy damage).
+[monk.json] Signet of Rage
+  OK
+[monk.json] Signet of Rejuvenation
+  OK
+[monk.json] Signet of Removal
+  FIXED (1 issues):
+    - activation: JSON=1 wiki=0.25
+[monk.json] Smite
+  OK
+[monk.json] Smite Condition
+  OK
+[monk.json] Smite Hex
+  OK
+[monk.json] Smiter's Boon
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[monk.json] Smiter's Boon (PvP)
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Enchantment Spell. (5 seconds.) Your Smiting Prayers have double Divine Favor healing bonus. wiki=Enchantment Spell. (4 seconds.) Your Smiting Prayers have double Divine Favor healing bonus.
+[monk.json] Spear of Light
+  OK
+[monk.json] Spell Breaker
+  OK
+[monk.json] Spell Shield
+  FIXED (2 issues):
+    - activation: JSON=2 wiki=1
+    - attribute.progression mismatch
+[monk.json] Spirit Bond
+  OK
+[monk.json] Spirit Bond (PvP)
+  OK
+[monk.json] Spotless Mind
+  OK
+[monk.json] Spotless Soul
+  OK
+[monk.json] Stonesoul Strike
+  OK
+[monk.json] Strength of Honor
+  OK
+[monk.json] Strength of Honor (PvP)
+  OK
+[monk.json] Succor
+  OK
+[monk.json] Supportive Spirit
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[monk.json] Symbol of Wrath
+  FIXED (4 issues):
+    - activation: JSON=2 wiki=1
+    - recharge: JSON=30 wiki=20
+    - attribute.progression mismatch
+    - concise_description: JSON=Spell. Deals {{HolyDamage}} holy damage each second (5 seconds). Hits foes adjacent to your initial location. wiki=Spell. Deals {{HolyDamage}} holy damage each second (5 seconds). Hits foes adjacent to your target location.
+[monk.json] Unyielding Aura
+  OK
+[monk.json] Unyielding Aura (PvP)
+  OK
+[monk.json] Vengeance
+  OK
+[monk.json] Vigorous Spirit
+  OK
+[monk.json] Vital Blessing
+  OK
+[monk.json] Watchful Healing
+  OK
+[monk.json] Watchful Spirit
+  OK
+[monk.json] Withdraw Hexes
+  FIXED (3 issues):
+    - costs.energy: JSON=15 wiki=5
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Spell. Removes all hexes. Also affects adjacent allies. Removal cost: +{{AdditionalRechargeDuration}} seconds recharge for each hex removed. wiki=Elite Spell. Removes all hexes. Also affects adjacent allies. Removal cost: +2 seconds recharge for each hex removed. 50% failure chance unless Divine Favor 5 or more.
+[monk.json] Word of Censure
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Spell. Deals {{HolyDamage}} holy damage. +20 recharge time if target foe is below 33% Health. wiki=Elite Spell. Deals {{HolyDamage}} holy damage. +20 recharge time if target foe is below 50% Health.
+[monk.json] Word of Healing
+  OK
+[monk.json] Words of Comfort
+  OK
+[monk.json] Zealot's Fire
+  OK
+[monk.json] Zealous Benediction
+  OK
+
+=== Processing monster.json ===
+[monster.json] "It's Good to Be King!"
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/8/82/%22It%27s_Good_to_Be_King%21%22.jpg
+[monster.json] Mad King Pony Support
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/1/1d/Mad_King_Pony_Support.jpg
+[monster.json] Maddening Laughter
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/1/18/Maddening_Laughter.jpg
+[monster.json] Motivating Insults
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/2/22/Motivating_Insults.jpg
+[monster.json] Scourge of Candy
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/9/90/Scourge_of_Candy.jpg
+[monster.json] Taste of Undeath
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/3/3e/Taste_of_Undeath.jpg
+[monster.json] A pool of water.
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/8/8d/A_pool_of_water..jpg
+[monster.json] Afflicted Soul Explosion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/c/c9/Afflicted_Soul_Explosion.jpg
+[monster.json] Amulet of Protection
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/7/7d/Amulet_of_Protection.jpg
+[monster.json] Blood Splattering
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/4/4b/Blood_Splattering.jpg
+[monster.json] Burning Immunity
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/4/42/Burning_Immunity.jpg
+[monster.json] Chains of Enslavement
+  FIXED (2 issues):
+    - type: JSON=Skill wiki=Spell
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/0/09/Chains_of_Enslavement.jpg
+[monster.json] Chaotic Soul Explosion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/9/93/Chaotic_Soul_Explosion.jpg
+[monster.json] Create Spore
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/f/f5/Create_Spore.jpg
+[monster.json] Critical Hit Probability
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/1/1e/Critical_Hit_Probability.jpg
+[monster.json] Dark Soul Explosion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/d/de/Dark_Soul_Explosion.jpg
+[monster.json] Dhuum
+  FAILED: could not find wiki page
+[monster.json] Duncan's Defense
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/3/3a/Duncan%27s_Defense.jpg
+[monster.json] Elite Regeneration
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/7/7a/Elite_Regeneration.jpg
+[monster.json] Emperor Degen
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/e/e5/Emperor_Degen.jpg
+[monster.json] Energy Boost
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/a/aa/Energy_Boost.jpg
+[monster.json] Ethereal Soul Explosion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/d/d1/Ethereal_Soul_Explosion.jpg
+[monster.json] Exploding Spores
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/5/5d/Exploding_Spores.jpg
+[monster.json] Exposed Underbelly
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/0/0c/Exposed_Underbelly.jpg
+[monster.json] False Death
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/8/8a/False_Death.jpg
+[monster.json] Fiery Soul Explosion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/7/74/Fiery_Soul_Explosion.jpg
+[monster.json] Fire Flower
+  FAILED: could not find wiki page
+[monster.json] Fix Monster Attributes
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/5/5e/Fix_Monster_Attributes.jpg
+[monster.json] Forgewight's Blessing
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/b/b6/Forgewight%27s_Blessing.jpg
+[monster.json] Golem Fire Shield
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/f/f5/Golem_Fire_Shield.jpg
+[monster.json] Greater Hard Mode NPC Buff
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/d/d5/Greater_Hard_Mode_NPC_Buff.jpg
+[monster.json] Ground Cover
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/5/56/Ground_Cover.jpg
+[monster.json] Guild Lord Aura
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/8/81/Guild_Lord_Aura.jpg
+[monster.json] Hard Mode Dungeon Boss
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/c/c0/Hard_Mode_Dungeon_Boss.jpg
+[monster.json] Hard Mode NPC Buff
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/d/db/Hard_Mode_NPC_Buff.jpg
+[monster.json] Health Drain
+  OK
+[monster.json] Immunity to Critical Hits
+  OK
+[monster.json] Impending Dhuum
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/b/b7/Impending_Dhuum.jpg
+[monster.json] Inanimate Object
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/2/25/Inanimate_Object.jpg
+[monster.json] Inscribed Ettin Aura
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/f/f4/Inscribed_Ettin_Aura.jpg
+[monster.json] Internal Power Engaged
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/e/e6/Internal_Power_Engaged.jpg
+[monster.json] Invulnerability
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/c/c1/Invulnerability.jpg
+[monster.json] Last Rites of Torment
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/d/d5/Last_Rites_of_Torment.jpg
+[monster.json] Lesser Flame Sentinel Resistance
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/1/19/Lesser_Flame_Sentinel_Resistance.jpg
+[monster.json] Lesser Hard Mode NPC Buff
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/1/17/Lesser_Hard_Mode_NPC_Buff.jpg
+[monster.json] Long Claws
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/d/d3/Long_Claws.jpg
+[monster.json] Mad King's Fan
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/6/68/Mad_King%27s_Fan.jpg
+[monster.json] Marked For Death
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/b/bd/Marked_For_Death.jpg
+[monster.json] Monster doesn't get death penalty
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/3/3d/Monster_doesn%27t_get_death_penalty.jpg
+[monster.json] N.O.X. Driver
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/5/58/N.O.X._Driver.jpg
+[monster.json] Natural Resistance
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/0/02/Natural_Resistance.jpg
+[monster.json] Nightmarish Aura
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/1/1a/Nightmarish_Aura.jpg
+[monster.json] Plague Spring
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/c/c0/Plague_Spring.jpg
+[monster.json] Rejuvenating Soul Explosion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/b/bd/Rejuvenating_Soul_Explosion.jpg
+[monster.json] Respawn
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/0/07/Respawn.jpg
+[monster.json] Seal Regen
+  OK
+[monster.json] Selvetarm's Attack
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/2/21/Selvetarm%27s_Attack.jpg
+[monster.json] Selvetarm's Blessing
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/c/c0/Selvetarm%27s_Blessing.jpg
+[monster.json] Shadow Smash
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/a/a7/Shadow_Smash.jpg
+[monster.json] Shadowy Soul Explosion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/6/64/Shadowy_Soul_Explosion.jpg
+[monster.json] Skin of Stone
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/a/ab/Skin_of_Stone.jpg
+[monster.json] Spectral Infusion
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/3/3c/Spectral_Infusion.jpg
+[monster.json] Strong Natural Resistance
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/b/b9/Strong_Natural_Resistance.jpg
+[monster.json] Stun Immunity
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/4/4b/Stun_Immunity.jpg
+[monster.json] Stun on Critical Hit
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/3/3f/Stun_on_Critical_Hit.jpg
+[monster.json] Sweeping Strikes
+  FIXED (2 issues):
+    - type: JSON=Attack wiki=Skill (skill type)
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/9/90/Sweeping_Strikes.jpg
+[monster.json] Temporal Sheen
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/d/d1/Temporal_Sheen.jpg
+[monster.json] Tengu's Gaze
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/c/ce/Tengu%27s_Gaze.jpg
+[monster.json] The Chalice of Corruption
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/e/ed/The_Chalice_of_Corruption.jpg
+[monster.json] Thommis's Attack
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/9/98/Thommis%27s_Attack.jpg
+[monster.json] Thommis's Blessing
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/e/e8/Thommis%27s_Blessing.jpg
+[monster.json] Titans get plus Health regen and set enemies on fire each time he is hit.
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/c/c3/Titans_get_plus_Health_regen_and_set_enemies_on_fire_each_time_he_is_hit..jpg
+[monster.json] Turtle Shell
+  FIXED (1 issues):
+    - icon: JSON=https://wiki.guildwars.com/images/9/92/Monster_skill.jpg wiki=https://wiki.guildwars.com/images/6/60/Turtle_Shell.jpg
+
+=== Processing necromancer.json ===
+[necromancer.json] Angorodon's Gaze
+  OK
+[necromancer.json] Animate Bone Fiend
+  FIXED (2 issues):
+    - activation: JSON=3 wiki=1
+    - costs.energy: JSON=25 wiki=15
+[necromancer.json] Animate Bone Horror
+  FIXED (2 issues):
+    - activation: JSON=3 wiki=1
+    - costs.energy: JSON=10 wiki=5
+[necromancer.json] Animate Bone Minions
+  FIXED (2 issues):
+    - activation: JSON=3 wiki=1
+    - costs.energy: JSON=15 wiki=10
+[necromancer.json] Animate Flesh Golem
+  FIXED (1 issues):
+    - activation: JSON=3 wiki=1
+[necromancer.json] Animate Shambling Horror
+  FIXED (2 issues):
+    - activation: JSON=3 wiki=1
+    - costs.energy: JSON=15 wiki=10
+[necromancer.json] Animate Vampiric Horror
+  FIXED (2 issues):
+    - activation: JSON=3 wiki=1
+    - costs.energy: JSON=15 wiki=10
+[necromancer.json] Atrophy
+  OK
+[necromancer.json] Aura of the Lich
+  OK
+[necromancer.json] Awaken the Blood
+  OK
+[necromancer.json] Barbed Signet
+  OK
+[necromancer.json] Barbs
+  OK
+[necromancer.json] Bitter Chill
+  OK
+[necromancer.json] Blood Bond
+  OK
+[necromancer.json] Blood Drinker
+  FIXED (1 issues):
+    - concise_description: JSON=Spell. Steals {{LifeStealing}} Health. You begin Bleeding (10 seconds) if your Health is above 50%. wiki=Spell. Steals {{LifeStealing}} Health. You begin Bleeding (6 seconds) if your Health is above 90%.
+[necromancer.json] Blood Renewal
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[necromancer.json] Blood Ritual
+  FIXED (2 issues):
+    - type: JSON=Enchantment Spell wiki=Touch enchantment spell
+    - activation: JSON=2 wiki=1
+[necromancer.json] Blood is Power
+  OK
+[necromancer.json] Blood of the Aggressor
+  OK
+[necromancer.json] Blood of the Master
+  OK
+[necromancer.json] Cacophony
+  FIXED (2 issues):
+    - activation: JSON=2 wiki=1
+    - concise_description: JSON=Hex Spell. (10 seconds.) Deals {{Damage}} damage whenever target foe uses a shout or chant. wiki=Hex Spell. (15 seconds.) Deals {{Damage}} damage whenever target foe uses a shout or chant.
+[necromancer.json] Chilblains
+  OK
+[necromancer.json] Consume Corpse
+  FIXED (1 issues):
+    - costs.energy: JSON=10 wiki=5
+[necromancer.json] Contagion
+  OK
+[necromancer.json] Corrupt Enchantment
+  OK
+[necromancer.json] Cultist's Fervor
+  OK
+[necromancer.json] Dark Aura
+  OK
+[necromancer.json] Dark Bond
+  OK
+[necromancer.json] Dark Fury
+  OK
+[necromancer.json] Dark Pact
+  OK
+[necromancer.json] Death Nova
+  OK
+[necromancer.json] Deathly Chill
+  OK
+[necromancer.json] Deathly Swarm
+  OK
+[necromancer.json] Defile Defenses
+  OK
+[necromancer.json] Defile Enchantments
+  OK
+[necromancer.json] Defile Flesh
+  OK
+[necromancer.json] Demonic Flesh
+  OK
+[necromancer.json] Depravity
+  FIXED (1 issues):
+    - activation: JSON=2 wiki=1
+[necromancer.json] Desecrate Enchantments
+  OK
+[necromancer.json] Discord
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Spell. Deals {{ArmorignoringDamage}} damage. No effect unless target foe has a condition and is either hexed or enchanted. wiki=Elite Spell. Deals {{ArmorMinusIgnoringDamage}} damage. No effect unless target foe has a condition and is either hexed or enchanted.
+[necromancer.json] Discord (PvP)
+  OK
+[necromancer.json] Enfeeble
+  OK
+[necromancer.json] Enfeeble (PvP)
+  OK
+[necromancer.json] Enfeebling Blood
+  OK
+[necromancer.json] Enfeebling Blood (PvP)
+  OK
+[necromancer.json] Enfeebling Touch
+  FIXED (2 issues):
+    - recharge: JSON=5 wiki=3
+    - attribute.progression mismatch
+[necromancer.json] Envenom Enchantments
+  OK
+[necromancer.json] Faintheartedness
+  OK
+[necromancer.json] Feast for the Dead
+  OK
+[necromancer.json] Feast of Corruption
+  FIXED (1 issues):
+    - recharge: JSON=20 wiki=15
+[necromancer.json] Fetid Ground
+  OK
+[necromancer.json] Foul Feast
+  OK
+[necromancer.json] Gaze of Contempt
+  FIXED (1 issues):
+    - recharge: JSON=15 wiki=10
+[necromancer.json] Grenth's Balance
+  OK
+[necromancer.json] Hexer's Vigor
+  OK
+[necromancer.json] Icy Veins
+  OK
+[necromancer.json] Infuse Condition
+  OK
+[necromancer.json] Insidious Parasite
+  OK
+[necromancer.json] Jagged Bones
+  FIXED (2 issues):
+    - recharge: JSON=15 wiki=10
+    - concise_description: JSON=Elite Enchantment Spell. (30 seconds.) When target undead servant dies, it is replaced by a level {{Level}} jagged horror that inflicts Bleeding with attacks. wiki=Elite Enchantment Spell. (60 seconds.) When target undead servant dies, it is replaced by a level {{Level}} jagged horror that inflicts Bleeding with attacks.
+[necromancer.json] Jaundiced Gaze
+  FIXED (2 issues):
+    - costs.energy: JSON=10 wiki=5
+    - attribute.progression mismatch
+[necromancer.json] Life Siphon
+  OK
+[necromancer.json] Life Transfer
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Hex Spell. Also hexes foes adjacent to target ({{Duration}} second). Causes -{{HealthDegenerationRegeneration}} Health degeneration. You have +{{HealthDegenerationRegeneration}} Health regeneration. wiki=Elite Hex Spell. Also hexes foes adjacent to target ({{Duration}} second). Causes -{{HealthDegenerationRegeneration}} Health degeneration. You have +3...7...8 Health regeneration.
+[necromancer.json] Lifebane Strike
+  OK
+[necromancer.json] Lingering Curse
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Hex Spell. ({{Duration}} seconds.) Target and nearby foes have -{{HealthDegeneration}} Health degeneration and receive 20% less benefit from healing. wiki=Elite Hex Spell. ({{Duration}} seconds.) Target and nearby foes have -{{HealthDegeneration}} Health degeneration and receive 25% less benefit from healing.
+[necromancer.json] Malaise
+  OK
+[necromancer.json] Malign Intervention
+  OK
+[necromancer.json] Mark of Fury
+  OK
+[necromancer.json] Mark of Pain
+  OK
+[necromancer.json] Mark of Subversion
+  OK
+[necromancer.json] Masochism
+  OK
+[necromancer.json] Masochism (PvP)
+  OK
+[necromancer.json] Meekness
+  FIXED (2 issues):
+    - activation: JSON=2 wiki=1
+    - recharge: JSON=15 wiki=20
+[necromancer.json] Necrosis
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Skill. Deals {{ArmorignoringDamage}} damage if target foe has a condition or hex. wiki=Skill. Deals {{ArmorMinusIgnoringDamage}} damage if target foe has a condition or hex.
+[necromancer.json] Necrotic Traversal
+  OK
+[necromancer.json] Offering of Blood
+  OK
+[necromancer.json] Oppressive Gaze
+  OK
+[necromancer.json] Order of Apostasy
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[necromancer.json] Order of Pain
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Enchantment Spell. Enchants all party members (5 seconds). {{Damage}} more damage whenever these party members hit with physical damage. wiki=Enchantment Spell. Enchants all party members (5 seconds). {{PlusDamage}} more damage whenever these party members hit with physical damage.
+[necromancer.json] Order of Undeath
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Spell. (5 seconds.) Your undead servants deal +{{Damage}} damage. You lose 2% of your maximum Health whenever your servants hit. wiki=Elite Spell. (5 seconds.) Your undead servants deal +{{PlusDamage}} damage. You lose 2% of your maximum Health whenever your servants hit.
+[necromancer.json] Order of the Vampire
+  OK
+[necromancer.json] Pain of Disenchantment
+  OK
+[necromancer.json] Parasitic Bond
+  OK
+[necromancer.json] Plague Sending
+  OK
+[necromancer.json] Plague Signet
+  OK
+[necromancer.json] Plague Touch
+  OK
+[necromancer.json] Poisoned Heart
+  OK
+[necromancer.json] Price of Failure
+  OK
+[necromancer.json] Putrid Bile
+  OK
+[necromancer.json] Putrid Explosion
+  OK
+[necromancer.json] Putrid Flesh
+  OK
+[necromancer.json] Ravenous Gaze
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[necromancer.json] Reaper's Mark
+  OK
+[necromancer.json] Reckless Haste
+  OK
+[necromancer.json] Rend Enchantments
+  OK
+[necromancer.json] Rigor Mortis
+  OK
+[necromancer.json] Rip Enchantment
+  OK
+[necromancer.json] Rising Bile
+  OK
+[necromancer.json] Rotting Flesh
+  OK
+[necromancer.json] Shadow Strike
+  OK
+[necromancer.json] Shadow of Fear
+  OK
+[necromancer.json] Shivers of Dread
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[necromancer.json] Signet of Agony
+  OK
+[necromancer.json] Signet of Agony (PvP)
+  OK
+[necromancer.json] Signet of Corruption
+  OK
+[necromancer.json] Signet of Lost Souls
+  OK
+[necromancer.json] Signet of Sorrow
+  OK
+[necromancer.json] Signet of Suffering
+  OK
+[necromancer.json] Soul Barbs
+  OK
+[necromancer.json] Soul Bind
+  OK
+[necromancer.json] Soul Feast
+  OK
+[necromancer.json] Soul Leech
+  FIXED (3 issues):
+    - activation: JSON=2 wiki=1
+    - recharge: JSON=15 wiki=7
+    - costs.energy: JSON=10 wiki=15
+[necromancer.json] Soul Taker
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Elite Enchantment Spell. ({{Duration}} seconds.) Attacks deal +{{Damage}} damage and sacrifice {{Sacrifice}} health. PvE Skill wiki=Elite Enchantment Spell. ({{Duration}} seconds.) Attacks deal +{{PlusDamage}} damage and sacrifice {{Sacrifice}} health. PvE Skill
+[necromancer.json] Spinal Shivers
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[necromancer.json] Spiteful Spirit
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[necromancer.json] Spoil Victor
+  OK
+[necromancer.json] Spoil Victor (PvP)
+  OK
+[necromancer.json] Strip Enchantment
+  OK
+[necromancer.json] Suffering
+  OK
+[necromancer.json] Tainted Flesh
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Enchantment Spell. ({{Duration}} seconds.) Foes who hit target ally in melee become Diseased ({{DiseaseDuration}} seconds); this ally is immune to Disease. wiki=Elite Enchantment Spell. ({{Duration}} seconds.) Foes who hit allies in the area in melee become Diseased ({{DiseaseDuration}} seconds); this ally is immune to Disease.
+[necromancer.json] Taste of Death
+  OK
+[necromancer.json] Taste of Pain
+  OK
+[necromancer.json] Touch of Agony
+  OK
+[necromancer.json] Toxic Chill
+  OK
+[necromancer.json] Ulcerous Lungs
+  FIXED (2 issues):
+    - activation: JSON=2 wiki=1
+    - costs.energy: JSON=15 wiki=10
+[necromancer.json] Unholy Feast
+  OK
+[necromancer.json] Unholy Feast (PvP)
+  OK
+[necromancer.json] Vile Miasma
+  OK
+[necromancer.json] Virulence
+  OK
+[necromancer.json] Vampiric Bite
+  OK
+[necromancer.json] Vampiric Gaze
+  OK
+[necromancer.json] Vampiric Spirit
+  OK
+[necromancer.json] Vampiric Swarm
+  OK
+[necromancer.json] Vampiric Touch
+  OK
+[necromancer.json] Verata's Aura
+  OK
+[necromancer.json] Verata's Gaze
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Spell. Make target undead servant masterless. If it is already masterless, you become its master. 50% failure chance unless Death Magic 5 or more. wiki=Spell. Make target undead servant masterless. If it is already masterless, you become its master and heal it for {{Healing}}. 50% failure chance unless Death Magic 5 or more.
+[necromancer.json] Verata's Sacrifice
+  OK
+[necromancer.json] Vile Touch
+  OK
+[necromancer.json] Vocal Minority
+  OK
+[necromancer.json] Wail of Doom
+  FIXED (1 issues):
+    - attribute.progression mismatch
+[necromancer.json] Wallow's Bite
+  OK
+[necromancer.json] Weaken Armor
+  FIXED (1 issues):
+    - activation: JSON=1 wiki=0.5
+[necromancer.json] Weaken Knees
+  FIXED (2 issues):
+    - recharge: JSON=10 wiki=5
+    - attribute.progression mismatch
+[necromancer.json] Well of Blood
+  FIXED (1 issues):
+    - concise_description: JSON=Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration. Exploits a fresh corpse. wiki=Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration. Exploits a fresh corpse or sacrifices 66% health.
+[necromancer.json] Well of Darkness
+  FIXED (1 issues):
+    - concise_description: JSON=Well Spell. ({{WellDuration}} seconds.) Hexed foes in this well have 50% chance to miss. Exploits a fresh corpse. wiki=Well Spell. ({{WellDuration}} seconds.) Hexed foes in this well have 50% chance to miss. Exploits a fresh corpse or sacrifices 66% health.
+[necromancer.json] Well of Power
+  FIXED (1 issues):
+    - concise_description: JSON=Elite Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration and +2 Energy regeneration. Exploits a fresh corpse. wiki=Elite Well Spell. ({{Duration}} seconds.) Allies in this well have +{{HealthRegeneration}} Health regeneration and +2 Energy regeneration. Exploits a fresh corpse or sacrifices 66% health.
+[necromancer.json] Well of Ruin
+  FIXED (1 issues):
+    - concise_description: JSON=Well Spell. ({{WellSpellDuration}} seconds.) Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to any foe in the well that takes physical damage. Exploits a fresh corpse. wiki=Well Spell. ({{WellSpellDuration}} seconds.) Inflicts Cracked Armor condition ({{CrackedArmorDuration}} seconds) to any foe in the well that takes physical damage. Exploits a fresh corpse or sacrifices 66% health.
+[necromancer.json] Well of Silence
+  FIXED (1 issues):
+    - concise_description: JSON=Well Spell. ({{Duration}} seconds.) Foes in this well cannot use shouts and chants and have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse. wiki=Well Spell. ({{Duration}} seconds.) Foes in this well cannot use shouts and chants and have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse or sacrifices 66% health.
+[necromancer.json] Well of Suffering
+  FIXED (1 issues):
+    - concise_description: JSON=Well Spell. ({{Duration}} seconds.) Foes in this well have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse. wiki=Well Spell. ({{Duration}} seconds.) Foes in this well have -{{HealthDegeneration}} Health degeneration. Exploits a fresh corpse or sacrifices 66% health.
+[necromancer.json] Well of Weariness
+  FIXED (1 issues):
+    - concise_description: JSON=Well Spell. ({{Duration}} seconds.) Foes in this well have -1 Energy degeneration. Exploits a fresh corpse. wiki=Well Spell. ({{Duration}} seconds.) Foes in this well have -1 Energy degeneration. Exploits a fresh corpse or sacrifices 66% health.
+[necromancer.json] Well of the Profane
+  FIXED (1 issues):
+    - concise_description: JSON=Well Spell. ({{Duration}} seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. Exploits a fresh corpse. 50% failure chance unless Death Magic 5 or more. wiki=Well Spell. ({{Duration}} seconds.) Foes in this well lose all enchantments and cannot be the target of further enchantments. Exploits a fresh corpse or sacrifices 66% health. 50% failure chance unless Death Magic 5 or more.
+[necromancer.json] Wither
+  FIXED (2 issues):
+    - activation: JSON=2 wiki=1
+    - recharge: JSON=10 wiki=5
+[necromancer.json] Withering Aura
+  OK
+
+=== FINAL SUMMARY ===
+OK: 106
+Fixed: 46
+Failed: 0
+
+=== Processing monster.json ===
+[monster.json] "It's Good to Be King!"
+  OK
+[monster.json] Mad King Pony Support
+  OK
+[monster.json] Maddening Laughter
+  OK
+[monster.json] Motivating Insults
+  OK
+[monster.json] Scourge of Candy
+  OK
+[monster.json] Taste of Undeath
+  OK
+[monster.json] A pool of water.
+  OK
+[monster.json] Afflicted Soul Explosion
+  OK
+[monster.json] Amulet of Protection
+  OK
+[monster.json] Blood Splattering
+  OK
+[monster.json] Burning Immunity
+  OK
+[monster.json] Chains of Enslavement
+  FIXED (1 issues):
+    - type: JSON=Skill wiki=Spell
+[monster.json] Chaotic Soul Explosion
+  OK
+[monster.json] Create Spore
+  OK
+[monster.json] Critical Hit Probability
+  OK
+[monster.json] Dark Soul Explosion
+  OK
+[monster.json] Dhuum
+  URL corrected: https://wiki.guildwars.com/wiki/Dhuum_(skill)
+  FIXED (1 issues):
+    - wiki_url fixed to https://wiki.guildwars.com/wiki/Dhuum_(skill)
+[monster.json] Duncan's Defense
+  OK
+[monster.json] Elite Regeneration
+  OK
+[monster.json] Emperor Degen
+  OK
+[monster.json] Energy Boost
+  OK
+[monster.json] Ethereal Soul Explosion
+  OK
+[monster.json] Exploding Spores
+  OK
+[monster.json] Exposed Underbelly
+  OK
+[monster.json] False Death
+  OK
+[monster.json] Fiery Soul Explosion
+  OK
+[monster.json] Fire Flower
+  URL corrected: https://wiki.guildwars.com/wiki/Fire_Flower_(skill)
+  FIXED (1 issues):
+    - wiki_url fixed to https://wiki.guildwars.com/wiki/Fire_Flower_(skill)
+[monster.json] Fix Monster Attributes
+  OK
+[monster.json] Forgewight's Blessing
+  OK
+[monster.json] Golem Fire Shield
+  OK
+[monster.json] Greater Hard Mode NPC Buff
+  OK
+[monster.json] Ground Cover
+  OK
+[monster.json] Guild Lord Aura
+  OK
+[monster.json] Hard Mode Dungeon Boss
+  OK
+[monster.json] Hard Mode NPC Buff
+  OK
+[monster.json] Health Drain
+  OK
+[monster.json] Immunity to Critical Hits
+  OK
+[monster.json] Impending Dhuum
+  OK
+[monster.json] Inanimate Object
+  OK
+[monster.json] Inscribed Ettin Aura
+  OK
+[monster.json] Internal Power Engaged
+  OK
+[monster.json] Invulnerability
+  OK
+[monster.json] Last Rites of Torment
+  OK
+[monster.json] Lesser Flame Sentinel Resistance
+  OK
+[monster.json] Lesser Hard Mode NPC Buff
+  OK
+[monster.json] Long Claws
+  OK
+[monster.json] Mad King's Fan
+  OK
+[monster.json] Marked For Death
+  OK
+[monster.json] Monster doesn't get death penalty
+  OK
+[monster.json] N.O.X. Driver
+  OK
+[monster.json] Natural Resistance
+  OK
+[monster.json] Nightmarish Aura
+  OK
+[monster.json] Plague Spring
+  OK
+[monster.json] Rejuvenating Soul Explosion
+  OK
+[monster.json] Respawn
+  OK
+[monster.json] Seal Regen
+  OK
+[monster.json] Selvetarm's Attack
+  OK
+[monster.json] Selvetarm's Blessing
+  OK
+[monster.json] Shadow Smash
+  OK
+[monster.json] Shadowy Soul Explosion
+  OK
+[monster.json] Skin of Stone
+  OK
+[monster.json] Spectral Infusion
+  OK
+[monster.json] Strong Natural Resistance
+  OK
+[monster.json] Stun Immunity
+  OK
+[monster.json] Stun on Critical Hit
+  OK
+[monster.json] Sweeping Strikes
+  FIXED (1 issues):
+    - type: JSON=Attack wiki=Skill (skill type)
+[monster.json] Temporal Sheen
+  OK
+[monster.json] Tengu's Gaze
+  OK
+[monster.json] The Chalice of Corruption
+  OK
+[monster.json] Thommis's Attack
+  OK
+[monster.json] Thommis's Blessing
+  OK
+[monster.json] Titans get plus Health regen and set enemies on fire each time he is hit.
+  OK
+[monster.json] Turtle Shell
+  OK
+[monster.json] Unbalancing Soul Explosion
+  OK
+[monster.json] Undead sensitivity to Light
+  OK
+[monster.json] Undying
+  OK
+[monster.json] Vengeance is Ours
+  OK
+[monster.json] Wandering Mind
+  OK
+[monster.json] Agnar's Rage
+  OK
+[monster.json] Brutal Mauling
+  OK
+[monster.json] Crippling Attack
+  OK
+[monster.json] Dark Chain Lightning
+  OK
+[monster.json] Earth Shattering Blow
+  OK
+[monster.json] Earth Vortex
+  OK
+[monster.json] Frost Vortex
+  OK
+[monster.json] Giant Stomp
+  OK
+[monster.json] Hunger of the Lich
+  OK
+[monster.json] Hunger's Bite
+  OK
+[monster.json] Quake Of Ahdashim
+  OK
+[monster.json] Rolling Shift
+  OK
+[monster.json] Siege Attack
+  OK
+[monster.json] Suicide Energy
+  OK
+[monster.json] Suicide Health
+  OK
+[monster.json] Wild Smash
+  OK
+[monster.json] Annihilator Bash
+  OK
+[monster.json] Bloodstone Slash
+  OK
+[monster.json] Consuming Flames
+  OK
+[monster.json] Falken Punch
+  OK
+[monster.json] Feeding Frenzy
+  URL corrected: https://wiki.guildwars.com/wiki/Feeding_Frenzy_(skill)
+  FIXED (1 issues):
+    - wiki_url fixed to https://wiki.guildwars.com/wiki/Feeding_Frenzy_(skill)
+[monster.json] Golem Strike
+  OK
+[monster.json] Parasitic Bite
+  OK
+[monster.json] Reaping of Dhuum
+  OK
+[monster.json] Shattered Spirit
+  OK
+[monster.json] Thunderfist Strike
+  OK
+[monster.json] Unseen Aggression
+  OK
+[monster.json] Venom Fang
+  OK
+[monster.json] Weight of Dhuum
+  OK
+[monster.json] Withering Blade
+  OK
+[monster.json] Anguish
+Traceback (most recent call last):
+  File "/srv/www/build-wars/guild-wars-json-data/scripts/skills/verify_and_fix_skills_from_wiki.py", line 869, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/srv/www/build-wars/guild-wars-json-data/scripts/skills/verify_and_fix_skills_from_wiki.py", line 853, in main
+    stats = process_file(file_path, dry_run=args.dry_run, resume=args.resume, delay=args.delay)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/www/build-wars/guild-wars-json-data/scripts/skills/verify_and_fix_skills_from_wiki.py", line 778, in process_file
+    issues, fixes = compare_skill(skill, wiki_data, url)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/www/build-wars/guild-wars-json-data/scripts/skills/verify_and_fix_skills_from_wiki.py", line 667, in compare_skill
+    if not values_equal(json_attr.get('name'), wiki_attr.get('name')):
+                        ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+=== Processing monster.json ===
+[monster.json] Anguish
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=0.75
+    - recharge: JSON=None wiki=45
+    - costs.energy: JSON=None wiki=15
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Deals 5...15...17 damage. Double damage to hexed foes. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes.
+[monster.json] Bloodsong
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=0.75
+    - recharge: JSON=None wiki=30
+    - costs.energy: JSON=None wiki=5
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Steals 5...21...25 Health. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health.
+[monster.json] Bone Spike
+  OK
+[monster.json] Disenchantment
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=1
+    - recharge: JSON=None wiki=30
+    - costs.energy: JSON=None wiki=15
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. Removes one enchantment. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment.
+[monster.json] Dissonance
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=1
+    - recharge: JSON=None wiki=45
+    - costs.energy: JSON=None wiki=25
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. Interrupts actions. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Damage}} second lifespan). Its attacks deal 5...17...20 damage and interrupt actions.
+[monster.json] Flurry of Splinters
+  OK
+[monster.json] Gaze of Fury
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=0.75
+    - recharge: JSON=None wiki=20
+    - costs.energy: JSON=None wiki=10
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. wiki=Binding Ritual. Destroys a spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage.
+[monster.json] Jadoth's Storm of Judgment
+  OK
+[monster.json] Keiran's Sniper Shot
+  OK
+[monster.json] Pain
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=0.75
+    - recharge: JSON=None wiki=30
+    - costs.energy: JSON=None wiki=5
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Deals 5...25...30 damage. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage.
+[monster.json] Pain (Signet of Spirits)
+  FAILED: could not find wiki page
+[monster.json] Pain (Togo)
+  FAILED: could not find wiki page
+[monster.json] Shadowsong
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=1
+    - recharge: JSON=None wiki=30
+    - costs.energy: JSON=None wiki=15
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. Inflict Blindness condition (1...5...6 seconds). wiki=Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s]).
+[monster.json] Splinter Shot
+  FIXED (5 issues):
+    - profession: JSON=Monster wiki=Ranger
+    - campaign: JSON=Eye of the North wiki=Factions
+    - recharge: JSON=10 wiki=5
+    - attribute.progression mismatch
+    - concise_description: JSON=Bow Attack. Deals +1...11 damage. Hits two foes near your target. wiki=Bow Attack. Deals +{{PlusDamage}} damage. Deals {{DamageToFoesInTheArea}} damage to foes in the area if blocked.
+[monster.json] The Sniper's Spear
+  OK
+[monster.json] Vampirism
+  FIXED (8 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=0.75
+    - recharge: JSON=None wiki=30
+    - limitation: JSON=monster-only wiki=PvE-only
+    - costs.energy: JSON=None wiki=10
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Steals 10...20 Health. wiki=Binding Ritual. Creates a level {{Level}} spirit (lifespan {{Duration}} seconds). Its attacks steal {{Healing}} Health, and you are healed for 10...20.
+[monster.json] Wanderlust
+  FIXED (8 issues):
+    - profession: JSON=Monster wiki=Ritualist
+    - is_elite: JSON=False wiki=True
+    - type: JSON=Ranged Attack wiki=Binding ritual
+    - activation: JSON=2.0 wiki=1
+    - recharge: JSON=None wiki=45
+    - costs.energy: JSON=None wiki=10
+    - attribute.progression mismatch
+    - concise_description: JSON=Ranged Attack. Causes knock-down to stationary foes. Knock-down cost: this spirit loses 70...54...50 Health. wiki=Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health.
+[monster.json] Adoration
+  OK
+[monster.json] Animate Undead
+  OK
+[monster.json] Animate Undead (Palawa Joko)
+  FAILED: could not find wiki page
+[monster.json] Argo's Cry
+  OK
+[monster.json] Banish Enchantment
+  OK
+[monster.json] Bit Golem Breaker
+  OK
+[monster.json] Bit Golem Crash
+  OK
+[monster.json] Bit Golem Force
+  OK
+[monster.json] Blast Furnace
+  OK
+[monster.json] Blizzard
+  OK
+[monster.json] Blood Flower
+  URL corrected: https://wiki.guildwars.com/wiki/Blood_Flower_(skill)
+  FIXED (1 issues):
+    - wiki_url fixed to https://wiki.guildwars.com/wiki/Blood_Flower_(skill)
+[monster.json] Blood of zu Heltzer
+  OK
+[monster.json] Ceiling Collapse
+  OK
+[monster.json] Chomper
+  OK
+[monster.json] Consume Flames
+  OK
+[monster.json] Corrupted Dragon Scales
+  OK
+[monster.json] Corrupted Dragon Spores
+  OK
+[monster.json] Corrupted Healing
+  OK
+[monster.json] Death's Embrace
+  OK
+[monster.json] Dhuum's Rest
+  FIXED (3 issues):
+    - profession: JSON=Monster wiki=None
+    - activation: JSON=3.0 wiki=1
+    - costs.energy: JSON=None wiki=5
+[monster.json] Diamondshard Grave
+  OK
+[monster.json] Diamondshard Mist
+  OK
+[monster.json] Drain Minion
+  OK
+[monster.json] Dryder's Feast
+  OK
+[monster.json] Ebon Vanguard Assassin Support
+  FIXED (5 issues):
+    - profession: JSON=Monster wiki=None
+    - campaign: JSON=Prophecies wiki=Eye of the North
+    - limitation: JSON=monster-only wiki=PvE-only
+    - attribute missing in JSON
+    - concise_description: JSON=Spell. Summons a level 20 assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. The assassin lives for 20 seconds. wiki=Spell. Summon a level {{AssassinLevel}} assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. If this foe is a Charr, the assassin lives for {{DurationVsCharr}} seconds. If target foe is not a Charr, the Assassin lives for {{DurationVsOtherFoes}} seconds.
+[monster.json] Fleshreaver's Escape
+  OK
+[monster.json] Ghostly Fury
+  FIXED (2 issues):
+    - profession: JSON=Monster wiki=None
+    - recharge: JSON=10 wiki=5
+[monster.json] Grand Illusion
+  OK
+[monster.json] Jade Brotherhood Bomb
+  OK
+[monster.json] Jade Fury
+  OK
+[monster.json] Judgment of Dhuum
+  OK
+[monster.json] Koro's Gaze
+  OK
+[monster.json] Master of Necromancy
+  OK
+[monster.json] Mirror of Darkness
+  OK
+[monster.json] Murakai's Calamity
+  OK
+[monster.json] Murakai's Call
+  OK
+[monster.json] Murakai's Censure
+  OK
+[monster.json] Murakai's Consumption
+  OK
+[monster.json] Murakai's Storm of Souls
+  OK
+[monster.json] N.O.X. Beam
+  OK
+[monster.json] N.O.X. Divider Drive
+  OK
+[monster.json] N.O.X. Fire
+  OK
+[monster.json] N.O.X. Knuckle
+  OK
+[monster.json] N.O.X. Thunder
+  OK
+[monster.json] N.O.X.ion Buster
+  OK
+[monster.json] Oath of Healing
+  OK
+[monster.json] Of Royal Blood
+  OK
+[monster.json] Order of Unholy Vigor
+  OK
+[monster.json] Order of Unholy Vigor (Palawa Joko)
+  FAILED: could not find wiki page
+[monster.json] Order of the Lich
+  OK
+[monster.json] Order of the Lich (Palawa Joko)
+  FAILED: could not find wiki page
+[monster.json] Passage to Tahnnakai
+  OK
+[monster.json] Phased Plasma Burst
+  OK
+[monster.json] Plasma Shot
+  OK
+[monster.json] Poison Arrow
+  FIXED (8 issues):
+    - profession: JSON=Monster wiki=Ranger
+    - campaign: JSON=Factions wiki=Prophecies
+    - is_elite: JSON=False wiki=True
+    - type: JSON=Spell wiki=Bow attack
+    - recharge: JSON=None wiki=1
+    - costs.energy: JSON=None wiki=5
+    - attribute missing in JSON
+    - concise_description: JSON=Spell. Send out flares that strike any foes in the area for 0 fire damage if they hit. Target is then poisoned for 15 seconds. wiki=Elite Bow Attack. Inflicts Poisoned condition. ({{PoisonDuration}})
+[monster.json] Purify Energy
+  OK
+[monster.json] Purify Soul
+  OK
+[monster.json] Purifying Flame
+  OK
+[monster.json] Purifying Prayer
+  OK
+[monster.json] Putrid Flames
+  OK
+[monster.json] Reactor Blast
+  OK
+[monster.json] Redemption of Purity
+  OK
+[monster.json] Resurrect (Gargoyle)
+  OK
+[monster.json] Resurrect
+  FIXED (4 issues):
+    - profession: JSON=Monster wiki=Monk
+    - activation: JSON=8.0 wiki=5
+    - recharge: JSON=None wiki=8
+    - concise_description: JSON=Spell. Resurrect target (25% Health and zero Energy.) [sic] wiki=Spell. Resurrects target party member (25% Health, 0 Energy).
+[monster.json] Reverse Polarity Fire Shield
+  OK
+[monster.json] Rise From Your Grave!
+  OK
+[monster.json] Snowball (NPC)
+  FAILED: could not find wiki page
+[monster.json] Sorrow's Fist
+  OK
+[monster.json] Sorrow's Flame
+  OK
+[monster.json] Soul Vortex
+  OK
+[monster.json] Spike Trap (spell)
+  OK
+[monster.json] Spirit Siphon (Master Riyo)
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Spell. Target spirit loses all Energy. You gain 15...27...30% of that Energy. wiki=Spell. Target spirit loses all Energy. You gain {{PercentEnergy}}% of that Energy.
+[monster.json] Statue's Blessing
+  OK
+[monster.json] Stormcaller
+  URL corrected: https://wiki.guildwars.com/wiki/Stormcaller_(skill)
+  FIXED (1 issues):
+    - wiki_url fixed to https://wiki.guildwars.com/wiki/Stormcaller_(skill)
+[monster.json] Summon Champion
+  OK
+[monster.json] Summon Minions
+  OK
+[monster.json] Summon Torment
+  OK
+[monster.json] Turret Arrow
+  OK
+[monster.json] Ultra Snowball
+  OK
+[monster.json] Unyielding Anguish
+  OK
+[monster.json] Wave of Torment
+  OK
+[monster.json] Wurm Siege (Core)
+  FAILED: could not find wiki page
+[monster.json] Wurm Siege (Dunes of Despair)
+  FAILED: could not find wiki page
+[monster.json] Wurm Siege (Eye of the North)
+  FAILED: could not find wiki page
+[monster.json] Abaddon's Chosen
+  OK
+[monster.json] Abaddon's Conspiracy
+  OK
+[monster.json] Bit Golem Rectifier
+  OK
+[monster.json] Blessing of the Kirin
+  OK
+[monster.json] Chimera of Intensity
+  OK
+[monster.json] Crystal Shield
+  OK
+[monster.json] Demonic Agility
+  OK
+[monster.json] Healing Breeze
+  FIXED (6 issues):
+    - profession: JSON=Monster wiki=Monk
+    - campaign: JSON=Prophecies wiki=Core
+    - recharge: JSON=None wiki=5
+    - costs.energy: JSON=5 wiki=10
+    - attribute missing in JSON
+    - concise_description: JSON=Enchantment Spell. (monster only) (5 seconds.) +10 Health regeneration. wiki=Enchantment Spell. (15 seconds.) +{{HealthRegeneration}} Health regeneration.
+[monster.json] Nightmare Refuge
+  OK
+[monster.json] Spirit Form (Remains of Sahlahja)
+  FAILED: could not find wiki page
+[monster.json] Verata's Promise
+  OK
+[monster.json] Bonds of Torment
+  OK
+[monster.json] Call of Sacrifice
+  OK
+[monster.json] Corsair's Net
+  OK
+[monster.json] Crystal Bonds
+  OK
+[monster.json] Crystal Haze
+  OK
+[monster.json] Crystal Snare
+  OK
+[monster.json] Enchantment Collapse
+  OK
+[monster.json] Isaiah's Balance
+  OK
+[monster.json] N.O.X. Phantom
+  OK
+[monster.json] Paranoid Indignation
+  OK
+[monster.json] Promise of Death
+  OK
+[monster.json] Sky Net
+  OK
+[monster.json] Snaring Web
+  OK
+[monster.json] Spirit World Retreat
+  OK
+[monster.json] Target Acquisition
+  OK
+[monster.json] The Master's Mark
+  OK
+[monster.json] Tongue Lash
+  OK
+[monster.json] Tongue Whip
+  OK
+[monster.json] Weight of Dhuum (hex)
+  FAILED: could not find wiki page
+[monster.json] Words of Madness (Qwytzylkak)
+  FAILED: could not find wiki page
+[monster.json] Wurm Bile
+  OK
+[monster.json] Aura of Purity
+  OK
+[monster.json] Ebon Vanguard Battle Standard of Power
+  OK
+[monster.json] Mandragor's Charge
+  OK
+[monster.json] Nibble
+  OK
+[monster.json] Restore Life
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=Monk
+    - campaign: JSON=Core wiki=Prophecies
+    - activation: JSON=1.0 wiki=4
+    - recharge: JSON=None wiki=8
+    - costs.energy: JSON=5 wiki=10
+    - attribute.progression mismatch
+    - concise_description: JSON=Touch Spell. Touch a body of a fallen party member. Target party member is returned to life with 26...45% Health and 42...80% Energy. wiki=Touch Spell. Resurrects target party member ({{PercentHealth}}% Health, {{PercentEnergy}}% Energy).
+[monster.json] Chomp
+  OK
+[monster.json] Ehzah from Above
+  OK
+[monster.json] Juggernaut Toss
+  OK
+[monster.json] Maddened Strike
+  OK
+[monster.json] Ooze Combination
+  OK
+[monster.json] Queen Bite
+  OK
+[monster.json] Smash of the Titans
+  OK
+[monster.json] Touch of Dhuum
+  OK
+[monster.json] Trample
+  OK
+[monster.json] Twisting Jaws
+  OK
+[monster.json] Unstable Ooze Explosion
+  OK
+[monster.json] Battle Scars
+  OK
+[monster.json] Charging Spirit
+  OK
+[monster.json] Corrupted Strength
+  OK
+[monster.json] Drunken Stumbling
+  OK
+[monster.json] Fingers of Chaos
+  OK
+[monster.json] Golem Boosters
+  OK
+[monster.json] Infernal Rage
+  OK
+[monster.json] Jagged Crystal Skin
+  OK
+[monster.json] Junundu Tunnel
+  FIXED (3 issues):
+    - profession: JSON=Monster wiki=None
+    - recharge: JSON=None wiki=30
+    - concise_description: JSON=Stance. (30 seconds.) You move 33% faster. End effect: knocks-down adjacent foes (2 seconds). Ends if you use a skill. wiki=Stance. (10 seconds.) You move 66% faster. End effect: knocks-down adjacent foes (3 seconds). Ends if you use a skill.
+[monster.json] Mirror Echo
+  OK
+[monster.json] N.O.X. Field Dash
+  OK
+[monster.json] Renewing Corruption
+  OK
+[monster.json] Riposting Shadows
+  OK
+[monster.json] Spirit Senses
+  OK
+[monster.json] Strength of Purity
+  OK
+[monster.json] Survivor's Will
+  OK
+[monster.json] Toriimo's Burning Fury
+  OK
+[monster.json] Way of the Pure
+  OK
+[monster.json] Bear Form
+  OK
+[monster.json] Elemental Shift
+  OK
+[monster.json] Quest skill for Coastal Exam.
+  OK
+[monster.json] Shadowsong (Master Riyo)
+  FIXED (2 issues):
+    - attribute.progression mismatch
+    - concise_description: JSON=Binding Ritual. Creates a level 1...5...6 spirit (30 second lifespan). Its attacks inflict Blindness condition (1...5...6 seconds). wiki=Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). Its attacks inflict Blindness condition ({{BlindDuration}} seconds).
+[monster.json] Shapeshift
+  OK
+[monster.json] Splinter Mine (Flame Geyser)
+  FAILED: could not find wiki page
+[monster.json] Spring of Purity
+  OK
+[monster.json] "I'll Be Back!"
+  FIXED (3 issues):
+    - profession: JSON=Monster wiki=None
+    - recharge: JSON=45 wiki=30
+    - concise_description: JSON=Shout. (15 seconds.) Negates the next fatal damage you take. Negation effect: you gain 500 Health. wiki=Shout. (10 seconds) Negates the next fatal damage you take. Negation effect: you gain 500 Health.
+[monster.json] "Kilroy Stonekin"
+  OK
+[monster.json] "There's not enough time!!"
+  OK
+[monster.json] Anthem of Purity
+  OK
+[monster.json] Echoing Banishment
+  OK
+[monster.json] Enemies Must Die!
+  OK
+[monster.json] Presence of the Skale Lord
+  OK
+[monster.json] Song of the Mists
+  OK
+[monster.json] Spirit Roar
+  OK
+[monster.json] Tengu's Mimicry
+  OK
+[monster.json] Tremor
+  OK
+[monster.json] Abaddon's Favor
+  OK
+[monster.json] Aspect of Oak
+  OK
+[monster.json] Aura of the Juggernaut
+  OK
+[monster.json] Base Defense
+  OK
+[monster.json] Berserk
+  OK
+[monster.json] Blood Rage
+  OK
+[monster.json] Breaking Charm
+  OK
+[monster.json] Call of Destruction
+  OK
+[monster.json] Call to the Torment
+  OK
+[monster.json] Carrier Defense
+  OK
+[monster.json] Chaotic Energy
+  OK
+[monster.json] Charm Animal (Ashlyn Spiderfriend)
+  FAILED: could not find wiki page
+[monster.json] Charm Animal (Charr Demolisher)
+  OK
+[monster.json] Charm Animal (White Mantle)
+  FAILED: could not find wiki page
+[monster.json] Charm Animal
+  FIXED (5 issues):
+    - profession: JSON=Monster wiki=Ranger
+    - campaign: JSON=Factions wiki=Core
+    - activation: JSON=0.25 wiki=10
+    - costs.energy: JSON=None wiki=10
+    - concise_description: JSON=Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. wiki=Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you.
+[monster.json] Charm Animal (monster)
+  FAILED: could not find wiki page
+[monster.json] Charm Drake
+  OK
+[monster.json] Charr Siege Attack (Against the Charr)
+  FAILED: could not find wiki page
+[monster.json] Charr Siege Attack (Assault on the Stronghold)
+  FAILED: could not find wiki page
+[monster.json] Charr Siege Attack (What Must Be Done)
+  FAILED: could not find wiki page
+[monster.json] Claim Resource
+  OK
+[monster.json] Claim Resource (Heroes' Ascent)
+  FAILED: could not find wiki page
+[monster.json] Consume Torment
+  OK
+[monster.json] Corrupt Power
+  OK
+[monster.json] Countdown
+  OK
+[monster.json] Create Light of Seborhin
+  OK
+[monster.json] Crystal Hibernation
+  OK
+[monster.json] Damage Assessment
+  OK
+[monster.json] Deafening Roar
+  OK
+[monster.json] Decipher Inscriptions
+  OK
+[monster.json] Dormant Husk
+  OK
+[monster.json] Energy Blast (golem)
+  FAILED: could not find wiki page
+[monster.json] Enraged
+  OK
+[monster.json] Enraged Blast
+  OK
+[monster.json] Entourage
+  OK
+[monster.json] Extract Inscription
+  OK
+[monster.json] Firebomb
+  OK
+[monster.json] Flame Call
+  OK
+[monster.json] Flame Jet
+  OK
+[monster.json] Forest's Binding
+  OK
+[monster.json] Fungal Explosion
+  OK
+[monster.json] Gelatinous Absorption
+  OK
+[monster.json] Gelatinous Corpse Consumption
+  OK
+[monster.json] Gelatinous Mutation
+  OK
+[monster.json] Gloat
+  OK
+[monster.json] Gunther's Gaze
+  OK
+[monster.json] Impossible Odds
+  OK
+[monster.json] Inner Fire
+  OK
+[monster.json] Knock
+  OK
+[monster.json] Kournan Siege
+  OK
+[monster.json] Lava Blast
+  OK
+[monster.json] Lava Ground
+  OK
+[monster.json] Lava Wave
+  OK
+[monster.json] Life Vortex
+  OK
+[monster.json] Maddened Stance
+  OK
+[monster.json] Meditation of the Reaper
+  OK
+[monster.json] Metamorphosis
+  OK
+[monster.json] Monkey See, Monkey Do
+  OK
+[monster.json] Mount
+  OK
+[monster.json] N.O.X. Lock On
+  OK
+[monster.json] Ooze Division
+  OK
+[monster.json] Phase Shield (effect)
+  FAILED: could not find wiki page
+[monster.json] Phase Shield
+  FIXED (7 issues):
+    - profession: JSON=Monster wiki=None
+    - campaign: JSON=Eye of the North wiki=Core
+    - type: JSON=Skill wiki=Spell
+    - activation: JSON=2.0 wiki=1
+    - recharge: JSON=15 wiki=40
+    - costs.energy: JSON=None wiki=15
+    - concise_description: JSON=Skill. A shield around the golem prevents up to 750 damage to nearby allies. wiki=Spell. (20 seconds.) A shield around the golem prevents up to 250 damage to nearby allies. Removes Spectral Agony from shielded targets.
+[monster.json] Powder Keg Explosion
+  OK
+[monster.json] Pyroclastic Shot
+  OK
+[monster.json] Queen Heal
+  OK
+[monster.json] Queen Siege
+  OK
+[monster.json] Queen Thump
+  OK
+[monster.json] Rage of the Sea
+  OK
+[monster.json] Rand's Attack
+  OK
+[monster.json] Reactor Blast Timer
+  OK
+[monster.json] Reform Carvings
+  OK
+[monster.json] Sacrifice Pawn
+  OK
+[monster.json] Searing Breath
+  OK
+[monster.json] Shield of Fire
+  OK
+[monster.json] Siege Strike
+  OK
+[monster.json] Siege Turtle Attack (Fort Aspenwood)
+  FAILED: could not find wiki page
+[monster.json] Siege Turtle Attack (Gyala Hatchery)
+  FAILED: could not find wiki page
+[monster.json] Siege Turtle Attack (The Eternal Grove)
+  FAILED: could not find wiki page
+[monster.json] Siege Turtle Attack
+  FAILED: could not find wiki page
+[monster.json] Soul Torture
+  OK
+[monster.json] Soulrending Shriek
+  OK
+[monster.json] Spawn Hatchling
+  OK
+[monster.json] Spawn Pods
+  OK
+[monster.json] Spectral Agony
+  OK
+[monster.json] Spirit Shield
+  OK
+[monster.json] Spore Explosion
+  OK
+[monster.json] Summoning Lord
+  OK
+[monster.json] Summoning Shadows
+  OK
+[monster.json] The Apocrypha is changing to another form!
+  OK
+[monster.json] Torment Slash
+  OK
+[monster.json] Torment Slash (Smothering Tendrils)
+  FAILED: could not find wiki page
+[monster.json] Touch of Aaaaarrrrrrggghhh
+  OK
+[monster.json] Unstable Aura
+  OK
+[monster.json] Unstable Pulse
+  OK
+[monster.json] Vitality Transfer
+  OK
+[monster.json] Whirling Fires
+  OK
+[monster.json] Words of Madness
+  OK
+
+=== FINAL SUMMARY ===
+OK: 334
+Fixed: 30
+Failed: 27

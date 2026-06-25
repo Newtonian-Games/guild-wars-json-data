@@ -119,7 +119,7 @@
   {
     "name": "Sunspear Rebirth Signet",
     "icon": "https://wiki.guildwars.com/images/e/e0/Sunspear_Rebirth_Signet.jpg",
-    "concise_description": "Signet. Resurrect target dead ally at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost.",
+    "concise_description": "Signet. Resurrect target dead ally [sic] at your location (full Health and 10% Energy for each Sunspear Rank attained). This signet only recharges when you gain a morale boost.",
     "type": "Signet",
     "profession": null,
     "attribute": {
@@ -1094,7 +1094,7 @@
   {
     "name": "Dwarven Stability",
     "icon": "https://wiki.guildwars.com/images/4/4c/Dwarven_Stability.jpg",
-    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk.",
+    "concise_description": "Enchantment Spell. ({{Duration}} seconds.) Your stances last {{StanceDurationIncreasePercent}}% longer. You cannot be knocked-down if you activated this skill while drunk . [sic]",
     "type": "Enchantment Spell",
     "profession": null,
     "attribute": {
@@ -1237,13 +1237,13 @@
   {
     "name": "Great Dwarf Weapon",
     "icon": "https://wiki.guildwars.com/images/a/ab/Great_Dwarf_Weapon.jpg",
-    "concise_description": "Weapon Spell. (20 seconds.) +{{Damage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target.",
+    "concise_description": "Weapon Spell. (20 seconds.) +{{PlusDamage}} weapon damage and {{KnockDownChancePercent}}% chance to cause knock-down with attacks. Cannot self-target.",
     "type": "Weapon Spell",
     "profession": null,
     "attribute": {
       "name": "Deldrimor rank",
       "progression": {
-        "Damage": {
+        "PlusDamage": {
           "0": 15,
           "1": 16,
           "2": 17,
@@ -1432,13 +1432,13 @@
   {
     "name": "Deft Strike",
     "icon": "https://wiki.guildwars.com/images/6/62/Deft_Strike.jpg",
-    "concise_description": "Ranged Attack. Deals {{ArmorignoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor.",
+    "concise_description": "Ranged Attack. Deals {{ArmorMinusIgnoringDamage}} damage. Inflicts Bleeding condition ({{BleedingDuration}} seconds) if target foe has Cracked Armor.",
     "type": "Ranged Attack",
     "profession": null,
     "attribute": {
       "name": "Ebon Vanguard rank",
       "progression": {
-        "ArmorignoringDamage": {
+        "ArmorMinusIgnoringDamage": {
           "0": 18,
           "1": 20,
           "2": 23,
@@ -1523,7 +1523,7 @@
   {
     "name": "Ebon Battle Standard of Honor",
     "icon": "https://wiki.guildwars.com/images/5/51/Ebon_Battle_Standard_of_Honor.jpg",
-    "concise_description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{Damage}} damage and +{{DamageVsCharr}} more damage against Charr. Spirits are unaffected.",
+    "concise_description": "Ward Spell. ({{Duration}} seconds.) Allies in this ward deal +{{PlusDamage}} damage and +{{PlusDamageVsCharr}} more damage against Charr. Spirits are unaffected.",
     "type": "Ward Spell",
     "profession": null,
     "attribute": {
@@ -1542,7 +1542,7 @@
           "9": 20,
           "10": 20
         },
-        "Damage": {
+        "PlusDamage": {
           "0": 8,
           "1": 9,
           "2": 11,
@@ -1555,7 +1555,7 @@
           "9": 15,
           "10": 15
         },
-        "DamageVsCharr": {
+        "PlusDamageVsCharr": {
           "0": 7,
           "1": 8,
           "2": 8,
@@ -1744,7 +1744,7 @@
   {
     "name": "Ebon Vanguard Sniper Support",
     "icon": "https://wiki.guildwars.com/images/1/16/Ebon_Vanguard_Sniper_Support.jpg",
-    "concise_description": "Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +{{AdditionalPiercingDamage}} piercing damage if target foe is a Charr.",
+    "concise_description": "Spell. Deals {{PiercingDamage}} piercing damage and inflicts Bleeding condition ({{BleedingDuration}} seconds). 10% chance of +{{AdditionalPiercingDamage}} piercing damage. 25% chance of +540...900 piercing damage if target foe is a Charr.",
     "type": "Spell",
     "profession": null,
     "attribute": {
@@ -2043,7 +2043,7 @@
   {
     "name": "\"Dodge This!\"",
     "icon": "https://wiki.guildwars.com/images/4/4b/%22Dodge_This%21%22.jpg",
-    "concise_description": "Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{Damage}} damage.",
+    "concise_description": "Shout. ({{Duration}} seconds.) Your next attack is unblockable and deals +{{PlusDamage}} damage.",
     "type": "Shout",
     "profession": null,
     "attribute": {
@@ -2062,7 +2062,7 @@
           "9": 20,
           "10": 20
         },
-        "Damage": {
+        "PlusDamage": {
           "0": 14,
           "1": 15,
           "2": 16,
@@ -2329,13 +2329,13 @@
   {
     "name": "A Touch of Guile",
     "icon": "https://wiki.guildwars.com/images/2/2d/A_Touch_of_Guile.jpg",
-    "concise_description": "Touch Hex Spell. Deals {{ArmorignoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down.",
+    "concise_description": "Touch Hex Spell. Deals {{ArmorMinusIgnoringDamage}} damage. Target foe cannot attack ({{Duration}} seconds) if it was knocked-down.",
     "type": "Touch Hex Spell",
     "profession": null,
     "attribute": {
       "name": "Norn rank",
       "progression": {
-        "ArmorignoringDamage": {
+        "ArmorMinusIgnoringDamage": {
           "0": 44,
           "1": 51,
           "2": 58,
@@ -2381,13 +2381,13 @@
   {
     "name": "Club of a Thousand Bears",
     "icon": "https://wiki.guildwars.com/images/d/dc/Club_of_a_Thousand_Bears.jpg",
-    "concise_description": "Melee Attack. Deals +{{DamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human.",
+    "concise_description": "Melee Attack. Deals +{{PlusDamagePerFoe}} damage for each adjacent foe (maximum 60 damage). Causes knock-down if target foe is non-human.",
     "type": "Melee Attack",
     "profession": null,
     "attribute": {
       "name": "Norn rank",
       "progression": {
-        "DamagePerFoe": {
+        "PlusDamagePerFoe": {
           "0": 6,
           "1": 7,
           "2": 7,
@@ -2420,13 +2420,13 @@
   {
     "name": "Feel No Pain",
     "icon": "https://wiki.guildwars.com/images/f/fe/Feel_No_Pain.jpg",
-    "concise_description": "Skill. (30 seconds.) You have +{{HealthRegeneration}} Health regeneration. You have +{{ConditionalMaximumHealth}} maximum Health if you are drunk when activating this skill.",
+    "concise_description": "Skill. (30 seconds.) You have +{{PlusHealthRegeneration}} Health regeneration. You have +{{ConditionalPlusMaximumHealth}} maximum Health if you are drunk when activating this skill.",
     "type": "Skill",
     "profession": null,
     "attribute": {
       "name": "Norn rank",
       "progression": {
-        "HealthRegeneration": {
+        "PlusHealthRegeneration": {
           "0": 2,
           "1": 2,
           "2": 2,
@@ -2439,7 +2439,7 @@
           "9": 3,
           "10": 3
         },
-        "ConditionalMaximumHealth": {
+        "ConditionalPlusMaximumHealth": {
           "0": 200,
           "1": 220,
           "2": 240,
@@ -2563,7 +2563,7 @@
   {
     "name": "Volfen Blessing",
     "icon": "https://wiki.guildwars.com/images/b/b2/Volfen_Blessing.jpg",
-    "concise_description": "Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{HealthRegeneration}} Health regeneration.",
+    "concise_description": "Elite Form. You lose all effects and take on the aspect of the wolf (60 seconds). All your attributes are set to 0 and wolf attacks replace your skills, and you have 80 armor, {{MaximumHealth}} Health and {{PlusHealthRegeneration}} Health regeneration.",
     "type": "Elite Form",
     "profession": null,
     "attribute": {
@@ -2582,7 +2582,7 @@
           "9": 700,
           "10": 700
         },
-        "HealthRegeneration": {
+        "PlusHealthRegeneration": {
           "0": 2,
           "1": 2,
           "2": 3,

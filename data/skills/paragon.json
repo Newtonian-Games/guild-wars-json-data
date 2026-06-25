@@ -570,7 +570,7 @@
   {
     "name": "\"Go for the Eyes!\"",
     "icon": "https://wiki.guildwars.com/images/c/c4/%22Go_for_the_Eyes%21%22_%28large%29.jpg",
-    "concise_description": "Shout. (10 seconds.) Allies in earshot have +{{CriticalChance}}% to land a critical hit with their next attack.",
+    "concise_description": "Shout. (10 seconds.) Allies in earshot have +{{PlusChancePercent}}% to land a critical hit with their next attack.",
     "type": "Shout",
     "profession": "Paragon",
     "attribute": {
@@ -620,7 +620,7 @@
   {
     "name": "\"Go for the Eyes!\" (PvP)",
     "icon": "https://wiki.guildwars.com/images/c/c4/%22Go_for_the_Eyes%21%22_%28large%29.jpg",
-    "concise_description": "Shout. (10 seconds.) Allies in earshot have +{{CriticalChance}}% to land a critical hit with their next attack.",
+    "concise_description": "Shout. (10 seconds.) Allies in earshot have +{{PlusChancePercent}}% to land a critical hit with their next attack.",
     "type": "Shout",
     "profession": "Paragon",
     "attribute": {
@@ -1116,7 +1116,7 @@
   {
     "name": "\"Make Your Time!\"",
     "icon": "https://wiki.guildwars.com/images/4/41/%22Make_Your_Time%21%22_%28large%29.jpg",
-    "concise_description": "Shout. You gain one adrenaline (maximum {{MaximumStrikes}}) for each party member in earshot.",
+    "concise_description": "Shout. You gain one adrenaline (maximum {{Adrenaline}}) for each party member in earshot.",
     "type": "Shout",
     "profession": "Paragon",
     "attribute": {
@@ -1568,7 +1568,7 @@
   {
     "name": "\"They're on Fire!\"",
     "icon": "https://wiki.guildwars.com/images/8/81/%22They%27re_on_Fire%21%22_%28large%29.jpg",
-    "concise_description": "Shout. (10 seconds.) Party members in earshot take {{PercentDamageReduction}}% less damage from Burning foes.",
+    "concise_description": "Shout. (10 seconds.) Party members in earshot take {{DamageReductionPercent}}% less damage from Burning foes.",
     "type": "Shout",
     "profession": "Paragon",
     "attribute": {
@@ -1692,7 +1692,7 @@
   {
     "name": "\"We Shall Return!\" (PvP)",
     "icon": "https://wiki.guildwars.com/images/a/a1/%22We_Shall_Return%21%22_%28large%29.jpg",
-    "concise_description": "Shout. (10 seconds.) Whenever party members in earshot use a resurrection skill, their fallen allies return with {{PercentHealth}}% more Health and {{PercentEnergy}}% more Energy.",
+    "concise_description": "Shout. (10 seconds.) Whenever party members in earshot use a resurrection skill, their fallen allies return with {{MoreHealthPercent}}% more Health and {{MoreEnergyPercent}}% more Energy.",
     "type": "Shout",
     "profession": "Paragon",
     "attribute": {
@@ -1866,7 +1866,7 @@
   {
     "name": "Angelic Protection",
     "icon": "https://wiki.guildwars.com/images/d/d6/Angelic_Protection_%28large%29.jpg",
-    "concise_description": "Skill. (10 seconds.) Each second that target ally takes damage over {{DamageThreshold}}, that ally is healed for any damage over that amount. Cannot self target.",
+    "concise_description": "Skill. (10 seconds.) Each second that target ally takes damage over {{DamageTaken}}, that ally is healed for any damage over that amount. Cannot self target.",
     "type": "Skill",
     "profession": "Paragon",
     "attribute": {
@@ -2016,7 +2016,7 @@
   {
     "name": "Anthem of Envy",
     "icon": "https://wiki.guildwars.com/images/4/46/Anthem_of_Envy_%28large%29.jpg",
-    "concise_description": "Chant. (10 seconds.) Allies in earshot do +{{PlusDamage}} damage with their next attack skill. Damage bonus only applies to foes with more than 50% Health.",
+    "concise_description": "Chant. (10 seconds.) Allies in earshot do +{{Damage}} damage with their next attack skill. Damage bonus only applies to foes with more than 50% Health.",
     "type": "Chant",
     "profession": "Paragon",
     "attribute": {
@@ -2066,7 +2066,7 @@
   {
     "name": "Anthem of Envy (PvP)",
     "icon": "https://wiki.guildwars.com/images/4/46/Anthem_of_Envy_%28large%29.jpg",
-    "concise_description": "Chant. (10 seconds.) Allies in earshot do +{{PlusDamage}} damage with their next attack skill. Damage bonus only applies to foes with more than 50% Health.",
+    "concise_description": "Chant. (10 seconds.) Allies in earshot do +{{Damage}} damage with their next attack skill. Damage bonus only applies to foes with more than 50% Health.",
     "type": "Chant",
     "profession": "Paragon",
     "attribute": {
@@ -2341,7 +2341,7 @@
   {
     "name": "Aria of Zeal",
     "icon": "https://wiki.guildwars.com/images/2/20/Aria_of_Zeal_%28large%29.jpg",
-    "concise_description": "Chant. (10 seconds.) Allies in earshot gain {{EnergyGain}} Energy with their next spell.",
+    "concise_description": "Chant. (10 seconds.) Allies in earshot gain {{EnergyGained}} Energy with their next spell.",
     "type": "Chant",
     "profession": "Paragon",
     "attribute": {
@@ -2391,7 +2391,7 @@
   {
     "name": "Awe",
     "icon": "https://wiki.guildwars.com/images/5/5c/Awe_%28large%29.jpg",
-    "concise_description": "Half Range Skill. Inflicts Dazed condition ({{Duration}} seconds). No effect unless target is knocked-down.",
+    "concise_description": "Half Range Skill. Inflicts Dazed condition ({{DazedDuration}} seconds). No effect unless target is knocked-down.",
     "type": "Half Range Skill",
     "profession": "Paragon",
     "attribute": {
@@ -2541,7 +2541,7 @@
   {
     "name": "Barbed Spear",
     "icon": "https://wiki.guildwars.com/images/5/50/Barbed_Spear_%28large%29.jpg",
-    "concise_description": "Spear Attack. Inflicts Bleeding condition ({{Duration}} seconds).",
+    "concise_description": "Spear Attack. Inflicts Bleeding condition ({{BleedingDuration}} seconds).",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {
@@ -2591,7 +2591,7 @@
   {
     "name": "Bladeturn Refrain",
     "icon": "https://wiki.guildwars.com/images/3/33/Bladeturn_Refrain_%28large%29.jpg",
-    "concise_description": "Echo. (20 seconds.) Target ally has {{PercentChanceToBlock}}% chance to block. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits.",
+    "concise_description": "Echo. (20 seconds.) Target ally has {{BlockPercent}}% chance to block. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits.",
     "type": "Echo",
     "profession": "Paragon",
     "attribute": {
@@ -2641,7 +2641,7 @@
   {
     "name": "Bladeturn Refrain (PvP)",
     "icon": "https://wiki.guildwars.com/images/3/33/Bladeturn_Refrain_%28large%29.jpg",
-    "concise_description": "Echo. (20 seconds.) Target ally has +{{PlusArmor}} armor against slashing damage. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits.",
+    "concise_description": "Echo. (20 seconds.) Target ally has +{{PlusArmorRating}} armor against slashing damage. Renewal: Whenever a chant or shout ends on that ally. Cannot target spirits.",
     "type": "Echo",
     "profession": "Paragon",
     "attribute": {
@@ -3062,7 +3062,7 @@
   {
     "name": "Chest Thumper",
     "icon": "https://wiki.guildwars.com/images/5/58/Chest_Thumper_%28large%29.jpg",
-    "concise_description": "Spear Attack. Inflicts Deep Wound condition ({{Duration}} seconds) if target foe has Cracked Armor.",
+    "concise_description": "Spear Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds) if target foe has Cracked Armor.",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {
@@ -3162,7 +3162,7 @@
   {
     "name": "Crippling Anthem",
     "icon": "https://wiki.guildwars.com/images/4/48/Crippling_Anthem_%28large%29.jpg",
-    "concise_description": "Elite Chant. (10 seconds.) Allies in earshot inflict Crippled condition ({{CrippledDuration}} seconds) with their next attack skill.",
+    "concise_description": "Elite Chant. (10 seconds.) Allies in earshot inflict Crippled condition ({{CrippleDuration}} seconds) with their next attack skill.",
     "type": "Chant",
     "profession": "Paragon",
     "attribute": {
@@ -3461,7 +3461,7 @@
   {
     "name": "Energizing Chorus",
     "icon": "https://wiki.guildwars.com/images/3/35/Energizing_Chorus_%28large%29.jpg",
-    "concise_description": "Chant. (10 seconds.) The next shout or chant costs {{EnergyReduction}} less Energy for allies within earshot.",
+    "concise_description": "Chant. (10 seconds.) The next shout or chant costs {{MinusEnergyCost}} less Energy for allies within earshot.",
     "type": "Chant",
     "profession": "Paragon",
     "attribute": {
@@ -3561,7 +3561,7 @@
   {
     "name": "Finale of Restoration",
     "icon": "https://wiki.guildwars.com/images/0/0b/Finale_of_Restoration_%28large%29.jpg",
-    "concise_description": "Echo. ({{Duration}} seconds.) Target ally gains [sic] {{HealthGain}} Health whenever a shout or chant ends on that ally. Cannot target spirits.",
+    "concise_description": "Echo. ({{Duration}} seconds.) Target ally gains [sic] {{Healing}} Health whenever a shout or chant ends on that ally. Cannot target spirits.",
     "type": "Echo",
     "profession": "Paragon",
     "attribute": {
@@ -3635,7 +3635,7 @@
   {
     "name": "Finale of Restoration (PvP)",
     "icon": "https://wiki.guildwars.com/images/0/0b/Finale_of_Restoration_%28large%29.jpg",
-    "concise_description": "Echo. ({{Duration}} seconds.) Target ally gains [sic] {{HealthGain}} Health the next 5 times a shout or chant ends on that ally. Cannot target spirits.",
+    "concise_description": "Echo. ({{Duration}} seconds.) Target ally gains [sic] {{Healing}} Health the next 5 times a shout or chant ends on that ally. Cannot target spirits.",
     "type": "Echo",
     "profession": "Paragon",
     "attribute": {
@@ -3709,7 +3709,7 @@
   {
     "name": "Focused Anger",
     "icon": "https://wiki.guildwars.com/images/a/a0/Focused_Anger_%28large%29.jpg",
-    "concise_description": "Elite Skill. (45 seconds.) You gain {{PercentAdrenalineBonus}}% more adrenaline.",
+    "concise_description": "Elite Skill. (45 seconds.) You gain {{AdrenalineGainPercent}}% more adrenaline.",
     "type": "Skill",
     "profession": "Paragon",
     "attribute": {
@@ -3859,7 +3859,7 @@
   {
     "name": "Harrier's Toss",
     "icon": "https://wiki.guildwars.com/images/e/ec/Harrier%27s_Toss_%28large%29.jpg",
-    "concise_description": "Spear Attack. Deals +{{PlusDamage}} damage. Deals {{BonusDamage}} more damage if target is moving.",
+    "concise_description": "Spear Attack. Deals +{{PlusDamage}} damage. Deals {{AdditionalDamage}} more damage if target is moving.",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {
@@ -3933,7 +3933,7 @@
   {
     "name": "Harrier's Toss (PvP)",
     "icon": "https://wiki.guildwars.com/images/e/ec/Harrier%27s_Toss_%28large%29.jpg",
-    "concise_description": "Spear Attack. Deals +{{PlusDamage}} damage. Deals {{BonusDamage}} more damage if target is moving.",
+    "concise_description": "Spear Attack. Deals +{{PlusDamage}} damage. Deals {{AdditionalDamage}} more damage if target is moving.",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {
@@ -4057,7 +4057,7 @@
   {
     "name": "Heroic Refrain",
     "icon": "https://wiki.guildwars.com/images/6/6e/Heroic_Refrain.jpg",
-    "concise_description": "Elite Echo. ({{Duration}} seconds.) Target ally gains +{{AttributeBoost}} to all attributes. Renewal: every time a chant or shout ends on this ally. Cannot target spirits. PvE Skill",
+    "concise_description": "Elite Echo. ({{Duration}} seconds.) Target ally gains +{{PlusAttributes}} to all attributes. Renewal: every time a chant or shout ends on this ally. Cannot target spirits. PvE Skill",
     "type": "Echo",
     "profession": "Paragon",
     "attribute": {
@@ -4280,7 +4280,7 @@
   {
     "name": "Leader's Comfort",
     "icon": "https://wiki.guildwars.com/images/b/b4/Leader%27s_Comfort_%28large%29.jpg",
-    "concise_description": "Skill. You gain {{HealthGain}} Health. You also gain {{BonusHealthPerAlly}} Health (maximum 140) for each ally in earshot.",
+    "concise_description": "Skill. You gain {{Healing}} Health. You also gain {{PlusHealing}} Health (maximum 140) for each ally in earshot.",
     "type": "Skill",
     "profession": "Paragon",
     "attribute": {
@@ -4354,7 +4354,7 @@
   {
     "name": "Leader's Zeal",
     "icon": "https://wiki.guildwars.com/images/f/f4/Leader%27s_Zeal_%28large%29.jpg",
-    "concise_description": "Skill. You gain 2 Energy (maximum {{MaximumEnergy}} Energy) for each nearby ally.",
+    "concise_description": "Skill. You gain 2 Energy (maximum {{MaxEnergyGained}} Energy) for each nearby ally.",
     "type": "Skill",
     "profession": "Paragon",
     "attribute": {
@@ -4504,7 +4504,7 @@
   {
     "name": "Maiming Spear",
     "icon": "https://wiki.guildwars.com/images/3/3a/Maiming_Spear_%28large%29.jpg",
-    "concise_description": "Spear Attack. Inflicts Crippled condition ({{Duration}} seconds) if target foe is Bleeding.",
+    "concise_description": "Spear Attack. Inflicts Crippled condition ({{CrippledDuration}} seconds) if target foe is Bleeding.",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {
@@ -4654,7 +4654,7 @@
   {
     "name": "Merciless Spear",
     "icon": "https://wiki.guildwars.com/images/5/5e/Merciless_Spear_%28large%29.jpg",
-    "concise_description": "Spear Attack. Inflicts Deep Wound condition ({{Duration}} seconds). No effect unless target has less than 50% Health.",
+    "concise_description": "Spear Attack. Inflicts Deep Wound condition ({{DeepWoundDuration}} seconds). No effect unless target has less than 50% Health.",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {
@@ -5325,7 +5325,7 @@
   {
     "name": "Song of Purification",
     "icon": "https://wiki.guildwars.com/images/5/5f/Song_of_Purification_%28large%29.jpg",
-    "concise_description": "Elite Chant. (20 seconds.) Allies in earshot lose one condition with their next {{SkillsAffected}} skill[s].",
+    "concise_description": "Elite Chant. (20 seconds.) Allies in earshot lose one condition with their next {{NumberOfSkills}} skill[s].",
     "type": "Chant",
     "profession": "Paragon",
     "attribute": {
@@ -5475,7 +5475,7 @@
   {
     "name": "Spear Swipe",
     "icon": "https://wiki.guildwars.com/images/c/c9/Spear_Swipe_%28large%29.jpg",
-    "concise_description": "Spear Melee Attack. Deals +{{PlusDamage}} damage and inflicts Dazed condition ({{Duration}} seconds). This attack has melee range.",
+    "concise_description": "Spear Melee Attack. Deals +{{PlusDamage}} damage and inflicts Dazed condition ({{DazedDuration}} seconds). This attack has melee range.",
     "type": "Spear Melee Attack",
     "profession": "Paragon",
     "attribute": {
@@ -5605,7 +5605,7 @@
   {
     "name": "Spear of Lightning",
     "icon": "https://wiki.guildwars.com/images/c/c9/Spear_of_Lightning_%28large%29.jpg",
-    "concise_description": "Spear Attack. Deals +{{LightningDamage}} lightning damage. 25% armor penetration.",
+    "concise_description": "Spear Attack. Deals +{{PlusLightningDamage}} lightning damage. 25% armor penetration.",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {
@@ -5705,7 +5705,7 @@
   {
     "name": "Stunning Strike",
     "icon": "https://wiki.guildwars.com/images/1/1f/Stunning_Strike_%28large%29.jpg",
-    "concise_description": "Elite Spear Attack. Deals +{{PlusDamage}} damage. Inflicts Dazed condition ({{Duration}} seconds) if target has a condition.",
+    "concise_description": "Elite Spear Attack. Deals +{{PlusDamage}} damage. Inflicts Dazed condition ({{DazedDuration}} seconds) if target has a condition.",
     "type": "Spear Attack",
     "profession": "Paragon",
     "attribute": {

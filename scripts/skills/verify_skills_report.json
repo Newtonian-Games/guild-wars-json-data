@@ -1,0 +1,3443 @@
+[
+  {
+    "file": "monster.json",
+    "skill": "\"It's Good to Be King!\"",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Mad King Pony Support",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Maddening Laughter",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Motivating Insults",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Scourge of Candy",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Taste of Undeath",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "A pool of water.",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Afflicted Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Amulet of Protection",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Blood Splattering",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Burning Immunity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Chains of Enslavement",
+    "status": "fixed",
+    "issues": [
+      "type: JSON=Skill wiki=Spell"
+    ],
+    "fixes": {
+      "type": "Spell"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Chaotic Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Create Spore",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Critical Hit Probability",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Dark Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Dhuum",
+    "status": "fixed",
+    "issues": [
+      "wiki_url fixed to https://wiki.guildwars.com/wiki/Dhuum_(skill)"
+    ],
+    "fixes": {
+      "wiki_url": "https://wiki.guildwars.com/wiki/Dhuum_(skill)"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Duncan's Defense",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Elite Regeneration",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Emperor Degen",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Energy Boost",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ethereal Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Exploding Spores",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Exposed Underbelly",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "False Death",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Fiery Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Fire Flower",
+    "status": "fixed",
+    "issues": [
+      "wiki_url fixed to https://wiki.guildwars.com/wiki/Fire_Flower_(skill)"
+    ],
+    "fixes": {
+      "wiki_url": "https://wiki.guildwars.com/wiki/Fire_Flower_(skill)"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Fix Monster Attributes",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Forgewight's Blessing",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Golem Fire Shield",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Greater Hard Mode NPC Buff",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ground Cover",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Guild Lord Aura",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Hard Mode Dungeon Boss",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Hard Mode NPC Buff",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Health Drain",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Immunity to Critical Hits",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Impending Dhuum",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Inanimate Object",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Inscribed Ettin Aura",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Internal Power Engaged",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Invulnerability",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Last Rites of Torment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Lesser Flame Sentinel Resistance",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Lesser Hard Mode NPC Buff",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Long Claws",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Mad King's Fan",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Marked For Death",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Monster doesn't get death penalty",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Driver",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Natural Resistance",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Nightmarish Aura",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Plague Spring",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Rejuvenating Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Respawn",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Seal Regen",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Selvetarm's Attack",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Selvetarm's Blessing",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Shadow Smash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Shadowy Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Skin of Stone",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spectral Infusion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Strong Natural Resistance",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Stun Immunity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Stun on Critical Hit",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Sweeping Strikes",
+    "status": "fixed",
+    "issues": [
+      "type: JSON=Attack wiki=Skill (skill type)"
+    ],
+    "fixes": {
+      "type": "Skill (skill type)"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Temporal Sheen",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Tengu's Gaze",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "The Chalice of Corruption",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Thommis's Attack",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Thommis's Blessing",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Titans get plus Health regen and set enemies on fire each time he is hit.",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Turtle Shell",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Unbalancing Soul Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Undead sensitivity to Light",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Undying",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Vengeance is Ours",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wandering Mind",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Agnar's Rage",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Brutal Mauling",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Crippling Attack",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Dark Chain Lightning",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Earth Shattering Blow",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Earth Vortex",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Frost Vortex",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Giant Stomp",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Hunger of the Lich",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Hunger's Bite",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Quake Of Ahdashim",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Rolling Shift",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Siege Attack",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Suicide Energy",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Suicide Health",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wild Smash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Annihilator Bash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bloodstone Slash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Consuming Flames",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Falken Punch",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Feeding Frenzy",
+    "status": "fixed",
+    "issues": [
+      "wiki_url fixed to https://wiki.guildwars.com/wiki/Feeding_Frenzy_(skill)"
+    ],
+    "fixes": {
+      "wiki_url": "https://wiki.guildwars.com/wiki/Feeding_Frenzy_(skill)"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Golem Strike",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Parasitic Bite",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Reaping of Dhuum",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Shattered Spirit",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Thunderfist Strike",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Unseen Aggression",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Venom Fang",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Weight of Dhuum",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Withering Blade",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Anguish",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=0.75",
+      "recharge: JSON=None wiki=45",
+      "costs.energy: JSON=None wiki=15",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Deals 5...15...17 damage. Double damage to hexed foes. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 0.75,
+      "recharge": 45,
+      "costs": {
+        "energy": 15,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Communing",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 4,
+            "6": 5,
+            "7": 6,
+            "8": 6,
+            "9": 7,
+            "10": 8,
+            "11": 8,
+            "12": 9,
+            "13": 10,
+            "14": 10,
+            "15": 11,
+            "16": 12,
+            "17": 12,
+            "18": 13,
+            "19": 14,
+            "20": 14,
+            "21": 15
+          },
+          "Damage": {
+            "0": 5,
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 9,
+            "5": 10,
+            "6": 11,
+            "7": 12,
+            "8": 13,
+            "9": 14,
+            "10": 15,
+            "11": 16,
+            "12": 17,
+            "13": 18,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "17": 22,
+            "18": 23,
+            "19": 24,
+            "20": 25,
+            "21": 26
+          },
+          "Duration": {
+            "0": 15,
+            "1": 17,
+            "2": 19,
+            "3": 21,
+            "4": 23,
+            "5": 25,
+            "6": 27,
+            "7": 29,
+            "8": 31,
+            "9": 33,
+            "10": 35,
+            "11": 37,
+            "12": 39,
+            "13": 41,
+            "14": 43,
+            "15": 45,
+            "16": 47,
+            "17": 49,
+            "18": 51,
+            "19": 53,
+            "20": 55,
+            "21": 57
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage. Double damage to hexed foes."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bloodsong",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=0.75",
+      "recharge: JSON=None wiki=30",
+      "costs.energy: JSON=None wiki=5",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Steals 5...21...25 Health. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 0.75,
+      "recharge": 30,
+      "costs": {
+        "energy": 5,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Channeling Magic",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 5,
+            "7": 6,
+            "8": 7,
+            "9": 8,
+            "10": 8,
+            "11": 9,
+            "12": 10,
+            "13": 11,
+            "14": 11,
+            "15": 12,
+            "16": 13,
+            "17": 13,
+            "18": 14,
+            "19": 15,
+            "20": 16,
+            "21": 16
+          },
+          "Duration": {
+            "0": 30,
+            "1": 38,
+            "2": 46,
+            "3": 54,
+            "4": 62,
+            "5": 70,
+            "6": 78,
+            "7": 86,
+            "8": 94,
+            "9": 102,
+            "10": 110,
+            "11": 118,
+            "12": 126,
+            "13": 134,
+            "14": 142,
+            "15": 150,
+            "16": 158,
+            "17": 166,
+            "18": 174,
+            "19": 182,
+            "20": 190,
+            "21": 198
+          },
+          "LifeStealing": {
+            "0": 5,
+            "1": 6,
+            "2": 8,
+            "3": 9,
+            "4": 10,
+            "5": 12,
+            "6": 13,
+            "7": 14,
+            "8": 16,
+            "9": 17,
+            "10": 18,
+            "11": 20,
+            "12": 21,
+            "13": 22,
+            "14": 24,
+            "15": 25,
+            "16": 26,
+            "17": 28,
+            "18": 29,
+            "19": 30,
+            "20": 32,
+            "21": 33
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks steal {{LifeStealing}} Health."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bone Spike",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Disenchantment",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=1",
+      "recharge: JSON=None wiki=30",
+      "costs.energy: JSON=None wiki=15",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. Removes one enchantment. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 1,
+      "recharge": 30,
+      "costs": {
+        "energy": 15,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Communing",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 5,
+            "7": 6,
+            "8": 7,
+            "9": 8,
+            "10": 8,
+            "11": 9,
+            "12": 10,
+            "13": 11,
+            "14": 11,
+            "15": 12,
+            "16": 13,
+            "17": 13,
+            "18": 14,
+            "19": 15,
+            "20": 16,
+            "21": 16
+          },
+          "Damage": {
+            "0": 5,
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 9,
+            "5": 10,
+            "6": 11,
+            "7": 12,
+            "8": 13,
+            "9": 14,
+            "10": 15,
+            "11": 16,
+            "12": 17,
+            "13": 18,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "17": 22,
+            "18": 23,
+            "19": 24,
+            "20": 25,
+            "21": 26
+          },
+          "Duration": {
+            "0": 10,
+            "1": 12,
+            "2": 13,
+            "3": 15,
+            "4": 17,
+            "5": 18,
+            "6": 20,
+            "7": 22,
+            "8": 23,
+            "9": 25,
+            "10": 27,
+            "11": 28,
+            "12": 30,
+            "13": 32,
+            "14": 33,
+            "15": 35,
+            "16": 37,
+            "17": 38,
+            "18": 40,
+            "19": 42,
+            "20": 43,
+            "21": 45
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage and remove one enchantment."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Dissonance",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=1",
+      "recharge: JSON=None wiki=45",
+      "costs.energy: JSON=None wiki=25",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. Interrupts actions. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Damage}} second lifespan). Its attacks deal 5...17...20 damage and interrupt actions."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 1,
+      "recharge": 45,
+      "costs": {
+        "energy": 25,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Communing",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 5,
+            "7": 6,
+            "8": 7,
+            "9": 8,
+            "10": 8,
+            "11": 9,
+            "12": 10,
+            "13": 11,
+            "14": 11,
+            "15": 12,
+            "16": 13,
+            "17": 13,
+            "18": 14,
+            "19": 15,
+            "20": 16,
+            "21": 16
+          },
+          "Damage": {
+            "0": 5,
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 9,
+            "5": 10,
+            "6": 11,
+            "7": 12,
+            "8": 13,
+            "9": 14,
+            "10": 15,
+            "11": 16,
+            "12": 17,
+            "13": 18,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "17": 22,
+            "18": 23,
+            "19": 24,
+            "20": 25,
+            "21": 26
+          },
+          "Duration": {
+            "0": 10,
+            "1": 11,
+            "2": 12,
+            "3": 13,
+            "4": 14,
+            "5": 15,
+            "6": 16,
+            "7": 17,
+            "8": 18,
+            "9": 19,
+            "10": 20,
+            "11": 21,
+            "12": 22,
+            "13": 23,
+            "14": 24,
+            "15": 25,
+            "16": 26,
+            "17": 27,
+            "18": 28,
+            "19": 29,
+            "20": 30,
+            "21": 31
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Damage}} second lifespan). Its attacks deal 5...17...20 damage and interrupt actions."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Flurry of Splinters",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Gaze of Fury",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=0.75",
+      "recharge: JSON=None wiki=20",
+      "costs.energy: JSON=None wiki=10",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. wiki=Binding Ritual. Destroys a spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 0.75,
+      "recharge": 20,
+      "costs": {
+        "energy": 10,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Channeling Magic",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 3,
+            "3": 4,
+            "4": 4,
+            "5": 5,
+            "6": 6,
+            "7": 7,
+            "8": 8,
+            "9": 9,
+            "10": 10,
+            "11": 11,
+            "12": 11,
+            "13": 12,
+            "14": 13,
+            "15": 14,
+            "16": 15,
+            "17": 16,
+            "18": 17,
+            "19": 17,
+            "20": 18,
+            "21": 19
+          },
+          "Damage": {
+            "0": 5,
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 9,
+            "5": 10,
+            "6": 11,
+            "7": 12,
+            "8": 13,
+            "9": 14,
+            "10": 15,
+            "11": 16,
+            "12": 17,
+            "13": 18,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "17": 22,
+            "18": 23,
+            "19": 24,
+            "20": 25,
+            "21": 26
+          },
+          "Duration": {
+            "0": 30,
+            "1": 32,
+            "2": 34,
+            "3": 36,
+            "4": 38,
+            "5": 40,
+            "6": 42,
+            "7": 44,
+            "8": 46,
+            "9": 48,
+            "10": 50,
+            "11": 52,
+            "12": 54,
+            "13": 56,
+            "14": 58,
+            "15": 60,
+            "16": 62,
+            "17": 64,
+            "18": 66,
+            "19": 68,
+            "20": 70,
+            "21": 72
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Destroys a spirit. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{Damage}} damage."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Jadoth's Storm of Judgment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Keiran's Sniper Shot",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Pain",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=0.75",
+      "recharge: JSON=None wiki=30",
+      "costs.energy: JSON=None wiki=5",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Deals 5...25...30 damage. wiki=Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 0.75,
+      "recharge": 30,
+      "costs": {
+        "energy": 5,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Communing",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 5,
+            "7": 6,
+            "8": 7,
+            "9": 8,
+            "10": 8,
+            "11": 9,
+            "12": 10,
+            "13": 11,
+            "14": 11,
+            "15": 12,
+            "16": 13,
+            "17": 13,
+            "18": 14,
+            "19": 15,
+            "20": 16,
+            "21": 16
+          },
+          "ArmorMinusIgnoringDamage": {
+            "0": 5,
+            "1": 7,
+            "2": 8,
+            "3": 10,
+            "4": 12,
+            "5": 13,
+            "6": 15,
+            "7": 17,
+            "8": 18,
+            "9": 20,
+            "10": 22,
+            "11": 23,
+            "12": 25,
+            "13": 27,
+            "14": 28,
+            "15": 30,
+            "16": 32,
+            "17": 33,
+            "18": 35,
+            "19": 37,
+            "20": 38,
+            "21": 40
+          },
+          "Duration": {
+            "0": 30,
+            "1": 38,
+            "2": 46,
+            "3": 54,
+            "4": 62,
+            "5": 70,
+            "6": 78,
+            "7": 86,
+            "8": 94,
+            "9": 102,
+            "10": 110,
+            "11": 118,
+            "12": 126,
+            "13": 134,
+            "14": 142,
+            "15": 150,
+            "16": 158,
+            "17": 166,
+            "18": 174,
+            "19": 182,
+            "20": 190,
+            "21": 198
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks deal {{ArmorMinusIgnoringDamage}} damage."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Pain (Signet of Spirits)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Pain (Togo)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Shadowsong",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=1",
+      "recharge: JSON=None wiki=30",
+      "costs.energy: JSON=None wiki=15",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Deals 5...17...20 damage. Inflict Blindness condition (1...5...6 seconds). wiki=Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s])."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 1,
+      "recharge": 30,
+      "costs": {
+        "energy": 15,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Communing",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 3,
+            "5": 4,
+            "6": 5,
+            "7": 5,
+            "8": 6,
+            "9": 6,
+            "10": 7,
+            "11": 8,
+            "12": 8,
+            "13": 9,
+            "14": 9,
+            "15": 10,
+            "16": 11,
+            "17": 11,
+            "18": 12,
+            "19": 12,
+            "20": 13,
+            "21": 14
+          },
+          "BlindDuration": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 6,
+            "15": 6,
+            "16": 6,
+            "17": 7,
+            "18": 7,
+            "19": 7,
+            "20": 8,
+            "21": 8
+          },
+          "Damage": {
+            "0": 5,
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 9,
+            "5": 10,
+            "6": 11,
+            "7": 12,
+            "8": 13,
+            "9": 14,
+            "10": 15,
+            "11": 16,
+            "12": 17,
+            "13": 18,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "17": 22,
+            "18": 23,
+            "19": 24,
+            "20": 25,
+            "21": 26
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30-second lifespan). Its attacks deal {{Damage}} damage and inflict Blindness condition ({{BlindDuration}} second[s])."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Splinter Shot",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ranger",
+      "campaign: JSON=Eye of the North wiki=Factions",
+      "recharge: JSON=10 wiki=5",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Bow Attack. Deals +1...11 damage. Hits two foes near your target. wiki=Bow Attack. Deals +{{PlusDamage}} damage. Deals {{DamageToFoesInTheArea}} damage to foes in the area if blocked."
+    ],
+    "fixes": {
+      "profession": "Ranger",
+      "campaign": "Factions",
+      "recharge": 5,
+      "attribute": {
+        "name": "Marksmanship",
+        "progression": {
+          "PlusDamage": {
+            "0": 3,
+            "1": 4,
+            "2": 5,
+            "3": 5,
+            "4": 6,
+            "5": 7,
+            "6": 8,
+            "7": 9,
+            "8": 9,
+            "9": 10,
+            "10": 11,
+            "11": 12,
+            "12": 13,
+            "13": 13,
+            "14": 14,
+            "15": 15,
+            "16": 16,
+            "17": 17,
+            "18": 17,
+            "19": 18,
+            "20": 19,
+            "21": 20
+          },
+          "DamageToFoesInTheArea": {
+            "0": 5,
+            "1": 9,
+            "2": 13,
+            "3": 17,
+            "4": 21,
+            "5": 25,
+            "6": 29,
+            "7": 33,
+            "8": 37,
+            "9": 41,
+            "10": 45,
+            "11": 49,
+            "12": 53,
+            "13": 57,
+            "14": 61,
+            "15": 65,
+            "16": 69,
+            "17": 73,
+            "18": 77,
+            "19": 81,
+            "20": 85,
+            "21": 89
+          }
+        }
+      },
+      "concise_description": "Bow Attack. Deals +{{PlusDamage}} damage. Deals {{DamageToFoesInTheArea}} damage to foes in the area if blocked."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "The Sniper's Spear",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Vampirism",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=0.75",
+      "recharge: JSON=None wiki=30",
+      "limitation: JSON=monster-only wiki=PvE-only",
+      "costs.energy: JSON=None wiki=10",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Steals 10...20 Health. wiki=Binding Ritual. Creates a level {{Level}} spirit (lifespan {{Duration}} seconds). Its attacks steal {{Healing}} Health, and you are healed for 10...20."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "type": "Binding ritual",
+      "activation": 0.75,
+      "recharge": 30,
+      "limitation": "PvE-only",
+      "costs": {
+        "energy": 10,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Sunspear rank",
+        "progression": {
+          "Level": {
+            "0": 4,
+            "1": 6,
+            "2": 8,
+            "3": 10,
+            "4": 12,
+            "5": 14,
+            "6": 14,
+            "7": 14,
+            "8": 14,
+            "9": 14,
+            "10": 14
+          },
+          "Duration": {
+            "0": 75,
+            "1": 90,
+            "2": 105,
+            "3": 120,
+            "4": 135,
+            "5": 150,
+            "6": 150,
+            "7": 150,
+            "8": 150,
+            "9": 150,
+            "10": 150
+          },
+          "Healing": {
+            "0": 10,
+            "1": 12,
+            "2": 14,
+            "3": 16,
+            "4": 18,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 20,
+            "10": 20
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (lifespan {{Duration}} seconds). Its attacks steal {{Healing}} Health, and you are healed for 10...20."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wanderlust",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ritualist",
+      "is_elite: JSON=False wiki=True",
+      "type: JSON=Ranged Attack wiki=Binding ritual",
+      "activation: JSON=2.0 wiki=1",
+      "recharge: JSON=None wiki=45",
+      "costs.energy: JSON=None wiki=10",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Ranged Attack. Causes knock-down to stationary foes. Knock-down cost: this spirit loses 70...54...50 Health. wiki=Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health."
+    ],
+    "fixes": {
+      "profession": "Ritualist",
+      "is_elite": true,
+      "type": "Elite Binding ritual",
+      "activation": 1,
+      "recharge": 45,
+      "costs": {
+        "energy": 10,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Communing",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 5,
+            "7": 6,
+            "8": 7,
+            "9": 8,
+            "10": 8,
+            "11": 9,
+            "12": 10,
+            "13": 11,
+            "14": 11,
+            "15": 12,
+            "16": 13,
+            "17": 13,
+            "18": 14,
+            "19": 15,
+            "20": 16,
+            "21": 16
+          },
+          "HealthLoss": {
+            "0": 70,
+            "1": 69,
+            "2": 67,
+            "3": 66,
+            "4": 65,
+            "5": 63,
+            "6": 62,
+            "7": 61,
+            "8": 59,
+            "9": 58,
+            "10": 57,
+            "11": 55,
+            "12": 54,
+            "13": 53,
+            "14": 51,
+            "15": 50,
+            "16": 49,
+            "17": 47,
+            "18": 46,
+            "19": 45,
+            "20": 43,
+            "21": 42
+          },
+          "Duration": {
+            "0": 30,
+            "1": 32,
+            "2": 34,
+            "3": 36,
+            "4": 38,
+            "5": 40,
+            "6": 42,
+            "7": 44,
+            "8": 46,
+            "9": 48,
+            "10": 50,
+            "11": 52,
+            "12": 54,
+            "13": 56,
+            "14": 58,
+            "15": 60,
+            "16": 62,
+            "17": 64,
+            "18": 66,
+            "19": 68,
+            "20": 70,
+            "21": 72
+          }
+        }
+      },
+      "concise_description": "Elite Binding Ritual. Creates a level {{Level}} spirit ({{Duration}} second lifespan). Its attacks against stationary foes cause knock-down. Knock-down cost: this spirit loses {{HealthLoss}} Health."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Adoration",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Animate Undead",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Animate Undead (Palawa Joko)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Argo's Cry",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Banish Enchantment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bit Golem Breaker",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bit Golem Crash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bit Golem Force",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Blast Furnace",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Blizzard",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Blood Flower",
+    "status": "fixed",
+    "issues": [
+      "wiki_url fixed to https://wiki.guildwars.com/wiki/Blood_Flower_(skill)"
+    ],
+    "fixes": {
+      "wiki_url": "https://wiki.guildwars.com/wiki/Blood_Flower_(skill)"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Blood of zu Heltzer",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ceiling Collapse",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Chomper",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Consume Flames",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Corrupted Dragon Scales",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Corrupted Dragon Spores",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Corrupted Healing",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Death's Embrace",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Dhuum's Rest",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=None",
+      "activation: JSON=3.0 wiki=1",
+      "costs.energy: JSON=None wiki=5"
+    ],
+    "fixes": {
+      "profession": null,
+      "activation": 1,
+      "costs": {
+        "energy": 5,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      }
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Diamondshard Grave",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Diamondshard Mist",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Drain Minion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Dryder's Feast",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ebon Vanguard Assassin Support",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=None",
+      "campaign: JSON=Prophecies wiki=Eye of the North",
+      "limitation: JSON=monster-only wiki=PvE-only",
+      "attribute missing in JSON",
+      "concise_description: JSON=Spell. Summons a level 20 assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. The assassin lives for 20 seconds. wiki=Spell. Summon a level {{AssassinLevel}} assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. If this foe is a Charr, the assassin lives for {{DurationVsCharr}} seconds. If target foe is not a Charr, the Assassin lives for {{DurationVsOtherFoes}} seconds."
+    ],
+    "fixes": {
+      "profession": null,
+      "campaign": "Eye of the North",
+      "limitation": "PvE-only",
+      "attribute": {
+        "name": "Ebon Vanguard rank",
+        "progression": {
+          "AssassinLevel": {
+            "0": 14,
+            "1": 15,
+            "2": 16,
+            "3": 18,
+            "4": 19,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 20,
+            "10": 20
+          },
+          "DurationVsCharr": {
+            "0": 24,
+            "1": 25,
+            "2": 26,
+            "3": 28,
+            "4": 29,
+            "5": 30,
+            "6": 30,
+            "7": 30,
+            "8": 30,
+            "9": 30,
+            "10": 30
+          },
+          "DurationVsOtherFoes": {
+            "0": 12,
+            "1": 13,
+            "2": 13,
+            "3": 14,
+            "4": 14,
+            "5": 15,
+            "6": 15,
+            "7": 15,
+            "8": 15,
+            "9": 15,
+            "10": 15
+          }
+        }
+      },
+      "concise_description": "Spell. Summon a level {{AssassinLevel}} assassin that has Iron Palm, Fox Fangs, and Nine Tail Strike; it Shadow Steps to this foe. If this foe is a Charr, the assassin lives for {{DurationVsCharr}} seconds. If target foe is not a Charr, the Assassin lives for {{DurationVsOtherFoes}} seconds."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Fleshreaver's Escape",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ghostly Fury",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=None",
+      "recharge: JSON=10 wiki=5"
+    ],
+    "fixes": {
+      "profession": null,
+      "recharge": 5
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Grand Illusion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Jade Brotherhood Bomb",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Jade Fury",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Judgment of Dhuum",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Koro's Gaze",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Master of Necromancy",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Mirror of Darkness",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Murakai's Calamity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Murakai's Call",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Murakai's Censure",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Murakai's Consumption",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Murakai's Storm of Souls",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Beam",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Divider Drive",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Fire",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Knuckle",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Thunder",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X.ion Buster",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Oath of Healing",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Of Royal Blood",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Order of Unholy Vigor",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Order of Unholy Vigor (Palawa Joko)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Order of the Lich",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Order of the Lich (Palawa Joko)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Passage to Tahnnakai",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Phased Plasma Burst",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Plasma Shot",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Poison Arrow",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ranger",
+      "campaign: JSON=Factions wiki=Prophecies",
+      "is_elite: JSON=False wiki=True",
+      "type: JSON=Spell wiki=Bow attack",
+      "recharge: JSON=None wiki=1",
+      "costs.energy: JSON=None wiki=5",
+      "attribute missing in JSON",
+      "concise_description: JSON=Spell. Send out flares that strike any foes in the area for 0 fire damage if they hit. Target is then poisoned for 15 seconds. wiki=Elite Bow Attack. Inflicts Poisoned condition. ({{PoisonDuration}})"
+    ],
+    "fixes": {
+      "profession": "Ranger",
+      "campaign": "Prophecies",
+      "is_elite": true,
+      "type": "Elite Bow attack",
+      "recharge": 1,
+      "costs": {
+        "energy": 5,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Wilderness Survival",
+        "progression": {
+          "PoisonDuration": {
+            "0": 5,
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 9,
+            "5": 10,
+            "6": 11,
+            "7": 12,
+            "8": 13,
+            "9": 14,
+            "10": 15,
+            "11": 16,
+            "12": 17,
+            "13": 18,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "17": 22,
+            "18": 23,
+            "19": 24,
+            "20": 25
+          }
+        }
+      },
+      "concise_description": "Elite Bow Attack. Inflicts Poisoned condition. ({{PoisonDuration}})"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Purify Energy",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Purify Soul",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Purifying Flame",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Purifying Prayer",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Putrid Flames",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Reactor Blast",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Redemption of Purity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Resurrect (Gargoyle)",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Resurrect",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Monk",
+      "activation: JSON=8.0 wiki=5",
+      "recharge: JSON=None wiki=8",
+      "concise_description: JSON=Spell. Resurrect target (25% Health and zero Energy.) [sic] wiki=Spell. Resurrects target party member (25% Health, 0 Energy)."
+    ],
+    "fixes": {
+      "profession": "Monk",
+      "activation": 5,
+      "recharge": 8,
+      "concise_description": "Spell. Resurrects target party member (25% Health, 0 Energy)."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Reverse Polarity Fire Shield",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Rise From Your Grave!",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Snowball (NPC)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Sorrow's Fist",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Sorrow's Flame",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Soul Vortex",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spike Trap (spell)",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spirit Siphon (Master Riyo)",
+    "status": "fixed",
+    "issues": [
+      "attribute.progression mismatch",
+      "concise_description: JSON=Spell. Target spirit loses all Energy. You gain 15...27...30% of that Energy. wiki=Spell. Target spirit loses all Energy. You gain {{PercentEnergy}}% of that Energy."
+    ],
+    "fixes": {
+      "attribute": {
+        "name": "Channeling Magic",
+        "progression": {
+          "PercentEnergy": {
+            "0": 15,
+            "1": 16,
+            "2": 17,
+            "3": 18,
+            "4": 19,
+            "5": 20,
+            "6": 21,
+            "7": 22,
+            "8": 23,
+            "9": 24,
+            "10": 25,
+            "11": 26,
+            "12": 27,
+            "13": 28,
+            "14": 29,
+            "15": 30,
+            "16": 31,
+            "17": 32,
+            "18": 33,
+            "19": 34,
+            "20": 35,
+            "21": 36
+          },
+          "EnergyGain": {
+            "0": 4,
+            "1": 4,
+            "2": 5,
+            "3": 5,
+            "4": 5,
+            "5": 6,
+            "6": 6,
+            "7": 6,
+            "8": 7,
+            "9": 7,
+            "10": 7,
+            "11": 8,
+            "12": 8,
+            "13": 8,
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 11,
+            "21": 11
+          }
+        }
+      },
+      "concise_description": "Spell. Target spirit loses all Energy. You gain {{PercentEnergy}}% of that Energy."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Statue's Blessing",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Stormcaller",
+    "status": "fixed",
+    "issues": [
+      "wiki_url fixed to https://wiki.guildwars.com/wiki/Stormcaller_(skill)"
+    ],
+    "fixes": {
+      "wiki_url": "https://wiki.guildwars.com/wiki/Stormcaller_(skill)"
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Summon Champion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Summon Minions",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Summon Torment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Turret Arrow",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ultra Snowball",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Unyielding Anguish",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wave of Torment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wurm Siege (Core)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wurm Siege (Dunes of Despair)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wurm Siege (Eye of the North)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Abaddon's Chosen",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Abaddon's Conspiracy",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bit Golem Rectifier",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Blessing of the Kirin",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Chimera of Intensity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Crystal Shield",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Demonic Agility",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Healing Breeze",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Monk",
+      "campaign: JSON=Prophecies wiki=Core",
+      "recharge: JSON=None wiki=5",
+      "costs.energy: JSON=5 wiki=10",
+      "attribute missing in JSON",
+      "concise_description: JSON=Enchantment Spell. (monster only) (5 seconds.) +10 Health regeneration. wiki=Enchantment Spell. (15 seconds.) +{{HealthRegeneration}} Health regeneration."
+    ],
+    "fixes": {
+      "profession": "Monk",
+      "campaign": "Core",
+      "recharge": 5,
+      "costs": {
+        "energy": 10,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Healing Prayers",
+        "progression": {
+          "HealthRegeneration": {
+            "0": 4,
+            "1": 4,
+            "2": 5,
+            "3": 5,
+            "4": 5,
+            "5": 6,
+            "6": 6,
+            "7": 6,
+            "8": 7,
+            "9": 7,
+            "10": 7,
+            "11": 8,
+            "12": 8,
+            "13": 8,
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 10,
+            "18": 10,
+            "19": 10,
+            "20": 11,
+            "21": 11
+          }
+        }
+      },
+      "concise_description": "Enchantment Spell. (15 seconds.) +{{HealthRegeneration}} Health regeneration."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Nightmare Refuge",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spirit Form (Remains of Sahlahja)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Verata's Promise",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bonds of Torment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Call of Sacrifice",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Corsair's Net",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Crystal Bonds",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Crystal Haze",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Crystal Snare",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Enchantment Collapse",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Isaiah's Balance",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Phantom",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Paranoid Indignation",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Promise of Death",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Sky Net",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Snaring Web",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spirit World Retreat",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Target Acquisition",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "The Master's Mark",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Tongue Lash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Tongue Whip",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Weight of Dhuum (hex)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Words of Madness (Qwytzylkak)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Wurm Bile",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Aura of Purity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ebon Vanguard Battle Standard of Power",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Mandragor's Charge",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Nibble",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Restore Life",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Monk",
+      "campaign: JSON=Core wiki=Prophecies",
+      "activation: JSON=1.0 wiki=4",
+      "recharge: JSON=None wiki=8",
+      "costs.energy: JSON=5 wiki=10",
+      "attribute.progression mismatch",
+      "concise_description: JSON=Touch Spell. Touch a body of a fallen party member. Target party member is returned to life with 26...45% Health and 42...80% Energy. wiki=Touch Spell. Resurrects target party member ({{PercentHealth}}% Health, {{PercentEnergy}}% Energy)."
+    ],
+    "fixes": {
+      "profession": "Monk",
+      "campaign": "Prophecies",
+      "activation": 4,
+      "recharge": 8,
+      "costs": {
+        "energy": 10,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "attribute": {
+        "name": "Healing Prayers",
+        "progression": {
+          "PercentHealth": {
+            "0": 20,
+            "1": 23,
+            "2": 26,
+            "3": 29,
+            "4": 32,
+            "5": 35,
+            "6": 38,
+            "7": 41,
+            "8": 44,
+            "9": 47,
+            "10": 50,
+            "11": 53,
+            "12": 56,
+            "13": 59,
+            "14": 62,
+            "15": 65,
+            "16": 68,
+            "17": 71,
+            "18": 74,
+            "19": 77,
+            "20": 80,
+            "21": 83
+          },
+          "PercentEnergy": {
+            "0": 42,
+            "1": 45,
+            "2": 48,
+            "3": 52,
+            "4": 55,
+            "5": 58,
+            "6": 61,
+            "7": 64,
+            "8": 68,
+            "9": 71,
+            "10": 74,
+            "11": 77,
+            "12": 80,
+            "13": 84,
+            "14": 87,
+            "15": 90,
+            "16": 93,
+            "17": 96,
+            "18": 100,
+            "19": 103,
+            "20": 106,
+            "21": 109
+          }
+        }
+      },
+      "concise_description": "Touch Spell. Resurrects target party member ({{PercentHealth}}% Health, {{PercentEnergy}}% Energy)."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Chomp",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ehzah from Above",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Juggernaut Toss",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Maddened Strike",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ooze Combination",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Queen Bite",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Smash of the Titans",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Touch of Dhuum",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Trample",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Twisting Jaws",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Unstable Ooze Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Battle Scars",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charging Spirit",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Corrupted Strength",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Drunken Stumbling",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Fingers of Chaos",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Golem Boosters",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Infernal Rage",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Jagged Crystal Skin",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Junundu Tunnel",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=None",
+      "recharge: JSON=None wiki=30",
+      "concise_description: JSON=Stance. (30 seconds.) You move 33% faster. End effect: knocks-down adjacent foes (2 seconds). Ends if you use a skill. wiki=Stance. (10 seconds.) You move 66% faster. End effect: knocks-down adjacent foes (3 seconds). Ends if you use a skill."
+    ],
+    "fixes": {
+      "profession": null,
+      "recharge": 30,
+      "concise_description": "Stance. (10 seconds.) You move 66% faster. End effect: knocks-down adjacent foes (3 seconds). Ends if you use a skill."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Mirror Echo",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Field Dash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Renewing Corruption",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Riposting Shadows",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spirit Senses",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Strength of Purity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Survivor's Will",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Toriimo's Burning Fury",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Way of the Pure",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Bear Form",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Elemental Shift",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Quest skill for Coastal Exam.",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Shadowsong (Master Riyo)",
+    "status": "fixed",
+    "issues": [
+      "attribute.progression mismatch",
+      "concise_description: JSON=Binding Ritual. Creates a level 1...5...6 spirit (30 second lifespan). Its attacks inflict Blindness condition (1...5...6 seconds). wiki=Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). Its attacks inflict Blindness condition ({{BlindDuration}} seconds)."
+    ],
+    "fixes": {
+      "attribute": {
+        "name": "Communing",
+        "progression": {
+          "Level": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 6,
+            "15": 6,
+            "16": 6,
+            "17": 7,
+            "18": 7,
+            "19": 7,
+            "20": 8,
+            "21": 8
+          },
+          "BlindDuration": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 2,
+            "4": 2,
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 6,
+            "15": 6,
+            "16": 6,
+            "17": 7,
+            "18": 7,
+            "19": 7,
+            "20": 8,
+            "21": 8
+          },
+          "Damage": {
+            "0": 5,
+            "1": 6,
+            "2": 7,
+            "3": 8,
+            "4": 9,
+            "5": 10,
+            "6": 11,
+            "7": 12,
+            "8": 13,
+            "9": 14,
+            "10": 15,
+            "11": 16,
+            "12": 17,
+            "13": 18,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "17": 22,
+            "18": 23,
+            "19": 24,
+            "20": 25,
+            "21": 26
+          }
+        }
+      },
+      "concise_description": "Binding Ritual. Creates a level {{Level}} spirit (30 second lifespan). Its attacks inflict Blindness condition ({{BlindDuration}} seconds)."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Shapeshift",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Splinter Mine (Flame Geyser)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spring of Purity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "\"I'll Be Back!\"",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=None",
+      "recharge: JSON=45 wiki=30",
+      "concise_description: JSON=Shout. (15 seconds.) Negates the next fatal damage you take. Negation effect: you gain 500 Health. wiki=Shout. (10 seconds) Negates the next fatal damage you take. Negation effect: you gain 500 Health."
+    ],
+    "fixes": {
+      "profession": null,
+      "recharge": 30,
+      "concise_description": "Shout. (10 seconds) Negates the next fatal damage you take. Negation effect: you gain 500 Health."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "\"Kilroy Stonekin\"",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "\"There's not enough time!!\"",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Anthem of Purity",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Echoing Banishment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Enemies Must Die!",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Presence of the Skale Lord",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Song of the Mists",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spirit Roar",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Tengu's Mimicry",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Tremor",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Abaddon's Favor",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Aspect of Oak",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Aura of the Juggernaut",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Base Defense",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Berserk",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Blood Rage",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Breaking Charm",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Call of Destruction",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Call to the Torment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Carrier Defense",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Chaotic Energy",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charm Animal (Ashlyn Spiderfriend)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charm Animal (Charr Demolisher)",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charm Animal (White Mantle)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charm Animal",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=Ranger",
+      "campaign: JSON=Factions wiki=Core",
+      "activation: JSON=0.25 wiki=10",
+      "costs.energy: JSON=None wiki=10",
+      "concise_description: JSON=Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. wiki=Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you."
+    ],
+    "fixes": {
+      "profession": "Ranger",
+      "campaign": "Core",
+      "activation": 10,
+      "costs": {
+        "energy": 10,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "concise_description": "Skill. Charm target animal. Once charmed, your animal companion will travel with you whenever you have Charm Animal equipped. You cannot charm an animal that is more than 4 levels above you."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charm Animal (monster)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charm Drake",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charr Siege Attack (Against the Charr)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charr Siege Attack (Assault on the Stronghold)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Charr Siege Attack (What Must Be Done)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Claim Resource",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Claim Resource (Heroes' Ascent)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Consume Torment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Corrupt Power",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Countdown",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Create Light of Seborhin",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Crystal Hibernation",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Damage Assessment",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Deafening Roar",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Decipher Inscriptions",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Dormant Husk",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Energy Blast (golem)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Enraged",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Enraged Blast",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Entourage",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Extract Inscription",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Firebomb",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Flame Call",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Flame Jet",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Forest's Binding",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Fungal Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Gelatinous Absorption",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Gelatinous Corpse Consumption",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Gelatinous Mutation",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Gloat",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Gunther's Gaze",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Impossible Odds",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Inner Fire",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Knock",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Kournan Siege",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Lava Blast",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Lava Ground",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Lava Wave",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Life Vortex",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Maddened Stance",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Meditation of the Reaper",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Metamorphosis",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Monkey See, Monkey Do",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Mount",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "N.O.X. Lock On",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Ooze Division",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Phase Shield (effect)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Phase Shield",
+    "status": "fixed",
+    "issues": [
+      "profession: JSON=Monster wiki=None",
+      "campaign: JSON=Eye of the North wiki=Core",
+      "type: JSON=Skill wiki=Spell",
+      "activation: JSON=2.0 wiki=1",
+      "recharge: JSON=15 wiki=40",
+      "costs.energy: JSON=None wiki=15",
+      "concise_description: JSON=Skill. A shield around the golem prevents up to 750 damage to nearby allies. wiki=Spell. (20 seconds.) A shield around the golem prevents up to 250 damage to nearby allies. Removes Spectral Agony from shielded targets."
+    ],
+    "fixes": {
+      "profession": null,
+      "campaign": "Core",
+      "type": "Spell",
+      "activation": 1,
+      "recharge": 40,
+      "costs": {
+        "energy": 15,
+        "adrenaline": null,
+        "upkeep": null,
+        "sacrifice": null,
+        "overcast": null
+      },
+      "concise_description": "Spell. (20 seconds.) A shield around the golem prevents up to 250 damage to nearby allies. Removes Spectral Agony from shielded targets."
+    }
+  },
+  {
+    "file": "monster.json",
+    "skill": "Powder Keg Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Pyroclastic Shot",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Queen Heal",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Queen Siege",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Queen Thump",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Rage of the Sea",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Rand's Attack",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Reactor Blast Timer",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Reform Carvings",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Sacrifice Pawn",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Searing Breath",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Shield of Fire",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Siege Strike",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Siege Turtle Attack (Fort Aspenwood)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Siege Turtle Attack (Gyala Hatchery)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Siege Turtle Attack (The Eternal Grove)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Siege Turtle Attack",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Soul Torture",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Soulrending Shriek",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spawn Hatchling",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spawn Pods",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spectral Agony",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spirit Shield",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Spore Explosion",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Summoning Lord",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Summoning Shadows",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "The Apocrypha is changing to another form!",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Torment Slash",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Torment Slash (Smothering Tendrils)",
+    "status": "failed",
+    "error": "wiki page not found"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Touch of Aaaaarrrrrrggghhh",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Unstable Aura",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Unstable Pulse",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Vitality Transfer",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Whirling Fires",
+    "status": "ok"
+  },
+  {
+    "file": "monster.json",
+    "skill": "Words of Madness",
+    "status": "ok"
+  }
+]
